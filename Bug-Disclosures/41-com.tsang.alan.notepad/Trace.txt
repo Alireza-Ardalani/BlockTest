@@ -1,0 +1,119 @@
+IO Target: <android.database.sqlite.SQLiteOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteList: void onCreate(android.os.Bundle)>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: com.tsang.alan.notepad.NotesDbAdapter open()>
+    -> <com.tsang.alan.notepad.NotesDbAdapter$DatabaseHelper: void <init>(android.content.Context)>
+    -> <android.database.sqlite.SQLiteOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteEdit: void onCreate(android.os.Bundle)>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: com.tsang.alan.notepad.NotesDbAdapter open()>
+    -> <com.tsang.alan.notepad.NotesDbAdapter$DatabaseHelper: void <init>(android.content.Context)>
+    -> <android.database.sqlite.SQLiteOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+
+IO Target: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteEdit: boolean onOptionsItemSelected(android.view.MenuItem)>
+    -> <com.tsang.alan.notepad.NoteEdit: void saveState()>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: boolean updateNote(long,java.lang.String,java.lang.String,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteEdit: void onSaveInstanceState(android.os.Bundle)>
+    -> <com.tsang.alan.notepad.NoteEdit: void saveState()>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: boolean updateNote(long,java.lang.String,java.lang.String,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteEdit: void onPause()>
+    -> <com.tsang.alan.notepad.NoteEdit: void saveState()>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: boolean updateNote(long,java.lang.String,java.lang.String,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+
+IO Target: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteList: void onCreate(android.os.Bundle)>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: com.tsang.alan.notepad.NotesDbAdapter open()>
+    -> <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteEdit: void onCreate(android.os.Bundle)>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: com.tsang.alan.notepad.NotesDbAdapter open()>
+    -> <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+
+IO Target: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteEdit: boolean onOptionsItemSelected(android.view.MenuItem)>
+    -> <com.tsang.alan.notepad.NoteEdit: android.app.AlertDialog AskOption()>
+    -> <com.tsang.alan.notepad.NoteEdit$3: void onClick(android.content.DialogInterface,int)>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: boolean deleteNote(long)>
+    -> <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteEdit$3: void onClick(android.content.DialogInterface,int)>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: boolean deleteNote(long)>
+    -> <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteList: boolean onContextItemSelected(android.view.MenuItem)>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: boolean deleteNote(long)>
+    -> <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+
+IO Target: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(boolean,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteEdit: void onCreate(android.os.Bundle)>
+    -> <com.tsang.alan.notepad.NoteEdit: void populateFields()>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: android.database.Cursor fetchNote(long)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(boolean,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteEdit: void onResume()>
+    -> <com.tsang.alan.notepad.NoteEdit: void populateFields()>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: android.database.Cursor fetchNote(long)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(boolean,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+
+IO Target: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteEdit: boolean onOptionsItemSelected(android.view.MenuItem)>
+    -> <com.tsang.alan.notepad.NoteEdit: void saveState()>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: long createNote(java.lang.String,java.lang.String,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteEdit: void onSaveInstanceState(android.os.Bundle)>
+    -> <com.tsang.alan.notepad.NoteEdit: void saveState()>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: long createNote(java.lang.String,java.lang.String,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteEdit: void onPause()>
+    -> <com.tsang.alan.notepad.NoteEdit: void saveState()>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: long createNote(java.lang.String,java.lang.String,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+
+IO Target: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteList: void onCreate(android.os.Bundle)>
+    -> <com.tsang.alan.notepad.NoteList: void fillData()>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: android.database.Cursor fetchAllNotes()>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteList: void onActivityResult(int,int,android.content.Intent)>
+    -> <com.tsang.alan.notepad.NoteList: void fillData()>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: android.database.Cursor fetchAllNotes()>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.tsang.alan.notepad.NoteList: boolean onContextItemSelected(android.view.MenuItem)>
+    -> <com.tsang.alan.notepad.NoteList: void fillData()>
+    -> <com.tsang.alan.notepad.NotesDbAdapter: android.database.Cursor fetchAllNotes()>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+

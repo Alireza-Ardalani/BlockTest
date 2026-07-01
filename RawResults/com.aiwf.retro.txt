@@ -1,0 +1,18 @@
+Time1: 57.832895819
+Time2: 0.503290735
+Worker: 0
+UI: 3
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------

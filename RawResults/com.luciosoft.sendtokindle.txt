@@ -1,0 +1,34 @@
+Time1: 28.054083182
+Time2: 1.286242324
+Worker: 1
+UI: 6
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <e7.r: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [<io.flutter.plugin.platform.v: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <e7.r: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.flutter.view.g$l: java.util.List q0(java.nio.ByteBuffer,java.nio.ByteBuffer[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <e7.t: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.content.res.AssetFileDescriptor openTypedAssetFileDescriptor(android.net.Uri,java.lang.String,android.os.Bundle)>
+Caller: <io.flutter.plugin.platform.h: java.lang.CharSequence r(d7.j$e)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.CharBuffer decode(java.nio.ByteBuffer)>
+Caller: <io.flutter.view.g$l: java.util.List q0(java.nio.ByteBuffer,java.nio.ByteBuffer[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <e7.r: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [UI]
+-------------------------

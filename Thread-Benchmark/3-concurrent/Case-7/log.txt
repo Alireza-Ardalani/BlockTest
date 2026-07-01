@@ -1,0 +1,99 @@
+Starting [33mWholeProcess[0m...
+Starting [33mFlowDroid Setup[0m...
+ICC config is set: false
+soot.jimple.spark.pag.PAG@65cc3902
+Reachable Methods: 18, APK Methods: 29, PossibleLib : 12
+FlowDroid Setup took [34m1 seconds[0m
+Starting [33mMemory Analysis[0m...
+Memory Analysis took [34m0 seconds[0m
+Starting [33mCaSF Generation[0m...
+Starting [33mMethodBox Generation[0m...
+1000-2000-3000-4000-5000-6000-7000-8000-9000-10000-11000-12000-13000-14000-15000-16000-17000-18000-19000-20000-21000-22000-23000-24000-MethodBox Generation took [34m0 seconds[0m
+CaSF Generation took [34m0 seconds[0m
+Starting [33mInitalMethodRaceDetector[0m...
+MR: W-> <com.concurrencyBench.AsyncTask1.MainActivity: void IOBlockingCall(java.lang.String)>, R-> <com.concurrencyBench.AsyncTask1.MainActivity: void IOBlockingCall(java.lang.String)>, M-> <com.concurrencyBench.AsyncTask1.MainActivity: java.lang.Object object>
+ER: 1, UAF: 1, IfGuard: 0, NullAtEnd: 1, nAdroid: 1, Read Fields: 2 Write Fields 2
+InitalMethodRaceDetector took [34m0 seconds[0m
+Starting [33mCaCG Generation[0m...
+Starting [33mCaSF[0m...
+Edges: 23
+CaSF took [34m0 seconds[0m
+Starting [33mCycle Elimination[0m...
+--------------- 24199
+Reachable Async IMB: 2
+SCC Size 32
+Cycles 1
+Asynch IMB in Cycles: 0
+Cycles with Asynch IMB: 0
+Real Heads: 7
+ Head: I-MB-<android.app.Service: void interimBindMethod(android.content.ServiceConnection)>
+ Head: I-MB-<dummyMainClass: void dummyMainMethod(java.lang.String[])>
+ Head: I-MB-<android.support.v4.app.JobIntentService: void interimBindMethod(android.content.ServiceConnection)>
+ Head: I-MB-<com.concurrencyBench.AsyncTask1.MainActivity$1: void run()>
+ Head: I-MB-<android.support.v4.app.NotificationCompatSideChannelService: void interimBindMethod(android.content.ServiceConnection)>
+ Head: I-MB-<android.accessibilityservice.AccessibilityService: void interimBindMethod(android.content.ServiceConnection)>
+ Head: I-MB-<java.lang.Object: void finalize()>
+Before Update
+After Update
+Edges: 20
+--------------- 24200
+Reachable Async IMB: 2
+SCC Size 36
+Cycles 0
+Asynch IMB in Cycles: 0
+Cycles with Asynch IMB: 0
+Real Heads: 7
+ Head: I-MB-<android.app.Service: void interimBindMethod(android.content.ServiceConnection)>
+ Head: I-MB-<dummyMainClass: void dummyMainMethod(java.lang.String[])>
+ Head: I-MB-<android.support.v4.app.JobIntentService: void interimBindMethod(android.content.ServiceConnection)>
+ Head: I-MB-<com.concurrencyBench.AsyncTask1.MainActivity$1: void run()>
+ Head: I-MB-<android.support.v4.app.NotificationCompatSideChannelService: void interimBindMethod(android.content.ServiceConnection)>
+ Head: I-MB-<android.accessibilityservice.AccessibilityService: void interimBindMethod(android.content.ServiceConnection)>
+ Head: I-MB-<java.lang.Object: void finalize()>
+Cycle Elimination took [34m0 seconds[0m
+New: 0, HasActiveBody: 0, FD: 18, Us: 19
+CaCG Generation took [34m0 seconds[0m
+Starting [33mReachability Filter[0m...
+Reachable MRs: 1 out of 1
+Reachability Filter took [34m0 seconds[0m
+Reachable MRs: 1 out of 1
+Starting [33mEvent Extraction[0m...
+Reachable Method With Races: 0 out of 19 (All method with races: 1)
+1-I-MB-<java.lang.Throwable: void <init>()> 0
+2-I-MB-<dummyMainClass: void NOP_ASYNC_METHOD()> 0
+3-I-MB-<java.util.concurrent.ExecutorCompletionService: void <init>(java.util.concurrent.Executor)> 0
+4-I-MB-<android.app.Activity: void onCreate(android.os.Bundle)> 0
+5-I-MB-<java.util.concurrent.Executors: java.util.concurrent.ExecutorService newFixedThreadPool(int)> 0
+6-I-MB-<java.util.concurrent.Executors: java.util.concurrent.ScheduledExecutorService newScheduledThreadPool(int)> 0
+7-I-MB-<java.util.concurrent.TimeUnit: void <clinit>()> 0
+8-I-MB-<java.lang.RuntimeException: void <init>(java.lang.String)> 0
+9-I-MB-<java.lang.Exception: void <init>()> 0
+10-I-MB-<java.lang.Object: void <init>()> 0
+11-I-MB-SCC22858 4
+12-I-MB-<com.concurrencyBench.AsyncTask1.MainActivity$1: void <init>(com.concurrencyBench.AsyncTask1.MainActivity)> 1
+13-I-MB-<com.concurrencyBench.AsyncTask1.MainActivity: void case07_ScheduledExecutorScheduleAtFixedRate()> 2
+14-I-MB-<java.util.concurrent.Executors: java.util.concurrent.ExecutorService newSingleThreadExecutor()> 0
+15-I-MB-<com.concurrencyBench.AsyncTask1.MainActivity: void onCreate(android.os.Bundle)> 6
+16-I-MB-<android.app.Activity: void <init>()> 0
+17-I-MB-<com.concurrencyBench.AsyncTask1.MainActivity: void <init>()> 2
+18-I-MB-<dummyMainClass: com.concurrencyBench.AsyncTask1.MainActivity dummyMainMethod_com_concurrencyBench_AsyncTask1_MainActivity(android.content.Intent)> 3
+19-I-MB-<dummyMainClass: void dummyMainMethod(java.lang.String[])> 1
+Accessible Methods: 1, Reachable Methods: 19
+Cvents: 1 Threads: 3
+Thread--> UI
+Thread--> UNKNOWN
+Thread--> UNDETERMINED
+Event in Unkown Thread: CE-I-MB-<dummyMainClass: void dummyMainMethod(java.lang.String[])>@UNKNOWN
+<0,1,0>
+Event Extraction took [34m0 seconds[0m
+----------------------------------
+1/1 Component: I-MB-<dummyMainClass: com.concurrencyBench.AsyncTask1.MainActivity dummyMainMethod_com_concurrencyBench_AsyncTask1_MainActivity(android.content.Intent)>
+Edges: 19
+Starting [33mReachability Filter[0m...
+Reachable MRs: 1 out of 1
+Reachability Filter took [34m0 seconds[0m
+This entryPoint I-MB-<dummyMainClass: com.concurrencyBench.AsyncTask1.MainActivity dummyMainMethod_com_concurrencyBench_AsyncTask1_MainActivity(android.content.Intent)> doesn't have any Cvent
+Why this component I-MB-<dummyMainClass: com.concurrencyBench.AsyncTask1.MainActivity dummyMainMethod_com_concurrencyBench_AsyncTask1_MainActivity(android.content.Intent)> doesn't have a Cvent 
+Filtered ERs: 0, With paths: 0
+Prioritized ERs: 0
+WholeProcess took [34m1 seconds[0m

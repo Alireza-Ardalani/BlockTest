@@ -1,0 +1,66 @@
+Time1: 87.6902913
+Time2: 3.946206973
+Worker: 6
+UI: 9
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <vb.r: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [<qc.c: void run()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <vb.r: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [<io.flutter.plugin.platform.v: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <lb.f$a: lb.f$b b()>
+Thread: [<qc.b: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <lb.f$a: lb.f$b b()>
+Thread: [<qc.c: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <lb.f$a: lb.f$b b()>
+Thread: [<lb.f$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.content.res.AssetFileDescriptor openTypedAssetFileDescriptor(android.net.Uri,java.lang.String,android.os.Bundle)>
+Caller: <io.flutter.plugin.platform.g: java.lang.CharSequence r(ub.k$e)>
+Thread: [<qc.c: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.CharBuffer decode(java.nio.ByteBuffer)>
+Caller: <io.flutter.view.f$l: java.util.List q0(java.nio.ByteBuffer,java.nio.ByteBuffer[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <vb.r: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <lb.f$a: lb.f$b b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.content.res.AssetFileDescriptor openTypedAssetFileDescriptor(android.net.Uri,java.lang.String,android.os.Bundle)>
+Caller: <io.flutter.plugin.platform.g: java.lang.CharSequence r(ub.k$e)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: java.lang.String getCallingPackage()>
+Caller: <x4.a: void a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <vb.t: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.flutter.view.f$l: java.util.List q0(java.nio.ByteBuffer,java.nio.ByteBuffer[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <vb.r: void <clinit>()>
+Thread: [UI]
+-------------------------

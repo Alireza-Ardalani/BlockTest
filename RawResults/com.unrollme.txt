@@ -1,0 +1,1046 @@
+Time1: 163.936566692
+Time2: 5.177790748
+Worker: 151
+UI: 109
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda5: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: int read()>
+Caller: <com.bugsnag.android.RootDetector: boolean isNotBlank(java.io.Reader)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.soloader.DirectorySoSource: java.lang.String toString()>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda5: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.soloader.SoLoader: void AddBackupSoSource(android.content.Context,java.util.ArrayList,int)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda5: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.cache.disk.DefaultDiskStorage: boolean isExternal(java.io.File,com.facebook.cache.common.CacheErrorLogger)>
+Thread: [<com.facebook.cache.disk.DiskStorageCache$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.unrollme.UnrollMeWidgetAbstract$fetchData$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [<com.unrollme.UnrollMeWidgetAbstract$fetchData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.unrollme.UnrollMeWidgetAbstract: android.graphics.Bitmap getLogo(java.lang.String)>
+Thread: [<com.unrollme.UnrollMeWidgetAbstract$fetchData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.bugsnag.android.DefaultDelivery: com.bugsnag.android.DeliveryStatus deliver(java.lang.String,byte[],java.lang.String,java.util.Map)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.channels.FileChannel: java.nio.channels.FileLock tryLock()>
+Caller: <com.bugsnag.android.DeviceIdFilePersistence: java.nio.channels.FileLock waitForFileLock(java.nio.channels.FileChannel)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <com.facebook.imagepipeline.core.ProducerSequenceFactory: com.facebook.imagepipeline.producers.Producer getBasicDecodedImageSequence(com.facebook.imagepipeline.request.ImageRequest)>
+Thread: [<com.dieam.reactnativepushnotification.modules.RNReceivedMessageHandler$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <com.facebook.imagepipeline.core.ProducerSequenceFactory: com.facebook.imagepipeline.producers.Producer getBasicDecodedImageSequence(com.facebook.imagepipeline.request.ImageRequest)>
+Thread: [<com.dieam.reactnativepushnotification.modules.RNReceivedMessageHandler$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.bugsnag.android.UserStore: com.bugsnag.android.User loadPersistedUser()>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.bugsnag.android.internal.DexBuildIdGenerator: byte[] unsafeGenerateBuildId(android.content.pm.ApplicationInfo)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.bugsnag.android.FileStore: java.util.List findStoredFiles()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.bugsnag.android.internal.BugsnagStoreMigrator: java.io.File migrateLegacyFiles(kotlin.Lazy)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.facebook.soloader.SysUtil: void dumbDeleteRecursive(java.io.File)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda5: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.facebook.common.file.FileTree: boolean deleteContents(java.io.File)>
+Thread: [<com.facebook.cache.disk.DiskStorageCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.bugsnag.android.FileStore: java.util.List findStoredFiles()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.facebook.common.file.FileTree: void walkFileTree(java.io.File,com.facebook.common.file.FileTreeVisitor)>
+Thread: [<com.facebook.cache.disk.DiskStorageCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.bugsnag.android.internal.DexBuildIdGenerator: byte[] signatureFromZipEntry(java.util.zip.ZipFile,java.util.zip.ZipEntry)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.facebook.common.internal.ByteStreams: int read(java.io.InputStream,byte[],int,int)>
+Thread: [<com.dieam.reactnativepushnotification.modules.RNReceivedMessageHandler$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.facebook.soloader.ApplicationSoSource: boolean checkAndMaybeUpdate()>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda5: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.facebook.cache.disk.DefaultDiskStorage: com.facebook.cache.disk.DefaultDiskStorage$FileInfo getShardFileInfo(java.io.File)>
+Thread: [<com.facebook.cache.disk.DiskStorageCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.facebook.common.internal.Objects: boolean equal(java.lang.Object,java.lang.Object)>
+Thread: [<com.dieam.reactnativepushnotification.modules.RNReceivedMessageHandler$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.bugsnag.android.JsonStream: void value(java.io.File)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.bugsnag.android.JsonWriter: void flush()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.bugsnag.android.IOUtils: int copy(java.io.Reader,java.io.Writer)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.bugsnag.android.SynchronizedStreamableStore: com.bugsnag.android.JsonStream$Streamable load(kotlin.jvm.functions.Function1)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.bugsnag.android.RootDetector: boolean checkBuildProps$bugsnag_android_core_release()>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.bugsnag.android.JsonStream: void value(java.io.File)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.bugsnag.android.internal.JsonHelper: java.util.Map deserialize(java.io.File)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue()>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeName()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeName()>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.bugsnag.android.LastRunInfoStore: void persistImpl(com.bugsnag.android.LastRunInfo)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.common.file.FileUtils: void mkdirs(java.io.File)>
+Thread: [<com.facebook.cache.disk.DiskStorageCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.bugsnag.android.FileStore: boolean isStorageDirValid(java.io.File)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.bugsnag.android.internal.BugsnagStoreMigrator: java.io.File migrateLegacyFiles(kotlin.Lazy)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.bugsnag.android.IOUtils: int copy(java.io.Reader,java.io.Writer)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda5: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read()>
+Caller: <com.bugsnag.android.RootDetector: boolean isNotBlank(java.io.Reader)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda5: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.bugsnag.android.IOUtils: int copy(java.io.Reader,java.io.Writer)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue()>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeName()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeName()>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda5: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.common.file.FileTree: boolean deleteRecursively(java.io.File)>
+Thread: [<com.facebook.cache.disk.DiskStorageCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.common.file.FileUtils: void mkdirs(java.io.File)>
+Thread: [<com.facebook.cache.disk.DiskStorageCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bugsnag.android.FileStore: java.util.List findStoredFiles()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bugsnag.android.FileStore: void deleteStoredFiles(java.util.Collection)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <com.bugsnag.android.Deliverable$DefaultImpls: java.lang.String getIntegrityToken(com.bugsnag.android.Deliverable)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda5: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.bugsnag.android.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.unrollme.UnrollMeWidgetAbstract$fetchData$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [<com.unrollme.UnrollMeWidgetAbstract$fetchData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda5: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda5: void run()>]
+-------------------------
+MethodSignature: <java.io.File: void deleteOnExit()>
+Caller: <com.bugsnag.android.FileStore: void deleteStoredFiles(java.util.Collection)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: void deleteOnExit()>
+Caller: <com.bugsnag.android.FileStore: java.util.List findStoredFiles()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.bugsnag.android.DeviceIdFilePersistence: void <init>(java.io.File,kotlin.jvm.functions.Function0,com.bugsnag.android.Logger)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.bugsnag.android.SynchronizedStreamableStore: void persist(com.bugsnag.android.JsonStream$Streamable)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: int read()>
+Caller: <com.bugsnag.android.RootDetector: boolean isNotBlank(java.io.Reader)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.unrollme.UnrollMeWidgetAbstract: android.graphics.Bitmap getLogo(java.lang.String)>
+Thread: [<com.unrollme.UnrollMeWidgetAbstract$fetchData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.unrollme.UnrollMeWidgetAbstract$fetchData$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [<com.unrollme.UnrollMeWidgetAbstract$fetchData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.bugsnag.android.DefaultDelivery: java.net.HttpURLConnection makeRequest(java.net.URL,byte[],java.lang.String,java.util.Map)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue()>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeName()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeName()>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.bugsnag.android.FileStore: boolean isEmpty()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda5: void run()>]
+-------------------------
+MethodSignature: <android.net.TrafficStats: void setThreadStatsTag(int)>
+Caller: <com.bugsnag.android.DefaultDelivery: com.bugsnag.android.DeliveryStatus deliver(java.lang.String,byte[],java.lang.String,java.util.Map)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.dieam.reactnativepushnotification.modules.RNPushNotificationHelper: void sendToNotificationCentreWithPicture(android.os.Bundle,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap)>
+Thread: [<com.facebook.datasource.AbstractDataSource$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.dieam.reactnativepushnotification.modules.RNPushNotificationHelper: void sendToNotificationCentreWithPicture(android.os.Bundle,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap)>
+Thread: [<com.dieam.reactnativepushnotification.modules.RNReceivedMessageHandler$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.dieam.reactnativepushnotification.modules.RNPushNotificationHelper: void sendToNotificationCentreWithPicture(android.os.Bundle,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap)>
+Thread: [<com.facebook.datasource.AbstractDataSource$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.dieam.reactnativepushnotification.modules.RNPushNotificationHelper: void sendToNotificationCentreWithPicture(android.os.Bundle,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap)>
+Thread: [<com.dieam.reactnativepushnotification.modules.RNReceivedMessageHandler$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter close(int,int,java.lang.String)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter value(boolean)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void newline()>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter close(int,int,java.lang.String)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter nullValue()>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter value(java.lang.Boolean)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void newline()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter open(int,java.lang.String)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter value(java.lang.Number)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue()>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void newline()>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter nullValue()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter open(int,java.lang.String)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter value(long)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void newline()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda5: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.unrollme.UnrollMeWidgetAbstract$fetchData$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [<com.unrollme.UnrollMeWidgetAbstract$fetchData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.bugsnag.android.JsonStream: void value(java.io.File)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.bugsnag.android.UserStore: com.bugsnag.android.User loadPersistedUser()>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.bugsnag.android.FileStore: java.util.List findStoredFiles()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.bugsnag.android.EventStore: boolean isTooBig(java.io.File)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.bugsnag.android.EventStore: void undeliveredEventPayload(java.io.File)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.bugsnag.android.DeviceIdFilePersistence: com.bugsnag.android.DeviceId loadDeviceIdInternal()>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.facebook.imagepipeline.platform.DefaultDecoder: com.facebook.common.references.CloseableReference decodeJPEGFromEncodedImageWithColorSpace(com.facebook.imagepipeline.image.EncodedImage,android.graphics.Bitmap$Config,android.graphics.Rect,int,android.graphics.ColorSpace)>
+Thread: [<com.dieam.reactnativepushnotification.modules.RNReceivedMessageHandler$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.facebook.imagepipeline.platform.DefaultDecoder: com.facebook.common.references.CloseableReference decodeJPEGFromEncodedImageWithColorSpace(com.facebook.imagepipeline.image.EncodedImage,android.graphics.Bitmap$Config,android.graphics.Rect,int,android.graphics.ColorSpace)>
+Thread: [<com.dieam.reactnativepushnotification.modules.RNReceivedMessageHandler$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.facebook.imagepipeline.platform.DefaultDecoder: com.facebook.common.references.CloseableReference decodeJPEGFromEncodedImageWithColorSpace(com.facebook.imagepipeline.image.EncodedImage,android.graphics.Bitmap$Config,android.graphics.Rect,int,android.graphics.ColorSpace)>
+Thread: [<com.dieam.reactnativepushnotification.modules.RNReceivedMessageHandler$1: void run()>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda5: void run()>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.bugsnag.android.JsonStream: void value(java.io.File)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.bugsnag.android.internal.BugsnagStoreMigrator: java.io.File migrateLegacyFiles(kotlin.Lazy)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.common.file.FileTree: boolean deleteRecursively(java.io.File)>
+Thread: [<com.facebook.cache.disk.DiskStorageCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.common.file.FileUtils: void mkdirs(java.io.File)>
+Thread: [<com.facebook.cache.disk.DiskStorageCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.soloader.SysUtil: void dumbDeleteRecursive(java.io.File)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda5: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.common.file.FileUtils: void mkdirs(java.io.File)>
+Thread: [<com.facebook.cache.disk.DiskStorageCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.common.file.FileTree: void walkFileTree(java.io.File,com.facebook.common.file.FileTreeVisitor)>
+Thread: [<com.facebook.cache.disk.DiskStorageCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bugsnag.android.LastRunInfoStore: com.bugsnag.android.LastRunInfo loadImpl()>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bugsnag.android.internal.BugsnagStoreMigrator: java.io.File migrateLegacyFiles(kotlin.Lazy)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bugsnag.android.RootDetector: boolean checkRootBinaries$bugsnag_android_core_release()>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.common.file.FileUtils: void mkdirs(java.io.File)>
+Thread: [<com.facebook.cache.disk.DiskStorageCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda5: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.cache.disk.DefaultDiskStorage: void recreateDirectoryIfVersionChanges()>
+Thread: [<com.facebook.cache.disk.DiskStorageCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.cache.disk.DynamicDefaultDiskStorage: boolean shouldCreateNewStorage()>
+Thread: [<com.facebook.cache.disk.DiskStorageCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.cache.disk.DefaultDiskStorage: void recreateDirectoryIfVersionChanges()>
+Thread: [<com.facebook.cache.disk.DiskStorageCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.bugsnag.android.SynchronizedStreamableStore: void persist(com.bugsnag.android.JsonStream$Streamable)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.bugsnag.android.DeviceIdFilePersistence: java.lang.String persistNewDeviceUuid(java.util.UUID)>
+Thread: [<com.bugsnag.android.internal.dag.RunnableProvider: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.bugsnag.android.JsonStream: void value(java.io.File)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.bugsnag.android.JsonWriter: void flush()>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.bugsnag.android.DefaultDelivery: java.net.HttpURLConnection makeRequest(java.net.URL,byte[],java.lang.String,java.util.Map)>
+Thread: [<com.bugsnag.android.Client$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.content.ContentProvider: java.lang.String getCallingPackage()>
+Caller: <com.bugsnag.android.internal.AbstractStartupProvider: void checkPrivilegeEscalation()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: int read()>
+Caller: <com.bugsnag.android.RootDetector: boolean isNotBlank(java.io.Reader)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <io.invertase.firebase.common.ReactNativeFirebaseInitProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.soloader.DirectorySoSource: java.lang.String toString()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.soloader.SoLoader: void AddBackupSoSource(android.content.Context,java.util.ArrayList,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.bugsnag.android.DefaultDelivery: com.bugsnag.android.DeliveryStatus deliver(java.lang.String,byte[],java.lang.String,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <com.facebook.imagepipeline.core.ProducerSequenceFactory: com.facebook.imagepipeline.producers.Producer getBasicDecodedImageSequence(com.facebook.imagepipeline.request.ImageRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <com.facebook.imagepipeline.core.ProducerSequenceFactory: com.facebook.imagepipeline.producers.Producer getBasicDecodedImageSequence(com.facebook.imagepipeline.request.ImageRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.bugsnag.android.InternalReportDelegate: void onErrorIOFailure(java.lang.Exception,java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.bugsnag.android.UserStore: com.bugsnag.android.User loadPersistedUser()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.bugsnag.android.FileStore: java.util.List findStoredFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.bugsnag.android.internal.BugsnagStoreMigrator: java.io.File migrateLegacyFiles(kotlin.Lazy)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.bugsnag.android.FileStore: java.util.List findStoredFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.bugsnag.android.FileStore: void discardOldestFileIfNeeded()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.facebook.soloader.SysUtil: void dumbDeleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.facebook.common.internal.ByteStreams: int read(java.io.InputStream,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.facebook.soloader.ApplicationSoSource: boolean checkAndMaybeUpdate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.facebook.common.internal.Objects: boolean equal(java.lang.Object,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.bugsnag.android.JsonWriter: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.bugsnag.android.JsonStream: void value(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.bugsnag.android.IOUtils: int copy(java.io.Reader,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.bugsnag.android.JsonStream: void value(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.bugsnag.android.SynchronizedStreamableStore: com.bugsnag.android.JsonStream$Streamable load(kotlin.jvm.functions.Function1)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.bugsnag.android.RootDetector: boolean checkBuildProps$bugsnag_android_core_release()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.bugsnag.android.internal.JsonHelper: java.util.Map deserialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.bugsnag.android.FileStore: boolean isStorageDirValid(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.bugsnag.android.internal.BugsnagStoreMigrator: java.io.File migrateLegacyFiles(kotlin.Lazy)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.bugsnag.android.IOUtils: int copy(java.io.Reader,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long getUsableSpace()>
+Caller: <com.bugsnag.android.InternalReportDelegate: void onErrorIOFailure(java.lang.Exception,java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long getUsableSpace()>
+Caller: <com.bugsnag.android.DeviceDataCollector: java.lang.Long calculateFreeDisk$lambda-6$lambda-5(com.bugsnag.android.DeviceDataCollector)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read()>
+Caller: <com.bugsnag.android.RootDetector: boolean isNotBlank(java.io.Reader)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.bugsnag.android.JsonWriter: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.bugsnag.android.repackaged.dslplatform.json.DslJson: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.bugsnag.android.IOUtils: int copy(java.io.Reader,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.bugsnag.android.FileStore: java.lang.String write(com.bugsnag.android.JsonStream$Streamable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bugsnag.android.FileStore: java.util.List findStoredFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bugsnag.android.IOUtils: void deleteFile(java.io.File,com.bugsnag.android.Logger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bugsnag.android.FileStore: void deleteStoredFiles(java.util.Collection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <com.bugsnag.android.Deliverable$DefaultImpls: java.lang.String getIntegrityToken(com.bugsnag.android.Deliverable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.bugsnag.android.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: void deleteOnExit()>
+Caller: <com.bugsnag.android.FileStore: java.util.List findStoredFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: void deleteOnExit()>
+Caller: <com.bugsnag.android.FileStore: void deleteStoredFiles(java.util.Collection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: void deleteOnExit()>
+Caller: <com.bugsnag.android.IOUtils: void deleteFile(java.io.File,com.bugsnag.android.Logger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.bugsnag.android.SynchronizedStreamableStore: void persist(com.bugsnag.android.JsonStream$Streamable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read()>
+Caller: <com.bugsnag.android.RootDetector: boolean isNotBlank(java.io.Reader)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.bugsnag.android.DefaultDelivery: java.net.HttpURLConnection makeRequest(java.net.URL,byte[],java.lang.String,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.bugsnag.android.FileStore: boolean isEmpty()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.bugsnag.android.InternalReportDelegate: void onErrorIOFailure(java.lang.Exception,java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.TrafficStats: void setThreadStatsTag(int)>
+Caller: <com.bugsnag.android.DefaultDelivery: com.bugsnag.android.DeliveryStatus deliver(java.lang.String,byte[],java.lang.String,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.dieam.reactnativepushnotification.modules.RNPushNotificationHelper: void sendToNotificationCentreWithPicture(android.os.Bundle,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.dieam.reactnativepushnotification.modules.RNPushNotificationHelper: void sendToNotificationCentreWithPicture(android.os.Bundle,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter close(int,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter value(java.lang.Boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter open(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerDefaultNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.bugsnag.android.ConnectivityApi24: void registerForNetworkChanges()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.bugsnag.android.EventStore: void undeliveredEventPayload(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.bugsnag.android.JsonStream: void value(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.bugsnag.android.EventStore: boolean isTooBig(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.bugsnag.android.FileStore: java.util.List findStoredFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.bugsnag.android.UserStore: com.bugsnag.android.User loadPersistedUser()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.bugsnag.android.InternalReportDelegate: void onErrorIOFailure(java.lang.Exception,java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.bugsnag.android.JsonWriter: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.facebook.imagepipeline.platform.DefaultDecoder: com.facebook.common.references.CloseableReference decodeJPEGFromEncodedImageWithColorSpace(com.facebook.imagepipeline.image.EncodedImage,android.graphics.Bitmap$Config,android.graphics.Rect,int,android.graphics.ColorSpace)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.facebook.imagepipeline.platform.DefaultDecoder: com.facebook.common.references.CloseableReference decodeJPEGFromEncodedImageWithColorSpace(com.facebook.imagepipeline.image.EncodedImage,android.graphics.Bitmap$Config,android.graphics.Rect,int,android.graphics.ColorSpace)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.facebook.imagepipeline.platform.DefaultDecoder: com.facebook.common.references.CloseableReference decodeJPEGFromEncodedImageWithColorSpace(com.facebook.imagepipeline.image.EncodedImage,android.graphics.Bitmap$Config,android.graphics.Rect,int,android.graphics.ColorSpace)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.bugsnag.android.JsonStream: void value(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.bugsnag.android.internal.BugsnagStoreMigrator: java.io.File migrateLegacyFiles(kotlin.Lazy)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.soloader.SysUtil: void dumbDeleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bugsnag.android.RootDetector: boolean checkRootBinaries$bugsnag_android_core_release()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bugsnag.android.InternalReportDelegate: void onErrorIOFailure(java.lang.Exception,java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bugsnag.android.internal.BugsnagStoreMigrator: java.io.File migrateLegacyFiles(kotlin.Lazy)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.bugsnag.android.SynchronizedStreamableStore: void persist(com.bugsnag.android.JsonStream$Streamable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.bugsnag.android.JsonWriter: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.bugsnag.android.JsonStream: void value(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.bugsnag.android.DefaultDelivery: java.net.HttpURLConnection makeRequest(java.net.URL,byte[],java.lang.String,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.bugsnag.android.FileStore: java.lang.String write(com.bugsnag.android.JsonStream$Streamable)>
+Thread: [UI]
+-------------------------

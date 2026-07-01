@@ -1,0 +1,116 @@
+<html>
+<head>
+    <title>Case-8.apk</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <style>
+        code {
+            background-color: rgba(27,31,35,.05);
+
+        }
+
+        .navbar {
+            margin-bottom: 30px;
+        }
+
+        .badge {
+            padding: 5px;
+            vertical-align: text-top;
+        }
+
+        .card-body {
+            font-size: 16px;
+            padding: 5px;
+            padding-left: 0;
+        }
+
+        .count {
+            font-size: 18px;
+        }
+
+        .list-item {
+            padding-left: 10px;
+        }
+
+        .critical {
+            margin-bottom: 10px;
+        }
+
+        .critical-header {
+            margin-right: 5px;
+        }
+
+        .race-list {
+            font-size: 18px;
+        }
+
+        .space {
+            width: 5px;
+        }
+
+        .detail-body {
+            display: flex;
+        }
+
+        .thread-detail {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body class="container">
+<div class="navbar navbar-expand border">
+    <h2 class="text-center">Case-8.apk&nbsp;</h2>
+    <span class="count">(Total #Race Conditions: 1)</span>
+</div>
+
+<ol class="race-list">
+        <li class="list-item">
+        <div class="race-detail">
+            <div class="detail-header">
+                <div class="critical">
+                    <span class="badge badge-warning critical-header">Critical Data:</span>
+                                        <code>com.test.anr.backgroundThread.MainActivity.fileWriter;</code>&nbsp;
+                                    </div>
+            </div>
+
+            <div class="detail-body">
+                <div class="card thread-detail">
+                    <!-- card header, the thread number and the conflict method call -->
+                    <div class="card-header">
+                        <span class="badge badge-info">Thread 1:</span>
+                        <a href=".uid17305643560" data-toggle="collapse" class="node">com.test.anr.backgroundThread.MainActivity.IOBlockingCall()</a><br>
+                    </div>
+                    <!-- card body, traces -->
+                    <div class="collapse uid17305643560">
+                        <div class="card-body">
+                            <ul>
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space"></div>
+
+                <div class="card thread-detail">
+                    <!-- card header, the thread number and the conflict method call -->
+                    <div class="card-header">
+                        <span class="badge badge-info">Thread 2:</span>
+                        <a href=".uid17305643560" data-toggle="collapse" class="node">com.test.anr.backgroundThread.MainActivity.IOBlockingCall()</a>
+                    </div>
+                    <!-- card body, traces -->
+                    <div class="collapse uid17305643560">
+                        <div class="card-body">
+                            <ul>
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <hr size=5 class=style1>
+    </ol>
+</body>
+</html>

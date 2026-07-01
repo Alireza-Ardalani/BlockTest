@@ -1,0 +1,1894 @@
+Time1: 56.197354732
+Time2: 9.86092097
+Worker: 218
+UI: 254
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <org.acra.collector.LogCatCollector: java.util.List collectLogCat()>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.cerner.ion.request.PersistentCookieStore: byte[] loadFromFile(android.content.Context)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.cerner.ion.operations.ReportingService$ArchiveReportTask: void archiveReportSynch(java.io.File,java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeKeyData(java.lang.String,java.util.Map)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeUserData(java.lang.String,com.crashlytics.android.core.UserMetaData)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void writeHeader(int,int,int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void writeHeader(int,int,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.cerner.ion.apiclient.provisioning.ProvisioningApiClient: com.cerner.ion.request.CernJsonRequest getTenantCredentials(java.lang.String,com.cerner.ion.request.CernResponseListener,com.cerner.ion.request.security.IonRequestContext)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.crashlytics.android.core.CrashlyticsController: java.io.File[] listFilesMatching(java.io.File,java.io.FilenameFilter)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void copyStream(java.io.InputStream,java.io.OutputStream,byte[])>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.cerner.video.VideoClient: java.lang.String writeCaCertificates(android.app.Activity)>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void refreshBuffer()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.cerner.video.VideoClient: java.lang.String writeCaCertificates(android.app.Activity)>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.cerner.ion.util.CertUtil: java.io.File getCertFile(boolean,java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.cerner.ion.provisioning.ProvisionedTenantStore: android.util.AtomicFile getStorageFile()>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void createTargetDirectory()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.crashlytics.android.core.CrashlyticsController$LogFileDirectoryProvider: java.io.File getLogFileDir()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsCore$4: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.cerner.ion.util.CertUtil: java.io.File getCertFile(boolean,java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void writeHeader(int,int,int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void writeHeader(int,int,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: java.io.RandomAccessFile open(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: java.io.RandomAccessFile open(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: java.io.RandomAccessFile open(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void close()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void refreshBuffer()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void copyStream(java.io.InputStream,java.io.OutputStream,byte[])>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.MetaDataStore: java.util.Map readKeyData(java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void move(java.io.File,java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.nio.channels.FileChannel: java.nio.channels.FileLock lock()>
+Caller: <com.cerner.ion.operations.ReportingService$ArchiveReportTask: void archiveReportSynch(java.io.File,java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <org.acra.collector.LogCatCollector: java.util.List collectLogCat()>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <org.acra.collector.LogCatCollector: java.util.List collectLogCat()>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <org.acra.collector.LogCatCollector: java.util.List collectLogCat()>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.cerner.ion.request.PersistentCookieStore: void decryptMap(android.content.Context,byte[])>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.cerner.ion.request.PersistentCookieStore: void decryptMap(android.content.Context,byte[])>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.cerner.ion.request.PersistentCookieStore: void decryptMap(android.content.Context,byte[])>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String toASCIIString()>
+Caller: <com.cerner.ion.request.CookieUtil: void copyCookiesToWebview(android.content.Context)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String toASCIIString()>
+Caller: <com.cerner.ion.request.CookieUtil: void copyCookiesToWebview(android.content.Context)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeKeyData(java.lang.String,java.util.Map)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeUserData(java.lang.String,com.crashlytics.android.core.UserMetaData)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void copyStream(java.io.InputStream,java.io.OutputStream,byte[])>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.NetworkInterface: java.util.Enumeration getNetworkInterfaces()>
+Caller: <com.cerner.ion.operations.NetworkUtil: java.util.List getInterfaces()>
+Thread: [<com.cerner.ion.security.LoginActivity$6: void run()>]
+-------------------------
+MethodSignature: <java.net.NetworkInterface: java.util.Enumeration getNetworkInterfaces()>
+Caller: <com.cerner.ion.operations.NetworkUtil: java.util.List getInterfaces()>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: int read(char[],int,int)>
+Caller: <com.google.gson.stream.JsonReader: boolean fillBuffer(int)>
+Thread: [<com.cerner.ion.security.LoginActivity$6: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: int read(char[],int,int)>
+Caller: <com.google.gson.stream.JsonReader: boolean fillBuffer(int)>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: int read(char[],int,int)>
+Caller: <com.google.gson.stream.JsonReader: boolean fillBuffer(int)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: boolean isRooted(android.content.Context)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cerner.ion.provisioning.ProvisionedTenantStore: android.util.AtomicFile getStorageFile()>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cerner.ion.util.CertUtil: java.io.File getCertFile(boolean,java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.QueueFileLogStore: com.crashlytics.android.core.ByteString getLogAsByteString()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void <init>(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void <init>(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsController$LogFileDirectoryProvider: java.io.File getLogFileDir()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsFileMarker: boolean isPresent()>
+Thread: [<com.crashlytics.android.core.CrashlyticsCore$4: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cerner.ion.util.CertUtil: java.io.File getCertFile(boolean,java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cerner.ion.util.CertUtil: byte[] readFromDirectory(boolean,java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: boolean isRooted(android.content.Context)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cerner.ion.request.PersistentCookieStore: byte[] loadFromFile(android.content.Context)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void createTargetDirectory()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsCore$4: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void <init>(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.MetaDataStore: java.util.Map readKeyData(java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cerner.ion.provisioning.ProvisionedTenantStore: android.util.AtomicFile getStorageFile()>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void <init>(java.io.File,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.events.GZIPQueueFileEventStorage: java.io.OutputStream getMoveOutputStream(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeKeyData(java.lang.String,java.util.Map)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeUserData(java.lang.String,com.crashlytics.android.core.UserMetaData)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.cerner.ion.operations.ReportingService$ArchiveReportTask: void archiveReportSynch(java.io.File,java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.cerner.video.VideoClient: java.lang.String writeCaCertificates(android.app.Activity)>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.nio.channels.FileLock: void close()>
+Caller: <com.cerner.ion.operations.ReportingService$ArchiveReportTask: void archiveReportSynch(java.io.File,java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.nio.channels.FileLock: void close()>
+Caller: <com.cerner.ion.operations.ReportingService$ArchiveReportTask: void archiveReportSynch(java.io.File,java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.cerner.ion.session.IonSessionUtils: void updateStoredSessionInfo(android.content.Context,byte[])>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.cerner.ion.provisioning.ProvisionedTenantStore: void persistStoreContentsToDisk(java.util.List)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.cerner.video.VideoClient: java.lang.String writeCaCertificates(android.app.Activity)>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void setLength(int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void setLength(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeUserData(java.lang.String,com.crashlytics.android.core.UserMetaData)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeKeyData(java.lang.String,java.util.Map)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.Gson: com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.cerner.ion.operations.ReportingService$ArchiveReportTask: void archiveReportSynch(java.io.File,java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [<com.cerner.ion.security.LegalDocsActivity$LoadHTMLTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.cerner.hlwebviewlibrary.presenter.HLBaseWebViewActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.cerner.ion.util.CertUtil: java.io.File getCertFile(boolean,java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.cerner.ion.provisioning.ProvisionedTenantStore: android.util.AtomicFile getStorageFile()>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.QueueFileLogStore$1: void read(java.io.InputStream,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<okhttp3.ConnectionPool$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.cerner.ion.request.PersistentCookieStore: void clearFile(android.content.Context)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsFileMarker: boolean remove()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.QueueFileLogStore: void deleteLogFile()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.cerner.ion.util.CertUtil: void deleteClientCertFromDevice(boolean,java.lang.String)>
+Thread: [<com.cerner.ion.util.CallableChain$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void move(java.io.File,java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void move(java.io.File,java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.net.Proxy createProxy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.zzr: java.lang.String zzch(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <org.acra.collector.LogCatCollector: java.util.List collectLogCat()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Proxy: void <init>(java.net.Proxy$Type,java.net.SocketAddress)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.net.Proxy createProxy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.io.InputStream openStream()>
+Caller: <net.fortuna.ical4j.model.TimeZoneRegistryImpl: net.fortuna.ical4j.model.component.VTimeZone loadVTimeZone(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.io.InputStream openStream()>
+Caller: <net.fortuna.ical4j.model.TimeZoneRegistryImpl: net.fortuna.ical4j.model.component.VTimeZone updateDefinition(net.fortuna.ical4j.model.component.VTimeZone)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.cerner.ion.request.PersistentCookieStore: byte[] loadFromFile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.crashlytics.android.core.SessionReport: void <init>(java.io.File,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void writeToCosFromFile(com.crashlytics.android.core.CodedOutputStream,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.cerner.ion.operations.ReportingService$ArchiveReportTask: void archiveReportSynch(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.cerner.ion.apiclient.provisioning.ProvisioningApiClient: com.cerner.ion.request.CernJsonRequest getTenantCredentials(java.lang.String,com.cerner.ion.request.CernResponseListener,com.cerner.ion.request.security.IonRequestContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: org.joda.time.DateTimeZone loadZoneData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: org.joda.time.DateTimeZone loadZoneData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: org.joda.time.DateTimeZone loadZoneData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void copyToCodedOutputStream(java.io.InputStream,com.crashlytics.android.core.CodedOutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream: void <init>(java.io.OutputStream,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okio.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <net.fortuna.ical4j.data.CalendarBuilder: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String canonicalizeHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.crashlytics.android.core.CrashlyticsController: java.io.File[] listFilesMatching(java.io.File,java.io.FilenameFilter)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.crashlytics.android.core.Utils: int capFileCount(java.io.File,java.io.FilenameFilter,int,java.util.Comparator)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String hash(java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.cerner.video.VideoClient: java.lang.String writeCaCertificates(android.app.Activity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void refreshBuffer()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.cerner.video.VideoClient: java.lang.String writeCaCertificates(android.app.Activity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.HttpCookie: void setDomain(java.lang.String)>
+Caller: <com.cerner.ion.operations.ReportingService: void initializeRemoteSession(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.cerner.ion.provisioning.ProvisionedTenantStore: android.util.AtomicFile getStorageFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.cerner.ion.util.CertUtil: java.io.File getCertFile(boolean,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.google.firebase.iid.zzr: void <init>(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.cerner.ion.util.CertUtil: java.io.File getCertFile(boolean,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.crashlytics.android.core.CrashlyticsController$LogFileDirectoryProvider: java.io.File getLogFileDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.google.android.gms.common.util.zzu: java.io.File zzd(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void synthesizeSessionFile(java.io.File,java.lang.String,java.io.File[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.InflaterSource: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.cerner.hldownloadmanagerlib.HLCalendarIntent: java.io.FileInputStream getStreamFromOtherSource(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.cerner.hlwebviewlibrary.webclients.HLBaseWebViewClient: java.net.URL getURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <okhttp3.HttpUrl: java.net.URL url()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: java.io.RandomAccessFile open(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void refreshBuffer()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.crashlytics.android.answers.Answers: boolean onPreExecute()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.zzr: java.lang.String zzch(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toUnicode(java.lang.String)>
+Caller: <okhttp3.internal.publicsuffix.PublicSuffixDatabase: java.lang.String getEffectiveTldPlusOne(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.cerner.ion.util.CertUtil: void deleteDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.crashlytics.android.core.CrashlyticsController$ReportUploaderFilesProvider: java.io.File[] getInvalidSessionFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: java.io.File[] listFiles(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.cerner.ion.operations.ReportingService: void sendAllArchived()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.crashlytics.android.core.LogFileManager: void discardOldLogFiles(java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.crashlytics.android.beta.DeviceTokenLoader: java.util.zip.ZipInputStream getZipInputStreamOfApkFrom(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: org.json.JSONObject readCachedSettings()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.MetaDataStore: com.crashlytics.android.core.UserMetaData readUserData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void writeToCosFromFile(com.crashlytics.android.core.CodedOutputStream,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.MetaDataStore: java.util.Map readKeyData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <org.joda.time.tz.ZoneInfoProvider: java.io.InputStream openResource(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.FileChannel: java.nio.channels.FileLock lock()>
+Caller: <com.cerner.ion.operations.ReportingService$ArchiveReportTask: void archiveReportSynch(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.cerner.hlwebviewlibrary.util.HLFileUtil: java.io.File createImageFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <org.acra.collector.LogCatCollector: java.util.List collectLogCat()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <org.acra.collector.LogCatCollector: java.util.List collectLogCat()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.zzn: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <org.acra.collector.LogCatCollector: java.util.List collectLogCat()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.cerner.ion.request.PersistentCookieStore: void decryptMap(android.content.Context,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.cerner.ion.request.PersistentCookieStore: void decryptMap(android.content.Context,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.cerner.ion.request.PersistentCookieStore: void decryptMap(android.content.Context,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String toASCIIString()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String toASCIIString()>
+Caller: <com.cerner.ion.request.CookieUtil: void copyCookiesToWebview(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String toASCIIString()>
+Caller: <com.cerner.ion.request.CookieUtil: void copyCookiesToWebview(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.StreamTokenizer: int nextToken()>
+Caller: <net.fortuna.ical4j.data.CalendarParserImpl: int nextToken(java.io.StreamTokenizer,java.io.Reader)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.cerner.hlwebviewlibrary.webclients.HLBaseWebViewClient: void handleGoogleMapUrl(android.webkit.WebView,java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.net.URL toURL()>
+Caller: <net.fortuna.ical4j.model.TimeZoneRegistryImpl: net.fortuna.ical4j.model.component.VTimeZone updateDefinition(net.fortuna.ical4j.model.component.VTimeZone)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.HttpCookie: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.cerner.ion.operations.ReportingService: void initializeRemoteSession(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <io.fabric.sdk.android.services.network.SystemKeyStore: java.security.KeyStore getTrustStore(java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <io.fabric.sdk.android.services.network.SystemKeyStore: java.security.KeyStore getTrustStore(java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$CloseOperation: void done()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$CloseOperation: void done()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest closeOutput()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest closeOutput()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: long readLong()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.NetworkInterface: java.util.Enumeration getNetworkInterfaces()>
+Caller: <com.cerner.ion.operations.NetworkUtil: java.util.List getInterfaces()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Caller: <io.fabric.sdk.android.services.settings.IconRequest: io.fabric.sdk.android.services.settings.IconRequest build(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: int read(char[],int,int)>
+Caller: <com.google.gson.stream.JsonReader: boolean fillBuffer(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: boolean readBoolean()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: boolean readBoolean()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.ByteBuffer encode(java.nio.CharBuffer)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream: io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream write(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: void writeCachedSettings(long,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void doCleanInvalidTempFiles(java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: org.joda.time.DateTimeZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$Recurrence: org.joda.time.tz.DateTimeZoneBuilder$Recurrence readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: void writeCachedSettings(long,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cerner.ion.util.CertUtil: byte[] readFromDirectory(boolean,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void doCleanInvalidTempFiles(java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzu: java.io.File zzd(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cerner.ion.util.CertUtil: java.io.File getCertFile(boolean,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cerner.ion.provisioning.ProvisionedTenantStore: android.util.AtomicFile getStorageFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: boolean isRooted(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.MetaDataStore: java.util.Map readKeyData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzu: java.io.File zzd(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsController$LogFileDirectoryProvider: java.io.File getLogFileDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsFileMarker: boolean isPresent()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cerner.ion.request.PersistentCookieStore: byte[] loadFromFile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.QueueFileLogStore: com.crashlytics.android.core.ByteString getLogAsByteString()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void writeToCosFromFile(com.crashlytics.android.core.CodedOutputStream,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: boolean isRooted(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: org.json.JSONObject readCachedSettings()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.firebase.iid.zzr: void <init>(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cerner.ion.util.CertUtil: void deleteAllClientCertsFromDevice()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void trimInvalidSessionFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cerner.ion.util.CertUtil: void deleteDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cerner.ion.util.CertUtil: void deleteAllClientCertsFromDevice()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void synthesizeSessionFile(java.io.File,java.lang.String,java.io.File[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cerner.ion.provisioning.ProvisionedTenantStore: android.util.AtomicFile getStorageFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.MetaDataStore: com.crashlytics.android.core.UserMetaData readUserData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cerner.ion.util.CertUtil: java.io.File getCertFile(boolean,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.cerner.ion.operations.ReportingService$ArchiveReportTask: void archiveReportSynch(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void <init>(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.cerner.video.VideoClient: java.lang.String writeCaCertificates(android.app.Activity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: org.joda.time.DateTimeZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.FileLock: void close()>
+Caller: <com.cerner.ion.operations.ReportingService$ArchiveReportTask: void archiveReportSynch(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.FileLock: void close()>
+Caller: <com.cerner.ion.operations.ReportingService$ArchiveReportTask: void archiveReportSynch(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.cerner.ion.session.IonSessionUtils: void updateStoredSessionInfo(android.content.Context,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.cerner.ion.provisioning.ProvisionedTenantStore: void persistStoreContentsToDisk(java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void closeInProgressStream()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.cerner.video.VideoClient: java.lang.String writeCaCertificates(android.app.Activity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection(java.net.Proxy)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$ConnectionFactory$1: java.net.HttpURLConnection create(java.net.URL,java.net.Proxy)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$ConnectionFactory$1: java.net.HttpURLConnection create(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.Gson: com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: void writeCachedSettings(long,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.cerner.ion.operations.ReportingService$ArchiveReportTask: void archiveReportSynch(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void doCleanInvalidTempFiles(java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.cerner.ion.provisioning.ProvisionedTenantStore: android.util.AtomicFile getStorageFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.cerner.ion.util.CertUtil: java.io.File getCertFile(boolean,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedOutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream: io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream write(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: int getHeaderFieldInt(java.lang.String,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: int intHeader(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.QueueFileLogStore$1: void read(java.io.InputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void copyToCodedOutputStream(java.io.InputStream,com.crashlytics.android.core.CodedOutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: java.util.Map loadZoneInfoMap(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: java.util.Map loadZoneInfoMap(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.cerner.ion.util.CertUtil: void deleteDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.cerner.ion.util.CertUtil: void deleteDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.cerner.ion.util.CertUtil: void deleteClientCertFromDevice(boolean,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.cerner.ion.util.CertUtil: void deleteDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.cerner.ion.request.PersistentCookieStore: void clearFile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void retainSessions(java.io.File[],java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void retainSessions(java.io.File[],java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void doCleanInvalidTempFiles(java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.cerner.ion.util.CertUtil: void deleteDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.cerner.ion.operations.ReportingService$1: void onResponse(com.cerner.ion.request.CernResponse)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.Utils: int capFileCount(java.io.File,java.io.FilenameFilter,int,java.util.Comparator)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.LogFileManager: void discardOldLogFiles(java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.QueueFileLogStore: void deleteLogFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.cerner.ion.operations.ReportingService$1: void onNoContent(com.cerner.ion.request.CernResponse)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void deleteSessionPartFilesFor(java.lang.String)>
+Thread: [UI]
+-------------------------

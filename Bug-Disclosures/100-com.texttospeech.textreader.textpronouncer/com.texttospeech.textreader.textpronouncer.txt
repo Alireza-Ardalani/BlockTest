@@ -1,0 +1,22 @@
+FileToSpeechActivity.onClick(uploadFileButton)
+→ starts TextToSpeechActivity with extra "fromCheck" = "File To Speech"
+
+TextToSpeechActivity.onCreate(...)
+→ checks fromCheck
+→ calls this.f21697i0.w(new String[]{...}) to launch the document picker for PDF/DOC/DOCX/TXT
+
+User selects a file
+→ result is routed to TextToSpeechActivity.M(Uri uri)
+
+TextToSpeechActivity.M(Uri uri)
+→ starts coroutine work with ch.a0.t(q0.g(eVar), null, new ad.d(eVar, uri, null, 0), 3)
+
+ad.d.invokeSuspend(...), case 0
+→ gets eVar.f288b
+→ calls a0.B(cVar.f284a, new b((Uri) obj2, ...), this)
+
+ad.b.invokeSuspend(...), case 0
+→ context.getContentResolver()
+→ contentResolver.openInputStream(uri)
+→ reads in a loop with inputStream.read(...)
+→ writes to temp file with fileOutputStream.write(...)

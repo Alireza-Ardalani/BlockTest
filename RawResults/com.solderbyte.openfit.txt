@@ -1,0 +1,90 @@
+Time1: 12.181172093
+Time2: 1.377510369
+Worker: 0
+UI: 21
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.solderbyte.openfit.ExerciseGPSStorage: void updateProfile(float,float)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.solderbyte.openfit.ExerciseGPSStorage: void updateExerciseTimestamp(int,long,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.solderbyte.openfit.Fitness: void addData(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils: long queryNumEntries(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Caller: <com.solderbyte.openfit.ExerciseGPSStorage: int createExercise(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.solderbyte.openfit.ExerciseGPSStorage: void computeExerciseResults(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.solderbyte.openfit.ExerciseGPSStorage: int createExercise(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.solderbyte.openfit.ExerciseGPSStorage: void computeExerciseResults(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.solderbyte.openfit.ExerciseGPSStorage: void updateExerciseTimestamp(int,long,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.solderbyte.openfit.ExerciseGPSStorage: void insertExerciseData(int,double,double,float,float,float,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.solderbyte.openfit.ExerciseGPSStorage: void updateProfile(float,float)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.solderbyte.openfit.ExerciseGPSStorage: void deleteExercise(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.solderbyte.openfit.ExerciseGPSStorage: int createExercise(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.solderbyte.openfit.HttpClient: java.lang.String get(java.lang.String,com.solderbyte.openfit.HttpClient$AsyncResponse)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.solderbyte.openfit.ExerciseGPSStorage: void computeExerciseResults(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.solderbyte.openfit.ExerciseGPSStorage: int createExercise(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.solderbyte.openfit.util.OpenFitVariableDataComposer: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.solderbyte.openfit.util.OpenFitData: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.solderbyte.openfit.util.OpenFitData: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.solderbyte.openfit.ExerciseGPSStorage: void deleteExercise(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.solderbyte.openfit.ExerciseGPSStorage: int createExercise(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.solderbyte.openfit.ExerciseGPSStorage: void insertExerciseData(int,double,double,float,float,float,long)>
+Thread: [UI]
+-------------------------

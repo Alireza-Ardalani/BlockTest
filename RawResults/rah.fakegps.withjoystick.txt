@@ -1,0 +1,162 @@
+Time1: 21.606639417
+Time2: 1.124481511
+Worker: 0
+UI: 39
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.ads.internal.util.client.zzc: void zzcr(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhc(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.litesuits.orm.db.assit.Transaction: java.lang.Object execute(android.database.sqlite.SQLiteDatabase,com.litesuits.orm.db.assit.Transaction$Worker)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.litesuits.orm.db.assit.Transaction: java.lang.Object execute(android.database.sqlite.SQLiteDatabase,com.litesuits.orm.db.assit.Transaction$Worker)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.litesuits.orm.db.assit.Transaction: java.lang.Object execute(android.database.sqlite.SQLiteDatabase,com.litesuits.orm.db.assit.Transaction$Worker)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.litesuits.orm.db.utils.DataUtil: byte[] objectToByte(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.litesuits.orm.db.utils.DataUtil: byte[] objectToByte(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhc(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.litesuits.orm.db.utils.DataUtil: java.lang.Object byteToObject(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.litesuits.orm.db.assit.Querier: java.lang.Object doQuery(android.database.sqlite.SQLiteDatabase,com.litesuits.orm.db.assit.SQLStatement,com.litesuits.orm.db.assit.Querier$CursorParser)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.litesuits.orm.LiteOrm: void initDatabasePath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.litesuits.orm.db.assit.Transaction: java.lang.Object execute(android.database.sqlite.SQLiteDatabase,com.litesuits.orm.db.assit.Transaction$Worker)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.litesuits.orm.db.assit.SQLStatement: int execDeleteWithMapping(android.database.sqlite.SQLiteDatabase,java.lang.Object,com.litesuits.orm.db.TableManager)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.litesuits.orm.db.assit.SQLStatement: boolean execute(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.litesuits.orm.db.assit.SQLStatement: long execInsertWithMapping(android.database.sqlite.SQLiteDatabase,java.lang.Object,com.litesuits.orm.db.TableManager)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long executeInsert()>
+Caller: <com.litesuits.orm.db.assit.SQLStatement: long execInsertWithMapping(android.database.sqlite.SQLiteDatabase,java.lang.Object,com.litesuits.orm.db.TableManager)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.litesuits.orm.db.impl.SingleSQLiteImpl: int delete(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.litesuits.orm.db.impl.SingleSQLiteImpl: long insert(java.lang.Object,com.litesuits.orm.db.model.ConflictAlgorithm)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.litesuits.orm.LiteOrm: android.database.sqlite.SQLiteDatabase openOrCreateDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.litesuits.orm.LiteOrm: void justRelease()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: void execute()>
+Caller: <com.litesuits.orm.db.assit.SQLStatement: boolean execute(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: void execute()>
+Caller: <com.litesuits.orm.db.assit.SQLStatement: int execDeleteWithMapping(android.database.sqlite.SQLiteDatabase,java.lang.Object,com.litesuits.orm.db.TableManager)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.ads.internal.util.client.zzc: void zzcr(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.litesuits.orm.db.utils.DataUtil: byte[] objectToByte(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteClosable: void acquireReference()>
+Caller: <com.litesuits.orm.db.impl.SingleSQLiteImpl: int delete(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteClosable: void acquireReference()>
+Caller: <com.litesuits.orm.db.impl.SingleSQLiteImpl: long insert(java.lang.Object,com.litesuits.orm.db.model.ConflictAlgorithm)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteClosable: void acquireReference()>
+Caller: <com.litesuits.orm.db.impl.SingleSQLiteImpl: java.util.ArrayList query(com.litesuits.orm.db.assit.QueryBuilder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <com.litesuits.orm.db.utils.DataUtil: byte[] objectToByte(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.litesuits.orm.db.utils.DataUtil: java.lang.Object byteToObject(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: int executeUpdateDelete()>
+Caller: <com.litesuits.orm.db.assit.SQLStatement: int execDeleteWithMapping(android.database.sqlite.SQLiteDatabase,java.lang.Object,com.litesuits.orm.db.TableManager)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.litesuits.orm.db.impl.SingleSQLiteImpl: java.util.ArrayList query(com.litesuits.orm.db.assit.QueryBuilder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.litesuits.orm.LiteOrm: android.database.sqlite.SQLiteDatabase openOrCreateDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.litesuits.orm.db.utils.DataUtil: java.lang.Object byteToObject(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.litesuits.orm.db.utils.DataUtil: java.lang.Object byteToObject(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.litesuits.orm.db.assit.Transaction: java.lang.Object execute(android.database.sqlite.SQLiteDatabase,com.litesuits.orm.db.assit.Transaction$Worker)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.litesuits.orm.LiteOrm: void initDatabasePath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhc(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhc(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhc(int)>
+Thread: [UI]
+-------------------------

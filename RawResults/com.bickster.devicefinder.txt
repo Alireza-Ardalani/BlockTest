@@ -1,0 +1,66 @@
+Time1: 19.391771677
+Time2: 0.528609464
+Worker: 0
+UI: 15
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.ads.conversiontracking.f$a: void onCreate(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.ads.conversiontracking.f$a: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.ads.conversiontracking.f: void a(com.google.ads.conversiontracking.d)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.ads.conversiontracking.f: void b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.google.ads.conversiontracking.f: void c(com.google.ads.conversiontracking.d)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.ads.conversiontracking.f: android.database.sqlite.SQLiteDatabase a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.ads.conversiontracking.f: void b(com.google.ads.conversiontracking.d)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.ads.conversiontracking.i: com.google.ads.conversiontracking.n b(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.ads.conversiontracking.e: int a(com.google.ads.conversiontracking.d)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzpz: void zzu(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.ads.conversiontracking.f: int c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.ads.conversiontracking.e: int a(com.google.ads.conversiontracking.d)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.zzpz: void zzu(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.ads.conversiontracking.f: void d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.ads.conversiontracking.f: java.util.List a(long)>
+Thread: [UI]
+-------------------------

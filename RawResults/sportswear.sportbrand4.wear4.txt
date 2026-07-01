@@ -1,0 +1,466 @@
+Time1: 35.179468141
+Time2: 3.168839775
+Worker: 67
+UI: 48
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.google.android.gms.iid.zzn: void zzd(java.lang.Throwable,java.io.FileInputStream)>
+Thread: [<com.onesignal.PushRegistratorGPS$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.google.android.gms.iid.zzn: void zzd(java.lang.Throwable,java.io.FileInputStream)>
+Thread: [<com.onesignal.PushRegistratorGPS$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.google.android.gms.iid.zzn: void zzi(android.content.Context)>
+Thread: [<com.onesignal.PushRegistratorGPS$2: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.onesignal.shortcutbadger.impl.OPPOHomeBader: java.lang.String getSystemProperty(java.lang.String)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.onesignal.shortcutbadger.util.CloseHelper: void closeQuietly(java.io.Closeable)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.onesignal.shortcutbadger.util.CloseHelper: void closeQuietly(java.io.Closeable)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.onesignal.shortcutbadger.impl.OPPOHomeBader: java.lang.String getSystemProperty(java.lang.String)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap resizeBitmapForLargeIconArea(android.graphics.Bitmap)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap resizeBitmapForLargeIconArea(android.graphics.Bitmap)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.google.android.gms.iid.zzn: java.io.File zzj(android.content.Context)>
+Thread: [<com.onesignal.PushRegistratorGPS$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.onesignal.shortcutbadger.impl.OPPOHomeBader: java.lang.String getSystemProperty(java.lang.String)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.onesignal.shortcutbadger.impl.OPPOHomeBader: java.lang.String getSystemProperty(java.lang.String)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.google.android.gms.iid.zzn: void zzd(android.content.Context,java.lang.String,com.google.android.gms.iid.zzo)>
+Thread: [<com.onesignal.PushRegistratorGPS$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.NotificationBundleProcessor: void deleteOldNotifications(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.NotificationBundleProcessor: void deleteOldNotifications(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getWritableDbWithRetries()>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getWritableDbWithRetries()>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromAssetsOrResourceName(java.lang.String)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromAssetsOrResourceName(java.lang.String)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.BadgeCountUpdater: void update(android.database.sqlite.SQLiteDatabase,android.content.Context)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignal: boolean isDuplicateNotification(java.lang.String,android.content.Context)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.GenerateNotification: void createSummaryNotification(com.onesignal.NotificationGenerationJob,com.onesignal.GenerateNotification$OneSignalNotificationBuilder)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.NotificationBundleProcessor: void processCollapseKey(com.onesignal.NotificationGenerationJob)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.NotificationBundleProcessor: void processCollapseKey(com.onesignal.NotificationGenerationJob)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignal: boolean isDuplicateNotification(java.lang.String,android.content.Context)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.GenerateNotification: void createSummaryNotification(com.onesignal.NotificationGenerationJob,com.onesignal.GenerateNotification$OneSignalNotificationBuilder)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.BadgeCountUpdater: void update(android.database.sqlite.SQLiteDatabase,android.content.Context)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.google.android.gms.iid.zzn: void zzd(android.content.Context,java.lang.String,com.google.android.gms.iid.zzo)>
+Thread: [<com.onesignal.PushRegistratorGPS$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.google.android.gms.iid.zzak: void <init>(android.content.Context,com.google.android.gms.iid.zzn)>
+Thread: [<com.onesignal.PushRegistratorGPS$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.google.android.gms.iid.zzn: void zzd(java.lang.Throwable,java.io.FileOutputStream)>
+Thread: [<com.onesignal.PushRegistratorGPS$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.google.android.gms.iid.zzn: void zzd(java.lang.Throwable,java.io.FileOutputStream)>
+Thread: [<com.onesignal.PushRegistratorGPS$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.iid.zzn: com.google.android.gms.iid.zzo zzi(android.content.Context,java.lang.String)>
+Thread: [<com.onesignal.PushRegistratorGPS$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.iid.zzak: void <init>(android.content.Context,com.google.android.gms.iid.zzn)>
+Thread: [<com.onesignal.PushRegistratorGPS$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.google.android.gms.iid.zzn: com.google.android.gms.iid.zzo zzd(java.io.File)>
+Thread: [<com.onesignal.PushRegistratorGPS$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getReadableDbWithRetries()>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getReadableDbWithRetries()>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.iid.zzn: void zzi(android.content.Context)>
+Thread: [<com.onesignal.PushRegistratorGPS$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [<com.onesignal.RestoreJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [<com.onesignal.OneSignalJobServiceBase$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.onesignal.shortcutbadger.impl.OPPOHomeBader: java.lang.String getSystemProperty(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.onesignal.shortcutbadger.util.CloseHelper: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap resizeBitmapForLargeIconArea(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.NotificationOpenedProcessor: void markNotificationsConsumed(android.content.Context,android.content.Intent,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.NotificationSummaryManager: android.database.Cursor internalUpdateSummaryNotificationAfterChildRemoved(android.content.Context,android.database.sqlite.SQLiteDatabase,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.NotificationOpenedProcessor: void processIntent(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.NotificationRestorer: void restore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.onesignal.shortcutbadger.impl.OPPOHomeBader: java.lang.String getSystemProperty(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.NotificationBundleProcessor: void deleteOldNotifications(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.NotificationOpenedProcessor: void processIntent(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.NotificationRestorer: void restore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.NotificationRestorer: void restore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.NotificationOpenedProcessor: void processIntent(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.NotificationOpenedProcessor: void processIntent(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.NotificationRestorer: void restore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getWritableDbWithRetries()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.zzanf: void zzcz(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromAssetsOrResourceName(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.NotificationRestorer: void restore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.NotificationSummaryManager: java.lang.Integer getSummaryNotificationId(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.NotificationSummaryManager: void restoreSummary(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.GenerateNotification: void createSummaryNotification(com.onesignal.NotificationGenerationJob,com.onesignal.GenerateNotification$OneSignalNotificationBuilder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.BadgeCountUpdater: void update(android.database.sqlite.SQLiteDatabase,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.NotificationOpenedProcessor: void addChildNotifications(org.json.JSONArray,java.lang.String,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.NotificationBundleProcessor: void processCollapseKey(com.onesignal.NotificationGenerationJob)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.NotificationSummaryManager: android.database.Cursor internalUpdateSummaryNotificationAfterChildRemoved(android.content.Context,android.database.sqlite.SQLiteDatabase,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignal: boolean isDuplicateNotification(java.lang.String,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.ads.zzamy: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.ads.zzamy: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.NotificationOpenedProcessor: void processIntent(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.NotificationRestorer: void restore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.ads.zzanf: void zzcz(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getReadableDbWithRetries()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.GenerateNotification: void createSummaryIdDatabaseEntry(com.onesignal.OneSignalDbHelper,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(com.onesignal.NotificationGenerationJob,boolean)>
+Thread: [UI]
+-------------------------

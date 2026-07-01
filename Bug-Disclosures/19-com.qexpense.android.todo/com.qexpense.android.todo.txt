@@ -1,0 +1,359 @@
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.qexpense.android.todo.db.DBProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.qexpense.android.todo.db.DBProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.qexpense.android.todo.db.DBProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.qexpense.android.todo.db.DBProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.qexpense.android.todo.Import: void createSampleFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.qexpense.android.todo.Utils: void SaveToFile(android.content.Context,android.content.res.Resources,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.qexpense.android.todo.Export: void exportExcel(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.qexpense.android.todo.Utils: void SaveToFile(android.content.Context,android.content.res.Resources,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.qexpense.android.todo.Export: void createInvoice(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.qexpense.android.todo.Utils: void SaveToFile(android.content.Context,android.content.res.Resources,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.qexpense.android.todo.db.DBProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.qexpense.android.todo.db.DBProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.qexpense.android.todo.db.DBProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.qexpense.android.todo.db.DBProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.qexpense.android.todo.db.DBProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.qexpense.android.todo.db.DBProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.qexpense.android.todo.db.DBProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.qexpense.android.todo.db.DBProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.qexpense.android.todo.db.DBProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.qexpense.android.todo.db.DBProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.qexpense.android.todo.db.DBProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.qexpense.android.todo.db.DBProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+Caller: <com.qexpense.android.todo.db.DBExportImport: boolean checkDbIsValid(java.io.File,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.SyncDatabases: long getLocalDBColumnIdByColumnValueAndModifiedDate(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String,long,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.SyncDatabases: boolean syncDatabases()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.SyncDatabases: boolean syncDatabases()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.SyncDatabases: boolean syncDatabases()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.SyncDatabases: boolean syncDatabases()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.SyncDatabases: boolean syncDatabases()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.SyncDatabases: boolean syncDatabases()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.SyncDatabases: boolean syncDatabases()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.SyncDatabases: boolean syncDatabases()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.SyncDatabases: boolean syncDatabases()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.SyncDatabases: boolean syncDatabases()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.SyncDatabases: boolean syncDatabases()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.SyncDatabases: long getLocalDBColumnIdBySyncId(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.SyncDatabases: long getLocalDBColumnIdByColumnValue(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String,long,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(boolean,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.qexpense.android.todo.db.DBExportImport: boolean checkDbIsValid(java.io.File,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.SyncDatabases$1: void onClick(android.content.DialogInterface,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.qexpense.android.todo.Export: void createInvoice(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.qexpense.android.todo.Utils: void SaveToFile(android.content.Context,android.content.res.Resources,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.qexpense.android.todo.Preferences: void createBackup(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.qexpense.android.todo.Export: void exportExcel(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.qexpense.android.todo.Import: void createSampleWB(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.qexpense.android.todo.Import: void createSampleFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.DownloadFromDrive$DownloadFile: java.lang.String doInBackground(android.accounts.Account[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.qexpense.android.todo.Export: void createWB(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.qexpense.android.todo.Preferences: boolean saveFileToAppDataDirectoryAndRestoreBackupFile(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.qexpense.android.todo.db.DBProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.qexpense.android.todo.db.DBProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.qexpense.android.todo.Preferences: void createBackup(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.qexpense.android.todo.db.DBExportImport: void copyFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.qexpense.android.todo.Import: void importFile()>
+Thread: [UI]
+-------------------------
+
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.qexpense.android.todo.db.DBExportImport$1: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.qexpense.android.todo.db.DBExportImport: boolean exportDb(android.content.Context,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.qexpense.android.todo.Import: void createSampleFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.qexpense.android.todo.Export: void exportExcel(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.qexpense.android.todo.Utils: void SaveToFile(android.content.Context,android.content.res.Resources,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.qexpense.android.todo.db.DBExportImport: boolean exportDbToAppDataDirectory(android.content.Context,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.qexpense.android.todo.db.DBExportImport$3: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.qexpense.android.todo.Preferences: boolean saveFileToAppDataDirectoryAndRestoreBackupFile(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.DownloadFromDrive$DownloadFile: java.lang.String doInBackground(android.accounts.Account[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.GDriveSync: boolean FileExistInSDCard(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.SyncDatabases: boolean syncDatabases()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.qexpense.android.todo.Import: void createSampleFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.qexpense.android.todo.Import: void createSampleFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.qexpense.android.todo.Utils: void SaveToFile(android.content.Context,android.content.res.Resources,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.qexpense.android.todo.Import: void importFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.qexpense.android.todo.db.DBExportImport: boolean exportDbToAppDataDirectory(android.content.Context,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.qexpense.android.todo.db.gdrive.sync.DownloadFromDrive$DownloadFile: void onPostExecute(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.qexpense.android.todo.Export: void exportExcel(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.qexpense.android.todo.Utils: void SaveToFile(android.content.Context,android.content.res.Resources,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.qexpense.android.todo.db.DBExportImport: boolean restoreDb(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.qexpense.android.todo.Import: void importFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.qexpense.android.todo.Preferences: boolean saveFileToAppDataDirectoryAndRestoreBackupFile(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.qexpense.android.todo.db.DBExportImport: boolean exportDb(android.content.Context,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.qexpense.android.todo.Export: void exportExcel(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.qexpense.android.todo.Preferences: void createBackup(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.qexpense.android.todo.Preferences: boolean saveFileToAppDataDirectoryAndRestoreBackupFile(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.qexpense.android.todo.Preferences: boolean saveFileToAppDataDirectoryAndRestoreBackupFile(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.qexpense.android.todo.Preferences: void createBackup(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.qexpense.android.todo.Preferences: boolean saveFileToAppDataDirectoryAndRestoreBackupFile(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.qexpense.android.todo.Preferences: void createBackup(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.qexpense.android.todo.Preferences: boolean saveFileToAppDataDirectoryAndRestoreBackupFile(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.qexpense.android.todo.Preferences: void createBackup(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.qexpense.android.todo.db.DBExportImport: void copyFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.qexpense.android.todo.db.DBExportImport: void copyFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.qexpense.android.todo.db.DBExportImport: void copyFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.qexpense.android.todo.db.DBExportImport: void copyFile(java.io.File,java.io.File)>
+Thread: [UI]
+
+
+

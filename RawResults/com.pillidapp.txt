@@ -1,0 +1,2082 @@
+Time1: 64.088751871
+Time2: 5.824927855
+Worker: 158
+UI: 361
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: boolean isRooted(android.content.Context)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: boolean isRooted(android.content.Context)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsFileMarker: boolean isPresent()>
+Thread: [<com.crashlytics.android.core.CrashlyticsCore$4: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsCore$4: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void createTargetDirectory()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.QueueFileLogStore: com.crashlytics.android.core.ByteString getLogAsByteString()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.MetaDataStore: java.util.Map readKeyData(java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.LogFileManager: java.io.File getLogFileDir()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void <init>(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void <init>(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.squareup.okhttp.internal.io.FileSystem$1: boolean exists(java.io.File)>
+Thread: [<com.squareup.okhttp.internal.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void <init>(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.squareup.okhttp.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [<com.squareup.okhttp.internal.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeUserData(java.lang.String,com.crashlytics.android.core.UserMetaData)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Boolean doInBackground(java.lang.String[])>
+Thread: [<com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void <init>(java.io.File,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeKeyData(java.lang.String,java.util.Map)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.events.GZIPQueueFileEventStorage: java.io.OutputStream getMoveOutputStream(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Sink sink(java.io.File)>
+Thread: [<com.squareup.okhttp.internal.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void copyStream(java.io.InputStream,java.io.OutputStream,byte[])>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void writeHeader(int,int,int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void writeHeader(int,int,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<okhttp3.ConnectionPool$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsCore$4: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.squareup.okhttp.internal.io.FileSystem$1: okio.Sink appendingSink(java.io.File)>
+Thread: [<com.squareup.okhttp.internal.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void createTargetDirectory()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.crashlytics.android.core.LogFileManager: java.io.File getLogFileDir()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.squareup.okhttp.internal.io.FileSystem$1: okio.Sink sink(java.io.File)>
+Thread: [<com.squareup.okhttp.internal.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Boolean doInBackground(java.lang.String[])>
+Thread: [<com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void writeHeader(int,int,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void writeHeader(int,int,int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.mopub.common.util.Streams: void copyContent(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void copyStream(java.io.InputStream,java.io.OutputStream,byte[])>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void close()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeUserData(java.lang.String,com.crashlytics.android.core.UserMetaData)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeKeyData(java.lang.String,java.util.Map)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.pillidapp.NotFoundActivity: android.graphics.Bitmap rotateImage(android.graphics.Bitmap,float)>
+Thread: [<com.pillidapp.NotFoundActivity$ImageProcessing: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.mopub.common.MoPubHttpUrlConnection: java.net.HttpURLConnection getHttpUrlConnection(java.lang.String)>
+Thread: [<com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.mopub.common.UrlResolutionTask: java.lang.String getRedirectLocation(java.lang.String)>
+Thread: [<com.mopub.common.UrlResolutionTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: java.io.RandomAccessFile open(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: java.io.RandomAccessFile open(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: java.io.RandomAccessFile open(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.mopub.common.MoPubHttpUrlConnection: java.net.HttpURLConnection getHttpUrlConnection(java.lang.String)>
+Thread: [<com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.mopub.common.MoPubHttpUrlConnection: java.net.URI encodeUrl(java.lang.String)>
+Thread: [<com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.mopub.common.UrlResolutionTask: java.lang.String getRedirectLocation(java.lang.String)>
+Thread: [<com.mopub.common.UrlResolutionTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.squareup.okhttp.internal.io.FileSystem$1: void rename(java.io.File,java.io.File)>
+Thread: [<com.squareup.okhttp.internal.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.mopub.common.util.Streams: void closeStream(java.io.Closeable)>
+Thread: [<com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.mopub.common.MoPubHttpUrlConnection: boolean isUrlImproperlyEncoded(java.lang.String)>
+Thread: [<com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: java.lang.String insertImage(android.content.ContentResolver,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Caller: <com.pillidapp.NotFoundActivity: android.net.Uri getImageUri(android.content.Context,android.graphics.Bitmap,int)>
+Thread: [<com.pillidapp.NotFoundActivity$ImageEnhanceProcessing: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: java.lang.String insertImage(android.content.ContentResolver,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Caller: <com.pillidapp.NotFoundActivity: android.net.Uri getImageUri(android.content.Context,android.graphics.Bitmap,int)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: java.lang.String insertImage(android.content.ContentResolver,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Caller: <com.pillidapp.NotFoundActivity: android.net.Uri getImageUri(android.content.Context,android.graphics.Bitmap,int)>
+Thread: [<com.pillidapp.NotFoundActivity$ImageProcessing: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void copyStream(java.io.InputStream,java.io.OutputStream,byte[])>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.mopub.common.util.Streams: void copyContent(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [<com.squareup.okhttp.internal.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void refreshBuffer()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.QueueFileLogStore$1: void read(java.io.InputStream,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.pillidapp.NotFoundActivity$ImageProcessing: java.lang.String doInBackground(android.net.Uri[])>
+Thread: [<com.pillidapp.NotFoundActivity$ImageProcessing: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.pillidapp.NotFoundActivity$ImageProcessing: java.lang.String doInBackground(android.net.Uri[])>
+Thread: [<com.pillidapp.NotFoundActivity$ImageProcessing: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.pillidapp.NotFoundActivity$ImageEnhanceProcessing: java.lang.String doInBackground(android.net.Uri[])>
+Thread: [<com.pillidapp.NotFoundActivity$ImageEnhanceProcessing: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.net.URL toURL()>
+Caller: <com.mopub.common.MoPubHttpUrlConnection: java.lang.String urlEncode(java.lang.String)>
+Thread: [<com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.mopub.common.MoPubHttpUrlConnection: java.net.URI encodeUrl(java.lang.String)>
+Thread: [<com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeKeyData(java.lang.String,java.util.Map)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeUserData(java.lang.String,com.crashlytics.android.core.UserMetaData)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.String getFileNameForUriAndHeaders(java.net.URI,java.util.Map)>
+Thread: [<com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.mopub.common.util.Streams: void copyContent(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [<com.squareup.okhttp.internal.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void refreshBuffer()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <okio.Okio: okio.Sink appendingSink(java.io.File)>
+Thread: [<com.squareup.okhttp.internal.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: java.io.File[] listFilesMatching(java.io.File,java.io.FilenameFilter)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <okio.Okio$1: void close()>
+Thread: [<com.squareup.okhttp.internal.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.mopub.common.util.Streams: void closeStream(java.io.Closeable)>
+Thread: [<com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeKeyData(java.lang.String,java.util.Map)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeUserData(java.lang.String,com.crashlytics.android.core.UserMetaData)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void move(java.io.File,java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.MetaDataStore: java.util.Map readKeyData(java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.QueueFileLogStore: void deleteLogFile()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.squareup.okhttp.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [<com.squareup.okhttp.internal.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void move(java.io.File,java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsFileMarker: boolean remove()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void move(java.io.File,java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void setLength(int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void setLength(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.mopub.common.util.Streams: void copyContent(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setExecutable(boolean,boolean)>
+Caller: <pl.droidsonroids.gif.ReLinker: void setFilePermissions(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.MetaDataStore: java.util.Map readKeyData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void writeToCosFromFile(com.crashlytics.android.core.CodedOutputStream,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void doCleanInvalidTempFiles(java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: org.json.JSONObject readCachedSettings()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.internal.zzatg: boolean zzKP()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.squareup.okhttp.internal.io.FileSystem$1: boolean exists(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.internal.zzasu: boolean zzKP()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.QueueFileLogStore: com.crashlytics.android.core.ByteString getLogAsByteString()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.squareup.okhttp.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzw: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.firebase.iid.zzh: void zzeK(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.pillidapp.NotFoundActivity: java.io.File getOutputMediaFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void trimInvalidSessionFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: boolean isRooted(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzw: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsFileMarker: boolean isPresent()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: boolean isRooted(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.LogFileManager: java.io.File getLogFileDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.MetaDataStore: com.crashlytics.android.core.UserMetaData readUserData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.crashlytics.android.beta.DeviceTokenLoader: java.util.zip.ZipInputStream getZipInputStreamOfApkFrom(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void <init>(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <pl.droidsonroids.gif.ReLinker: java.io.File unpackLibrary(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Sink sink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Boolean doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <com.soundcloud.android.crop.CropUtil: java.io.File getFromMediaUriPfd(android.content.Context,android.content.ContentResolver,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzasu: com.google.android.gms.internal.zzaud zzR(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzasu: boolean zza(com.google.android.gms.internal.zzati,android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzasu: java.util.Map zzS(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzasu: java.util.Map zzT(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzasu: com.google.android.gms.internal.zzasy zzP(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzasu: byte[] zzfA(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzasu: java.util.Map zzfC(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzasu: com.google.android.gms.internal.zzasp zzfy(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzasu: com.google.android.gms.internal.zzasu$zza zza(long,java.lang.String,boolean,boolean,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.pillidapp.PrivacyPolicyActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.pillidapp.MainActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.pillidapp.ReviewActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.pillidapp.EmailsActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.pillidapp.QuickTipsActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.pillidapp.TutorialActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.pillidapp.HelpActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.pillidapp.SettingsActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.pillidapp.NotFoundActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.pillidapp.TermsConditionsActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.pillidapp.AboutUsActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.pillidapp.SearchResultActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.pillidapp.DrugDescriptionActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.squareup.okhttp.internal.io.FileSystem$1: okio.Sink appendingSink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.pillidapp.NotFoundActivity: java.io.File getOutputMediaFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.Boolean doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.google.android.gms.common.util.zzw: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.squareup.okhttp.internal.io.FileSystem$1: okio.Sink sink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.crashlytics.android.core.LogFileManager: java.io.File getLogFileDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.squareup.okhttp.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.soundcloud.android.crop.CropImageActivity: int calculateBitmapSampleSize(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.soundcloud.android.crop.CropImageActivity: android.graphics.Bitmap decodeRegionCrop(android.graphics.Rect,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.soundcloud.android.crop.CropImageActivity: void loadInput()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.squareup.picasso.MarkableInputStream: void skip(long,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzfD(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzfD(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzfD(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzA(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: boolean zzc(java.lang.String,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzatg: boolean zza(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzfB(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzfD(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzal(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzfD(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: long zzfz(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzA(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzfB(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzatg: java.util.List zzls(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzG(java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzQ(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzfD(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzKJ()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzfD(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzfD(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.FileChannel: java.nio.channels.FileLock tryLock()>
+Caller: <com.google.android.gms.internal.zzatp: boolean zzLD()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest closeOutput()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest closeOutput()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.soundcloud.android.crop.CropUtil: java.io.File getFromMediaUriPfd(android.content.Context,android.content.ContentResolver,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.peekandpop.shalskar.peekandpop.BlurBuilder: android.graphics.Bitmap blur(android.content.Context,android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzdk(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.mopub.common.util.Streams: void copyContent(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <pl.droidsonroids.gif.ReLinker: void copy(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.squareup.picasso.Utils: byte[] toByteArray(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String hash(java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.soundcloud.android.crop.CropUtil: java.io.File getFromMediaUriPfd(android.content.Context,android.content.ContentResolver,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read()>
+Caller: <com.squareup.picasso.MarkableInputStream: int read()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzdk(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.internal.zzasu$zzc: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.internal.zzasu$zzc: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.internal.zzatg$zza: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.internal.zzatg$zza: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.CursorWindow: boolean isNull(int,int)>
+Caller: <com.google.android.gms.internal.zzasu: int zza(android.database.Cursor,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.CursorWindow: boolean isFloat(int,int)>
+Caller: <com.google.android.gms.internal.zzasu: int zza(android.database.Cursor,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.pillidapp.NotFoundActivity: android.graphics.Bitmap rotateImage(android.graphics.Bitmap,float)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.soundcloud.android.crop.CropImageActivity: android.graphics.Bitmap decodeRegionCrop(android.graphics.Rect,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.squareup.picasso.BitmapHunter: android.graphics.Bitmap transformResult(com.squareup.picasso.Request,android.graphics.Bitmap,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.CursorWindow: boolean isString(int,int)>
+Caller: <com.google.android.gms.internal.zzasu: int zza(android.database.Cursor,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <pl.droidsonroids.gif.ReLinker: java.io.File unpackLibrary(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <pl.droidsonroids.gif.ReLinker: java.io.File unpackLibrary(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$ConnectionFactory$1: java.net.HttpURLConnection create(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.mopub.common.MoPubHttpUrlConnection: java.net.HttpURLConnection getHttpUrlConnection(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.mopub.common.UrlResolutionTask: java.lang.String getRedirectLocation(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <com.google.android.gms.internal.zzasu: void zza(com.google.android.gms.internal.zzati,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <com.google.android.gms.internal.zzasu: void zza(com.google.android.gms.internal.zzati,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <pl.droidsonroids.gif.ReLinker: void setFilePermissions(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: void writeCachedSettings(long,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.gms.internal.zzatg: boolean zza(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.content.res.AssetFileDescriptor openAssetFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <pl.droidsonroids.gif.GifInfoHandle: pl.droidsonroids.gif.GifInfoHandle openUri(android.content.ContentResolver,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <pl.droidsonroids.gif.ReLinker: void setFilePermissions(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.gms.internal.zzasu: void setTransactionSuccessful()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.gms.internal.zzasu: void zzb(java.lang.String,com.google.android.gms.internal.zzauf$zza[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.gms.internal.zzatg: java.util.List zzls(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.gms.internal.zzatg: boolean zza(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.gms.internal.zzasu: long zzU(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: java.io.RandomAccessFile open(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzatp: boolean zzLD()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.gms.internal.zzasu: void zzb(java.lang.String,com.google.android.gms.internal.zzauf$zza[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.gms.internal.zzatg: boolean zza(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.gms.internal.zzatg: java.util.List zzls(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.gms.internal.zzasu: long zzU(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.gms.internal.zzasu: void beginTransaction()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: int getHeaderFieldInt(java.lang.String,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: int intHeader(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean,boolean)>
+Caller: <com.google.android.gms.internal.zzasu: void zza(com.google.android.gms.internal.zzati,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean,boolean)>
+Caller: <com.google.android.gms.internal.zzasu: void zza(com.google.android.gms.internal.zzati,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.zzo: void zzb(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzatp: void zzb(com.google.android.gms.internal.zzasp)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.mopub.common.MoPubHttpUrlConnection: java.net.HttpURLConnection getHttpUrlConnection(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.mopub.common.UrlResolutionTask: java.lang.String getRedirectLocation(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <okhttp3.HttpUrl: java.net.URL url()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzatp: void zzLG()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.mopub.common.MoPubHttpUrlConnection: java.net.URI encodeUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.ads.identifier.AdvertisingIdClient: com.google.android.gms.common.zza zzf(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.ads.identifier.AdvertisingIdClient: com.google.android.gms.internal.zzcn zza(android.content.Context,com.google.android.gms.common.zza)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String toASCIIString()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void doCleanInvalidTempFiles(java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.squareup.okhttp.internal.io.FileSystem$1: void rename(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.soundcloud.android.crop.CropUtil: java.lang.String getTempFilename(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.gms.internal.zzasu: void zza(com.google.android.gms.internal.zzauh$zze,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.gms.internal.zzasu: void zza(com.google.android.gms.internal.zzasx,long,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <io.fabric.sdk.android.services.network.SystemKeyStore: java.security.KeyStore getTrustStore(java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.mopub.common.util.Streams: void closeStream(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <io.fabric.sdk.android.services.network.SystemKeyStore: java.security.KeyStore getTrustStore(java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$CloseOperation: void done()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$CloseOperation: void done()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.mopub.common.MoPubHttpUrlConnection: boolean isUrlImproperlyEncoded(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.net.Proxy createProxy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: java.lang.String insertImage(android.content.ContentResolver,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Caller: <com.pillidapp.NotFoundActivity: android.net.Uri getImageUri(android.content.Context,android.graphics.Bitmap,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.mopub.mobileads.AdAlertReporter: android.graphics.Bitmap takeScreenShot()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.peekandpop.shalskar.peekandpop.BlurBuilder: android.graphics.Bitmap blur(android.content.Context,android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.mopub.common.util.Streams: void copyContent(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void refreshBuffer()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <pl.droidsonroids.gif.ReLinker: void copy(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void copyToCodedOutputStream(java.io.InputStream,com.crashlytics.android.core.CodedOutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.soundcloud.android.crop.CropUtil: void closeSilently(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <okio.Okio$2: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: void writeCachedSettings(long,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void copyToCodedOutputStream(java.io.InputStream,com.crashlytics.android.core.CodedOutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.squareup.picasso.Utils: boolean isWebPFile(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.QueueFileLogStore$1: void read(java.io.InputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.CursorWindow: boolean isBlob(int,int)>
+Caller: <com.google.android.gms.internal.zzasu: int zza(android.database.Cursor,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.pillidapp.NotFoundActivity$17: void onStopTrackingTouch(android.widget.SeekBar)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.pillidapp.NotFoundActivity$ImageProcessing: java.lang.String doInBackground(android.net.Uri[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.pillidapp.NotFoundActivity$ImageEnhanceProcessing: java.lang.String doInBackground(android.net.Uri[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.pillidapp.NotFoundActivity$ImageProcessing: java.lang.String doInBackground(android.net.Uri[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: boolean inTransaction()>
+Caller: <com.google.android.gms.internal.zzatg: boolean zza(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: boolean inTransaction()>
+Caller: <com.google.android.gms.internal.zzatg: java.util.List zzls(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzasu: void zza(com.google.android.gms.internal.zzati,android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzasu: void zza(com.google.android.gms.internal.zzati,android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.net.URL toURL()>
+Caller: <com.mopub.common.MoPubHttpUrlConnection: java.lang.String urlEncode(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.mopub.mobileads.VastMacroHelper: com.mopub.mobileads.VastMacroHelper withAssetUri(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Proxy: void <init>(java.net.Proxy$Type,java.net.SocketAddress)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.net.Proxy createProxy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.crashlytics.android.answers.Answers: boolean onPreExecute()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.mopub.common.MoPubHttpUrlConnection: java.net.URI encodeUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedOutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream: io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream write(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <com.mopub.mraid.MraidNativeCommandHandler$DownloadImageAsyncTask: java.lang.String getFileNameForUriAndHeaders(java.net.URI,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.mopub.common.util.Streams: void copyContent(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void refreshBuffer()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <pl.droidsonroids.gif.ReLinker: void copy(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.soundcloud.android.crop.CropUtil: java.io.File getFromMediaUriPfd(android.content.Context,android.content.ContentResolver,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <okio.Okio: okio.Sink appendingSink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: java.io.File[] listFilesMatching(java.io.File,java.io.FilenameFilter)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <pl.droidsonroids.gif.ReLinker: void clearOldLibraryFiles(java.io.File,java.io.FilenameFilter)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.crashlytics.android.core.Utils: void capFileCount(java.io.File,java.io.FilenameFilter,int,java.util.Comparator)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzasu: long zzU(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzasu: void zzb(java.lang.String,com.google.android.gms.internal.zzauf$zza[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzatg: boolean zza(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzasu: void zzb(java.lang.String,com.google.android.gms.internal.zzauf$zza[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzatg: boolean zza(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzatg: java.util.List zzls(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzasu: void endTransaction()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzatg: java.util.List zzls(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzasu: long zzU(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzasu: long zzU(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzasu: long zzU(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzasu: long zzU(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.internal.zzasu: boolean zza(java.lang.String,int,com.google.android.gms.internal.zzauf$zzb)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.internal.zzasu: long zza(com.google.android.gms.internal.zzauh$zze)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.internal.zzasu: boolean zza(java.lang.String,int,com.google.android.gms.internal.zzauf$zze)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.internal.zzasu: void zza(com.google.android.gms.internal.zzasp)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.internal.zzasu: void zza(java.lang.String,int,com.google.android.gms.internal.zzauh$zzf)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.internal.zzasu: void zza(com.google.android.gms.internal.zzasy)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.internal.zzasu: long zzU(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.internal.zzasu: boolean zza(com.google.android.gms.internal.zzaud)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.soundcloud.android.crop.CropUtil: void closeSilently(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void closeInProgressStream()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <okio.Okio$1: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.mopub.common.util.Streams: void closeStream(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <pl.droidsonroids.gif.ReLinker: void closeSilently(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.google.firebase.iid.zzh: void zzeK(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.crashlytics.android.core.CrashlyticsFileMarker: boolean create()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream: void <init>(java.io.OutputStream,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okio.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzbur: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.squareup.okhttp.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzbur: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: void writeCachedSettings(long,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void doCleanInvalidTempFiles(java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzasu: void zza(java.lang.String,long,long,com.google.android.gms.internal.zzasu$zzb)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzatg: java.util.List zzls(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzasu: java.util.List zzn(java.lang.String,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzasu: java.util.List zzfx(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzasu: void zza(java.lang.String,long,long,com.google.android.gms.internal.zzasu$zzb)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.MetaDataStore: java.util.Map readKeyData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: org.json.JSONObject readCachedSettings()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void writeToCosFromFile(com.crashlytics.android.core.CodedOutputStream,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.MetaDataStore: com.crashlytics.android.core.UserMetaData readUserData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Source source(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.zzbur: boolean equals(java.lang.Object[],java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <okhttp3.internal.Util: java.util.List intersect(java.lang.Object[],java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.squareup.okhttp.internal.Util: java.util.List intersect(java.lang.Object[],java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: com.google.android.gms.internal.zzasu$zza zza(long,java.lang.String,boolean,boolean,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: long zzU(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzd(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.google.android.gms.internal.zzaue: byte[] zzx(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.squareup.picasso.Utils: byte[] toByteArray(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <pl.droidsonroids.gif.ReLinker: void clearOldLibraryFiles(java.io.File,java.io.FilenameFilter)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void doCleanInvalidTempFiles(java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.QueueFileLogStore: void deleteLogFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.internal.zzasu$zzc: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.LogFileManager: void discardOldLogFiles(java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.squareup.okhttp.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void retainSessions(java.io.File[],java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.internal.zzatg$zza: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void retainSessions(java.io.File[],java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.squareup.okhttp.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.Utils: void capFileCount(java.io.File,java.io.FilenameFilter,int,java.util.Comparator)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void deleteSessionPartFilesFor(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <com.google.android.gms.internal.zzaue: byte[] zzk(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection(java.net.Proxy)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$ConnectionFactory$1: java.net.HttpURLConnection create(java.net.URL,java.net.Proxy)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.ByteBuffer encode(java.nio.CharBuffer)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream: io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream write(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzz(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.gms.internal.zzasu: void zzfF(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.OutputStream openOutputStream(android.net.Uri)>
+Caller: <com.soundcloud.android.crop.CropImageActivity: void saveOutput(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read(byte[],int,int)>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Caller: <io.fabric.sdk.android.services.settings.IconRequest: io.fabric.sdk.android.services.settings.IconRequest build(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.crashlytics.android.core.LogFileManager: void discardOldLogFiles(java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.squareup.okhttp.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: java.io.File[] listFiles(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.CursorWindow: boolean isLong(int,int)>
+Caller: <com.google.android.gms.internal.zzasu: int zza(android.database.Cursor,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.mopub.common.util.Streams: void copyContent(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.google.android.gms.internal.zzaue: byte[] zzx(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zza(java.lang.String,long,long,com.google.android.gms.internal.zzasu$zzb)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu$zzc: void onOpen(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: java.lang.String zzam(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzatg$zza: void onOpen(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: java.lang.String zzKG()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: long zzKO()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzatg: boolean zza(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: long zza(java.lang.String,java.lang.String[],long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: void zza(java.lang.String,long,long,com.google.android.gms.internal.zzasu$zzb)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: java.util.Set zzb(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzasu: long zzb(java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.squareup.okhttp.internal.io.FileSystem$1: long size(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void writeToCosFromFile(com.crashlytics.android.core.CodedOutputStream,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: long skip(long)>
+Caller: <com.squareup.picasso.MarkableInputStream: void skip(long,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <com.squareup.okhttp.HttpUrl$Builder: java.lang.String domainToAscii(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String domainToAscii(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>
+Thread: [UI]
+-------------------------

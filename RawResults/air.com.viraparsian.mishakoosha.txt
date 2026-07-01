@@ -1,0 +1,86 @@
+Time1: 90.038615187
+Time2: 2.027550603
+Worker: 0
+UI: 20
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.distriqt.core.utils.FileProviderUtils: android.net.Uri copyFileToProviderDir(android.content.Context,java.lang.String,java.io.File,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <com.distriqt.core.utils.FileProviderUtils: void copyFile(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.distriqt.core.utils.FileProviderUtils: android.net.Uri copyFileToProviderDir(android.content.Context,java.lang.String,java.io.File,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.distriqt.core.utils.FileProviderUtils: void copyFile(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.distriqt.core.utils.FileProviderUtils: android.net.Uri copyFileToProviderDir(android.content.Context,java.lang.String,java.io.File,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.distriqt.core.utils.FileProviderUtils: void copyFile(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.adobe.air.CameraUIProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.distriqt.core.utils.FileProviderUtils: android.net.Uri copyFileToProviderDir(android.content.Context,java.lang.String,java.io.File,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.distriqt.core.utils.FileProviderUtils: android.net.Uri copyFileToProviderDir(android.content.Context,java.lang.String,java.io.File,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.distriqt.core.utils.FileProviderUtils: android.net.Uri copyFileToProviderDir(android.content.Context,java.lang.String,java.io.File,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.distriqt.core.utils.FileProviderUtils: android.net.Uri copyFileToProviderDir(android.content.Context,java.lang.String,java.io.File,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.distriqt.core.utils.FileProviderUtils: android.net.Uri copyFileToProviderDir(android.content.Context,java.lang.String,java.io.File,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.distriqt.core.utils.FileProviderUtils: void copyFile(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <com.adobe.air.CameraUIProvider$SimplePathStrategy: void addRoot(java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <com.adobe.air.CameraUIProvider$SimplePathStrategy: java.io.File getFileForUri(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.adobe.air.CameraUIProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.distriqt.core.utils.FileProviderUtils: android.net.Uri copyFileToProviderDir(android.content.Context,java.lang.String,java.io.File,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.adobe.air.AIRFileProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <com.adobe.air.AIRFileProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <com.adobe.air.CameraUIProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------

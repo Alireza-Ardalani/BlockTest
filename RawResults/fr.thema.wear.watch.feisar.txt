@@ -1,0 +1,874 @@
+Time1: 404.854579279
+Time2: 27.969092524
+Worker: 129
+UI: 88
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.bumptech.glide.util.ByteBufferUtil: java.nio.ByteBuffer fromStream(java.io.InputStream)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.utils.NotificationHelper$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.bumptech.glide.util.ByteBufferUtil: java.nio.ByteBuffer fromStream(java.io.InputStream)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.activity.config.AbstractWatchFaceCompanionConfigActivity$10: void run()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.bumptech.glide.util.ByteBufferUtil: java.nio.ByteBuffer fromStream(java.io.InputStream)>
+Thread: [<com.bumptech.glide.manager.SingletonConnectivityReceiver$FrameworkConnectivityMonitorPreApi24$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <fr.thema.wear.watch.frameworkmobile.weather.owm.OwmWeather: java.lang.String getWeatherData(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.data.WeatherSequence$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <fr.thema.wear.watch.frameworkmobile.weather.owm.OwmWeather: java.lang.String getWeatherData(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.data.WeatherSequence$JSONWeatherTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <fr.thema.wear.watch.frameworkmobile.utils.Utils: java.net.HttpURLConnection openUrlConnection(java.lang.String)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.data.WeatherSequence$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <fr.thema.wear.watch.frameworkmobile.utils.Utils: java.net.HttpURLConnection openUrlConnection(java.lang.String)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.data.WeatherSequence$JSONWeatherTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.utils.ConfigHelper$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <fr.thema.wear.watch.frameworkmobile.utils.Utils: java.net.HttpURLConnection openPostUrlConnection(java.lang.String)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.faces.FacesLoader$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.bumptech.glide.manager.SingletonConnectivityReceiver$FrameworkConnectivityMonitorPostApi24: void unregister()>
+Thread: [<fr.thema.wear.watch.frameworkmobile.activity.config.AbstractWatchFaceCompanionConfigActivity$10: void run()>]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.bumptech.glide.manager.SingletonConnectivityReceiver$FrameworkConnectivityMonitorPostApi24: void unregister()>
+Thread: [<fr.thema.wear.watch.frameworkmobile.utils.NotificationHelper$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$$ExternalSyntheticLambda25: java.lang.Object produce()>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$$ExternalSyntheticLambda25: java.lang.Object produce()>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$$ExternalSyntheticLambda25: java.lang.Object produce()>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$$ExternalSyntheticLambda25: java.lang.Object produce()>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <fr.thema.wear.watch.frameworkmobile.weather.owm.OwmWeather: java.lang.String getWeatherData(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.data.WeatherSequence$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <fr.thema.wear.watch.frameworkmobile.weather.owm.OwmWeather: java.lang.String getWeatherData(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.data.WeatherSequence$JSONWeatherTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.utils.ConfigHelper$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<fr.thema.wear.watch.frameworkmobile.utils.InstallationHelper$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <fr.thema.wear.watch.frameworkmobile.faces.FacesLoader: java.lang.String getFacesString()>
+Thread: [<fr.thema.wear.watch.frameworkmobile.faces.FacesLoader$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.utils.ConfigHelper$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<fr.thema.wear.watch.frameworkmobile.utils.InstallationHelper$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.utils.ConfigHelper$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.utils.ConfigHelper$1: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.bumptech.glide.util.ByteBufferUtil: java.nio.ByteBuffer fromStream(java.io.InputStream)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.utils.NotificationHelper$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.bumptech.glide.util.ByteBufferUtil: java.nio.ByteBuffer fromStream(java.io.InputStream)>
+Thread: [<com.bumptech.glide.manager.SingletonConnectivityReceiver$FrameworkConnectivityMonitorPreApi24$2: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.bumptech.glide.util.ByteBufferUtil: java.nio.ByteBuffer fromStream(java.io.InputStream)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.activity.config.AbstractWatchFaceCompanionConfigActivity$10: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.utils.ConfigHelper$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long ensureTransportContext(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long ensureTransportContext(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long ensureTransportContext(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long ensureTransportContext(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.utils.ConfigHelper$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.utils.ConfigHelper$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.utils.InstallationHelper$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <fr.thema.wear.watch.frameworkmobile.weather.owm.OwmWeather: java.lang.String getWeatherData(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.data.WeatherSequence$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.utils.ConfigHelper$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <fr.thema.wear.watch.frameworkmobile.utils.Utils: java.net.HttpURLConnection openUrlConnection(java.lang.String)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.data.WeatherSequence$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <fr.thema.wear.watch.frameworkmobile.utils.Utils: java.net.HttpURLConnection openUrlConnection(java.lang.String)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.data.WeatherSequence$JSONWeatherTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <fr.thema.wear.watch.frameworkmobile.utils.Utils: java.net.HttpURLConnection openPostUrlConnection(java.lang.String)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.faces.FacesLoader$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <fr.thema.wear.watch.frameworkmobile.weather.owm.OwmWeather: java.lang.String getWeatherData(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<fr.thema.wear.watch.frameworkmobile.data.WeatherSequence$JSONWeatherTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzal: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzaw: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<fr.thema.wear.watch.framework.billing.BillingManager$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzaa: java.lang.Object call()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader createInMemoryClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.bumptech.glide.util.ByteBufferUtil: java.nio.ByteBuffer fromStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <fr.thema.wear.watch.frameworkmobile.utils.Utils: java.net.HttpURLConnection openUrlConnection(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <fr.thema.wear.watch.frameworkmobile.weather.owm.OwmWeather: java.lang.String getWeatherData(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.bumptech.glide.manager.SingletonConnectivityReceiver$FrameworkConnectivityMonitorPostApi24: void unregister()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$$ExternalSyntheticLambda25: java.lang.Object produce()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <fr.thema.wear.watch.frameworkmobile.weather.owm.OwmWeather: java.lang.String getWeatherData(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader makeAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: dalvik.system.DexClassLoader makeLegacyAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader makeAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: dalvik.system.DexClassLoader makeLegacyAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.wearable.zzcv: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.bumptech.glide.load.Key: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.wearable.zzcv: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.cct.CCTDestination: byte[] asByteArray()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzfo: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzfo: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzfo: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.bumptech.glide.load.resource.bitmap.DefaultImageHeaderParser: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.wearable.zzcv: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.bumptech.glide.util.ByteBufferUtil: java.nio.ByteBuffer fromStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader makeAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader createInMemoryClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: dalvik.system.DexClassLoader makeLegacyAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long ensureTransportContext(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$3(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$1(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$2(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$1(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$3(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$3(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$1(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <fr.thema.wear.watch.frameworkmobile.weather.owm.OwmWeather: java.lang.String getWeatherData(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzw: com.google.android.gms.internal.consent_sdk.zzcl zzd(com.google.android.gms.internal.consent_sdk.zzcj)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <fr.thema.wear.watch.frameworkmobile.utils.Utils: java.net.HttpURLConnection openUrlConnection(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.util.List lambda$loadActiveContexts$10(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: dalvik.system.DexClassLoader makeLegacyAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader makeAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------

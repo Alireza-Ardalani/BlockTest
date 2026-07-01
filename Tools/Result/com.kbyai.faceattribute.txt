@@ -1,0 +1,30 @@
+Time1: 5.380960542
+Time2: 0.265577125
+Worker: 0
+UI: 6
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.kbyai.faceattribute.DBManager: void loadPerson()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.kbyai.faceattribute.DBManager: void insertPerson(java.lang.String,android.graphics.Bitmap,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.kbyai.faceattribute.Utils: android.graphics.Bitmap getCorrectlyOrientedImage(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.kbyai.faceattribute.Utils: android.graphics.Bitmap cropFace(android.graphics.Bitmap,com.kbyai.facesdk.FaceBox)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.kbyai.faceattribute.DBManager: void insertPerson(java.lang.String,android.graphics.Bitmap,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.kbyai.faceattribute.DBManager: void loadPerson()>
+Thread: [UI]
+-------------------------

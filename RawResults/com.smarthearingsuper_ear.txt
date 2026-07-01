@@ -1,0 +1,22 @@
+Time1: 16.804607853
+Time2: 0.274285081
+Worker: 1
+UI: 3
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.smarthearingsuper_ear.MicrophoneActivity$4: void run()>
+Thread: [<com.smarthearingsuper_ear.MicrophoneActivity$4: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.iu: void a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.smarthearingsuper_ear.MicrophoneActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.iu: void a(java.lang.String)>
+Thread: [UI]
+-------------------------

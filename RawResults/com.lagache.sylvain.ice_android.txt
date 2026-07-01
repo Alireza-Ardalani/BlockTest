@@ -1,0 +1,138 @@
+Time1: 20.592143724
+Time2: 41.696538584
+Worker: 6
+UI: 27
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.lagache.sylvain.ice_android.utils.ImageSaver: android.graphics.Bitmap load()>
+Thread: [<com.lagache.sylvain.ice_android.activities.ProfileActivity$LoadProfilePictureTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.lagache.sylvain.ice_android.utils.ImageSaver: android.graphics.Bitmap load()>
+Thread: [<com.lagache.sylvain.ice_android.activities.ProfileActivity$LoadProfilePictureTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.lagache.sylvain.ice_android.utils.ImageSaver: android.graphics.Bitmap load()>
+Thread: [<com.lagache.sylvain.ice_android.activities.ProfileActivity$LoadProfilePictureTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.lagache.sylvain.ice_android.utils.ImageSaver: java.io.File getAlbumStorageDir(java.lang.String)>
+Thread: [<com.lagache.sylvain.ice_android.activities.ProfileActivity$LoadProfilePictureTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.lagache.sylvain.ice_android.utils.ImageSaver: android.graphics.Bitmap load()>
+Thread: [<com.lagache.sylvain.ice_android.activities.ProfileActivity$LoadProfilePictureTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.lagache.sylvain.ice_android.utils.ImageSaver: java.io.File getAlbumStorageDir(java.lang.String)>
+Thread: [<com.lagache.sylvain.ice_android.activities.ProfileActivity$LoadProfilePictureTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.lagache.sylvain.ice_android.activities.ProfileActivity: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.lagache.sylvain.ice_android.utils.ImageSaver: android.graphics.Bitmap load()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.lagache.sylvain.ice_android.utils.DataManager: java.util.ArrayList loadContacts(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.lagache.sylvain.ice_android.utils.ImageSaver: android.graphics.Bitmap load()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.lagache.sylvain.ice_android.utils.ImageSaver: android.graphics.Bitmap load()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.lagache.sylvain.ice_android.utils.DataManager: com.lagache.sylvain.ice_android.models.Profile loadProfile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.lagache.sylvain.ice_android.utils.ImageSaver: java.io.File getAlbumStorageDir(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.lagache.sylvain.ice_android.utils.DataManager: com.lagache.sylvain.ice_android.models.Profile loadProfile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.lagache.sylvain.ice_android.utils.DataManager: java.util.ArrayList loadContacts(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.lagache.sylvain.ice_android.models.Profile: boolean saveProfile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.lagache.sylvain.ice_android.utils.DataManager: boolean saveContacts(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.lagache.sylvain.ice_android.utils.ImageSaver: android.graphics.Bitmap load()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.lagache.sylvain.ice_android.models.Profile: boolean saveProfile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.lagache.sylvain.ice_android.utils.DataManager: boolean saveContacts(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.lagache.sylvain.ice_android.utils.DataManager: com.lagache.sylvain.ice_android.models.Profile loadProfile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.lagache.sylvain.ice_android.utils.DataManager: java.util.ArrayList loadContacts(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.lagache.sylvain.ice_android.utils.ImageSaver: java.io.File getAlbumStorageDir(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.lagache.sylvain.ice_android.utils.DataManager: boolean saveContacts(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.lagache.sylvain.ice_android.models.Profile: boolean saveProfile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.lagache.sylvain.ice_android.utils.ImageSaver: java.io.File save(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.lagache.sylvain.ice_android.utils.ImageSaver: java.io.File save(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.lagache.sylvain.ice_android.utils.ImageSaver: java.io.File save(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.lagache.sylvain.ice_android.utils.ImageSaver: java.io.File save(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <com.lagache.sylvain.ice_android.models.Profile: boolean saveProfile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <com.lagache.sylvain.ice_android.utils.DataManager: boolean saveContacts(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.lagache.sylvain.ice_android.utils.DataManager: com.lagache.sylvain.ice_android.models.Profile loadProfile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.lagache.sylvain.ice_android.utils.DataManager: java.util.ArrayList loadContacts(android.content.Context)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,102 @@
+Time1: 746.793737144
+Time2: 19.381522362
+Worker: 9
+UI: 15
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void a(java.io.Closeable)>
+Thread: [<cz.masterapp.monitoring.ui.monitoring.master.MasterService$startMonitoring$1$1$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String a()>
+Thread: [<cz.masterapp.monitoring.ui.monitoring.master.MasterService$startMonitoring$1$1$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.net.NetworkCapabilities: void <init>(android.net.NetworkCapabilities)>
+Caller: <cz.masterapp.monitoring.ui.monitoring.master.MasterService: void <init>()>
+Thread: [<cz.masterapp.monitoring.ui.monitoring.master.MasterService$startMonitoring$1$1$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.net.NetworkCapabilities: void <init>(android.net.NetworkCapabilities)>
+Caller: <cz.masterapp.monitoring.ui.monitoring.slave.SlaveService: void <init>()>
+Thread: [<cz.masterapp.monitoring.ui.monitoring.slave.SlaveService$onDestroy$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.net.NetworkCapabilities: void <init>(android.net.NetworkCapabilities)>
+Caller: <cz.masterapp.monitoring.ui.monitoring.slave.SlaveService: void <init>()>
+Thread: [<cz.masterapp.monitoring.ui.monitoring.slave.SlaveService$onDestroy$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.net.NetworkCapabilities: void <init>(android.net.NetworkCapabilities)>
+Caller: <cz.masterapp.monitoring.ui.monitoring.master.MasterService: void <init>()>
+Thread: [<cz.masterapp.monitoring.ui.monitoring.master.MasterService$startMonitoring$1$1$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <cz.masterapp.monitoring.ui.monitoring.slave.SlaveService$onDestroy$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [<cz.masterapp.monitoring.ui.monitoring.slave.SlaveService$onDestroy$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <cz.masterapp.monitoring.ui.monitoring.master.MasterService$onDestroy$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [<cz.masterapp.monitoring.ui.monitoring.master.MasterService$onDestroy$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String a()>
+Thread: [<cz.masterapp.monitoring.ui.monitoring.master.MasterService$startMonitoring$1$1$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.journeyapps.barcodescanner.CaptureManager: java.lang.String o(com.journeyapps.barcodescanner.BarcodeResult)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void a(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.journeyapps.barcodescanner.CaptureManager: java.lang.String o(com.journeyapps.barcodescanner.BarcodeResult)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.journeyapps.barcodescanner.CaptureManager: java.lang.String o(com.journeyapps.barcodescanner.BarcodeResult)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <cz.masterapp.monitoring.ui.monitoring.slave.SlaveService: void A1(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <cz.masterapp.monitoring.ui.monitoring.master.MasterService: void E1(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <cz.masterapp.monitoring.ui.monitoring.master.MasterService: void E1(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <cz.masterapp.monitoring.ui.monitoring.slave.SlaveService: void A1(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkCapabilities: void <init>(android.net.NetworkCapabilities)>
+Caller: <cz.masterapp.monitoring.ui.monitoring.slave.SlaveService: void <init>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkCapabilities: void <init>(android.net.NetworkCapabilities)>
+Caller: <cz.masterapp.monitoring.ui.monitoring.slave.SlaveService: void <init>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkCapabilities: void <init>(android.net.NetworkCapabilities)>
+Caller: <cz.masterapp.monitoring.ui.monitoring.master.MasterService: void <init>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkCapabilities: void <init>(android.net.NetworkCapabilities)>
+Caller: <cz.masterapp.monitoring.ui.monitoring.master.MasterService: void <init>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------

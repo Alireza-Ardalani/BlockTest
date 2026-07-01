@@ -1,0 +1,26 @@
+Time1: 193.557470832
+Time2: 8.454055654
+Worker: 2
+UI: 3
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.rahatlabs.pukhto.novel.pakhtonovels.util.ImageUtilsKt: android.graphics.Bitmap loadImage(java.net.URL)>
+Thread: [<com.rahatlabs.pukhto.novel.pakhtonovels.services.FirebaseCloudMessagingService$onMessageReceived$1$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.rahatlabs.pukhto.novel.pakhtonovels.services.FirebaseCloudMessagingService$onMessageReceived$1$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [<com.rahatlabs.pukhto.novel.pakhtonovels.services.FirebaseCloudMessagingService$onMessageReceived$1$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------

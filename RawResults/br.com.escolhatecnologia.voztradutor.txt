@@ -1,0 +1,54 @@
+Time1: 74.810613872
+Time2: 2.874164677
+Worker: 3
+UI: 9
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.content.ContentResolver: android.content.res.AssetFileDescriptor openTypedAssetFileDescriptor(android.net.Uri,java.lang.String,android.os.Bundle)>
+Caller: <io.flutter.plugin.platform.d: java.lang.CharSequence r(g9.j$e)>
+Thread: [<o9.c: void run()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <h9.r: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [<o9.c: void run()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <h9.r: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [<io.flutter.plugin.platform.r: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.flutter.view.c$l: java.util.List q0(java.nio.ByteBuffer,java.nio.ByteBuffer[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <h9.t: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <h9.r: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck3.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.CharBuffer decode(java.nio.ByteBuffer)>
+Caller: <io.flutter.view.c$l: java.util.List q0(java.nio.ByteBuffer,java.nio.ByteBuffer[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.content.res.AssetFileDescriptor openTypedAssetFileDescriptor(android.net.Uri,java.lang.String,android.os.Bundle)>
+Caller: <io.flutter.plugin.platform.d: java.lang.CharSequence r(g9.j$e)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.pairip.VMRunner: byte[] readFullByteArrayFromStream(java.io.InputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <h9.r: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [UI]
+-------------------------

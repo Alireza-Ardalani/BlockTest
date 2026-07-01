@@ -1,0 +1,154 @@
+Time1: 23.156572609
+Time2: 1.682627677
+Worker: 3
+UI: 34
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <i0.b: android.database.Cursor g(int)>
+Thread: [<com.qh.blelight.GroupManagement$c$a$a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <i0.b: android.database.Cursor f(java.lang.String)>
+Thread: [<com.qh.blelight.GroupManagement$c$a$a: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.qh.blelight.GroupManagement$g$b: void run()>
+Thread: [<com.qh.blelight.GroupManagement$g$b: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <i0.b: void d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.qh.blelight.MusicActivity: void A()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.qh.blelight.MusicActivity: void A()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.qh.blelight.MusicActivity: void A()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.qh.blelight.MusicActivity: void A()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.qh.blelight.MusicActivity: void A()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.qh.blelight.AdjustActivity: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.qh.blelight.AdjustActivity: java.io.File G(android.net.Uri,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <i0.b: android.database.Cursor f(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <i0.b: android.database.Cursor h(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <i0.b: android.database.Cursor g(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <i0.b: android.database.Cursor e()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.qh.ui.ColorWheelView1: void e()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <i0.b: long a(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <com.qh.blelight.AdjustActivity: java.io.File G(android.net.Uri,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <i0.b: int i(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <i0.e: android.graphics.Bitmap b(android.graphics.Bitmap,float)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.qh.WheelView.loopview.LoopView: android.graphics.Bitmap f(android.graphics.Bitmap,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.qh.ui.ColorWheelView1: void onDraw(android.graphics.Canvas)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.qh.WheelView.loopview.LoopView: void c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.qh.WheelView.loopview.LoopView: void c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.qh.ui.ColorWheelView1: void e()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.qh.WheelView.loopview.LoopView: void c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.qh.ui.ColorWheelView1: void e()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.qh.WheelView.loopview.LoopView: void c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.qh.ui.ColorWheelView1: void e()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.qh.ui.ColorWheelView1: void e()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.qh.ui.ColorWheelView1: void e()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.qh.ui.ColorWheelView1: void e()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.qh.blelight.AdjustActivity: java.io.File G(android.net.Uri,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <i0.b: void d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.qh.blelight.AdjustActivity: java.io.File G(android.net.Uri,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <i0.b: long c(java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.qh.managegroup.DragListView: boolean onInterceptTouchEvent(android.view.MotionEvent)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,122 @@
+Time1: 13.124573567
+Time2: 0.51493828
+Worker: 6
+UI: 23
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.appcelerator.aps.APSAnalyticsModel: boolean hasEvents()>
+Thread: [<com.appcelerator.aps.APSAnalyticsService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.appcelerator.aps.APSAnalyticsModel: java.util.LinkedHashMap getEventsAsJSON(int)>
+Thread: [<com.appcelerator.aps.APSAnalyticsService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.appcelerator.aps.APSAnalyticsModel: boolean hasEvents()>
+Thread: [<com.appcelerator.aps.APSAnalyticsService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.appcelerator.aps.APSAnalyticsModel: java.util.LinkedHashMap getEventsAsJSON(int)>
+Thread: [<com.appcelerator.aps.APSAnalyticsService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.appcelerator.aps.APSAnalyticsModel: void deleteEvents(int[])>
+Thread: [<com.appcelerator.aps.APSAnalyticsService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.appcelerator.aps.APSAnalyticsModel: void deleteEvents(int[])>
+Thread: [<com.appcelerator.aps.APSAnalyticsService$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.appcelerator.titanium.util.TiFileHelper: java.io.File getDataDirectory(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <org.appcelerator.titanium.io.TiFile: java.io.InputStream getInputStream()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.net.URL toURL()>
+Caller: <ti.modules.titanium.media.TiCameraActivity: void stopVideoCapture()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String guessContentTypeFromStream(java.io.InputStream)>
+Caller: <org.appcelerator.titanium.TiBlob: java.lang.String guessContentTypeFromStream()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <org.appcelerator.titanium.util.TiUrl: org.appcelerator.titanium.util.TiUrl normalizeWindowUrl(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.appcelerator.aps.APSAnalyticsHelper: java.lang.String getArchitecture()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.appcelerator.aps.APSAnalyticsHelper: java.lang.String getArchitecture()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <org.appcelerator.titanium.io.TiFile: long size()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <org.appcelerator.titanium.TiBlob: int getLength()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <org.appcelerator.titanium.util.TiFileHelper: java.io.File getDataDirectory(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.appcelerator.aps.APSAnalyticsHelper: java.lang.String getArchitecture()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <org.appcelerator.kroll.util.KrollStreamHelper: void pump(java.io.InputStream,java.io.OutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <org.appcelerator.kroll.util.KrollAssetHelper: java.lang.String readAsset(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.appcelerator.aps.APSAnalyticsHelper: java.lang.String getArchitecture()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.appcelerator.titanium.TiBlob: byte[] getBytes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.appcelerator.titanium.TiBlob: byte[] getBytes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.appcelerator.titanium.TiBlob: byte[] getBytes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.appcelerator.titanium.TiBlob: byte[] getBytes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <org.appcelerator.kroll.util.KrollStreamHelper: void pump(java.io.InputStream,java.io.OutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <org.appcelerator.kroll.util.KrollAssetHelper: java.lang.String readAsset(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <org.appcelerator.titanium.TiBlob: java.lang.String guessAdditionalContentTypeFromStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <org.appcelerator.kroll.util.KrollStreamHelper: void pump(java.io.InputStream,java.io.OutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.net.URI toURI()>
+Caller: <ti.modules.titanium.media.TiCameraActivity: void stopVideoCapture()>
+Thread: [UI]
+-------------------------

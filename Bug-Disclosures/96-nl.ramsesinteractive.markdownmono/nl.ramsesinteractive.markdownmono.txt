@@ -1,0 +1,26 @@
+-------------------------UIThread-------------------------
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <f7.g1: void h(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read(char[])>
+Caller: <f7.g1: void h(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.StringWriter: void write(char[],int,int)>
+Caller: <f7.g1: void h(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Caller: <f7.g1: java.lang.String j(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.Cursor: java.lang.String getString(int)>
+Caller: <f7.g1: java.lang.String j(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.Cursor: boolean moveToFirst()>
+Caller: <f7.g1: java.lang.String j(android.net.Uri)>
+Thread: [UI]
+-------------------------

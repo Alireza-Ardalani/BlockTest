@@ -1,0 +1,334 @@
+Time1: 23.785799056
+Time2: 2.246655401
+Worker: 17
+UI: 65
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.datebytesapps.dating.service.MyService: int uploadFile(java.lang.String)>
+Thread: [<com.datebytesapps.dating.service.MyService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.datebytesapps.dating.service.MyService: int uploadFile(java.lang.String)>
+Thread: [<com.datebytesapps.dating.service.MyService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.datebytesapps.dating.service.MyService: int uploadFile(java.lang.String)>
+Thread: [<com.datebytesapps.dating.service.MyService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.datebytesapps.dating.service.MyService: int uploadFile(java.lang.String)>
+Thread: [<com.datebytesapps.dating.service.MyService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <com.datebytesapps.dating.service.MyService: int uploadFile(java.lang.String)>
+Thread: [<com.datebytesapps.dating.service.MyService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.datebytesapps.dating.service.MyService: int uploadFile(java.lang.String)>
+Thread: [<com.datebytesapps.dating.service.MyService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.datebytesapps.dating.service.MyService: int uploadFile(java.lang.String)>
+Thread: [<com.datebytesapps.dating.service.MyService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeBytes(java.lang.String)>
+Caller: <com.datebytesapps.dating.service.MyService: int uploadFile(java.lang.String)>
+Thread: [<com.datebytesapps.dating.service.MyService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeBytes(java.lang.String)>
+Caller: <com.datebytesapps.dating.service.MyService: int uploadFile(java.lang.String)>
+Thread: [<com.datebytesapps.dating.service.MyService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeBytes(java.lang.String)>
+Caller: <com.datebytesapps.dating.service.MyService: int uploadFile(java.lang.String)>
+Thread: [<com.datebytesapps.dating.service.MyService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeBytes(java.lang.String)>
+Caller: <com.datebytesapps.dating.service.MyService: int uploadFile(java.lang.String)>
+Thread: [<com.datebytesapps.dating.service.MyService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeBytes(java.lang.String)>
+Caller: <com.datebytesapps.dating.service.MyService: int uploadFile(java.lang.String)>
+Thread: [<com.datebytesapps.dating.service.MyService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void write(byte[],int,int)>
+Caller: <com.datebytesapps.dating.service.MyService: int uploadFile(java.lang.String)>
+Thread: [<com.datebytesapps.dating.service.MyService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.datebytesapps.dating.service.MyService: java.lang.String convertStreamToString(java.io.InputStream)>
+Thread: [<com.datebytesapps.dating.service.MyService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.datebytesapps.dating.service.MyService: int uploadFile(java.lang.String)>
+Thread: [<com.datebytesapps.dating.service.MyService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.datebytesapps.dating.service.MyService: int uploadFile(java.lang.String)>
+Thread: [<com.datebytesapps.dating.service.MyService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.squareup.okhttp.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<com.squareup.okhttp.ConnectionPool$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Source source(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzcz(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.squareup.okhttp.HttpUrl: java.net.URL url()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.google.firebase.iid.zzg: void zzeC(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress[] getAllByName(java.lang.String)>
+Caller: <com.squareup.okhttp.internal.Network$1: java.net.InetAddress[] resolveInetAddresses(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.squareup.okhttp.MediaType: java.nio.charset.Charset charset(java.nio.charset.Charset)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.squareup.okhttp.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okio.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.squareup.okhttp.MediaType: java.nio.charset.Charset charset()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <okio.Okio$2: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void connect(java.net.SocketAddress,int)>
+Caller: <com.squareup.okhttp.internal.Platform$Android: void connectSocket(java.net.Socket,java.net.InetSocketAddress,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void connect(java.net.SocketAddress,int)>
+Caller: <com.squareup.okhttp.internal.Platform: void connectSocket(java.net.Socket,java.net.InetSocketAddress,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+Caller: <com.squareup.okhttp.internal.http.AuthenticatorAdapter: java.net.InetAddress getConnectToInetAddress(java.net.Proxy,com.squareup.okhttp.HttpUrl)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.InputStream getInputStream()>
+Caller: <okio.Okio: okio.Source source(java.net.Socket)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: java.lang.String getHostName()>
+Caller: <com.squareup.okhttp.internal.http.RouteSelector: java.lang.String getHostString(java.net.InetSocketAddress)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: java.lang.String getHostName()>
+Caller: <com.squareup.okhttp.internal.http.AuthenticatorAdapter: com.squareup.okhttp.Request authenticateProxy(java.net.Proxy,com.squareup.okhttp.Response)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: int getSoTimeout()>
+Caller: <com.squareup.okhttp.internal.http.HttpConnection: boolean isReadable()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Proxy: void <init>(java.net.Proxy$Type,java.net.SocketAddress)>
+Caller: <com.squareup.okhttp.OkHttpClient: com.squareup.okhttp.OkHttpClient copyWithDefaults()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.squareup.okhttp.RequestBody$3: long contentLength()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <com.squareup.okhttp.internal.http.HttpConnection: boolean isReadable()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <com.squareup.okhttp.Connection: void connectSocket(int,int,int,com.squareup.okhttp.Request,com.squareup.okhttp.internal.ConnectionSpecSelector)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <com.squareup.okhttp.Connection: void setTimeouts(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <com.squareup.okhttp.internal.http.HttpConnection: boolean isReadable()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <com.squareup.okhttp.internal.http.HttpConnection: boolean isReadable()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <com.squareup.okhttp.Connection: void connectSocket(int,int,int,com.squareup.okhttp.Request,com.squareup.okhttp.internal.ConnectionSpecSelector)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <com.squareup.okhttp.internal.http.HttpConnection: boolean isReadable()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzcz(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzcz(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzcz(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <com.squareup.okhttp.HttpUrl$Builder: java.lang.String domainToAscii(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzcz(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.datebytesapps.dating.WebViewActivity: java.io.File createImageFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.InflaterSource: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.squareup.okhttp.Connection: void connectTls(int,int,com.squareup.okhttp.Request,com.squareup.okhttp.internal.ConnectionSpecSelector)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.datebytesapps.dating.ProfileFragment: java.lang.String writeToTempImageAndGetPathUri(android.content.Context,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.datebytesapps.dating.SignupFragment: java.lang.String writeToTempImageAndGetPathUri(android.content.Context,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.datebytesapps.dating.ChatFragment: java.lang.String writeToTempImageAndGetPathUri(android.content.Context,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.datebytesapps.dating.AddPhotoFragment: java.lang.String writeToTempImageAndGetPathUri(android.content.Context,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void <init>(java.net.Proxy)>
+Caller: <com.squareup.okhttp.Connection: void connect(int,int,int,com.squareup.okhttp.Request,java.util.List,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.OutputStream getOutputStream()>
+Caller: <okio.Okio: okio.Sink sink(java.net.Socket)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.firebase.iid.zzg: void zzeC(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.datebytesapps.dating.ChatFragment: java.lang.String writeToTempImageAndGetPathUri(android.content.Context,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.datebytesapps.dating.ProfileFragment: java.lang.String writeToTempImageAndGetPathUri(android.content.Context,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.datebytesapps.dating.SignupFragment: java.lang.String writeToTempImageAndGetPathUri(android.content.Context,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.datebytesapps.dating.AddPhotoFragment: java.lang.String writeToTempImageAndGetPathUri(android.content.Context,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.datebytesapps.dating.AddPhotoFragment: java.lang.String writeToTempImageAndGetPathUri(android.content.Context,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.datebytesapps.dating.ProfileFragment: java.lang.String writeToTempImageAndGetPathUri(android.content.Context,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.datebytesapps.dating.ChatFragment: java.lang.String writeToTempImageAndGetPathUri(android.content.Context,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.datebytesapps.dating.SignupFragment: java.lang.String writeToTempImageAndGetPathUri(android.content.Context,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.datebytesapps.dating.SignupFragment: java.lang.String getImageUrlWithAuthority(android.content.Context,android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.datebytesapps.dating.ProfileFragment: java.lang.String getImageUrlWithAuthority(android.content.Context,android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.datebytesapps.dating.AddPhotoFragment: java.lang.String getImageUrlWithAuthority(android.content.Context,android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.datebytesapps.dating.ChatFragment: java.lang.String getImageUrlWithAuthority(android.content.Context,android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.squareup.okhttp.Connection: void closeIfOwnedBy(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.squareup.okhttp.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.squareup.okhttp.internal.http.HttpConnection: void closeOnIdle()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.squareup.okhttp.internal.framed.FramedConnection: void close(com.squareup.okhttp.internal.framed.ErrorCode,com.squareup.okhttp.internal.framed.ErrorCode)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.squareup.okhttp.internal.http.HttpConnection$AbstractSource: void endOfInput(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.datebytesapps.dating.ChatFragment: java.lang.String writeToTempImageAndGetPathUri(android.content.Context,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.datebytesapps.dating.AddPhotoFragment: java.lang.String writeToTempImageAndGetPathUri(android.content.Context,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.datebytesapps.dating.SignupFragment: java.lang.String writeToTempImageAndGetPathUri(android.content.Context,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.datebytesapps.dating.ProfileFragment: java.lang.String writeToTempImageAndGetPathUri(android.content.Context,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------

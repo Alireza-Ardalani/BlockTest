@@ -1,0 +1,630 @@
+Time1: 67.571597777
+Time2: 3.424615163
+Worker: 66
+UI: 90
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <io.sentry.t: io.sentry.B1 a(java.io.InputStream)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <io.sentry.s0: void e(io.sentry.B1,java.io.OutputStream)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <io.sentry.util.e: java.lang.String c(java.io.File)>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <io.sentry.android.core.Y: java.lang.String o(io.sentry.ILogger)>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <I2.q: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [<P2.c: void run()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <io.sentry.t: io.sentry.B1 a(java.io.InputStream)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.sentry.util.e: java.lang.String c(java.io.File)>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.sentry.util.e: java.lang.String c(java.io.File)>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.sentry.android.core.Y: java.lang.String o(io.sentry.ILogger)>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.sentry.android.core.internal.util.m: boolean c()>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <io.sentry.r: void <init>(java.lang.String)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <io.sentry.vendor.gson.stream.c: void b()>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.android.core.internal.util.m: boolean c()>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.android.core.internal.util.m: boolean c()>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.util.e: java.lang.String c(java.io.File)>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.util.e: java.lang.String c(java.io.File)>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.android.core.Y: java.lang.String o(io.sentry.ILogger)>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <io.sentry.vendor.gson.stream.a: void close()>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.android.core.Y: java.lang.String o(io.sentry.ILogger)>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <io.sentry.android.core.internal.util.f: java.util.List c()>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <io.sentry.android.core.Y: java.lang.String o(io.sentry.ILogger)>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <io.sentry.util.e: java.lang.String c(java.io.File)>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <io.sentry.vendor.gson.stream.c: io.sentry.vendor.gson.stream.c w0(java.lang.Number)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <io.sentry.vendor.gson.stream.c: void b()>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read(char[],int,int)>
+Caller: <io.sentry.vendor.gson.stream.a: boolean u(int)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.s0: void <clinit>()>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <io.sentry.vendor.gson.stream.c: io.sentry.vendor.gson.stream.c w0(java.lang.Number)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <io.sentry.vendor.gson.stream.c: void b()>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <io.sentry.util.e: java.lang.String c(java.io.File)>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <io.sentry.s0: void e(io.sentry.B1,java.io.OutputStream)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <io.sentry.s0: void e(io.sentry.B1,java.io.OutputStream)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <io.sentry.s0: void e(io.sentry.B1,java.io.OutputStream)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: io.sentry.vendor.gson.stream.c X(int,char)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: io.sentry.vendor.gson.stream.c n(int,int,char)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: void Q()>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: void a()>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <io.sentry.s0: void e(io.sentry.B1,java.io.OutputStream)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <io.sentry.android.core.internal.util.f: java.util.List c()>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: io.sentry.vendor.gson.stream.c X(int,char)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: io.sentry.vendor.gson.stream.c n(int,int,char)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: void Q()>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: void a()>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.s0: void e(io.sentry.B1,java.io.OutputStream)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.s0: void e(io.sentry.B1,java.io.OutputStream)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.vendor.gson.stream.c: void Q()>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.vendor.gson.stream.c: io.sentry.vendor.gson.stream.c R()>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.s0: void e(io.sentry.B1,java.io.OutputStream)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.vendor.gson.stream.c: io.sentry.vendor.gson.stream.c z0(boolean)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.content.res.AssetFileDescriptor openTypedAssetFileDescriptor(android.net.Uri,java.lang.String,android.os.Bundle)>
+Caller: <io.flutter.plugin.platform.h: java.lang.CharSequence r(H2.o$e)>
+Thread: [<P2.c: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <io.sentry.r: void <init>(java.lang.String)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.sentry.android.core.internal.util.m: boolean a()>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.sentry.util.e: java.lang.String c(java.io.File)>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.sentry.android.core.internal.util.f: java.util.List c()>
+Thread: [<io.sentry.android.core.performance.f: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getUserInfo()>
+Caller: <io.sentry.r: void <init>(java.lang.String)>
+Thread: [<io.sentry.android.core.performance.e: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <B2.f$a: B2.f$b b()>
+Thread: [<B2.f$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <B2.f$a: B2.f$b b()>
+Thread: [<P2.b: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <B2.f$a: B2.f$b b()>
+Thread: [<P2.c: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <io.sentry.t: io.sentry.B1 a(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <io.sentry.s0: void e(io.sentry.B1,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <io.sentry.android.core.Y: java.lang.String o(io.sentry.ILogger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <io.sentry.util.e: java.lang.String c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.CharBuffer decode(java.nio.ByteBuffer)>
+Caller: <io.flutter.view.i$l: java.util.List q0(java.nio.ByteBuffer,java.nio.ByteBuffer[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <io.sentry.t: io.sentry.B1 a(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <I2.q: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: java.lang.String getCallingPackage()>
+Caller: <io.sentry.android.core.internal.util.e: void a(android.content.ContentProvider)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.sentry.android.core.Y: java.lang.String o(io.sentry.ILogger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.sentry.android.core.internal.util.m: boolean c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.sentry.util.e: java.lang.String c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.sentry.util.e: java.lang.String c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <io.sentry.r: void <init>(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <io.sentry.vendor.gson.stream.c: void b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.android.core.Y: java.lang.String o(io.sentry.ILogger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: void a(io.sentry.android.core.performance.g)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: void a(io.sentry.android.core.performance.g)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.util.e: java.lang.String c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <io.sentry.vendor.gson.stream.a: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: void a(io.sentry.android.core.performance.g)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.android.core.internal.util.m: boolean c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.android.core.Y: java.lang.String o(io.sentry.ILogger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: void a(io.sentry.android.core.performance.g)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: void a(io.sentry.android.core.performance.g)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.util.e: java.lang.String c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.android.core.internal.util.m: boolean c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <io.sentry.util.e: java.lang.String c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <io.sentry.android.core.internal.util.f: java.util.List c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <io.sentry.android.core.Y: java.lang.String o(io.sentry.ILogger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: void a(io.sentry.android.core.performance.g)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <io.sentry.vendor.gson.stream.c: io.sentry.vendor.gson.stream.c w0(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <io.sentry.vendor.gson.stream.c: void b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read(char[],int,int)>
+Caller: <io.sentry.vendor.gson.stream.a: boolean u(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.util.l: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.Y1: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.s0: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.r1: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <I2.q: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <I2.s: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.t: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.android.core.internal.util.m: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.flutter.view.i$l: java.util.List q0(java.nio.ByteBuffer,java.nio.ByteBuffer[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <io.sentry.vendor.gson.stream.c: io.sentry.vendor.gson.stream.c w0(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <io.sentry.vendor.gson.stream.c: void b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <io.sentry.util.e: java.lang.String c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <io.sentry.s0: void e(io.sentry.B1,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <io.sentry.s0: void e(io.sentry.B1,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <io.sentry.s0: void e(io.sentry.B1,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: void a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: void Q()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: io.sentry.vendor.gson.stream.c n(int,int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: io.sentry.vendor.gson.stream.c X(int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.clarity.cozycouples.AnniversaryWidget: void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.clarity.cozycouples.PartnerMoodWidget: void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.clarity.cozycouples.UserPartnerMoodWidget: void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <io.sentry.s0: void e(io.sentry.B1,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: void a(io.sentry.android.core.performance.g)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <io.sentry.android.core.internal.util.f: java.util.List c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: void a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: void Q()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: io.sentry.vendor.gson.stream.c n(int,int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: io.sentry.vendor.gson.stream.c X(int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.s0: void e(io.sentry.B1,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.vendor.gson.stream.c: io.sentry.vendor.gson.stream.c z0(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.s0: void e(io.sentry.B1,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.s0: void e(io.sentry.B1,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.vendor.gson.stream.c: void Q()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.vendor.gson.stream.c: io.sentry.vendor.gson.stream.c R()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.content.res.AssetFileDescriptor openTypedAssetFileDescriptor(android.net.Uri,java.lang.String,android.os.Bundle)>
+Caller: <io.flutter.plugin.platform.h: java.lang.CharSequence r(H2.o$e)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <io.sentry.vendor.gson.stream.c: void c0(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <io.sentry.r: void <init>(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.clarity.cozycouples.UserPartnerMoodWidget: void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.sentry.android.core.internal.util.f: java.util.List c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.clarity.cozycouples.AnniversaryWidget: void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.sentry.util.e: java.lang.String c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.clarity.cozycouples.PartnerMoodWidget: void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.sentry.android.core.internal.util.m: boolean a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: void a(io.sentry.android.core.performance.g)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getUserInfo()>
+Caller: <io.sentry.r: void <init>(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <B2.f$a: B2.f$b b()>
+Thread: [UI]
+-------------------------

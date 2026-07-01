@@ -1,0 +1,518 @@
+Time1: 243.14729851
+Time2: 17.559684602
+Worker: 14
+UI: 114
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.database.MatrixCursor: int getInt(int)>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int h(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [<c2.r: void run()>]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: int getInt(int)>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int h(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [<c2.r: void run()>]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: int getInt(int)>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int h(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [<c2.r: void run()>]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int h(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [<c2.r: void run()>]
+-------------------------
+MethodSignature: <android.database.Cursor: void close()>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int h(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [<c2.r: void run()>]
+-------------------------
+MethodSignature: <android.database.Cursor: void close()>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int h(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [<c2.r: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Caller: <c2.k: android.graphics.Bitmap b(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Thread: [<a2.t: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Caller: <c2.k: android.graphics.Bitmap b(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Thread: [<e2.X3$c: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <c2.k: android.graphics.Bitmap d(android.graphics.Bitmap,float)>
+Thread: [<a2.t: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <c2.k: android.graphics.Bitmap e(android.content.Context,android.graphics.Bitmap,float)>
+Thread: [<a2.t: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <c2.k: android.graphics.Bitmap b(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Thread: [<e2.X3$c: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <c2.k: android.graphics.Bitmap b(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Thread: [<a2.t: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <e2.X3$c: void run()>
+Thread: [<e2.X3$c: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <e2.X3$c: void run()>
+Thread: [<e2.X3$c: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[],int,int)>
+Caller: <Y.d: long a(java.io.RandomAccessFile,Y.d$a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[],int,int)>
+Caller: <Y.d: long a(java.io.RandomAccessFile,Y.d$a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader createInMemoryClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.probadosoft.moonphasecalendar.services.NetworkService: java.lang.String b(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.probadosoft.moonphasecalendar.services.b: java.lang.String a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.probadosoft.moonphasecalendar.services.b: java.lang.String a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.probadosoft.moonphasecalendar.services.b: java.lang.String a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.probadosoft.moonphasecalendar.services.NetworkService: java.lang.String b(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <Y.c: void b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <Y.c: java.util.List x()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <Y.a: void d(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <Y.d: long c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <Y.c: void <init>(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.probadosoft.moonphasecalendar.services.LocationProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <Y.d: Y.d$a b(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <Y.d: Y.d$a b(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <Y.d: Y.d$a b(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: int getInt(int)>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int h(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: int getInt(int)>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int h(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: int getInt(int)>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int h(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader makeAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: dalvik.system.DexClassLoader makeLegacyAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <Y.a: void d(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <Y.a: void o(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <Y.a: void d(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <Y.a: void o(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.probadosoft.moonphasecalendar.services.LocationProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzch d(com.google.android.gms.internal.consent_sdk.zzcf)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzch d(com.google.android.gms.internal.consent_sdk.zzcf)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <Y.c: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <Y.c: void c(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void close()>
+Caller: <com.probadosoft.moonphasecalendar.services.NetworkService: java.lang.String b(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void close()>
+Caller: <com.probadosoft.moonphasecalendar.services.b: java.lang.String a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.FileChannel: java.nio.channels.FileLock lock()>
+Caller: <Y.c: void <init>(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.probadosoft.moonphasecalendar.SoundActivity: void D0(java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.probadosoft.moonphasecalendar.services.b: java.lang.String a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.probadosoft.moonphasecalendar.services.NetworkService: java.lang.String b(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int skipBytes(int)>
+Caller: <Y.d: Y.d$a b(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int skipBytes(int)>
+Caller: <Y.d: Y.d$a b(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int skipBytes(int)>
+Caller: <Y.d: Y.d$a b(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int skipBytes(int)>
+Caller: <Y.d: Y.d$a b(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader makeAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: dalvik.system.DexClassLoader makeLegacyAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader makeAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: dalvik.system.DexClassLoader makeLegacyAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.probadosoft.moonphasecalendar.services.NetworkService: java.lang.String b(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.probadosoft.moonphasecalendar.services.b: java.lang.String a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzch d(com.google.android.gms.internal.consent_sdk.zzcf)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzch d(com.google.android.gms.internal.consent_sdk.zzcf)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <Y.c: void d(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int h(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <Y.c: void d(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void flush()>
+Caller: <com.probadosoft.moonphasecalendar.services.b: java.lang.String a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void flush()>
+Caller: <com.probadosoft.moonphasecalendar.services.NetworkService: java.lang.String b(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzch d(com.google.android.gms.internal.consent_sdk.zzcf)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzch d(com.google.android.gms.internal.consent_sdk.zzcf)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <Y.a: void o(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzch d(com.google.android.gms.internal.consent_sdk.zzcf)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <Y.a: void o(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <Y.c: java.util.List x()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.probadosoft.moonphasecalendar.services.b: java.lang.String a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.probadosoft.moonphasecalendar.services.NetworkService: java.lang.String b(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.probadosoft.moonphasecalendar.services.NetworkService: java.lang.String b(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.probadosoft.moonphasecalendar.services.b: java.lang.String a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzch d(com.google.android.gms.internal.consent_sdk.zzcf)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <Y.c: void b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <Y.c: java.util.List x()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <Y.c: void d(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <Y.a: void d(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <Y.c: void d(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <Y.a: void d(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.Cursor: void close()>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int h(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.Cursor: void close()>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int h(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <Y.d: Y.d$a b(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <Y.d: long a(java.io.RandomAccessFile,Y.d$a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Caller: <c2.k: android.graphics.Bitmap b(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.probadosoft.moonphasecalendar.services.b: java.lang.String a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader createInMemoryClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.probadosoft.moonphasecalendar.services.NetworkService: java.lang.String b(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <Y.c: void d(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader makeAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: dalvik.system.DexClassLoader makeLegacyAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <Y.c: void d(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <Y.c: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <Y.d: long c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <Y.c: void c(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <Y.d: long c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <c2.k: android.graphics.Bitmap e(android.content.Context,android.graphics.Bitmap,float)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <c2.k: android.graphics.Bitmap d(android.graphics.Bitmap,float)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <Y.c: java.util.List t(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <Y.a: void o(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <c2.k: android.graphics.Bitmap b(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzch d(com.google.android.gms.internal.consent_sdk.zzcf)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <Y.d: Y.d$a b(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <Y.d: Y.d$a b(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadOnly()>
+Caller: <Y.c: void d(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FileFilter)>
+Caller: <Y.c: void b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <Y.c: long f(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <Y.c: java.util.List t(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <Y.c: void y(android.content.Context,java.lang.String,long,long,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <Y.a: void o(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <Y.c: void d(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <Y.a: void o(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.consent_sdk.zzdb: com.google.android.gms.internal.consent_sdk.zzdb m(int,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.probadosoft.moonphasecalendar.MainActivity: void Z2(android.widget.ImageView[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.probadosoft.moonphasecalendar.MainActivity: boolean X1(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.probadosoft.moonphasecalendar.MainActivity: boolean X1(java.lang.Object)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,282 @@
+Time1: 34.560815343
+Time2: 1.520203974
+Worker: 5
+UI: 64
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.ServerSocket: int getLocalPort()>
+Caller: <com.ansca.corona.CoronaVideoView$ProxyServer$1: void run()>
+Thread: [<com.ansca.corona.CoronaVideoView$ProxyServer$1: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void <init>(int,int)>
+Caller: <com.ansca.corona.CoronaVideoView$ProxyServer$1: void run()>
+Thread: [<com.ansca.corona.CoronaVideoView$ProxyServer$1: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void close()>
+Caller: <com.ansca.corona.CoronaVideoView$ProxyServer: void close()>
+Thread: [<com.ansca.corona.CoronaVideoView$ProxyServer$1: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void close()>
+Caller: <com.ansca.corona.CoronaVideoView$ProxyServer$1: void run()>
+Thread: [<com.ansca.corona.CoronaVideoView$ProxyServer$1: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: java.net.Socket accept()>
+Caller: <com.ansca.corona.CoronaVideoView$ProxyServer$1: void run()>
+Thread: [<com.ansca.corona.CoronaVideoView$ProxyServer$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.ansca.corona.notifications.NotificationServices: void saveSettings(com.ansca.corona.notifications.NotificationSettingsCollection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.ansca.corona.notifications.NotificationServices: void saveSettings(com.ansca.corona.notifications.NotificationSettingsCollection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.ansca.corona.notifications.NotificationServices: void saveSettings(com.ansca.corona.notifications.NotificationSettingsCollection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.content.res.AssetFileDescriptor openAssetFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.ansca.corona.Controller: boolean canOpenUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.ansca.corona.CoronaEnvironment: void onNewInstall(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.ansca.corona.CoronaEnvironment: boolean isNewInstall(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.ansca.corona.CoronaVideoView$ProxyServer: void requestVideoFileSize()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.ansca.corona.storage.ZipResourceFile: void addPatchFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.ansca.corona.storage.ZipResourceFile$ZipEntryRO: void setOffsetFromFile(java.io.RandomAccessFile,java.nio.ByteBuffer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.ansca.corona.storage.ZipResourceFile: void addPatchFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void close()>
+Caller: <com.ansca.corona.notifications.NotificationServices: void loadSettingsTo(com.ansca.corona.notifications.NotificationSettingsCollection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void close()>
+Caller: <com.ansca.corona.notifications.NotificationServices: void loadSettingsTo(com.ansca.corona.notifications.NotificationSettingsCollection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void close()>
+Caller: <com.ansca.corona.notifications.NotificationServices: void loadSettingsTo(com.ansca.corona.notifications.NotificationSettingsCollection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.ansca.corona.CameraActivity$1: void onPictureTaken(byte[],android.hardware.Camera)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.ansca.corona.Controller: boolean saveBitmap(android.graphics.Bitmap,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <com.ansca.corona.Controller: boolean saveBitmap(android.graphics.Bitmap,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <com.ansca.corona.storage.ZipResourceFile: void addPatchFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <com.ansca.corona.storage.ZipResourceFile$ZipEntryRO: void setOffsetFromFile(java.io.RandomAccessFile,java.nio.ByteBuffer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <com.ansca.corona.notifications.NotificationServices: void saveSettings(com.ansca.corona.notifications.NotificationSettingsCollection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.ansca.corona.CoronaEnvironment: void deleteDirectoryTree(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.ansca.corona.CoronaActivity: void showCameraWindowForVideo(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.ansca.corona.CoronaEnvironment: java.io.File getTemporaryDirectory(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.ansca.corona.CoronaEnvironment: java.io.File getCachesDirectory(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.ansca.corona.CoronaActivity: void showCameraWindowForImage(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.ansca.corona.CoronaEnvironment: java.io.File getInternalTemporaryDirectory(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.ansca.corona.CoronaEnvironment: java.io.File getInternalCachesDirectory(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.ansca.corona.CameraActivity$1: void onPictureTaken(byte[],android.hardware.Camera)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.io.BufferedReader zzm(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.ansca.corona.CoronaActivity: void showCoronaSplashScreen()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.ansca.corona.CoronaVideoView$HttpServices: java.net.HttpURLConnection sendRequest(java.net.URL,com.ansca.corona.CoronaVideoView$HttpServices$RequestHandler)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.ansca.corona.CoronaVideoView$ProxyServer: void <init>(com.ansca.corona.CoronaVideoView,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.ansca.corona.CoronaVideoView$HttpServices: java.net.HttpURLConnection sendRequest(java.net.URL,com.ansca.corona.CoronaVideoView$HttpServices$RequestHandler)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.ansca.corona.Controller: boolean canOpenUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.OutputStream openOutputStream(android.net.Uri)>
+Caller: <com.ansca.corona.Controller: boolean saveBitmap(android.graphics.Bitmap,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <com.ansca.corona.storage.ZipResourceFile: void addPatchFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.ansca.corona.MediaManager: void loadSound(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.ansca.corona.notifications.NotificationServices: void saveSettings(com.ansca.corona.notifications.NotificationSettingsCollection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.ansca.corona.notifications.NotificationServices: void saveSettings(com.ansca.corona.notifications.NotificationSettingsCollection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.ansca.corona.notifications.NotificationServices: void saveSettings(com.ansca.corona.notifications.NotificationSettingsCollection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <com.ansca.corona.notifications.NotificationServices: void loadSettingsTo(com.ansca.corona.notifications.NotificationSettingsCollection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ansca.corona.storage.FileServices: void loadExpansionFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ansca.corona.storage.UniqueFileNameBuilder: java.io.File build()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ansca.corona.Controller: boolean canOpenUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ansca.corona.storage.FileServices: com.ansca.corona.storage.AssetFileLocationInfo getAssetFileLocation(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ansca.corona.MediaManager: void loadSound(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ansca.corona.storage.UniqueFileNameBuilder: java.io.File build()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ansca.corona.Controller: android.content.Intent createOpenUrlIntentFor(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ansca.corona.notifications.NotificationServices: void loadSettingsTo(com.ansca.corona.notifications.NotificationSettingsCollection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ansca.corona.notifications.NotificationServices: void saveSettings(com.ansca.corona.notifications.NotificationSettingsCollection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <com.ansca.corona.storage.ZipResourceFile: int read4LE(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <com.ansca.corona.storage.ZipResourceFile: void addPatchFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.ansca.corona.Controller: boolean saveBitmap(android.graphics.Bitmap,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.ansca.corona.CameraActivity$1: void onPictureTaken(byte[],android.hardware.Camera)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.ansca.corona.CoronaEnvironment: void deleteDirectoryTree(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.ansca.corona.CoronaActivity: void showCoronaSplashScreen()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void close()>
+Caller: <com.ansca.corona.CoronaVideoView$ProxyServer: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.ansca.corona.storage.FileServices: com.ansca.corona.storage.AssetFileLocationInfo getAssetFileLocation(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.ansca.corona.notifications.NotificationServices: void saveSettings(com.ansca.corona.notifications.NotificationSettingsCollection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.ansca.corona.CoronaEnvironment: void deleteDirectoryTree(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.ansca.corona.CameraActivity: void clearCachedPhotos(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String zzl(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.ansca.corona.storage.FileContentProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.ansca.corona.storage.FileContentProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------

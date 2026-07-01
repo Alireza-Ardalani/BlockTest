@@ -1,0 +1,26 @@
+Time1: 15.607096428
+Time2: 0.520314573
+Worker: 1
+UI: 4
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <a.a.k: void a(java.net.Socket)>
+Thread: [<com.pandoraapp.internetradio.SplashScreen$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.ads.internal.util.client.c: void a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <a.a.k: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <a.a.k: void a(java.net.Socket)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.ads.internal.util.client.c: void a(java.lang.String)>
+Thread: [UI]
+-------------------------

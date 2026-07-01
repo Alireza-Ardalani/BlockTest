@@ -1,0 +1,7 @@
+com.iyaltamizh.app.simpletexteditor >>
+
+1-UI thread I/O
+
+    public final String e(Uri uri) throws IOException {         BufferedReader bufferedReader;         String strO;         try {             InputStream inputStreamOpenInputStream = getContentResolver().openInputStream(uri);             if (inputStreamOpenInputStream == null) {                 return null;             }             try {                 try {                     bufferedReader = new BufferedReader(new InputStreamReader(inputStreamOpenInputStream, AbstractC3078a.f26367a), 8192);                 } catch (Exception unused) {                     bufferedReader = new BufferedReader(new InputStreamReader(inputStreamOpenInputStream, AbstractC3078a.f26367a), 8192);                     try {                         String strO2 = O1.O(bufferedReader);                         bufferedReader.close();                         strO = strO2;                     } finally {                     }                 }                 try {                     strO = O1.O(bufferedReader);                     bufferedReader.close();                     inputStreamOpenInputStream.close();                     return strO;                 } catch (Throwable th) {                     try {                         throw th;                     } finally {                     }                 }             } finally {             }         } catch (Exception e3) {             e3.printStackTrace();             return null;         }     }
+
+

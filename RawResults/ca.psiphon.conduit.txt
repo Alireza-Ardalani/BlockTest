@@ -1,0 +1,442 @@
+Time1: 95.193498785
+Time2: 3.080948123
+Worker: 22
+UI: 87
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <ca.psiphon.conduit.nativemodule.Utils: java.lang.String readRawResourceFileAsString(android.content.Context,int)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ca.psiphon.conduit.nativemodule.ConduitModule: java.io.File dataRootDirectory(android.content.Context)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ca.psiphon.PsiphonTunnel: java.lang.String buildPsiphonConfig(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <java.net.NetworkInterface: boolean isLoopback()>
+Caller: <ca.psiphon.PsiphonTunnel: boolean hasIPv6Route(android.content.Context)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <ca.psiphon.PsiphonTunnel: java.lang.String buildPsiphonConfig(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <ca.psiphon.PsiphonTunnel: java.util.Collection getActiveNetworkDNSServerAddresses(android.content.Context,boolean)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <ca.psiphon.conduit.nativemodule.PackageHelper: void saveTrustedSignaturesToFile(android.content.Context,java.util.Map)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void requestNetwork(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <ca.psiphon.PsiphonTunnel$NetworkMonitor: void start(android.content.Context)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <ca.psiphon.conduit.nativemodule.Utils: java.lang.String readRawResourceFileAsString(android.content.Context,int)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <ca.psiphon.conduit.nativemodule.Utils: java.lang.String readRawResourceFileAsString(android.content.Context,int)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <java.net.NetworkInterface: java.util.Enumeration getNetworkInterfaces()>
+Caller: <ca.psiphon.PsiphonTunnel: boolean hasIPv6Route(android.content.Context)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <ca.psiphon.PsiphonTunnel: java.util.Collection getActiveNetworkDNSServerAddresses(android.content.Context,boolean)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <ca.psiphon.PsiphonTunnel$NetworkMonitor: void stop(android.content.Context)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <ca.psiphon.conduit.nativemodule.ConduitModule: java.io.File dataRootDirectory(android.content.Context)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <ca.psiphon.conduit.nativemodule.PackageHelper: void saveTrustedSignaturesToFile(android.content.Context,java.util.Map)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <ca.psiphon.conduit.nativemodule.PackageHelper: void saveTrustedSignaturesToFile(android.content.Context,java.util.Map)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <ca.psiphon.conduit.nativemodule.PackageHelper: void saveTrustedSignaturesToFile(android.content.Context,java.util.Map)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <ca.psiphon.conduit.nativemodule.PackageHelper: void saveTrustedSignaturesToFile(android.content.Context,java.util.Map)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <ca.psiphon.PsiphonTunnel: java.util.Collection getActiveNetworkDNSServerAddresses(android.content.Context,boolean)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <ca.psiphon.PsiphonTunnel$NetworkMonitor: void start(android.content.Context)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <android.net.NetworkCapabilities: void <init>(android.net.NetworkCapabilities)>
+Caller: <ca.psiphon.PsiphonTunnel$NetworkMonitor: void start(android.content.Context)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+MethodSignature: <java.net.NetworkInterface: boolean isUp()>
+Caller: <ca.psiphon.PsiphonTunnel: boolean hasIPv6Route(android.content.Context)>
+Thread: [<ca.psiphon.conduit.nativemodule.r: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <k7.c: void a(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <k7.c: void a(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <ca.psiphon.conduit.nativemodule.PackageHelper: java.util.Map readTrustedSignaturesFromFile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <ca.psiphon.conduit.nativemodule.PackageHelper: java.util.Map readTrustedSignaturesFromFile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <ca.psiphon.conduit.nativemodule.Utils: java.lang.String readRawResourceFileAsString(android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <ca.psiphon.conduit.nativemodule.PackageHelper: java.util.Map readTrustedSignaturesFromFile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <l6.c: android.graphics.Bitmap u()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.soloader.SysUtil: void b(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <ca.psiphon.conduit.nativemodule.Utils: void setServiceRunningFlag(android.content.Context,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <r6.a: java.lang.String a(java.io.Serializable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <ca.psiphon.conduit.nativemodule.PackageHelper: java.util.Map readTrustedSignaturesFromFile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <M2.a: void b(java.lang.StringBuilder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ca.psiphon.conduit.nativemodule.Utils: void setServiceRunningFlag(android.content.Context,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <M2.g: boolean b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ca.psiphon.conduit.nativemodule.Utils: void setServiceRunningFlag(android.content.Context,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <M2.b: boolean a(java.lang.UnsatisfiedLinkError,com.facebook.soloader.E[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.soloader.G$e: void c(com.facebook.soloader.G$d,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.soloader.SysUtil: void b(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.soloader.G$e: void c(com.facebook.soloader.G$d,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ca.psiphon.PsiphonTunnel: java.lang.String buildPsiphonConfig(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <M2.c: boolean a(java.lang.UnsatisfiedLinkError,com.facebook.soloader.E[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ca.psiphon.conduit.nativemodule.ConduitModule: java.io.File dataRootDirectory(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ca.psiphon.conduit.nativemodule.Utils: boolean getServiceRunningFlag(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ca.psiphon.conduit.nativemodule.PackageHelper: java.util.Map readTrustedSignaturesFromFile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <M2.c: boolean a(java.lang.UnsatisfiedLinkError,com.facebook.soloader.E[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.NetworkInterface: boolean isLoopback()>
+Caller: <ca.psiphon.PsiphonTunnel: boolean hasIPv6Route(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <ca.psiphon.PsiphonTunnel: java.lang.String buildPsiphonConfig(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <ca.psiphon.conduit.nativemodule.Utils: void setServiceRunningFlag(android.content.Context,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <r6.a: java.lang.String a(java.io.Serializable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <ca.psiphon.PsiphonTunnel: java.util.Collection getActiveNetworkDNSServerAddresses(android.content.Context,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <r6.i: i6.c b(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <r6.j: i6.g b(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <r6.i: java.util.Collection a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <r6.j: java.util.Collection a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long getFilePointer()>
+Caller: <com.facebook.soloader.G$e: void c(com.facebook.soloader.G$d,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.soloader.m: java.lang.String toString()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.soloader.f: java.lang.String toString()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <n7.j: boolean b(java.lang.Object,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <k7.c: void a(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <k7.c: void a(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <com.facebook.soloader.G$e: void c(com.facebook.soloader.G$d,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <ca.psiphon.conduit.nativemodule.PackageHelper: void saveTrustedSignaturesToFile(android.content.Context,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void requestNetwork(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <ca.psiphon.PsiphonTunnel$NetworkMonitor: void start(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <expo.modules.clipboard.ClipboardFileProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <com.facebook.soloader.G$e: void c(com.facebook.soloader.G$d,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.facebook.soloader.SysUtil: void c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Integer getAsInteger(java.lang.String)>
+Caller: <ca.psiphon.conduit.nativemodule.logging.LoggingContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <ca.psiphon.conduit.nativemodule.PackageHelper: java.util.Map readTrustedSignaturesFromFile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <ca.psiphon.conduit.nativemodule.Utils: java.lang.String readRawResourceFileAsString(android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <ca.psiphon.conduit.nativemodule.PackageHelper: java.util.Map readTrustedSignaturesFromFile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <ca.psiphon.conduit.nativemodule.Utils: java.lang.String readRawResourceFileAsString(android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <ca.psiphon.conduit.nativemodule.logging.LoggingContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <ca.psiphon.conduit.nativemodule.logging.LoggingContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <expo.modules.clipboard.ClipboardFileProvider$c: java.io.File a(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <expo.modules.clipboard.ClipboardFileProvider$c: void c(java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <expo.modules.clipboard.ClipboardFileProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Long getAsLong(java.lang.String)>
+Caller: <ca.psiphon.conduit.nativemodule.logging.LoggingContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.facebook.soloader.G$e: void c(com.facebook.soloader.G$d,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.facebook.soloader.G$e: void c(com.facebook.soloader.G$d,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.facebook.soloader.SysUtil: void b(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.soloader.SysUtil: void c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setExecutable(boolean,boolean)>
+Caller: <com.facebook.soloader.G$e: void c(com.facebook.soloader.G$d,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.NetworkInterface: java.util.Enumeration getNetworkInterfaces()>
+Caller: <ca.psiphon.PsiphonTunnel: boolean hasIPv6Route(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <com.facebook.soloader.G$e: void c(com.facebook.soloader.G$d,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <com.facebook.soloader.SysUtil: void b(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <com.facebook.soloader.G$e: void c(com.facebook.soloader.G$d,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <r6.i: i6.c b(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <r6.j: i6.g b(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <r6.j: java.util.Collection a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <r6.i: java.util.Collection a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <ca.psiphon.PsiphonTunnel: java.util.Collection getActiveNetworkDNSServerAddresses(android.content.Context,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <ca.psiphon.PsiphonTunnel$NetworkMonitor: void stop(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.facebook.soloader.SysUtil: int a(java.io.RandomAccessFile,java.io.InputStream,int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.facebook.soloader.G$e: void c(com.facebook.soloader.G$d,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.facebook.soloader.G$e: void c(com.facebook.soloader.G$d,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <ca.psiphon.conduit.nativemodule.ConduitModule: java.io.File dataRootDirectory(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <ca.psiphon.conduit.nativemodule.PackageHelper: void saveTrustedSignaturesToFile(android.content.Context,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <ca.psiphon.conduit.nativemodule.PackageHelper: void saveTrustedSignaturesToFile(android.content.Context,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <ca.psiphon.conduit.nativemodule.PackageHelper: void saveTrustedSignaturesToFile(android.content.Context,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <ca.psiphon.conduit.nativemodule.PackageHelper: void saveTrustedSignaturesToFile(android.content.Context,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <ca.psiphon.PsiphonTunnel: java.util.Collection getActiveNetworkDNSServerAddresses(android.content.Context,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <ca.psiphon.PsiphonTunnel$NetworkMonitor: void start(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <ca.psiphon.conduit.nativemodule.logging.LoggingContentProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkCapabilities: void <init>(android.net.NetworkCapabilities)>
+Caller: <ca.psiphon.PsiphonTunnel$NetworkMonitor: void start(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <com.facebook.soloader.SysUtil: int a(java.io.RandomAccessFile,java.io.InputStream,int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.NetworkInterface: boolean isUp()>
+Caller: <ca.psiphon.PsiphonTunnel: boolean hasIPv6Route(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <ca.psiphon.conduit.nativemodule.logging.LoggingContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------

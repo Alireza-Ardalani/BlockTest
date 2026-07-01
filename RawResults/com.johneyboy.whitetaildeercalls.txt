@@ -1,0 +1,50 @@
+Time1: 61.491044856
+Time2: 2.283454318
+Worker: 2
+UI: 9
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <v3.o: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [<io.flutter.plugin.platform.x: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <p3.d$a: p3.d$b b()>
+Thread: [<p3.d$a: java.lang.Object call()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.flutter.view.f$l: java.util.List q0(java.nio.ByteBuffer,java.nio.ByteBuffer[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck3.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <v3.q: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <v3.o: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.pairip.VMRunner: byte[] readFullByteArrayFromStream(java.io.InputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <v3.o: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.CharBuffer decode(java.nio.ByteBuffer)>
+Caller: <io.flutter.view.f$l: java.util.List q0(java.nio.ByteBuffer,java.nio.ByteBuffer[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <p3.d$a: p3.d$b b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.content.res.AssetFileDescriptor openTypedAssetFileDescriptor(android.net.Uri,java.lang.String,android.os.Bundle)>
+Caller: <io.flutter.plugin.platform.i: java.lang.CharSequence r(u3.o$e)>
+Thread: [UI]
+-------------------------

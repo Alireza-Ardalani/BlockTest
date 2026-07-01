@@ -1,0 +1,42 @@
+Time1: 7.5286463
+Time2: 0.415015521
+Worker: 0
+UI: 9
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.vstechlab.easyfonts.FontSourceProcessor: android.graphics.Typeface process(int,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.vstechlab.easyfonts.FontSourceProcessor: android.graphics.Typeface process(int,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.thefinestartist.finestwebview.helpers.TypefaceHelper: android.graphics.Typeface get(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedOutputStream: void write(byte[],int,int)>
+Caller: <com.vstechlab.easyfonts.FontSourceProcessor: android.graphics.Typeface process(int,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.vstechlab.easyfonts.FontSourceProcessor: android.graphics.Typeface process(int,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.thefinestartist.finestwebview.helpers.BitmapHelper: android.graphics.Bitmap getColoredBitmap(android.content.Context,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.vstechlab.easyfonts.FontSourceProcessor: android.graphics.Typeface process(int,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromFile(java.lang.String)>
+Caller: <com.vstechlab.easyfonts.FontSourceProcessor: android.graphics.Typeface process(int,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.thefinestartist.finestwebview.helpers.UrlParser: java.lang.String getHost(java.lang.String)>
+Thread: [UI]
+-------------------------

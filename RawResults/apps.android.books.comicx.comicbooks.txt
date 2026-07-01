@@ -1,0 +1,926 @@
+Time1: 78.747561772
+Time2: 3.45943093
+Worker: 116
+UI: 114
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <okhttp3.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: android.database.sqlite.SQLiteDatabase $r8$lambda$pZuvEfO_xLfFaI7wN1aaaWpYHdo(com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: android.database.sqlite.SQLiteDatabase $r8$lambda$pZuvEfO_xLfFaI7wN1aaaWpYHdo(com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: android.database.sqlite.SQLiteDatabase $r8$lambda$pZuvEfO_xLfFaI7wN1aaaWpYHdo(com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: android.database.sqlite.SQLiteDatabase $r8$lambda$pZuvEfO_xLfFaI7wN1aaaWpYHdo(com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <okhttp3.internal.io.FileSystem$1: okio.Sink sink(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <okhttp3.internal.io.FileSystem$1: okio.Sink appendingSink(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Sink sink(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <okhttp3.internal.io.FileSystem$1: void rename(java.io.File,java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.play_billing.zzfg: boolean equals(java.lang.Object)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.play_billing.zzbn: boolean equals(java.lang.Object)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.play_billing.zzbn: boolean equals(java.lang.Object)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.play_billing.zzfg: boolean equals(java.lang.Object)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.play_billing.zzfg: boolean equals(java.lang.Object)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.play_billing.zzfg: boolean equals(java.lang.Object)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.play_billing.zzbn: boolean equals(java.lang.Object)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.play_billing.zzbn: boolean equals(java.lang.Object)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <okhttp3.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <okhttp3.internal.io.FileSystem$1: boolean exists(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <okio.Okio: okio.Sink appendingSink(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <okio.Okio$1: void close()>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<okhttp3.ConnectionPool$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long ensureTransportContext(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long ensureTransportContext(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long ensureTransportContext(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long ensureTransportContext(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzq: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzu: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzan: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.android.billingclient.api.zzau: java.lang.Object call()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <okhttp3.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <apps.android.books.comicx.comicbooks.reader.RarParser: void destroy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <apps.android.books.comicx.comicbooks.reader.RarParser: void destroy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <okhttp3.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <apps.android.books.comicx.comicbooks.reader.RarParser: void setCacheDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <apps.android.books.comicx.comicbooks.ComicFragment: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long getFilePointer()>
+Caller: <com.github.junrar.io.SeekableReadOnlyFile: long getPosition()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <apps.android.books.comicx.comicbooks.MainActivity: java.lang.String copyFileToInternalStorage(android.net.Uri,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.github.junrar.io.SeekableReadOnlyFile: void setPosition(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <okhttp3.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: android.database.sqlite.SQLiteDatabase $r8$lambda$pZuvEfO_xLfFaI7wN1aaaWpYHdo(com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <okhttp3.internal.io.FileSystem$1: okio.Sink sink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <okhttp3.internal.io.FileSystem$1: okio.Sink appendingSink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Sink sink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <apps.android.books.comicx.comicbooks.MainActivity: java.lang.String copyFileToInternalStorage(android.net.Uri,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <apps.android.books.comicx.comicbooks.MainActivity: java.lang.String copyFileToInternalStorage(android.net.Uri,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <apps.android.books.comicx.comicbooks.reader.RarParser: void setCacheDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <apps.android.books.comicx.comicbooks.ComicFragment: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.cct.CCTDestination: byte[] asByteArray()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okio.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzda: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzda: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzda: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <apps.android.books.comicx.comicbooks.MainActivity: java.lang.String copyFileToInternalStorage(android.net.Uri,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <com.github.junrar.io.SeekableReadOnlyFile: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Source source(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <okio.Okio$2: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.github.junrar.io.SeekableReadOnlyFile: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <okhttp3.internal.io.FileSystem$1: void rename(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.play_billing.zzat: com.google.android.gms.internal.play_billing.zzat zzg(int,java.lang.Object[],com.google.android.gms.internal.play_billing.zzak)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.play_billing.zzat: com.google.android.gms.internal.play_billing.zzat zzg(int,java.lang.Object[],com.google.android.gms.internal.play_billing.zzak)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.play_billing.zzat: com.google.android.gms.internal.play_billing.zzat zzg(int,java.lang.Object[],com.google.android.gms.internal.play_billing.zzak)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.play_billing.zzbn: boolean equals(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.play_billing.zzfg: boolean equals(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <okhttp3.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <apps.android.books.comicx.comicbooks.MainActivity: java.lang.String copyFileToInternalStorage(android.net.Uri,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <apps.android.books.comicx.comicbooks.ComicFragment: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <apps.android.books.comicx.comicbooks.reader.RarParser: void setCacheDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <okhttp3.internal.io.FileSystem$1: boolean exists(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.github.junrar.crypt.Rijndael: javax.crypto.Cipher buildDecipherer(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.github.junrar.crypt.Rijndael: javax.crypto.Cipher buildDecipherer(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.github.junrar.unpack.ComprDataIO: void unpWrite(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$3(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$1(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$3(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$2(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$1(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$1(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$3(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <apps.android.books.comicx.comicbooks.MainActivity: java.lang.String copyFileToInternalStorage(android.net.Uri,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <okio.Okio: okio.Sink appendingSink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.util.List lambda$loadActiveContexts$10(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String canonicalizeHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <com.github.junrar.io.SeekableReadOnlyFile: int readFully(byte[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <apps.android.books.comicx.comicbooks.MainActivity: java.lang.String copyFileToInternalStorage(android.net.Uri,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <okio.Okio$1: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <apps.android.books.comicx.comicbooks.reader.RarParser: void setCacheDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <apps.android.books.comicx.comicbooks.reader.RarParser: void destroy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <okhttp3.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <apps.android.books.comicx.comicbooks.ComicFragment: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <apps.android.books.comicx.comicbooks.reader.RarParser: void setCacheDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <okhttp3.internal.io.FileSystem$1: long size(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.github.junrar.volume.FileVolume: long getLength()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long ensureTransportContext(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------

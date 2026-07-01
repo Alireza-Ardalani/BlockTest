@@ -1,0 +1,698 @@
+Time1: 50.090895207
+Time2: 4.436981412
+Worker: 1
+UI: 172
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<okhttp3.ConnectionPool$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: java.lang.Object get(java.lang.String,java.lang.Class)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void <init>(java.net.Proxy)>
+Caller: <com.squareup.okhttp.Connection: void connect(int,int,int,com.squareup.okhttp.Request)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <okhttp3.internal.Util: boolean equal(java.lang.Object,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <okhttp3.internal.Util: java.util.List intersect(java.lang.Object[],java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.squareup.okhttp.internal.Util: java.util.List intersect(java.lang.Object[],java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.squareup.okhttp.internal.http.HttpConnection$AbstractSource: void endOfInput(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.squareup.okhttp.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.squareup.okhttp.internal.http.HttpEngine: com.squareup.okhttp.Connection createNextConnection()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.squareup.okhttp.internal.http.HttpConnection: void closeOnIdle()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: int getContentLength()>
+Caller: <retrofit.client.UrlConnectionClient: retrofit.client.Response readResponse(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj: java.util.List zzt(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj: java.util.List zzq(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj: java.util.List zzr(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: void onOpen(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: void onOpen(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: void zza(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <com.google.android.gms.analytics.internal.zzx: boolean zzes(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <com.google.android.gms.analytics.internal.zzx: boolean zzes(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhc(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <retrofit.client.UrlConnectionClient: java.net.HttpURLConnection openConnection(retrofit.client.Request)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzah: java.net.URL zzb(com.google.android.gms.analytics.internal.zzab,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.squareup.okhttp.Request: java.net.URL url()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <retrofit.appengine.UrlFetchClient: com.google.appengine.api.urlfetch.HTTPRequest createRequest(retrofit.client.Request)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzah: java.net.URL zzadk()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzah: java.net.URL zzh(com.google.android.gms.analytics.internal.zzab)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: void put(java.lang.String,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: byte[] readFileBytes(java.io.FileInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: java.lang.Object get(java.lang.String,java.lang.Class)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: java.lang.Object get(java.lang.String,java.lang.Class)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: java.lang.Object get(java.lang.String,java.lang.Class)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: java.lang.Object get(java.lang.String,java.lang.Class)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: java.lang.Object get(java.lang.String,java.lang.Class)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: java.lang.Object get(java.lang.String,java.lang.Class)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.google.android.gms.common.util.zzx: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: boolean init(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: java.io.File getAttachmentsDirectoryForCall(java.util.UUID,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: void put(java.lang.String,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.google.android.gms.iid.zzd: void zzkf(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.analytics.internal.zzj: void endTransaction()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhc(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhc(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhc(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.gms.analytics.internal.zzj: void zzc(com.google.android.gms.analytics.internal.zzab)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void connect(java.net.SocketAddress,int)>
+Caller: <com.squareup.okhttp.internal.Platform: void connectSocket(java.net.Socket,java.net.InetSocketAddress,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void connect(java.net.SocketAddress,int)>
+Caller: <com.squareup.okhttp.internal.Platform$Android: void connectSocket(java.net.Socket,java.net.InetSocketAddress,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.analytics.internal.zzah: java.net.HttpURLConnection zzc(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <retrofit.client.UrlConnectionClient: java.net.HttpURLConnection openConnection(retrofit.client.Request)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String domainToAscii(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.InputStream getInputStream()>
+Caller: <okio.Okio: okio.Source source(java.net.Socket)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <retrofit.mime.FormUrlEncodedTypedOutput: void writeTo(java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <retrofit.mime.TypedByteArray: void writeTo(java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah: int zza(java.net.URL,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <retrofit.mime.FormUrlEncodedTypedOutput: void addField(java.lang.String,boolean,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah$zza: boolean zzj(com.google.android.gms.analytics.internal.zzab)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <retrofit.mime.FormUrlEncodedTypedOutput: void addField(java.lang.String,boolean,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <retrofit.converter.GsonConverter$JsonTypedOutput: void writeTo(java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah: int zzb(java.net.URL,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah$zza: boolean zzj(com.google.android.gms.analytics.internal.zzab)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <retrofit.mime.MultipartTypedOutput: void writeTo(java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah: byte[] zzj(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: java.lang.Object fromByteArr(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: int read(char[],int,int)>
+Caller: <com.google.gson.stream.JsonReader: boolean fillBuffer(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutput: void close()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: byte[] fromObject(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutput: void close()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: byte[] fromObject(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutput: void close()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: byte[] fromObject(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: int getSoTimeout()>
+Caller: <com.squareup.okhttp.internal.http.HttpConnection: boolean isReadable()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutput: void writeObject(java.lang.Object)>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: byte[] fromObject(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: java.util.Set zzb(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: long zzb(java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: long zza(java.lang.String,java.lang.String[],long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: void onOpen(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.Gson: com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInput: void close()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: java.lang.Object fromByteArr(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInput: void close()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: java.lang.Object fromByteArr(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInput: void close()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: java.lang.Object fromByteArr(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhc(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tmobile.tuesdays.services.PrizeEngine: java.lang.String readString(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tmobile.tuesdays.services.PrizeEngine: java.lang.String readString(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.net.URL,java.lang.String)>
+Caller: <com.squareup.okhttp.internal.http.HttpEngine: com.squareup.okhttp.Request followUpRequest()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <retrofit.converter.GsonConverter: java.lang.Object fromBody(retrofit.mime.TypedInput,java.lang.reflect.Type)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.tmobile.tuesdays.services.PrizeEngine: java.lang.String readString(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: int zzzy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: void zzq(java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: void zza(long,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.analytics.internal.zzj: void zzb(com.google.android.gms.analytics.internal.zzh)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean,boolean)>
+Caller: <com.google.android.gms.analytics.internal.zzx: boolean zzes(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean,boolean)>
+Caller: <com.google.android.gms.analytics.internal.zzx: boolean zzes(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: void put(java.lang.String,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: void put(java.lang.String,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: void put(java.lang.String,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: void put(java.lang.String,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: void put(java.lang.String,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: java.lang.Object get(java.lang.String,java.lang.Class)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.InflaterSource: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.tmobile.tuesdays.prizelogic.TokenHelper: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.MediaType: java.nio.charset.Charset charset()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.tmobile.tuesdays.services.PrizeEngine: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.squareup.okhttp.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okio.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.tmobile.tuesdays.services.CmsEngine: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <retrofit.RequestBuilder: void addQueryParam(java.lang.String,java.lang.String,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzah: void zza(java.lang.StringBuilder,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: java.io.File getAttachmentFile(java.util.UUID,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <retrofit.mime.FormUrlEncodedTypedOutput: void addField(java.lang.String,boolean,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <retrofit.RequestBuilder: void addQueryParam(java.lang.String,java.lang.String,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzah: void zza(java.lang.StringBuilder,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <retrofit.RequestBuilder: void addPathParam(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <retrofit.mime.FormUrlEncodedTypedOutput: void addField(java.lang.String,boolean,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: boolean zza(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>
+Caller: <com.squareup.okhttp.Connection: com.squareup.okhttp.Request tunnelRequest(com.squareup.okhttp.Request)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+Caller: <com.squareup.okhttp.internal.http.AuthenticatorAdapter: java.net.InetAddress getConnectToInetAddress(java.net.Proxy,java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress[] getAllByName(java.lang.String)>
+Caller: <com.squareup.okhttp.internal.Network$1: java.net.InetAddress[] resolveInetAddresses(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: java.lang.String getHostName()>
+Caller: <com.squareup.okhttp.internal.http.RouteSelector: java.lang.String getHostString(java.net.InetSocketAddress)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: java.lang.String getHostName()>
+Caller: <com.squareup.okhttp.internal.http.AuthenticatorAdapter: com.squareup.okhttp.Request authenticateProxy(java.net.Proxy,com.squareup.okhttp.Response)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <retrofit.Utils: byte[] streamToBytes(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah: void zzb(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <retrofit.Utils: byte[] streamToBytes(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String getContentType()>
+Caller: <retrofit.client.UrlConnectionClient: retrofit.client.Response readResponse(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: void put(java.lang.String,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.gms.analytics.internal.zzj: void beginTransaction()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <com.squareup.okhttp.internal.http.HttpConnection: boolean isReadable()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <com.squareup.okhttp.internal.http.HttpConnection: boolean isReadable()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <com.squareup.okhttp.Connection: void upgradeToTls(com.squareup.okhttp.Request,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <com.squareup.okhttp.Connection: void connect(int,int,int,com.squareup.okhttp.Request)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <com.squareup.okhttp.internal.http.HttpConnection: boolean isReadable()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <com.squareup.okhttp.Connection: void setTimeouts(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <com.squareup.okhttp.internal.http.HttpConnection: boolean isReadable()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.internal.Utility: android.os.Bundle parseUrlQueryString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.internal.Utility: android.os.Bundle parseUrlQueryString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.internal.Utility: android.os.Bundle parseUrlQueryString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.gms.analytics.internal.zzj: void setTransactionSuccessful()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: byte[] fromObject(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.OutputStream getOutputStream()>
+Caller: <okio.Okio: okio.Sink sink(java.net.Socket)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.iid.zzd: void zzkf(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzx: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: java.lang.Object get(java.lang.String,java.lang.Class)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzx: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: java.io.File getAttachmentsDirectoryForCall(java.util.UUID,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: boolean init(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: void put(java.lang.String,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.tmobile.tuesdays.services.caches.DataCache: java.lang.Object fromByteArr(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void close()>
+Caller: <retrofit.converter.GsonConverter: java.lang.Object fromBody(retrofit.mime.TypedInput,java.lang.reflect.Type)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void close()>
+Caller: <retrofit.converter.GsonConverter: java.lang.Object fromBody(retrofit.mime.TypedInput,java.lang.reflect.Type)>
+Thread: [UI]
+-------------------------

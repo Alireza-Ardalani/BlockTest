@@ -1,0 +1,186 @@
+Time1: 146.759111207
+Time2: 8.740902853
+Worker: 23
+UI: 22
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <s5.a: long i(java.io.InputStream,java.io.OutputStream,boolean)>
+Thread: [<j3.a: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <j3.a: void run()>
+Thread: [<j3.a: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <x4.i: boolean j(java.lang.String)>
+Thread: [<j3.a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.ads.rh0: void f(android.database.sqlite.SQLiteDatabase,x4.i)>
+Thread: [<j3.a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.ads.rh0: void f(android.database.sqlite.SQLiteDatabase,x4.i)>
+Thread: [<j3.a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.rh0: void f(android.database.sqlite.SQLiteDatabase,x4.i)>
+Thread: [<j3.a: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <s5.a: long i(java.io.InputStream,java.io.OutputStream,boolean)>
+Thread: [<j3.a: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <o6.c: void run()>
+Thread: [<o6.c: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <j3.a: void run()>
+Thread: [<j3.a: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <x4.i: boolean j(java.lang.String)>
+Thread: [<j3.a: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read()>
+Caller: <o6.c: void run()>
+Thread: [<o6.c: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.InputStream getInputStream()>
+Caller: <o6.c: void run()>
+Thread: [<o6.c: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getQuery()>
+Caller: <i2.h: byte[] u()>
+Thread: [<o6.c: void run()>]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <x4.f: void a(java.net.HttpURLConnection,byte[])>
+Thread: [<j3.a: void run()>]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <x4.f: void a(java.net.HttpURLConnection,byte[])>
+Thread: [<j3.a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.ads.rh0: void f(android.database.sqlite.SQLiteDatabase,x4.i)>
+Thread: [<j3.a: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <o6.c: void run()>
+Thread: [<o6.c: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.gms.internal.ads.rh0: void f(android.database.sqlite.SQLiteDatabase,x4.i)>
+Thread: [<j3.a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.ads.o: void run()>
+Thread: [<j3.a: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <i2.h: byte[] u()>
+Thread: [<o6.c: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.gms.internal.ads.rh0: void f(android.database.sqlite.SQLiteDatabase,x4.i)>
+Thread: [<j3.a: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <s5.a: long i(java.io.InputStream,java.io.OutputStream,boolean)>
+Thread: [<j3.a: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.OutputStream getOutputStream()>
+Caller: <o6.c: void run()>
+Thread: [<o6.c: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <qa.d: void onPictureTaken(byte[],android.hardware.Camera)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <c3.b: void a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.my0: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.my0: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.my0: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.my0: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.se1: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <r8.c: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.my0: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.my0: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.se1: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <e3.i: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.se1: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <n3.l: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <qa.d: void onPictureTaken(byte[],android.hardware.Camera)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <u5.f: java.lang.String a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <s5.a: void h(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerDefaultNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <f0.i: void r(android.net.ConnectivityManager,android.net.ConnectivityManager$NetworkCallback)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <qa.d: void onPictureTaken(byte[],android.hardware.Camera)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <qa.d: void onPictureTaken(byte[],android.hardware.Camera)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <u5.f: java.lang.String a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <qa.g: void <init>(android.content.Context,int,int,android.widget.ImageButton,android.widget.ImageButton)>
+Thread: [UI]
+-------------------------

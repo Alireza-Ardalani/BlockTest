@@ -1,0 +1,82 @@
+Time1: 33.159599899
+Time2: 1.790608687
+Worker: 8
+UI: 11
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.stripe.android.StripeApiHandler: java.lang.String urlEncode(java.lang.String)>
+Thread: [<com.stripe.android.Stripe$2$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.stripe.android.StripeApiHandler: java.lang.String urlEncode(java.lang.String)>
+Thread: [<com.stripe.android.Stripe$1$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.stripe.android.StripeApiHandler: java.net.HttpURLConnection createStripeConnection(java.lang.String,com.stripe.android.RequestOptions)>
+Thread: [<com.stripe.android.Stripe$1$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.stripe.android.StripeApiHandler: java.net.HttpURLConnection createStripeConnection(java.lang.String,com.stripe.android.RequestOptions)>
+Thread: [<com.stripe.android.Stripe$2$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.stripe.android.StripeApiHandler: java.net.HttpURLConnection createPostConnection(java.lang.String,java.util.Map,com.stripe.android.RequestOptions)>
+Thread: [<com.stripe.android.Stripe$1$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.stripe.android.StripeApiHandler: java.net.HttpURLConnection createPostConnection(java.lang.String,java.util.Map,com.stripe.android.RequestOptions)>
+Thread: [<com.stripe.android.Stripe$2$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.stripe.android.StripeApiHandler: java.net.HttpURLConnection createStripeConnection(java.lang.String,com.stripe.android.RequestOptions)>
+Thread: [<com.stripe.android.Stripe$2$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.stripe.android.StripeApiHandler: java.net.HttpURLConnection createStripeConnection(java.lang.String,com.stripe.android.RequestOptions)>
+Thread: [<com.stripe.android.Stripe$1$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.advancedcyclemonitorsystem.zero.ExportData: void exportDataFuncion(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.stripe.android.StripeApiHandler: java.lang.String urlEncode(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.advancedcyclemonitorsystem.zero.ExportData: void exportDataFuncion(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.ads.zzanf: void zzcz(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.stripe.android.StripeApiHandler: java.net.HttpURLConnection createStripeConnection(java.lang.String,com.stripe.android.RequestOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.ads.zzamy: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.ads.zzamy: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.stripe.android.StripeApiHandler: java.net.HttpURLConnection createPostConnection(java.lang.String,java.util.Map,com.stripe.android.RequestOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.zzanf: void zzcz(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.stripe.android.StripeApiHandler: java.net.HttpURLConnection createStripeConnection(java.lang.String,com.stripe.android.RequestOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)>
+Caller: <com.splunk.mint.Mint: void initializeNetworkMonitoring()>
+Thread: [UI]
+-------------------------

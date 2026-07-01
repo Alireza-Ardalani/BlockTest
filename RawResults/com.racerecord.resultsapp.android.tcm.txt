@@ -1,0 +1,50 @@
+Time1: 107.461220588
+Time2: 5.796357738
+Worker: 2
+UI: 9
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.charset.CoderResult encode(java.nio.CharBuffer,java.nio.ByteBuffer,boolean)>
+Caller: <io.ktor.utils.io.charsets.CharsetJVMKt: boolean encodeComplete(java.nio.charset.CharsetEncoder,io.ktor.utils.io.core.Buffer)>
+Thread: [<com.mtecresults.resultsapp.android.ViewModel$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.charset.CoderResult encode(java.nio.CharBuffer,java.nio.ByteBuffer,boolean)>
+Caller: <io.ktor.utils.io.charsets.CharsetJVMKt: int encodeImpl(java.nio.charset.CharsetEncoder,java.lang.CharSequence,int,int,io.ktor.utils.io.core.Buffer)>
+Thread: [<com.mtecresults.resultsapp.android.ViewModel$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.mtecresults.resultsapp.android.MainActivity: void onDestroy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.mapbox.common.BaseMapboxInitializerKt: java.lang.String gatherSystemInfo(com.mapbox.common.InitializerData,android.content.Context,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.mtecresults.resultsapp.android.MainActivity: void onDestroy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.charset.CoderResult encode(java.nio.CharBuffer,java.nio.ByteBuffer,boolean)>
+Caller: <io.ktor.utils.io.charsets.CharsetJVMKt: int encodeImpl(java.nio.charset.CharsetEncoder,java.lang.CharSequence,int,int,io.ktor.utils.io.core.Buffer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.charset.CoderResult encode(java.nio.CharBuffer,java.nio.ByteBuffer,boolean)>
+Caller: <io.ktor.utils.io.charsets.CharsetJVMKt: boolean encodeComplete(java.nio.charset.CharsetEncoder,io.ktor.utils.io.core.Buffer)>
+Thread: [UI]
+-------------------------

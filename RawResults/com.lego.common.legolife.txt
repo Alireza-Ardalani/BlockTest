@@ -1,0 +1,1006 @@
+Time1: 35.564453164
+Time2: 2.193176855
+Worker: 12
+UI: 238
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <okhttp3.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <okhttp3.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <okhttp3.internal.io.FileSystem$1: boolean exists(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <okio.Okio$1: void close()>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <okhttp3.internal.io.FileSystem$1: void rename(java.io.File,java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <okhttp3.internal.io.FileSystem$1: okio.Sink sink(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <okhttp3.internal.io.FileSystem$1: okio.Sink appendingSink(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<okhttp3.ConnectionPool$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Sink sink(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <okio.Okio: okio.Sink appendingSink(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.database.Cursor getCachedFeedItemsByType(com.lego.sdk.contentfeed.queries.FeedItemsByTypeQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.database.Cursor getCachedMyFeedItems(com.lego.sdk.contentfeed.queries.MyFeedItemsQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.database.Cursor getCachedFeedItemsByTags(com.lego.sdk.contentfeed.queries.FeedItemsByTagQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.lego.sdk.common.FluentUriMatcher: void <init>(com.lego.sdk.common.FluentUriMatcher$Builder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: boolean rowExists(java.lang.String,java.lang.String,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.social.activities.ActivityFeedProvider: boolean rowExists(java.lang.String,java.lang.String,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: boolean rowExists(java.lang.String,java.lang.String,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.comments.database.SQLiteHelper: boolean rowExists(java.lang.String,com.lego.sdk.common.sqlite.WhereBuilder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.unity3d.player.UnityPlayer: java.lang.String[] a(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.unity3d.player.UnityPlayer: java.lang.String[] a(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <okhttp3.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <io.tpa.tpalib.feedback.FeedbackActivity: void savePendingFeedback(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <okhttp3.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.lego.common.legolife.utilities.FileHelper: void deleteAvatarFile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.comments.CommentsProvider: android.database.Cursor handleCommentsQuery(com.lego.sdk.comments.queries.CommentsQuery,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.social.activities.ActivityFeedProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: void deleteNextPageUrl(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.comments.CommentsProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.comments.CommentsProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.tasks.TaskRepository: void deleteTaskFromDb(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.comments.CommentsProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.comments.CommentsProvider: android.database.Cursor handleCommentsQuery(com.lego.sdk.comments.queries.CommentsQuery,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: void execute()>
+Caller: <com.lego.sdk.gallery.GalleryProvider: void updateImageCount(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.lego.common.legolife.utilities.FileHelper: void deleteAvatarFile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.unity3d.player.UnityPlayer: java.lang.String[] a(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <okhttp3.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.unity3d.player.UnityPlayer: void a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <okhttp3.internal.io.FileSystem$1: boolean exists(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.tasks.TaskRepository: void updateTaskInDb(android.net.Uri,com.lego.sdk.gallery.tasks.Task$TaskState)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: long insertOrUpdateRow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.comments.database.SQLiteHelper: long insertOrUpdateRow(java.lang.String,android.content.ContentValues,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: void setNextPageUrl(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.social.activities.ActivityFeedProvider: long insertOrUpdateRow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <okio.Okio$1: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.queries.PendingComment: com.lego.sdk.comments.queries.PendingComment fromContentValues(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.CommentsProvider: void updateKeyboardRequestCache(android.database.sqlite.SQLiteDatabase,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.model.Comment: com.lego.sdk.comments.model.Comment fromContentValues(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.social.activities.ActivityFeedProvider: long insertOrUpdateRow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.database.SQLiteHelper: long insertOrUpdateRow(java.lang.String,android.content.ContentValues,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.CommentsProvider: void updateCommentsCache(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.CommentsProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.social.activities.ActivityFeedProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.queries.PendingComment: com.lego.sdk.comments.queries.PendingComment fromContentValues(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.model.Comment: com.lego.sdk.comments.model.Comment fromContentValues(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.model.Comment: com.lego.sdk.comments.model.Comment fromContentValues(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.CommentsProvider: void updateKeyboardRequestCache(android.database.sqlite.SQLiteDatabase,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.social.activities.ActivityFeedProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.CommentsProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.model.Comment: com.lego.sdk.comments.model.Comment fromContentValues(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.queries.PendingComment: com.lego.sdk.comments.queries.PendingComment fromContentValues(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.queries.PendingComment: com.lego.sdk.comments.queries.PendingComment fromContentValues(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: void putTimestamp(android.content.ContentValues,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.queries.PendingComment: com.lego.sdk.comments.queries.PendingComment fromContentValues(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.queries.PendingComment: com.lego.sdk.comments.queries.PendingComment fromContentValues(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.model.Comment: com.lego.sdk.comments.model.Comment fromContentValues(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: long insertOrUpdateRow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.comments.CommentsProvider: void updateCommentsCache(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri getRelatedAlbumUri(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri getNextPageUri(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.gallery.GalleryProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.social.activities.query.handler.OtherUserActivitiesQueryHandler: java.lang.String getNextBatchUrl(com.lego.sdk.social.activities.query.OtherUserActivitiesQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.comments.CommentsProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.comments.CommentsProvider: void updateCommentsCache(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.gallery.tasks.TaskRepository: long insertTaskInDb(android.net.Uri,android.net.Uri,com.lego.sdk.gallery.tasks.TaskType)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.comments.CommentsProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.comments.CommentsProvider: java.lang.String getNextBatchUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: boolean rowExists(java.lang.String,java.lang.String,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.gallery.tasks.TaskRepository: void deleteTaskFromDb(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.comments.CommentsProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: long insertOrUpdateRow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.gallery.tasks.TaskRepository: void updateTaskInDb(android.net.Uri,com.lego.sdk.gallery.tasks.Task$TaskState)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.social.activities.query.handler.MyActivitiesQueryHandler: java.lang.String getNextBatchUrl(com.lego.sdk.social.activities.query.MyActivitiesQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.gallery.GalleryProvider: void deleteNextPageUrl(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.social.activities.ActivityFeedProvider: long insertOrUpdateRow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.gallery.GalleryProvider: void setNextPageUrl(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.database.Cursor getMyAlbumsNextBatchInfo(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.social.activities.query.handler.OtherUserActivitiesQueryHandler: android.database.Cursor getCachedResult(com.lego.sdk.social.activities.query.OtherUserActivitiesQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.gallery.GalleryProvider: boolean rowExists(java.lang.String,java.lang.String,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.database.Cursor getCachedFeedItemTags(com.lego.sdk.contentfeed.queries.FeedItemTagsQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: java.lang.String getRecommendationId(com.lego.sdk.common.query.ContentProviderQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.social.activities.ActivityFeedProvider: boolean rowExists(java.lang.String,java.lang.String,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.gallery.GalleryProvider: void updateImageCount(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.social.activities.query.handler.MyActivitiesQueryHandler: android.database.Cursor getCachedResult(com.lego.sdk.social.activities.query.MyActivitiesQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.database.Cursor getCachedMyFeedItems(com.lego.sdk.contentfeed.queries.MyFeedItemsQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.social.activities.ActivityFeedProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.gallery.tasks.TaskRepository: void loadTasksFromDb()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.comments.CommentsProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.database.Cursor getCachedFeedItemsByTags(com.lego.sdk.contentfeed.queries.FeedItemsByTagQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.database.Cursor getCachedNextBatchInfo(com.lego.sdk.common.query.ContentProviderQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.database.Cursor getCachedFeedItemsByType(com.lego.sdk.contentfeed.queries.FeedItemsByTypeQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Boolean getAsBoolean(java.lang.String)>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.database.Cursor getImagesCursorFromAlbumIndex(android.database.sqlite.SQLiteDatabase,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: void updateImageCount(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.lego.avatarbuilder.UnityBridge: java.lang.String readRestResponse(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <io.tpa.tpalib.feedback.Screenshot: android.graphics.Bitmap loadBitmapFromFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Long getAsLong(java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Long getAsLong(java.lang.String)>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Long getAsLong(java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Long getAsLong(java.lang.String)>
+Caller: <com.lego.sdk.comments.model.Comment: com.lego.sdk.comments.model.Comment fromContentValues(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Long getAsLong(java.lang.String)>
+Caller: <com.lego.sdk.social.activities.ActivityFeedProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Long getAsLong(java.lang.String)>
+Caller: <com.lego.sdk.comments.CommentsProvider: void updateCommentsCache(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Long getAsLong(java.lang.String)>
+Caller: <com.lego.sdk.comments.CommentsProvider: void updateKeyboardRequestCache(android.database.sqlite.SQLiteDatabase,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <okhttp3.internal.io.FileSystem$1: void rename(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <okhttp3.internal.io.FileSystem$1: okio.Sink sink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <okhttp3.internal.io.FileSystem$1: okio.Sink appendingSink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.lego.sdk.gallery.AlbumBuilder: void abort()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Integer getAsInteger(java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Integer getAsInteger(java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.lego.common.legolife.utilities.FileHelper: java.io.File createImageFile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <okhttp3.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String domainToAscii(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <com.unity3d.player.UnityPlayer: java.lang.String a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.lego.sdk.comments.CommentsProvider: void setLastModified(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.lego.sdk.comments.CommentsProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Sink sink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.comments.CommentsProvider: java.lang.String getLastModified(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.comments.CommentsProvider: android.database.Cursor handlekeysQuery(android.net.Uri,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.comments.CommentsProvider: java.lang.String getNextBatchUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: java.lang.String getRecommendationId(com.lego.sdk.common.query.ContentProviderQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.comments.CommentsProvider: android.database.Cursor handleCategoriesQuery(android.net.Uri,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri getRelatedAlbumUri(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.database.Cursor getCachedNextBatchInfo(com.lego.sdk.common.query.ContentProviderQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri getNextPageUri(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.gallery.tasks.TaskRepository: void loadTasksFromDb()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.comments.CommentsProvider: android.database.Cursor handleCommentsQuery(com.lego.sdk.comments.queries.CommentsQuery,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.social.activities.query.handler.MyActivitiesQueryHandler: java.lang.String getNextBatchUrl(com.lego.sdk.social.activities.query.MyActivitiesQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.social.activities.query.handler.OtherUserActivitiesQueryHandler: java.lang.String getNextBatchUrl(com.lego.sdk.social.activities.query.OtherUserActivitiesQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.database.Cursor getMyAlbumsNextBatchInfo(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.social.activities.query.handler.MyActivitiesQueryHandler: android.database.Cursor getCachedResult(com.lego.sdk.social.activities.query.MyActivitiesQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.social.activities.query.handler.OtherUserActivitiesQueryHandler: android.database.Cursor getCachedResult(com.lego.sdk.social.activities.query.OtherUserActivitiesQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <io.tpa.tpalib.feedback.ImageButtonSelectColor: void <init>(android.content.Context,android.util.AttributeSet,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <io.tpa.tpalib.feedback.ImageButtonSelectColor: void <init>(android.content.Context,android.util.AttributeSet,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.lego.sdk.comments.CommentsProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: long insertOrUpdateRow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.lego.sdk.social.activities.ActivityFeedProvider: long insertOrUpdateRow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.lego.sdk.gallery.tasks.TaskRepository: long insertTaskInDb(android.net.Uri,android.net.Uri,com.lego.sdk.gallery.tasks.TaskType)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.lego.sdk.comments.database.SQLiteHelper: long insertOrUpdateRow(java.lang.String,android.content.ContentValues,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: void setNextPageUrl(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.lego.sdk.gallery.GalleryProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.unity3d.player.UnityPlayer: java.lang.String a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <okhttp3.internal.io.FileSystem$1: long size(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <okhttp3.internal.Util: boolean equal(java.lang.Object,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <okhttp3.internal.Util: java.util.List intersect(java.lang.Object[],java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.unity3d.player.UnityPlayer: void a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Source source(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <okio.Okio: okio.Sink appendingSink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.database.Cursor handleNextBatch(com.lego.sdk.common.query.ContentProviderQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.unity3d.player.UnityPlayer: java.lang.String a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <okhttp3.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.lego.sdk.contentfeed.ContentFeedProvider: android.database.Cursor getCachedFeedItemTags(com.lego.sdk.contentfeed.queries.FeedItemTagsQuery)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: long skip(long)>
+Caller: <com.unity3d.player.UnityPlayer: java.lang.String a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.lego.avatarbuilder.UnityBridge: java.lang.String readRestResponse(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <okio.Okio$2: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okio.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.lego.sdk.gallery.AlbumBuilder: void <init>(android.content.Context,java.lang.String,java.lang.String[],java.util.UUID,java.lang.String,com.lego.sdk.gallery.AlbumBuilder$AlbumListener)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void close()>
+Caller: <com.lego.avatarbuilder.UnityBridge: java.lang.String readRestResponse(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.lego.avatarbuilder.UnityBridge: java.lang.String readRestResponse(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.lego.sdk.core.legal.LegalDocuments: com.lego.sdk.core.legal.LegalDocuments getLegalDocuments(android.app.Activity,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.lego.sdk.common.FluentUriMatcher: java.lang.Enum match(android.net.Uri)>
+Thread: [UI]
+-------------------------

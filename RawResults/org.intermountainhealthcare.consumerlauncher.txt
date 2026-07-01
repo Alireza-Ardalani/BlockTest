@@ -1,0 +1,62 @@
+Time1: 11.061152675
+Time2: 0.212477973
+Worker: 5
+UI: 9
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URLConnection: int getContentLength()>
+Caller: <org.intermountainhealthcare.consumerlauncher.d.a: java.lang.Object a(java.lang.Void[])>
+Thread: [<org.intermountainhealthcare.consumerlauncher.d.a: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String getContentEncoding()>
+Caller: <org.intermountainhealthcare.consumerlauncher.d.a: java.lang.Object a(java.lang.Void[])>
+Thread: [<org.intermountainhealthcare.consumerlauncher.d.a: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <org.intermountainhealthcare.consumerlauncher.d.a: java.lang.Object a(java.lang.Void[])>
+Thread: [<org.intermountainhealthcare.consumerlauncher.d.a: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <org.intermountainhealthcare.consumerlauncher.d.a: void a(java.lang.String,java.io.OutputStream)>
+Thread: [<org.intermountainhealthcare.consumerlauncher.d.a: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <org.intermountainhealthcare.consumerlauncher.d.a: java.lang.Object a(java.lang.Void[])>
+Thread: [<org.intermountainhealthcare.consumerlauncher.d.a: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.net.URLConnection: int getContentLength()>
+Caller: <org.intermountainhealthcare.consumerlauncher.d.a: java.lang.Object a(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String getContentEncoding()>
+Caller: <org.intermountainhealthcare.consumerlauncher.d.a: java.lang.Object a(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <org.intermountainhealthcare.consumerlauncher.e.g: org.intermountainhealthcare.consumerlauncher.d.a a(java.lang.String,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <org.intermountainhealthcare.consumerlauncher.e.g: org.intermountainhealthcare.consumerlauncher.d.a a(java.lang.String,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <org.intermountainhealthcare.consumerlauncher.d.a: void a(java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <org.intermountainhealthcare.consumerlauncher.d.a: void a(java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <org.intermountainhealthcare.consumerlauncher.d.a: java.lang.Object a(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <org.intermountainhealthcare.consumerlauncher.d.a: void a(java.lang.String,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <org.intermountainhealthcare.consumerlauncher.d.a: java.lang.Object a(java.lang.Void[])>
+Thread: [UI]
+-------------------------

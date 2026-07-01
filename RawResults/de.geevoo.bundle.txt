@@ -1,0 +1,110 @@
+Time1: 134.393735352
+Time2: 1.866114166
+Worker: 8
+UI: 18
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.facebook.soloader.ApplicationSoSource: boolean checkAndMaybeUpdate()>
+Thread: [<com.facebook.react.ReactInstanceManager$5: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.graphics.Bitmap$CompressFormat: android.graphics.Bitmap$CompressFormat valueOf(java.lang.String)>
+Caller: <com.yalantis.ucrop.UCropActivity: void processOptions(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.soloader.SoLoader: void AddBackupSoSource(android.content.Context,java.util.ArrayList,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.soloader.DirectorySoSource: java.lang.String toString()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.facebook.soloader.SysUtil: void dumbDeleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <io.invertase.firebase.common.ReactNativeFirebaseInitProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.facebook.soloader.ApplicationSoSource: boolean checkAndMaybeUpdate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.soloader.SysUtil: void dumbDeleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------

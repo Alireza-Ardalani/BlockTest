@@ -1,0 +1,826 @@
+Time1: 130.62684508
+Time2: 5.149168945
+Worker: 119
+UI: 86
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.newrelic.agent.android.util.OfflineStorage: double getTotalFileSize()>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.newrelic.agent.android.harvest.HarvestConnection: java.lang.String readStream(java.io.InputStream)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.newrelic.agent.android.harvest.HarvestConnection: com.newrelic.agent.android.harvest.HarvestResponse send(java.net.HttpURLConnection,java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.newrelic.agent.android.harvest.HarvestConnection: com.newrelic.agent.android.harvest.HarvestResponse send(java.net.HttpURLConnection,java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void flush()>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: void putUUIDToFileStore(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void flush()>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: void putUUIDToFileStore(java.lang.String)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.newrelic.agent.android.util.OfflineStorage: boolean persistHarvestDataToDisk(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: java.lang.String getUUIDFromFileStore()>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.newrelic.agent.android.util.OfflineStorage: boolean persistHarvestDataToDisk(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: java.lang.String getUUIDFromFileStore()>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.newrelic.agent.android.util.Util: java.lang.String sanitizeUrl(java.lang.String)>
+Thread: [<com.newrelic.agent.android.TaskQueue$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.newrelic.agent.android.harvest.HarvestConnection: java.net.HttpURLConnection createPost(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.newrelic.agent.android.harvest.Harvester: void connected()>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.newrelic.agent.android.util.Reachability: boolean hasReachableNetworkConnection(android.content.Context,java.lang.String)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File,boolean)>
+Caller: <com.newrelic.agent.android.util.OfflineStorage: boolean persistHarvestDataToDisk(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.newrelic.agent.android.instrumentation.SQLiteInstrumentation: int delete(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.newrelic.agent.android.instrumentation.SQLiteInstrumentation: int delete(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.evernote.android.job.JobStorage$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.newrelic.agent.android.instrumentation.SQLiteInstrumentation: int delete(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.evernote.android.job.v21.PlatformJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.evernote.android.job.JobStorage: boolean remove(com.evernote.android.job.JobRequest,int)>
+Thread: [<com.evernote.android.job.v21.PlatformJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.evernote.android.job.JobStorage: boolean remove(com.evernote.android.job.JobRequest,int)>
+Thread: [<com.evernote.android.job.JobStorage$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.newrelic.agent.android.instrumentation.SQLiteInstrumentation: int delete(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.evernote.android.job.work.PlatformWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.evernote.android.job.JobStorage: boolean remove(com.evernote.android.job.JobRequest,int)>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.evernote.android.job.JobStorage: boolean remove(com.evernote.android.job.JobRequest,int)>
+Thread: [<com.evernote.android.job.v14.PlatformAlarmServiceExact$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.newrelic.agent.android.instrumentation.SQLiteInstrumentation: int delete(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.evernote.android.job.v14.PlatformAlarmServiceExact$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.evernote.android.job.JobStorage: boolean remove(com.evernote.android.job.JobRequest,int)>
+Thread: [<com.evernote.android.job.work.PlatformWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.evernote.android.job.JobStorage: android.database.sqlite.SQLiteDatabase getDatabase()>
+Thread: [<com.evernote.android.job.v21.PlatformJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.evernote.android.job.JobStorage: android.database.sqlite.SQLiteDatabase getDatabase()>
+Thread: [<com.evernote.android.job.JobStorage$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.evernote.android.job.JobStorage: android.database.sqlite.SQLiteDatabase getDatabase()>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.evernote.android.job.JobStorage: android.database.sqlite.SQLiteDatabase getDatabase()>
+Thread: [<com.evernote.android.job.v14.PlatformAlarmServiceExact$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.evernote.android.job.JobStorage: android.database.sqlite.SQLiteDatabase getDatabase()>
+Thread: [<com.evernote.android.job.work.PlatformWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.evernote.android.job.JobStorage: android.database.sqlite.SQLiteDatabase getDatabase()>
+Thread: [<com.evernote.android.job.JobStorage$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.evernote.android.job.JobStorage: android.database.sqlite.SQLiteDatabase getDatabase()>
+Thread: [<com.evernote.android.job.v21.PlatformJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.evernote.android.job.JobStorage: android.database.sqlite.SQLiteDatabase getDatabase()>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.evernote.android.job.JobStorage: android.database.sqlite.SQLiteDatabase getDatabase()>
+Thread: [<com.evernote.android.job.v14.PlatformAlarmServiceExact$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.evernote.android.job.JobStorage: android.database.sqlite.SQLiteDatabase getDatabase()>
+Thread: [<com.evernote.android.job.work.PlatformWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.newrelic.agent.android.util.OfflineStorage: boolean persistHarvestDataToDisk(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <com.newrelic.agent.android.harvest.HarvestConnection: com.newrelic.agent.android.harvest.HarvestResponse send(java.net.HttpURLConnection,java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter close(int,int,char)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter open(int,char)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter close(int,int,char)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter open(int,char)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.newrelic.agent.android.util.Deflator: byte[] deflate(byte[])>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.evernote.android.job.util.support.FastXmlSerializer: void flushBytes()>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.newrelic.agent.android.harvest.HarvestConnection: java.lang.String readStream(java.io.InputStream)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.newrelic.agent.android.harvest.HarvestConnection: java.lang.String readStream(java.io.InputStream)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.newrelic.agent.android.util.OfflineStorage: boolean persistHarvestDataToDisk(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter value(long)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter value(long)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter nullValue()>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.agent.android.util.OfflineStorage: boolean persistHarvestDataToDisk(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: void putUUIDToFileStore(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: void putUUIDToFileStore(java.lang.String)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter nullValue()>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.newrelic.agent.android.harvest.HarvestConnection: java.net.HttpURLConnection createPost(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: void putUUIDToFileStore(java.lang.String)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: void putUUIDToFileStore(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: boolean deleteDatabase(java.io.File)>
+Caller: <com.evernote.android.job.JobStorageDatabaseErrorHandler: void deleteApi16(java.io.File)>
+Thread: [<com.evernote.android.job.v14.PlatformAlarmServiceExact$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: boolean deleteDatabase(java.io.File)>
+Caller: <com.evernote.android.job.JobStorageDatabaseErrorHandler: void deleteApi16(java.io.File)>
+Thread: [<com.evernote.android.job.work.PlatformWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: boolean deleteDatabase(java.io.File)>
+Caller: <com.evernote.android.job.JobStorageDatabaseErrorHandler: void deleteApi16(java.io.File)>
+Thread: [<com.evernote.android.job.v21.PlatformJobService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: boolean deleteDatabase(java.io.File)>
+Caller: <com.evernote.android.job.JobStorageDatabaseErrorHandler: void deleteApi16(java.io.File)>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: boolean deleteDatabase(java.io.File)>
+Caller: <com.evernote.android.job.JobStorageDatabaseErrorHandler: void deleteApi16(java.io.File)>
+Thread: [<com.evernote.android.job.JobStorage$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.evernote.android.job.util.support.FastXmlSerializer: void flushBytes()>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.evernote.android.job.JobStorage: void store(com.evernote.android.job.JobRequest)>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.newrelic.agent.android.instrumentation.SQLiteInstrumentation: long insertWithOnConflict(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.evernote.android.job.JobStorage: com.evernote.android.job.JobRequest load(int,boolean)>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.newrelic.agent.android.instrumentation.SQLiteInstrumentation: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.evernote.android.job.JobStorage: java.util.Set getAllJobRequests(java.lang.String,boolean)>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void <init>()>
+Caller: <com.newrelic.agent.android.util.Reachability: boolean hasReachableNetworkConnection(android.content.Context,java.lang.String)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void close()>
+Caller: <com.newrelic.agent.android.util.OfflineStorage: boolean persistHarvestDataToDisk(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void close()>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: void putUUIDToFileStore(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void close()>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: void putUUIDToFileStore(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void close()>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: void putUUIDToFileStore(java.lang.String)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void close()>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: void putUUIDToFileStore(java.lang.String)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: java.lang.String getUUIDFromFileStore()>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.newrelic.agent.android.util.OfflineStorage: java.util.Map getAllOfflineData()>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: java.lang.String getUUIDFromFileStore()>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: java.lang.String getUUIDFromFileStore()>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <com.newrelic.agent.android.util.OfflineStorage: java.util.Map getAllOfflineData()>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: java.lang.String getUUIDFromFileStore()>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void connect(java.net.SocketAddress,int)>
+Caller: <com.newrelic.agent.android.util.Reachability: boolean hasReachableNetworkConnection(android.content.Context,java.lang.String)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.evernote.android.job.util.support.FastXmlSerializer: void setOutput(java.io.OutputStream,java.lang.String)>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.newrelic.agent.android.instrumentation.SQLiteInstrumentation: android.database.Cursor rawQuery(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[])>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.evernote.android.job.JobStorage: int getMaxJobId()>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.newrelic.agent.android.util.Reachability: boolean hasReachableNetworkConnection(android.content.Context,java.lang.String)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.newrelic.agent.android.util.Reachability: boolean hasReachableNetworkConnection(android.content.Context,java.lang.String)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.newrelic.agent.android.util.OfflineStorage: double getTotalFileSize()>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.newrelic.agent.android.util.OfflineStorage: java.util.Map getAllOfflineData()>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.evernote.android.job.JobStorage: void update(com.evernote.android.job.JobRequest,android.content.ContentValues)>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.newrelic.agent.android.instrumentation.SQLiteInstrumentation: int update(android.database.sqlite.SQLiteDatabase,java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.charset.CoderResult encode(java.nio.CharBuffer,java.nio.ByteBuffer,boolean)>
+Caller: <com.evernote.android.job.util.support.FastXmlSerializer: void flush()>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.charset.CoderResult encode(java.nio.CharBuffer,java.nio.ByteBuffer,boolean)>
+Caller: <com.evernote.android.job.util.support.FastXmlSerializer: void flush()>
+Thread: [<com.evernote.android.job.JobManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.newrelic.agent.android.harvest.HarvestTimer$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.newrelic.agent.android.agentdata.AgentDataReporter$1: java.lang.Object call()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.newrelic.agent.android.logging.LogReporter: com.newrelic.agent.android.logging.LogReporter initialize(java.io.File,com.newrelic.agent.android.AgentConfiguration)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void flush()>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: void putUUIDToFileStore(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setLastModified(long)>
+Caller: <com.newrelic.agent.android.logging.LogReporter: java.io.File getWorkingLogfile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.newrelic.agent.android.logging.LogReporter: java.io.File getWorkingLogfile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.newrelic.agent.android.util.OfflineStorage: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.newrelic.agent.android.logging.LogReporter: com.newrelic.agent.android.logging.LogReporter initialize(java.io.File,com.newrelic.agent.android.AgentConfiguration)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.newrelic.agent.android.logging.LogReporter: com.newrelic.agent.android.logging.LogReporter initialize(java.io.File,com.newrelic.agent.android.AgentConfiguration)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: java.lang.String getUUIDFromFileStore()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.newrelic.agent.android.instrumentation.TransactionState: void setUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.newrelic.agent.android.util.Util: java.lang.String sanitizeUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.newrelic.agent.android.util.Reachability: boolean hasReachableNetworkConnection(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File,boolean)>
+Caller: <com.newrelic.agent.android.logging.LogReporter: java.io.BufferedWriter resetWorkingLogfile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.newrelic.agent.android.instrumentation.SQLiteInstrumentation: int delete(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.evernote.android.job.JobStorage: boolean remove(com.evernote.android.job.JobRequest,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.evernote.android.job.JobStorage: android.database.sqlite.SQLiteDatabase getDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.evernote.android.job.JobStorage: android.database.sqlite.SQLiteDatabase getDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.newrelic.agent.android.logging.LogReporter: com.newrelic.agent.android.logging.LogReporter initialize(java.io.File,com.newrelic.agent.android.AgentConfiguration)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.newrelic.agent.android.util.OfflineStorage: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.newrelic.agent.android.logging.LogReporter: java.io.File getWorkingLogfile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter close(int,int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter open(int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.evernote.android.job.util.support.FastXmlSerializer: void flushBytes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.newrelic.agent.android.sample.Sampler: void resetCpuSampler()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.newrelic.agent.android.sample.Sampler: void resetCpuSampler()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.newrelic.agent.android.logging.LogReporter: java.io.File getWorkingLogfile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: void putUUIDToFileStore(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.newrelic.com.google.gson.Gson: com.newrelic.com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: void putUUIDToFileStore(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: boolean deleteDatabase(java.io.File)>
+Caller: <com.evernote.android.job.JobStorageDatabaseErrorHandler: void deleteApi16(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.newrelic.agent.android.logging.LogReporter: com.newrelic.agent.android.logging.LogReporter initialize(java.io.File,com.newrelic.agent.android.AgentConfiguration)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.newrelic.agent.android.logging.LogReporter: com.newrelic.agent.android.logging.LogReporter initialize(java.io.File,com.newrelic.agent.android.AgentConfiguration)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.evernote.android.job.util.support.FastXmlSerializer: void flushBytes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.newrelic.agent.android.instrumentation.SQLiteInstrumentation: long insertWithOnConflict(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.evernote.android.job.JobStorage: void store(com.evernote.android.job.JobRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.evernote.android.job.JobStorage: java.util.Set getAllJobRequests(java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.newrelic.agent.android.instrumentation.SQLiteInstrumentation: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void <init>()>
+Caller: <com.newrelic.agent.android.util.Reachability: boolean hasReachableNetworkConnection(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void close()>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: void putUUIDToFileStore(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void close()>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: void putUUIDToFileStore(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: java.lang.String getUUIDFromFileStore()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <com.newrelic.agent.android.util.PersistentUUID: java.lang.String getUUIDFromFileStore()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void connect(java.net.SocketAddress,int)>
+Caller: <com.newrelic.agent.android.util.Reachability: boolean hasReachableNetworkConnection(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.evernote.android.job.util.support.FastXmlSerializer: void setOutput(java.io.OutputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.newrelic.agent.android.stores.SharedPrefsStore: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.evernote.android.job.JobStorage: int getMaxJobId()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.newrelic.agent.android.instrumentation.SQLiteInstrumentation: android.database.Cursor rawQuery(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.newrelic.agent.android.util.Reachability: boolean hasReachableNetworkConnection(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.newrelic.agent.android.util.Reachability: boolean hasReachableNetworkConnection(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.newrelic.agent.android.instrumentation.SQLiteInstrumentation: int update(android.database.sqlite.SQLiteDatabase,java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.evernote.android.job.JobStorage: void update(com.evernote.android.job.JobRequest,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.charset.CoderResult encode(java.nio.CharBuffer,java.nio.ByteBuffer,boolean)>
+Caller: <com.evernote.android.job.util.support.FastXmlSerializer: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.charset.CoderResult encode(java.nio.CharBuffer,java.nio.ByteBuffer,boolean)>
+Caller: <com.evernote.android.job.util.support.FastXmlSerializer: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: com.newrelic.com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.newrelic.com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,126 @@
+Time1: 27.10362392
+Time2: 0.60833693
+Worker: 4
+UI: 26
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.demo.recyclerviewwithsearch.db.DatabaseAccessor: java.util.ArrayList getAllWords(int)>
+Thread: [<com.demo.recyclerviewwithsearch.SplashActivity$DataLoading: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.demo.recyclerviewwithsearch.db.DatabaseAccessor: java.util.ArrayList getAllWords(int)>
+Thread: [<com.demo.recyclerviewwithsearch.MainActivity$DataLoading: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.demo.recyclerviewwithsearch.db.DatabaseAccessor: java.util.ArrayList getAllWords(int)>
+Thread: [<com.demo.recyclerviewwithsearch.SplashActivity$DataLoading: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.demo.recyclerviewwithsearch.db.DatabaseAccessor: java.util.ArrayList getAllWords(int)>
+Thread: [<com.demo.recyclerviewwithsearch.MainActivity$DataLoading: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.demo.recyclerviewwithsearch.DictionaryDetails: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.demo.recyclerviewwithsearch.SplashActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.demo.recyclerviewwithsearch.db.DataBaseHelper: void manageDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.demo.recyclerviewwithsearch.db.DataBaseHelper: void manageDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.demo.recyclerviewwithsearch.db.DataBaseHelper: void manageDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.demo.recyclerviewwithsearch.db.DatabaseAccessor: java.util.ArrayList getAllWords(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.demo.recyclerviewwithsearch.db.DatabaseAccessor: com.demo.recyclerviewwithsearch.model.Dictionary getSingleValue(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.demo.recyclerviewwithsearch.db.DatabaseAccessor: java.util.ArrayList getBookMarkWords(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.zzanf: void zzcz(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.demo.recyclerviewwithsearch.db.DataBaseHelper: void manageDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.demo.recyclerviewwithsearch.db.DataBaseHelper: void manageDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.demo.recyclerviewwithsearch.db.DataBaseHelper: void manageDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.demo.recyclerviewwithsearch.db.DataBaseHelper: void manageDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.demo.recyclerviewwithsearch.db.DataBaseHelper: void manageDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.demo.recyclerviewwithsearch.db.DataBaseHelper: void manageDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.demo.recyclerviewwithsearch.db.DataBaseHelper: void manageDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.demo.recyclerviewwithsearch.db.DatabaseAccessor: void initDB(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.demo.recyclerviewwithsearch.db.DataBaseHelper: void manageDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.ads.zzamy: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.ads.zzamy: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.ads.zzanf: void zzcz(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.demo.recyclerviewwithsearch.db.DataBaseHelper: void manageDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+Caller: <com.demo.recyclerviewwithsearch.db.DataBaseHelper: boolean databaseExist()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.demo.recyclerviewwithsearch.db.DataBaseHelper: void manageDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.demo.recyclerviewwithsearch.db.DatabaseAccessor: java.util.ArrayList getAllWords(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.demo.recyclerviewwithsearch.db.DatabaseAccessor: void initDB(android.content.Context)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,90 @@
+Time1: 18.246740947
+Time2: 0.201486462
+Worker: 4
+UI: 17
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseAdapter: android.database.Cursor getWeek(int)>
+Thread: [<com.myapp.bakho.pregnancyweek.WeekActivity$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseAdapter: android.database.Cursor getWeek(int)>
+Thread: [<com.myapp.bakho.pregnancyweek.WeekActivity$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseAdapter: com.myapp.bakho.pregnancyweek.DB.DataBaseAdapter openDB()>
+Thread: [<com.myapp.bakho.pregnancyweek.WeekActivity$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseAdapter: com.myapp.bakho.pregnancyweek.DB.DataBaseAdapter openDB()>
+Thread: [<com.myapp.bakho.pregnancyweek.WeekActivity$5: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseHelper: boolean checkDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseAdapter: android.database.Cursor getWeek(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseAdapter: android.database.Cursor selectDuaDate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseAdapter: android.database.Cursor getMotherWeeks(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseAdapter: java.util.ArrayList getWeekArray()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseAdapter: android.database.Cursor getBabyWeeks(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseHelper: void copyDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseHelper: void copyDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseHelper: boolean checkDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseHelper: void createDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseHelper: boolean checkDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseAdapter: void insertDate(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseAdapter: int deleteDueDate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils: long queryNumEntries(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseAdapter: long checkInputDate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseHelper: void copyDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseHelper: void copyDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.myapp.bakho.pregnancyweek.DB.DataBaseAdapter: com.myapp.bakho.pregnancyweek.DB.DataBaseAdapter openDB()>
+Thread: [UI]
+-------------------------

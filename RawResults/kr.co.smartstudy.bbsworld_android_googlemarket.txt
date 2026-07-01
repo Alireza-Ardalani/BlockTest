@@ -1,0 +1,198 @@
+Time1: 352.481529155
+Time2: 7.955053312
+Worker: 12
+UI: 36
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: java.net.URI toURI()>
+Caller: <kr.co.smartstudy.sspush.SSLocalPush$Companion: kr.co.smartstudy.sspush.SSPushExtInfo convertLocalPushItemToSSPushExtInfo$sspush_release(kr.co.smartstudy.sspush.SSLocalPushItem)>
+Thread: [<kr.co.smartstudy.sspush.SSLocalPush$onReceive$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <net.openid.appauth.AuthorizationService$TokenRequestTask: org.json.JSONObject doInBackground(java.lang.Void[])>
+Thread: [<net.openid.appauth.AuthorizationService$TokenRequestTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <net.openid.appauth.internal.UriUtil: java.lang.String formUrlEncodeValue(java.lang.String)>
+Thread: [<net.openid.appauth.AuthorizationService$TokenRequestTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <net.openid.appauth.connectivity.DefaultConnectionBuilder: java.net.HttpURLConnection openConnection(android.net.Uri)>
+Thread: [<net.openid.appauth.AuthorizationService$TokenRequestTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <net.openid.appauth.AuthorizationService$TokenRequestTask: org.json.JSONObject doInBackground(java.lang.Void[])>
+Thread: [<net.openid.appauth.AuthorizationService$TokenRequestTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <net.openid.appauth.AuthorizationService$TokenRequestTask: org.json.JSONObject doInBackground(java.lang.Void[])>
+Thread: [<net.openid.appauth.AuthorizationService$TokenRequestTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [<kr.co.smartstudy.sspush.SSPushNotificationClickedActivity$Companion$process$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <kr.co.smartstudy.sspush.SSPushMsgHandler: java.lang.Object handleMessage(kr.co.smartstudy.sspush.SSPushExtInfo,int,android.os.Bundle,java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [<kr.co.smartstudy.sspush.SSPushServiceFCM$onMessageReceived$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <kr.co.smartstudy.sspush.SSPushMsgHandler: java.lang.Object handleMessage(kr.co.smartstudy.sspush.SSPushExtInfo,int,android.os.Bundle,java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [<kr.co.smartstudy.sspush.SSLocalPush$onReceive$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.MediaType: java.nio.charset.Charset charset(java.nio.charset.Charset)>
+Thread: [<kr.co.smartstudy.sspush.SSPushNotificationClickedActivity$Companion$process$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <net.openid.appauth.Utils: java.lang.String readInputStream(java.io.InputStream)>
+Thread: [<net.openid.appauth.AuthorizationService$TokenRequestTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <net.openid.appauth.connectivity.DefaultConnectionBuilder: java.net.HttpURLConnection openConnection(android.net.Uri)>
+Thread: [<net.openid.appauth.AuthorizationService$TokenRequestTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <net.openid.appauth.AuthorizationService$TokenRequestTask: org.json.JSONObject doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.Gson: com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <net.openid.appauth.internal.UriUtil: java.lang.String formUrlEncodeValue(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <net.openid.appauth.connectivity.DefaultConnectionBuilder: java.net.HttpURLConnection openConnection(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <net.openid.appauth.AuthorizationService$TokenRequestTask: org.json.JSONObject doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <net.openid.appauth.AuthorizationService$TokenRequestTask: org.json.JSONObject doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.thefinestartist.finestwebview.utils.BitmapUtil: android.graphics.Bitmap getColoredBitmap(android.content.Context,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.MediaType: java.nio.charset.Charset charset(java.nio.charset.Charset)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Caller: <kr.co.smartstudy.sscore.SSInterProcessDataProvider$SSContentProviderImpl: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <net.openid.appauth.Utils: java.lang.String readInputStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <net.openid.appauth.connectivity.DefaultConnectionBuilder: java.net.HttpURLConnection openConnection(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.thefinestartist.finestwebview.utils.UrlParser: java.lang.String getHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.thefinestartist.finestwebview.utils.TypefaceUtil: android.graphics.Typeface get(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [UI]
+-------------------------

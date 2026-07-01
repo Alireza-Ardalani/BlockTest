@@ -1,0 +1,30 @@
+Time1: 18.471984835
+Time2: 0.268283533
+Worker: 0
+UI: 6
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.hippogames.simpleandroidnotifications.Serializer: java.lang.Object FromString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.hippogames.simpleandroidnotifications.Serializer: java.lang.Object FromString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.hippogames.simpleandroidnotifications.Controller: android.app.Notification BuildNotification(android.content.Context,com.hippogames.simpleandroidnotifications.NotificationParams,android.content.Intent,android.app.NotificationManager)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.hippogames.simpleandroidnotifications.Controller: void CreateStackedNotification(android.content.Context,android.content.Intent,com.hippogames.simpleandroidnotifications.NotificationParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.hippogames.simpleandroidnotifications.Serializer: java.lang.Object FromString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.venninteractive.vennimagepicker.KoiCameraActivity: java.io.File createImageFile()>
+Thread: [UI]
+-------------------------

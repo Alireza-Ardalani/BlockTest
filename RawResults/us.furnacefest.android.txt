@@ -1,0 +1,86 @@
+Time1: 143.608703219
+Time2: 1.165709142
+Worker: 0
+UI: 20
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.soloader.DirectorySoSource: java.lang.String toString()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.soloader.SoLoader: void AddBackupSoSource(android.content.Context,java.util.ArrayList,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.soloader.SysUtil: void dumbDeleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.facebook.soloader.ApplicationSoSource: boolean checkAndMaybeUpdate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <expo.modules.notifications.service.delegates.Base64SerializationKt: java.lang.String encodedInBase64(java.io.Serializable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <expo.modules.notifications.service.delegates.SharedPreferencesNotificationsStore: java.util.Collection getAllNotificationRequests()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <expo.modules.notifications.service.delegates.SharedPreferencesNotificationsStore: expo.modules.notifications.notifications.model.NotificationRequest getNotificationRequest(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <expo.modules.notifications.service.delegates.SharedPreferencesNotificationCategoriesStore: expo.modules.notifications.notifications.model.NotificationCategory getNotificationCategory(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <expo.modules.notifications.service.delegates.SharedPreferencesNotificationCategoriesStore: java.util.Collection getAllNotificationCategories()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.facebook.soloader.SysUtil: void dumbDeleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <expo.modules.notifications.service.delegates.Base64SerializationKt: java.lang.String encodedInBase64(java.io.Serializable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <expo.modules.notifications.service.delegates.SharedPreferencesNotificationCategoriesStore: java.util.Collection getAllNotificationCategories()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <expo.modules.notifications.service.delegates.SharedPreferencesNotificationsStore: expo.modules.notifications.notifications.model.NotificationRequest getNotificationRequest(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <expo.modules.notifications.service.delegates.SharedPreferencesNotificationCategoriesStore: expo.modules.notifications.notifications.model.NotificationCategory getNotificationCategory(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <expo.modules.notifications.service.delegates.SharedPreferencesNotificationsStore: java.util.Collection getAllNotificationRequests()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <expo.modules.notifications.notifications.presentation.builders.ExpoNotificationBuilder: android.graphics.Bitmap getLargeIcon()>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,70 @@
+-------------------------UIThread------------------------
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.iaai.android.bdt.database.RecentViewAuctionContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.iaai.android.bdt.database.RecentViewAuctionContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.iaai.android.bdt.database.RecentViewAuctionContentProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.iaai.android.bdt.database.RecentViewAuctionContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.iaai.android.bdt.feature.productDetail.reports.d: java.lang.Object invoke(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.iaai.android.bdt.feature.account.purchasehistory.GBPReceiptDPFActivity: boolean createReceiptPDF(byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.iaai.android.bdt.database.RecentViewAuctionContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.iaai.android.bdt.database.RecentViewAuctionContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.iaai.android.bdt.database.RecentViewAuctionContentProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.iaai.android.bdt.database.RecentViewAuctionContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.iaai.android.bdt.feature.productDetail.vehicleimage.ProductHDImageActivity: void k(com.iaai.android.bdt.model.productDetail.gbp.DeepZoomImage)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.iaai.android.bdt.feature.productDetail.vehicleimage.ProductHDImageActivityOnPrem: void k(com.iaai.android.bdt.model.productDetail.biddingInfo.Image)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.iaai.android.bdt.feature.utilsActivity.WebViewActivity$updateUI$2: void openFileChooser(android.webkit.ValueCallback,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.iaai.android.bdt.feature.utilsActivity.WebViewActivity$updateUI$2: java.io.File a()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.iaai.android.bdt.feature.account.purchasehistory.GBPReceiptDPFActivity: boolean createReceiptPDF(byte[],java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.iaai.android.bdt.feature.productDetail.reports.IAAConditionReportActivity: void k()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.iaai.android.bdt.feature.productDetail.reports.d: java.lang.Object invoke(java.lang.Object)>>
+Thread: [UI]
+-------------------------

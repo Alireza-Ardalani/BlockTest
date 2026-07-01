@@ -1,0 +1,13 @@
+IO Target: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.angkorworld.memo.activities.EditorActivity: void onActivityResult(int,int,android.content.Intent)>
+    -> <com.angkorworld.memo.activities.EditorActivity: void exportToFile(android.net.Uri)>
+    -> <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+
+IO Target: <java.io.PrintStream: void println(java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.angkorworld.memo.activities.ListDataGoogleDriveActivity: void onCreate(android.os.Bundle)>
+    -> <java.io.PrintStream: void println(java.lang.String)>
+

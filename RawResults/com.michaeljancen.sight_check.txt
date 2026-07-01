@@ -1,0 +1,26 @@
+Time1: 22.428200284
+Time2: 0.658121875
+Worker: 0
+UI: 5
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.mu: void a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.ads.mu: void a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.ads.mm: void a(java.net.HttpURLConnection,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.ads.mm: void a(java.net.HttpURLConnection,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.afollestad.materialdialogs.a.c: android.graphics.Typeface a(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------

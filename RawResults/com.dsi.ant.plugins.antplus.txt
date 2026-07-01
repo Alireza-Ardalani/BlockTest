@@ -1,0 +1,186 @@
+Time1: 30.053181465
+Time2: 1.005416522
+Worker: 25
+UI: 20
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: boolean updateDevice(com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,java.lang.Boolean)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(android.database.sqlite.SQLiteDatabase,com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(android.database.sqlite.SQLiteDatabase,com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(android.database.sqlite.SQLiteDatabase,com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(android.database.sqlite.SQLiteDatabase,com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(android.database.sqlite.SQLiteDatabase,com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: boolean updateDevice(com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,java.lang.Boolean)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: boolean updateDevice(com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,java.lang.Boolean)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: boolean updateDevice(com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,java.lang.Boolean)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void clearExistingPreferred(android.database.sqlite.SQLiteDatabase,long)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(android.database.sqlite.SQLiteDatabase,com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(android.database.sqlite.SQLiteDatabase,com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo getDeviceInfoByChanDevId(int,java.lang.String)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: boolean updateDevice(com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,java.lang.Boolean)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: boolean updateDevice(com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,java.lang.Boolean)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: boolean updateDevice(com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,java.lang.Boolean)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: boolean preferredExists(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(android.database.sqlite.SQLiteDatabase,com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: int isBikeSpdAndComboDevice(android.database.sqlite.SQLiteDatabase,long)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo getDeviceInfoByChanDevId(int,java.lang.String)>
+Thread: [<com.dsi.ant.plugins.antplus.utility.db.Service_DeviceDbProvider$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(android.database.sqlite.SQLiteDatabase,com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(android.database.sqlite.SQLiteDatabase,com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(android.database.sqlite.SQLiteDatabase,com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(android.database.sqlite.SQLiteDatabase,com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(android.database.sqlite.SQLiteDatabase,com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void clearExistingPreferred(android.database.sqlite.SQLiteDatabase,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(android.database.sqlite.SQLiteDatabase,com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(android.database.sqlite.SQLiteDatabase,com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: boolean preferredExists(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo getDeviceInfoByChanDevId(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: java.util.Map getPluginNamesAndIds()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo getDeviceInfoByChanDevId(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: java.util.Map getPluginNamesAndIds()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: boolean preferredExists(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.dsi.ant.plugins.antplus.utility.db.SavedDeviceDb: void addDevice(android.database.sqlite.SQLiteDatabase,com.dsi.ant.plugins.internal.pluginsipc.AntPluginDeviceDbProvider$DeviceDbDeviceInfo,java.lang.String,com.dsi.ant.channel.PredefinedNetwork,int,int,int,int)>
+Thread: [UI]
+-------------------------

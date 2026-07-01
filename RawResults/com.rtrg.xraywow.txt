@@ -1,0 +1,58 @@
+Time1: 3.973534693
+Time2: 0.327705195
+Worker: 0
+UI: 13
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.xraywow.dbhandler.DataBaseManager: void createDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.xraywow.dbhandler.DataBaseManager: void sqlCommand(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+Caller: <com.xraywow.dbhandler.DataBaseManager: boolean checkDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+Caller: <com.xraywow.dbhandler.DataBaseManager: void openDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.xraywow.dbhandler.DataBaseManager: void copyDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.xraywow.info.AuthorBioActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.xraywow.dbhandler.DataBaseManager: void copyDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.xraywow.dbhandler.DataBaseManager: android.database.Cursor select(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.xraywow.dbhandler.DataBaseManager: void copyDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.xraywow.dbhandler.DataBaseManager: void copyDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.xraywow.info.AuthorBioActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.xraywow.info.AuthorBioActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.xraywow.dbhandler.DataBaseManager: void insert(java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------

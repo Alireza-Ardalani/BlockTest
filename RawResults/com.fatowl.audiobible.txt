@@ -1,0 +1,650 @@
+Time1: 36.073765557
+Time2: 3.33185077
+Worker: 9
+UI: 152
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.onesignal.OneSignalRestClient: void makeRequest(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.OneSignalRestClient$ResponseHandler)>
+Thread: [<com.onesignal.OneSignalStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.onesignal.OneSignalRestClient: void makeRequest(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.OneSignalRestClient$ResponseHandler)>
+Thread: [<com.onesignal.SyncService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.iid.zzd: void zzeC(java.lang.String)>
+Thread: [<com.onesignal.PushRegistratorGPS$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.onesignal.OneSignalRestClient: void makeRequest(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.OneSignalRestClient$ResponseHandler)>
+Thread: [<com.onesignal.OneSignalStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.onesignal.OneSignalRestClient: void makeRequest(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.OneSignalRestClient$ResponseHandler)>
+Thread: [<com.onesignal.SyncService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.onesignal.OneSignalRestClient: void makeRequest(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.OneSignalRestClient$ResponseHandler)>
+Thread: [<com.onesignal.OneSignalStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.onesignal.OneSignalRestClient: void makeRequest(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.OneSignalRestClient$ResponseHandler)>
+Thread: [<com.onesignal.SyncService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.fatowl.audiobible.activities.PlayingActivity$GetContentTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [<com.fatowl.audiobible.activities.PlayingActivity$GetContentTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.google.android.gms.iid.zzd: void zzeC(java.lang.String)>
+Thread: [<com.onesignal.PushRegistratorGPS$2: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.fatowl.audiobible.activities.MainActivity: void readDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzcz(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzcz(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzcz(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void saveHistories(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void saveSchedules(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void saveFavorites(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void saveBookmarks(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.google.android.gms.analytics.internal.zza: java.lang.String zzlH()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: void zza(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: void onOpen(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: void onOpen(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.analytics.internal.zzj: void zzb(com.google.android.gms.analytics.internal.zzh)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.fatowl.audiobible.activities.MainActivity: void readDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj: java.util.List zzt(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj: java.util.List zzq(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj: java.util.List zzr(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.analytics.internal.zzj: void endTransaction()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.fatowl.audiobible.services.ABService: void playSong(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: long zzb(java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: long zza(java.lang.String,java.lang.String[],long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: java.util.Set zzb(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: void onOpen(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.NotificationOpenedProcessor: void markNotificationsConsumed(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.NotificationOpenedProcessor: void updateSummaryNotification(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void saveHistories(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void saveBookmarks(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void saveSchedules(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void saveFavorites(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void saveBookmarks(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void saveHistories(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void saveFavorites(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void saveSchedules(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzcz(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void scanDownloadedZipAudioBooks()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void loadHistories(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void loadBookmarks(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.google.android.gms.analytics.internal.zza: java.lang.String zzlH()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.google.android.gms.analytics.internal.zza: java.lang.String zzlH()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void loadFavorites(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void loadSchedules(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.google.android.gms.analytics.internal.zza: java.lang.String zzlH()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: void zzmr()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: void zza(long,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: void zzmq()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: int zzms()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: void zzq(java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.NotificationBundleProcessor: void deleteOldNotifications(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void saveHistories(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void saveSchedules(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.Gson: com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void saveBookmarks(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void saveFavorites(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <com.google.android.gms.analytics.internal.zzx: boolean zzbR(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <com.google.android.gms.analytics.internal.zzx: boolean zzbR(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.ads.identifier.AdvertisingIdClient: com.google.android.gms.internal.zzbu zza(android.content.Context,com.google.android.gms.common.zza)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.ads.identifier.AdvertisingIdClient: com.google.android.gms.common.zza zzh(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah: byte[] zzh(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah$zza: boolean zzj(com.google.android.gms.analytics.internal.zzab)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.onesignal.OneSignalRestClient: void makeRequest(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.OneSignalRestClient$ResponseHandler)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zza: boolean zzbF(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah: int zza(java.net.URL,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah$zza: boolean zzj(com.google.android.gms.analytics.internal.zzab)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah: int zzb(java.net.URL,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void loadFavorites(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void loadSchedules(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.fatowl.audiobible.services.ABService: void playSong(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.fatowl.audiobible.activities.PlayingActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void loadBookmarks(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.fatowl.audiobible.services.DownloadService$1: void onReceive(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.fatowl.audiobible.activities.PlayingActivity: void processDownloadAudioBook()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void loadHistories(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.fatowl.audiobible.services.ABService: void playSong(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.fatowl.audiobible.activities.PlayingActivity: void processDownloadTextBook()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.fatowl.audiobible.services.DownloadService$1: void onReceive(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.fatowl.audiobible.services.ABService: void playSong(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean,boolean)>
+Caller: <com.google.android.gms.analytics.internal.zzx: boolean zzbR(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean,boolean)>
+Caller: <com.google.android.gms.analytics.internal.zzx: boolean zzbR(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.NotificationOpenedProcessor: void addChildNotifications(org.json.JSONArray,java.lang.String,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.NotificationOpenedProcessor: void updateSummaryNotification(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: boolean zza(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.BadgeCountUpdater: void update(android.database.sqlite.SQLiteDatabase,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.NotificationRestorer: void restore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.GenerateNotification: void createSummaryNotification(android.content.Context,boolean,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignal: boolean isDuplicateNotification(java.lang.String,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.gms.analytics.internal.zzj: void setTransactionSuccessful()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void loadSchedules(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void loadHistories(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.fatowl.audiobible.services.ABService: void playSong(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.fatowl.audiobible.services.ABService: void playSong(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void loadBookmarks(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void loadFavorites(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah: void zzb(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getLargeIcon(org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.analytics.internal.zzah: java.net.HttpURLConnection zzc(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.onesignal.OneSignalRestClient: void makeRequest(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.OneSignalRestClient$ResponseHandler)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzah: java.net.URL zzh(com.google.android.gms.analytics.internal.zzab)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzah: java.net.URL zzb(com.google.android.gms.analytics.internal.zzab,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzah: java.net.URL zzoe()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.onesignal.OneSignalRestClient: void makeRequest(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.OneSignalRestClient$ResponseHandler)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzah: void zza(java.lang.StringBuilder,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzah: void zza(java.lang.StringBuilder,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.fatowl.audiobible.services.ABService: void playSong(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.fatowl.audiobible.activities.PlayingActivity$GetContentTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.fatowl.audiobible.activities.MainActivity: void readDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzcz(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromAssetsOrResourceName(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String)>
+Caller: <com.fatowl.audiobible.services.ABService: void playSong(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.gms.analytics.internal.zzj: void beginTransaction()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.fatowl.audiobible.activities.DownloadActivity: void removeAll()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void loadBookmarks(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void loadHistories(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.fatowl.audiobible.services.ABService: void playSong(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void loadFavorites(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: void loadSchedules(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.fatowl.audiobible.services.DownloadService$1: void onReceive(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.fatowl.audiobible.activities.DownloadActivity: void removeAll()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.onesignal.OneSignal: boolean isDuplicateNotification(java.lang.String,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.fatowl.audiobible.services.ABService: void playSong(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.google.android.gms.analytics.internal.zza: boolean zzbF(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.afollestad.materialdialogs.util.TypefaceHelper: android.graphics.Typeface get(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Caller: <com.fatowl.audiobible.activities.ShareVariables: android.graphics.Bitmap getDefaultAlbumArt(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.NotificationRestorer: void restore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.GenerateNotification: void createSummaryNotification(android.content.Context,boolean,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.NotificationOpenedProcessor: void processIntent(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(android.content.Context,org.json.JSONObject,boolean,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(android.content.Context,org.json.JSONObject,boolean,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.gms.analytics.internal.zzj: void zzc(com.google.android.gms.analytics.internal.zzab)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.GenerateNotification: void createSummaryNotification(android.content.Context,boolean,org.json.JSONObject)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,70 @@
+Time1: 25.216246361
+Time2: 1.034448748
+Worker: 7
+UI: 9
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.IOError: void <init>(java.lang.Throwable)>
+Caller: <io.realm.internal.SharedGroup: void checkNativePtrNotZero()>
+Thread: [<biz.quetzal.Terminology.util.IabHelper$2$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <io.realm.RealmConfiguration$Builder: void initializeBuilder(java.io.File)>
+Thread: [<biz.quetzal.Terminology.util.IabHelper$2$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <io.realm.RealmConfiguration: boolean equals(java.lang.Object)>
+Thread: [<biz.quetzal.Terminology.util.IabHelper$2$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <io.realm.BaseRealm$1: void onResult(int)>
+Thread: [<biz.quetzal.Terminology.util.IabHelper$2$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.realm.BaseRealm$1: void onResult(int)>
+Thread: [<biz.quetzal.Terminology.util.IabHelper$2$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <io.realm.RealmConfiguration$Builder: void initializeBuilder(java.io.File)>
+Thread: [<biz.quetzal.Terminology.util.IabHelper$2$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <io.realm.Realm: java.lang.String getCanonicalPath(java.io.File)>
+Thread: [<biz.quetzal.Terminology.util.IabHelper$2$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.IOError: void <init>(java.lang.Throwable)>
+Caller: <io.realm.internal.SharedGroup: void checkNativePtrNotZero()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <io.realm.RealmConfiguration$Builder: void initializeBuilder(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.zzajd: void zzaN(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzajd: void zzaN(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <io.realm.RealmConfiguration: boolean equals(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <io.realm.BaseRealm$1: void onResult(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.realm.BaseRealm$1: void onResult(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <io.realm.RealmConfiguration$Builder: void initializeBuilder(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <io.realm.Realm: java.lang.String getCanonicalPath(java.io.File)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,44 @@
+SVG image loading path
+
+SVGViewerListActivity.onCreate()
+→ i4.j.d(...)
+→ item click
+→ j.h(path, type)
+→ startActivity(SVGViewActivity)
+
+SVGViewActivity.onCreate()
+→ executorService.execute(new h4.h(this, Uri.fromFile(new File(path)), 0))
+
+h4.h.run() case 0
+→ immediately posts to main thread with
+f17696X.post(new h(..., 1))
+
+h4.h.run() case 1
+→ SVGImageView.setImageURI(uri)
+→ hide progress bar
+
+----------------------------------------------------------------------------------------
+
+SVGImageView.setImageURI(uri)
+
+SVGViewActivity.onCreate()
+→ executorService.execute(new h4.j(this, 0))
+
+h4.j.run() case 0
+→ new FileInputStream(new File(path))
+→ BufferedReader.read(...) loop
+→ build full string in StringWriter
+→ f17696X.post(...) back to UI
+
+----------------------------------------------------------------------------------------
+
+Bitmap / render violation path
+
+SVGViewActivity
+→ user presses Convert
+→ SVGViewActivity.C(ImageView, ...)
+→ Bitmap.createBitmap(...)
+→ imageView.draw(new Canvas(bitmap))
+→ new FileOutputStream(...)
+→ bitmap.compress(...)
+

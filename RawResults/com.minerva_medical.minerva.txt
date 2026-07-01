@@ -1,0 +1,226 @@
+Time1: 6.152679528
+Time2: 0.676980627
+Worker: 40
+UI: 15
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <fi.iki.elonen.NanoHTTPD$DefaultTempFileManager: void <init>()>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.InputStream getInputStream()>
+Caller: <fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.io.InputStream openStream()>
+Caller: <fi.iki.elonen.NanoHTTPD: void loadMimeTypes(java.util.Map,java.lang.String)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.io.InputStream openStream()>
+Caller: <fi.iki.elonen.NanoHTTPD: void loadMimeTypes(java.util.Map,java.lang.String)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void close()>
+Caller: <fi.iki.elonen.NanoHTTPD: void safeClose(java.lang.Object)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.minerva_medical.minerva.LocalWebServer: fi.iki.elonen.NanoHTTPD$Response serveFile(java.util.Map,java.io.File,java.lang.String)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <fi.iki.elonen.NanoHTTPD: java.lang.String decodePercent(java.lang.String)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <fi.iki.elonen.NanoHTTPD$HTTPSession: void decodeHeader(java.io.BufferedReader,java.util.Map,java.util.Map,java.util.Map)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <fi.iki.elonen.NanoHTTPD$HTTPSession: void decodeHeader(java.io.BufferedReader,java.util.Map,java.util.Map,java.util.Map)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <fi.iki.elonen.NanoHTTPD$HTTPSession: void decodeHeader(java.io.BufferedReader,java.util.Map,java.util.Map,java.util.Map)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <fi.iki.elonen.NanoHTTPD$DefaultTempFileManager: void <init>()>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <fi.iki.elonen.NanoHTTPD$Response: void sendBody(java.io.OutputStream,long)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: long skip(long)>
+Caller: <com.minerva_medical.minerva.LocalWebServer: fi.iki.elonen.NanoHTTPD$Response serveFile(java.util.Map,java.io.File,java.lang.String)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <fi.iki.elonen.NanoHTTPD$Response$ChunkedOutputStream: void write(byte[],int,int)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <fi.iki.elonen.NanoHTTPD$Response$ChunkedOutputStream: void write(byte[],int,int)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <fi.iki.elonen.NanoHTTPD$Response$ChunkedOutputStream: void finish()>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <fi.iki.elonen.NanoHTTPD$Response: void sendBody(java.io.OutputStream,long)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <fi.iki.elonen.NanoHTTPD: void safeClose(java.lang.Object)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <fi.iki.elonen.NanoHTTPD: void safeClose(java.lang.Object)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.minerva_medical.minerva.LocalWebServer: fi.iki.elonen.NanoHTTPD$Response serveFile(java.util.Map,java.io.File,java.lang.String)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.minerva_medical.minerva.LocalWebServer: fi.iki.elonen.NanoHTTPD$Response newFixedFileResponse(java.io.File,java.lang.String)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: java.net.Socket accept()>
+Caller: <fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void bind(java.net.SocketAddress)>
+Caller: <fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: java.net.InetAddress getInetAddress()>
+Caller: <fi.iki.elonen.NanoHTTPD$ClientHandler: void run()>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <fi.iki.elonen.NanoHTTPD: void safeClose(java.lang.Object)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <fi.iki.elonen.NanoHTTPD$Response: void close()>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read(byte[],int,int)>
+Caller: <fi.iki.elonen.NanoHTTPD$HTTPSession: void execute()>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read(byte[],int,int)>
+Caller: <fi.iki.elonen.NanoHTTPD$HTTPSession: void execute()>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: long skip(long)>
+Caller: <fi.iki.elonen.NanoHTTPD$HTTPSession: void execute()>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <fi.iki.elonen.NanoHTTPD$Response: void send(java.io.OutputStream)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <fi.iki.elonen.NanoHTTPD: void safeClose(java.lang.Object)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.minerva_medical.minerva.LocalWebServer: fi.iki.elonen.NanoHTTPD$Response serveFile(java.util.Map,java.io.File,java.lang.String)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.minerva_medical.minerva.LocalWebServer: fi.iki.elonen.NanoHTTPD$Response newFixedFileResponse(java.io.File,java.lang.String)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.minerva_medical.minerva.LocalWebServer: fi.iki.elonen.NanoHTTPD$Response serveFile(java.util.Map,java.io.File,java.lang.String)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <fi.iki.elonen.NanoHTTPD$Response: void sendBody(java.io.OutputStream,long)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <fi.iki.elonen.NanoHTTPD$Response$ChunkedOutputStream: void write(byte[],int,int)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <fi.iki.elonen.NanoHTTPD$Response: void sendBody(java.io.OutputStream,long)>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.OutputStream getOutputStream()>
+Caller: <fi.iki.elonen.NanoHTTPD$ClientHandler: void run()>
+Thread: [<fi.iki.elonen.NanoHTTPD$ServerRunnable: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <fi.iki.elonen.NanoHTTPD$DefaultTempFileManager: void <init>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.minerva_medical.minerva.FileSystemService: java.lang.String createDirectory(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.minerva_medical.minerva.FileSystemService: void installWebAppFromResourcesIfNeeded(com.minerva_medical.minerva.InstallWebAppListener)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <fi.iki.elonen.NanoHTTPD: void safeClose(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void close()>
+Caller: <fi.iki.elonen.NanoHTTPD: void safeClose(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void <init>()>
+Caller: <fi.iki.elonen.NanoHTTPD$DefaultServerSocketFactory: java.net.ServerSocket create()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.minerva_medical.minerva.FileSystemService: void copyFileFromAssets(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.minerva_medical.minerva.FileSystemService: void makeParentDirectoriesAsNeeded(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <fi.iki.elonen.NanoHTTPD$DefaultTempFileManager: void <init>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.minerva_medical.minerva.FileSystemService: java.lang.String createDirectory(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.minerva_medical.minerva.FileSystemService: void copyFileFromAssets(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <fi.iki.elonen.NanoHTTPD: void safeClose(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.minerva_medical.minerva.FileSystemService: void copyFileFromAssets(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.minerva_medical.minerva.FileSystemService: void copyFileFromAssets(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void setReuseAddress(boolean)>
+Caller: <fi.iki.elonen.NanoHTTPD: void start(int,boolean)>
+Thread: [UI]
+-------------------------

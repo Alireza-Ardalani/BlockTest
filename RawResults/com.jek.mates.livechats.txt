@@ -1,0 +1,22 @@
+Time1: 25.391188079
+Time2: 3.579975539
+Worker: 2
+UI: 2
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <c1.b0: java.lang.Object h(java.lang.Object)>
+Thread: [<f.t: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <b4.d: m3.c e()>
+Thread: [<a.r: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <c1.b0: java.lang.Object h(java.lang.Object)>
+Thread: [UI]
+-------------------------

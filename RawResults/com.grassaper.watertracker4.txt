@@ -1,0 +1,74 @@
+Time1: 27.37447455
+Time2: 0.525020949
+Worker: 7
+UI: 10
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <twitter4j.conf.PropertyConfiguration: boolean loadProperties(java.util.Properties,java.lang.String)>
+Thread: [<com.androidnative.features.social.twitter.ANTwitter$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <twitter4j.conf.PropertyConfiguration: void <init>(java.lang.String)>
+Thread: [<com.androidnative.features.social.twitter.ANTwitter$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <twitter4j.conf.PropertyConfiguration: boolean loadProperties(java.util.Properties,java.lang.String)>
+Thread: [<com.androidnative.features.social.twitter.ANTwitter$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <twitter4j.conf.PropertyConfiguration: boolean loadProperties(java.util.Properties,java.lang.String)>
+Thread: [<com.androidnative.features.social.twitter.ANTwitter$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <twitter4j.conf.PropertyConfiguration: boolean loadProperties(java.util.Properties,java.lang.String)>
+Thread: [<com.androidnative.features.social.twitter.ANTwitter$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <twitter4j.conf.PropertyConfiguration: boolean loadProperties(java.util.Properties,java.lang.String)>
+Thread: [<com.androidnative.features.social.twitter.ANTwitter$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <twitter4j.conf.PropertyConfiguration: boolean loadProperties(java.util.Properties,java.lang.String)>
+Thread: [<com.androidnative.features.social.twitter.ANTwitter$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.androidnative.features.CameraAPI: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.androidnative.features.CameraAPI: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.androidnative.features.CameraAPI: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.androidnative.features.CameraAPI: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.androidnative.features.social.common.SocialGate: void RemoveImageFromStorage()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.androidnative.features.CameraAPI: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.androidnative.gcm.GcmIntentService: void sendNotification(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.androidnative.features.notifications.LocalNotificationReceiver: void onReceive(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.androidnative.features.CameraAPI: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.androidnative.features.CameraAPI: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------

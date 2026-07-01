@@ -1,0 +1,19 @@
+java -jar Run.jar java Names.txt Input Result platforms Signatures.txt
+
+General format:
+
+java -jar Run.jar arg1 arg2 arg3 arg4 arg5 arg6
+
+Arguments:
+
+arg1: Path to Java on your system.
+
+arg2: File containing the names of the apps to analyze. Each app name should be written on a separate line, for example: com.example.apk.
+
+arg3: Path to the directory containing the input APK files.
+
+arg4: Path to the directory where the results should be saved.
+
+arg5: Path to the Android platforms directory, required for APK decompilation.
+
+arg6: File containing the method signatures to investigate, to determine whether they occur on the UI thread or a worker thread.

@@ -1,0 +1,350 @@
+Time1: 145.137688547
+Time2: 1.980305858
+Worker: 8
+UI: 78
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.ironsource.ea: android.database.sqlite.SQLiteDatabase a(boolean,android.database.sqlite.SQLiteOpenHelper)>
+Thread: [<com.ironsource.s7$b: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.ironsource.fa: void a(com.ironsource.lc)>
+Thread: [<com.ironsource.s7$b: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.ironsource.fa: void a(com.ironsource.lc)>
+Thread: [<com.ironsource.s7$b: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.ironsource.fa: void a(com.ironsource.lc)>
+Thread: [<com.ironsource.s7$b: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.ironsource.ea: android.database.sqlite.SQLiteDatabase a(boolean,android.database.sqlite.SQLiteOpenHelper)>
+Thread: [<com.ironsource.s7$b: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.ironsource.xj: byte[] a(java.lang.String,int)>
+Thread: [<com.ironsource.s7$b: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.ironsource.fa: void a(com.ironsource.lc)>
+Thread: [<com.ironsource.s7$b: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.ironsource.fa: void a(com.ironsource.lc)>
+Thread: [<com.ironsource.s7$b: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: java.lang.Object c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.ironsource.jn: void a(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: boolean deleteFolder(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: boolean deleteFile(com.ironsource.nh)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: boolean deleteFolderContentRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.ironsource.sdk.controller.d: void c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.ironsource.jn: void b(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: boolean readAndCheckMagicNumber(java.io.DataInputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.ironsource.ea: android.database.sqlite.SQLiteDatabase a(boolean,android.database.sqlite.SQLiteOpenHelper)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: java.lang.Object c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: boolean deleteFolderContentRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.ironsource.fa: void a(com.ironsource.lc)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: java.lang.String makeDir(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.ironsource.fa: void a(com.ironsource.lc)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: boolean readBoolean()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.app.Notification$Builder deserializeNotificationCustom(android.content.Context,java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: boolean readBoolean()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.app.Notification$Builder deserializeNotificationCustom(android.content.Context,java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: boolean readBoolean()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.app.Notification$Builder deserializeNotificationCustom(android.content.Context,java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: boolean readBoolean()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.app.Notification$Builder deserializeNotificationCustom(android.content.Context,java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: boolean readBoolean()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.app.Notification$Builder deserializeNotificationCustom(android.content.Context,java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: boolean readBoolean()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.app.Notification$Builder deserializeNotificationCustom(android.content.Context,java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: boolean readBoolean()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.app.Notification$Builder deserializeNotificationCustom(android.content.Context,java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: java.lang.String getNetworkStorageDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.unity.androidnotifications.UnityNotificationManager: java.lang.Object getIconFromResources(java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: void ensurePathSafety(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: void ensurePathSafety(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.net.URI toURI()>
+Caller: <com.ironsource.sdk.controller.v: void a(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: long readLong()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.app.Notification$Builder deserializeNotificationCustom(android.content.Context,java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: long readLong()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.app.Notification$Builder deserializeNotificationCustom(android.content.Context,java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: long readLong()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.app.Notification$Builder deserializeNotificationCustom(android.content.Context,java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.ironsource.fa: void a(com.ironsource.lc)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.ironsource.ea: android.database.sqlite.SQLiteDatabase a(boolean,android.database.sqlite.SQLiteOpenHelper)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: boolean renameFile(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.unity.androidnotifications.UnityNotificationManager: android.graphics.Bitmap loadBitmap(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: java.lang.String deserializeString(java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.os.Parcelable deserializeParcelable(java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.protobuf.Internal: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.protobuf.Internal: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.protobuf.Internal: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.LinkProperties: void <init>()>
+Caller: <com.ironsource.jn: void b(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.ironsource.sdk.controller.v$v: android.webkit.WebResourceResponse shouldInterceptRequest(android.webkit.WebView,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkCapabilities: void <init>(android.net.NetworkCapabilities)>
+Caller: <com.ironsource.jn: void b(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.app.Notification$Builder deserializeNotificationCustom(android.content.Context,java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.app.Notification$Builder deserializeNotificationCustom(android.content.Context,java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.app.Notification$Builder deserializeNotificationCustom(android.content.Context,java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.app.Notification$Builder deserializeNotificationCustom(android.content.Context,java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.app.Notification deserializeNotificationParcelable(java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: java.lang.String deserializeString(java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.app.Notification$Builder deserializeNotificationCustom(android.content.Context,java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <com.unity.androidnotifications.UnityNotificationUtilities: android.os.Parcelable deserializeParcelable(java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.ironsource.fa: void a(com.ironsource.lc)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.ironsource.fa: void a(com.ironsource.lc)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <com.ironsource.jn: void b(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.ironsource.sdk.controller.v$v: android.webkit.WebResourceResponse shouldInterceptRequest(android.webkit.WebView,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.ironsource.environment.StringUtils: java.lang.String encodeURI(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.ironsource.sdk.utils.SDKUtils: java.lang.String getFileName(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.ironsource.sdk.utils.SDKUtils: java.lang.String encodeString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.unity.androidnotifications.UnityNotificationManager: java.lang.Object getIcon(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.unity.androidnotifications.UnityNotificationManager: void setupBigPictureStyle(android.app.Notification$Builder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: java.lang.String getDiskCacheDirPath(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.v$r: void deleteFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.d: void c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.d: void c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: java.lang.String getNetworkStorageDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.d: boolean j()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.d: boolean k()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: boolean isPathExist(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.v$r: void saveFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.d: boolean k()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.d: boolean k()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.unity3d.services.core.log.DeviceLog: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.v: java.lang.Object c(com.ironsource.nh)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.v$r: void deleteFolder(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.d: boolean k()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: boolean deleteFile(com.ironsource.nh)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: java.lang.String makeDir(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: boolean deleteFolderContentRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: java.lang.Object c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: org.json.JSONObject buildFilesMap(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------

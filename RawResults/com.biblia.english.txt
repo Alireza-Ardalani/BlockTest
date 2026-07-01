@@ -1,0 +1,110 @@
+Time1: 15.63667412
+Time2: 0.172143654
+Worker: 0
+UI: 26
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.BufferedOutputStream: void write(byte[],int,int)>
+Caller: <com.embarcadero.firemonkey.medialibrary.Utils: int copyStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.embarcadero.firemonkey.medialibrary.MediaImage: void loadFromWeb(android.net.Uri,com.embarcadero.firemonkey.medialibrary.Size)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read(byte[],int,int)>
+Caller: <com.embarcadero.firemonkey.medialibrary.Utils: int copyStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.embarcadero.firemonkey.medialibrary.MediaImage: void saveToFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.embarcadero.firemonkey.medialibrary.MediaImage: void loadFromWeb(android.net.Uri,com.embarcadero.firemonkey.medialibrary.Size)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.embarcadero.firemonkey.medialibrary.MediaImage: void loadFromWeb(android.net.Uri,com.embarcadero.firemonkey.medialibrary.Size)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <com.embarcadero.firemonkey.FMXNativeActivity: boolean hasNeon()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.embarcadero.firemonkey.medialibrary.MediaImage: void saveToFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.embarcadero.firemonkey.FMXNativeActivity: boolean hasNeon()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.embarcadero.firemonkey.medialibrary.MediaImage: void loadFromFile(java.lang.String,com.embarcadero.firemonkey.medialibrary.Size)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.embarcadero.firemonkey.medialibrary.MediaImage: void loadFromFile(java.lang.String,com.embarcadero.firemonkey.medialibrary.Size)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.embarcadero.firemonkey.medialibrary.MediaImage: void normalizeOrientation()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.embarcadero.firemonkey.FMXNativeActivity: boolean hasNeon()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.embarcadero.firemonkey.medialibrary.MediaImage: void loadFromFile(java.lang.String,com.embarcadero.firemonkey.medialibrary.Size)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.embarcadero.firemonkey.medialibrary.Utils: java.io.File getAlbumDir(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.embarcadero.firemonkey.medialibrary.MediaImage: boolean isFileExists()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String)>
+Caller: <com.embarcadero.firemonkey.medialibrary.MediaImage: java.io.File createTempFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.embarcadero.firemonkey.medialibrary.MediaImage: void loadFromWeb(android.net.Uri,com.embarcadero.firemonkey.medialibrary.Size)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.embarcadero.firemonkey.medialibrary.Utils: java.io.File getAlbumDir(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.embarcadero.firemonkey.medialibrary.Utils: int copyStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.embarcadero.firemonkey.medialibrary.Utils: int copyStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.embarcadero.firemonkey.medialibrary.MediaImage: void loadFromWeb(android.net.Uri,com.embarcadero.firemonkey.medialibrary.Size)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.embarcadero.firemonkey.FMXNativeActivity: boolean hasNeon()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedOutputStream: void flush()>
+Caller: <com.embarcadero.firemonkey.medialibrary.Utils: int copyStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: void deleteOnExit()>
+Caller: <com.embarcadero.firemonkey.medialibrary.MediaImage: java.io.File createTempFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.io.InputStream openStream()>
+Caller: <com.embarcadero.firemonkey.medialibrary.MediaImage: void loadFromWeb(android.net.Uri,com.embarcadero.firemonkey.medialibrary.Size)>
+Thread: [UI]
+-------------------------

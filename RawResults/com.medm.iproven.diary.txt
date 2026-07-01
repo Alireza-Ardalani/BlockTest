@@ -1,0 +1,130 @@
+Time1: 15.075744016
+Time2: 0.330748586
+Worker: 3
+UI: 28
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: java.io.File GetTempCroppedImageDirectory()>
+Thread: [<com.swissmedmobile.imagepicker.ImagePicker$DownloadBitmapTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: java.io.File GetTempCroppedImageDirectory()>
+Thread: [<com.swissmedmobile.imagepicker.ImagePicker$DownloadBitmapTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker$DownloadBitmapTask: android.graphics.Bitmap doInBackground(java.net.URL[])>
+Thread: [<com.swissmedmobile.imagepicker.ImagePicker$DownloadBitmapTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: void NotifyScaledBitmap(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.swissmedmobile.contactpicker.ContactPicker: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: void MoveFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: void DeleteTempCroppedImageFilePath()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: void DeleteTempCroppedImageFilePath()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: void processActivityResultFromCrop(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: android.graphics.Bitmap rotateImage(android.graphics.Bitmap,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: void MoveFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.swissmedmobile.contactpicker.ContactPicker: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: java.io.File GetTempCroppedImageDirectory()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.swissmedmobile.logger.Utils: java.lang.String getExternalStorageDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: void MoveFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.swissmedmobile.contactpicker.ContactPicker: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: android.graphics.Bitmap extractBitmapFromCamera(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.medm.iproven.diary.HealthActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.medm.iproven.diary.HealthService: void MoveForeground()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: void processActivityResultFromCamera()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.swissmedmobile.contactpicker.ContactPicker: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: void MoveFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: void MoveFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: void MoveFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: void DownloadImageFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.swissmedmobile.logger.Utils: java.lang.String getExternalStorageDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: java.io.File GetTempCroppedImageDirectory()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: void MoveFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.swissmedmobile.contactpicker.ContactPicker: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker: void doGetCameraImage()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.swissmedmobile.imagepicker.ImagePicker$DownloadBitmapTask: android.graphics.Bitmap doInBackground(java.net.URL[])>
+Thread: [UI]
+-------------------------

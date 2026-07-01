@@ -1,0 +1,266 @@
+Time1: 37.938541643
+Time2: 7.670311064
+Worker: 0
+UI: 65
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: boolean yieldIfContendedSafely()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: android.content.ContentProviderResult[] applyBatch(java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.andromo.dev462136.app489914.RSSFeedProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.andromo.dev462136.app489914.RSSFeedProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.andromo.dev462136.app489914.RSSFeedProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.andromo.dev462136.app489914.RSSFeedProvider: java.lang.String getType(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.andromo.dev462136.app489914.l: void a(java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProviderOperation: android.content.ContentProviderResult apply(android.content.ContentProvider,android.content.ContentProviderResult[],int)>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: android.content.ContentProviderResult[] applyBatch(java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.net.URL,java.lang.String)>
+Caller: <org.jsoup.nodes.Node: java.lang.String absUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.andromo.dev462136.app489914.l: void a(java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.andromo.dev462136.app489914.RSSFeedProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: android.os.ParcelFileDescriptor openFileHelper(android.net.Uri,java.lang.String)>
+Caller: <com.andromo.dev462136.app489914.RSSFeedProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.andromo.dev462136.app489914.GCMIntentService: void a(android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.andromo.dev462136.app489914.GCMIntentService: void a(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: boolean yieldIfContendedSafely(long)>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: android.content.ContentProviderResult[] applyBatch(java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: android.content.ContentProviderResult[] applyBatch(java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.andromo.dev462136.app489914.RSSActivityBase: void a(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.andromo.dev462136.app489914.cd$1: void a(boolean,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.andromo.dev462136.app489914.RssService: void onHandleIntent(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: android.content.ContentProviderResult[] applyBatch(java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: android.content.ContentProviderResult[] applyBatch(java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: android.content.ContentProviderResult[] applyBatch(java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.andromo.dev462136.app489914.SQLiteContentProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <org.jsoup.nodes.Node: java.lang.String absUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.andromo.dev462136.app489914.l: void a(java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <org.jsoup.nodes.Node: java.lang.String absUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.andromo.dev462136.app489914.RSSActivityBase$RSSResponseReceiver: void onReceive(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.andromo.dev462136.app489914.RSSActivityBase: void a(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.PushbackInputStream: void close()>
+Caller: <com.andromo.dev462136.app489914.RssService: void onHandleIntent(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.PushbackInputStream: void close()>
+Caller: <com.andromo.dev462136.app489914.RssService: void onHandleIntent(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.PushbackInputStream: void close()>
+Caller: <com.andromo.dev462136.app489914.RssService: void onHandleIntent(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.PushbackInputStream: void close()>
+Caller: <com.andromo.dev462136.app489914.RssService: void onHandleIntent(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.PushbackInputStream: void close()>
+Caller: <com.andromo.dev462136.app489914.RssService: void onHandleIntent(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.PushbackInputStream: void close()>
+Caller: <com.andromo.dev462136.app489914.RssService: void onHandleIntent(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.PushbackInputStream: void close()>
+Caller: <com.andromo.dev462136.app489914.RssService: void onHandleIntent(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.PushbackInputStream: void close()>
+Caller: <com.andromo.dev462136.app489914.RssService: void onHandleIntent(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.andromo.dev462136.app489914.RssService: void onHandleIntent(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Caller: <com.andromo.dev462136.app489914.DashboardActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Caller: <com.andromo.dev462136.app489914.DashboardActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.andromo.dev462136.app489914.RSSFeedProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.andromo.dev462136.app489914.RSSFeedProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.andromo.dev462136.app489914.RSSFeedProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.andromo.dev462136.app489914.RSSFeedProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.andromo.dev462136.app489914.RSSFeedProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.andromo.dev462136.app489914.RSSFeedProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <org.jsoup.nodes.Document$OutputSettings: void <init>()>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,34 @@
+Time1: 55.006823465
+Time2: 2.991328311
+Worker: 4
+UI: 3
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <p9.f$a: p9.f$b b()>
+Thread: [<p9.f$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <p9.f$a: p9.f$b b()>
+Thread: [<da.b: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <p9.f$a: p9.f$b b()>
+Thread: [<da.c: void run()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <z9.p: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [<da.c: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <z9.r: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <z9.p: void <clinit>()>
+Thread: [UI]
+-------------------------

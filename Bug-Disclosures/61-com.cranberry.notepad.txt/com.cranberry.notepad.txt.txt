@@ -1,0 +1,350 @@
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.lang.String readTxtFile(java.io.File)>
+Thread: [<com.cranberry.notepad.txt.MainActivity$GetFilesRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: com.cranberry.notepad.txt.GetFileListHolder getMemoFileList(java.io.File,java.io.File)>
+Thread: [<com.cranberry.notepad.txt.MainActivity$GetFilesRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.cranberry.notepad.txt.FileIOClass: com.cranberry.notepad.txt.GetFileListHolder getMemoFileList(java.io.File,java.io.File)>
+Thread: [<com.cranberry.notepad.txt.MainActivity$GetFilesRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.lang.String readTxtFile(java.io.File)>
+Thread: [<com.cranberry.notepad.txt.MainActivity$GetFilesRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: com.cranberry.notepad.txt.GetFileListHolder getMemoFileList(java.io.File,java.io.File)>
+Thread: [<com.cranberry.notepad.txt.MainActivity$GetFilesRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.lang.String readTxtFile(java.io.File)>
+Thread: [<com.cranberry.notepad.txt.MainActivity$GetFilesRunnable: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: com.cranberry.notepad.txt.GetFileListHolder getMemoFileList(java.io.File,java.io.File)>
+Thread: [<com.cranberry.notepad.txt.MainActivity$GetFilesRunnable: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Integer lambda$cleanUp$12$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(long,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.io.File writeTxtMemo(android.content.Context,java.lang.String,java.io.File,java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.util.List loadEvents(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.io.File writeTxtMemo(android.content.Context,java.lang.String,java.io.File,java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.io.File changeFileTag(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.io.File writeTxtMemo(android.content.Context,java.lang.String,java.io.File,java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void close()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.io.File writeTxtMemo(android.content.Context,java.lang.String,java.io.File,java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void close()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.io.File writeTxtMemo(android.content.Context,java.lang.String,java.io.File,java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void close()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.io.File writeTxtMemo(android.content.Context,java.lang.String,java.io.File,java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordFailure$4$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(java.lang.String,java.lang.String,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$resetClientMetrics$23$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$resetClientMetrics$23$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordFailure$4$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(java.lang.String,java.lang.String,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: void recordSuccess(java.lang.Iterable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.util.Map loadMetadata(android.database.sqlite.SQLiteDatabase,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: byte[] readPayload(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.cranberry.notepad.txt.MainActivity: void setTagInEdit()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.cranberry.notepad.txt.MainActivity: void showChangeTagDialogInEdit()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <com.google.firebase.provider.FirebaseInitProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <com.google.android.gms.ads.internal.client.zzey: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.io.File writeTxtMemo(android.content.Context,java.lang.String,java.io.File,java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordNextCallTime$7(long,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.io.File writeTxtMemo(android.content.Context,java.lang.String,java.io.File,java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzhp: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzhp: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.firebase.encoders.proto.ProtobufDataEncoderContext: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzhp: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.cct.CCTDestination: byte[] asByteArray()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.io.File writeTxtMemo(android.content.Context,java.lang.String,java.io.File,java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cranberry.notepad.txt.MyApplication: java.util.ArrayList getFileList()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cranberry.notepad.txt.MainActivity: void getFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: void deleteFile(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.io.File writeTxtMemo(android.content.Context,java.lang.String,java.io.File,java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: void deleteFile(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.io.File writeTxtMemo(android.content.Context,java.lang.String,java.io.File,java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordNextCallTime$7(long,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.cranberry.notepad.txt.MainActivity: void onPause()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.cranberry.notepad.txt.MainActivity: void onPause()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.cranberry.notepad.txt.MainActivity: void onMyBackPressed()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.cranberry.notepad.txt.MainActivity: void onMyBackPressed()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: void execute()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordFailure$4$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(java.lang.String,java.lang.String,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: void execute()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordFailure$4$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(java.lang.String,java.lang.String,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: void execute()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$resetClientMetrics$23$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: void execute()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$resetClientMetrics$23$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: void execute()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: void recordSuccess(java.lang.Iterable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.cranberry.notepad.txt.MainActivity: void onMainStart()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.cranberry.notepad.txt.MainActivity: void onNewIntent(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: com.google.android.datatransport.runtime.firebase.transport.ClientMetrics lambda$loadClientMetrics$20$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(java.lang.String,java.util.Map,com.google.android.datatransport.runtime.firebase.transport.ClientMetrics$Builder,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Boolean lambda$hasPendingEventsFor$6$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: com.google.android.datatransport.runtime.firebase.transport.TimeWindow lambda$getTimeWindow$22(long,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Integer lambda$cleanUp$12$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(long,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordFailure$4$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(java.lang.String,java.lang.String,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.io.File writeTxtMemo(android.content.Context,java.lang.String,java.io.File,java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: void deleteFile(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.io.File writeTxtMemo(android.content.Context,java.lang.String,java.io.File,java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: java.io.File writeTxtMemo(android.content.Context,java.lang.String,java.io.File,java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.cranberry.notepad.txt.FileIOClass: void deleteFile(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$$ExternalSyntheticLambda25: java.lang.Object produce()>
+Thread: [UI]
+-------------------------

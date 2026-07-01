@@ -1,0 +1,38 @@
+Time1: 32.086119722
+Time2: 0.618498612
+Worker: 0
+UI: 8
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <ai.faceplugin.recognition.Utils: android.graphics.Bitmap getCorrectlyOrientedImage(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <ai.faceplugin.recognition.Utils: android.graphics.Bitmap cropFace(android.graphics.Bitmap,com.ocp.facesdk.FaceBox)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <ai.faceplugin.recognition.DBManager: void loadPerson()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <ai.faceplugin.recognition.DBManager: void insertPerson(java.lang.String,android.graphics.Bitmap,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <ai.faceplugin.recognition.DBManager: void loadPerson()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <ai.faceplugin.recognition.DBManager: void insertPerson(java.lang.String,android.graphics.Bitmap,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <ai.faceplugin.recognition.Utils: android.graphics.Bitmap getCorrectlyOrientedImage(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <ai.faceplugin.recognition.Utils: android.graphics.Bitmap getCorrectlyOrientedImage(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,82 @@
+Time1: 182.850481336
+Time2: 3.840948237
+Worker: 6
+UI: 13
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <p4.f$a: p4.f$b b()>
+Thread: [<p4.f$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <p4.f$a: p4.f$b b()>
+Thread: [<H4.c: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <p4.f$a: p4.f$b b()>
+Thread: [<H4.d: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.content.res.AssetFileDescriptor openTypedAssetFileDescriptor(android.net.Uri,java.lang.String,android.os.Bundle)>
+Caller: <io.flutter.plugin.platform.i: java.lang.CharSequence r(v4.o$e)>
+Thread: [<H4.d: void run()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <w4.o: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [<H4.d: void run()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <w4.o: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [<io.flutter.plugin.platform.y: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <p4.f$a: p4.f$b b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <Y.b$c: java.io.File a(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <Y.b$c: void c(java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.content.res.AssetFileDescriptor openTypedAssetFileDescriptor(android.net.Uri,java.lang.String,android.os.Bundle)>
+Caller: <io.flutter.plugin.platform.i: java.lang.CharSequence r(v4.o$e)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <Y.b: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <w4.q: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <w4.o: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.flutter.view.k$l: java.util.List q0(java.nio.ByteBuffer,java.nio.ByteBuffer[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <Y.b: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <w4.o: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.CharBuffer decode(java.nio.ByteBuffer)>
+Caller: <io.flutter.view.k$l: java.util.List q0(java.nio.ByteBuffer,java.nio.ByteBuffer[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <Y.b: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------

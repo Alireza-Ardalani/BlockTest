@@ -1,0 +1,294 @@
+Time1: 233.109353898
+Time2: 12.703987632
+Worker: 2
+UI: 70
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <e2.e: android.graphics.fonts.FontFamily r(O.h[],android.content.ContentResolver)>
+Thread: [<W0.q: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFileDescriptor(java.io.FileDescriptor,android.graphics.Rect,android.graphics.BitmapFactory$Options)>
+Caller: <A.c: android.graphics.Bitmap j(android.graphics.BitmapFactory$Options)>
+Thread: [<W0.q: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <v.k: boolean equals(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.consent_sdk.zzde: com.google.android.gms.internal.consent_sdk.zzde zzl(int,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <m1.i: boolean b(m1.c)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <v.k: boolean equals(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <j1.c: void onStop()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <G.c: java.lang.String e(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <I2.c: void d(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <G.c: java.lang.String e(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <I2.c: void d(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.onesignal.core.internal.preferences.PreferenceStoreFix: void ensureNoObfuscatedPrefStore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.instabeauty.selfie_editor.activities.tools.ResizeToolActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.onesignal.core.internal.preferences.PreferenceStoreFix: void ensureNoObfuscatedPrefStore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.instabeauty.selfie_editor.activities.tools.CompressToolActivity: void E(com.instabeauty.selfie_editor.activities.tools.CompressToolActivity,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.instabeauty.selfie_editor.activities.tools.ResizeToolActivity: void C(com.instabeauty.selfie_editor.activities.tools.ResizeToolActivity,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader makeAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: dalvik.system.DexClassLoader makeLegacyAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader makeAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: dalvik.system.DexClassLoader makeLegacyAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.instabeauty.selfie_editor.activities.tools.CompressToolActivity: void E(com.instabeauty.selfie_editor.activities.tools.CompressToolActivity,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <e2.e: android.graphics.fonts.FontFamily r(O.h[],android.content.ContentResolver)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.instabeauty.selfie_editor.activities.tools.CompressToolActivity: void E(com.instabeauty.selfie_editor.activities.tools.CompressToolActivity,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.instabeauty.selfie_editor.activities.tools.CompressToolActivity: void E(com.instabeauty.selfie_editor.activities.tools.CompressToolActivity,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader makeAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: dalvik.system.DexClassLoader makeLegacyAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader createInMemoryClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <com.instabeauty.selfie_editor.activities.tools.CompressToolActivity: void E(com.instabeauty.selfie_editor.activities.tools.CompressToolActivity,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <com.instabeauty.selfie_editor.activities.tools.CompressToolActivity: void E(com.instabeauty.selfie_editor.activities.tools.CompressToolActivity,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <G.c: void d(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <G.c: void d(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: dalvik.system.DexClassLoader makeLegacyAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader makeAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <I2.c: void d(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <I2.c: void d(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerDefaultNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <j1.l: void f()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader createInMemoryClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.onesignal.core.internal.preferences.PreferenceStoreFix: void ensureNoObfuscatedPrefStore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Caller: <com.instabeauty.selfie_editor.activities.tools.EraseToolActivity: void I()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <W2.b: void <init>(android.content.Context,W2.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.instabeauty.selfie_editor.activities.tools.CompressToolActivity: void E(com.instabeauty.selfie_editor.activities.tools.CompressToolActivity,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.instabeauty.selfie_editor.activities.tools.K: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.instabeauty.selfie_editor.activities.tools.W: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.instabeauty.selfie_editor.activities.tools.c: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.instabeauty.selfie_editor.activities.tools.E: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.instabeauty.selfie_editor.activities.tools.CompressToolActivity: void E(com.instabeauty.selfie_editor.activities.tools.CompressToolActivity,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.instabeauty.selfie_editor.activities.tools.t: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.instabeauty.selfie_editor.activities.tools.H: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.onesignal.core.internal.preferences.PreferenceStoreFix: void ensureNoObfuscatedPrefStore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.instabeauty.selfie_editor.activities.screens.SaveFileActivity: java.util.ArrayList C()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.instabeauty.selfie_editor.activities.screens.HomeScreenActivity: java.io.File E()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.onesignal.core.internal.preferences.PreferenceStoreFix: void ensureNoObfuscatedPrefStore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.instabeauty.selfie_editor.activities.tools.CompressToolActivity: void E(com.instabeauty.selfie_editor.activities.tools.CompressToolActivity,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <U0.g: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <d1.m: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFileDescriptor(java.io.FileDescriptor,android.graphics.Rect,android.graphics.BitmapFactory$Options)>
+Caller: <A.c: android.graphics.Bitmap j(android.graphics.BitmapFactory$Options)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------

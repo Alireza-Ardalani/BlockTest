@@ -1,0 +1,38 @@
+Time1: 36.320756571
+Time2: 0.903645118
+Worker: 4
+UI: 4
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.invertase.firebase.notifications.DisplayNotificationTask: android.graphics.Bitmap getBitmapFromUrl(java.lang.String)>
+Thread: [<io.invertase.firebase.notifications.DisplayNotificationTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <io.invertase.firebase.notifications.DisplayNotificationTask: android.graphics.Bitmap getBitmap(java.lang.String)>
+Thread: [<io.invertase.firebase.notifications.DisplayNotificationTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <io.invertase.firebase.notifications.DisplayNotificationTask: android.graphics.Bitmap getBitmap(java.lang.String)>
+Thread: [<io.invertase.firebase.notifications.DisplayNotificationTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <io.invertase.firebase.notifications.DisplayNotificationTask: android.graphics.Bitmap getBitmapFromUrl(java.lang.String)>
+Thread: [<io.invertase.firebase.notifications.DisplayNotificationTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.invertase.firebase.notifications.DisplayNotificationTask: android.graphics.Bitmap getBitmapFromUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <io.invertase.firebase.notifications.DisplayNotificationTask: android.graphics.Bitmap getBitmap(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <io.invertase.firebase.notifications.DisplayNotificationTask: android.graphics.Bitmap getBitmap(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <io.invertase.firebase.notifications.DisplayNotificationTask: android.graphics.Bitmap getBitmapFromUrl(java.lang.String)>
+Thread: [UI]
+-------------------------

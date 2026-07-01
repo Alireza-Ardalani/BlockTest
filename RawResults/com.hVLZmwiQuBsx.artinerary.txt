@@ -1,0 +1,58 @@
+Time1: 76.018251424
+Time2: 2.073754498
+Worker: 0
+UI: 13
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <ze.b: void a(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <ze.b: void a(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <rf.l: java.util.List f(java.io.BufferedReader)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <qa.b: void ensureNoObfuscatedPrefStore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <qa.b: void ensureNoObfuscatedPrefStore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <od.p: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <qa.b: void ensureNoObfuscatedPrefStore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <rf.l: java.util.List e(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <qa.b: void ensureNoObfuscatedPrefStore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <qa.b: void ensureNoObfuscatedPrefStore(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.io.InputStream openStream()>
+Caller: <rf.l: java.util.List e(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <od.p: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------

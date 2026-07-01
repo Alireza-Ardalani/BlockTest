@@ -1,0 +1,2414 @@
+Time1: 60.488857414
+Time2: 9.302579113
+Worker: 262
+UI: 340
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsymphony.run5k.util.WeatherRemoteFetch: org.json.JSONObject getJSON(android.content.Context,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.appsymphony.run5k.util.GetWeatherData$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateWeather(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.appsymphony.run5k.util.GetWeatherData$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long getUsableSpace()>
+Caller: <com.appsymphony.run5k.util.GetUsableSdCardSpace: boolean getUsableSdCardSpace(long)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: long getUsableSpace()>
+Caller: <com.appsymphony.run5k.util.GetUsableSdCardSpace: boolean getUsableSdCardSpace(long)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.appsymphony.run5k.util.BlurBuilder: android.graphics.Bitmap blur(android.content.Context,android.graphics.Bitmap)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.appsymphony.run5k.util.BlurBuilder: android.graphics.Bitmap blur(android.content.Context,android.graphics.Bitmap)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.appsymphony.run5k.util.BlurBuilder: android.graphics.Bitmap blur(android.content.Context,android.graphics.Bitmap)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.appsymphony.run5k.util.BlurBuilder: android.graphics.Bitmap blur(android.content.Context,android.graphics.Bitmap)>
+Thread: [<com.appsymphony.run5k.TimerActivity$49$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void DeleteRecursive(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void DeleteRecursive(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService10k$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$44$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$41$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$42$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$49$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$49$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$42$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$44$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$44$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$41$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$41$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$49$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService10k$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService10k$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$42$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void DeleteRecursive(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void DeleteRecursive(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateWeather(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.appsymphony.run5k.util.GetWeatherData$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$41$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$44$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$41$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$49$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$49$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$42$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$42$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$44$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void restoreUserPrefs()>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService10k$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$42$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService10k$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$49$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$44$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$41$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$2: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService10k$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService10k$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService10k$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void DeleteRecursive(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void DeleteRecursive(java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$42$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$49$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService10k$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$44$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$41$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService10k$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService10k$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$41$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$42$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$49$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$44$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$49$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService10k$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$49$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$41$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$44$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$41$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$44$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$42$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$42$1: void run()>]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.appsymphony.run5k.TimerActivity: void prepareSong(int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.appsymphony.run5k.TimerActivity: void prepareSong(int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$1: void run()>]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.appsymphony.run5k.TimerActivity: void prepareSong(int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.appsymphony.run5k.TimerActivity: void prepareSong(int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$49$1: void run()>]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.appsymphony.run5k.TimerActivity: void playSong(int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.appsymphony.run5k.TimerActivity: void playSong(int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService10k$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService10k$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService10k$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.appsymphony.run5k.util.WeatherRemoteFetch: org.json.JSONObject getJSON(android.content.Context,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.appsymphony.run5k.util.GetWeatherData$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.appsymphony.run5k.util.NotificationCreator: void songNotification(android.content.Context,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.appsymphony.run5k.util.BlurBuilder: android.graphics.Bitmap blur(android.content.Context,android.graphics.Bitmap)>
+Thread: [<com.appsymphony.run5k.TimerActivity$49$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.appsymphony.run5k.util.BlurBuilder: android.graphics.Bitmap blur(android.content.Context,android.graphics.Bitmap)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.appsymphony.run5k.util.BlurBuilder: android.graphics.Bitmap blur(android.content.Context,android.graphics.Bitmap)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.appsymphony.run5k.util.BlurBuilder: android.graphics.Bitmap blur(android.content.Context,android.graphics.Bitmap)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.appsymphony.run5k.util.NotificationCreator: void songNotification(android.content.Context,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.appsymphony.run5k.util.WeatherRemoteFetch: org.json.JSONObject getJSON(android.content.Context,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.appsymphony.run5k.util.GetWeatherData$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$44$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService10k$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.Run5kProgramService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$41$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$42$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$49$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.TimerActivity: void prepareSong(int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$49$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.TimerActivity: void prepareSong(int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.TimerActivity: void prepareSong(int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.TimerActivity: void prepareSong(int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.TimerActivity: void prepareSong(int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.util.NotificationCreator: void songNotification(android.content.Context,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.TimerActivity: void prepareSong(int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$49$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.util.NotificationCreator: void songNotification(android.content.Context,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.TimerActivity: void prepareSong(int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$24$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.TimerActivity: void prepareSong(int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.TimerActivity: void playSong(int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$4$3$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.TimerActivity: void playSong(int)>
+Thread: [<com.appsymphony.run5k.TimerActivity$38$1: void run()>]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.appsymphony.run5k.util.BackupHelper$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsymphony.run5k.util.WeatherRemoteFetch: org.json.JSONObject getJSON(android.content.Context,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.appsymphony.run5k.util.GetWeatherData$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.analytics.internal.zzah: java.net.HttpURLConnection zzc(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.appsymphony.run5k.HistoriaActivity$ImageAdapter: java.lang.Object instantiateItem(android.view.ViewGroup,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.appsymphony.run5k.SeleccionarRutinaActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.appsymphony.run5k.util.DistanceProgress: void getDistanceFromSelectedDataBase(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateAvPace(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: void deleteAll(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateCalorias(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: void addRuta(com.appsymphony.run5k.db.Ruta)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateAvSpeed(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateEmoji(java.lang.String,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateDistancia(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateRuta(com.appsymphony.run5k.db.Ruta)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateSnapId(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateMaxSpeed(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: boolean checkId(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateDuracion(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long getUsableSpace()>
+Caller: <com.appsymphony.run5k.util.GetUsableSdCardSpace: boolean getUsableSdCardSpace(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.analytics.internal.zzj: void zzb(com.google.android.gms.analytics.internal.zzh)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.appsymphony.run5k.SeleccionarRutinaActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: boolean zza(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.appsymphony.run5k.util.DistanceProgress: void getDistanceFromSelectedDataBase(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.appsymphony.run5k.HistoriaActivity: java.util.List getList()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.appsymphony.run5k.SnapActivity: android.graphics.Bitmap getScreenShot(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.appsymphony.run5k.util.BlurBuilder: android.graphics.Bitmap blur(android.content.Context,android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void DeleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.HistoriaActivity$11: void onClick(android.content.DialogInterface,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void deleteData()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.SnapActivity$10: void onClick(android.content.DialogInterface,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void DeleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.internal.Utility: void deleteDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void deleteData()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void deleteData()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.SeleccionarRutinaActivity$8: void onClick(android.content.DialogInterface,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void deleteData()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.HistoriaActivity$13: void onClick(android.content.DialogInterface,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void deleteData()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: void addAttachments(java.util.Collection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzmz: java.lang.String decode(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.SnapActivity: void store(android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.appsymphony.run5k.HistoriaActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.SnapActivity: java.lang.String saveGalleryImage(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.EstadisticasActivity: java.lang.String saveGalleryImage(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.appsymphony.run5k.HistoriaActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.analytics.internal.zzj: void endTransaction()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj: java.util.List zzr(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj: java.util.List zzo(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: com.appsymphony.run5k.db.Ruta getRutaById(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj: java.util.List zzp(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void DeleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.internal.Utility: void deleteDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void DeleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.HistoriaActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah$zza: boolean zzj(com.google.android.gms.analytics.internal.zzab)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah: byte[] zzg(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah$zza: boolean zzj(com.google.android.gms.analytics.internal.zzab)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.appsymphony.run5k.SnapActivity: java.lang.String saveGalleryImage(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah: int zzb(java.net.URL,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.appsymphony.run5k.EstadisticasActivity: java.lang.String saveGalleryImage(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah: int zza(java.net.URL,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateRuta(com.appsymphony.run5k.db.Ruta)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateSnapId(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateDuracion(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateAvPace(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateMaxSpeed(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateDistancia(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateEmoji(java.lang.String,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateAvSpeed(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: int updateCalorias(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: long zza(java.lang.String,java.lang.String[],long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: long zzb(java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: boolean checkId(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: void onOpen(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: java.util.Set zzb(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SnapActivity: java.io.File getCameraOutputMediaFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SeleccionarEntrenamientoActivity: void onResume()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: java.io.File getAttachmentsDirectoryForCall(java.util.UUID,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SnapActivity: java.lang.String saveGalleryImage(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void deleteData()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SeleccionarEntrenamientoActivity: void onResume()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void deleteData()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void deleteData()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SeleccionarRutinaActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.EstadisticasActivity: java.io.File getCameraOutputMediaFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: boolean filesExists()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SeleccionarEntrenamientoActivity: void onResume()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SeleccionarEntrenamientoActivity: void onResume()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void deleteData()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SeleccionarEntrenamientoActivity$7: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void deleteData()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: boolean filesExists()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: boolean filesExists()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void deleteData()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SeleccionarRutinaActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void deleteData()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.EstadisticasActivity: java.lang.String saveGalleryImage(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SeleccionarRutinaActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void deleteData()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.internal.Utility: void deleteDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: boolean filesExists()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: boolean filesExists()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.TimerActivity$3$1: void onClick(android.content.DialogInterface,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.HistoriaActivity: java.util.List getList()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SnapActivity: void store(android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.HistoriaActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: boolean filesExists()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SeleccionarEntrenamientoActivity: void onResume()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void deleteData()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SeleccionarEntrenamientoActivity$7: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SeleccionarEntrenamientoActivity: void onResume()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SnapActivity$10: void onClick(android.content.DialogInterface,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.HistoriaActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: boolean filesExists()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.appsymphony.run5k.HistoriaActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.HistoriaActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void restoreUserPrefs()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void replaceMonth(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: com.appsymphony.run5k.db.Ruta getRutaById(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: void addRuta(com.appsymphony.run5k.db.Ruta)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.gms.analytics.internal.zzj: void zzc(com.google.android.gms.analytics.internal.zzab)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <com.google.android.gms.analytics.internal.zzx: boolean zzbo(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <com.google.android.gms.analytics.internal.zzx: boolean zzbo(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.appsymphony.run5k.SnapActivity: java.lang.String saveGalleryImage(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.appsymphony.run5k.EstadisticasActivity: java.lang.String saveGalleryImage(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.Gson: com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.appsymphony.run5k.HistoriaActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.appsymphony.run5k.SnapActivity: void store(android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.appsymphony.run5k.HistoriaActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.appsymphony.run5k.SnapActivity: java.lang.String saveGalleryImage(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.appsymphony.run5k.HistoriaActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.appsymphony.run5k.EstadisticasActivity: java.lang.String saveGalleryImage(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: java.io.File getAttachmentsDirectoryForCall(java.util.UUID,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.appsymphony.run5k.SnapActivity: java.io.File getCameraOutputMediaFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.appsymphony.run5k.EstadisticasActivity: java.io.File getCameraOutputMediaFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: java.io.File ensureAttachmentsDirectoryExists()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void DeleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.appsymphony.run5k.SeleccionarRutinaActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.appsymphony.run5k.HistoriaActivity$13: void onClick(android.content.DialogInterface,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.appsymphony.run5k.SeleccionarRutinaActivity$8: void onClick(android.content.DialogInterface,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void replaceMonth(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.appsymphony.run5k.util.GetFileSize: long getFileSize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void DeleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.facebook.internal.Utility: void deleteDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.appsymphony.run5k.HistoriaActivity$13: void onClick(android.content.DialogInterface,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.appsymphony.run5k.EstadisticasActivity: java.lang.String urlEncode(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: java.io.File getAttachmentFile(java.util.UUID,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzah: void zza(java.lang.StringBuilder,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzah: void zza(java.lang.StringBuilder,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.gms.analytics.internal.zzj: void beginTransaction()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.google.android.gms.analytics.internal.zzah: void zzb(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.appsymphony.run5k.HistoriaActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.appsymphony.run5k.TimerActivity: void playSong(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.appsymphony.run5k.SnapActivity: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.appsymphony.run5k.EstadisticasActivity: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.appsymphony.run5k.PlayListActivity: void onChangeTrackListener()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.appsymphony.run5k.PlayListActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.appsymphony.run5k.TimerActivity: void prepareSong(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: void processAttachmentFile(android.net.Uri,boolean,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.HistoriaActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.SnapActivity: java.lang.String saveGalleryImage(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: void processAttachmentBitmap(android.graphics.Bitmap,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copyReportsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper: void copySnapsFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: void processAttachmentFile(android.net.Uri,boolean,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.EstadisticasActivity: java.lang.String saveGalleryImage(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.SnapActivity: void store(android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void copyDirectory(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void close()>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: java.lang.String ReadSettings(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.appsymphony.run5k.SnapActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.appsymphony.run5k.EstadisticasActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.appsymphony.run5k.EstadisticasActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.appsymphony.run5k.TimerActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.appsymphony.run5k.util.BlurBuilder: android.graphics.Bitmap blur(android.content.Context,android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.appsymphony.run5k.util.NotificationCreator: void songNotification(android.content.Context,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: void onOpen(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: void zza(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzj$zza: void onOpen(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: void processAttachmentFile(android.net.Uri,boolean,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.appsymphony.run5k.Run5kWorkoutFileEditor: void WriteSettings(java.lang.String,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.TimerActivity: void prepareSong(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.PlayListActivity: void onChangeTrackListener()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.TimerActivity: void prepareSong(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.TimerActivity: void playSong(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.util.NotificationCreator: void songNotification(android.content.Context,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.appsymphony.run5k.PlayListActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.appsymphony.run5k.util.DecodeSampledBitmap: android.graphics.Bitmap decodeSampledBitmapFromFile(java.lang.String,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.appsymphony.run5k.util.DecodeSampledBitmap: android.graphics.Bitmap decodeSampledBitmapFromFile(java.lang.String,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.gms.analytics.internal.zzj: void setTransactionSuccessful()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.appsymphony.run5k.SplashScreenActivity: void replaceMonth(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean,boolean)>
+Caller: <com.google.android.gms.analytics.internal.zzx: boolean zzbo(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean,boolean)>
+Caller: <com.google.android.gms.analytics.internal.zzx: boolean zzbo(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: void zzjL()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: void zzjM()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.appsymphony.run5k.db.RutaSQLiteHelper: void deleteAll(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: void zzo(java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: void zza(long,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.analytics.internal.zzj: int zzjN()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$2: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.appsymphony.run5k.util.BackupHelper$1: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzah: java.net.URL zzb(com.google.android.gms.analytics.internal.zzab,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzah: java.net.URL zzlC()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.analytics.internal.zzah: java.net.URL zzh(com.google.android.gms.analytics.internal.zzab)>
+Thread: [UI]
+-------------------------

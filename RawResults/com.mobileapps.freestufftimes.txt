@@ -1,0 +1,166 @@
+Time1: 22.957953332
+Time2: 1.221929047
+Worker: 10
+UI: 30
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.mobileapps.freestufftimes.util.FeedsFetcher: java.lang.String getHTTPData(java.lang.String)>
+Thread: [<com.mobileapps.freestufftimes.fragments.SwipeListFragment$RefreshFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.mobileapps.freestufftimes.util.FeedsFetcher: java.lang.String getHTTPData(java.lang.String)>
+Thread: [<com.mobileapps.freestufftimes.fragments.SwipeListFragment$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.mobileapps.freestufftimes.util.FeedsFetcher: java.lang.String getHTTPData(java.lang.String)>
+Thread: [<com.mobileapps.freestufftimes.fragments.SwipeListFragment$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.mobileapps.freestufftimes.util.FeedsFetcher: java.lang.String getHTTPData(java.lang.String)>
+Thread: [<com.mobileapps.freestufftimes.fragments.SwipeListFragment$RefreshFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.mobileapps.freestufftimes.util.FeedsFetcher: java.lang.String getHTTPData(java.lang.String)>
+Thread: [<com.mobileapps.freestufftimes.fragments.SwipeListFragment$RefreshFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.mobileapps.freestufftimes.util.FeedsFetcher: java.lang.String getHTTPData(java.lang.String)>
+Thread: [<com.mobileapps.freestufftimes.fragments.SwipeListFragment$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.iid.zzd: void zzdp(java.lang.String)>
+Thread: [<com.onesignal.PushRegistratorGPS$2: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.mobileapps.freestufftimes.util.FeedsFetcher: java.lang.String getHTTPData(java.lang.String)>
+Thread: [<com.mobileapps.freestufftimes.fragments.SwipeListFragment$RefreshFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.mobileapps.freestufftimes.util.FeedsFetcher: java.lang.String getHTTPData(java.lang.String)>
+Thread: [<com.mobileapps.freestufftimes.fragments.SwipeListFragment$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.google.android.gms.iid.zzd: void zzdp(java.lang.String)>
+Thread: [<com.onesignal.PushRegistratorGPS$2: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.mobileapps.freestufftimes.helper.DataBaseHelper: void copyDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getLargeIcon(org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.mobileapps.freestufftimes.util.FeedsFetcher: java.lang.String getHTTPData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.mobileapps.freestufftimes.util.FeedsFetcher: java.lang.String getHTTPData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.mobileapps.freestufftimes.util.FeedsFetcher: java.lang.String getHTTPData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.mobileapps.freestufftimes.helper.DataBaseHelper: void copyDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+Caller: <com.mobileapps.freestufftimes.helper.DataBaseHelper: android.database.sqlite.SQLiteDatabase openDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+Caller: <com.mobileapps.freestufftimes.helper.DataBaseHelper: boolean checkDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+Caller: <com.mobileapps.freestufftimes.helper.DataBaseHelper: android.database.sqlite.SQLiteDatabase openDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.onesignal.OneSignal: boolean isDuplicateNotification(java.lang.String,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.NotificationOpenedProcessor: void markNotificationsConsumed(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.NotificationOpenedProcessor: void updateSummaryNotification(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.GenerateNotification: void createSummaryNotification(android.content.Context,boolean,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(android.content.Context,android.os.Bundle,boolean,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.NotificationOpenedProcessor: void processIntent(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(android.content.Context,android.os.Bundle,boolean,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.GenerateNotification: void createSummaryNotification(android.content.Context,boolean,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.mobileapps.freestufftimes.helper.DataBaseHelper: void copyDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromAssetsOrResourceName(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignal: boolean isDuplicateNotification(java.lang.String,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.NotificationOpenedProcessor: void updateSummaryNotification(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.NotificationOpenedProcessor: void addChildNotifications(org.json.JSONArray,java.lang.String,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.GenerateNotification: void createSummaryNotification(android.content.Context,boolean,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.mobileapps.freestufftimes.util.FeedsFetcher: java.lang.String getHTTPData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.mobileapps.freestufftimes.helper.DataBaseHelper: void copyDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.mobileapps.freestufftimes.MainActivity: void saveStuffId(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.mobileapps.freestufftimes.MainActivity: void getSaveDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.NotificationBundleProcessor: void saveNotification(android.content.Context,android.os.Bundle,boolean,int)>
+Thread: [UI]
+-------------------------

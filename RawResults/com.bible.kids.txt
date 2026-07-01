@@ -1,0 +1,1622 @@
+Time1: 33.357397519
+Time2: 3.195871193
+Worker: 210
+UI: 194
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.tapjoy.TapjoyUtil: void deleteFileOrDirectory(java.io.File)>
+Thread: [<com.tapjoy.TapjoyVideo$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeKeyData(java.lang.String,java.util.Map)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeUserData(java.lang.String,com.crashlytics.android.core.UserMetaData)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.turbomanage.httpclient.ConsoleRequestLogger: void logRequest(java.net.HttpURLConnection,java.lang.Object)>
+Thread: [<com.threatmetrix.TrustDefenderMobile.HttpGet: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void copyStream(java.io.InputStream,java.io.OutputStream,byte[])>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void refreshBuffer()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void createTargetDirectory()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.tapjoy.TapjoyVideo: void cacheVideoFromURL(java.lang.String)>
+Thread: [<com.tapjoy.TapjoyVideo$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.crashlytics.android.core.LogFileManager: java.io.File getLogFileDir()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsCore$4: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.tapjoy.TapjoyVideo: void cacheVideoFromURL(java.lang.String)>
+Thread: [<com.tapjoy.TapjoyVideo$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void refreshBuffer()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.mraid.view.MraidView$MraidHTTPTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyConnectCore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyVideo$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.mraid.view.MraidView$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.mraid.view.MraidView$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String getInfoAlt(java.lang.String,java.util.List)>
+Thread: [<com.threatmetrix.TrustDefenderMobile.CompleteProfile: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyVideoView$2: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyVideoView$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.mraid.view.MraidView$MraidHTTPTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyConnectCore$PPAThread: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyConnectCore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyVideo$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyVideoView$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyConnectCore$PPAThread: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyVideoView$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.turbomanage.httpclient.ParameterMap: java.lang.String urlEncode()>
+Thread: [<com.threatmetrix.TrustDefenderMobile.HttpGet: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String buildJavaScriptParameters(int,java.lang.String)>
+Thread: [<com.threatmetrix.TrustDefenderMobile.CompleteProfile: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String buildJavaScriptParameters(int,java.lang.String)>
+Thread: [<com.threatmetrix.TrustDefenderMobile.CompleteProfile: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.turbomanage.httpclient.ParameterMap: java.lang.String urlEncode()>
+Thread: [<com.threatmetrix.TrustDefenderMobile.CompleteProfile: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String buildJavaScriptParameters(int,java.lang.String)>
+Thread: [<com.threatmetrix.TrustDefenderMobile.CompleteProfile: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.tapjoy.TapjoyUtil: void deleteFileOrDirectory(java.io.File)>
+Thread: [<com.tapjoy.TapjoyVideo$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.tapjoy.TapjoyVideo: boolean validateCachedVideos()>
+Thread: [<com.tapjoy.TapjoyVideo$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.util.List getFontList()>
+Thread: [<com.threatmetrix.TrustDefenderMobile.CompleteProfile: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.tapjoy.TapjoyVideo: void cacheVideoFromURL(java.lang.String)>
+Thread: [<com.tapjoy.TapjoyVideo$2: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.tapjoy.TapjoyVideo: void cacheVideoFromURL(java.lang.String)>
+Thread: [<com.tapjoy.TapjoyVideo$2: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.tapjoy.TapjoyVideo: boolean validateCachedVideos()>
+Thread: [<com.tapjoy.TapjoyVideo$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.tapjoy.TapjoyVideo: void cacheVideoFromURL(java.lang.String)>
+Thread: [<com.tapjoy.TapjoyVideo$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.tapjoy.TapjoyVideo: void cacheVideoFromURL(java.lang.String)>
+Thread: [<com.tapjoy.TapjoyVideo$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.tapjoy.TapjoyVideo: boolean validateCachedVideos()>
+Thread: [<com.tapjoy.TapjoyVideo$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsFileMarker: boolean isPresent()>
+Thread: [<com.crashlytics.android.core.CrashlyticsCore$4: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: boolean isRooted(android.content.Context)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void <init>(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void <init>(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void createTargetDirectory()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: boolean isRooted(android.content.Context)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsCore$4: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String getInfoAlt(java.lang.String,java.util.List)>
+Thread: [<com.threatmetrix.TrustDefenderMobile.CompleteProfile: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.LogFileManager: java.io.File getLogFileDir()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void <init>(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.mraid.view.MraidView$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyVideoView$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.tapjoy.TapjoyVideo$1: void run()>
+Thread: [<com.tapjoy.TapjoyVideo$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.tapjoy.TapjoyVideo$1: void run()>
+Thread: [<com.tapjoy.TapjoyVideo$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyVideoView$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.tapjoy.TapjoyVideo: void cacheVideoFromURL(java.lang.String)>
+Thread: [<com.tapjoy.TapjoyVideo$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.threatmetrix.TrustDefenderMobile.RequestHandlerError: java.net.HttpURLConnection openConnection(java.lang.String)>
+Thread: [<com.threatmetrix.TrustDefenderMobile.HttpGet: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.mraid.view.MraidView$MraidHTTPTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyConnectCore$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.tapjoy.TapjoyURLConnection: java.lang.String getContentLength(java.lang.String)>
+Thread: [<com.tapjoy.TapjoyVideo$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyVideo$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyConnectCore$PPAThread: void run()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.turbomanage.httpclient.BasicRequestHandler: byte[] readStream(java.io.InputStream)>
+Thread: [<com.threatmetrix.TrustDefenderMobile.HttpGet: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String getInfoAlt(java.lang.String,java.util.List)>
+Thread: [<com.threatmetrix.TrustDefenderMobile.CompleteProfile: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyConnectCore$PPAThread: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyVideoView$2: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.mraid.view.MraidView$MraidHTTPTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyVideoView$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String getInfoAlt(java.lang.String,java.util.List)>
+Thread: [<com.threatmetrix.TrustDefenderMobile.CompleteProfile: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyVideo$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyConnectCore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.mraid.view.MraidView$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String getInfoAlt(java.lang.String,java.util.List)>
+Thread: [<com.threatmetrix.TrustDefenderMobile.CompleteProfile: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.turbomanage.httpclient.BasicRequestHandler: void writeStream(java.io.OutputStream,byte[])>
+Thread: [<com.threatmetrix.TrustDefenderMobile.HttpGet: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String getInfoAlt(java.lang.String,java.util.List)>
+Thread: [<com.threatmetrix.TrustDefenderMobile.CompleteProfile: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: java.io.RandomAccessFile open(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: java.io.RandomAccessFile open(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: java.io.RandomAccessFile open(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: java.io.File[] listFilesMatching(java.io.FilenameFilter)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[])>
+Caller: <com.threatmetrix.TrustDefenderMobile.PutXML: void run()>
+Thread: [<com.threatmetrix.TrustDefenderMobile.PutXML: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.threatmetrix.TrustDefenderMobile.PutXML: void run()>
+Thread: [<com.threatmetrix.TrustDefenderMobile.PutXML: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.threatmetrix.TrustDefenderMobile.PutXML: void run()>
+Thread: [<com.threatmetrix.TrustDefenderMobile.PutXML: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.threatmetrix.TrustDefenderMobile.PutXML: void run()>
+Thread: [<com.threatmetrix.TrustDefenderMobile.PutXML: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <com.threatmetrix.TrustDefenderMobile.PutXML: void run()>
+Thread: [<com.threatmetrix.TrustDefenderMobile.PutXML: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read()>
+Caller: <com.threatmetrix.TrustDefenderMobile.PutXML: void run()>
+Thread: [<com.threatmetrix.TrustDefenderMobile.PutXML: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read()>
+Caller: <com.threatmetrix.TrustDefenderMobile.PutXML: void run()>
+Thread: [<com.threatmetrix.TrustDefenderMobile.PutXML: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void <init>(java.io.File,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.events.GZIPQueueFileEventStorage: java.io.OutputStream getMoveOutputStream(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.tapjoy.TapjoyVideo: void cacheVideoFromURL(java.lang.String)>
+Thread: [<com.tapjoy.TapjoyVideo$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeUserData(java.lang.String,com.crashlytics.android.core.UserMetaData)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeKeyData(java.lang.String,java.util.Map)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void writeHeader(int,int,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void writeHeader(int,int,int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.OutputStream getOutputStream()>
+Caller: <com.threatmetrix.TrustDefenderMobile.PutXML: void run()>
+Thread: [<com.threatmetrix.TrustDefenderMobile.PutXML: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.tapjoy.TapjoyVideo: void cacheVideoFromURL(java.lang.String)>
+Thread: [<com.tapjoy.TapjoyVideo$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.tapjoy.TapjoyVideo: void cacheVideoFromURL(java.lang.String)>
+Thread: [<com.tapjoy.TapjoyVideo$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.mraid.view.MraidView$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tapjoy.TapjoyURLConnection: java.lang.String getContentLength(java.lang.String)>
+Thread: [<com.tapjoy.TapjoyVideo$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.mraid.view.MraidView$MraidHTTPTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.turbomanage.httpclient.AbstractHttpClient: java.net.HttpURLConnection openConnection(java.lang.String)>
+Thread: [<com.threatmetrix.TrustDefenderMobile.HttpGet: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyVideoView$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyVideoView$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyConnectCore$PPAThread: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyVideo$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [<com.tapjoy.TapjoyConnectCore$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tapjoy.TapjoyVideo$1: void run()>
+Thread: [<com.tapjoy.TapjoyVideo$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.threatmetrix.TrustDefenderMobile.RequestHandlerError: java.net.HttpURLConnection openConnection(java.lang.String)>
+Thread: [<com.threatmetrix.TrustDefenderMobile.HttpGet: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tapjoy.TapjoyVideo: void cacheVideoFromURL(java.lang.String)>
+Thread: [<com.tapjoy.TapjoyVideo$2: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.InputStream getInputStream()>
+Caller: <com.threatmetrix.TrustDefenderMobile.PutXML: void run()>
+Thread: [<com.threatmetrix.TrustDefenderMobile.PutXML: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void <init>(java.lang.String,int)>
+Caller: <com.threatmetrix.TrustDefenderMobile.PutXML: void run()>
+Thread: [<com.threatmetrix.TrustDefenderMobile.PutXML: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeUserData(java.lang.String,com.crashlytics.android.core.UserMetaData)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.crashlytics.android.core.ExceptionUtils: void writeStackTrace(java.lang.Throwable,java.io.Writer)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.crashlytics.android.core.ExceptionUtils: void writeStackTrace(java.lang.Throwable,java.io.Writer)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.threatmetrix.TrustDefenderMobile.PutXML: void run()>
+Thread: [<com.threatmetrix.TrustDefenderMobile.PutXML: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeKeyData(java.lang.String,java.util.Map)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void writeHeader(int,int,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void writeHeader(int,int,int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeUserData(java.lang.String,com.crashlytics.android.core.UserMetaData)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeKeyData(java.lang.String,java.util.Map)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void flush()>
+Caller: <com.threatmetrix.TrustDefenderMobile.PutXML: void run()>
+Thread: [<com.threatmetrix.TrustDefenderMobile.PutXML: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void move(java.io.File,java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void move(java.io.File,java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.tapjoy.TapjoyUtil: void deleteFileOrDirectory(java.io.File)>
+Thread: [<com.tapjoy.TapjoyVideo$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsFileMarker: boolean remove()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void move(java.io.File,java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <com.threatmetrix.TrustDefenderMobile.PutXML: void run()>
+Thread: [<com.threatmetrix.TrustDefenderMobile.PutXML: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.tapjoy.TapjoyUtil: java.lang.String copyTextFromJarIntoString(java.lang.String,android.content.Context)>
+Thread: [<com.tapjoy.mraid.view.MraidView$MraidHTTPTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void copyStream(java.io.InputStream,java.io.OutputStream,byte[])>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.tapjoy.TapjoyVideo: void cacheVideoFromURL(java.lang.String)>
+Thread: [<com.tapjoy.TapjoyVideo$2: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.tapjoy.TapjoyUtil: java.lang.String copyTextFromJarIntoString(java.lang.String,android.content.Context)>
+Thread: [<com.tapjoy.mraid.view.MraidView$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.turbomanage.httpclient.BasicRequestHandler: byte[] readStream(java.io.InputStream)>
+Thread: [<com.threatmetrix.TrustDefenderMobile.HttpGet: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.tapjoy.TapjoyUtil: java.lang.String copyTextFromJarIntoString(java.lang.String,android.content.Context)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void setLength(int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void setLength(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void close()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper$2: java.lang.Object call()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.tapjoy.mraid.controller.Assets: boolean deleteDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void deleteLegacyInvalidCacheDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.tapjoy.TapjoyUtil: void deleteFileOrDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.net.Proxy createProxy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String moveToAdDirectory(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void refreshBuffer()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.androidquery.util.AQUtility: java.io.File getCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.androidquery.util.AQUtility: java.io.File getCacheDir(android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.crashlytics.android.core.LogFileManager: java.io.File getLogFileDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.tapjoy.TapjoyCache: void init()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.tapjoy.mraid.controller.Assets: java.io.FileOutputStream getAssetOutputString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void refreshBuffer()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDisk(java.io.InputStream,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: int getHeaderFieldInt(java.lang.String,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: int intHeader(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String moveToAdDirectory(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String moveToAdDirectory(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String getInfoAlt(java.lang.String,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.crashlytics.android.ndk.CrashlyticsNdk: boolean onPreExecute(com.crashlytics.android.ndk.CrashFileManager,com.crashlytics.android.core.CrashlyticsCore,com.crashlytics.android.core.CrashlyticsKitBinder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String buildJavaScriptParameters(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String buildJavaScriptParameters(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String buildJavaScriptParameters(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.turbomanage.httpclient.ParameterMap: java.lang.String urlEncode()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.crashlytics.android.ndk.TimeBasedCrashFileManager: java.io.File[] getFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.tapjoy.mraid.controller.Assets: boolean deleteDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.crashlytics.android.core.LogFileManager: void discardOldLogFiles(java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.tapjoy.TapjoyUtil: void deleteFileOrDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void deleteLegacyInvalidCacheDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.util.List getFontList()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Caller: <io.fabric.sdk.android.services.settings.IconRequest: io.fabric.sdk.android.services.settings.IconRequest build(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <io.fabric.sdk.android.services.network.SystemKeyStore: java.security.KeyStore getTrustStore(java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$CloseOperation: void done()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$CloseOperation: void done()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <io.fabric.sdk.android.services.network.SystemKeyStore: java.security.KeyStore getTrustStore(java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.crashlytics.android.ndk.Sha1FileIdStrategy: java.lang.String getFileSHA(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.tapjoy.mraid.view.MraidView: android.webkit.WebResourceResponse getWebResourceResponseFromCache(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.crashlytics.android.beta.DeviceTokenLoader: java.util.zip.ZipInputStream getZipInputStreamOfAppApkFrom(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read()>
+Caller: <com.tapjoy.mraid.controller.Assets: void storePicture(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void copyToCodedOutputStream(java.io.InputStream,com.crashlytics.android.core.CodedOutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.QueueFileLogStore$1: void read(java.io.InputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void writeToCosFromFile(com.crashlytics.android.core.CodedOutputStream,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: boolean isRooted(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: org.json.JSONObject readCachedSettings()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.tapjoy.TapjoyCache: void init()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.androidquery.callback.AbstractAjaxCallback: void filePut()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.tapjoy.mraid.view.MraidView$4: android.webkit.WebResourceResponse shouldInterceptRequest(android.webkit.WebView,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: boolean isRooted(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String getInfoAlt(java.lang.String,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.ndk.CrashlyticsNdk: java.lang.Void doInBackground()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.tapjoy.TapjoyVideo: boolean startVideo(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.QueueFileLogStore: com.crashlytics.android.core.ByteString getLogAsByteString()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsFileMarker: boolean isPresent()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void writeToCosFromFile(com.crashlytics.android.core.CodedOutputStream,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.LogFileManager: java.io.File getLogFileDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.MetaDataStore: java.util.Map readKeyData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.MetaDataStore: com.crashlytics.android.core.UserMetaData readUserData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.ndk.JsonCrashDataParser: java.io.File getLibraryFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.tapjoy.TapjoyCache: void loadCachedAssets()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.tapjoy.mraid.controller.Assets: boolean deleteDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void deleteLegacyInvalidCacheDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.ByteBuffer encode(java.nio.CharBuffer)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream: io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream write(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream: void <init>(java.io.OutputStream,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Proxy: void <init>(java.net.Proxy$Type,java.net.SocketAddress)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.net.Proxy createProxy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$ConnectionFactory$1: java.net.HttpURLConnection create(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.tapjoy.mraid.controller.Assets: void storePicture(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String getInfoAlt(java.lang.String,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String getInfoAlt(java.lang.String,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String getInfoAlt(java.lang.String,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: void storePicture(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <com.threatmetrix.TrustDefenderMobile.TrustDefenderMobile: java.lang.String getInfoAlt(java.lang.String,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: java.io.RandomAccessFile open(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection(java.net.Proxy)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$ConnectionFactory$1: java.net.HttpURLConnection create(java.net.URL,java.net.Proxy)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.crashlytics.android.core.Utils: void capFileCount(java.io.File,java.io.FilenameFilter,int,java.util.Comparator)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: java.io.File[] listFilesMatching(java.io.FilenameFilter)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.tapjoy.mraid.controller.Assets: java.io.FileOutputStream getAssetOutputString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void <init>(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.tapjoy.mraid.controller.Assets: void storePicture(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: void writeCachedSettings(long,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void copyToCodedOutputStream(java.io.InputStream,com.crashlytics.android.core.CodedOutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDisk(java.io.InputStream,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDisk(java.io.InputStream,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void closeInProgressStream()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.tapjoy.mraid.controller.Assets: void storePicture(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tapjoy.TapjoyCache: java.lang.String getHashFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tapjoy.TJAdUnitView$TJAdUnitViewListener: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tapjoy.mraid.controller.Assets: void storePicture(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedOutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream: io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream write(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.crashlytics.android.core.CrashlyticsFileMarker: boolean create()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.tapjoy.TJAdUnitView: android.graphics.Bitmap getCloseBitmap()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.crashlytics.android.core.ExceptionUtils: void writeStackTrace(java.lang.Throwable,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.crashlytics.android.core.ExceptionUtils: void writeStackTrace(java.lang.Throwable,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: void writeCachedSettings(long,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.tapjoy.mraid.view.Browser: android.graphics.Bitmap getDensityScaledBitmap(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.crashlytics.android.answers.Answers: boolean onPreExecute()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void deleteLegacyInvalidCacheDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.androidquery.callback.AbstractAjaxCallback: void filePut()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void deleteSessionPartFilesFor(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void trimOpenSessions(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.tapjoy.mraid.controller.Assets: boolean deleteDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.tapjoy.mraid.controller.Assets: boolean deleteDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.QueueFileLogStore: void deleteLogFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void doCleanInvalidTempFiles(java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.ndk.TimeBasedCrashFileManager: void clearCrashFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.Utils: void capFileCount(java.io.File,java.io.FilenameFilter,int,java.util.Comparator)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.LogFileManager: void discardOldLogFiles(java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.tapjoy.TapjoyUtil: void deleteFileOrDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void deleteLegacyInvalidCacheDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String toASCIIString()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler: void writeToCosFromFile(com.crashlytics.android.core.CodedOutputStream,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.MetaDataStore: java.util.Map readKeyData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.ndk.CrashlyticsNdk: java.lang.String readJsonCrashFile(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: org.json.JSONObject readCachedSettings()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.MetaDataStore: com.crashlytics.android.core.UserMetaData readUserData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.tapjoy.TapjoyCache: void loadCachedAssets()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDiskWrap(java.io.InputStream,java.lang.String,boolean,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.tapjoy.mraid.controller.Assets: java.lang.String writeToDisk(java.io.InputStream,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.tapjoy.TapjoyUtil: java.lang.String copyTextFromJarIntoString(java.lang.String,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String hash(java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: void writeCachedSettings(long,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.tapjoy.mraid.controller.Utility: void addCalendarEvent(int,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.tapjoy.mraid.controller.Utility: void addCalendarEvent(int,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.tapjoy.mraid.controller.Utility: void addCalendarEvent(int,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.tapjoy.mraid.controller.Utility: void addCalendarEvent(int,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [UI]
+-------------------------

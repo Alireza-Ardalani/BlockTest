@@ -1,0 +1,214 @@
+Time1: 16.0510523
+Time2: 4.67923162
+Worker: 12
+UI: 40
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <totallibrary.storage.CGoogleDrive: byte[] DownloadFileToByteArray(com.google.android.gms.drive.DriveId)>
+Thread: [<totallibrary.storage.CGoogleDrive$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <totallibrary.storage.CGoogleDrive: boolean UploadFile(com.google.android.gms.drive.DriveId,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<totallibrary.storage.CGoogleDrive$9: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <totallibrary.storage.CGoogleDrive: boolean CreateFileFromArray(com.google.android.gms.drive.DriveId,byte[],java.lang.String,java.lang.String)>
+Thread: [<totallibrary.storage.CGoogleDrive$7: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <totallibrary.storage.CGoogleDrive: boolean CreateFileFromArray(com.google.android.gms.drive.DriveId,byte[],java.lang.String,java.lang.String)>
+Thread: [<totallibrary.storage.CGoogleDrive$9: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <totallibrary.storage.CGoogleDrive: boolean CreateFileFromArray(com.google.android.gms.drive.DriveId,byte[],java.lang.String,java.lang.String)>
+Thread: [<totallibrary.storage.CGoogleDrive$4: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <totallibrary.storage.CGoogleDrive: byte[] DownloadFileToByteArray(com.google.android.gms.drive.DriveId)>
+Thread: [<totallibrary.storage.CGoogleDrive$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <totallibrary.storage.CGoogleDrive: boolean UploadFile(com.google.android.gms.drive.DriveId,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<totallibrary.storage.CGoogleDrive$9: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <totallibrary.system.CGlobal: boolean CheckFileExist(java.lang.String)>
+Thread: [<totallibrary.storage.CGoogleDrive$9: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <totallibrary.storage.CGoogleDrive: java.lang.String DownloadFileToString(com.google.android.gms.drive.DriveId)>
+Thread: [<totallibrary.storage.CGoogleDrive$8: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <totallibrary.storage.CGoogleDrive: java.lang.String DownloadFileToString(com.google.android.gms.drive.DriveId)>
+Thread: [<totallibrary.storage.CGoogleDrive$7: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <totallibrary.storage.CGoogleDrive: boolean UploadFile(com.google.android.gms.drive.DriveId,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<totallibrary.storage.CGoogleDrive$9: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <totallibrary.storage.CGoogleDrive: boolean UploadFile(com.google.android.gms.drive.DriveId,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<totallibrary.storage.CGoogleDrive$9: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.samsung.android.sdk.sensorextension.MaximUVSensor: void e()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.samsung.android.sdk.sensorextension.MaximUVSensor: float f()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.samsung.android.sdk.sensorextension.MaximUVSensor: void e()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <totallibrary.system.CGlobal: byte[] LoadFile(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <totallibrary.system.CGlobal: byte[] LoadFile(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <totallibrary.storage.ExternalStorage: java.util.Map getAllStorageLocations()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <totallibrary.heart.CTabHeartRate: java.lang.String GetFiles(android.content.Context,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.samsung.android.sdk.sensorextension.SsensorExtension$a: void a(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <totallibrary.system.CGlobal: byte[] LoadFile(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <totallibrary.storage.ExternalStorage: java.util.Map getAllStorageLocations()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <totallibrary.system.CGlobal: byte[] LoadFile(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.samsung.android.sdk.sensorextension.SsensorExtension$a: void a(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <totallibrary.system.CGlobal: boolean SaveFile(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <totallibrary.storage.ExternalStorage: java.util.Map getAllStorageLocations()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.samsung.android.sdk.sensorextension.SsensorExtension: void initialize(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <totallibrary.system.CGlobal: boolean CheckStorageDir(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <totallibrary.storage.ExternalStorage: java.util.Map getAllStorageLocations()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <totallibrary.storage.ExternalStorage: java.util.Map getAllStorageLocations()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.samsung.android.sdk.sensorextension.SsensorExtension: void initialize(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.samsung.android.sdk.sensorextension.MaximUVSensor: float f()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <totallibrary.system.CGlobal: boolean CheckStorageDir(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <totallibrary.system.CGlobal: byte[] LoadFile(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <totallibrary.storage.ExternalStorage: java.util.Map getAllStorageLocations()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <totallibrary.heart.CTabHeartRate: java.lang.String GetFiles(android.content.Context,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <totallibrary.storage.ExternalStorage: java.util.Map getAllStorageLocations()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.samsung.android.sdk.sensorextension.SsensorExtension$a: void a(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.samsung.android.sdk.sensorextension.SsensorExtension$a: void a(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.samsung.android.sdk.sensorextension.SsensorExtension$a: void a(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <totallibrary.system.CGlobal: boolean SaveFile(android.content.Context,java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <totallibrary.system.CGlobal: boolean SaveFile(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <totallibrary.system.CGlobal: boolean SaveFile(android.content.Context,java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <totallibrary.system.CGlobal: boolean SaveFile(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.samsung.android.sdk.sensorextension.MaximUVSensor: float f()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.samsung.android.sdk.sensorextension.MaximUVSensor: float f()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.samsung.android.sdk.sensorextension.MaximUVSensor: void e()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.samsung.android.sdk.sensorextension.MaximUVSensor: void e()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.samsung.android.sdk.sensorextension.MaximUVSensor: float f()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.samsung.android.sdk.sensorextension.MaximUVSensor: void e()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <totallibrary.system.CGlobal: byte[] LoadFile(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <totallibrary.system.CGlobal: byte[] LoadFile(java.lang.String,int)>
+Thread: [UI]
+-------------------------

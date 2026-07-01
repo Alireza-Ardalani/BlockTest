@@ -1,0 +1,366 @@
+Time1: 32.834097523
+Time2: 1.038487431
+Worker: 40
+UI: 50
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: android.graphics.Bitmap tryToGetBitmap(java.io.File,android.graphics.BitmapFactory$Options,int,boolean)>
+Thread: [<com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.util.ArrayList doInBackground(java.util.Set[])>
+Thread: [<com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String)>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.io.File storeImage(android.graphics.Bitmap,java.lang.String)>
+Thread: [<com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: void <init>(java.net.URI)>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.util.ArrayList doInBackground(java.util.Set[])>
+Thread: [<com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read(byte[],int,int)>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[],int,int)>
+Thread: [<com.sarriaroman.PhotoViewer.PhotoActivity$4: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read(byte[],int,int)>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[],int,int)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.sarriaroman.PhotoViewer.PhotoActivity: java.io.File getLocalBitmapFileFromString(java.lang.String)>
+Thread: [<com.sarriaroman.PhotoViewer.PhotoActivity$4: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.squareup.picasso.Utils: boolean isWebPFile(java.io.InputStream)>
+Thread: [<com.sarriaroman.PhotoViewer.PhotoActivity$4: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[],int,int)>
+Thread: [<com.sarriaroman.PhotoViewer.PhotoActivity$4: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[],int,int)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.squareup.picasso.Utils: boolean isWebPFile(java.io.InputStream)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.io.File storeImage(android.graphics.Bitmap,java.lang.String)>
+Thread: [<com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.sarriaroman.PhotoViewer.PhotoActivity: java.io.File getLocalBitmapFileFromString(java.lang.String)>
+Thread: [<com.sarriaroman.PhotoViewer.PhotoActivity$4: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.squareup.picasso.Utils: byte[] toByteArray(java.io.InputStream)>
+Thread: [<com.sarriaroman.PhotoViewer.PhotoActivity$4: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[])>
+Thread: [<com.sarriaroman.PhotoViewer.PhotoActivity$4: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.squareup.picasso.Utils: byte[] toByteArray(java.io.InputStream)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[])>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read()>
+Caller: <com.squareup.picasso.MarkableInputStream: int read()>
+Thread: [<com.sarriaroman.PhotoViewer.PhotoActivity$4: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read()>
+Caller: <com.squareup.picasso.MarkableInputStream: int read()>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.sarriaroman.PhotoViewer.PhotoActivity: java.io.File getLocalBitmapFileFromString(java.lang.String)>
+Thread: [<com.sarriaroman.PhotoViewer.PhotoActivity$4: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [<com.sarriaroman.PhotoViewer.PhotoActivity$4: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [<com.sarriaroman.PhotoViewer.PhotoActivity$4: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: long skip(long)>
+Caller: <com.squareup.picasso.MarkableInputStream: void skip(long,long)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: long skip(long)>
+Caller: <com.squareup.picasso.MarkableInputStream: void skip(long,long)>
+Thread: [<com.sarriaroman.PhotoViewer.PhotoActivity$4: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.sarriaroman.PhotoViewer.PhotoActivity: java.io.File getLocalBitmapFileFromString(java.lang.String)>
+Thread: [<com.sarriaroman.PhotoViewer.PhotoActivity$4: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.io.File storeImage(android.graphics.Bitmap,java.lang.String)>
+Thread: [<com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: android.graphics.Bitmap getResizedBitmap(android.graphics.Bitmap,float)>
+Thread: [<com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: android.graphics.Bitmap tryToGetBitmap(java.io.File,android.graphics.BitmapFactory$Options,int,boolean)>
+Thread: [<com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.squareup.picasso.BitmapHunter: android.graphics.Bitmap transformResult(com.squareup.picasso.Request,android.graphics.Bitmap,int)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.squareup.picasso.BitmapHunter: android.graphics.Bitmap transformResult(com.squareup.picasso.Request,android.graphics.Bitmap,int)>
+Thread: [<com.sarriaroman.PhotoViewer.PhotoActivity$4: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: android.graphics.Bitmap tryToGetBitmap(java.io.File,android.graphics.BitmapFactory$Options,int,boolean)>
+Thread: [<com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.squareup.picasso.MarkableInputStream: void skip(long,long)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.squareup.picasso.MarkableInputStream: void skip(long,long)>
+Thread: [<com.sarriaroman.PhotoViewer.PhotoActivity$4: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.util.ArrayList doInBackground(java.util.Set[])>
+Thread: [<com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.squareup.picasso.Utils: byte[] toByteArray(java.io.InputStream)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.squareup.picasso.Utils: byte[] toByteArray(java.io.InputStream)>
+Thread: [<com.sarriaroman.PhotoViewer.PhotoActivity$4: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[])>
+Thread: [<com.sarriaroman.PhotoViewer.PhotoActivity$4: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[])>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: android.graphics.Bitmap tryToGetBitmap(java.io.File,android.graphics.BitmapFactory$Options,int,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.util.ArrayList doInBackground(java.util.Set[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String)>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.io.File storeImage(android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.soundcloud.android.crop.CropUtil: java.io.File getFromMediaUriPfd(android.content.Context,android.content.ContentResolver,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: void <init>(java.net.URI)>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.util.ArrayList doInBackground(java.util.Set[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read(byte[],int,int)>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.sarriaroman.PhotoViewer.PhotoActivity: java.io.File getLocalBitmapFileFromString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.squareup.picasso.Utils: boolean isWebPFile(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.soundcloud.android.crop.CropUtil: void closeSilently(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.io.File storeImage(android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.sarriaroman.PhotoViewer.PhotoActivity: java.io.File getLocalBitmapFileFromString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.sarriaroman.PhotoViewer.PhotoActivity: java.io.File getLocalBitmapFileFromView(android.widget.ImageView)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.squareup.picasso.Utils: byte[] toByteArray(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <com.soundcloud.android.crop.CropUtil: java.io.File getFromMediaUriPfd(android.content.Context,android.content.ContentResolver,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read()>
+Caller: <com.squareup.picasso.MarkableInputStream: int read()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.soundcloud.android.crop.CropImageActivity: int calculateBitmapSampleSize(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.soundcloud.android.crop.CropImageActivity: void setupFromIntent()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.soundcloud.android.crop.CropImageActivity: android.graphics.Bitmap decodeRegionCrop(android.graphics.Rect,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.sarriaroman.PhotoViewer.PhotoActivity: java.io.File getLocalBitmapFileFromView(android.widget.ImageView)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.sarriaroman.PhotoViewer.PhotoActivity: java.io.File getLocalBitmapFileFromString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.soundcloud.android.crop.CropUtil: void closeSilently(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.synconset.MultiImageChooserActivity$ImageAdapter: void <init>(com.synconset.MultiImageChooserActivity,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: long skip(long)>
+Caller: <com.squareup.picasso.MarkableInputStream: void skip(long,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.synconset.MultiImageChooserActivity$ImageAdapter: void <init>(com.synconset.MultiImageChooserActivity,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.sarriaroman.PhotoViewer.PhotoActivity: java.io.File getLocalBitmapFileFromString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.io.File storeImage(android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.sarriaroman.PhotoViewer.PhotoActivity: java.io.File getLocalBitmapFileFromView(android.widget.ImageView)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.soundcloud.android.crop.CropUtil: java.io.File getFromMediaUriPfd(android.content.Context,android.content.ContentResolver,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.soundcloud.android.crop.CropImageActivity: android.graphics.Bitmap decodeRegionCrop(android.graphics.Rect,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: android.graphics.Bitmap getResizedBitmap(android.graphics.Bitmap,float)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.squareup.picasso.BitmapHunter: android.graphics.Bitmap transformResult(com.squareup.picasso.Request,android.graphics.Bitmap,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: android.graphics.Bitmap tryToGetBitmap(java.io.File,android.graphics.BitmapFactory$Options,int,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: android.graphics.Bitmap tryToGetBitmap(java.io.File,android.graphics.BitmapFactory$Options,int,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.squareup.picasso.MarkableInputStream: void skip(long,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.synconset.MultiImageChooserActivity$ResizeImagesTask: java.util.ArrayList doInBackground(java.util.Set[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.sarriaroman.PhotoViewer.PhotoActivity: void onDestroy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.soundcloud.android.crop.CropUtil: java.io.File getFromMediaUriPfd(android.content.Context,android.content.ContentResolver,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.squareup.picasso.Utils: byte[] toByteArray(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.OutputStream openOutputStream(android.net.Uri)>
+Caller: <com.soundcloud.android.crop.CropImageActivity: void saveOutput(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.soundcloud.android.crop.CropUtil: java.lang.String getTempFilename(android.content.Context)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,94 @@
+Time1: 22.587980348
+Time2: 0.666806374
+Worker: 12
+UI: 10
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.adsdk.sdk.mraid.MraidDisplayController$4: void run()>
+Thread: [<com.adsdk.sdk.mraid.MraidDisplayController$4: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.adsdk.sdk.video.ResourceManager$FetchImageTask: android.graphics.drawable.Drawable fetchImage(java.lang.String)>
+Thread: [<com.adsdk.sdk.video.ResourceManager$FetchImageTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.adsdk.sdk.mraid.Streams: void copyContent(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.adsdk.sdk.mraid.MraidDisplayController$4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.adsdk.sdk.video.WebFrame$LoadUrlTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [<com.adsdk.sdk.video.WebFrame$LoadUrlTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <com.adsdk.sdk.mraid.MraidDisplayController: java.lang.String getFileNameForUriAndHttpResponse(java.net.URI,org.apache.http.HttpResponse)>
+Thread: [<com.adsdk.sdk.mraid.MraidDisplayController$4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.adsdk.sdk.video.WebFrame$LoadUrlTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [<com.adsdk.sdk.video.WebFrame$LoadUrlTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.adsdk.sdk.video.WebFrame$LoadUrlTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [<com.adsdk.sdk.video.WebFrame$LoadUrlTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.adsdk.sdk.video.ResourceManager$FetchImageTask: android.graphics.drawable.Drawable fetchImage(java.lang.String)>
+Thread: [<com.adsdk.sdk.video.ResourceManager$FetchImageTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.adsdk.sdk.mraid.Streams: void copyContent(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.adsdk.sdk.mraid.MraidDisplayController$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.adsdk.sdk.mraid.Streams: void closeStream(java.io.Closeable)>
+Thread: [<com.adsdk.sdk.mraid.MraidDisplayController$4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.lang.Object getContent()>
+Caller: <com.adsdk.sdk.video.ResourceManager$FetchImageTask: android.graphics.drawable.Drawable fetchImage(java.lang.String)>
+Thread: [<com.adsdk.sdk.video.ResourceManager$FetchImageTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.adsdk.sdk.mraid.Streams: void copyContent(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.adsdk.sdk.mraid.MraidDisplayController$4: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.adsdk.sdk.mraid.MraidDisplayController: void downloadImage(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.adsdk.sdk.video.ResourceManager: android.graphics.drawable.Drawable buildDrawable(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.adsdk.sdk.video.ResourceManager$FetchImageTask: android.graphics.drawable.Drawable fetchImage(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.adsdk.sdk.video.WebFrame$LoadUrlTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <com.adsdk.sdk.mraid.MraidDisplayController: java.lang.String getFileNameForUriAndHttpResponse(java.net.URI,org.apache.http.HttpResponse)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.adsdk.sdk.video.WebFrame$LoadUrlTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.adsdk.sdk.video.ResourceManager$FetchImageTask: android.graphics.drawable.Drawable fetchImage(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.adsdk.sdk.video.WebFrame$LoadUrlTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.lang.Object getContent()>
+Caller: <com.adsdk.sdk.video.ResourceManager$FetchImageTask: android.graphics.drawable.Drawable fetchImage(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.adsdk.sdk.mraid.Strings: java.lang.String fromStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------

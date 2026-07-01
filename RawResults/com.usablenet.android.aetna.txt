@@ -1,0 +1,2806 @@
+Time1: 171.10947942
+Time2: 22.225035728
+Worker: 306
+UI: 394
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void refreshBuffer()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void copyStream(java.io.InputStream,java.io.OutputStream,byte[])>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void setLength(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void setLength(int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[],int,int)>
+Caller: <aaaaaa.fhfhff: java.lang.String b04220422Т0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[],int,int)>
+Caller: <aaaaaa.fhfhff: java.lang.String b04220422Т0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[],int,int)>
+Caller: <aaaaaa.fhfhff: java.lang.String b04220422Т0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[],int,int)>
+Caller: <aaaaaa.fhfhff: java.lang.String b04220422Т0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[],int,int)>
+Caller: <aaaaaa.fhfhff: java.lang.String b04220422Т0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <aaaaaa.eeeele: java.util.List bХХХХ0425ХХ0425(java.net.URI)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <aaaaaa.eeeele: java.util.List bХХХХ0425ХХ0425(java.net.URI)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <aaaaaa.eeeele: java.util.List bХХХХ0425ХХ0425(java.net.URI)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <aaaaaa.eeeele: java.util.List bХХХХ0425ХХ0425(java.net.URI)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjnnjj: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <aaaaaa.eeeele: java.util.List bХХХХ0425ХХ0425(java.net.URI)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <aaaaaa.eeeele: java.util.List bХХХХ0425ХХ0425(java.net.URI)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <aaaaaa.eeeele: java.util.List bХХХХ0425ХХ0425(java.net.URI)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjnnjj: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjnnjj: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjnnjj: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <aaaaaa.eeeele: java.util.List bХХХХ0425ХХ0425(java.net.URI)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <aaaaaa.eeeele: java.util.List bХХХХ0425ХХ0425(java.net.URI)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjnnjj: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <aaaaaa.eeeele: java.util.List bХХХХ0425ХХ0425(java.net.URI)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsCore$4: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void createTargetDirectory()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjjjnj: void bю044Eююю044Eю044E(android.webkit.ValueCallback,java.lang.String,java.lang.String)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjjjnj: void bю044Eююю044Eю044E(android.webkit.ValueCallback,java.lang.String,java.lang.String)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjjjnj: void bю044Eююю044Eю044E(android.webkit.ValueCallback,java.lang.String,java.lang.String)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.crashlytics.android.core.CrashlyticsController$LogFileDirectoryProvider: java.io.File getLogFileDir()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjjjnj: void b044Eю044E044E044Eюю044E(android.content.Intent)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjjjnj: void b044Eю044E044E044Eюю044E(android.content.Intent)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjjjnj: void b044Eю044E044E044Eюю044E(android.content.Intent)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjjjnj: void bю044Eююю044Eю044E(android.webkit.ValueCallback,java.lang.String,java.lang.String)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjjjnj: void b044Eю044E044E044Eюю044E(android.content.Intent)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjjjnj: void bю044Eююю044Eю044E(android.webkit.ValueCallback,java.lang.String,java.lang.String)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjjjnj: void b044Eю044E044E044Eюю044E(android.content.Intent)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void reset()>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void reset()>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void reset()>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void reset()>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void reset()>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void reset()>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void reset()>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void reset()>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void reset()>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void reset()>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeKeyData(java.lang.String,java.util.Map)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeUserData(java.lang.String,com.crashlytics.android.core.UserMetaData)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.crashlytics.android.core.CrashlyticsController$24: void writeTo(java.io.FileOutputStream)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.crashlytics.android.core.CrashlyticsController$20: void writeTo(java.io.FileOutputStream)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.crashlytics.android.core.CrashlyticsController$18: void writeTo(java.io.FileOutputStream)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.crashlytics.android.core.CrashlyticsController$22: void writeTo(java.io.FileOutputStream)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.rrrxrx: void setTable(java.lang.Object,java.lang.Object)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.rrrxrx: void setTable(java.lang.Object,java.lang.Object)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.rrrxrx: void setTable(java.lang.Object,java.lang.Object)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.rrrxrx: void setTable(java.lang.Object,java.lang.Object)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.rrrxrx: void setTable(java.lang.Object,java.lang.Object)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.rrrxrx: void setTable(java.lang.Object,java.lang.Object)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.rrrxrx: void setTable(java.lang.Object,java.lang.Object)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.rrrxrx: void setTable(java.lang.Object,java.lang.Object)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.rrrxrx: void setTable(java.lang.Object,java.lang.Object)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.ffhfff: void b04220422ТТТ04220422Т(aaaaaa.hhffff,int,int,int,aaaaaa.hffhff)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.ffhfff: void b04220422ТТТ04220422Т(aaaaaa.hhffff,int,int,int,aaaaaa.hffhff)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.ffhfff: void b04220422ТТТ04220422Т(aaaaaa.hhffff,int,int,int,aaaaaa.hffhff)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.ffhfff: void b04220422ТТТ04220422Т(aaaaaa.hhffff,int,int,int,aaaaaa.hffhff)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.ffhfff: void b04220422ТТТ04220422Т(aaaaaa.hhffff,int,int,int,aaaaaa.hffhff)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.rrrxrx: void setTable(java.lang.Object,java.lang.Object)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readLine()>
+Caller: <aaaaaa.jjhhhh: java.lang.String bТ0422Т0422Т0422ТТ()>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: void bТТТТ04220422ТТ(java.lang.Exception,java.lang.String,int)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: void bТТТТ04220422ТТ(java.lang.Exception,java.lang.String,int)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: java.lang.String bТТТ04220422ТТТ(com.konylabs.vm.LuaTable)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: java.lang.String b04220422Т04220422ТТТ(com.konylabs.api.ui.LuaWidget)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: void bТТТТ04220422ТТ(java.lang.Exception,java.lang.String,int)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: void bТТТТ04220422ТТ(java.lang.Exception,java.lang.String,int)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТТ0422ТТ()>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: java.lang.String bТТ0422Т0422ТТТ(java.util.Hashtable)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: void b04220422042204220422ТТТ(java.lang.String)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: java.lang.String b04220422Т04220422ТТТ(com.konylabs.api.ui.LuaWidget)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: void bТ0422042204220422ТТТ(java.lang.String)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: void b04220422042204220422ТТТ(java.lang.String)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТТ0422ТТ()>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: java.lang.String bТТ0422Т0422ТТТ(java.util.Hashtable)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: void bТТТТ04220422ТТ(java.lang.Exception,java.lang.String,int)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТТ0422ТТ()>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsController$LogFileDirectoryProvider: java.io.File getLogFileDir()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void <init>(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: boolean isRooted(android.content.Context)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void <init>(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsFileMarker: boolean isPresent()>
+Thread: [<com.crashlytics.android.core.CrashlyticsCore$4: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsCore$4: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void createTargetDirectory()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: boolean isRooted(android.content.Context)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void <init>(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: double readDouble()>
+Caller: <aaaaaa.fhfhff: double b042204220422ТТТ04220422(java.io.DataInputStream)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: double readDouble()>
+Caller: <aaaaaa.fhfhff: double b042204220422ТТТ04220422(java.io.DataInputStream)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: double readDouble()>
+Caller: <aaaaaa.fhfhff: double b042204220422ТТТ04220422(java.io.DataInputStream)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: double readDouble()>
+Caller: <aaaaaa.fhfhff: double b042204220422ТТТ04220422(java.io.DataInputStream)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: double readDouble()>
+Caller: <aaaaaa.fhfhff: double b042204220422ТТТ04220422(java.io.DataInputStream)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.events.GZIPQueueFileEventStorage: java.io.OutputStream getMoveOutputStream(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeKeyData(java.lang.String,java.util.Map)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void <init>(java.io.File,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeUserData(java.lang.String,com.crashlytics.android.core.UserMetaData)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void writeFile(java.lang.String,java.lang.String,com.crashlytics.android.core.CrashlyticsController$FileOutputStreamWriteAction)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: int bТТТ0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: int bТТТ0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: int bТТТ0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: java.lang.String b04220422Т0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: java.lang.String b04220422Т0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: java.lang.String b04220422Т0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: double b042204220422ТТТ04220422(java.io.DataInputStream)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: double b042204220422ТТТ04220422(java.io.DataInputStream)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: int bТТТ0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: double b042204220422ТТТ04220422(java.io.DataInputStream)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: double b042204220422ТТТ04220422(java.io.DataInputStream)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: java.lang.String b04220422Т0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: double b042204220422ТТТ04220422(java.io.DataInputStream)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: int bТТТ0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: java.lang.String b04220422Т0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: void b04150415Е04150415Е0415Е(java.lang.Object,java.lang.Object,com.konylabs.vm.LuaTable)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: void b04150415Е04150415Е0415Е(java.lang.Object,java.lang.Object,com.konylabs.vm.LuaTable)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: void b04150415Е04150415Е0415Е(java.lang.Object,java.lang.Object,com.konylabs.vm.LuaTable)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: boolean bЕ041504150415ЕЕ0415Е(java.lang.String)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: boolean bЕ041504150415ЕЕ0415Е(java.lang.String)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: boolean bЕ041504150415ЕЕ0415Е(java.lang.String)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: boolean bЕ041504150415ЕЕ0415Е(java.lang.String)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: boolean bЕ041504150415ЕЕ0415Е(java.lang.String)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: void b04150415Е04150415Е0415Е(java.lang.Object,java.lang.Object,com.konylabs.vm.LuaTable)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: void b04150415Е04150415Е0415Е(java.lang.Object,java.lang.Object,com.konylabs.vm.LuaTable)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: void b04150415Е04150415Е0415Е(java.lang.Object,java.lang.Object,com.konylabs.vm.LuaTable)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: void b04150415Е04150415Е0415Е(java.lang.Object,java.lang.Object,com.konylabs.vm.LuaTable)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: void b04150415Е04150415Е0415Е(java.lang.Object,java.lang.Object,com.konylabs.vm.LuaTable)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: void b04150415Е04150415Е0415Е(java.lang.Object,java.lang.Object,com.konylabs.vm.LuaTable)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: void b04150415Е04150415Е0415Е(java.lang.Object,java.lang.Object,com.konylabs.vm.LuaTable)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void move(java.io.File,java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsFileMarker: boolean remove()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void move(java.io.File,java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void writeHeader(int,int,int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void writeHeader(int,int,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringWrite(int,byte[],int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.events.QueueFileEventStorage: void move(java.io.File,java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.crashlytics.android.core.CrashlyticsController: java.io.File[] listFilesMatching(java.io.File,java.io.FilenameFilter)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: java.io.RandomAccessFile open(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: java.io.RandomAccessFile open(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: java.io.RandomAccessFile open(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void writeHeader(int,int,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void writeHeader(int,int,int,int)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: void bТ0422042204220422ТТТ(java.lang.String)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: void bТТТТТ0422ТТ(java.lang.String)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: void b0422Т042204220422ТТТ(java.lang.String)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read()>
+Caller: <aaaaaa.fhfhff: int b0422Т04220422ТТ04220422(aaaaaa.hhffff,java.io.DataInputStream,int)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeUserData(java.lang.String,com.crashlytics.android.core.UserMetaData)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeKeyData(java.lang.String,java.util.Map)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <aaaaaa.rrrxrx$4: com.konylabs.vm.LuaTable b044C044C044Cьььь044C(java.lang.String)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <aaaaaa.rrrxrx$4: com.konylabs.vm.LuaTable b044C044C044Cьььь044C(java.lang.String)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <aaaaaa.rrrxrx$4: com.konylabs.vm.LuaTable b044C044C044Cьььь044C(java.lang.String)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <aaaaaa.rrrxrx$4: com.konylabs.vm.LuaTable b044C044C044Cьььь044C(java.lang.String)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <aaaaaa.rrrxrx$4: com.konylabs.vm.LuaTable b044C044C044Cьььь044C(java.lang.String)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <aaaaaa.rrrxrx$4: com.konylabs.vm.LuaTable b044C044C044Cьььь044C(java.lang.String)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <aaaaaa.rrrxrx$4: com.konylabs.vm.LuaTable b044C044C044Cьььь044C(java.lang.String)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <aaaaaa.rrrxrx$4: com.konylabs.vm.LuaTable b044C044C044Cьььь044C(java.lang.String)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <aaaaaa.rrrxrx$4: com.konylabs.vm.LuaTable b044C044C044Cьььь044C(java.lang.String)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <aaaaaa.rrrxrx$4: com.konylabs.vm.LuaTable b044C044C044Cьььь044C(java.lang.String)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void copyStream(java.io.InputStream,java.io.OutputStream,byte[])>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void copyStream(java.io.InputStream,java.io.OutputStream,byte[])>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeKeyData(java.lang.String,java.util.Map)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.crashlytics.android.core.MetaDataStore: void writeUserData(java.lang.String,com.crashlytics.android.core.UserMetaData)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: int b0422Т04220422ТТ04220422(aaaaaa.hhffff,java.io.DataInputStream,int)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void b0422042204220422ТТ04220422(aaaaaa.hhffff,java.io.DataInputStream)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void b0422042204220422ТТ04220422(aaaaaa.hhffff,java.io.DataInputStream)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void b0422042204220422ТТ04220422(aaaaaa.hhffff,java.io.DataInputStream)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.jjhhhh: aaaaaa.hhffff b04220422Т0422Т0422ТТ()>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void b0422042204220422ТТ04220422(aaaaaa.hhffff,java.io.DataInputStream)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void b0422042204220422ТТ04220422(aaaaaa.hhffff,java.io.DataInputStream)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void close()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void close()>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$4: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.answers.AnswersEventsHandler$6: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void refreshBuffer()>
+Thread: [<com.crashlytics.android.core.CrashlyticsBackgroundWorker$2: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<com.konylabs.hybrid.KonyHybridJSInterface$1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<okhttp3.ConnectionPool$1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<com.konylabs.api.ui.LuaWidget$2: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<aaaaaa.jjhhhh$1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<aaaaaa.mmmmmf$3: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [<aaaaaa.mmmffm$4: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.hypr.hyprandroidcommon.authenticator.utils.ObjectSerializer: java.lang.String serialize(java.io.Serializable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void refreshBuffer()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <org.spongycastle.util.io.Streams: void pipeAll(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void closeInProgressStream()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.hypr.hyprandroidcommon.utils.HyprConformanceLogger: void logToFile(android.content.Context,java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.QueueFileLogStore$1: void read(java.io.InputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void copyToCodedOutputStream(java.io.InputStream,com.crashlytics.android.core.CodedOutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <org.spongycastle.asn1.IndefiniteLengthInputStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <org.spongycastle.asn1.DefiniteLengthInputStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <org.spongycastle.asn1.ConstructedOctetStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <org.spongycastle.util.io.Streams: int readFully(java.io.InputStream,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <org.spongycastle.asn1.IndefiniteLengthInputStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <org.spongycastle.util.io.Streams: void pipeAll(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <aaaaaa.aaaffa: void <init>(java.lang.String,java.util.Map,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <aaaaaa.aaaffa: java.lang.String b043E043Eоо043E043E043Eо()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void recursiveDelete(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: java.io.File[] listFiles(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.crashlytics.android.core.LogFileManager: void discardOldLogFiles(java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.crashlytics.android.core.NativeFileUtils: java.io.File filter(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.crashlytics.android.core.CrashlyticsController$ReportUploaderFilesProvider: java.io.File[] getInvalidSessionFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.hypr.hyprandroidcommon.authenticator.utils.ObjectSerializer: java.lang.Object deserialize(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <io.fabric.sdk.android.services.network.SystemKeyStore: java.security.KeyStore getTrustStore(java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$CloseOperation: void done()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <io.fabric.sdk.android.services.network.SystemKeyStore: java.security.KeyStore getTrustStore(java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$CloseOperation: void done()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.a.b: byte[] a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: java.util.Map loadZoneInfoMap(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: java.util.Map loadZoneInfoMap(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.crashlytics.android.core.Sha1FileIdStrategy: java.lang.String getFileSHA(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.crashlytics.android.beta.DeviceTokenLoader: java.util.zip.ZipInputStream getZipInputStreamOfApkFrom(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: boolean readBoolean()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: boolean readBoolean()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[],int,int)>
+Caller: <aaaaaa.fhfhff: java.lang.String b04220422Т0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <aaaaaa.eeeele: java.util.List bХХХХ0425ХХ0425(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjnnjj: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <aaaaaa.eeeele: java.util.List bХХХХ0425ХХ0425(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <okhttp3.internal.ws.RealWebSocket$2: void onResponse(okhttp3.Call,okhttp3.Response)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjjjnj: void bю044Eююю044Eю044E(android.webkit.ValueCallback,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void synthesizeSessionFile(java.io.File,java.lang.String,java.io.File[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.konylabs.api.ui.KonyWeb$jjjjnj: void b044Eю044E044E044Eюю044E(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.crashlytics.android.core.CrashlyticsController$LogFileDirectoryProvider: java.io.File getLogFileDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.hypr.hyprandroidcommon.utils.HyprConformanceLogger: java.lang.String getStorageDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void reset()>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void reset()>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.Gson: com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: void writeCachedSettings(long,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedOutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream: io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream write(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.konylabs.search.SearchDataAdapter: void updateDataCursor()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$ConnectionFactory$1: java.net.HttpURLConnection create(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.crashlytics.android.core.CrashlyticsController$20: void writeTo(java.io.FileOutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.crashlytics.android.core.CrashlyticsController$24: void writeTo(java.io.FileOutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.crashlytics.android.core.CrashlyticsController$22: void writeTo(java.io.FileOutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.hypr.hyprandroidcommon.utils.HyprConformanceLogger: void logToFile(android.content.Context,java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.crashlytics.android.core.CrashlyticsController$18: void writeTo(java.io.FileOutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.crashlytics.android.answers.Answers: boolean onPreExecute()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.ffhfff: void b04220422ТТТ04220422Т(aaaaaa.hhffff,int,int,int,aaaaaa.hffhff)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.rrrxrx: void setTable(java.lang.Object,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <okhttp3.internal.Util: boolean equal(java.lang.Object,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <aaaaaa.rrrxrx: void setTable(java.lang.Object,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <okhttp3.internal.Util: java.util.List intersect(java.lang.Object[],java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: void writeCachedSettings(long,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int getVersion()>
+Caller: <aaaaaa.lelele: void b04250425Х0425Х04250425Х()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Caller: <io.fabric.sdk.android.services.settings.IconRequest: io.fabric.sdk.android.services.settings.IconRequest build(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils$InsertHelper: int getColumnIndex(java.lang.String)>
+Caller: <aaaaaa.lelele: void b04250425Х0425Х04250425Х()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils$InsertHelper: int getColumnIndex(java.lang.String)>
+Caller: <aaaaaa.lelele: void b04250425Х0425Х04250425Х()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils$InsertHelper: int getColumnIndex(java.lang.String)>
+Caller: <aaaaaa.lelele: void b04250425Х0425Х04250425Х()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils$InsertHelper: int getColumnIndex(java.lang.String)>
+Caller: <aaaaaa.lelele: void b04250425Х0425Х04250425Х()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int available()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: void b(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int available()>
+Caller: <org.spongycastle.asn1.ASN1Primitive: org.spongycastle.asn1.ASN1Primitive fromByteArray(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int available()>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.a: void a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int available()>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.d: void a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int available()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: void a(com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int available()>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.DeregInTlv: void parse(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.crashlytics.android.core.SessionReport: void <init>(java.io.File,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void writeToCosFromFile(com.crashlytics.android.core.CodedOutputStream,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.SearchRecentSuggestionsProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Caller: <com.usablenet.android.aetna.AetnaAppSearchSuggestionProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: int getHeaderFieldInt(java.lang.String,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: int intHeader(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.acceptto.ngaauthsdk.activities.LoginOptionsActivity: void setFonts()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.acceptto.ngaauthsdk.activities.LoginOptionsActivity: void setFonts()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.acceptto.ngaauthsdk.activities.EnrollNGAActivity: void setFonts()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.acceptto.ngaauthsdk.activities.AuthenticationResult: void setFonts()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.acceptto.ngaauthsdk.activities.AuthenticationResult: void setFonts()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.acceptto.ngaauthsdk.activities.EnrollNGAActivity: void setFonts()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <aaaaaa.jhjjhh: void b0413Г0413041304130413Г0413(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <aaaaaa.lelele: void b04250425Х0425Х04250425Х()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <aaaaaa.jjhhhh: void bТТТТ04220422ТТ(java.lang.Exception,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void writeToCosFromFile(com.crashlytics.android.core.CodedOutputStream,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void synthesizeSessionFile(java.io.File,java.lang.String,java.io.File[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void doCleanInvalidTempFiles(java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.persistence.FileStoreImpl: java.io.File prepare(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsFileMarker: boolean isPresent()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.MetaDataStore: com.crashlytics.android.core.UserMetaData readUserData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.hypr.hyprandroidcommon.utils.HyprConformanceLogger: void logToFile(android.content.Context,java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.QueueFileLogStore: com.crashlytics.android.core.QueueFileLogStore$LogBytes getLogBytes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: boolean isRooted(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.BinaryImagesConverter: java.io.File getLibraryFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: org.json.JSONObject readCachedSettings()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void trimInvalidSessionFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crashlytics.android.core.CrashlyticsController$LogFileDirectoryProvider: java.io.File getLogFileDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: boolean isRooted(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: double readDouble()>
+Caller: <aaaaaa.fhfhff: double b042204220422ТТТ04220422(java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void <init>(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void writeFile(java.lang.String,java.lang.String,com.crashlytics.android.core.CrashlyticsController$FileOutputStreamWriteAction)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void gzip(byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.crashlytics.android.core.ClsFileOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void doCleanInvalidTempFiles(java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String toASCIIString()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: double b042204220422ТТТ04220422(java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: int bТТТ0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[])>
+Caller: <aaaaaa.fhfhff: java.lang.String b04220422Т0422ТТ04220422(java.io.DataInputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.ByteBuffer encode(java.nio.CharBuffer)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream: io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream write(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: boolean bЕ041504150415ЕЕ0415Е(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: void b04150415Е04150415Е0415Е(java.lang.Object,java.lang.Object,com.konylabs.vm.LuaTable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <aaaaaa.eleell: void b04150415Е04150415Е0415Е(java.lang.Object,java.lang.Object,com.konylabs.vm.LuaTable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void recursiveDelete(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void retainSessions(java.io.File[],java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.Utils: int capFileCount(java.io.File,java.io.FilenameFilter,int,java.util.Comparator)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.QueueFileLogStore: void deleteLogFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void doCleanInvalidTempFiles(java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void recursiveDelete(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void retainSessions(java.io.File[],java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void deleteSessionPartFilesFor(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.crashlytics.android.core.LogFileManager: void discardOldLogFiles(java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: io.fabric.sdk.android.services.common.QueueFile$Element readElement(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void ringRead(int,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <org.joda.time.tz.ZoneInfoProvider: java.io.InputStream openResource(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void writeToCosFromFile(com.crashlytics.android.core.CodedOutputStream,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.NativeFileUtils: byte[] readFile(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <aaaaaa.fffffa: java.io.InputStream bЙЙЙ041904190419Й0419()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: org.json.JSONObject readCachedSettings()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.crashlytics.android.core.MetaDataStore: com.crashlytics.android.core.UserMetaData readUserData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: org.joda.time.DateTimeZone loadZoneData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <aaaaaa.xmxxxm: void b041F041FП041F041FП041F041F(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: org.joda.time.DateTimeZone loadZoneData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.konylabs.android.KonyApplication: void b0419Й041904190419041904190419()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: org.joda.time.DateTimeZone loadZoneData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <com.hypr.hyprandroidcommon.authenticator.utils.ObjectSerializer: java.lang.String serialize(java.io.Serializable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <aaaaaa.lelele: void b04250425Х0425Х04250425Х()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String extractFieldFromSystemFile(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.crashlytics.android.core.Utils: int capFileCount(java.io.File,java.io.FilenameFilter,int,java.util.Comparator)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.crashlytics.android.core.CrashlyticsController: java.io.File[] listFilesMatching(java.io.File,java.io.FilenameFilter)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <org.spongycastle.asn1.ASN1ObjectIdentifier: void writeField(java.io.ByteArrayOutputStream,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.NativeFileUtils: byte[] readBytes(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <org.spongycastle.asn1.ASN1ObjectIdentifier: void writeField(java.io.ByteArrayOutputStream,java.math.BigInteger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <org.spongycastle.util.io.Streams: void pipeAll(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.hypr.hyprandroidcommon.utils.HyprConformanceLogger: void logToFile(android.content.Context,java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void doCleanInvalidTempFiles(java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void finalizeMostRecentNativeCrash(android.content.Context,java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.d: void a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: void a(com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.d: void a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.DeregInTlv: void parse(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: void a(com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.d: void a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: void b(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.ByteInputStream: byte[] read(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo a(byte[],short,com.hypr.hyprandroidcommon.authenticator.interfaces.HyprAuthenticator,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.a: void a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.TlvProcessor: com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.BaseTlv processTlvCommand(byte[],java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.BasicTlvUtils: int getShort(java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.a.b: byte[] a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.a: void a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo a(byte[],short,com.hypr.hyprandroidcommon.authenticator.interfaces.HyprAuthenticator,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo a(byte[],short,com.hypr.hyprandroidcommon.authenticator.interfaces.HyprAuthenticator,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.a: void a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.d: void a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.BasicTlvUtils: int getIntFromInputStream(java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.a: void a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.BasicTlvUtils: short getShortFromInputStream(java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.a.b: byte[] a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.d: void a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: void b(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: void a(com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.DeregInTlv: void parse(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: void a(com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.DeregInTlv: void parse(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: void a(com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo a(byte[],short,com.hypr.hyprandroidcommon.authenticator.interfaces.HyprAuthenticator,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.a.b: byte[] a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.b.b: short a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo a(byte[],short,com.hypr.hyprandroidcommon.authenticator.interfaces.HyprAuthenticator,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection(java.net.Proxy)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$ConnectionFactory$1: java.net.HttpURLConnection create(java.net.URL,java.net.Proxy)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.b.b: short a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: void a(com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo a(byte[],short,com.hypr.hyprandroidcommon.authenticator.interfaces.HyprAuthenticator,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo a(byte[],short,com.hypr.hyprandroidcommon.authenticator.interfaces.HyprAuthenticator,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: void a(com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo a(byte[],short,com.hypr.hyprandroidcommon.authenticator.interfaces.HyprAuthenticator,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: void b(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.d: void a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.a.b: byte[] a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo a(byte[],short,com.hypr.hyprandroidcommon.authenticator.interfaces.HyprAuthenticator,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.a.b: byte[] a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.a.b: byte[] a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: void b(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo a(byte[],short,com.hypr.hyprandroidcommon.authenticator.interfaces.HyprAuthenticator,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: void a(com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo a(byte[],short,com.hypr.hyprandroidcommon.authenticator.interfaces.HyprAuthenticator,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.a: void a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: void a(com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo a(byte[],short,com.hypr.hyprandroidcommon.authenticator.interfaces.HyprAuthenticator,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.data.DeregInTlv: void parse(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo a(byte[],short,com.hypr.hyprandroidcommon.authenticator.interfaces.HyprAuthenticator,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo a(byte[],short,com.hypr.hyprandroidcommon.authenticator.interfaces.HyprAuthenticator,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.a.b: byte[] a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setVersion(int)>
+Caller: <aaaaaa.lelele: void b04250425Х0425Х04250425Х()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <com.hypr.hyprandroidcommon.utils.HyprConformanceLogger: void logToFile(android.content.Context,java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.net.Proxy createProxy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest closeOutput()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest closeOutput()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo: void writeCachedSettings(long,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: java.io.RandomAccessFile open(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[],int,int)>
+Caller: <org.spongycastle.asn1.IndefiniteLengthInputStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[],int,int)>
+Caller: <org.spongycastle.asn1.DefiniteLengthInputStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[],int,int)>
+Caller: <org.spongycastle.util.io.Streams: int readFully(java.io.InputStream,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void copyToCodedOutputStream(java.io.InputStream,com.crashlytics.android.core.CodedOutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read()>
+Caller: <org.spongycastle.asn1.IndefiniteLengthInputStream: void <init>(java.io.InputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read()>
+Caller: <org.spongycastle.asn1.ASN1InputStream: int readTagNumber(java.io.InputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read()>
+Caller: <org.spongycastle.asn1.DefiniteLengthInputStream: int read()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read()>
+Caller: <org.spongycastle.asn1.ASN1InputStream: int readLength(java.io.InputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read()>
+Caller: <org.spongycastle.asn1.IndefiniteLengthInputStream: void <init>(java.io.InputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read()>
+Caller: <org.spongycastle.asn1.ASN1InputStream: org.spongycastle.asn1.ASN1Primitive readObject()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read()>
+Caller: <org.spongycastle.asn1.IndefiniteLengthInputStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read()>
+Caller: <org.spongycastle.asn1.ASN1InputStream: int readLength(java.io.InputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read()>
+Caller: <org.spongycastle.asn1.IndefiniteLengthInputStream: int read()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read()>
+Caller: <org.spongycastle.asn1.ASN1InputStream: int readTagNumber(java.io.InputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read()>
+Caller: <org.spongycastle.asn1.IndefiniteLengthInputStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <aaaaaa.lelele: void b04250425Х0425Х04250425Х()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <aaaaaa.lelele: void b04250425Х0425Х04250425Х()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <aaaaaa.lelele: void b04250425Х0425Х04250425Х()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FileFilter)>
+Caller: <com.crashlytics.android.core.CrashlyticsController: java.io.File[] listFilesMatching(java.io.FileFilter)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$Recurrence: org.joda.time.tz.DateTimeZoneBuilder$Recurrence readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: org.joda.time.DateTimeZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.hypr.hyprandroidcommon.crypto.Asn1: byte[] toRawSignatureBytes(java.math.BigInteger[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.hypr.hyprandroidcommon.crypto.Asn1: byte[] toRawSignatureBytes(java.math.BigInteger[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <org.spongycastle.asn1.BEROctetString: byte[] toBytes(org.spongycastle.asn1.ASN1OctetString[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <org.spongycastle.asn1.BERApplicationSpecific: byte[] getEncodedVector(org.spongycastle.asn1.ASN1EncodableVector)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <org.spongycastle.asn1.ASN1OutputStream: void write(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <aaaaaa.rrrxrx$4: com.konylabs.vm.LuaTable b044C044C044Cьььь044C(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <aaaaaa.rrrxrx$4: com.konylabs.vm.LuaTable b044C044C044Cьььь044C(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <com.crashlytics.android.core.CrashlyticsController: void gzip(byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <aaaaaa.jjhhhh: void bТ042204220422Т0422ТТ(java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void readHeader()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Proxy: void <init>(java.net.Proxy$Type,java.net.SocketAddress)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.net.Proxy createProxy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.acceptto.ngaauthsdk.core.NGARequestBuilder: java.lang.String signJSON(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.crashlytics.android.core.NativeFileUtils: byte[] readBytes(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String hash(java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: org.joda.time.DateTimeZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <com.hypr.hyprandroidcommon.authenticator.uaf.tlv.v1.ByteInputStream: int readUnsigned()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$6: io.fabric.sdk.android.services.network.HttpRequest run()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: java.lang.String hash(java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest$RequestOutputStream: void <init>(java.io.OutputStream,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okio.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.logging.HttpLoggingInterceptor: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.MediaType: java.nio.charset.Charset charset()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.crashlytics.android.core.MetaDataStore: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <com.crashlytics.android.core.NativeFileUtils: byte[] readBytes(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.hypr.hyprandroidcommon.authenticator.utils.ObjectSerializer: java.lang.Object deserialize(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.HttpCookie: void <init>(java.lang.String,java.lang.String)>
+Caller: <aaaaaa.eeeele: void <init>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.HttpCookie: void <init>(java.lang.String,java.lang.String)>
+Caller: <aaaaaa.eeeele: void <init>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void b0422042204220422ТТ04220422(aaaaaa.hhffff,java.io.DataInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <aaaaaa.fhfhff: void bТТ0422ТТТ04220422(aaaaaa.hhffff)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <io.fabric.sdk.android.services.common.QueueFile: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <aaaaaa.lelele: void b04250425Х0425Х04250425Х()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <aaaaaa.lelele: void b04250425Х0425Х04250425Х()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.hypr.hyprandroidcommon.authenticator.utils.ObjectSerializer: java.lang.String serialize(java.io.Serializable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <io.fabric.sdk.android.services.common.CommonUtils: void closeOrLog(java.io.Closeable,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <org.spongycastle.asn1.ConstructedOctetStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void refreshBuffer()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.crashlytics.android.core.CodedOutputStream: void writeRawBytes(com.crashlytics.android.core.ByteString,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String domainToAscii(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <aaaaaa.jjhhhh: void b0422ТТТ04220422ТТ(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: long readLong()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <okhttp3.HttpUrl: java.net.URL url()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.b.b: short a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.b.b: short a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.a.b: byte[] a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.a.b: byte[] a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.b.b: short a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.c.a: com.hypr.hyprandroidcommon.fidomodel.data.AuthenticatorInfo a(byte[],short,com.hypr.hyprandroidcommon.authenticator.interfaces.HyprAuthenticator,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.e.b: byte[] a(com.hypr.hyprandroidcommon.asm.HyprFidoAsmInterface,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <com.hypr.hyprandroidcommon.asm.a.a.a.a.a.b: byte[] a(byte[])>
+Thread: [UI]
+-------------------------

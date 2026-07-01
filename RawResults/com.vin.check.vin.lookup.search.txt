@@ -1,0 +1,190 @@
+Time1: 24.986933449
+Time2: 2.316132902
+Worker: 20
+UI: 26
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <k0.a: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,k0.d)>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <k0.a: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,k0.d)>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean setExecutable(boolean,boolean)>
+Caller: <k0.a: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,k0.d)>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <u0.d$a: u0.d$b b()>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <k0.a: long c(java.io.InputStream,java.io.OutputStream)>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <k0.a: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,k0.d)>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <k0.a: long c(java.io.InputStream,java.io.OutputStream)>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <k0.d: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <k0.a: long c(java.io.InputStream,java.io.OutputStream)>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <k0.a: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,k0.d)>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <k0.a: void b(java.io.Closeable)>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <k0.d: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <k0.a: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,k0.d)>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <l0.i: void close()>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <A0.m: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [<io.flutter.plugin.platform.x: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <l0.i: void <init>(java.io.File)>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <u0.d$a: u0.d$b b()>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <l0.i: void <init>(java.io.File)>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <k0.a: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,k0.d)>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <k0.d: void g(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<u0.d$a: java.lang.Object call()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <k0.a: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,k0.d)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <k0.a: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,k0.d)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setExecutable(boolean,boolean)>
+Caller: <k0.a: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,k0.d)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <u0.d$a: u0.d$b b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <k0.a: long c(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <A0.m: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.flutter.view.i$l: java.util.List q0(java.nio.ByteBuffer,java.nio.ByteBuffer[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <A0.o: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <k0.a: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,k0.d)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <k0.a: long c(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <k0.d: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <k0.a: long c(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <k0.a: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,k0.d)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <k0.a: void b(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <k0.d: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <k0.a: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,k0.d)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <l0.i: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.content.res.AssetFileDescriptor openTypedAssetFileDescriptor(android.net.Uri,java.lang.String,android.os.Bundle)>
+Caller: <io.flutter.plugin.platform.i: java.lang.CharSequence r(z0.o$e)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <A0.m: void i(java.io.ByteArrayOutputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <l0.i: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <k0.a: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,k0.d)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <l0.i: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <k0.d: void g(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <u0.d$a: u0.d$b b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.CharBuffer decode(java.nio.ByteBuffer)>
+Caller: <io.flutter.view.i$l: java.util.List q0(java.nio.ByteBuffer,java.nio.ByteBuffer[])>
+Thread: [UI]
+-------------------------

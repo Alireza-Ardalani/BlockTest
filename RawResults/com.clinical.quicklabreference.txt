@@ -1,0 +1,38 @@
+Time1: 8.641590756
+Time2: 4.265108197
+Worker: 0
+UI: 8
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.clinical.quicklabreference.MainMenu: boolean deleteDir(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.clinical.quicklabreference.About: boolean deleteDir(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.clinical.quicklabreference.MainMenu: boolean deleteDir(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.clinical.quicklabreference.About: boolean deleteDir(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.clinical.quicklabreference.MainMenu: void trimCache(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.clinical.quicklabreference.About: void trimCache(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.clinical.quicklabreference.MainMenu: boolean deleteDir(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.clinical.quicklabreference.About: boolean deleteDir(java.io.File)>
+Thread: [UI]
+-------------------------

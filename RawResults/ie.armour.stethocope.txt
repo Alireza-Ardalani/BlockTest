@@ -1,0 +1,26 @@
+Time1: 13.383318035
+Time2: 0.18917613
+Worker: 0
+UI: 5
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <ie.armour.stethocope.Controllers.DatabaseController: void clearCheckboxes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <ie.armour.stethocope.Controllers.DatabaseController: java.util.ArrayList getTasks()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <ie.armour.stethocope.Activities.MainActivity: void onStart()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <ie.armour.stethocope.Controllers.DatabaseController: void clearCheckboxes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <ie.armour.stethocope.Controllers.DatabaseController: java.util.ArrayList getTasks()>
+Thread: [UI]
+-------------------------

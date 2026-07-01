@@ -1,0 +1,190 @@
+IO Target: <android.database.MatrixCursor: void <init>(java.lang.String[],int)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+    -> <android.database.MatrixCursor: void <init>(java.lang.String[],int)>
+
+IO Target: <java.io.File: java.lang.String getPath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+    -> <com.adobe.air.CameraUIProvider$SimplePathStrategy: java.io.File getFileForUri(android.net.Uri)>
+    -> <java.io.File: java.lang.String getPath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+    -> <com.adobe.air.CameraUIProvider$SimplePathStrategy: java.io.File getFileForUri(android.net.Uri)>
+    -> <java.io.File: java.lang.String getPath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: java.lang.String getType(android.net.Uri)>
+    -> <com.adobe.air.CameraUIProvider$SimplePathStrategy: java.io.File getFileForUri(android.net.Uri)>
+    -> <java.io.File: java.lang.String getPath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: java.lang.String getType(android.net.Uri)>
+    -> <com.adobe.air.CameraUIProvider$SimplePathStrategy: java.io.File getFileForUri(android.net.Uri)>
+    -> <java.io.File: java.lang.String getPath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+    -> <com.adobe.air.CameraUIProvider$SimplePathStrategy: java.io.File getFileForUri(android.net.Uri)>
+    -> <java.io.File: java.lang.String getPath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+    -> <com.adobe.air.CameraUIProvider$SimplePathStrategy: java.io.File getFileForUri(android.net.Uri)>
+    -> <java.io.File: java.lang.String getPath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+    -> <com.adobe.air.CameraUIProvider$SimplePathStrategy: java.io.File getFileForUri(android.net.Uri)>
+    -> <java.io.File: java.lang.String getPath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+    -> <com.adobe.air.CameraUIProvider$SimplePathStrategy: java.io.File getFileForUri(android.net.Uri)>
+    -> <java.io.File: java.lang.String getPath()>
+
+IO Target: <java.io.File: java.io.File getCanonicalFile()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+    -> <com.adobe.air.CameraUIProvider$SimplePathStrategy: java.io.File getFileForUri(android.net.Uri)>
+    -> <java.io.File: java.io.File getCanonicalFile()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+    -> <com.adobe.air.CameraUIProvider: com.adobe.air.CameraUIProvider$PathStrategy getPathStrategy(android.content.Context,java.lang.String)>
+    -> <com.adobe.air.CameraUIProvider: com.adobe.air.CameraUIProvider$PathStrategy parsePathStrategy(android.content.Context,java.lang.String)>
+    -> <com.adobe.air.CameraUIProvider$SimplePathStrategy: void addRoot(java.lang.String,java.io.File)>
+    -> <java.io.File: java.io.File getCanonicalFile()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: java.lang.String getType(android.net.Uri)>
+    -> <com.adobe.air.CameraUIProvider$SimplePathStrategy: java.io.File getFileForUri(android.net.Uri)>
+    -> <java.io.File: java.io.File getCanonicalFile()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+    -> <com.adobe.air.CameraUIProvider$SimplePathStrategy: java.io.File getFileForUri(android.net.Uri)>
+    -> <java.io.File: java.io.File getCanonicalFile()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+    -> <com.adobe.air.CameraUIProvider$SimplePathStrategy: java.io.File getFileForUri(android.net.Uri)>
+    -> <java.io.File: java.io.File getCanonicalFile()>
+
+IO Target: <java.io.PrintStream: java.io.PrintStream format(java.lang.String,java.lang.Object[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <air.com.adobe.appentry.AppEntry: void onCreate(android.os.Bundle)>
+    -> <air.com.adobe.appentry.AppEntry: void showRuntimeNotInstalledDialog()>
+    -> <com.adobe.air.ResourceIdMap: void <init>(java.lang.String)>
+    -> <com.adobe.air.ResourceIdMap: void init(java.lang.Class)>
+    -> <com.adobe.air.ResourceIdMap: void gatherResourceInfo(java.lang.Class,java.util.Hashtable)>
+    -> <java.io.PrintStream: java.io.PrintStream format(java.lang.String,java.lang.Object[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <air.com.adobe.appentry.AppEntry: void onCreate(android.os.Bundle)>
+    -> <air.com.adobe.appentry.AppEntry: void showRuntimeNotInstalledDialog()>
+    -> <com.adobe.air.ResourceIdMap: void <init>(java.lang.String)>
+    -> <com.adobe.air.ResourceIdMap: void init(java.lang.Class)>
+    -> <com.adobe.air.ResourceIdMap: void gatherResourceInfo(java.lang.Class,java.util.Hashtable)>
+    -> <java.io.PrintStream: java.io.PrintStream format(java.lang.String,java.lang.Object[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <air.com.adobe.appentry.AppEntry: void onCreate(android.os.Bundle)>
+    -> <air.com.adobe.appentry.AppEntry: void showRuntimeNotInstalledDialog()>
+    -> <com.adobe.air.ResourceIdMap: void <init>(java.lang.String)>
+    -> <com.adobe.air.ResourceIdMap: void init(java.lang.Class)>
+    -> <com.adobe.air.ResourceIdMap: void gatherResourceInfo(java.lang.Class,java.util.Hashtable)>
+    -> <java.io.PrintStream: java.io.PrintStream format(java.lang.String,java.lang.Object[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <air.com.adobe.appentry.AppEntry: void onCreate(android.os.Bundle)>
+    -> <air.com.adobe.appentry.AppEntry: void showRuntimeNotInstalledDialog()>
+    -> <com.adobe.air.ResourceIdMap: void <init>(java.lang.String)>
+    -> <java.io.PrintStream: java.io.PrintStream format(java.lang.String,java.lang.Object[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <air.com.adobe.appentry.AppEntry: void onCreate(android.os.Bundle)>
+    -> <air.com.adobe.appentry.AppEntry: void showRuntimeOnExternalStorageDialog()>
+    -> <com.adobe.air.ResourceIdMap: void <init>(java.lang.String)>
+    -> <com.adobe.air.ResourceIdMap: void init(java.lang.Class)>
+    -> <com.adobe.air.ResourceIdMap: void gatherResourceInfo(java.lang.Class,java.util.Hashtable)>
+    -> <java.io.PrintStream: java.io.PrintStream format(java.lang.String,java.lang.Object[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <air.com.adobe.appentry.AppEntry: void onCreate(android.os.Bundle)>
+    -> <air.com.adobe.appentry.AppEntry: void showRuntimeOnExternalStorageDialog()>
+    -> <com.adobe.air.ResourceIdMap: void <init>(java.lang.String)>
+    -> <com.adobe.air.ResourceIdMap: void init(java.lang.Class)>
+    -> <com.adobe.air.ResourceIdMap: void gatherResourceInfo(java.lang.Class,java.util.Hashtable)>
+    -> <java.io.PrintStream: java.io.PrintStream format(java.lang.String,java.lang.Object[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <air.com.adobe.appentry.AppEntry: void onCreate(android.os.Bundle)>
+    -> <air.com.adobe.appentry.AppEntry: void showRuntimeOnExternalStorageDialog()>
+    -> <com.adobe.air.ResourceIdMap: void <init>(java.lang.String)>
+    -> <com.adobe.air.ResourceIdMap: void init(java.lang.Class)>
+    -> <com.adobe.air.ResourceIdMap: void gatherResourceInfo(java.lang.Class,java.util.Hashtable)>
+    -> <java.io.PrintStream: java.io.PrintStream format(java.lang.String,java.lang.Object[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <air.com.adobe.appentry.AppEntry: void onCreate(android.os.Bundle)>
+    -> <air.com.adobe.appentry.AppEntry: void showRuntimeOnExternalStorageDialog()>
+    -> <com.adobe.air.ResourceIdMap: void <init>(java.lang.String)>
+    -> <java.io.PrintStream: java.io.PrintStream format(java.lang.String,java.lang.Object[])>
+
+IO Target: <java.io.File: java.lang.String getAbsolutePath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <air.com.adobe.appentry.AppEntry: void onCreate(android.os.Bundle)>
+    -> <air.com.adobe.appentry.AppEntry: void launchAIRService()>
+    -> <air.com.adobe.appentry.AppEntry$3: void onServiceConnected(android.content.ComponentName,android.os.IBinder)>
+    -> <air.com.adobe.appentry.AppEntry: void access$300(air.com.adobe.appentry.AppEntry)>
+    -> <air.com.adobe.appentry.AppEntry: void loadSharedRuntimeDex()>
+    -> <java.io.File: java.lang.String getAbsolutePath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <air.com.adobe.appentry.AppEntry: void onCreate(android.os.Bundle)>
+    -> <air.com.adobe.appentry.AppEntry: void loadSharedRuntimeDex()>
+    -> <java.io.File: java.lang.String getAbsolutePath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.AIRFileProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+    -> <java.io.File: java.lang.String getAbsolutePath()>
+
+IO Target: <java.io.File: java.lang.String getName()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+    -> <java.io.File: java.lang.String getName()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: java.lang.String getType(android.net.Uri)>
+    -> <java.io.File: java.lang.String getName()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: java.lang.String getType(android.net.Uri)>
+    -> <java.io.File: java.lang.String getName()>
+
+IO Target: <java.io.File: long length()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+    -> <java.io.File: long length()>
+
+IO Target: <android.database.MatrixCursor: void addRow(java.lang.Object[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+    -> <android.database.MatrixCursor: void addRow(java.lang.Object[])>
+
+IO Target: <java.io.File: boolean delete()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.adobe.air.CameraUIProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+    -> <java.io.File: boolean delete()>
+

@@ -1,0 +1,430 @@
+Time1: 287.701230438
+Time2: 14.706284434
+Worker: 21
+UI: 85
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <mozilla.components.feature.downloads.AbstractFetchDownloadService$Companion: java.lang.String getSafeContentType$feature_downloads_release(android.content.Context,android.net.Uri,java.lang.String)>
+Thread: [<mozilla.components.feature.downloads.AbstractFetchDownloadService$handleDownloadIntent$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <mozilla.components.feature.downloads.AbstractFetchDownloadService$Companion: java.lang.String getSafeContentType$feature_downloads_release(android.content.Context,android.net.Uri,java.lang.String)>
+Thread: [<mozilla.components.feature.downloads.AbstractFetchDownloadService$handleDownloadIntent$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <mozilla.components.feature.downloads.AbstractFetchDownloadService$Companion: java.lang.String getSafeContentType$feature_downloads_release(android.content.Context,android.net.Uri,java.lang.String)>
+Thread: [<mozilla.components.feature.downloads.AbstractFetchDownloadService$addToDownloadSystemDatabaseCompat$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>
+Caller: <mozilla.components.support.ktx.kotlin.StringKt: java.lang.String isSameOriginAs$canonicalizeOrigin(java.lang.String)>
+Thread: [<mozilla.components.lib.state.Store$dispatch$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <mozilla.components.feature.downloads.AbstractFetchDownloadService: kotlin.Unit $r8$lambda$e6gTURPYAxm1s8dHqtfFteV9ogY(mozilla.components.browser.state.state.content.DownloadState,mozilla.components.concept.fetch.Response,mozilla.components.feature.downloads.AbstractFetchDownloadService$DownloadJobState,mozilla.components.feature.downloads.AbstractFetchDownloadService,boolean,kotlin.jvm.internal.Ref$BooleanRef,java.io.InputStream)>
+Thread: [<mozilla.components.feature.downloads.AbstractFetchDownloadService$handleDownloadIntent$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.ByteBuffer encode(java.nio.CharBuffer)>
+Caller: <mozilla.appservices.autofill.FfiConverterString$$ExternalSyntheticOutline1: java.nio.ByteBuffer m(java.nio.charset.CharsetEncoder,java.nio.charset.CodingErrorAction,java.lang.String,java.lang.String)>
+Thread: [<mozilla.telemetry.glean.GleanInternalAPI$initialize$3: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <mozilla.components.support.ktx.kotlin.StringKt: java.lang.String isSameOriginAs$canonicalizeOrigin(java.lang.String)>
+Thread: [<mozilla.components.lib.state.Store$dispatch$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <mozilla.components.feature.downloads.AbstractFetchDownloadService: kotlin.Unit $r8$lambda$e6gTURPYAxm1s8dHqtfFteV9ogY(mozilla.components.browser.state.state.content.DownloadState,mozilla.components.concept.fetch.Response,mozilla.components.feature.downloads.AbstractFetchDownloadService$DownloadJobState,mozilla.components.feature.downloads.AbstractFetchDownloadService,boolean,kotlin.jvm.internal.Ref$BooleanRef,java.io.InputStream)>
+Thread: [<mozilla.components.feature.downloads.AbstractFetchDownloadService$handleDownloadIntent$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <mozilla.components.feature.downloads.AbstractFetchDownloadService$addToDownloadSystemDatabaseCompat$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [<mozilla.components.feature.downloads.AbstractFetchDownloadService$addToDownloadSystemDatabaseCompat$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <mozilla.components.feature.downloads.AbstractFetchDownloadService$$ExternalSyntheticLambda2: java.lang.Object invoke(java.lang.Object)>
+Thread: [<mozilla.components.feature.downloads.AbstractFetchDownloadService$handleDownloadIntent$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <mozilla.components.feature.search.internal.SearchUrlBuilder: java.lang.String buildUrl(java.lang.String,java.lang.String)>
+Thread: [<org.mozilla.fenix.FenixApplication$initializeGlean$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <mozilla.components.feature.downloads.AbstractFetchDownloadService: kotlin.Unit $r8$lambda$e6gTURPYAxm1s8dHqtfFteV9ogY(mozilla.components.browser.state.state.content.DownloadState,mozilla.components.concept.fetch.Response,mozilla.components.feature.downloads.AbstractFetchDownloadService$DownloadJobState,mozilla.components.feature.downloads.AbstractFetchDownloadService,boolean,kotlin.jvm.internal.Ref$BooleanRef,java.io.InputStream)>
+Thread: [<mozilla.components.feature.downloads.AbstractFetchDownloadService$handleDownloadIntent$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <mozilla.components.feature.downloads.AbstractFetchDownloadService: kotlin.Unit $r8$lambda$e6gTURPYAxm1s8dHqtfFteV9ogY(mozilla.components.browser.state.state.content.DownloadState,mozilla.components.concept.fetch.Response,mozilla.components.feature.downloads.AbstractFetchDownloadService$DownloadJobState,mozilla.components.feature.downloads.AbstractFetchDownloadService,boolean,kotlin.jvm.internal.Ref$BooleanRef,java.io.InputStream)>
+Thread: [<mozilla.components.feature.downloads.AbstractFetchDownloadService$handleDownloadIntent$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <mozilla.components.feature.downloads.AbstractFetchDownloadService: kotlin.Unit $r8$lambda$e6gTURPYAxm1s8dHqtfFteV9ogY(mozilla.components.browser.state.state.content.DownloadState,mozilla.components.concept.fetch.Response,mozilla.components.feature.downloads.AbstractFetchDownloadService$DownloadJobState,mozilla.components.feature.downloads.AbstractFetchDownloadService,boolean,kotlin.jvm.internal.Ref$BooleanRef,java.io.InputStream)>
+Thread: [<mozilla.components.feature.downloads.AbstractFetchDownloadService$handleDownloadIntent$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <mozilla.components.feature.downloads.AbstractFetchDownloadService: kotlin.Unit $r8$lambda$e6gTURPYAxm1s8dHqtfFteV9ogY(mozilla.components.browser.state.state.content.DownloadState,mozilla.components.concept.fetch.Response,mozilla.components.feature.downloads.AbstractFetchDownloadService$DownloadJobState,mozilla.components.feature.downloads.AbstractFetchDownloadService,boolean,kotlin.jvm.internal.Ref$BooleanRef,java.io.InputStream)>
+Thread: [<mozilla.components.feature.downloads.AbstractFetchDownloadService$handleDownloadIntent$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <mozilla.components.feature.downloads.AbstractFetchDownloadService$$ExternalSyntheticLambda2: java.lang.Object invoke(java.lang.Object)>
+Thread: [<mozilla.components.feature.downloads.AbstractFetchDownloadService$handleDownloadIntent$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <mozilla.components.feature.downloads.AbstractFetchDownloadService$$ExternalSyntheticLambda2: java.lang.Object invoke(java.lang.Object)>
+Thread: [<mozilla.components.feature.downloads.AbstractFetchDownloadService$handleDownloadIntent$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String guessContentTypeFromStream(java.io.InputStream)>
+Caller: <mozilla.components.feature.downloads.AbstractFetchDownloadService: kotlin.Unit $r8$lambda$e6gTURPYAxm1s8dHqtfFteV9ogY(mozilla.components.browser.state.state.content.DownloadState,mozilla.components.concept.fetch.Response,mozilla.components.feature.downloads.AbstractFetchDownloadService$DownloadJobState,mozilla.components.feature.downloads.AbstractFetchDownloadService,boolean,kotlin.jvm.internal.Ref$BooleanRef,java.io.InputStream)>
+Thread: [<mozilla.components.feature.downloads.AbstractFetchDownloadService$handleDownloadIntent$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <mozilla.components.support.utils.DownloadUtils: java.lang.String guessFileName(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<mozilla.components.feature.downloads.AbstractFetchDownloadService$handleDownloadIntent$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <mozilla.components.feature.downloads.AbstractFetchDownloadService: kotlin.Unit $r8$lambda$e6gTURPYAxm1s8dHqtfFteV9ogY(mozilla.components.browser.state.state.content.DownloadState,mozilla.components.concept.fetch.Response,mozilla.components.feature.downloads.AbstractFetchDownloadService$DownloadJobState,mozilla.components.feature.downloads.AbstractFetchDownloadService,boolean,kotlin.jvm.internal.Ref$BooleanRef,java.io.InputStream)>
+Thread: [<mozilla.components.feature.downloads.AbstractFetchDownloadService$handleDownloadIntent$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <mozilla.components.feature.downloads.AbstractFetchDownloadService: kotlin.Unit $r8$lambda$e6gTURPYAxm1s8dHqtfFteV9ogY(mozilla.components.browser.state.state.content.DownloadState,mozilla.components.concept.fetch.Response,mozilla.components.feature.downloads.AbstractFetchDownloadService$DownloadJobState,mozilla.components.feature.downloads.AbstractFetchDownloadService,boolean,kotlin.jvm.internal.Ref$BooleanRef,java.io.InputStream)>
+Thread: [<mozilla.components.feature.downloads.AbstractFetchDownloadService$handleDownloadIntent$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.BufferedReader: int read(char[],int,int)>
+Caller: <io.sentry.vendor.gson.stream.JsonReader: boolean fillBuffer(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <io.sentry.JsonSerializer: void serialize(io.sentry.SentryEnvelope,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <io.sentry.JsonSerializer: void serialize(io.sentry.SentryEnvelope,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <io.sentry.JsonSerializer: void serialize(io.sentry.SentryEnvelope,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <io.sentry.JsonSerializer: void serialize(java.lang.Object,java.io.BufferedWriter)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.JsonObjectSerializer: void serializeCollection(io.sentry.JsonObjectWriter,io.sentry.ILogger,java.util.Collection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void close(int,int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void writeDeferredName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.JsonObjectWriter: io.sentry.JsonObjectWriter beginObject$1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <io.sentry.JsonObjectWriter: io.sentry.JsonObjectWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <mozilla.components.feature.downloads.AbstractFetchDownloadService$Companion: java.lang.String getSafeContentType$feature_downloads_release(android.content.Context,android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <io.sentry.android.core.internal.util.CpuInfoUtils: java.util.ArrayList readMaxFrequencies()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <io.sentry.util.FileUtils: java.lang.String readText(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <io.sentry.android.core.DeviceInfoUtil: void <init>(android.content.Context,io.sentry.android.core.SentryAndroidOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <io.sentry.util.FileUtils: java.lang.String readText(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <io.sentry.JsonObjectWriter: io.sentry.JsonObjectWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.ByteBuffer encode(java.nio.CharBuffer)>
+Caller: <mozilla.appservices.autofill.FfiConverterString$$ExternalSyntheticOutline1: java.nio.ByteBuffer m(java.nio.charset.CharsetEncoder,java.nio.charset.CodingErrorAction,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.sentry.util.FileUtils: java.lang.String readText(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.sentry.android.core.DeviceInfoUtil: void <init>(android.content.Context,io.sentry.android.core.SentryAndroidOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.sentry.util.FileUtils: java.lang.String readText(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.sentry.android.core.internal.util.RootChecker: boolean isDeviceRooted()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getUserInfo()>
+Caller: <io.sentry.Dsn: void <init>(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <io.sentry.android.core.internal.util.CpuInfoUtils: java.util.ArrayList readMaxFrequencies()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <org.mozilla.gecko.media.GeckoMediaDrmBridgeV21: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.android.core.internal.util.RootChecker: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.util.JsonSerializationUtils: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.util.StringUtils: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.Sentry: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.EnvelopeReader: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.JsonSerializer: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.SentryEnvelopeItem: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <io.sentry.JsonSerializer: void serialize(io.sentry.SentryEnvelope,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <io.sentry.Dsn: void <init>(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <io.sentry.EnvelopeReader: io.sentry.SentryEnvelope read(java.io.BufferedInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <mozilla.telemetry.glean.utils.DataPathUtilsKt: boolean canWriteToDatabasePath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <org.mozilla.fenix.settings.SupportUtils: java.lang.String getGenericSumoURLForTopic$default(org.mozilla.fenix.settings.SupportUtils$SumoTopic)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <io.sentry.JsonSerializer: void serialize(io.sentry.SentryEnvelope,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <io.sentry.EnvelopeReader: io.sentry.SentryEnvelope read(java.io.BufferedInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.JsonSerializer: void serialize(io.sentry.SentryEnvelope,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.JsonObjectWriter: io.sentry.JsonObjectWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.JsonSerializer: void serialize(io.sentry.SentryEnvelope,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.sentry.JsonSerializer: void serialize(io.sentry.SentryEnvelope,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <io.sentry.android.core.DeviceInfoUtil: void <init>(android.content.Context,io.sentry.android.core.SentryAndroidOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <io.sentry.util.FileUtils: java.lang.String readText(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.util.FileUtils: java.lang.String readText(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.android.core.DeviceInfoUtil: void <init>(android.content.Context,io.sentry.android.core.SentryAndroidOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.android.core.internal.util.RootChecker: boolean isDeviceRooted()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.android.core.internal.util.RootChecker: boolean isDeviceRooted()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <io.sentry.vendor.gson.stream.JsonReader: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.util.FileUtils: java.lang.String readText(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.sentry.android.core.DeviceInfoUtil: void <init>(android.content.Context,io.sentry.android.core.SentryAndroidOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.JsonObjectSerializer: void serializeCollection(io.sentry.JsonObjectWriter,io.sentry.ILogger,java.util.Collection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void close(int,int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void writeDeferredName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <io.sentry.JsonObjectWriter: io.sentry.JsonObjectWriter beginObject$1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: java.lang.String getCallingPackage()>
+Caller: <io.sentry.android.core.internal.util.ContentProviderSecurityChecker: void checkPrivilegeEscalation(io.sentry.android.core.EmptySecureContentProvider)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <io.sentry.Dsn: void <init>(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <io.sentry.vendor.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.mozilla.fenix.perf.ProfilerMarkerFactProcessor$$ExternalSyntheticLambda0: java.lang.Object invoke()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.sentry.android.core.internal.util.RootChecker: boolean isDeviceRooted()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <mozilla.telemetry.glean.utils.DataPathUtilsKt: boolean canWriteToDatabasePath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.sentry.android.core.internal.util.CpuInfoUtils: java.util.ArrayList readMaxFrequencies()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.mozilla.gecko.mozglue.GeckoLoader: void doLoadLibrary(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.sentry.util.FileUtils: java.lang.String readText(java.io.File)>
+Thread: [UI]
+-------------------------

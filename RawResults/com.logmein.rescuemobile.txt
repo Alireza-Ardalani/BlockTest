@@ -1,0 +1,94 @@
+Time1: 221.587245717
+Time2: 9.437727898
+Worker: 1
+UI: 21
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <d60: java.lang.Object apply(java.lang.Object)>
+Thread: [<com.lmi.rescue.app.b: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <ch.qos.logback.core.recovery.ResilientOutputStreamBase: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <ch.qos.logback.core.recovery.ResilientFileOutputStream: void <init>(java.io.File,boolean,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <ch.qos.logback.core.util.FileUtil: boolean createMissingParentDirectories(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <lh3: void a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <lh3: void a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <h50: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <qs0: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <d60: java.lang.Object apply(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <h50: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <h50: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <h50: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <bz5: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <h50: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <h50: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void flush()>
+Caller: <ch.qos.logback.core.recovery.ResilientOutputStreamBase: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <ch.qos.logback.core.OutputStreamAppender: void writeBytes(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <od: void b(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ap5: boolean a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ch.qos.logback.core.util.FileUtil: boolean createMissingParentDirectories(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <ap5: boolean c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <by3: void a(java.lang.String[])>
+Thread: [UI]
+-------------------------

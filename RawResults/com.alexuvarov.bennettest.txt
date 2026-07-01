@@ -1,0 +1,38 @@
+Time1: 17.230515451
+Time2: 0.405527425
+Worker: 6
+UI: 2
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.alexuvarov.MakeHttpPostTask: java.lang.Void doInBackground(java.lang.String[])>
+Thread: [<com.alexuvarov.MakeHttpPostTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.alexuvarov.MakeHttpPostTask: java.lang.Void doInBackground(java.lang.String[])>
+Thread: [<com.alexuvarov.JsObject$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.alexuvarov.MakeHttpPostTask: java.lang.Void doInBackground(java.lang.String[])>
+Thread: [<com.alexuvarov.JsObject$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.alexuvarov.MakeHttpPostTask: java.lang.Void doInBackground(java.lang.String[])>
+Thread: [<com.alexuvarov.MakeHttpPostTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.alexuvarov.MakeHttpPostTask: java.lang.Void doInBackground(java.lang.String[])>
+Thread: [<com.alexuvarov.JsObject$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.alexuvarov.MakeHttpPostTask: java.lang.Void doInBackground(java.lang.String[])>
+Thread: [<com.alexuvarov.MakeHttpPostTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzpz: void zzu(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.zzpz: void zzu(java.lang.String)>
+Thread: [UI]
+-------------------------

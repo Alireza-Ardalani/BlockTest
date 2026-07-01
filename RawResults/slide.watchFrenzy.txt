@@ -1,0 +1,342 @@
+Time1: 143.269724097
+Time2: 3.847466297
+Worker: 0
+UI: 84
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.DatabaseUtils: long queryNumEntries(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <net.grandcentrix.tray.provider.SqliteHelper: int insertOrUpdate(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String[],android.content.ContentValues,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <net.grandcentrix.tray.provider.TrayProviderHelper: boolean persist(android.net.Uri,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <slide.watchFrenzy.SlideUtil: void WriteFile(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: android.database.sqlite.SQLiteDatabase getWritableDatabase(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: android.database.sqlite.SQLiteDatabase getWritableDatabase(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <slide.watchFrenzy.SlideUtil: boolean CopyFile(android.content.Context,android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <slide.watchFrenzy.SlideUtil: void ExtractAsset(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <slide.watchFrenzy.SlideUtil: void CopyFile(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <slide.watchFrenzy.SlideUtil: java.io.File EnsureDirectory(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <slide.watchFrenzy.WatchManager: void SendDataByMessage(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <slide.watchFrenzy.WatchManager: void SendDataByData(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <slide.watchFrenzy.WatchManager: java.lang.String GetWatchName(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <slide.watchFrenzy.WatchManager: java.lang.String GetWatchName(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <slide.watchFrenzy.WatchManager: java.lang.String GetWatchName(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <slide.watchFrenzy.SlideUtil: java.lang.String ReadFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <slide.watchFrenzy.SlideUtil: java.lang.String ReadFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <slide.watchFrenzy.WatchManager: java.lang.String GetWatchName(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <slide.watchFrenzy.WatchManager: void SendDataByMessage(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <slide.watchFrenzy.WatchManager: void SendDataByData(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <slide.watchFrenzy.SlideUtil: void CopyFile(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <slide.watchFrenzy.SlideUtil: boolean CopyFile(android.content.Context,android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <slide.watchFrenzy.SlideUtil: java.lang.String ReadFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <slide.watchFrenzy.WatchManager: java.lang.String GetWatchName(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: java.lang.String getTable(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: android.database.sqlite.SQLiteDatabase getReadableDatabase(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: android.database.sqlite.SQLiteDatabase getReadableDatabase(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void close()>
+Caller: <slide.watchFrenzy.SlideUtil: void WriteFile(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.lang.String)>
+Caller: <slide.watchFrenzy.SlideUtil: void WriteFile(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <slide.watchFrenzy.SlideUtil: void ExtractAsset(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <slide.watchFrenzy.SlideUtil: void CopyFile(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <slide.watchFrenzy.SlideUtil: boolean CopyFile(android.content.Context,android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <net.grandcentrix.tray.provider.SqliteHelper: int insertOrUpdate(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String[],android.content.ContentValues,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <net.grandcentrix.tray.provider.SqliteHelper: int insertOrUpdate(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String[],android.content.ContentValues,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <slide.watchFrenzy.SlideUtil: void DeleteFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <slide.watchFrenzy.SlideUtil: java.io.File EnsureDirectory(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <slide.watchFrenzy.SlideUtil: void DeleteFilesInFolder(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <slide.watchFrenzy.SlideUtil: void DeleteFilesInFolder(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <slide.watchFrenzy.SlideUtil: void DeleteFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <slide.watchFrenzy.SlideUtil: java.lang.String ReadFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <slide.watchFrenzy.WatchManager: java.lang.String GetWatchName(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <slide.watchFrenzy.SlideUtil: void ExtractAsset(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <slide.watchFrenzy.SlideUtil: boolean CopyFile(android.content.Context,android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <slide.watchFrenzy.SlideUtil: void CopyFile(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <slide.watchFrenzy.SlideUtil: boolean CheckFileExists(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <slide.watchFrenzy.SlideUtil: boolean AssetExistsStorage(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <slide.watchFrenzy.SlideUtil: void EnsureNoMedia(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.wearable.zzcd: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.wearable.zzcd: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.wearable.zzcd: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <slide.watchFrenzy.SlideUtil: void CopyFile(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read(byte[],int,int)>
+Caller: <slide.watchFrenzy.WatchManager: void SendDataByData(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read(byte[],int,int)>
+Caller: <slide.watchFrenzy.WatchManager: void SendDataByMessage(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <slide.watchFrenzy.SlideUtil: void DeleteFilesInFolder(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <slide.watchFrenzy.TaskerChangeWatchActivity: void GetWatchList()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: void setAuthority(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: void setAuthority(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: void setAuthority(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: void setAuthority(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: void setAuthority(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: void setAuthority(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <slide.watchFrenzy.SlideUtil: void ExtractAsset(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <net.grandcentrix.tray.provider.TrayContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <slide.watchFrenzy.SlideUtil: void CopyFile(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <slide.watchFrenzy.WatchManager: void SendDataByMessage(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <slide.watchFrenzy.WatchManager: void SendDataByData(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <slide.watchFrenzy.SlideUtil: boolean CopyFile(android.content.Context,android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------

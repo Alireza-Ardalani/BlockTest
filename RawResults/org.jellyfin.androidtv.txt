@@ -1,0 +1,126 @@
+Time1: 124.383022114
+Time2: 1.469105844
+Worker: 9
+UI: 21
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <org.acra.util.IOUtils: java.lang.String serialize(java.io.Serializable)>
+Thread: [<org.acra.startup.StartupProcessorExecutor$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <org.acra.scheduler.SchedulerStarter: void scheduleReports(java.io.File,boolean)>
+Thread: [<org.acra.startup.StartupProcessorExecutor$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <org.acra.util.IOUtils: void deleteFile(java.io.File)>
+Thread: [<org.acra.startup.StartupProcessorExecutor$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <org.acra.startup.StartupProcessorExecutor: void processReports$lambda$6$lambda$5(org.acra.startup.StartupProcessorExecutor,java.util.Calendar,boolean)>
+Thread: [<org.acra.startup.StartupProcessorExecutor$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <org.acra.util.IOUtils: void deleteFile(java.io.File)>
+Thread: [<org.acra.sender.LegacySenderService$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <org.acra.util.IOUtils: java.lang.String serialize(java.io.Serializable)>
+Thread: [<org.acra.startup.StartupProcessorExecutor$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <org.acra.file.ReportLocator: java.io.File[] getApprovedReports()>
+Thread: [<org.acra.sender.LegacySenderService$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <org.acra.file.ReportLocator: java.io.File[] getUnapprovedReports()>
+Thread: [<org.acra.startup.StartupProcessorExecutor$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <org.acra.file.ReportLocator: java.io.File[] getApprovedReports()>
+Thread: [<org.acra.startup.StartupProcessorExecutor$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <org.acra.util.StreamReader: int readUntil(java.io.InputStream,byte[],long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.acra.attachment.AcraContentProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: java.lang.String getCallingPackage()>
+Caller: <org.acra.attachment.AcraContentProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <okio.JvmFileHandle: long protectedSize()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <okio.JvmFileHandle: int protectedRead(long,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <org.acra.attachment.AcraContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <org.acra.util.StreamReader: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <okio.internal.ResourceFileSystem: okio.Source source(okio.Path)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <org.acra.attachment.AcraContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.jellyfin.androidtv.integration.MediaContentProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.jellyfin.androidtv.integration.MediaContentProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <org.acra.util.IOUtils: java.io.Serializable deserialize(java.lang.Class,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <org.jellyfin.androidtv.integration.MediaContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[],int,int)>
+Caller: <okio.JvmFileHandle: int protectedRead(long,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <org.acra.util.IOUtils: java.io.Serializable deserialize(java.lang.Class,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <org.acra.util.StreamReader: java.lang.String readWithTimeout()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <okio.JvmFileHandle: void protectedClose()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <org.acra.util.StreamReader: int readUntil(java.io.InputStream,byte[],long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: void <init>(java.net.URI)>
+Caller: <okio.internal.ResourceFileSystem: kotlin.Pair toFileRoot(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: void <init>(java.net.URI)>
+Caller: <okio.internal.ResourceFileSystem: kotlin.Pair toJarRoot(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <okio.JvmSystemFileSystem: okio.FileHandle openReadOnly(okio.Path)>
+Thread: [UI]
+-------------------------

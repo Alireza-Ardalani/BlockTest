@@ -1,0 +1,46 @@
+Time1: 41.455898083
+Time2: 3.21721164
+Worker: 4
+UI: 6
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <D.c: android.graphics.drawable.Icon c(androidx.core.graphics.drawable.IconCompat,android.content.Context)>
+Thread: [<p0.i: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <D.c: android.graphics.drawable.Icon c(androidx.core.graphics.drawable.IconCompat,android.content.Context)>
+Thread: [<t0.w: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <D.c: android.graphics.drawable.Icon c(androidx.core.graphics.drawable.IconCompat,android.content.Context)>
+Thread: [<p0.i: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <D.c: android.graphics.drawable.Icon c(androidx.core.graphics.drawable.IconCompat,android.content.Context)>
+Thread: [<t0.w: void handleMessage(android.os.Message)>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <D.c: android.graphics.drawable.Icon c(androidx.core.graphics.drawable.IconCompat,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <z.c: void d(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <z.c: void d(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <z.c: java.lang.String e(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <z.c: java.lang.String e(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <D.c: android.graphics.drawable.Icon c(androidx.core.graphics.drawable.IconCompat,android.content.Context)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,18 @@
+Time1: 18.387641734
+Time2: 0.208363575
+Worker: 0
+UI: 3
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.blankj.utilcode.util.ProcessUtils: java.lang.String getCurrentProcessNameByFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <com.blankj.utilcode.util.ProcessUtils: java.lang.String getCurrentProcessNameByFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.blankj.utilcode.util.ProcessUtils: java.lang.String getCurrentProcessNameByFile()>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,34 @@
+Time1: 32.620611817
+Time2: 0.777921595
+Worker: 2
+UI: 5
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int)>
+Caller: <io.card.payment.OverlayView: android.graphics.Bitmap getCardImage()>
+Thread: [<io.card.payment.CardIOActivity$2: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <io.card.payment.OverlayView: void markupCard()>
+Thread: [<io.card.payment.CardIOActivity$2: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <mono.MonoRuntimeProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <io.card.payment.Logo: void loadLogo(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <io.card.payment.Logo: void loadLogo(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int)>
+Caller: <io.card.payment.OverlayView: android.graphics.Bitmap getCardImage()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <io.card.payment.OverlayView: void markupCard()>
+Thread: [UI]
+-------------------------

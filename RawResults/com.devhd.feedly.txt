@@ -1,0 +1,390 @@
+Time1: 35.857434429
+Time2: 1.290634241
+Worker: 43
+UI: 53
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.devhd.feedly.SaveImageTask: void saveImageAsync(android.content.ContentResolver,java.lang.String,android.os.Handler,androidx.core.util.Consumer)>
+Thread: [<com.devhd.feedly.MainActivity$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetConfigure$StreamLoader: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetConfigure$StreamLoader: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.devhd.feedly.SaveImageTask: void saveImageAsync(android.content.ContentResolver,java.lang.String,android.os.Handler,androidx.core.util.Consumer)>
+Thread: [<com.devhd.feedly.MainActivity$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: android.widget.RemoteViews buildArticleCard(com.devhd.feedly.widget.FeedlyWidgetUpdaterTask$EAnimation)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetConfigure$StreamLoader: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: void removeStaleImages(android.content.Context,java.util.Collection)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: java.lang.String writeImageFile(android.content.Context,java.lang.String,byte[])>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: android.widget.RemoteViews buildArticleCard(com.devhd.feedly.widget.FeedlyWidgetUpdaterTask$EAnimation)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: void removeStaleImages(android.content.Context,java.util.Collection)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: java.lang.String writeImageFile(android.content.Context,java.lang.String,byte[])>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void flush()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: java.lang.String writeImageFile(android.content.Context,java.lang.String,byte[])>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetConfigure$StreamLoader: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: java.lang.String writeImageFile(android.content.Context,java.lang.String,byte[])>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: boolean isSupported(java.lang.String)>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: boolean isSupported(java.lang.String)>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetConfigure$StreamLoader: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: android.widget.RemoteViews buildArticleCard(com.devhd.feedly.widget.FeedlyWidgetUpdaterTask$EAnimation)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.devhd.feedly.SaveImageTask: boolean insertImage(android.content.ContentResolver,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Thread: [<com.devhd.feedly.MainActivity$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: void removeStaleImages(android.content.Context,java.util.Collection)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: android.widget.RemoteViews buildArticleCard(com.devhd.feedly.widget.FeedlyWidgetUpdaterTask$EAnimation)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetConfigure$StreamLoader: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: java.lang.String writeImageFile(android.content.Context,java.lang.String,byte[])>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetConfigure$StreamLoader: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetConfigure$StreamLoader: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetConfigure$StreamLoader: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetConfigure$StreamLoader: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetConfigure$StreamLoader: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.String downloadImage(com.devhd.feedly.widget.ImageDownloadOptions)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: void downloadWidgetArticles(android.content.Context,int)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.String downloadImage(com.devhd.feedly.widget.ImageDownloadOptions)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.String downloadImage(com.devhd.feedly.widget.ImageDownloadOptions)>
+Thread: [<com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.OutputStream openOutputStream(android.net.Uri)>
+Caller: <com.devhd.feedly.SaveImageTask: boolean insertImage(android.content.ContentResolver,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Thread: [<com.devhd.feedly.MainActivity$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.devhd.feedly.SaveImageTask: boolean insertImage(android.content.ContentResolver,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Thread: [<com.devhd.feedly.MainActivity$$ExternalSyntheticLambda3: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.getcapacitor.WebViewLocalServer: android.webkit.WebResourceResponse handleCapacitorHttpRequest(android.webkit.WebResourceRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.getcapacitor.WebViewLocalServer: android.webkit.WebResourceResponse handleProxyRequest(android.webkit.WebResourceRequest,com.getcapacitor.WebViewLocalServer$PathHandler)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.getcapacitor.Bridge: void initWebView()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.getcapacitor.WebViewLocalServer: android.webkit.WebResourceResponse handleProxyRequest(android.webkit.WebResourceRequest,com.getcapacitor.WebViewLocalServer$PathHandler)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.getcapacitor.plugin.util.HttpRequestHandler$HttpURLConnectionBuilder: com.getcapacitor.plugin.util.HttpRequestHandler$HttpURLConnectionBuilder openConnection()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String guessContentTypeFromStream(java.io.InputStream)>
+Caller: <com.getcapacitor.WebViewLocalServer: java.lang.String getMimeType(java.lang.String,java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: android.widget.RemoteViews buildArticleCard(com.devhd.feedly.widget.FeedlyWidgetUpdaterTask$EAnimation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: void removeStaleWidgetImages(android.content.Context,java.util.Collection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.getcapacitor.Bridge: void loadWebView()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: void delete(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: void removeStaleImages(android.content.Context,java.util.Collection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: java.lang.String writeImageFile(android.content.Context,java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: android.widget.RemoteViews buildArticleCard(com.devhd.feedly.widget.FeedlyWidgetUpdaterTask$EAnimation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: void delete(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: void removeStaleWidgetImages(android.content.Context,java.util.Collection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: void delete(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: void delete(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: void removeStaleImages(android.content.Context,java.util.Collection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: java.lang.String writeImageFile(android.content.Context,java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: int read(char[],int,int)>
+Caller: <com.getcapacitor.JSInjector: java.lang.String readAssetStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void flush()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: java.lang.String writeImageFile(android.content.Context,java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: java.lang.String writeImageFile(android.content.Context,java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: boolean isSupported(java.lang.String)>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: android.widget.RemoteViews buildArticleCard(com.devhd.feedly.widget.FeedlyWidgetUpdaterTask$EAnimation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.getcapacitor.AndroidProtocolHandler: java.io.InputStream openFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: void removeStaleWidgetImages(android.content.Context,java.util.Collection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: void delete(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: void removeStaleImages(android.content.Context,java.util.Collection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.getcapacitor.BridgeWebChromeClient: java.io.File createImageFile(android.app.Activity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: android.widget.RemoteViews buildArticleCard(com.devhd.feedly.widget.FeedlyWidgetUpdaterTask$EAnimation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetData: java.lang.String writeImageFile(android.content.Context,java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.getcapacitor.PluginManager: org.json.JSONArray parsePluginsJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.getcapacitor.FileUtils: java.lang.String readFileFromAssets(android.content.res.AssetManager,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.getcapacitor.AndroidProtocolHandler: java.io.InputStream openContentUrl(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.getcapacitor.FileUtils: java.lang.String readFileFromAssets(android.content.res.AssetManager,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.getcapacitor.FileUtils: java.lang.String readFileFromAssets(android.content.res.AssetManager,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.getcapacitor.PluginManager: org.json.JSONArray parsePluginsJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.getcapacitor.PluginManager: org.json.JSONArray parsePluginsJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.devhd.feedly.widget.HttpUtil: com.devhd.feedly.widget.RemoteResponse getUrlContent(com.devhd.feedly.widget.RemoteRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.String downloadImage(com.devhd.feedly.widget.ImageDownloadOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.String downloadImage(com.devhd.feedly.widget.ImageDownloadOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: java.lang.String downloadImage(com.devhd.feedly.widget.ImageDownloadOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.devhd.feedly.widget.FeedlyWidgetUpdaterTask: void downloadWidgetArticles(android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String guessContentTypeFromName(java.lang.String)>
+Caller: <com.getcapacitor.WebViewLocalServer: java.lang.String getMimeType(java.lang.String,java.io.InputStream)>
+Thread: [UI]
+-------------------------

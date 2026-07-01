@@ -1,0 +1,690 @@
+Time1: 41.249172179
+Time2: 1.209695135
+Worker: 79
+UI: 92
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.helpshift.support.HSApiClient: java.lang.String constructPostParamsQuery(java.util.List)>
+Thread: [<com.helpshift.support.HSApiClient$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.helpshift.support.HSApiClient: java.lang.String constructPostParamsQuery(java.util.List)>
+Thread: [<com.helpshift.support.HSApiClient$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.helpshift.storage.KeyValueDbStorage: java.lang.Object get(java.lang.String)>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.helpshift.storage.KeyValueDbStorage: java.lang.Object get(java.lang.String)>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils: long longForQuery(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[])>
+Caller: <com.helpshift.util.DatabaseUtils: boolean exists(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils: long longForQuery(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[])>
+Caller: <com.helpshift.util.DatabaseUtils: boolean exists(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils: long longForQuery(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[])>
+Caller: <com.helpshift.util.DatabaseUtils: boolean exists(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <java.net.NetworkInterface: java.util.Enumeration getNetworkInterfaces()>
+Caller: <com.helpshift.network.util.IpUtil: java.lang.String getInterfaceAddress(boolean)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int)>
+Caller: <io.card.payment.OverlayView: android.graphics.Bitmap getCardImage()>
+Thread: [<io.card.payment.CardIOActivity$2: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.helpshift.util.ByteArrayUtil: java.lang.Object toObject(byte[])>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.helpshift.util.ByteArrayUtil: java.lang.Object toObject(byte[])>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.helpshift.util.ByteArrayUtil: java.lang.Object toObject(byte[])>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.helpshift.util.ByteArrayUtil: java.lang.Object toObject(byte[])>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.helpshift.util.ByteArrayUtil: java.lang.Object toObject(byte[])>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.helpshift.util.ByteArrayUtil: java.lang.Object toObject(byte[])>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.helpshift.support.HSApiClient$1: void run()>
+Thread: [<com.helpshift.support.HSApiClient$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.helpshift.support.HSApiClient$1: void run()>
+Thread: [<com.helpshift.support.HSApiClient$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setProperty(java.lang.String,com.helpshift.campaigns.models.PropertyValue,java.lang.String)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setSyncStatus(java.lang.Integer,java.lang.String[],java.lang.String)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setProperty(java.lang.String,com.helpshift.campaigns.models.PropertyValue,java.lang.String)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setSyncStatus(java.lang.Integer,java.lang.String[],java.lang.String)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void close()>
+Caller: <com.helpshift.support.HSApiClient$1: void run()>
+Thread: [<com.helpshift.support.HSApiClient$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.helpshift.support.HSApiClient$1: void run()>
+Thread: [<com.helpshift.support.HSApiClient$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void flush()>
+Caller: <com.helpshift.support.HSApiClient$1: void run()>
+Thread: [<com.helpshift.support.HSApiClient$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.helpshift.support.HSApiClient$1: void run()>
+Thread: [<com.helpshift.support.HSApiClient$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setProperty(java.lang.String,com.helpshift.campaigns.models.PropertyValue,java.lang.String)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: java.lang.Object get(java.lang.String)>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: java.lang.Object get(java.lang.String)>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.helpshift.support.HSApiClient$1: void run()>
+Thread: [<com.helpshift.support.HSApiClient$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.helpshift.util.ByteArrayUtil: java.lang.Object toObject(byte[])>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.helpshift.util.ByteArrayUtil: java.lang.Object toObject(byte[])>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <io.card.payment.OverlayView: void markupCard()>
+Thread: [<io.card.payment.CardIOActivity$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void write()>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void write()>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.helpshift.support.HSApiClient$1: void run()>
+Thread: [<com.helpshift.support.HSApiClient$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.helpshift.support.HSApiClient$1: void run()>
+Thread: [<com.helpshift.support.HSApiClient$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void flush()>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void flush()>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void flush()>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setSyncStatus(java.lang.Integer,java.lang.String[],java.lang.String)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setProperty(java.lang.String,com.helpshift.campaigns.models.PropertyValue,java.lang.String)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.storage.CampaignSyncModelDbStorage$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setProperty(java.lang.String,com.helpshift.campaigns.models.PropertyValue,java.lang.String)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setSyncStatus(java.lang.Integer,java.lang.String[],java.lang.String)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.controllers.AnalyticsEventController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [<com.helpshift.campaigns.models.DeviceModel$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.helpshift.util.DBUtil: java.util.HashMap restoreHashMap(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: com.helpshift.campaigns.models.PropertyValue getProperty(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.helpshift.support.storage.IssuesDataSource: java.util.List getIssues(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.helpshift.support.storage.IssuesDataSource: java.util.List getMessages(java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.helpshift.support.storage.IssuesDataSource: int getCurrentIssueStatus(java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.helpshift.campaigns.storage.SessionDbStorage: java.util.ArrayList getAllSessions(java.lang.Integer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.helpshift.storage.KeyValueDbStorage: java.lang.Object get(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: java.util.HashMap getAllProperties(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.helpshift.support.storage.IssuesDataSource: com.helpshift.support.model.Issue getIssue(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.helpshift.support.storage.ProfilesDataSource: com.helpshift.support.model.Profile getProfile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.helpshift.support.storage.IssuesDataSource: int getCurrentNewMessagesCount(java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils: long longForQuery(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[])>
+Caller: <com.helpshift.util.DatabaseUtils: boolean exists(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.helpshift.campaigns.storage.PropertyDbHelper: void createIdentifierTable(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.helpshift.campaigns.storage.SessionDbStorage: int cleanUpInvalidSessions()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int)>
+Caller: <io.card.payment.OverlayView: android.graphics.Bitmap getCardImage()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.helpshift.util.DBUtil: java.util.HashMap restoreHashMap(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.helpshift.util.ByteArrayUtil: java.lang.Object toObject(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.helpshift.util.ByteArrayUtil: java.lang.Object toObject(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.helpshift.util.DBUtil: java.util.HashMap restoreHashMap(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.helpshift.util.DBUtil: java.util.HashMap restoreHashMap(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.helpshift.util.DBUtil: java.util.HashMap restoreHashMap(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.helpshift.util.ByteArrayUtil: java.lang.Object toObject(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.helpshift.util.DBUtil: void backupData(java.lang.String,java.util.HashMap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.helpshift.util.DBUtil: void backupData(java.lang.String,java.util.HashMap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.helpshift.campaigns.storage.SessionDbStorage: void setSyncStatus(java.lang.Integer,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setSyncStatus(java.lang.Integer,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.helpshift.support.storage.IssuesDataSource: int storeIssues(java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setProperty(java.lang.String,com.helpshift.campaigns.models.PropertyValue,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setSyncStatus(java.lang.Integer,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.helpshift.campaigns.storage.SessionDbStorage: void setSyncStatus(java.lang.Integer,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setProperty(java.lang.String,com.helpshift.campaigns.models.PropertyValue,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.helpshift.support.storage.IssuesDataSource: int storeIssues(java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.helpshift.support.storage.FaqsDataSource: int setIsHelpful(java.lang.String,java.lang.Boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.helpshift.support.storage.IssuesDataSource: int insertMessageUnsafe(com.helpshift.support.model.Message)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.helpshift.util.DBUtil: java.util.HashMap restoreHashMap(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.helpshift.util.DBUtil: void copy(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.helpshift.util.DBUtil: void copy(java.io.File,java.util.HashMap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <com.helpshift.util.DBUtil: void copy(java.io.File,java.util.HashMap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.helpshift.support.storage.IssuesDataSource: int insertMessageUnsafe(com.helpshift.support.model.Message)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.helpshift.support.storage.IssuesDataSource: int storeIssues(java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setProperty(java.lang.String,com.helpshift.campaigns.models.PropertyValue,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void read()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.helpshift.support.storage.IssuesDataSource: void read()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: java.lang.Object get(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.helpshift.campaigns.storage.SessionDbStorage: void read()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.helpshift.support.storage.ProfilesDataSource: void read()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.helpshift.util.DBUtil: void copy(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.helpshift.util.DBUtil: void copy(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.helpshift.util.DBUtil: void copy(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.helpshift.util.DBUtil: void copy(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.helpshift.util.DBUtil: void copy(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.helpshift.util.DBUtil: void copy(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.helpshift.util.DBUtil: void copy(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.helpshift.util.DBUtil: void copy(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <mono.MonoRuntimeProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <mono.MonoRuntimeProvider_1: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.helpshift.util.DBUtil: void copy(java.io.File,java.util.HashMap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.helpshift.util.DBUtil: void copy(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.helpshift.util.ByteArrayUtil: java.lang.Object toObject(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.helpshift.util.DBUtil: java.util.HashMap restoreHashMap(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.helpshift.util.DBUtil: void copy(java.io.File,java.util.HashMap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.helpshift.util.DBUtil: void copy(java.io.File,java.util.HashMap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.helpshift.util.DBUtil: void copy(java.io.File,java.util.HashMap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <io.card.payment.OverlayView: void markupCard()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.helpshift.util.DBUtil: void backupData(java.lang.String,java.util.HashMap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.helpshift.util.DBUtil: boolean doesDatabaseExist(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.helpshift.util.DBUtil: boolean doesExternalFileExist(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.helpshift.support.storage.IssuesDataSource: void write()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.helpshift.campaigns.storage.SessionDbStorage: void write()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.helpshift.support.storage.FaqsDataSource: void write()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void write()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void flush()>
+Caller: <com.helpshift.util.ByteArrayUtil: byte[] toByteArray(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.campaigns.storage.SessionDbStorage: void setSyncStatus(java.lang.Integer,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setProperty(java.lang.String,com.helpshift.campaigns.models.PropertyValue,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setSyncStatus(java.lang.Integer,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.support.storage.IssuesDataSource: int storeIssues(java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.helpshift.storage.KeyValueDbStorage: boolean set(java.lang.String,java.io.Serializable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setProperty(java.lang.String,com.helpshift.campaigns.models.PropertyValue,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.helpshift.campaigns.storage.PropertyDbStorage: void setSyncStatus(java.lang.Integer,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.helpshift.campaigns.storage.SessionDbStorage: void setSyncStatus(java.lang.Integer,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.helpshift.support.storage.IssuesDataSource: int storeIssues(java.util.List)>
+Thread: [UI]
+-------------------------

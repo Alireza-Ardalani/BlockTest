@@ -1,0 +1,210 @@
+Time1: 25.578049075
+Time2: 2.700182701
+Worker: 15
+UI: 36
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <I1.b: void q0(android.content.Context)>
+Thread: [<R1.b: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <g0.A: void p(java.io.Closeable)>
+Thread: [<R1.b: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <I1.b: void q0(android.content.Context)>
+Thread: [<R1.b: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <R1.b: java.lang.Object call()>
+Thread: [<R1.b: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <I1.b: void q0(android.content.Context)>
+Thread: [<R1.b: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <I1.b: void q0(android.content.Context)>
+Thread: [<R1.b: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <I1.b: void q0(android.content.Context)>
+Thread: [<R1.b: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <I1.b: void q0(android.content.Context)>
+Thread: [<R1.b: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <I1.b: void q0(android.content.Context)>
+Thread: [<R1.b: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <R1.b: java.lang.Object call()>
+Thread: [<R1.b: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <I1.b: void q0(android.content.Context)>
+Thread: [<R1.b: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean setExecutable(boolean,boolean)>
+Caller: <I1.b: void q0(android.content.Context)>
+Thread: [<R1.b: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <I1.b: void q0(android.content.Context)>
+Thread: [<R1.b: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <I1.b: void q0(android.content.Context)>
+Thread: [<R1.b: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <I1.b: void q0(android.content.Context)>
+Thread: [<R1.b: java.lang.Object call()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <u.g: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <u.g: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeByte(int)>
+Caller: <A.c: byte[] E(G0.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeByte(int)>
+Caller: <A.c: byte[] E(G0.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <X1.s: void k(X1.r,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <X1.s: void k(X1.r,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <X1.s: void k(X1.r,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <u.f: java.io.File b(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <u.g: u.f d(android.content.Context,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <u.g: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <T.B: void h(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeBytes(java.lang.String)>
+Caller: <A.c: byte[] E(G0.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeBytes(java.lang.String)>
+Caller: <A.c: byte[] E(G0.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.content.res.AssetFileDescriptor openTypedAssetFileDescriptor(android.net.Uri,java.lang.String,android.os.Bundle)>
+Caller: <W1.n: java.lang.CharSequence J(W1.e)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <A.c: byte[] E(G0.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <I1.b: boolean m0()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <H2.n: java.lang.Object p(android.net.Uri,V.j)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <e0.o: java.lang.Object p(android.net.Uri,V.j)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <y1.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <y1.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <y1.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <y1.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <X1.s: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <y1.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <X1.u: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <y1.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeLong(long)>
+Caller: <A.c: byte[] E(G0.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeLong(long)>
+Caller: <A.c: byte[] E(G0.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <A.c: byte[] E(G0.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read()>
+Caller: <e0.o: java.lang.Object p(android.net.Uri,V.j)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read()>
+Caller: <e0.o: java.lang.Object p(android.net.Uri,V.j)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read()>
+Caller: <e0.o: java.lang.Object p(android.net.Uri,V.j)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read()>
+Caller: <e0.o: java.lang.Object p(android.net.Uri,V.j)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read()>
+Caller: <e0.o: java.lang.Object p(android.net.Uri,V.j)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read()>
+Caller: <e0.o: java.lang.Object p(android.net.Uri,V.j)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read()>
+Caller: <e0.o: java.lang.Object p(android.net.Uri,V.j)>
+Thread: [UI]
+-------------------------

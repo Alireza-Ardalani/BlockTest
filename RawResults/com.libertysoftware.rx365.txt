@@ -1,0 +1,226 @@
+Time1: 101.071883827
+Time2: 1.857121011
+Worker: 0
+UI: 55
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.imagepipeline.producers.PartialDiskCacheProducer$PartialDiskCacheConsumer: void copy(java.io.InputStream,java.io.OutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.common.memory.PooledByteStreams: long copy(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <io.invertase.firebase.common.ReactNativeFirebaseInitProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <app.notifee.core.InitProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.common.internal.Closeables: void close(java.io.Closeable,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.facebook.soloader.ApplicationSoSource: boolean checkAndMaybeUpdate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.cache.disk.DefaultDiskStorage: boolean isExternal(java.io.File,com.facebook.cache.common.CacheErrorLogger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.soloader.DirectorySoSource: java.lang.String toString()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.soloader.SoLoader: void AddBackupSoSource(android.content.Context,java.util.ArrayList,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.imageutils.WebpUtil: android.util.Pair getSize(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.imageutils.WebpUtil: android.util.Pair getSize(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.imageutils.WebpUtil: android.util.Pair getSize(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.common.memory.PooledByteArrayBufferedInputStream: boolean ensureDataInBuffer()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.facebook.imageutils.WebpUtil: android.util.Pair getVP8Dimension(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.facebook.imageutils.TiffUtil: int readOrientationFromTIFF(java.io.InputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.facebook.imageutils.JfifUtil: boolean moveToMarker(java.io.InputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.facebook.common.memory.PooledByteArrayBufferedInputStream: long skip(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.facebook.imageutils.WebpUtil: android.util.Pair getVP8XDimension(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.facebook.common.util.StreamUtil: long skip(java.io.InputStream,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.facebook.imageutils.TiffUtil: int moveToTiffEntryWithTag(java.io.InputStream,int,boolean,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setLastModified(long)>
+Caller: <com.facebook.cache.disk.DefaultDiskStorage: boolean query(java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.facebook.soloader.SysUtil: void dumbDeleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.facebook.common.file.FileTree: boolean deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.facebook.imagepipeline.producers.PartialDiskCacheProducer$PartialDiskCacheConsumer: void copy(java.io.InputStream,java.io.OutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.facebook.common.memory.PooledByteStreams: long copy(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.facebook.common.internal.ByteStreams: int read(java.io.InputStream,byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <com.facebook.imagepipeline.core.ProducerSequenceFactory: com.facebook.imagepipeline.producers.Producer getBasicDecodedImageSequence(com.facebook.imagepipeline.request.ImageRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.facebook.imagepipeline.producers.LocalContentUriThumbnailFetchProducer: com.facebook.imagepipeline.image.EncodedImage getThumbnail(com.facebook.imagepipeline.common.ResizeOptions,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.facebook.imagepipeline.producers.LocalFileFetchProducer: com.facebook.imagepipeline.image.EncodedImage getEncodedImage(com.facebook.imagepipeline.request.ImageRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.content.res.AssetFileDescriptor openAssetFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.facebook.imagepipeline.producers.LocalContentUriFetchProducer: com.facebook.imagepipeline.image.EncodedImage getEncodedImage(com.facebook.imagepipeline.request.ImageRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.facebook.common.memory.PooledByteStreams: long copy(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.facebook.imagepipeline.producers.LocalContentUriThumbnailFetchProducer: int getLength(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.facebook.imagepipeline.producers.LocalFileFetchProducer: com.facebook.imagepipeline.image.EncodedImage getEncodedImage(com.facebook.imagepipeline.request.ImageRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.cache.disk.DefaultDiskStorage: void recreateDirectoryIfVersionChanges()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.cache.disk.DefaultDiskStorage: void recreateDirectoryIfVersionChanges()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.common.file.FileUtils: void mkdirs(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.cache.disk.DefaultDiskStorage: boolean query(java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.imagepipeline.producers.LocalContentUriThumbnailFetchProducer: com.facebook.imagepipeline.image.EncodedImage getThumbnail(com.facebook.imagepipeline.common.ResizeOptions,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.cache.disk.DynamicDefaultDiskStorage: boolean shouldCreateNewStorage()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.facebook.imagepipeline.producers.LocalContentUriFetchProducer: com.facebook.imagepipeline.image.EncodedImage getCameraImage(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.common.file.FileUtils: void mkdirs(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.facebook.common.memory.PooledByteStreams: long copy(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.facebook.imagepipeline.producers.LocalContentUriFetchProducer: com.facebook.imagepipeline.image.EncodedImage getEncodedImage(com.facebook.imagepipeline.request.ImageRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.facebook.imagepipeline.producers.LocalContentUriFetchProducer: com.facebook.imagepipeline.image.EncodedImage getEncodedImage(com.facebook.imagepipeline.request.ImageRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.facebook.imagepipeline.producers.QualifiedResourceFetchProducer: com.facebook.imagepipeline.image.EncodedImage getEncodedImage(com.facebook.imagepipeline.request.ImageRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.common.file.FileUtils: void mkdirs(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.common.file.FileUtils: void mkdirs(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.soloader.SysUtil: void dumbDeleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.common.file.FileTree: boolean deleteRecursively(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.common.file.FileTree: boolean deleteRecursively(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.common.file.FileUtils: void mkdirs(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------

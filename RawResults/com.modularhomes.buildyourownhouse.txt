@@ -1,0 +1,42 @@
+Time1: 19.377551396
+Time2: 0.605344693
+Worker: 0
+UI: 9
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.analytics.tracking.android.j: boolean b(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.google.analytics.tracking.android.j: boolean b(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.google.analytics.tracking.android.bk: java.lang.String d(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Caller: <com.modularhomes.buildyourownhouse.Dashboard_000: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Caller: <com.modularhomes.buildyourownhouse.Dashboard_000: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.google.analytics.tracking.android.j: java.lang.String b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.google.analytics.tracking.android.j: java.lang.String b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.google.analytics.tracking.android.j: java.lang.String b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.google.analytics.tracking.android.j: java.lang.String b()>
+Thread: [UI]
+-------------------------

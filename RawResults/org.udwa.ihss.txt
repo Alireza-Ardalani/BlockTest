@@ -1,0 +1,38 @@
+Time1: 16.819085829
+Time2: 0.688692062
+Worker: 0
+UI: 8
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)>
+Caller: <com.j256.ormlite.android.compat.JellyBeanApiCompatibility: android.database.Cursor rawQuery(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[],com.j256.ormlite.android.compat.ApiCompatibility$CancellationHook)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.j256.ormlite.table.DatabaseTableConfigLoader: void readFields(java.io.BufferedReader,com.j256.ormlite.table.DatabaseTableConfig)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.j256.ormlite.field.DatabaseFieldConfigLoader: com.j256.ormlite.field.DatabaseFieldConfig fromReader(java.io.BufferedReader)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.j256.ormlite.table.DatabaseTableConfigLoader: com.j256.ormlite.table.DatabaseTableConfig fromReader(java.io.BufferedReader)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.j256.ormlite.logger.LocalLog: java.util.List configureClassLevels(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.j256.ormlite.android.compat.JellyBeanApiCompatibility: android.database.Cursor rawQuery(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[],com.j256.ormlite.android.compat.ApiCompatibility$CancellationHook)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.j256.ormlite.android.compat.BasicApiCompatibility: android.database.Cursor rawQuery(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[],com.j256.ormlite.android.compat.ApiCompatibility$CancellationHook)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.j256.ormlite.android.AndroidConnectionSource: com.j256.ormlite.support.DatabaseConnection getReadWriteConnection()>
+Thread: [UI]
+-------------------------

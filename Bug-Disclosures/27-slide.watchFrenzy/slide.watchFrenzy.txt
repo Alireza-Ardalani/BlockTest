@@ -1,0 +1,134 @@
+
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <slide.watchFrenzy.SlideUtil: void WriteFile(java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <slide.watchFrenzy.SlideUtil: boolean CopyFile(android.content.Context,android.net.Uri,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <slide.watchFrenzy.SlideUtil: void ExtractAsset(java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <slide.watchFrenzy.SlideUtil: void CopyFile(java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <slide.watchFrenzy.SlideUtil: java.io.File EnsureDirectory(java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <slide.watchFrenzy.SlideUtil: void CopyFile(java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <slide.watchFrenzy.SlideUtil: boolean CopyFile(android.content.Context,android.net.Uri,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <slide.watchFrenzy.SlideUtil: java.lang.String ReadFile(java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <slide.watchFrenzy.WatchManager: java.lang.String GetWatchName(java.io.File)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void close()>
+Caller: <slide.watchFrenzy.SlideUtil: void WriteFile(java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.lang.String)>
+Caller: <slide.watchFrenzy.SlideUtil: void WriteFile(java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <slide.watchFrenzy.SlideUtil: void DeleteFile(java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <slide.watchFrenzy.SlideUtil: java.io.File EnsureDirectory(java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <slide.watchFrenzy.SlideUtil: void DeleteFilesInFolder(java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <slide.watchFrenzy.SlideUtil: void DeleteFilesInFolder(java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <slide.watchFrenzy.SlideUtil: void DeleteFile(java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <slide.watchFrenzy.SlideUtil: java.lang.String ReadFile(java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <slide.watchFrenzy.WatchManager: java.lang.String GetWatchName(java.io.File)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <slide.watchFrenzy.SlideUtil: void ExtractAsset(java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <slide.watchFrenzy.SlideUtil: boolean CopyFile(android.content.Context,android.net.Uri,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <slide.watchFrenzy.SlideUtil: void CopyFile(java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <slide.watchFrenzy.SlideUtil: boolean CheckFileExists(java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <slide.watchFrenzy.SlideUtil: boolean AssetExistsStorage(java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <slide.watchFrenzy.SlideUtil: void EnsureNoMedia(java.lang.String)>>
+Thread: [UI]
+-------------------------------
+MethodSignature: <java.io.BufferedInputStream: int read(byte[],int,int)>
+Caller: <slide.watchFrenzy.WatchManager: void SendDataByData(java.lang.String,java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read(byte[],int,int)>
+Caller: <slide.watchFrenzy.WatchManager: void SendDataByMessage(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <slide.watchFrenzy.SlideUtil: void DeleteFilesInFolder(java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <slide.watchFrenzy.TaskerChangeWatchActivity: void GetWatchList()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <slide.watchFrenzy.SlideUtil: void ExtractAsset(java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <slide.watchFrenzy.SlideUtil: void CopyFile(java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <slide.watchFrenzy.WatchManager: void SendDataByMessage(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <slide.watchFrenzy.WatchManager: void SendDataByData(java.lang.String,java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <slide.watchFrenzy.SlideUtil: boolean CopyFile(android.content.Context,android.net.Uri,java.lang.String)>>
+Thread: [UI]
+-------------------------

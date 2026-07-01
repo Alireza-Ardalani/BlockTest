@@ -1,0 +1,206 @@
+Time1: 76.653396224
+Time2: 7.452767129
+Worker: 0
+UI: 50
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <i6.j: java.util.List f(java.io.BufferedReader)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <i6.j: java.util.List e(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <u5.b: long a(java.io.InputStream,java.io.OutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <com.microsoft.clarity.p.c: void a(java.lang.String,byte[],int,com.microsoft.clarity.p.f)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.io.InputStream openStream()>
+Caller: <i6.j: java.util.List e(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.microsoft.clarity.q.k: java.net.HttpURLConnection a(java.lang.String,java.lang.String,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <f6.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <f6.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <f6.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <f6.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <f6.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <f6.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.microsoft.clarity.n.c: com.microsoft.clarity.models.SessionMetadata a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <g5.a: java.util.List a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.microsoft.clarity.q.j: java.lang.Object invoke(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.microsoft.clarity.models.ingest.CollectRequest: void write(java.io.OutputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.microsoft.clarity.q.i: java.lang.Object invoke(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.microsoft.clarity.q.b: void write(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <h5.a: k5.l a(android.net.Uri,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <u5.m: long a(java.io.Reader,java.io.Writer,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <u5.m: long a(java.io.Reader,java.io.Writer,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <u5.c: void a(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <u5.c: void a(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <h5.a: k5.l a(android.net.Uri,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <u5.b: long a(java.io.InputStream,java.io.OutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <u5.b: long a(java.io.InputStream,java.io.OutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <h5.a: k5.l a(android.net.Uri,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.microsoft.clarity.p.d: java.io.File a(com.microsoft.clarity.p.e,java.lang.String,boolean,boolean,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.microsoft.clarity.p.c: void a(java.lang.String,byte[],int,com.microsoft.clarity.p.f)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <h5.a: k5.l a(android.net.Uri,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <u5.c: void a(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <u5.c: void a(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.microsoft.clarity.q.k: java.net.HttpURLConnection a(java.lang.String,java.lang.String,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.microsoft.clarity.g.Z: java.lang.Object invoke()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <u5.b: long a(java.io.InputStream,java.io.OutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <h5.a: k5.l a(android.net.Uri,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <u5.c: void a(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <u5.c: void a(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <h5.a: k5.l a(android.net.Uri,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.microsoft.clarity.p.c: java.lang.String b(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.microsoft.clarity.p.c: java.lang.String a(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.microsoft.clarity.p.d: java.util.List a(com.microsoft.clarity.p.c,java.lang.String,long,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <g5.a: java.util.List a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.microsoft.clarity.p.d: java.io.File a(com.microsoft.clarity.p.e,java.lang.String,boolean,boolean,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <g5.a: java.util.List a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <g5.a: java.util.List a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <g5.a: java.util.List a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.microsoft.clarity.p.d: java.util.List a(com.microsoft.clarity.p.c,java.lang.String,long,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.microsoft.clarity.g.W: void a(com.microsoft.clarity.models.SessionMetadata,com.microsoft.clarity.n.f)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.microsoft.clarity.g.W: k5.a0 a(java.util.concurrent.Semaphore,com.microsoft.clarity.n.b,com.microsoft.clarity.models.SessionMetadata,com.microsoft.clarity.models.repositories.RepositoryAsset,com.microsoft.clarity.g.W)>
+Thread: [UI]
+-------------------------

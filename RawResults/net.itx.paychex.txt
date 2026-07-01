@@ -1,0 +1,134 @@
+Time1: 68.593929475
+Time2: 1.546532818
+Worker: 13
+UI: 19
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.urbanairship.http.Request: java.lang.String readEntireStream(java.io.InputStream)>
+Thread: [<com.urbanairship.actions.WalletLoadingActivity$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.urbanairship.http.Request: com.urbanairship.http.Response execute(com.urbanairship.http.ResponseParser)>
+Thread: [<com.urbanairship.actions.WalletLoadingActivity$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.urbanairship.http.Request: com.urbanairship.http.Response execute(com.urbanairship.http.ResponseParser)>
+Thread: [<com.urbanairship.actions.WalletLoadingActivity$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URLConnection: long getLastModified()>
+Caller: <com.urbanairship.http.Request: com.urbanairship.http.Response execute(com.urbanairship.http.ResponseParser)>
+Thread: [<com.urbanairship.actions.WalletLoadingActivity$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.urbanairship.http.Request: com.urbanairship.http.Response execute(com.urbanairship.http.ResponseParser)>
+Thread: [<com.urbanairship.actions.WalletLoadingActivity$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.urbanairship.http.Request: com.urbanairship.http.Response execute(com.urbanairship.http.ResponseParser)>
+Thread: [<com.urbanairship.actions.WalletLoadingActivity$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.urbanairship.http.Request: com.urbanairship.http.Response execute(com.urbanairship.http.ResponseParser)>
+Thread: [<com.urbanairship.actions.WalletLoadingActivity$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.urbanairship.http.Request: com.urbanairship.http.Response execute(com.urbanairship.http.ResponseParser)>
+Thread: [<com.urbanairship.actions.WalletLoadingActivity$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.urbanairship.util.ConnectionUtils: java.net.URLConnection openSecureConnection(android.content.Context,java.net.URL)>
+Thread: [<com.urbanairship.actions.WalletLoadingActivity$2: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.urbanairship.http.Request: java.lang.String readEntireStream(java.io.InputStream)>
+Thread: [<com.urbanairship.actions.WalletLoadingActivity$2: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.urbanairship.http.Request: java.lang.String readEntireStream(java.io.InputStream)>
+Thread: [<com.urbanairship.actions.WalletLoadingActivity$2: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.urbanairship.http.Request: java.lang.String readEntireStream(java.io.InputStream)>
+Thread: [<com.urbanairship.actions.WalletLoadingActivity$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.urbanairship.http.Request: com.urbanairship.http.Response execute(com.urbanairship.http.ResponseParser)>
+Thread: [<com.urbanairship.actions.WalletLoadingActivity$2: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.getcapacitor.FileUtils: java.lang.String readFileFromAssets(android.content.res.AssetManager,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.getcapacitor.PluginManager: org.json.JSONArray parsePluginsJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.getcapacitor.BridgeWebChromeClient: java.io.File createImageFile(android.app.Activity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.getcapacitor.AndroidProtocolHandler: java.io.InputStream openFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.urbanairship.javascript.JavaScriptEnvironment: java.lang.String readNativeBridge(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.urbanairship.iam.view.InAppViewUtils: void loadMediaInfo(com.urbanairship.iam.view.MediaView,com.urbanairship.iam.MediaInfo,com.urbanairship.iam.assets.Assets)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.getcapacitor.Bridge: void loadWebView()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: int read(char[],int,int)>
+Caller: <com.getcapacitor.JSInjector: java.lang.String readAssetStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.urbanairship.javascript.JavaScriptEnvironment: java.lang.String readNativeBridge(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.getcapacitor.WebViewLocalServer: android.webkit.WebResourceResponse handleProxyRequest(android.webkit.WebResourceRequest,com.getcapacitor.WebViewLocalServer$PathHandler)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.getcapacitor.FileUtils: java.lang.String readFileFromAssets(android.content.res.AssetManager,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.getcapacitor.PluginManager: org.json.JSONArray parsePluginsJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.getcapacitor.PluginManager: org.json.JSONArray parsePluginsJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.getcapacitor.FileUtils: java.lang.String readFileFromAssets(android.content.res.AssetManager,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String guessContentTypeFromStream(java.io.InputStream)>
+Caller: <com.getcapacitor.WebViewLocalServer: java.lang.String getMimeType(java.lang.String,java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.getcapacitor.AndroidProtocolHandler: java.io.InputStream openContentUrl(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String guessContentTypeFromName(java.lang.String)>
+Caller: <com.getcapacitor.WebViewLocalServer: java.lang.String getMimeType(java.lang.String,java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.getcapacitor.WebViewLocalServer: android.webkit.WebResourceResponse handleProxyRequest(android.webkit.WebResourceRequest,com.getcapacitor.WebViewLocalServer$PathHandler)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.getcapacitor.Bridge: void initWebView()>
+Thread: [UI]
+-------------------------

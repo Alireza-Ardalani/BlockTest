@@ -1,0 +1,346 @@
+Time1: 26.361948615
+Time2: 1.069151296
+Worker: 6
+UI: 79
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.appcelerator.aps.APSAnalyticsModel: void deleteEvents(int[])>
+Thread: [<com.appcelerator.aps.APSAnalyticsService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.appcelerator.aps.APSAnalyticsModel: java.util.LinkedHashMap getEventsAsJSON(int)>
+Thread: [<com.appcelerator.aps.APSAnalyticsService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.appcelerator.aps.APSAnalyticsModel: boolean hasEvents()>
+Thread: [<com.appcelerator.aps.APSAnalyticsService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.appcelerator.aps.APSAnalyticsModel: void deleteEvents(int[])>
+Thread: [<com.appcelerator.aps.APSAnalyticsService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.appcelerator.aps.APSAnalyticsModel: java.util.LinkedHashMap getEventsAsJSON(int)>
+Thread: [<com.appcelerator.aps.APSAnalyticsService$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.appcelerator.aps.APSAnalyticsModel: boolean hasEvents()>
+Thread: [<com.appcelerator.aps.APSAnalyticsService$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.appcelerator.aps.APSAnalyticsHelper: java.lang.String getArchitecture()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.appcelerator.aps.APSAnalyticsHelper: java.lang.String getArchitecture()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.appcelerator.aps.APSAnalyticsHelper: java.lang.String getArchitecture()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.urbanairship.UrbanAirshipProvider: java.lang.String getType(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.urbanairship.UrbanAirshipProvider: com.urbanairship.UrbanAirshipProvider$DatabaseModel getDatabaseModel(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.urbanairship.util.DataManager: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long replaceOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.urbanairship.util.DataManager: long insert(java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <org.appcelerator.kroll.util.KrollStreamHelper: void pump(java.io.InputStream,java.io.OutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.urbanairship.UrbanAirshipProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.urbanairship.UrbanAirshipProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.urbanairship.UrbanAirshipProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.urbanairship.UrbanAirshipProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.urbanairship.PreferencesDataManager: void bindValuesToSqliteStatement(java.lang.String,android.database.sqlite.SQLiteStatement,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: void bindValuesToSqliteStatement(java.lang.String,android.database.sqlite.SQLiteStatement,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: void bindValuesToSqliteStatement(java.lang.String,android.database.sqlite.SQLiteStatement,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: void bindValuesToSqliteStatement(java.lang.String,android.database.sqlite.SQLiteStatement,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: void bindValuesToSqliteStatement(java.lang.String,android.database.sqlite.SQLiteStatement,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: void bindValuesToSqliteStatement(java.lang.String,android.database.sqlite.SQLiteStatement,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.urbanairship.UrbanAirshipProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: void bindValuesToSqliteStatement(java.lang.String,android.database.sqlite.SQLiteStatement,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: void bindValuesToSqliteStatement(java.lang.String,android.database.sqlite.SQLiteStatement,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: void bindValuesToSqliteStatement(java.lang.String,android.database.sqlite.SQLiteStatement,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: void bindValuesToSqliteStatement(java.lang.String,android.database.sqlite.SQLiteStatement,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.urbanairship.PreferencesDataManager: void bindValuesToSqliteStatement(java.lang.String,android.database.sqlite.SQLiteStatement,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.urbanairship.util.DataManager: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: void onCreate(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.urbanairship.PreferencesDataManager: void onDowngrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.urbanairship.PreferencesDataManager: void onCreate(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: void onDowngrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.net.URL toURL()>
+Caller: <ti.modules.titanium.media.TiCameraActivity: void stopVideoCapture()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.urbanairship.util.DataManager: java.util.List bulkInsert(java.lang.String,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.urbanairship.util.DataManager: java.lang.String migrateDatabase(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.urbanairship.util.DataManager: java.lang.String migrateDatabase(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <org.appcelerator.kroll.util.KrollStreamHelper: void pump(java.io.InputStream,java.io.OutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <org.appcelerator.kroll.util.KrollAssetHelper: java.lang.String readAsset(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.urbanairship.util.DataManager: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <org.appcelerator.titanium.util.TiUrl: org.appcelerator.titanium.util.TiUrl normalizeWindowUrl(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <org.appcelerator.titanium.util.TiFileHelper: java.io.File getDataDirectory(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.urbanairship.widget.UAWebView: java.lang.String getCachePath()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.urbanairship.util.DataManager: java.lang.String migrateDatabase(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.google.android.gms.common.util.zzx: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Boolean getAsBoolean(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: void bindValuesToSqliteStatement(java.lang.String,android.database.sqlite.SQLiteStatement,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Boolean getAsBoolean(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: void bindValuesToSqliteStatement(java.lang.String,android.database.sqlite.SQLiteStatement,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Boolean getAsBoolean(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: void bindValuesToSqliteStatement(java.lang.String,android.database.sqlite.SQLiteStatement,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.appcelerator.titanium.TiBlob: byte[] getBytes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.appcelerator.titanium.TiBlob: byte[] getBytes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.appcelerator.titanium.TiBlob: byte[] getBytes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.appcelerator.titanium.TiBlob: byte[] getBytes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.google.android.gms.iid.zzd: void zzkq(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <org.appcelerator.titanium.TiBlob: java.lang.String guessAdditionalContentTypeFromStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <org.appcelerator.kroll.util.KrollAssetHelper: java.lang.String readAsset(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <org.appcelerator.kroll.util.KrollStreamHelper: void pump(java.io.InputStream,java.io.OutputStream,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.appcelerator.aps.APSAnalyticsHelper: java.lang.String getArchitecture()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <org.appcelerator.titanium.TiBlob: int getLength()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <org.appcelerator.titanium.io.TiFile: long size()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.urbanairship.util.DataManager: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String guessContentTypeFromStream(java.io.InputStream)>
+Caller: <org.appcelerator.titanium.TiBlob: java.lang.String guessContentTypeFromStream()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: void execute()>
+Caller: <com.urbanairship.util.DataManager: boolean tryExecuteStatement(java.lang.String,android.database.sqlite.SQLiteStatement,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.urbanairship.util.DataManager: java.util.List bulkInsert(java.lang.String,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.urbanairship.util.DataManager: java.util.List bulkInsert(java.lang.String,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.urbanairship.util.DataManager: java.util.List bulkInsert(java.lang.String,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.urbanairship.util.DataManager: java.lang.String migrateDatabase(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzx: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.appcelerator.titanium.util.TiFileHelper: java.io.File getDataDirectory(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzx: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.urbanairship.util.DataManager: java.lang.String migrateDatabase(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.urbanairship.util.DataManager: java.lang.String migrateDatabase(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.iid.zzd: void zzkq(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.urbanairship.util.DataManager: java.lang.String migrateDatabase(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.urbanairship.widget.UAWebView: java.lang.String getCachePath()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.urbanairship.util.DataManager: java.util.List bulkInsert(java.lang.String,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.net.URI toURI()>
+Caller: <ti.modules.titanium.media.TiCameraActivity: void stopVideoCapture()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <org.appcelerator.titanium.io.TiFile: java.io.InputStream getInputStream()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.urbanairship.util.DataManager: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.urbanairship.PreferencesDataManager: android.database.sqlite.SQLiteStatement getInsertStatement(java.lang.String,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.urbanairship.RichPushDataManager: android.database.sqlite.SQLiteStatement getInsertStatement(java.lang.String,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------

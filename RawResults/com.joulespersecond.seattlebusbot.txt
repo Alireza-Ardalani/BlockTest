@@ -1,0 +1,2038 @@
+Time1: 265.710588382
+Time2: 147.194187785
+Worker: 220
+UI: 288
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <org.onebusaway.android.util.RegionUtils: void saveToProvider(android.content.Context,java.util.List)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <org.onebusaway.android.directions.tasks.TripRequest: org.opentripplanner.api.ws.Response requestPlan(org.opentripplanner.api.ws.Request,java.lang.String,java.lang.String,boolean)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <org.onebusaway.android.io.ObaDefaultConnection: void <init>(android.net.Uri)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer: java.lang.Object _parse(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer: java.lang.Object _parse(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer: java.lang.Object _parse(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <org.onebusaway.android.io.ObaDefaultConnection: void <init>(android.net.Uri)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper: java.io.Reader constructReader()>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <org.onebusaway.android.travelbehavior.io.worker.DestinationReminderReaderWorker: void readAndPostDestinationReminderData()>
+Thread: [<org.onebusaway.android.travelbehavior.io.worker.DestinationReminderReaderWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <org.onebusaway.android.travelbehavior.io.worker.TripPlanDataReaderWorker: void readAndPostTripPlanData()>
+Thread: [<org.onebusaway.android.travelbehavior.io.worker.TripPlanDataReaderWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <org.onebusaway.android.travelbehavior.io.worker.ArrivalsAndDeparturesDataReaderWorker: void readAndPostArrivalsAndDeparturesData()>
+Thread: [<org.onebusaway.android.travelbehavior.io.worker.ArrivalsAndDeparturesDataReaderWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [<com.onebusaway.plausible.android.NetworkFirstPlausibleClient$event$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [<com.onebusaway.plausible.android.NetworkFirstPlausibleClient$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.MergedStream: int read(byte[],int,int)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.MergedStream: int read(byte[],int,int)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF32Reader: boolean loadMore(int)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF32Reader: boolean loadMore(int)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.MergedStream: int read(byte[],int,int)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF32Reader: boolean loadMore(int)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: void _closeInput()>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: void _closeInput()>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: void _closeInput()>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: int hashCode()>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.'annotation'.ObjectIdGenerator$IdKey: void <init>(java.lang.Class,java.lang.Class,java.lang.Object)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.'annotation'.ObjectIdGenerator$IdKey: void <init>(java.lang.Class,java.lang.Class,java.lang.Object)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: int hashCode()>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.core.JsonLocation: int hashCode()>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.core.JsonLocation: int hashCode()>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.core.JsonLocation: int hashCode()>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.'annotation'.ObjectIdGenerator$IdKey: void <init>(java.lang.Class,java.lang.Class,java.lang.Object)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: int hashCode()>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.onebusaway.android.nav.NavigationUploadWorker: void uploadLog(java.lang.String)>
+Thread: [<org.onebusaway.android.nav.NavigationUploadWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <org.onebusaway.android.io.ObaDefaultConnection: void <init>(android.net.Uri)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <org.onebusaway.android.directions.tasks.TripRequest: org.opentripplanner.api.ws.Response requestPlan(org.opentripplanner.api.ws.Request,java.lang.String,java.lang.String,boolean)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <org.onebusaway.android.io.ObaDefaultConnection: void <init>(android.net.Uri)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <org.onebusaway.android.map.googlemapsv2.StopOverlay: void loadIcons()>
+Thread: [<org.onebusaway.android.map.googlemapsv2.BaseMapFragment$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <org.onebusaway.android.map.googlemapsv2.StopOverlay: void loadIcons()>
+Thread: [<org.onebusaway.android.report.connection.ServiceListTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.databind.util.TokenBuffer$Parser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.databind.node.TreeTraversingParser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.databind.util.TokenBuffer$Parser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.databind.node.TreeTraversingParser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.databind.node.TreeTraversingParser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.databind.util.TokenBuffer$Parser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <org.onebusaway.android.nav.NavigationUploadWorker: void uploadLog(java.lang.String)>
+Thread: [<org.onebusaway.android.nav.NavigationUploadWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<org.onebusaway.android.travelbehavior.io.worker.ArrivalsAndDeparturesDataReaderWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<org.onebusaway.android.travelbehavior.io.worker.TripPlanDataReaderWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<org.onebusaway.android.travelbehavior.io.worker.DestinationReminderReaderWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<org.onebusaway.android.nav.NavigationUploadWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.onebusaway.plausible.android.NetworkFirstPlausibleClient$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [<com.onebusaway.plausible.android.NetworkFirstPlausibleClient$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: boolean isEmpty(com.fasterxml.jackson.databind.SerializerProvider,java.util.Map)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: boolean _pojoEquals(com.fasterxml.jackson.databind.node.POJONode)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void _writeNullKeyedEntry(com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void serializeOptionalFields(java.util.Map,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: boolean _pojoEquals(com.fasterxml.jackson.databind.node.POJONode)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void serializeTypedFields(java.util.Map,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void serializeOptionalFields(java.util.Map,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.deser.impl.ReadableObjectId$Referring: boolean hasId(java.lang.Object)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void _writeNullKeyedEntry(com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.util.RawValue: boolean equals(java.lang.Object)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: boolean isEmpty(com.fasterxml.jackson.databind.SerializerProvider,java.util.Map)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void serializeTypedFields(java.util.Map,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: boolean isEmpty(com.fasterxml.jackson.databind.SerializerProvider,java.util.Map)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void _writeNullKeyedEntry(com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void serializeTypedFields(java.util.Map,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: boolean isEmpty(com.fasterxml.jackson.databind.SerializerProvider,java.util.Map)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: boolean isEmpty(com.fasterxml.jackson.databind.SerializerProvider,java.util.Map)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: boolean isEmpty(com.fasterxml.jackson.databind.SerializerProvider,java.util.Map)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.util.RawValue: boolean equals(java.lang.Object)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: boolean equals(java.lang.Object)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: boolean _pojoEquals(com.fasterxml.jackson.databind.node.POJONode)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.deser.impl.ReadableObjectId$Referring: boolean hasId(java.lang.Object)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: boolean equals(java.lang.Object)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.util.RawValue: boolean equals(java.lang.Object)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: boolean equals(java.lang.Object)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void serializeOptionalFields(java.util.Map,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.deser.impl.ReadableObjectId$Referring: boolean hasId(java.lang.Object)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: boolean isEmpty(com.fasterxml.jackson.databind.SerializerProvider,java.util.Map)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: boolean _pojoEquals(com.fasterxml.jackson.databind.node.POJONode)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void _writeNullKeyedEntry(com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void serializeOptionalFields(java.util.Map,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: boolean _pojoEquals(com.fasterxml.jackson.databind.node.POJONode)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void serializeTypedFields(java.util.Map,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void serializeOptionalFields(java.util.Map,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.deser.impl.ReadableObjectId$Referring: boolean hasId(java.lang.Object)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void _writeNullKeyedEntry(com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.util.RawValue: boolean equals(java.lang.Object)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: boolean isEmpty(com.fasterxml.jackson.databind.SerializerProvider,java.util.Map)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void serializeTypedFields(java.util.Map,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: boolean isEmpty(com.fasterxml.jackson.databind.SerializerProvider,java.util.Map)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void _writeNullKeyedEntry(com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void serializeTypedFields(java.util.Map,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: boolean isEmpty(com.fasterxml.jackson.databind.SerializerProvider,java.util.Map)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: boolean isEmpty(com.fasterxml.jackson.databind.SerializerProvider,java.util.Map)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: boolean isEmpty(com.fasterxml.jackson.databind.SerializerProvider,java.util.Map)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.util.RawValue: boolean equals(java.lang.Object)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: boolean equals(java.lang.Object)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: boolean _pojoEquals(com.fasterxml.jackson.databind.node.POJONode)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.deser.impl.ReadableObjectId$Referring: boolean hasId(java.lang.Object)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: boolean equals(java.lang.Object)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.util.RawValue: boolean equals(java.lang.Object)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: boolean equals(java.lang.Object)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void serializeOptionalFields(java.util.Map,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.deser.impl.ReadableObjectId$Referring: boolean hasId(java.lang.Object)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: java.lang.String getHostName()>
+Caller: <com.fasterxml.jackson.databind.ser.std.InetSocketAddressSerializer: void serialize(java.net.InetSocketAddress,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: java.lang.String getHostName()>
+Caller: <com.fasterxml.jackson.databind.ser.std.InetSocketAddressSerializer: void serialize(java.net.InetSocketAddress,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: java.lang.String getHostName()>
+Caller: <com.fasterxml.jackson.databind.ser.std.InetSocketAddressSerializer: void serialize(java.net.InetSocketAddress,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: int read(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: boolean _loadMore()>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: int read(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: boolean _loadMore()>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: int read(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: boolean _loadMore()>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _prependOrWriteCharacterEscape(char[],int,int,char,int)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _prependOrWriteCharacterEscape(char,int)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _prependOrWriteCharacterEscape(char,int)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _prependOrWriteCharacterEscape(char[],int,int,char,int)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _prependOrWriteCharacterEscape(char[],int,int,char,int)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _prependOrWriteCharacterEscape(char,int)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <org.onebusaway.android.util.RegionUtils: void saveToProvider(android.content.Context,java.util.List)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <org.onebusaway.android.util.RegionUtils: void saveToProvider(android.content.Context,java.util.List)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.util.RegionUtils: void saveToProvider(android.content.Context,java.util.List)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.util.RegionUtils: void saveToProvider(android.content.Context,java.util.List)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.util.RegionUtils: void saveToProvider(android.content.Context,java.util.List)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.onebusaway.plausible.android.NetworkFirstPlausibleClient$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [<com.onebusaway.plausible.android.NetworkFirstPlausibleClient$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.onebusaway.plausible.android.NetworkFirstPlausibleClient: java.lang.Object suspendEvent$plausible_release(com.onebusaway.plausible.android.Event,kotlin.coroutines.Continuation)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.onebusaway.plausible.android.NetworkFirstPlausibleClient: java.lang.Object suspendEvent$plausible_release(com.onebusaway.plausible.android.Event,kotlin.coroutines.Continuation)>
+Thread: [<com.onebusaway.plausible.android.NetworkFirstPlausibleClient$event$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.fasterxml.jackson.core.io.UTF32Reader: boolean loadMore(int)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.fasterxml.jackson.core.io.UTF32Reader: boolean loadMore(int)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.fasterxml.jackson.core.io.UTF32Reader: boolean loadMore(int)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<org.onebusaway.android.travelbehavior.io.worker.DestinationReminderReaderWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<org.onebusaway.android.nav.NavigationUploadWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<org.onebusaway.android.travelbehavior.io.worker.ArrivalsAndDeparturesDataReaderWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<org.onebusaway.android.travelbehavior.io.worker.TripPlanDataReaderWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: java.lang.StringBuilder _appendSourceDesc(java.lang.StringBuilder)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.MediaType: java.nio.charset.Charset charset(java.nio.charset.Charset)>
+Thread: [<com.onebusaway.plausible.android.NetworkFirstPlausibleClient$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: java.lang.StringBuilder _appendSourceDesc(java.lang.StringBuilder)>
+Thread: [<org.onebusaway.android.travelbehavior.io.worker.ArrivalsAndDeparturesDataReaderWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: java.lang.StringBuilder _appendSourceDesc(java.lang.StringBuilder)>
+Thread: [<org.onebusaway.android.travelbehavior.io.worker.TripPlanDataReaderWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: java.lang.StringBuilder _appendSourceDesc(java.lang.StringBuilder)>
+Thread: [<org.onebusaway.android.travelbehavior.io.worker.DestinationReminderReaderWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.MediaType: java.nio.charset.Charset charset(java.nio.charset.Charset)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: java.lang.StringBuilder _appendSourceDesc(java.lang.StringBuilder)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: java.lang.StringBuilder _appendSourceDesc(java.lang.StringBuilder)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: java.lang.StringBuilder _appendSourceDesc(java.lang.StringBuilder)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.MediaType: java.nio.charset.Charset charset(java.nio.charset.Charset)>
+Thread: [<com.onebusaway.plausible.android.NetworkFirstPlausibleClient$event$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF32Reader: boolean loadMore(int)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: boolean _loadMore()>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: boolean _loadMore()>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF32Reader: boolean loadMore(int)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper: boolean ensureLoaded(int)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _readMore(java.io.InputStream,byte[],int,int,int)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _readMore(java.io.InputStream,byte[],int,int,int)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.MergedStream: int read(byte[],int,int)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.MergedStream: int read(byte[],int,int)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: boolean _loadMore()>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF32Reader: boolean loadMore(int)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _readMore(java.io.InputStream,byte[],int,int,int)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.MergedStream: int read(byte[],int,int)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: int hashCode()>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.'annotation'.ObjectIdGenerator$IdKey: void <init>(java.lang.Class,java.lang.Class,java.lang.Object)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.'annotation'.ObjectIdGenerator$IdKey: void <init>(java.lang.Class,java.lang.Class,java.lang.Object)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: int hashCode()>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.core.JsonLocation: int hashCode()>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.core.JsonLocation: int hashCode()>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.core.JsonLocation: int hashCode()>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.'annotation'.ObjectIdGenerator$IdKey: void <init>(java.lang.Class,java.lang.Class,java.lang.Object)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: int hashCode()>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <org.onebusaway.android.io.ObaDefaultConnection: java.io.Reader post(java.lang.String)>
+Thread: [<org.onebusaway.android.ui.survey.SurveyManager$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <org.onebusaway.android.io.ObaDefaultConnection: java.io.Reader post(java.lang.String)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [<org.onebusaway.android.directions.tasks.TripRequest: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [<org.onebusaway.android.region.ObaRegionsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <org.onebusaway.android.nav.NavigationUploadWorker: void uploadLog(java.lang.String)>
+Thread: [<org.onebusaway.android.nav.NavigationUploadWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.onebusaway.plausible.android.NetworkFirstPlausibleClient$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [<com.onebusaway.plausible.android.NetworkFirstPlausibleClient$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<org.onebusaway.android.travelbehavior.io.worker.DestinationReminderReaderWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<org.onebusaway.android.travelbehavior.io.worker.ArrivalsAndDeparturesDataReaderWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<org.onebusaway.android.travelbehavior.io.worker.TripPlanDataReaderWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<org.onebusaway.android.nav.NavigationUploadWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <org.onebusaway.android.nav.NavigationUploadWorker: void uploadLog(java.lang.String)>
+Thread: [<org.onebusaway.android.nav.NavigationUploadWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.google.android.gms.common.util.IOUtils: long copyStream(java.io.InputStream,java.io.OutputStream,boolean,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <org.onebusaway.android.provider.ObaContract$ServiceAlerts: android.net.Uri insertOrUpdate(java.lang.String,android.content.ContentValues,boolean,java.lang.Boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <org.onebusaway.android.provider.ObaContract$Routes: android.net.Uri insertOrUpdate(android.content.Context,java.lang.String,android.content.ContentValues,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <org.onebusaway.android.provider.ObaContract$NavStops: android.net.Uri insert(android.content.Context,java.lang.Long,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <org.onebusaway.android.util.RegionUtils: void saveToProvider(android.content.Context,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <org.onebusaway.android.provider.ObaContract$Stops: android.net.Uri insertOrUpdate(java.lang.String,android.content.ContentValues,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <org.onebusaway.android.provider.ObaContract$StopRouteFilters: void set(android.content.Context,java.lang.String,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <org.onebusaway.android.ui.PreferencesActivity: boolean validateUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <org.onebusaway.android.directions.tasks.TripRequest: org.opentripplanner.api.ws.Response requestPlan(org.opentripplanner.api.ws.Request,java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer: java.lang.Object _parse(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <org.onebusaway.android.directions.util.TripRequestBuilder: org.onebusaway.android.directions.tasks.TripRequest execute(android.app.Activity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <org.onebusaway.android.io.ObaDefaultConnection: void <init>(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.OutputStream openOutputStream(android.net.Uri)>
+Caller: <org.onebusaway.android.io.backup.Backup: void backup(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper: java.io.Reader constructReader()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <org.onebusaway.android.provider.ObaProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <org.onebusaway.android.provider.ObaProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <org.onebusaway.android.provider.ObaProvider: java.lang.String getType(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.Cursor queryInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentQueryMap: android.content.ContentValues getValues(java.lang.String)>
+Caller: <org.onebusaway.android.ui.ArrivalsListHeader: void refreshReminder(java.lang.String,android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <org.onebusaway.android.provider.ObaProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <org.onebusaway.android.provider.ObaProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF32Reader: boolean loadMore(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.MergedStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.database.sqlite.SQLiteDatabase getDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: void _closeInput()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.core.JsonLocation: int hashCode()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: int hashCode()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.'annotation'.ObjectIdGenerator$IdKey: void <init>(java.lang.Class,java.lang.Class,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <org.onebusaway.android.directions.util.TripRequestBuilder: java.lang.String getAddressString(org.onebusaway.android.directions.util.CustomAddress)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.onebusaway.android.nav.NavigationService: void setupLog()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <org.onebusaway.android.directions.tasks.TripRequest: org.opentripplanner.api.ws.Response requestPlan(org.opentripplanner.api.ws.Request,java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <org.onebusaway.android.io.ObaDefaultConnection: void <init>(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <org.onebusaway.android.map.googlemapsv2.StopOverlay: void loadIcons()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.databind.node.TreeTraversingParser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <org.onebusaway.android.io.backup.Backup: void backup(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.google.android.gms.common.util.IOUtils: long copyStream(java.io.InputStream,java.io.OutputStream,boolean,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.databind.util.TokenBuffer$Parser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <org.onebusaway.android.nav.NavigationService: void setupLog()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void serializeOptionalFields(java.util.Map,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.deser.impl.ReadableObjectId$Referring: boolean hasId(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: boolean isEmpty(com.fasterxml.jackson.databind.SerializerProvider,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: boolean _pojoEquals(com.fasterxml.jackson.databind.node.POJONode)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void _writeNullKeyedEntry(com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void serializeTypedFields(java.util.Map,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: boolean isEmpty(com.fasterxml.jackson.databind.SerializerProvider,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.util.RawValue: boolean equals(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: boolean equals(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <org.onebusaway.android.util.BackupUtilKt: java.io.File uriToTempFile(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils: void appendValueToSql(java.lang.StringBuilder,java.lang.Object)>
+Caller: <org.onebusaway.android.provider.ObaProvider: java.lang.String tripWhere(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils: void appendValueToSql(java.lang.StringBuilder,java.lang.Object)>
+Caller: <org.onebusaway.android.provider.ObaProvider: java.lang.String where(java.lang.String,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils: void appendValueToSql(java.lang.StringBuilder,java.lang.Object)>
+Caller: <org.onebusaway.android.provider.ObaProvider: java.lang.String tripWhere(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <org.onebusaway.android.provider.ObaProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void serializeOptionalFields(java.util.Map,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.deser.impl.ReadableObjectId$Referring: boolean hasId(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: boolean isEmpty(com.fasterxml.jackson.databind.SerializerProvider,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: boolean _pojoEquals(com.fasterxml.jackson.databind.node.POJONode)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void _writeNullKeyedEntry(com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: void serializeTypedFields(java.util.Map,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.ser.std.MapSerializer: boolean isEmpty(com.fasterxml.jackson.databind.SerializerProvider,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.util.RawValue: boolean equals(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: boolean equals(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: java.lang.String getHostName()>
+Caller: <com.fasterxml.jackson.databind.ser.std.InetSocketAddressSerializer: void serialize(java.net.InetSocketAddress,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <org.onebusaway.android.io.backup.Backup: void backup(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <org.onebusaway.android.map.googlemapsv2.VehicleOverlay: android.graphics.Bitmap createTramIcon(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <org.onebusaway.android.map.googlemapsv2.VehicleOverlay: android.graphics.Bitmap createBusIcon(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <org.onebusaway.android.map.googlemapsv2.VehicleOverlay: android.graphics.Bitmap createFerryIcon(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <org.onebusaway.android.map.googlemapsv2.VehicleOverlay: android.graphics.Bitmap createSubwayIcon(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <org.onebusaway.android.map.googlemapsv2.VehicleOverlay: android.graphics.Bitmap createRailIcon(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils$InsertHelper: long insert(android.content.ContentValues)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils$InsertHelper: long insert(android.content.ContentValues)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils$InsertHelper: long insert(android.content.ContentValues)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils$InsertHelper: long insert(android.content.ContentValues)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils$InsertHelper: long insert(android.content.ContentValues)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils$InsertHelper: long insert(android.content.ContentValues)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils$InsertHelper: long insert(android.content.ContentValues)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils$InsertHelper: long insert(android.content.ContentValues)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils$InsertHelper: long insert(android.content.ContentValues)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils$InsertHelper: long insert(android.content.ContentValues)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils$InsertHelper: long insert(android.content.ContentValues)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.onebusaway.android.io.backup.Backup: void backup(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.onebusaway.android.io.backup.Backup: void backup(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <org.onebusaway.android.provider.ObaProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <org.onebusaway.android.provider.ObaProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <org.onebusaway.android.provider.ObaProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <org.onebusaway.android.provider.ObaProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: int read(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: boolean _loadMore()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _prependOrWriteCharacterEscape(char[],int,int,char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _prependOrWriteCharacterEscape(char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <org.onebusaway.android.util.RegionUtils: void saveToProvider(android.content.Context,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <org.onebusaway.android.util.RegionUtils: void saveToProvider(android.content.Context,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void dropTables(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void dropTables(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void dropTables(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void dropTables(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void bootstrapDatabase(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void dropTables(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void bootstrapDatabase(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void dropTables(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void dropTables(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void dropTables(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void dropTables(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void dropTables(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void dropTables(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void createTripsTable(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int updateInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaContract$NavStops: android.net.Uri insert(android.content.Context,java.lang.Long,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaContract$StopRouteFilters: void set(android.content.Context,java.lang.String,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.util.RegionUtils: void saveToProvider(android.content.Context,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.util.RegionUtils: void saveToProvider(android.content.Context,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.util.RegionUtils: void saveToProvider(android.content.Context,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <org.onebusaway.android.directions.util.JacksonConfig: java.io.Serializable readFromCache(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <org.onebusaway.android.io.backup.Backup: void restore(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <org.onebusaway.android.ui.FeedbackActivity: void deleteLog()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.onebusaway.plausible.android.NetworkFirstPlausibleClient: java.lang.Object suspendEvent$plausible_release(com.onebusaway.plausible.android.Event,kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <org.onebusaway.android.nav.FeedbackReceiver: void deleteLog(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <org.onebusaway.android.io.backup.Backup: void restore(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <org.onebusaway.android.io.backup.Backup: void backup(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.fasterxml.jackson.core.io.UTF32Reader: boolean loadMore(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentQueryMap: void <init>(android.database.Cursor,java.lang.String,boolean,android.os.Handler)>
+Caller: <org.onebusaway.android.ui.ArrivalsListFragment$TripsForStopCallback: void onLoadFinished(androidx.loader.content.Loader,android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.MediaType: java.nio.charset.Charset charset(java.nio.charset.Charset)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: java.lang.StringBuilder _appendSourceDesc(java.lang.StringBuilder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: boolean _loadMore()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper: boolean ensureLoaded(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF32Reader: boolean loadMore(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.google.android.gms.common.util.IOUtils: long copyStream(java.io.InputStream,java.io.OutputStream,boolean,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _readMore(java.io.InputStream,byte[],int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.MergedStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.core.JsonLocation: int hashCode()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: int hashCode()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.'annotation'.ObjectIdGenerator$IdKey: void <init>(java.lang.Class,java.lang.Class,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <org.onebusaway.android.io.ObaDefaultConnection: java.io.Reader post(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaProvider: int deleteInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <org.onebusaway.android.provider.ObaProvider: android.net.Uri insertInternal(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaContract$Routes: android.net.Uri insertOrUpdate(android.content.Context,java.lang.String,android.content.ContentValues,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaContract$Stops: boolean markAsFavorite(android.content.Context,android.net.Uri,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.ui.ArrivalsListFragment: void setUserStopName(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaContract$Stops: android.net.Uri insertOrUpdate(java.lang.String,android.content.ContentValues,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaContract$ServiceAlerts: int hideAllAlerts()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.onebusaway.android.provider.ObaContract$ServiceAlerts: android.net.Uri insertOrUpdate(java.lang.String,android.content.ContentValues,boolean,java.lang.Boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <org.onebusaway.android.util.BackupUtilKt: java.io.File uriToTempFile(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------

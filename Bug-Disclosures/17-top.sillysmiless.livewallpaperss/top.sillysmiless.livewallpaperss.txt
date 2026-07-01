@@ -1,0 +1,46 @@
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <sillysmiless.library.utils.FileUtils: java.lang.String getFolderName(java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <sillysmiless.library.utils.FileUtils: java.lang.String getFolderName(java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <sillysmiless.library.home.ui.GalleryActivity: void getGallery()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <sillysmiless.library.home.ui.VideoLiveWallpaperService$VideoEngine: void onSurfaceCreated(android.view.SurfaceHolder)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <sillysmiless.library.utils.FileUtils: void notifySystemGallery(android.content.Context,java.io.File)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <sillysmiless.library.home.ui.GalleryActivity: void getGallery()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <sillysmiless.library.home.ui.PreviewLiveWallpeprtActivity: java.lang.String saveVideoToInternalStorage(android.content.Context,java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <sillysmiless.library.editor.ui.EditorActivity: java.lang.String saveVideoToInternalStorage(android.content.Context,java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <sillysmiless.library.home.ui.GalleryActivity: void getGallery()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <sillysmiless.library.editor.ui.EditorActivity: java.lang.String saveVideoToInternalStorage(android.content.Context,java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <sillysmiless.library.home.ui.PreviewLiveWallpeprtActivity: java.lang.String saveVideoToInternalStorage(android.content.Context,java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------

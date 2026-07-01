@@ -1,0 +1,26 @@
+Time1: 6.66572234
+Time2: 0.290756367
+Worker: 2
+UI: 3
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.adobe.air.InstallOfferPingUtils$1: java.lang.Integer doInBackground(java.lang.String[])>
+Thread: [<com.adobe.air.InstallOfferPingUtils$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.adobe.air.InstallOfferPingUtils$1: java.lang.Integer doInBackground(java.lang.String[])>
+Thread: [<com.adobe.air.InstallOfferPingUtils$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.adobe.air.InstallOfferPingUtils: void PingAndExit(android.app.Activity,java.lang.String,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.adobe.air.InstallOfferPingUtils$1: java.lang.Integer doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.adobe.air.InstallOfferPingUtils$1: java.lang.Integer doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------

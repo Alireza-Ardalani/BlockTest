@@ -1,0 +1,2022 @@
+Time1: 570.629634553
+Time2: 151.780563251
+Worker: 403
+UI: 101
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.mixpanel.android.util.HttpService: byte[] slurp(java.io.InputStream)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.appsflyer.internal.AFc1rSDK: void AFAdRevenueData()>
+Thread: [<com.appsflyer.internal.AFa1uSDK$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int rewriteEventDataWithProperties(java.util.Map,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+Caller: <com.mixpanel.android.util.HttpService$1: void run()>
+Thread: [<com.mixpanel.android.util.HttpService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: java.lang.String readLine()>
+Caller: <com.superwall.sdk.analytics.CPUInfo: kotlin.Pair minMaxFrequencyForCore(int)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$enrichmentDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: java.lang.String readLine()>
+Caller: <com.superwall.sdk.analytics.CPUInfo: kotlin.Pair minMaxFrequencyForCore(int)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$attributesDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: java.lang.String readLine()>
+Caller: <com.superwall.sdk.analytics.CPUInfo: long frequencyForCore(int)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$attributesDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: java.lang.String readLine()>
+Caller: <com.superwall.sdk.analytics.CPUInfo: kotlin.Pair minMaxFrequencyForCore(int)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$attributesDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: java.lang.String readLine()>
+Caller: <com.superwall.sdk.analytics.CPUInfo: kotlin.Pair minMaxFrequencyForCore(int)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$enrichmentDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: java.lang.String readLine()>
+Caller: <com.superwall.sdk.analytics.CPUInfo: long frequencyForCore(int)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$enrichmentDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.Superwall$setup$1$1$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsflyer.internal.AFc1rSDK: void getCurrencyIso4217Code()>
+Thread: [<com.appsflyer.internal.AFa1uSDK$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$attributesDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.config.PaywallPreload$preloadAllPaywalls$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter$MPDatabaseHelper: boolean aboveMemThreshold()>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$27: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.store.StoreManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.paywall.request.PaywallRequestManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.utilities.ErrorTracker$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.config.ConfigManager$handleConfigUpdate$3: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$enrichmentDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsflyer.internal.AFc1rSDK: void AFAdRevenueData()>
+Thread: [<com.appsflyer.internal.AFa1uSDK$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.config.ConfigManager$handleConfigUpdate$3: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$enrichmentDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.Superwall$delegate$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.config.Assignments$getAssignments$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.identity.IdentityManager$configure$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.utilities.ErrorTracker$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$27: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$attributesDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.storage.Cache$write$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.store.StoreManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.config.PaywallPreload$preloadAllPaywalls$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.paywall.request.PaywallRequestManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.Superwall$preloadPaywalls$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$3: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsflyer.internal.AFc1rSDK: void getCurrencyIso4217Code()>
+Thread: [<com.appsflyer.internal.AFa1uSDK$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.identity.IdentityManager$configure$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.Superwall$delegate$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.Superwall$setup$1$1$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.config.Assignments$getAssignments$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$3: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.Superwall$preloadPaywalls$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$28: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$21: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$21: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$28: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.store.transactions.TransactionManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [<com.superwall.sdk.store.transactions.TransactionManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int rewriteEventDataWithProperties(java.util.Map,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int pushAnonymousUpdatesToPeopleDb(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int pushAnonymousUpdatesToPeopleDb(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int rewriteEventDataWithProperties(java.util.Map,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$3: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.appsflyer.internal.AFc1rSDK: void getCurrencyIso4217Code()>
+Thread: [<com.appsflyer.internal.AFa1uSDK$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.Superwall$preloadPaywalls$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$enrichmentDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$28: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.paywall.request.PaywallRequestManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$21: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.store.StoreManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.config.Assignments$getAssignments$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$27: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.Superwall$delegate$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.identity.IdentityManager$configure$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.storage.Cache$write$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.Superwall$setup$1$1$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.appsflyer.internal.AFc1rSDK: void getCurrencyIso4217Code()>
+Thread: [<com.appsflyer.internal.AFa1uSDK$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.store.transactions.TransactionManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.config.PaywallPreload$preloadAllPaywalls$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.config.ConfigManager$handleConfigUpdate$3: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.utilities.ErrorTracker$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$attributesDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int rewriteEventDataWithProperties(java.util.Map,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int pushAnonymousUpdatesToPeopleDb(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: long getUsableSpace()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter$MPDatabaseHelper: boolean aboveMemThreshold()>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.mixpanel.android.util.LegacyVersionUtils: void removeLegacyResidualImageFiles(java.io.File)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void flush()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.appsflyer.internal.AFc1aSDK: boolean getRevenue(java.net.HttpURLConnection,long)>
+Thread: [<com.appsflyer.internal.AFd1nSDK$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: void cleanupEvents(long,com.mixpanel.android.mpmetrics.MPDbAdapter$Table)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: void cleanupAllEvents(com.mixpanel.android.mpmetrics.MPDbAdapter$Table,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int pushAnonymousUpdatesToPeopleDb(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: void cleanupEvents(java.lang.String,com.mixpanel.android.mpmetrics.MPDbAdapter$Table,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: void cleanupEvents(long,com.mixpanel.android.mpmetrics.MPDbAdapter$Table)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: android.database.sqlite.SQLiteDatabase $r8$lambda$r0gdOZu0LN8RFPU64_YFxoLiMZU(com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: android.database.sqlite.SQLiteDatabase $r8$lambda$r0gdOZu0LN8RFPU64_YFxoLiMZU(com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: void cleanupAllEvents(com.mixpanel.android.mpmetrics.MPDbAdapter$Table,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int pushAnonymousUpdatesToPeopleDb(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: android.database.sqlite.SQLiteDatabase $r8$lambda$r0gdOZu0LN8RFPU64_YFxoLiMZU(com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: android.database.sqlite.SQLiteDatabase $r8$lambda$r0gdOZu0LN8RFPU64_YFxoLiMZU(com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: android.database.sqlite.SQLiteDatabase $r8$lambda$r0gdOZu0LN8RFPU64_YFxoLiMZU(com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int addJSON(org.json.JSONObject,java.lang.String,com.mixpanel.android.mpmetrics.MPDbAdapter$Table)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: android.database.sqlite.SQLiteDatabase $r8$lambda$r0gdOZu0LN8RFPU64_YFxoLiMZU(com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: void cleanupEvents(java.lang.String,com.mixpanel.android.mpmetrics.MPDbAdapter$Table,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int rewriteEventDataWithProperties(java.util.Map,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.appsflyer.internal.AFc1rSDK: void AFAdRevenueData()>
+Thread: [<com.appsflyer.internal.AFa1uSDK$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.mixpanel.android.util.LegacyVersionUtils: void removeLegacyResidualImageFiles(java.io.File)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$21: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<com.superwall.sdk.store.StoreManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<com.superwall.sdk.utilities.ErrorTracker$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<com.superwall.sdk.store.transactions.TransactionManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<com.superwall.sdk.paywall.request.PaywallRequestManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$enrichmentDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$28: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$3: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$27: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.appsflyer.internal.AFc1aSDK: java.lang.String AFAdRevenueData(java.net.HttpURLConnection)>
+Thread: [<com.appsflyer.internal.AFd1nSDK$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<com.superwall.sdk.Superwall$delegate$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.superwall.sdk.analytics.CPUInfo: kotlin.Pair minMaxFrequencyForCore(int)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$enrichmentDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.superwall.sdk.analytics.CPUInfo: long frequencyForCore(int)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$attributesDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.superwall.sdk.analytics.CPUInfo: kotlin.Pair minMaxFrequencyForCore(int)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$enrichmentDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.superwall.sdk.analytics.CPUInfo: kotlin.Pair minMaxFrequencyForCore(int)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$attributesDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.superwall.sdk.analytics.CPUInfo: kotlin.Pair minMaxFrequencyForCore(int)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$attributesDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.superwall.sdk.analytics.CPUInfo: long frequencyForCore(int)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$enrichmentDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.mixpanel.android.util.LegacyVersionUtils: void removeLegacyResidualImageFiles(java.io.File)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter$MPDatabaseHelper: void deleteDatabase()>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter$MPDatabaseHelper: boolean aboveMemThreshold()>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter$MPDatabaseHelper: boolean aboveMemThreshold()>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$configDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [<com.superwall.sdk.identity.IdentityManager$configure$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [<com.superwall.sdk.Superwall$setup$1$1$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.appsflyer.internal.AFc1aSDK: boolean getRevenue(java.net.HttpURLConnection,long)>
+Thread: [<com.appsflyer.internal.AFd1nSDK$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: java.lang.String[] generateDataString(com.mixpanel.android.mpmetrics.MPDbAdapter$Table,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.mixpanel.android.util.HttpService: byte[] slurp(java.io.InputStream)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int addJSON(org.json.JSONObject,java.lang.String,com.mixpanel.android.mpmetrics.MPDbAdapter$Table)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int rewriteEventDataWithProperties(java.util.Map,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: java.lang.String[] generateDataString(com.mixpanel.android.mpmetrics.MPDbAdapter$Table,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int pushAnonymousUpdatesToPeopleDb(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.util.List lambda$loadActiveContexts$10(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: java.lang.String[] generateDataString(com.mixpanel.android.mpmetrics.MPDbAdapter$Table,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.cct.CCTDestination: byte[] asByteArray()>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long ensureTransportContext(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long ensureTransportContext(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long ensureTransportContext(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long ensureTransportContext(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long ensureTransportContext(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int addJSON(org.json.JSONObject,java.lang.String,com.mixpanel.android.mpmetrics.MPDbAdapter$Table)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long ensureTransportContext(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int pushAnonymousUpdatesToPeopleDb(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$27: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.store.StoreManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.utilities.ErrorTracker$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$enrichmentDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$28: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.appsflyer.internal.AFa1uSDK$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$3: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.Superwall$delegate$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.appsflyer.internal.AFd1ySDK$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$21: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.calai.App$$ExternalSyntheticLambda1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.paywall.request.PaywallRequestManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFc1aSDK: boolean getRevenue()>
+Thread: [<com.appsflyer.internal.AFd1nSDK$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.appsflyer.internal.AFb1lSDK$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.appsflyer.internal.AFd1nSDK$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.appsflyer.internal.AFb1lSDK$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.store.transactions.TransactionManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.appsflyer.internal.AFa1uSDK$$ExternalSyntheticLambda2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [<com.superwall.sdk.identity.IdentityManager$configure$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$configDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [<com.superwall.sdk.Superwall$setup$1$1$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <com.superwall.sdk.network.NetworkRequestData: com.superwall.sdk.network.NetworkRequestData copyWithUrl(java.net.URI)>
+Thread: [<com.superwall.sdk.Superwall$setup$1$1$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <com.superwall.sdk.network.NetworkRequestData: com.superwall.sdk.network.NetworkRequestData copyWithUrl(java.net.URI)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <com.superwall.sdk.network.NetworkRequestData: com.superwall.sdk.network.NetworkRequestData copyWithUrl(java.net.URI)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$configDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <com.superwall.sdk.network.NetworkRequestData: com.superwall.sdk.network.NetworkRequestData copyWithUrl(java.net.URI)>
+Thread: [<com.superwall.sdk.identity.IdentityManager$configure$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <com.appsflyer.internal.AFi1oSDK: void <init>(android.content.Context)>
+Thread: [<com.appsflyer.internal.AFa1uSDK$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$enrichmentDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$28: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.utilities.ErrorTracker$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$27: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$3: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.Superwall$delegate$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.paywall.request.PaywallRequestManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$21: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.store.StoreManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.store.transactions.TransactionManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$27: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.store.StoreManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.utilities.ErrorTracker$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.Superwall$delegate$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.store.transactions.TransactionManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$3: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$21: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$28: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$enrichmentDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.superwall.sdk.paywall.request.PaywallRequestManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int rewriteEventDataWithProperties(java.util.Map,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.superwall.sdk.billing.GoogleBillingWrapper$Handler$postDelayed$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int pushAnonymousUpdatesToPeopleDb(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.superwall.sdk.store.AutomaticPurchaseController$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$retryBillingServiceConnectionWithExponentialBackoff$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$addProductFlows$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [<com.calai.feature_payments.data.PaymentProcessor$onBillingSetupFinished$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$enrichmentDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$28: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.calai.App$$ExternalSyntheticLambda1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.appsflyer.internal.AFb1lSDK$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.superwall.sdk.utilities.ErrorTracker$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.appsflyer.internal.AFd1nSDK$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$27: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$3: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$21: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.superwall.sdk.Superwall$delegate$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.superwall.sdk.paywall.request.PaywallRequestManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.appsflyer.internal.AFd1ySDK$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.superwall.sdk.store.StoreManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.store.StoreManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$configDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.store.transactions.TransactionManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.appsflyer.internal.AFd1nSDK$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.calai.App$$ExternalSyntheticLambda1: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$21: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.superwall.sdk.store.transactions.TransactionManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.paywall.request.PaywallRequestManager$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.appsflyer.internal.AFb1lSDK$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$3: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [<com.superwall.sdk.Superwall$setup$1$1$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.appsflyer.internal.AFd1ySDK$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$enrichmentDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.appsflyer.internal.AFa1uSDK$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$28: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.network.Network$getEnrichment$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.dependencies.DependencyContainer$27: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFc1aSDK: boolean getRevenue()>
+Thread: [<com.appsflyer.internal.AFd1nSDK$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.Superwall$delegate$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.appsflyer.internal.AFa1uSDK$$ExternalSyntheticLambda2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$5: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.appsflyer.internal.AFa1uSDK$$ExternalSyntheticLambda2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.appsflyer.internal.AFa1uSDK$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.appsflyer.internal.AFb1lSDK$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [<com.superwall.sdk.identity.IdentityManager$configure$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [<com.superwall.sdk.utilities.ErrorTracker$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [<com.appsflyer.internal.AFb1lSDK$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.net.URL toURL()>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [<com.superwall.sdk.config.ConfigManager$fetchConfig$configDeferred$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URI: java.net.URL toURL()>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [<com.superwall.sdk.Superwall$setup$1$1$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URI: java.net.URL toURL()>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URI: java.net.URL toURL()>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [<com.superwall.sdk.identity.IdentityManager$configure$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.appsflyer.internal.AFi1oSDK: void <init>(android.content.Context)>
+Thread: [<com.appsflyer.internal.AFa1uSDK$$ExternalSyntheticLambda4: void run()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.superwall.sdk.web.DeepLinkReferrer: java.util.Map getUrlParams(java.lang.String)>
+Thread: [<com.superwall.sdk.web.WebPaywallRedeemer$9: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.mixpanel.android.util.HttpService: byte[] slurp(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.pairip.VMRunner: byte[] readFullByteArrayFromStream(java.io.InputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$1(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$5(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$3(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$3(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$6(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$6(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$6(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$1(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$3(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$2(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$1(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Cache: java.lang.Object read(com.superwall.sdk.storage.Storable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.mixpanel.android.mpmetrics.MixpanelAPI: void <init>(android.content.Context,java.util.concurrent.Future,java.lang.String,com.mixpanel.android.mpmetrics.MPConfig,boolean,org.json.JSONObject,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.superwall.sdk.storage.Storable$DefaultImpls: java.io.File file(com.superwall.sdk.storage.Storable,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageSize()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getPageCount()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void flush()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: android.database.sqlite.SQLiteDatabase $r8$lambda$r0gdOZu0LN8RFPU64_YFxoLiMZU(com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long getTransportContextId(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.facebook.imagepipeline.platform.DefaultDecoder: com.facebook.common.references.CloseableReference decodeJPEGFromEncodedImageWithColorSpace(com.facebook.imagepipeline.image.EncodedImage,android.graphics.Bitmap$Config,android.graphics.Rect,int,android.graphics.ColorSpace)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.facebook.imagepipeline.platform.DefaultDecoder: com.facebook.common.references.CloseableReference decodeJPEGFromEncodedImageWithColorSpace(com.facebook.imagepipeline.image.EncodedImage,android.graphics.Bitmap$Config,android.graphics.Rect,int,android.graphics.ColorSpace)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.facebook.imagepipeline.platform.DefaultDecoder: com.facebook.common.references.CloseableReference decodeJPEGFromEncodedImageWithColorSpace(com.facebook.imagepipeline.image.EncodedImage,android.graphics.Bitmap$Config,android.graphics.Rect,int,android.graphics.ColorSpace)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.mixpanel.android.util.HttpService: byte[] slurp(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.util.List lambda$loadActiveContexts$10(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzfo: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzfo: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzfo: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.facebook.imageformat.ImageFormatCheckerUtils: byte[] asciiBytes(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.cct.CCTDestination: byte[] asByteArray()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long ensureTransportContext(android.database.sqlite.SQLiteDatabase,com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$recordLogEventDropped$18(java.lang.String,com.google.android.datatransport.runtime.firebase.transport.LogEventDropped$Reason,long,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Long lambda$persist$1$com-google-android-datatransport-runtime-scheduling-persistence-SQLiteEventStore(com.google.android.datatransport.runtime.EventInternal,com.google.android.datatransport.runtime.TransportContext,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <com.superwall.sdk.network.NetworkRequestData: com.superwall.sdk.network.NetworkRequestData copyWithUrl(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(double)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: boolean getMonetizationNetwork(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.appsflyer.internal.AFf1xSDK: java.util.Map r_(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.net.URL toURL()>
+Caller: <com.superwall.sdk.network.RequestExecutor: java.net.HttpURLConnection buildRequest(com.superwall.sdk.network.NetworkRequestData,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.calai.notify.ReminderNotification: void sendReminderNotification(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------

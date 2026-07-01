@@ -1,0 +1,426 @@
+Time1: 1462.715433703
+Time2: 17.875113455
+Worker: 8
+UI: 97
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.pairip.VMRunner: byte[] readFullByteArrayFromStream(java.io.InputStream,byte[])>
+Thread: [<com.ncp.ncpmobile.fragments.LandingFragment$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsflyer.internal.AFg1jSDK: java.lang.String valueOf(java.io.File,java.lang.String)>
+Thread: [<com.appsflyer.internal.AFb1vSDK$AFa1vSDK: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<okhttp3.internal.connection.RealConnectionPool$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.appsflyer.internal.AFg1jSDK: java.lang.String valueOf(java.io.File,java.lang.String)>
+Thread: [<com.appsflyer.internal.AFb1vSDK$AFa1vSDK: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.appsflyer.internal.AFg1jSDK: java.lang.String valueOf(java.io.File,java.lang.String)>
+Thread: [<com.appsflyer.internal.AFb1vSDK$AFa1vSDK: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.appsflyer.internal.AFg1jSDK: java.lang.String valueOf(java.io.File,java.lang.String)>
+Thread: [<com.appsflyer.internal.AFb1vSDK$AFa1vSDK: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.appsflyer.internal.AFg1jSDK: java.lang.String valueOf(java.io.File,java.lang.String)>
+Thread: [<com.appsflyer.internal.AFb1vSDK$AFa1vSDK: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsflyer.internal.AFg1jSDK: boolean AFKeystoreWrapper(java.io.File)>
+Thread: [<com.appsflyer.internal.AFb1vSDK$AFa1vSDK: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.pairip.VMRunner: byte[] readFullByteArrayFromStream(java.io.InputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.appsflyer.internal.AFg1jSDK: java.lang.String valueOf(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.google.android.gms.internal.recaptcha.zzex: com.google.android.gms.internal.recaptcha.zzex zzb(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <org.joda.time.tz.ZoneInfoProvider: java.io.InputStream openResource(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: org.joda.time.DateTimeZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.appsflyer.internal.AFi1uSDK: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: boolean readBoolean()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: boolean readBoolean()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <com.appsflyer.internal.AFb1kSDK: java.lang.String AFKeystoreWrapper(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: org.joda.time.DateTimeZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$Recurrence: org.joda.time.tz.DateTimeZoneBuilder$Recurrence readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String canonicalizeHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.InflaterSource: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.internal.recaptcha.zzeu: void <init>(java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.appsflyer.internal.AFg1jSDK: java.lang.String valueOf(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.appsflyer.internal.AFg1jSDK: java.lang.String valueOf(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.appsflyer.internal.AFg1jSDK: java.lang.String valueOf(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.appsflyer.internal.AFg1jSDK: java.lang.String valueOf(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.urbanairship.javascript.JavaScriptEnvironment: java.lang.String readNativeBridge(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress[] getAllByName(java.lang.String)>
+Caller: <okhttp3.Dns: java.util.List lambda$static$0(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <okhttp3.HttpUrl: java.net.URL url()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <com.appsflyer.internal.AFb1kSDK: java.lang.String AFKeystoreWrapper(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Proxy: void <init>(java.net.Proxy$Type,java.net.SocketAddress)>
+Caller: <okhttp3.OkHttpClient: okhttp3.OkHttpClient$Builder newBuilder()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: org.joda.time.DateTimeZone loadZoneData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: org.joda.time.DateTimeZone loadZoneData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: org.joda.time.DateTimeZone loadZoneData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <com.appsflyer.internal.AFi1uSDK: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.appsflyer.internal.AFb1iSDK: void AFInAppEventParameterName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.appsflyer.internal.AFb1kSDK: java.lang.String valueOf(com.appsflyer.internal.AFd1lSDK,com.appsflyer.internal.AFd1qSDK)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: java.util.Map loadZoneInfoMap(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: java.util.Map loadZoneInfoMap(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.Gson: com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <com.appsflyer.internal.AFb1kSDK: java.lang.String AFKeystoreWrapper(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toUnicode(java.lang.String)>
+Caller: <okhttp3.internal.publicsuffix.PublicSuffixDatabase: java.lang.String getEffectiveTldPlusOne(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.urbanairship.javascript.JavaScriptEnvironment: java.lang.String readNativeBridge(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: long readLong()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsflyer.internal.AFb1kSDK: java.lang.String valueOf(com.appsflyer.internal.AFd1lSDK,com.appsflyer.internal.AFd1qSDK)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.internal.recaptcha.zzeh: boolean zzg(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsflyer.internal.AFg1jSDK: boolean AFKeystoreWrapper(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.urbanairship.iam.view.InAppViewUtils: void loadMediaInfo(com.urbanairship.iam.view.MediaView,com.urbanairship.iam.MediaInfo,com.urbanairship.iam.assets.Assets)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.appsflyer.internal.AFb1iSDK: void AFInAppEventParameterName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.appsflyer.internal.AFb1kSDK: java.lang.String AFKeystoreWrapper(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.appsflyer.internal.AFb1kSDK: java.lang.String AFKeystoreWrapper(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.appsflyer.internal.AFb1kSDK: java.lang.String AFKeystoreWrapper(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.appsflyer.internal.AFb1kSDK: java.lang.String AFKeystoreWrapper(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.ncp.ncpmobile.actions.DecryptAesStringAction: java.lang.String decrypt(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.recaptcha.zzrp: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okio.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.logging.HttpLoggingInterceptor: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.recaptcha.zzrp: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck3.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------

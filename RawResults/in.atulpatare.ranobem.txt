@@ -1,0 +1,242 @@
+Time1: 149.511541702
+Time2: 15.34564037
+Worker: 21
+UI: 38
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <X3.d: android.graphics.Typeface l(android.content.Context,java.io.InputStream)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <X3.d: android.graphics.Typeface l(android.content.Context,java.io.InputStream)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <X3.d: android.graphics.Typeface l(android.content.Context,java.io.InputStream)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <X3.d: android.graphics.Typeface l(android.content.Context,java.io.InputStream)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <X3.l: java.io.File s(android.content.Context)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <F.h: android.graphics.Typeface k(android.content.Context,K.i[],int)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <X3.l: boolean m(java.io.File,java.io.InputStream)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <X3.l: boolean m(java.io.File,java.io.InputStream)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <X3.l: java.nio.MappedByteBuffer t(android.content.Context,android.net.Uri)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <X3.l: java.nio.MappedByteBuffer t(android.content.Context,android.net.Uri)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <F.h: android.graphics.Typeface k(android.content.Context,K.i[],int)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <F.h: android.graphics.Typeface k(android.content.Context,K.i[],int)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <X3.l: void k(java.io.Closeable)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromFile(java.io.File)>
+Caller: <F.h: android.graphics.Typeface k(android.content.Context,K.i[],int)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <X3.l: boolean m(java.io.File,java.io.InputStream)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromFile(java.lang.String)>
+Caller: <X3.d: android.graphics.Typeface l(android.content.Context,java.io.InputStream)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <F.j: android.graphics.Typeface k(android.content.Context,K.i[],int)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <F.l: android.graphics.Typeface k(android.content.Context,K.i[],int)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <X3.l: java.nio.MappedByteBuffer t(android.content.Context,android.net.Uri)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <F.h: android.graphics.Typeface k(android.content.Context,K.i[],int)>
+Thread: [<B2.n: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <X3.l: boolean m(java.io.File,java.io.InputStream)>
+Thread: [<B2.n: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.nio.channels.FileChannel: java.nio.channels.FileLock lock()>
+Caller: <com.bumptech.glide.manager.j: void w()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.bumptech.glide.manager.j: void w()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQueryWithFactory(android.database.sqlite.SQLiteDatabase$CursorFactory,java.lang.String,java.lang.String[],java.lang.String)>
+Caller: <y0.c: android.database.Cursor e(x0.e)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <E3.a: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <E3.a: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.hC: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <E3.a: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.hC: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <Y0.f: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <h1.n: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <E3.a: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <E3.a: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <E3.a: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.hC: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerDefaultNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.bumptech.glide.manager.p: void d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: void execute()>
+Caller: <r0.f: boolean H()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.bumptech.glide.load.data.c: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <C.c: java.lang.String e(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <C.c: java.lang.String e(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.ImageDecoder: android.graphics.drawable.Drawable decodeDrawable(android.graphics.ImageDecoder$Source,android.graphics.ImageDecoder$OnHeaderDecodedListener)>
+Caller: <O.c: android.graphics.drawable.Drawable g(android.graphics.ImageDecoder$Source,g1.b)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.bumptech.glide.load.data.c: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <h1.b: boolean j(java.lang.Object,java.io.File,Y0.i)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <C.c: void d(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <h1.b: boolean j(java.lang.Object,java.io.File,Y0.i)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <h1.b: boolean j(java.lang.Object,java.io.File,Y0.i)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.bumptech.glide.load.data.c: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <C.c: void d(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <h1.b: boolean j(java.lang.Object,java.io.File,Y0.i)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.bumptech.glide.manager.j: void w()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <h1.b: boolean j(java.lang.Object,java.io.File,Y0.i)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.bumptech.glide.manager.j: void w()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.bumptech.glide.manager.j: w0.a a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.bumptech.glide.manager.j: w0.a a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.bumptech.glide.manager.d: void b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: void setWriteAheadLoggingEnabled(boolean)>
+Caller: <y0.h: void setWriteAheadLoggingEnabled(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: void setWriteAheadLoggingEnabled(boolean)>
+Caller: <o0.M: java.lang.Object b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <y0.c: y0.j m(java.lang.String)>
+Thread: [UI]
+-------------------------

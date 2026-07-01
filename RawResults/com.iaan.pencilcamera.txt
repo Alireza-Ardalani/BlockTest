@@ -1,0 +1,130 @@
+Time1: 22.972577175
+Time2: 0.432132573
+Worker: 0
+UI: 31
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.iaan.pencilcamera.FilterManager: void setEffectTexture()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.iaan.pencilcamera.Util: android.graphics.Bitmap resizeBitmap(android.graphics.Bitmap,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.iaan.pencilcamera.FilterManager: void setEffectTexture()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.iaan.pencilcamera.EditorActivity: java.lang.String createAndSaveFileFromBase64Url(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.iaan.pencilcamera.Util: android.net.Uri saveBitmap(android.graphics.Bitmap,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.iaan.pencilcamera.EditorActivity$JavaScriptInterface: void convertBase64StringToFileAndStoreIt(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.ImageDecoder: android.graphics.Bitmap decodeBitmap(android.graphics.ImageDecoder$Source,android.graphics.ImageDecoder$OnHeaderDecodedListener)>
+Caller: <com.iaan.pencilcamera.MainActivity$$ExternalSyntheticApiModelOutline0: android.graphics.Bitmap m(android.graphics.ImageDecoder$Source,android.graphics.ImageDecoder$OnHeaderDecodedListener)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.iaan.pencilcamera.PictureViewFragment: void loadPicture(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.iaan.pencilcamera.Util: java.io.File createSaveFile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.iaan.pencilcamera.Util: java.lang.String getOutputMediaFile(boolean,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.iaan.pencilcamera.EditorActivity: java.lang.String createAndSaveFileFromBase64Url(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.iaan.pencilcamera.EditorActivity: java.lang.String createAndSaveFileFromBase64Url(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.iaan.pencilcamera.Util: java.lang.String getOutputMediaFile(boolean,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.iaan.pencilcamera.EditorActivity: java.lang.String createAndSaveFileFromBase64Url(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.iaan.pencilcamera.Util: java.io.File createSaveFile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.iaan.pencilcamera.EditorActivity$JavaScriptInterface: void convertBase64StringToFileAndStoreIt(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.iaan.pencilcamera.Util: android.net.Uri saveBitmap(android.graphics.Bitmap,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.iaan.pencilcamera.EditorActivity: java.lang.String createAndSaveFileFromBase64Url(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.iaan.pencilcamera.MainActivity: void loadTextures(android.content.res.Resources,int,int,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.iaan.pencilcamera.MainActivity: void loadTextures(android.content.res.Resources,int,int,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.iaan.pencilcamera.MainActivity: void loadTextures(android.content.res.Resources,int,int,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.iaan.pencilcamera.MainActivity: void loadTextures(android.content.res.Resources,int,int,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.iaan.pencilcamera.FilterManager: void setEffectTexture()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.iaan.pencilcamera.VideoPlayerFragment: void capturePicture(com.iaan.pencilcamera.FilterPictureCallback,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.iaan.pencilcamera.Util: android.graphics.Bitmap rotateBitmap(android.graphics.Bitmap,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <com.iaan.pencilcamera.MainActivity$15: void onActivityResult(androidx.activity.result.ActivityResult)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.iaan.pencilcamera.EditorActivity: java.lang.String createAndSaveFileFromBase64Url(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.iaan.pencilcamera.Util: java.io.File createSaveFile(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.iaan.pencilcamera.EditorActivity: java.lang.String createAndSaveFileFromBase64Url(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.iaan.pencilcamera.EditorActivity$JavaScriptInterface: void convertBase64StringToFileAndStoreIt(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int)>
+Caller: <com.iaan.pencilcamera.FilterManager: void setEffectTexture()>
+Thread: [UI]
+-------------------------

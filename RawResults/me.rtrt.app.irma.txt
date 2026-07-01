@@ -1,0 +1,290 @@
+Time1: 34.914521879
+Time2: 3.814691393
+Worker: 1
+UI: 70
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<okhttp3.ConnectionPool$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.transistorsoft.locationmanager.data.a.a: int b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String)>
+Caller: <ch.qos.logback.core.joran.spi.ConfigurationWatchList: java.io.File convertToFile(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.transistorsoft.locationmanager.data.a.c: void prune(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.graphics.Bitmap getIconFromDrawable(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.transistorsoft.locationmanager.BackgroundGeolocationService: android.app.Notification f()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.adobe.phonegap.push.FCMService: void setNotificationLargeIcon(android.os.Bundle,java.lang.String,android.content.res.Resources,android.support.v4.app.NotificationCompat$Builder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <ch.qos.logback.classic.util.ContextInitializer: java.net.URL findConfigFileFromSystemProperties(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromAsset(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromRemote(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriForResourcePath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.google.android.gms.common.util.zzv: java.io.File zzd(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.transistorsoft.locationmanager.logger.b: void start()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromAsset(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriForResourcePath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromRemote(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[],int,int)>
+Caller: <com.mindprod.ledatastream.LEDataInputStream: void readFully(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[],int,int)>
+Caller: <com.mindprod.ledatastream.LEDataInputStream: int readInt()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.adobe.phonegap.push.FCMService: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <ch.qos.logback.core.joran.GenericConfigurator: void doConfigure(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromRemote(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.zzs: java.lang.String zzcj(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: java.io.File getTmpFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.transistorsoft.locationmanager.data.a.c: boolean unlock()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.transistorsoft.locationmanager.data.a.c: void prune(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzv: java.io.File zzd(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ch.qos.logback.classic.util.ContextInitializer: java.net.URL findConfigFileFromSystemProperties(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromPath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.firebase.iid.zzab: void <init>(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzv: java.io.File zzd(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.zzn: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetDecoder: java.nio.CharBuffer decode(java.nio.ByteBuffer)>
+Caller: <brut.androlib.res.decoder.StringBlock: java.lang.String decodeString(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okio.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <brut.androlib.res.decoder.StringBlock: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <brut.androlib.res.decoder.StringBlock: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.graphics.Bitmap getIconFromUri(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.google.firebase.iid.zzab: void <init>(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.transistorsoft.locationmanager.data.a.c: android.database.sqlite.SQLiteDatabase a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.transistorsoft.locationmanager.data.a.a: android.database.sqlite.SQLiteDatabase f()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <com.mindprod.ledatastream.LEDataInputStream: int skipBytes(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.zzs: java.lang.String zzcj(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openOrCreateDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory)>
+Caller: <com.transistorsoft.locationmanager.logger.b: void start()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.transistorsoft.locationmanager.logger.b: java.io.File c(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.transistorsoft.locationmanager.data.a.c: boolean unlock()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.transistorsoft.locationmanager.data.a.c: void prune(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.transistorsoft.locationmanager.logger.b: void start()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.transistorsoft.locationmanager.logger.b$1: void performLogCleanup(android.database.sqlite.SQLiteDatabase,ch.qos.logback.core.util.Duration)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.transistorsoft.locationmanager.logger.b: void start()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.transistorsoft.locationmanager.logger.b: void start()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.adobe.phonegap.push.FCMService: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <ch.qos.logback.classic.util.ContextInitializer: java.net.URL findConfigFileFromSystemProperties(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromRemote(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.transistorsoft.locationmanager.data.a.c: boolean unlock()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.transistorsoft.locationmanager.data.a.c: void prune(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.transistorsoft.locationmanager.data.a.c: boolean unlock()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.internal.Utility: android.os.Bundle parseUrlQueryString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.internal.Utility: android.os.Bundle parseUrlQueryString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.internal.Utility: android.os.Bundle parseUrlQueryString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.transistorsoft.locationmanager.adapter.BackgroundGeolocation: void d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.net.URL toURL()>
+Caller: <ch.qos.logback.classic.util.ContextInitializer: java.net.URL findConfigFileFromSystemProperties(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: void copyFile(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.net.URI toURI()>
+Caller: <ch.qos.logback.classic.util.ContextInitializer: java.net.URL findConfigFileFromSystemProperties(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: void copyFile(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: void copyFile(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <ch.qos.logback.core.joran.spi.ConfigurationWatchList: void addAsFileToWatch(java.net.URL)>
+Thread: [UI]
+-------------------------

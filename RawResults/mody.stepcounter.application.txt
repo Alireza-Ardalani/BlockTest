@@ -1,0 +1,58 @@
+Time1: 20.493881907
+Time2: 0.69333587
+Worker: 0
+UI: 13
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzajd: void zzaN(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <mody.stepcounter.application.persistence.StepCountPersistenceHelper: android.database.sqlite.SQLiteDatabase getDB(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <mody.stepcounter.application.persistence.TrainingPersistenceHelper: android.database.sqlite.SQLiteDatabase getDB(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <mody.stepcounter.application.persistence.WalkingModePersistenceHelper: android.database.sqlite.SQLiteDatabase getDB(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <mody.stepcounter.application.persistence.WalkingModePersistenceHelper: long insert(mody.stepcounter.application.models.WalkingMode,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <mody.stepcounter.application.persistence.StepCountPersistenceHelper: boolean storeStepCounts(android.os.IBinder,android.content.Context,mody.stepcounter.application.models.WalkingMode)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <mody.stepcounter.application.persistence.TrainingPersistenceHelper: long insert(mody.stepcounter.application.models.Training,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.zzajd: void zzaN(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <mody.stepcounter.application.persistence.TrainingPersistenceHelper: int update(mody.stepcounter.application.models.Training,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <mody.stepcounter.application.persistence.WalkingModePersistenceHelper: int update(mody.stepcounter.application.models.WalkingMode,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <mody.stepcounter.application.persistence.WalkingModePersistenceHelper: android.database.Cursor getCursor(java.lang.String,java.lang.String[],android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <mody.stepcounter.application.persistence.StepCountPersistenceHelper: java.util.List getStepCountsForInterval(long,long,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <mody.stepcounter.application.persistence.TrainingPersistenceHelper: android.database.Cursor getCursor(java.lang.String,java.lang.String[],java.lang.String,android.content.Context)>
+Thread: [UI]
+-------------------------

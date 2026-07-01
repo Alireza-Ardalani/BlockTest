@@ -1,0 +1,1614 @@
+Time1: 235.954347046
+Time2: 13.923682924
+Worker: 259
+UI: 143
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void writeToFile(byte[],java.io.File,boolean)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.adjust.sdk.Util: java.lang.Object readObject(android.content.Context,java.lang.String,java.lang.String,java.lang.Class)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.amplitude.android.migration.DatabaseStorage: android.database.Cursor queryDb(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void rename(java.io.File)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void rename(java.io.File)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.GraphRequestAsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void load()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: java.util.List readEventsFromTable(java.lang.String)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.ProgressOutputStream$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.GraphRequestAsyncTask: void onPreExecute()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void rename(java.io.File)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: java.lang.Object getValueFromTable(java.lang.String,java.lang.String)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void rename(java.io.File)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<android.os.AsyncTask: void onPreExecute()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object rollover(kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.id.utilities.FileUtilsKt: void createDirectory(java.io.File)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.appevents.codeless.CodelessMatcher$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.appevents.suggestedevents.ViewObserver$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.appevents.suggestedevents.ViewObserver$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.ProgressOutputStream$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void save()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: void onPreExecute()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<android.os.AsyncTask: void onPreExecute()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.appevents.codeless.CodelessMatcher$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.adjust.sdk.Util: java.lang.Object readObject(android.content.Context,java.lang.String,java.lang.String,java.lang.Class)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.adjust.sdk.Util: java.lang.Object readObject(android.content.Context,java.lang.String,java.lang.String,java.lang.Class)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.amplitude.android.utilities.AndroidNetworkListener: void setupNetworkCallback$android_release()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void injectParametersToPOSTStringBuilder(java.util.Map,java.lang.StringBuilder)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void injectParametersToPOSTStringBuilder(java.util.Map,java.lang.StringBuilder)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object rollover(kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: void onPreExecute()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.appevents.suggestedevents.ViewObserver$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.appevents.codeless.CodelessMatcher$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void writeToFile(byte[],java.io.File,boolean)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.ProgressOutputStream$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<android.os.AsyncTask: void onPreExecute()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.adjust.sdk.Util: void writeObject(java.lang.Object,android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.amplitude.id.utilities.FileUtilsKt: void createDirectory(java.io.File)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.GraphRequestAsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.ProgressOutputStream$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.GraphRequestAsyncTask: void onPreExecute()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<android.os.AsyncTask: void onPreExecute()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.appevents.suggestedevents.ViewObserver$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void createPropertiesFile$core()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.amplitude.android.Configuration: java.io.File getStorageDirectory$android_release()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [<com.facebook.appevents.codeless.CodelessMatcher$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void createPropertiesFile$core()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <com.adjust.sdk.Util: void writeObject(java.lang.Object,android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: java.lang.String generateUrlStringForGET(com.adjust.sdk.ActivityKind,java.lang.String,java.util.Map,java.util.Map,java.util.Map)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.adjust.sdk.network.UtilNetworking$2: javax.net.ssl.HttpsURLConnection generateHttpsURLConnection(java.net.URL)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.zxing.aztec.AztecWriter: com.google.zxing.common.BitMatrix encode(java.lang.String,com.google.zxing.BarcodeFormat,int,int,java.util.Map)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.zxing.pdf417.PDF417Writer: com.google.zxing.common.BitMatrix encode(java.lang.String,com.google.zxing.BarcodeFormat,int,int,java.util.Map)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.zxing.pdf417.PDF417Writer: com.google.zxing.common.BitMatrix encode(java.lang.String,com.google.zxing.BarcodeFormat,int,int,java.util.Map)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.zxing.pdf417.PDF417Writer: com.google.zxing.common.BitMatrix encode(java.lang.String,com.google.zxing.BarcodeFormat,int,int,java.util.Map)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.zxing.aztec.AztecWriter: com.google.zxing.common.BitMatrix encode(java.lang.String,com.google.zxing.BarcodeFormat,int,int,java.util.Map)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.zxing.aztec.AztecWriter: com.google.zxing.common.BitMatrix encode(java.lang.String,com.google.zxing.BarcodeFormat,int,int,java.util.Map)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.amplitude.id.utilities.FileUtilsKt: void createDirectory(java.io.File)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.util.List read()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.io.File currentFile()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.adjust.sdk.Util: java.lang.Object readObject(android.content.Context,java.lang.String,java.lang.String,java.lang.Class)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<io.mindgarden.colorme.AppModuleKt$$ExternalSyntheticLambda5: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<io.mindgarden.colorme.AppModuleKt$$ExternalSyntheticLambda6: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<io.mindgarden.colorme.AppModuleKt$$ExternalSyntheticLambda4: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<io.mindgarden.colorme.AppModuleKt$$ExternalSyntheticLambda7: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentUri(java.lang.String,android.net.Uri,java.lang.String)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentUri(java.lang.String,android.net.Uri,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentUri(java.lang.String,android.net.Uri,java.lang.String)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: void removeValueFromTable(java.lang.String,java.lang.String)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.adjust.sdk.Util: void writeObject(java.lang.Object,android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeBytes(java.lang.String)>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: java.io.DataOutputStream configConnectionForPOST(javax.net.ssl.HttpsURLConnection,java.util.Map,java.util.Map,java.util.Map)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: boolean canEncode(char)>
+Caller: <com.google.zxing.pdf417.encoder.PDF417HighLevelEncoder: int determineConsecutiveBinaryCount(java.lang.String,int,java.nio.charset.Charset)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: boolean canEncode(char)>
+Caller: <com.google.zxing.pdf417.encoder.PDF417HighLevelEncoder: int determineConsecutiveBinaryCount(java.lang.String,int,java.nio.charset.Charset)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: boolean canEncode(char)>
+Caller: <com.google.zxing.pdf417.encoder.PDF417HighLevelEncoder: int determineConsecutiveBinaryCount(java.lang.String,int,java.nio.charset.Charset)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<android.os.AsyncTask: void onPreExecute()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.appevents.codeless.CodelessMatcher$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: void onPreExecute()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.appevents.suggestedevents.ViewObserver$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.ProgressOutputStream$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: boolean remove(java.lang.String)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.amplitude.android.storage.AndroidStorageContextV2: java.lang.Object migrateToLatestVersion(kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void load()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.amplitude.android.storage.AndroidStorageContextV1: java.lang.Object migrateToLatestVersion(kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.facebook.ProgressOutputStream: void close()>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.adjust.sdk.Util: void writeObject(java.lang.Object,android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.facebook.ProgressOutputStream: void close()>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.facebook.ProgressOutputStream: void close()>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: void tryToGetResponse(com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[],int,int)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[],int,int)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[],int,int)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<io.mindgarden.colorme.AppModuleKt$$ExternalSyntheticLambda7: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<io.mindgarden.colorme.AppModuleKt$$ExternalSyntheticLambda6: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<io.mindgarden.colorme.AppModuleKt$$ExternalSyntheticLambda4: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<io.mindgarden.colorme.AppModuleKt$$ExternalSyntheticLambda5: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.amplitude.android.storage.AndroidStorageContextV2: java.lang.Object migrateToLatestVersion(kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.amplitude.android.storage.AndroidStorageContextV1: java.lang.Object migrateToLatestVersion(kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <com.amplitude.android.utilities.AndroidNetworkListener: void setupNetworkCallback$android_release()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.amplitude.android.migration.DatabaseStorage: void removeValueFromTable(java.lang.String,java.lang.String)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [<io.mindgarden.colorme.AppModuleKt$$ExternalSyntheticLambda12: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [<io.mindgarden.colorme.AppModuleKt$$ExternalSyntheticLambda13: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: java.lang.Object getValueFromTable(java.lang.String,java.lang.String)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: java.util.List readEventsFromTable(java.lang.String)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<io.mindgarden.colorme.AppModuleKt$$ExternalSyntheticLambda4: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.adjust.sdk.network.ActivityPackageSender: java.lang.Integer readConnectionResponse(javax.net.ssl.HttpsURLConnection,com.adjust.sdk.ResponseData)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<io.mindgarden.colorme.AppModuleKt$$ExternalSyntheticLambda5: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<io.mindgarden.colorme.AppModuleKt$$ExternalSyntheticLambda6: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<io.mindgarden.colorme.AppModuleKt$$ExternalSyntheticLambda7: java.lang.Object invoke(java.lang.Object,java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void load()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object getEventString(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[])>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.appevents.codeless.ViewIndexer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.adjust.sdk.PackageFactory: com.adjust.sdk.ActivityPackage buildReftagSdkClickPackage(java.lang.String,long,com.adjust.sdk.ActivityState,com.adjust.sdk.AdjustConfig,com.adjust.sdk.DeviceInfo,com.adjust.sdk.GlobalParameters,com.adjust.sdk.FirstSessionDelayManager,com.adjust.sdk.ActivityHandler$InternalState)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.adjust.sdk.PackageFactory: com.adjust.sdk.ActivityPackage buildDeeplinkSdkClickPackage(android.net.Uri,android.net.Uri,long,com.adjust.sdk.ActivityState,com.adjust.sdk.AdjustConfig,com.adjust.sdk.DeviceInfo,com.adjust.sdk.GlobalParameters,com.adjust.sdk.FirstSessionDelayManager,com.adjust.sdk.ActivityHandler$InternalState)>
+Thread: [<com.adjust.sdk.scheduler.SingleThreadCachedScheduler$3: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void writeToFile(byte[],java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.adjust.sdk.Util: java.lang.Object readObject(android.content.Context,java.lang.String,java.lang.String,java.lang.Class)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.amplitude.android.migration.DatabaseStorage: android.database.Cursor queryDb(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void rename(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void rename(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: java.lang.Object getValueFromTable(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void rename(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object rollover(kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.github.catlandor.imagepicker.provider.CompressionProvider: java.io.File compressTask(android.net.Uri,android.graphics.Bitmap$CompressFormat)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: java.util.List readEventsFromTable(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void rename(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.id.utilities.FileUtilsKt: void createDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.github.catlandor.imagepicker.util.FileUtil: android.net.Uri getImageUri(android.content.Context,java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void load()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <io.github.catlandor.imagepicker.provider.CropProvider: void convertBitmapToFile(java.io.File,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void save()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.adjust.sdk.Util: java.lang.Object readObject(android.content.Context,java.lang.String,java.lang.String,java.lang.Class)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.adjust.sdk.Util: java.lang.Object readObject(android.content.Context,java.lang.String,java.lang.String,java.lang.Class)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.amplitude.android.utilities.AndroidNetworkListener: void setupNetworkCallback$android_release()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader createInMemoryClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader makeAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: dalvik.system.DexClassLoader makeLegacyAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader makeAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: dalvik.system.DexClassLoader makeLegacyAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object rollover(kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void writeToFile(byte[],java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <io.github.catlandor.imagepicker.provider.CropProvider: void convertBitmapToFile(java.io.File,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.adjust.sdk.Util: void writeObject(java.lang.Object,android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.github.catlandor.imagepicker.util.FileUtil: android.net.Uri getImageUri(android.content.Context,java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: java.io.File getInstrumentReportDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.amplitude.id.utilities.FileUtilsKt: void createDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void createPropertiesFile$core()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.amplitude.android.Configuration: java.io.File getStorageDirectory$android_release()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <io.github.catlandor.imagepicker.provider.CropProvider: void convertBitmapToFile(java.io.File,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void createPropertiesFile$core()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <io.github.catlandor.imagepicker.util.FileUtil: android.net.Uri getImageUri(android.content.Context,java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <com.adjust.sdk.Util: void writeObject(java.lang.Object,android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <io.github.catlandor.imagepicker.util.FileUriUtils: java.lang.String getImageExtension(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.zxing.aztec.AztecWriter: com.google.zxing.common.BitMatrix encode(java.lang.String,com.google.zxing.BarcodeFormat,int,int,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.zxing.pdf417.PDF417Writer: com.google.zxing.common.BitMatrix encode(java.lang.String,com.google.zxing.BarcodeFormat,int,int,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.amplitude.id.utilities.FileUtilsKt: void createDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.io.File currentFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.util.List read()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.adjust.sdk.Util: java.lang.Object readObject(android.content.Context,java.lang.String,java.lang.String,java.lang.Class)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader createInMemoryClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <io.github.catlandor.imagepicker.provider.CompressionProvider: int[] getImageSize(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentUri(java.lang.String,android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <io.github.catlandor.imagepicker.util.ImageUtil: android.graphics.Bitmap getBitmap(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: void removeValueFromTable(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.adjust.sdk.Util: void writeObject(java.lang.Object,android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader makeAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: dalvik.system.DexClassLoader makeLegacyAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <io.github.catlandor.imagepicker.provider.CompressionProvider: java.io.File compressTask(android.net.Uri,android.graphics.Bitmap$CompressFormat)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <io.github.catlandor.imagepicker.provider.CompressionProvider: java.io.File compressTask(android.net.Uri,android.graphics.Bitmap$CompressFormat)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: boolean canEncode(char)>
+Caller: <com.google.zxing.pdf417.encoder.PDF417HighLevelEncoder: int determineConsecutiveBinaryCount(java.lang.String,int,java.nio.charset.Charset)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <io.github.catlandor.imagepicker.provider.CompressionProvider: java.io.File compressTask(android.net.Uri,android.graphics.Bitmap$CompressFormat)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <io.github.catlandor.imagepicker.provider.CompressionProvider: java.io.File compressTask(android.net.Uri,android.graphics.Bitmap$CompressFormat)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.facebook.internal.instrument.InstrumentUtility: void writeFile(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <io.github.catlandor.imagepicker.provider.CompressionProvider: java.io.File compressTask(android.net.Uri,android.graphics.Bitmap$CompressFormat)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: dalvik.system.DexClassLoader makeLegacyAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <io.github.catlandor.imagepicker.provider.CropProvider: void convertBitmapToFile(java.io.File,android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: java.lang.ClassLoader makeAdsSdkClassLoader(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: boolean remove(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <io.github.catlandor.imagepicker.provider.CompressionProvider: java.io.File compressTask(android.net.Uri,android.graphics.Bitmap$CompressFormat)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void load()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.amplitude.android.storage.AndroidStorageContextV2: java.lang.Object migrateToLatestVersion(kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <io.github.catlandor.imagepicker.provider.CropProvider: void delete()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.amplitude.android.storage.AndroidStorageContextV1: java.lang.Object migrateToLatestVersion(kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <io.github.catlandor.imagepicker.provider.CameraProvider: void delete()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.facebook.ProgressOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.adjust.sdk.Util: void writeObject(java.lang.Object,android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.amplitude.android.storage.AndroidStorageContextV1: java.lang.Object migrateToLatestVersion(kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.amplitude.android.storage.AndroidStorageContextV2: java.lang.Object migrateToLatestVersion(kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <com.amplitude.android.utilities.AndroidNetworkListener: void setupNetworkCallback$android_release()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.amplitude.android.migration.DatabaseStorage: void removeValueFromTable(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory: void mkdirChecked(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: java.util.List readEventsFromTable(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: java.lang.Object getValueFromTable(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap$CompressFormat: android.graphics.Bitmap$CompressFormat valueOf(java.lang.String)>
+Caller: <com.yalantis.ucrop.UCropActivity: void processOptions(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object getEventString(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void load()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.adjust.sdk.PreinstallUtil: java.lang.String readFileContent(java.lang.String,com.adjust.sdk.ILogger)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.internal.Utility: android.os.Bundle parseUrlQueryString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.internal.Utility: android.os.Bundle parseUrlQueryString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.internal.Utility: android.os.Bundle parseUrlQueryString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.ImageDecoder: android.graphics.Bitmap decodeBitmap(android.graphics.ImageDecoder$Source)>
+Caller: <io.github.catlandor.imagepicker.util.ImageUtil: android.graphics.Bitmap getBitmap(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,786 @@
+Time1: 182.136512943
+Time2: 6.672596593
+Worker: 92
+UI: 103
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <V1.b: x6.r f(java.io.FileWriter,java.lang.String)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <l2.b: boolean c(java.io.File,java.lang.String)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <c4.f: void k()>
+Thread: [<c4.r: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <s3.j: void a(java.io.Closeable)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <s3.j: void a(java.io.Closeable)>
+Thread: [<Z4.h: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.firebase.perf.session.gauges.c: b5.e m(a5.l)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.firebase.perf.session.gauges.c: b5.e m(a5.l)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <I6.b: void a(java.io.Closeable,java.lang.Throwable)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <I6.b: void a(java.io.Closeable,java.lang.Throwable)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FileFilter)>
+Caller: <g4.a: B3.h c(d4.c)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String getContentType()>
+Caller: <com.google.firebase.perf.network.c: java.lang.String k()>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String getContentType()>
+Caller: <com.google.firebase.perf.network.c: java.io.InputStream z()>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long getUsableSpace()>
+Caller: <i1.h: long i(android.content.Context,android.net.Uri)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.androidbull.incognito.browser.core.storage.AppDatabase: void M(android.content.Context)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <c4.f: void l(java.io.File)>
+Thread: [<c4.r: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <c4.f: void l(java.io.File)>
+Thread: [<c4.s: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <n2.c$a: java.lang.Object w(java.lang.Object)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <g4.a: void i(java.util.List,java.util.List)>
+Thread: [<g4.m: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <l2.b: java.lang.String b(java.io.File,java.lang.String)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.androidbull.incognito.browser.core.storage.AppDatabase: void M(android.content.Context)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <l2.b: boolean a(android.content.Context,java.lang.String)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <g4.c: g4.t a(java.io.File)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <c4.f: java.io.File u(java.io.File)>
+Thread: [<c4.r: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <c4.f: java.io.File u(java.io.File)>
+Thread: [<c4.s: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <c4.f: void l(java.io.File)>
+Thread: [<c4.r: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <c4.f: void l(java.io.File)>
+Thread: [<c4.s: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <i1.H: java.lang.String i(android.content.Context)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <n2.c$a: x6.r D(n2.c,n2.c$a$a)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.protobuf.Z: boolean I(java.lang.Object,java.lang.Object)>
+Thread: [<Z4.h: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <q.g: int h(java.lang.Object,int)>
+Thread: [<Z4.h: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <q.g: int h(java.lang.Object,int)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <q.g: int h(java.lang.Object,int)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <j6.h: boolean a(java.lang.Object)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <j6.h: boolean a(java.lang.Object)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <L6.m: boolean a(java.lang.Object,java.lang.Object)>
+Thread: [<Z4.h: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <q.g: int h(java.lang.Object,int)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <q.g: int h(java.lang.Object,int)>
+Thread: [<Z4.h: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <L6.m: boolean a(java.lang.Object,java.lang.Object)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.protobuf.f$i: boolean equals(java.lang.Object)>
+Thread: [<Z4.h: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.protobuf.f$i: boolean equals(java.lang.Object)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <q.g: int h(java.lang.Object,int)>
+Thread: [<Z4.h: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.protobuf.Z: boolean I(java.lang.Object,java.lang.Object)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.androidbull.incognito.browser.core.storage.AppDatabase: void M(android.content.Context)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <i1.h: long i(android.content.Context,android.net.Uri)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.firebase.perf.session.gauges.c: b5.e m(a5.l)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <m2.e: java.lang.String n(java.io.InputStream)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <s3.m: java.lang.String a()>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <I6.k$a: boolean hasNext()>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <s3.m: java.lang.String a()>
+Thread: [<Z4.h: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <m2.e: java.lang.String n(java.io.InputStream)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <l2.b: java.lang.String b(java.io.File,java.lang.String)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <i1.h: long h(java.io.FileDescriptor)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <g4.a: B3.h c(d4.c)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <c4.f: java.io.File u(java.io.File)>
+Thread: [<c4.s: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <c4.f: java.io.File u(java.io.File)>
+Thread: [<c4.r: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <i1.H: java.lang.String i(android.content.Context)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <l2.b: java.lang.String b(java.io.File,java.lang.String)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <W1.a: void b(android.content.Context,java.util.List)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <g4.c: g4.t a(java.io.File)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <s3.m: java.lang.String a()>
+Thread: [<Z4.h: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.firebase.perf.session.gauges.c: b5.e m(a5.l)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <s3.m: java.lang.String a()>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <n2.c$a: java.lang.Object w(java.lang.Object)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <c4.f: java.io.File q(java.io.File,java.lang.String)>
+Thread: [<c4.s: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <c4.f: java.io.File q(java.io.File,java.lang.String)>
+Thread: [<c4.s: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <c4.f: java.io.File u(java.io.File)>
+Thread: [<c4.s: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <c4.f: java.io.File u(java.io.File)>
+Thread: [<c4.s: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <c4.f: void l(java.io.File)>
+Thread: [<c4.r: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <c4.f: java.io.File u(java.io.File)>
+Thread: [<c4.r: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <c4.f: void l(java.io.File)>
+Thread: [<c4.s: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <c4.f: java.io.File u(java.io.File)>
+Thread: [<c4.r: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <c4.f: void l(java.io.File)>
+Thread: [<c4.s: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <c4.f: void l(java.io.File)>
+Thread: [<c4.r: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <l2.b: java.lang.String b(java.io.File,java.lang.String)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <g4.c: g4.t a(java.io.File)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <l2.b: java.lang.String b(java.io.File,java.lang.String)>
+Thread: [<R1.d: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <g4.c: g4.t a(java.io.File)>
+Thread: [<R1.d: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <V1.b: x6.r f(java.io.FileWriter,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <l2.b: boolean c(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <c4.f: void k()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <s3.j: void a(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.firebase.perf.session.gauges.c: b5.e m(a5.l)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <I6.b: void a(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.firebase.perf.session.gauges.c: b5.e m(a5.l)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <I6.b: void a(java.io.Closeable,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FileFilter)>
+Caller: <g4.a: B3.h c(d4.c)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String getContentType()>
+Caller: <com.google.firebase.perf.network.c: java.lang.String k()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String getContentType()>
+Caller: <com.google.firebase.perf.network.c: java.io.InputStream z()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean,boolean)>
+Caller: <c4.f: void m(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean,boolean)>
+Caller: <c4.f: void m(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long getUsableSpace()>
+Caller: <i1.h: long i(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.androidbull.incognito.browser.core.storage.AppDatabase: void M(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <c4.f: java.util.Set j()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <c4.f: java.util.List h()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <c4.f: java.util.Set i(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <c4.f: void l(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <n2.c$a: java.lang.Object w(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <c4.o: void f(c4.u,java.util.Set,c4.m)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <l2.b: boolean a(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <i1.H: java.lang.String i(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <c4.f: java.io.File u(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <g4.c: g4.t a(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <l2.b: java.lang.String b(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.androidbull.incognito.browser.core.storage.AppDatabase: void M(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <e4.s: boolean a(java.lang.Object,java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <c4.k: void a(c4.n,java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <c4.f: void l(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <c4.f: boolean p(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <n2.c$a: x6.r D(n2.c,n2.c$a$a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.protobuf.f$i: boolean equals(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <c4.f: void o(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <j6.h: boolean a(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <j6.h: boolean a(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <q.g: int h(java.lang.Object,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <L6.m: boolean a(java.lang.Object,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <q.g: int h(java.lang.Object,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <q.g: int h(java.lang.Object,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.protobuf.Z: boolean I(java.lang.Object,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <c4.k: void a(c4.n,java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.androidbull.incognito.browser.core.storage.AppDatabase: void M(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <T6.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.protobuf.s: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.protobuf.s: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <T6.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.protobuf.s: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <T6.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <T6.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <T6.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <T6.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <i1.h: long i(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <I6.k$a: boolean hasNext()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <s3.m: java.lang.String a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.firebase.perf.session.gauges.c: b5.e m(a5.l)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <m2.e: java.lang.String n(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <m2.e: java.lang.String n(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <l2.b: java.lang.String b(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <i1.h: long h(java.io.FileDescriptor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <c4.o: void f(c4.u,java.util.Set,c4.m)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <g4.a: B3.h c(d4.c)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <i1.H: java.lang.String i(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <c4.f: java.io.File u(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <c4.f: java.util.Set i(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <c4.f: java.util.Set j()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <W1.a: void b(android.content.Context,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <g4.c: g4.t a(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <l2.b: java.lang.String b(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <s3.m: java.lang.String a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.firebase.perf.session.gauges.c: b5.e m(a5.l)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <n2.c$a: java.lang.Object w(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <c4.f: java.io.File q(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <c4.f: java.io.File q(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <c4.f: java.io.File u(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <c4.f: java.io.File u(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <c4.f: java.util.List h()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <c4.f: void l(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <c4.k: void a(c4.n,java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <c4.k: void a(c4.n,java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <c4.k: void a(c4.n,java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <c4.k: void a(c4.n,java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <c4.f: void l(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <V1.b: void c(android.content.Context,Z1.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <l2.b: java.lang.String b(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <l2.b: java.lang.String b(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <g4.c: g4.t a(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <g4.c: g4.t a(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <c4.k: void a(c4.n,java.io.File,boolean)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,462 @@
+Time1: 28.798139856
+Time2: 5.796881015
+Worker: 50
+UI: 64
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.xerox.ag: java.lang.String a(java.net.URLConnection)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [<com.xerox.w: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.xerox.ag: java.lang.String a(java.io.InputStream)>
+Thread: [<com.xerox.ah: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.xerox.ah: void run()>
+Thread: [<com.xerox.ah: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.xerox.ag: java.net.URLConnection a(java.lang.String)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.xerox.ag: void a(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.xerox.ag: java.lang.String a(java.net.URLConnection)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.xerox.ag: void a(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteClosable: void acquireReference()>
+Caller: <net.sqlcipher.database.SQLiteQuery: int fillWindow(net.sqlcipher.CursorWindow,int,int)>
+Thread: [<net.sqlcipher.database.SQLiteCursor$QueryThread: void run()>]
+-------------------------
+MethodSignature: <java.net.URLConnection: int getContentLength()>
+Caller: <com.xerox.ag: java.lang.String a(java.net.URLConnection)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.xerox.ag: java.lang.String a(java.net.URLConnection)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [<com.xerox.w: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <net.sqlcipher.database.SQLiteOpenHelper: net.sqlcipher.database.SQLiteDatabase getWritableDatabase(java.lang.String)>
+Thread: [<com.xerox.w: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.xerox.ag: void a(java.io.File)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <net.sqlcipher.database.SQLiteOpenHelper: net.sqlcipher.database.SQLiteDatabase getWritableDatabase(java.lang.String)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [<com.xerox.w: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.xerox.ag: java.net.URLConnection a(java.lang.String)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void onCorruption()>
+Thread: [<net.sqlcipher.database.SQLiteCursor$QueryThread: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void onCorruption()>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: net.sqlcipher.database.SQLiteDatabase openDatabase(java.lang.String,java.lang.String,net.sqlcipher.database.SQLiteDatabase$CursorFactory,int,net.sqlcipher.database.SQLiteDatabaseHook)>
+Thread: [<com.xerox.w: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void onCorruption()>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void onCorruption()>
+Thread: [<com.xerox.w: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void onCorruption()>
+Thread: [<com.xerox.w: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: net.sqlcipher.database.SQLiteDatabase openDatabase(java.lang.String,java.lang.String,net.sqlcipher.database.SQLiteDatabase$CursorFactory,int,net.sqlcipher.database.SQLiteDatabaseHook)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void onCorruption()>
+Thread: [<net.sqlcipher.database.SQLiteCursor$QueryThread: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedOutputStream: void write(int)>
+Caller: <com.xerox.ag: void a(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read()>
+Caller: <com.xerox.ag: void a(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read()>
+Caller: <com.xerox.ag: void a(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.xerox.ag: void a(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [<com.xerox.w: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <net.sqlcipher.database.SQLiteOpenHelper: net.sqlcipher.database.SQLiteDatabase getWritableDatabase(java.lang.String)>
+Thread: [<com.xerox.w: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <net.sqlcipher.database.SQLiteOpenHelper: net.sqlcipher.database.SQLiteDatabase getWritableDatabase(java.lang.String)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [<com.xerox.w: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.xerox.g: boolean a()>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadLibs(android.content.Context,java.io.File)>
+Thread: [<com.xerox.w: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.xerox.ag: void a(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [<com.xerox.w: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadLibs(android.content.Context,java.io.File)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.xerox.ag: void a(java.io.File)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.xerox.ag: java.lang.String a(java.net.URLConnection)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.io.InputStream openStream()>
+Caller: <com.xerox.ag: java.lang.String a(java.net.URLConnection)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [<com.xerox.w: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.xerox.ag: java.lang.String a(java.net.URLConnection)>
+Thread: [<com.xerox.w: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.xerox.z: void d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.xerox.v: void d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.xerox.ag: java.lang.String a(java.net.URLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.paypal.android.sdk.au: java.lang.String e()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.paypal.android.sdk.Y: java.lang.String b(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.paypal.android.sdk.Y: void a(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.ads.a.a: com.google.android.gms.common.f b(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.paypal.android.sdk.f: java.lang.String a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.xerox.ag: java.net.URLConnection a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.CursorWindow: void <init>(boolean)>
+Caller: <net.sqlcipher.CursorWindow: void <init>(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.paypal.android.sdk.f: void a(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.paypal.android.sdk.Y: java.lang.String b(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.paypal.android.sdk.Y: java.lang.String b(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.xerox.ag: void a(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.xerox.ag: java.lang.String a(java.net.URLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.xerox.ag: void a(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.wifi.WifiInfo: java.lang.String getSSID()>
+Caller: <com.paypal.android.sdk.ab: com.paypal.android.sdk.aa k()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.paypal.android.sdk.Y: void a(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteClosable: void acquireReference()>
+Caller: <net.sqlcipher.CursorWindow: void clear()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteClosable: void acquireReference()>
+Caller: <net.sqlcipher.database.SQLiteQuery: int fillWindow(net.sqlcipher.CursorWindow,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: int getContentLength()>
+Caller: <com.xerox.ag: java.lang.String a(java.net.URLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.xerox.v: void d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.xerox.ag: java.lang.String a(java.net.URLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.paypal.android.sdk.f: void a(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.xerox.z: void d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.xerox.ag: void a(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.paypal.android.sdk.Y: void a(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <net.sqlcipher.database.SQLiteOpenHelper: net.sqlcipher.database.SQLiteDatabase getWritableDatabase(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.xerox.ag: java.net.URLConnection a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.paypal.android.sdk.payments.az: boolean a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void onCorruption()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void onCorruption()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: net.sqlcipher.database.SQLiteDatabase openDatabase(java.lang.String,java.lang.String,net.sqlcipher.database.SQLiteDatabase$CursorFactory,int,net.sqlcipher.database.SQLiteDatabaseHook)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedOutputStream: void write(int)>
+Caller: <com.xerox.ag: void a(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.NetworkInterface: java.util.Enumeration getNetworkInterfaces()>
+Caller: <com.paypal.android.sdk.au: java.util.List a(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read()>
+Caller: <com.xerox.ag: void a(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read()>
+Caller: <com.xerox.ag: void a(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.paypal.android.sdk.ab: long a(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.paypal.android.sdk.ab: long b(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.xerox.ag: void a(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.paypal.android.sdk.Y: void a(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.xerox.ag: void a(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.paypal.android.sdk.ag: boolean b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.xerox.ag: void a(java.util.zip.ZipFile,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.xerox.g: boolean a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadLibs(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <net.sqlcipher.database.SQLiteOpenHelper: net.sqlcipher.database.SQLiteDatabase getWritableDatabase(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.paypal.android.sdk.ag: boolean c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.xerox.v: void d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.xerox.ag: java.lang.String a(java.net.URLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.xerox.z: void d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.paypal.android.sdk.Y: java.lang.String b(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.xerox.an: com.xerox.an a(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.io.InputStream openStream()>
+Caller: <com.xerox.ag: java.lang.String a(java.net.URLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.xerox.ag: java.lang.String a(java.net.URLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <net.sqlcipher.database.SQLiteDatabase: void loadICUData(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.xerox.z: void d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.xerox.v: void d()>
+Thread: [UI]
+-------------------------

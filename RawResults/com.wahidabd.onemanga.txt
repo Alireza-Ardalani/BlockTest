@@ -1,0 +1,50 @@
+Time1: 144.138328761
+Time2: 7.847379436
+Worker: 6
+UI: 5
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int zzb(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [<com.wahidabd.onemanga.main.MainActivity$onCreate$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: int getInt(int)>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int zzb(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [<com.wahidabd.onemanga.main.MainActivity$onCreate$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: int getInt(int)>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int zzb(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [<com.wahidabd.onemanga.main.MainActivity$onCreate$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: int getInt(int)>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int zzb(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [<com.wahidabd.onemanga.main.MainActivity$onCreate$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.Cursor: void close()>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int zzb(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [<com.wahidabd.onemanga.main.MainActivity$onCreate$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.Cursor: void close()>
+Caller: <com.google.android.gms.dynamite.DynamiteModule: int zzb(android.content.Context,java.lang.String,boolean,boolean)>
+Thread: [<com.wahidabd.onemanga.main.MainActivity$onCreate$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [UI]
+-------------------------

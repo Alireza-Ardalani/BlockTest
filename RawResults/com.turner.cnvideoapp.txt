@@ -1,0 +1,1342 @@
+Time1: 514.303471875
+Time2: 54.468170753
+Worker: 195
+UI: 139
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$LegacyStorage: boolean readFile(java.util.HashMap,android.util.SparseArray)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.bitmovin.media3.common.util.AtomicFile$AtomicFileOutputStream: void <init>(java.io.File)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.bitmovin.media3.datasource.cache.CacheFileMetadataIndex: android.database.Cursor getCursor()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.bitmovin.media3.database.VersionTable: int getVersion(android.database.sqlite.SQLiteDatabase,int,java.lang.String)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: android.database.Cursor getCursor()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeInt(int)>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$LegacyStorage: void writeFile(java.util.HashMap)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeInt(int)>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex: void writeContentMetadata(com.bitmovin.media3.datasource.cache.DefaultContentMetadata,java.io.DataOutputStream)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeInt(int)>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$LegacyStorage: void writeCachedContent(com.bitmovin.media3.datasource.cache.CachedContent,java.io.DataOutputStream)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeInt(int)>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$LegacyStorage: void writeFile(java.util.HashMap)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeInt(int)>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$LegacyStorage: void writeFile(java.util.HashMap)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeInt(int)>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$LegacyStorage: void writeFile(java.util.HashMap)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeInt(int)>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex: void writeContentMetadata(com.bitmovin.media3.datasource.cache.DefaultContentMetadata,java.io.DataOutputStream)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer writeValue(java.io.Writer,java.lang.Object,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer writeValue(java.io.Writer,java.lang.Object,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer writeValue(java.io.Writer,java.lang.Object,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer writeValue(java.io.Writer,java.lang.Object,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$LegacyStorage: void writeFile(java.util.HashMap)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: java.io.OutputStream startWrite()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.bitmovin.media3.datasource.cache.SimpleCacheSpan: java.io.File upgradeFile(java.io.File,com.bitmovin.media3.datasource.cache.CachedContentIndex)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: void restoreBackup()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.bitmovin.media3.common.util.Util: void closeQuietly(java.io.Closeable)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: void endWrite(java.io.OutputStream)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.bitmovin.media3.datasource.cache.SimpleCache: void createCacheDirectories(java.io.File)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: java.io.OutputStream startWrite()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$LegacyStorage: void writeFile(java.util.HashMap)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex: void writeContentMetadata(com.bitmovin.media3.datasource.cache.DefaultContentMetadata,java.io.DataOutputStream)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,char)>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONArray: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,char)>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,char)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONArray: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,char)>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONArray: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,char)>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONArray: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: void indent(java.io.Writer,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,char)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONArray: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: boolean exists()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: void restoreBackup()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: java.io.OutputStream startWrite()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bitmovin.media3.datasource.cache.SimpleCache: void initialize()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: java.io.OutputStream startWrite()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: boolean exists()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: java.io.InputStream openRead()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.bitmovin.media3.datasource.cache.CacheFileMetadataIndex: void initialize(long)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void delete(com.bitmovin.media3.database.DatabaseProvider,java.lang.String)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void storeFully(java.util.HashMap)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void storeIncremental(java.util.HashMap)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void storeFully(java.util.HashMap)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void load(java.util.HashMap,android.util.SparseArray)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.bitmovin.media3.datasource.cache.CacheFileMetadataIndex: void initialize(long)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.bitmovin.media3.datasource.cache.CacheFileMetadataIndex: void removeAll(java.util.Set)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void load(java.util.HashMap,android.util.SparseArray)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void delete(com.bitmovin.media3.database.DatabaseProvider,java.lang.String)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.bitmovin.media3.datasource.cache.CacheFileMetadataIndex: void removeAll(java.util.Set)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void storeIncremental(java.util.HashMap)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[],int,int)>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex: com.bitmovin.media3.datasource.cache.DefaultContentMetadata readContentMetadata(java.io.DataInputStream)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.bitmovin.media3.datasource.cache.SimpleCache: long createUid(java.io.File)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$LegacyStorage: boolean readFile(java.util.HashMap,android.util.SparseArray)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils: long queryNumEntries(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.bitmovin.media3.common.util.Util: boolean tableExists(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: long readLong()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$LegacyStorage: com.bitmovin.media3.datasource.cache.CachedContent readCachedContent(int,java.io.DataInputStream)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void load(java.util.HashMap,android.util.SparseArray)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void storeIncremental(java.util.HashMap)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void delete(com.bitmovin.media3.database.DatabaseProvider,java.lang.String)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.bitmovin.media3.datasource.cache.CacheFileMetadataIndex: void removeAll(java.util.Set)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void storeFully(java.util.HashMap)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.bitmovin.media3.datasource.cache.CacheFileMetadataIndex: void initialize(long)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeUTF(java.lang.String)>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$LegacyStorage: void writeCachedContent(com.bitmovin.media3.datasource.cache.CachedContent,java.io.DataOutputStream)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeUTF(java.lang.String)>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex: void writeContentMetadata(com.bitmovin.media3.datasource.cache.DefaultContentMetadata,java.io.DataOutputStream)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void delete(com.bitmovin.media3.database.DatabaseProvider,java.lang.String)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void storeIncremental(java.util.HashMap)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void storeFully(java.util.HashMap)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void load(java.util.HashMap,android.util.SparseArray)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.bitmovin.media3.datasource.cache.CacheFileMetadataIndex: void initialize(long)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.bitmovin.media3.datasource.cache.CacheFileMetadataIndex: void removeAll(java.util.Set)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.bitmovin.media3.datasource.cache.SimpleCache: void initialize()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.bitmovin.media3.datasource.cache.SimpleCache: void loadDirectory(java.io.File,boolean,java.io.File[],java.util.Map)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void deleteRow(android.database.sqlite.SQLiteDatabase,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.bitmovin.media3.datasource.cache.CacheFileMetadataIndex: void removeAll(java.util.Set)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.bitmovin.media3.database.VersionTable: void removeVersion(android.database.sqlite.SQLiteDatabase,int,java.lang.String)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.bitmovin.media3.common.util.Util: void closeQuietly(java.io.Closeable)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void load(java.util.HashMap,android.util.SparseArray)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.bitmovin.media3.datasource.cache.CacheFileMetadataIndex: android.database.Cursor getCursor()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: boolean exists()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.bitmovin.media3.datasource.cache.CacheFileMetadataIndex: void initialize(long)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: android.database.Cursor getCursor()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.bitmovin.media3.datasource.cache.SimpleCache: void createCacheDirectories(java.io.File)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long replaceOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void addOrUpdateRow(android.database.sqlite.SQLiteDatabase,com.bitmovin.media3.datasource.cache.CachedContent)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long replaceOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.bitmovin.media3.database.VersionTable: void setVersion(android.database.sqlite.SQLiteDatabase,int,java.lang.String,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.bitmovin.media3.datasource.cache.SimpleCacheSpan: com.bitmovin.media3.datasource.cache.SimpleCacheSpan createCacheEntry(java.io.File,long,long,com.bitmovin.media3.datasource.cache.CachedContentIndex)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$LegacyStorage: com.bitmovin.media3.datasource.cache.CachedContent readCachedContent(int,java.io.DataInputStream)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex: com.bitmovin.media3.datasource.cache.DefaultContentMetadata readContentMetadata(java.io.DataInputStream)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$LegacyStorage: boolean readFile(java.util.HashMap,android.util.SparseArray)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$LegacyStorage: boolean readFile(java.util.HashMap,android.util.SparseArray)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$LegacyStorage: com.bitmovin.media3.datasource.cache.CachedContent readCachedContent(int,java.io.DataInputStream)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex: com.bitmovin.media3.datasource.cache.DefaultContentMetadata readContentMetadata(java.io.DataInputStream)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$LegacyStorage: boolean readFile(java.util.HashMap,android.util.SparseArray)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$LegacyStorage: boolean readFile(java.util.HashMap,android.util.SparseArray)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex: com.bitmovin.media3.datasource.cache.DefaultContentMetadata readContentMetadata(java.io.DataInputStream)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.bitmovin.player.offline.service.g: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.bitmovin.media3.exoplayer.offline.o: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void initializeTable(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.bitmovin.media3.datasource.cache.CacheFileMetadataIndex: void initialize(long)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.bitmovin.media3.database.VersionTable: void setVersion(android.database.sqlite.SQLiteDatabase,int,java.lang.String,int)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void dropTable(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.bitmovin.media3.datasource.cache.CacheFileMetadataIndex: void dropTable(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransactionNonExclusive()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void load(java.util.HashMap,android.util.SparseArray)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransactionNonExclusive()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void storeFully(java.util.HashMap)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransactionNonExclusive()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void delete(com.bitmovin.media3.database.DatabaseProvider,java.lang.String)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransactionNonExclusive()>
+Caller: <com.bitmovin.media3.datasource.cache.CacheFileMetadataIndex: void initialize(long)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransactionNonExclusive()>
+Caller: <com.bitmovin.media3.datasource.cache.CachedContentIndex$DatabaseStorage: void storeIncremental(java.util.HashMap)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransactionNonExclusive()>
+Caller: <com.bitmovin.media3.datasource.cache.CacheFileMetadataIndex: void removeAll(java.util.Set)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.bitmovin.media3.database.DatabaseIOException: void <init>(android.database.SQLException)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: void restoreBackup()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bitmovin.media3.datasource.cache.SimpleCache: long loadUid(java.io.File[])>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: void delete()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: void delete()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bitmovin.media3.datasource.cache.SimpleCache: void loadDirectory(java.io.File,boolean,java.io.File[],java.util.Map)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: java.io.OutputStream startWrite()>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bitmovin.media3.datasource.cache.SimpleCache: void loadDirectory(java.io.File,boolean,java.io.File[],java.util.Map)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: void endWrite(java.io.OutputStream)>
+Thread: [<com.bitmovin.media3.datasource.cache.SimpleCache$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.adobe.adobepass.accessenabler.utils.Entities: void doUnescape(java.io.Writer,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void writeToStorage()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.bitmovin.media3.common.util.AtomicFile$AtomicFileOutputStream: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.global.GlobalStorageProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.bitmovin.player.core.n.a: java.lang.Object a(com.bitmovin.player.core.n.c,kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <org.json.b: void <init>(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.adobe.adobepass.accessenabler.utils.Entities: void unescape(java.io.Writer,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer writeValue(java.io.Writer,java.lang.Object,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.Gson: com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.adobe.adobepass.accessenabler.utils.Entities: void doUnescape(java.io.Writer,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer writeValue(java.io.Writer,java.lang.Object,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer writeValue(java.io.Writer,java.lang.Object,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.json.JSONObject: java.io.Writer writeValue(java.io.Writer,java.lang.Object,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: void restoreBackup()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: java.io.OutputStream startWrite()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.bitmovin.media3.common.util.Util: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: void endWrite(java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.turner.cnvideoapp.common.base.c: androidx.lifecycle.F getNetworkLiveData(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void read(java.io.FileInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: java.io.OutputStream startWrite()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.squareup.picasso.I: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read()>
+Caller: <org.json.f: char next()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.adobe.adobepass.accessenabler.utils.Entities: void doUnescape(java.io.Writer,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONArray: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.adobe.adobepass.accessenabler.utils.Entities: void doUnescape(java.io.Writer,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.adobe.adobepass.accessenabler.utils.Entities: void doUnescape(java.io.Writer,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.adobe.adobepass.accessenabler.utils.Entities: void doUnescape(java.io.Writer,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.adobe.adobepass.accessenabler.utils.Entities: void doUnescape(java.io.Writer,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONArray: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: void indent(java.io.Writer,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONArray: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONArray: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONArray: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer write(java.io.Writer,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <org.json.JSONObject: java.io.Writer quote(java.lang.String,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.adobe.adobepass.accessenabler.utils.Entities: void doUnescape(java.io.Writer,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.global.GlobalStorageProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bitmovin.player.core.w0.d: com.bitmovin.player.core.w0.c b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bitmovin.player.core.w0.f: int b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: java.io.OutputStream startWrite()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.squareup.picasso.I: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: java.io.OutputStream startWrite()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: void restoreBackup()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.adobe.marketing.mobile.V4ToV5Migration: void removeV4Databases()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: java.io.InputStream openRead()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void readFromStorage()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.bitmovin.media3.exoplayer.scheduler.RequirementsWatcher: void unregisterNetworkCallbackV24()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void read(java.io.FileInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <com.turner.cnvideoapp.common.base.c: androidx.lifecycle.F getNetworkLiveData(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void writeToStorage()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void writeToStorage()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void write(java.io.FileOutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void writeToStorage()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.global.GlobalStorageProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void writeToStorage()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.f: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.f: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.f: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.f: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.f: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read()>
+Caller: <org.json.f: char next()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.global.GlobalStorageProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void readFromStorage()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void writeToStorage()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeUTF(java.lang.String)>
+Caller: <com.bitmovin.player.core.w0.d: void a(com.bitmovin.player.core.w0.c)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <v2.d: void closeQuietly(java.net.Socket)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.e: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.e: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.e: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.e: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.e: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.e: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.bitmovin.player.core.w0.d: com.bitmovin.player.core.w0.c b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.bitmovin.player.core.w0.d: com.bitmovin.player.core.w0.c b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.bitmovin.player.core.w0.f: int b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.bitmovin.player.core.w0.f: int b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void write(java.io.FileOutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.global.GlobalStorageProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void read(java.io.FileInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <com.bitmovin.player.core.w0.d: com.bitmovin.player.core.w0.c b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <com.bitmovin.player.core.w0.f: int b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.global.GlobalStorageProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void write(java.io.FileOutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkCapabilities: void <init>(android.net.NetworkCapabilities)>
+Caller: <com.bitmovin.media3.exoplayer.scheduler.RequirementsWatcher: void registerNetworkCallbackV24()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.global.GlobalStorageProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void write(java.io.FileOutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void readFromStorage()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void readFromStorage()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void readFromStorage()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void read(java.io.FileInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.AndroidGlobalStorageManager: void readFromStorage()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <com.adobe.adobepass.accessenabler.services.storage.android.global.GlobalStorageProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: java.io.OutputStream startWrite()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.adobe.marketing.mobile.V4ToV5Migration: void removeV4Databases()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: void endWrite(java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bitmovin.media3.common.util.AtomicFile: void restoreBackup()>
+Thread: [UI]
+-------------------------

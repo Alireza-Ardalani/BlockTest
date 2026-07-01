@@ -1,0 +1,62 @@
+Time1: 60.688612944
+Time2: 0.663277929
+Worker: 12
+UI: 2
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <f3.b: void run()>
+Thread: [<f3.b: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <j0.a: com.google.android.gms.cast.MediaInfo a(java.lang.String,java.lang.String)>
+Thread: [<f3.b: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void setReuseAddress(boolean)>
+Caller: <p5.j: void g()>
+Thread: [<f3.b: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.InputStream getInputStream()>
+Caller: <j.g: void run()>
+Thread: [<j.g: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <j0.a: java.lang.String c(android.content.Context,java.lang.String)>
+Thread: [<f3.b: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <j.g: void run()>
+Thread: [<j.g: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void <init>()>
+Caller: <p5.j: void g()>
+Thread: [<f3.b: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void bind(java.net.SocketAddress)>
+Caller: <j.g: void run()>
+Thread: [<j.g: void run()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <p3.b: java.lang.String q(java.lang.String)>
+Thread: [<f3.b: void run()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <p3.b: java.lang.String q(java.lang.String)>
+Thread: [<com.admob.ads.CmdService$2: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: java.net.Socket accept()>
+Caller: <j.g: void run()>
+Thread: [<j.g: void run()>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <j.g: void run()>
+Thread: [<j.g: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.graphics.Bitmap$CompressFormat: android.graphics.Bitmap$CompressFormat valueOf(java.lang.String)>
+Caller: <com.yalantis.ucrop.UCropActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------

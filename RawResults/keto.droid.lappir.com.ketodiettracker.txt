@@ -1,0 +1,1246 @@
+Time1: 61.938641307
+Time2: 14.722072969
+Worker: 128
+UI: 182
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <okhttp3.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <okhttp3.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Source source(java.io.File)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Source source(java.io.File)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <com.zendesk.sdk.attachment.AttachmentHelper: java.lang.String getMimeType(android.content.Context,android.net.Uri)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <com.zendesk.belvedere.BelvedereStorage: java.lang.String getExtension(android.content.Context,android.net.Uri)>
+Thread: [<com.zendesk.belvedere.BelvedereResolveUriTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<okhttp3.ConnectionPool$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <okhttp3.internal.io.FileSystem$1: long size(java.io.File)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.zendesk.sdk.attachment.AttachmentHelper: boolean isFileEligibleForUpload(java.io.File,com.zendesk.sdk.model.settings.SafeMobileSettings)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <okhttp3.internal.io.FileSystem$1: long size(java.io.File)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String domainToAscii(java.lang.String)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String domainToAscii(java.lang.String)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <okhttp3.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <okhttp3.internal.io.FileSystem$1: boolean exists(java.io.File)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.zendesk.sdk.attachment.AttachmentHelper: boolean isFileEligibleForUpload(java.io.File,com.zendesk.sdk.model.settings.SafeMobileSettings)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <okhttp3.internal.io.FileSystem$1: boolean exists(java.io.File)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <okhttp3.internal.io.FileSystem$1: boolean exists(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.zendesk.sdk.attachment.AttachmentHelper: void processAndUploadSelectedFiles(java.util.List,com.zendesk.sdk.attachment.ImageUploadHelper,android.content.Context,com.zendesk.sdk.feedback.ui.AttachmentContainerHost,com.zendesk.sdk.model.settings.SafeMobileSettings)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <okhttp3.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <okhttp3.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <okhttp3.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <okhttp3.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <okhttp3.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <okhttp3.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <okhttp3.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <okhttp3.HttpUrl: java.net.URL url()>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <okhttp3.HttpUrl: java.net.URL url()>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzakz: void zzcp(java.lang.String)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzakz: void zzcp(java.lang.String)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.zendesk.belvedere.BelvedereStorage: java.io.File getAttachmentDir(android.content.Context,java.lang.String)>
+Thread: [<com.zendesk.belvedere.BelvedereResolveUriTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.zendesk.belvedere.BelvedereStorage: java.io.File getAttachmentDir(android.content.Context,java.lang.String)>
+Thread: [<com.zendesk.belvedere.BelvedereResolveUriTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <okhttp3.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <okhttp3.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.zendesk.belvedere.BelvedereResolveUriTask: java.util.List doInBackground(android.net.Uri[])>
+Thread: [<com.zendesk.belvedere.BelvedereResolveUriTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <okio.Okio: okio.Sink appendingSink(java.io.File)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <okio.Okio: okio.Sink appendingSink(java.io.File)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <okio.Okio: okio.Sink appendingSink(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.zendesk.sdk.network.impl.DeviceInfo: long getTotalMemoryCompat()>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.zendesk.sdk.network.impl.DeviceInfo: long getTotalMemoryCompat()>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <okhttp3.internal.io.FileSystem$1: okio.Sink sink(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <okhttp3.internal.io.FileSystem$1: okio.Sink sink(java.io.File)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.zendesk.belvedere.BelvedereStorage: java.io.File getAttachmentDir(android.content.Context,java.lang.String)>
+Thread: [<com.zendesk.belvedere.BelvedereResolveUriTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <okhttp3.internal.io.FileSystem$1: okio.Sink sink(java.io.File)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <okhttp3.internal.io.FileSystem$1: okio.Sink appendingSink(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <okhttp3.internal.io.FileSystem$1: okio.Sink appendingSink(java.io.File)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <okhttp3.internal.io.FileSystem$1: okio.Sink appendingSink(java.io.File)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <okio.Okio$2: void close()>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <okio.Okio$2: void close()>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.zendesk.belvedere.BelvedereResolveUriTask: java.util.List doInBackground(android.net.Uri[])>
+Thread: [<com.zendesk.belvedere.BelvedereResolveUriTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.zzakz: void zzcp(java.lang.String)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.zzakz: void zzcp(java.lang.String)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.zendesk.belvedere.BelvedereResolveUriTask: java.util.List doInBackground(android.net.Uri[])>
+Thread: [<com.zendesk.belvedere.BelvedereResolveUriTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.Gson: com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.Gson: com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <okhttp3.internal.io.FileSystem$1: void rename(java.io.File,java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <okhttp3.internal.io.FileSystem$1: void rename(java.io.File,java.io.File)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <okhttp3.internal.io.FileSystem$1: void rename(java.io.File,java.io.File)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.zendesk.sdk.network.impl.DeviceInfo: long getTotalMemoryCompat()>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.zendesk.sdk.network.impl.DeviceInfo: long getTotalMemoryCompat()>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.zendesk.sdk.network.impl.DeviceInfo: long getTotalMemoryCompat()>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.zendesk.sdk.network.impl.DeviceInfo: long getTotalMemoryCompat()>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.zendesk.sdk.network.impl.DeviceInfo: long getTotalMemoryCompat()>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.zendesk.sdk.network.impl.DeviceInfo: long getTotalMemoryCompat()>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.zendesk.sdk.network.impl.DeviceInfo: long getTotalMemoryCompat()>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.zendesk.sdk.network.impl.DeviceInfo: long getTotalMemoryCompat()>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Sink sink(java.io.File)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Sink sink(java.io.File)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.zendesk.belvedere.BelvedereResolveUriTask: java.util.List doInBackground(android.net.Uri[])>
+Thread: [<com.zendesk.belvedere.BelvedereResolveUriTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Sink sink(java.io.File)>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.zzaks: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.zzaks: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.zzaks: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.zzaks: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.zendesk.belvedere.BelvedereResolveUriTask: java.util.List doInBackground(android.net.Uri[])>
+Thread: [<com.zendesk.belvedere.BelvedereResolveUriTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.zendesk.belvedere.BelvedereResolveUriTask: java.util.List doInBackground(android.net.Uri[])>
+Thread: [<com.zendesk.belvedere.BelvedereResolveUriTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.zendesk.belvedere.BelvedereResolveUriTask: java.util.List doInBackground(android.net.Uri[])>
+Thread: [<com.zendesk.belvedere.BelvedereResolveUriTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <okio.Okio$1: void close()>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <okio.Okio$1: void close()>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <okio.Okio$1: void close()>
+Thread: [<okhttp3.internal.cache.DiskLruCache$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.zendesk.belvedere.BelvedereResolveUriTask: java.util.List doInBackground(android.net.Uri[])>
+Thread: [<com.zendesk.belvedere.BelvedereResolveUriTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.zendesk.sdk.support.ViewArticleActivity$4: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.zendesk.belvedere.BelvedereCallback$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.google.android.gms.internal.zzcno: java.lang.Object zzag(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.gms.internal.zzcjf: boolean zzb(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <okhttp3.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Source source(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <com.zendesk.belvedere.BelvedereStorage: java.lang.String getExtension(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <com.zendesk.sdk.attachment.AttachmentHelper: java.lang.String getMimeType(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.common.internal.zzbg: boolean equal(java.lang.Object,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.zzflp: boolean equals(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <okhttp3.internal.Util: boolean equal(java.lang.Object,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.zzflq: boolean equals(java.lang.Object[],java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <okhttp3.internal.Util: java.util.List intersect(java.lang.Object[],java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzflq: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzflq: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okio.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.logging.HttpLoggingInterceptor: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <com.zendesk.sdk.network.impl.ZendeskNetworkInfoProvider: void registerForNetworkCallbacks()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <com.zendesk.sdk.ui.NetworkAwareActionbarActivity: void registerForNetworkCallbacks()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcil: boolean zze(java.lang.String,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcil: void zzazy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcil: void zza(java.lang.String,com.google.android.gms.internal.zzcnr[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcil: void zza(java.lang.String,com.google.android.gms.internal.zzcnr[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcjf: boolean zzb(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcjf: java.util.List zzep(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcil: void zza(java.lang.String,com.google.android.gms.internal.zzcnr[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcil: void zza(java.lang.String,com.google.android.gms.internal.zzcnr[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcil: void zzai(java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: boolean inTransaction()>
+Caller: <com.google.android.gms.internal.zzcjf: boolean zzb(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: boolean inTransaction()>
+Caller: <com.google.android.gms.internal.zzcjf: java.util.List zzep(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.internal.zzcio: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.internal.zzcjg: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.internal.zzcjg: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.internal.zzcio: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.zendesk.sdk.attachment.AttachmentHelper: boolean isFileEligibleForUpload(java.io.File,com.zendesk.sdk.model.settings.SafeMobileSettings)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <okhttp3.internal.io.FileSystem$1: long size(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String domainToAscii(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <okhttp3.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.zendesk.sdk.attachment.AttachmentHelper: void processAndUploadSelectedFiles(java.util.List,com.zendesk.sdk.attachment.ImageUploadHelper,android.content.Context,com.zendesk.sdk.feedback.ui.AttachmentContainerHost,com.zendesk.sdk.model.settings.SafeMobileSettings)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.zendesk.sdk.attachment.AttachmentHelper: boolean isFileEligibleForUpload(java.io.File,com.zendesk.sdk.model.settings.SafeMobileSettings)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.internal.zzcjf: java.util.List zzep(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.internal.zzcil: boolean zzbae()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzx: java.io.File zzd(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <okhttp3.internal.io.FileSystem$1: boolean exists(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.firebase.iid.zzaa: void <init>(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzx: java.io.File zzd(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <okhttp3.internal.io.FileSystem$1: void delete(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.internal.zzcio: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.internal.zzcjg: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <okhttp3.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.internal.zzcil: void zza(com.google.android.gms.internal.zzcit)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.internal.zzcil: boolean zza(java.lang.String,int,com.google.android.gms.internal.zzcnv)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.internal.zzcil: boolean zza(java.lang.String,int,com.google.android.gms.internal.zzcns)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.internal.zzcih: com.google.android.gms.internal.zzcoa[] zza(java.lang.String,com.google.android.gms.internal.zzcob[],com.google.android.gms.internal.zzcog[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.internal.zzcil: boolean zza(java.lang.String,java.lang.Long,long,com.google.android.gms.internal.zzcob)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.internal.zzcil: boolean zza(com.google.android.gms.internal.zzcnn)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.internal.zzcil: void zza(com.google.android.gms.internal.zzcie)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzckd: boolean zzb(java.lang.String,byte[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcil: com.google.android.gms.internal.zzcim zza(long,java.lang.String,boolean,boolean,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcil: void zza(com.google.android.gms.internal.zzcie)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzckj: void zzb(com.google.android.gms.internal.zzcie)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzckj: void zzbby()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <okhttp3.HttpUrl: java.net.URL url()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzakz: void zzcp(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.gms.internal.zzcih: com.google.android.gms.internal.zzcoa[] zza(java.lang.String,com.google.android.gms.internal.zzcob[],com.google.android.gms.internal.zzcog[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.gms.internal.zzckj: boolean zzg(java.lang.String,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.zendesk.sdk.ui.NetworkAwareActionbarActivity: void registerForNetworkCallbacks()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.zendesk.sdk.network.impl.ZendeskNetworkInfoProvider: void registerForNetworkCallbacks()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.gms.internal.zzcil: boolean zza(com.google.android.gms.internal.zzcoe,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.zendesk.belvedere.BelvedereStorage: java.io.File getAttachmentDir(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <okhttp3.internal.io.FileSystem$1: void deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.zendesk.belvedere.BelvedereStorage: java.io.File getAttachmentDir(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.google.android.gms.internal.zzcjn: byte[] zzc(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.zendesk.belvedere.BelvedereResolveUriTask: java.util.List doInBackground(android.net.Uri[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <okio.Okio: okio.Sink appendingSink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzcjf: java.util.List zzep(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzckj: boolean zzg(java.lang.String,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzcil: java.util.List zzl(java.lang.String,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzckj: boolean zzg(java.lang.String,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.zendesk.sdk.network.impl.DeviceInfo: long getTotalMemoryCompat()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.zzu: java.lang.String zzci(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <com.google.android.gms.internal.zzcno: java.lang.Object zzag(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.gms.internal.zzcil: void setTransactionSuccessful()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.gms.internal.zzcjf: boolean zzb(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.gms.internal.zzcjf: java.util.List zzep(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.gms.internal.zzcil: void zza(java.lang.String,com.google.android.gms.internal.zzcnr[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.google.android.gms.internal.zzcno: java.lang.Object zzag(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <okhttp3.internal.io.FileSystem$1: okio.Sink sink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <okhttp3.internal.io.FileSystem$1: okio.Sink appendingSink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.google.android.gms.common.util.zzx: java.io.File zzd(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.zendesk.belvedere.BelvedereStorage: java.io.File getAttachmentDir(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.google.android.gms.internal.zzcno: byte[] zzs(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <okio.Okio$2: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.zendesk.belvedere.BelvedereResolveUriTask: java.util.List doInBackground(android.net.Uri[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcil: java.lang.String zzba(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcil: long zzc(java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcil: java.lang.String zzazw()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcil: long zzbad()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcil: android.util.Pair zzb(java.lang.String,java.lang.Long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcil: long zza(java.lang.String,java.lang.String[],long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzckj: boolean zzg(java.lang.String,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzcjf: boolean zzb(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzckj: boolean zzg(java.lang.String,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.zzcjn: java.net.HttpURLConnection zzb(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.zzakz: void zzcp(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.zendesk.belvedere.BelvedereResolveUriTask: java.util.List doInBackground(android.net.Uri[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.google.android.gms.internal.zzcjn: byte[] zzc(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.google.android.gms.internal.zzcno: byte[] zzs(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.Gson: com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <okhttp3.internal.io.FileSystem$1: void rename(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.zzu: java.lang.String zzci(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.zendesk.sdk.network.impl.DeviceInfo: long getTotalMemoryCompat()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <com.google.android.gms.internal.zzcno: byte[] zzr(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.google.android.gms.internal.zzcno: java.lang.Object zzag(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <com.google.android.gms.internal.zzcno: java.lang.Object zzag(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.google.firebase.iid.zzaa: void <init>(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void flush()>
+Caller: <com.google.android.gms.internal.zzcno: java.lang.Object zzag(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.zzp: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.zendesk.sdk.network.impl.DeviceInfo: long getTotalMemoryCompat()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.zendesk.sdk.network.impl.DeviceInfo: long getTotalMemoryCompat()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.zendesk.sdk.network.impl.DeviceInfo: long getTotalMemoryCompat()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.google.android.gms.internal.zzcno: java.lang.Object zzag(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.google.android.gms.internal.zzcno: java.lang.Object zzag(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Sink sink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.zendesk.belvedere.BelvedereResolveUriTask: java.util.List doInBackground(android.net.Uri[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.zzaks: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.zzaks: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.ads.identifier.AdvertisingIdClient: com.google.android.gms.internal.zzfp zza(android.content.Context,com.google.android.gms.common.zza)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.ads.identifier.AdvertisingIdClient: com.google.android.gms.common.zza zzc(android.content.Context,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzcil: byte[] zzjl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzcil: com.google.android.gms.internal.zzcim zza(long,java.lang.String,boolean,boolean,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzcil: java.util.Map zzak(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzcil: java.util.Map zzjm(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzcil: com.google.android.gms.internal.zzcie zzjj(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzcil: com.google.android.gms.internal.zzcnn zzag(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzcil: java.util.Map zzaj(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzcil: com.google.android.gms.internal.zzcit zzae(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.zendesk.sdk.network.impl.ZendeskNetworkInfoProvider: void unregisterForNetworkCallbacks()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.zendesk.sdk.ui.NetworkAwareActionbarActivity: void unregisterForNetworkCallbacks()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.gms.internal.zzcil: void beginTransaction()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.gms.internal.zzcil: void zza(java.lang.String,com.google.android.gms.internal.zzcnr[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.gms.internal.zzcjf: boolean zzb(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.gms.internal.zzcjf: java.util.List zzep(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.zendesk.belvedere.BelvedereResolveUriTask: java.util.List doInBackground(android.net.Uri[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.zendesk.belvedere.BelvedereResolveUriTask: java.util.List doInBackground(android.net.Uri[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.zendesk.belvedere.BelvedereResolveUriTask: java.util.List doInBackground(android.net.Uri[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.zendesk.belvedere.BelvedereResolveUriTask: java.util.List doInBackground(android.net.Uri[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <okio.Okio$1: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzcil: void zza(java.lang.String,com.google.android.gms.internal.zzcnr[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzcjf: boolean zzb(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzcjf: boolean zzb(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzcjf: java.util.List zzep(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzcil: void endTransaction()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzcjf: java.util.List zzep(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzcil: void zza(java.lang.String,com.google.android.gms.internal.zzcnr[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.google.android.gms.internal.zzcno: java.lang.Object zzag(java.lang.Object)>
+Thread: [UI]
+-------------------------

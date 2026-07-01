@@ -1,0 +1,2582 @@
+Time1: 53.971059859
+Time2: 20.301054722
+Worker: 197
+UI: 447
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.samsung.android.app.music.common.settings.BackupRestoreReceiver: int restoreStart(android.content.Context,java.lang.String,java.lang.String,int)>
+Thread: [<com.samsung.android.app.music.common.settings.BackupRestoreReceiver$2: void run()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.samsung.android.app.music.common.settings.BackupRestoreReceiver: int saveEncryptedFile(java.util.HashMap,java.lang.String,java.lang.String,int)>
+Thread: [<com.samsung.android.app.music.common.settings.BackupRestoreReceiver$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.samsung.android.app.music.common.settings.BackupRestoreReceiver: int saveEncryptedFile(java.util.HashMap,java.lang.String,java.lang.String,int)>
+Thread: [<com.samsung.android.app.music.common.settings.BackupRestoreReceiver$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.samsung.android.app.music.common.settings.BackupRestoreReceiver: int saveEncryptedFile(java.util.HashMap,java.lang.String,java.lang.String,int)>
+Thread: [<com.samsung.android.app.music.common.settings.BackupRestoreReceiver$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.samsung.android.app.music.melonsdk.net.DataLoadUtils: java.lang.String parseJSON(java.net.HttpURLConnection)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.Cursor: void close()>
+Caller: <com.samsung.android.app.music.library.ui.database.CustomMergeCursor: void close()>
+Thread: [<com.samsung.android.app.music.service.observer.MediaSessionUpdater$1: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void modify(java.io.RandomAccessFile,java.lang.String,long,long,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateUnknownFramesToMajor4()>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateFrame(int,byte[],com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Frame)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void <init>(java.lang.String,int,java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v1.ID3v1MetaEditor: com.samsung.android.app.music.common.metaedit.id3v1.ID3v1Tag parse(java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void addFrame(int,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parse(java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateHeaderVersionToMajor4()>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void remove(java.io.RandomAccessFile,java.lang.String,long,int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void insert(java.io.RandomAccessFile,java.lang.String,long,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parse(java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void removeFrame(int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: void close()>
+Caller: <com.samsung.android.app.music.library.ui.database.CustomMergeCursor: void close()>
+Thread: [<com.samsung.android.app.music.service.observer.MediaSessionUpdater$1: void run()>]
+-------------------------
+MethodSignature: <android.database.Cursor: void close()>
+Caller: <com.samsung.android.app.music.library.ui.database.CustomMergeCursor: void close()>
+Thread: [<com.samsung.android.app.music.service.observer.MediaSessionUpdater$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.samsung.android.app.music.common.settings.BackupRestoreReceiver: int saveEncryptedFile(java.util.HashMap,java.lang.String,java.lang.String,int)>
+Thread: [<com.samsung.android.app.music.common.settings.BackupRestoreReceiver$1: void run()>]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: void onChange(boolean)>
+Caller: <com.samsung.android.app.music.common.player.NowPlayingCursor: java.lang.String getString(int)>
+Thread: [<com.samsung.android.app.music.service.observer.MediaSessionUpdater$1: void run()>]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: void onChange(boolean)>
+Caller: <com.samsung.android.app.music.common.player.NowPlayingCursor: long getLong(int)>
+Thread: [<com.samsung.android.app.music.service.observer.MediaSessionUpdater$1: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void insert(java.io.RandomAccessFile,java.lang.String,long,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void remove(java.io.RandomAccessFile,java.lang.String,long,int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void modify(java.io.RandomAccessFile,java.lang.String,long,long,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v1.ID3v1MetaEditor: com.samsung.android.app.music.common.metaedit.id3v1.ID3v1Tag parse(java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateUnknownFramesToMajor4()>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void addFrame(int,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateFrame(int,byte[],com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Frame)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void insert(java.io.RandomAccessFile,java.lang.String,long,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: int parseExtendedHeader(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v1.ID3v1MetaEditor: com.samsung.android.app.music.common.metaedit.id3v1.ID3v1Tag parse(java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateFrame(int,byte[],com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Frame)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void removeFrame(int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: int parseExtendedHeader(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateHeaderVersionToMajor4()>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void remove(java.io.RandomAccessFile,java.lang.String,long,int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void modify(java.io.RandomAccessFile,java.lang.String,long,long,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void onUpdateDmrDB(java.util.ArrayList)>
+Thread: [<com.samsung.android.app.music.library.ui.widget.control.ForwardRewindControlTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager$4: void onUpdateDlnaDB(java.lang.String,java.lang.String)>
+Thread: [<com.samsung.android.app.music.service.PlayerListManager$PlayerListContentObserver$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void onUpdateDmrDB(java.util.ArrayList)>
+Thread: [<com.samsung.android.app.music.service.PlayerListManager$PlayerListContentObserver$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void onUpdateDmsDB(java.util.ArrayList)>
+Thread: [<com.samsung.android.app.music.library.ui.widget.control.ForwardRewindControlTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void onUpdateDmsDB(java.util.ArrayList)>
+Thread: [<com.samsung.android.app.music.service.PlayerListManager$PlayerListContentObserver$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void onUpdateDmsDB(java.util.ArrayList)>
+Thread: [<com.samsung.android.app.music.service.PlayerService$25: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager$4: void onUpdateDlnaDB(java.lang.String,java.lang.String)>
+Thread: [<com.samsung.android.app.music.library.ui.widget.control.ForwardRewindControlTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager$4: void onUpdateDlnaDB(java.lang.String,java.lang.String)>
+Thread: [<com.samsung.android.app.music.service.PlayerService$25: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void onUpdateDmrDB(java.util.ArrayList)>
+Thread: [<com.samsung.android.app.music.service.PlayerService$25: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.samsung.android.app.music.common.update.SamsungAppsUpdater: java.lang.String getDeviceId()>
+Thread: [<com.samsung.android.app.music.common.update.SamsungAppsUpdater$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.samsung.android.app.music.common.update.SamsungAppsUpdater: java.lang.String getDeployedState()>
+Thread: [<com.samsung.android.app.music.common.update.SamsungAppsUpdater$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.melonsdk.net.URLConnectionUtils: void setPostParameters(android.content.Context,java.net.HttpURLConnection,java.util.Map)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.melonsdk.net.URLConnectionUtils: void setPostParameters(android.content.Context,java.net.HttpURLConnection,java.util.Map)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.samsung.android.app.music.melonsdk.net.DataLoadUtils: java.lang.String parseJSON(java.net.HttpURLConnection)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.samsung.android.app.music.common.player.NowPlayingCursor: long[] getRealCursorIndex(android.database.Cursor)>
+Thread: [<com.samsung.android.app.music.service.observer.MediaSessionUpdater$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager$4: void onStart()>
+Thread: [<com.samsung.android.app.music.service.PlayerListManager$PlayerListContentObserver$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.library.ui.util.ContentResolverWrapper: int delete(android.content.Context,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [<com.samsung.android.app.music.common.settings.VersionManager$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.library.ui.util.ContentResolverWrapper: int delete(android.content.Context,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [<com.samsung.android.app.music.library.ui.widget.control.ForwardRewindControlTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager$2: void onDeviceRemoved(com.samsung.android.allshare.Device$DeviceType,com.samsung.android.allshare.Device,com.samsung.android.allshare.ERROR)>
+Thread: [<com.samsung.android.app.music.library.ui.widget.control.ForwardRewindControlTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager$2: void onDeviceRemoved(com.samsung.android.allshare.Device$DeviceType,com.samsung.android.allshare.Device,com.samsung.android.allshare.ERROR)>
+Thread: [<com.samsung.android.app.music.library.ui.widget.control.ForwardRewindControlTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void bindDlnaService()>
+Thread: [<com.samsung.android.app.music.service.PlayerService$25: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager$2: void onDeviceRemoved(com.samsung.android.allshare.Device$DeviceType,com.samsung.android.allshare.Device,com.samsung.android.allshare.ERROR)>
+Thread: [<com.samsung.android.app.music.service.PlayerListManager$PlayerListContentObserver$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void onUpdateDmsDB(java.util.ArrayList)>
+Thread: [<com.samsung.android.app.music.service.PlayerListManager$PlayerListContentObserver$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager$4: void onStart()>
+Thread: [<com.samsung.android.app.music.service.PlayerService$25: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void onUpdateDmrDB(java.util.ArrayList)>
+Thread: [<com.samsung.android.app.music.library.ui.widget.control.ForwardRewindControlTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager$2: void onDeviceRemoved(com.samsung.android.allshare.Device$DeviceType,com.samsung.android.allshare.Device,com.samsung.android.allshare.ERROR)>
+Thread: [<com.samsung.android.app.music.service.PlayerService$25: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.library.ui.util.ContentResolverWrapper: int delete(android.content.Context,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [<com.samsung.android.app.music.service.PlayerListManager$PlayerListContentObserver$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void bindDlnaService()>
+Thread: [<com.samsung.android.app.music.library.ui.widget.control.ForwardRewindControlTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager$2: void onDeviceRemoved(com.samsung.android.allshare.Device$DeviceType,com.samsung.android.allshare.Device,com.samsung.android.allshare.ERROR)>
+Thread: [<com.samsung.android.app.music.service.PlayerService$25: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager$4: void onStart()>
+Thread: [<com.samsung.android.app.music.library.ui.widget.control.ForwardRewindControlTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void onUpdateDmsDB(java.util.ArrayList)>
+Thread: [<com.samsung.android.app.music.library.ui.widget.control.ForwardRewindControlTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void onUpdateDmrDB(java.util.ArrayList)>
+Thread: [<com.samsung.android.app.music.service.PlayerListManager$PlayerListContentObserver$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.library.ui.util.ContentResolverWrapper: int delete(android.content.Context,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [<com.samsung.android.app.music.service.PlayerService$25: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager$2: void onDeviceRemoved(com.samsung.android.allshare.Device$DeviceType,com.samsung.android.allshare.Device,com.samsung.android.allshare.ERROR)>
+Thread: [<com.samsung.android.app.music.service.PlayerListManager$PlayerListContentObserver$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void onUpdateDmsDB(java.util.ArrayList)>
+Thread: [<com.samsung.android.app.music.service.PlayerService$25: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void onUpdateDmrDB(java.util.ArrayList)>
+Thread: [<com.samsung.android.app.music.service.PlayerService$25: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void bindDlnaService()>
+Thread: [<com.samsung.android.app.music.service.PlayerListManager$PlayerListContentObserver$1: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void modify(java.io.RandomAccessFile,java.lang.String,long,long,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateFrame(int,byte[],com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Frame)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateFrame(int,byte[],com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Frame)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void removeFrame(int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parse(java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void insert(java.io.RandomAccessFile,java.lang.String,long,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parse(java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parse(java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void addFrame(int,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v1.ID3v1MetaEditor: com.samsung.android.app.music.common.metaedit.id3v1.ID3v1Tag parse(java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void <init>(java.lang.String,int,java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void remove(java.io.RandomAccessFile,java.lang.String,long,int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void addFrame(int,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parse(java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v1.ID3v1MetaEditor: com.samsung.android.app.music.common.metaedit.id3v1.ID3v1Tag parse(java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag parseHeader(java.io.RandomAccessFile)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateHeaderVersionToMajor4()>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateUnknownFramesToMajor4()>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag parseHeader(java.io.RandomAccessFile)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parse(java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateHeaderVersionToMajor4()>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void <init>(java.lang.String,int,java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag parseHeader(java.io.RandomAccessFile)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v1.ID3v1MetaEditor: com.samsung.android.app.music.common.metaedit.id3v1.ID3v1Tag parse(java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parse(java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag parseHeader(java.io.RandomAccessFile)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateFrame(int,byte[],com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Frame)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateHeaderVersionToMajor4()>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateUnknownFramesToMajor4()>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void removeFrame(int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void addFrame(int,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void removeFrame(int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateUnknownFramesToMajor4()>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void <init>(java.lang.String,int,java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.samsung.android.app.music.melonsdk.net.URLConnectionUtils: java.net.HttpURLConnection getPostData(android.content.Context,java.lang.String,java.util.Map)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.samsung.android.app.music.melonsdk.net.URLConnectionUtils: java.net.HttpURLConnection getSecurePostData(android.content.Context,java.lang.String,java.util.Map)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.samsung.android.app.music.common.update.SamsungAppsUpdater: java.lang.String getUrlRequestResult(java.lang.String,java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.update.SamsungAppsUpdater$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int skipBytes(int)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int skipBytes(int)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int skipBytes(int)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int skipBytes(int)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: int parseExtendedHeader(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: int parseExtendedHeader(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: int parseExtendedHeader(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag parseHeader(java.io.RandomAccessFile)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v1.ID3v1MetaEditor: com.samsung.android.app.music.common.metaedit.id3v1.ID3v1Tag parse(java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaReader$ParsingTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag parseHeader(java.io.RandomAccessFile)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: int parseExtendedHeader(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long getFilePointer()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void modify(java.io.RandomAccessFile,java.lang.String,long,long,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long getFilePointer()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void insert(java.io.RandomAccessFile,java.lang.String,long,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.library.ui.util.ContentResolverWrapper: android.net.Uri insert(android.content.Context,android.net.Uri,android.content.ContentValues)>
+Thread: [<com.samsung.android.app.music.common.settings.VersionManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.Cursor: void registerDataSetObserver(android.database.DataSetObserver)>
+Caller: <com.samsung.android.app.music.library.ui.database.CustomMergeCursor: void <init>(android.database.Cursor[])>
+Thread: [<com.samsung.android.app.music.service.observer.MediaSessionUpdater$1: void run()>]
+-------------------------
+MethodSignature: <android.database.Cursor: void registerDataSetObserver(android.database.DataSetObserver)>
+Caller: <com.samsung.android.app.music.library.ui.database.CustomMergeCursor: void registerDataSetObserver(android.database.DataSetObserver)>
+Thread: [<com.samsung.android.app.music.service.observer.MediaSessionUpdater$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.samsung.android.app.music.common.update.SamsungAppsUpdater: java.lang.String getDeployedState()>
+Thread: [<com.samsung.android.app.music.common.update.SamsungAppsUpdater$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.samsung.android.app.music.common.update.SamsungAppsUpdater: java.lang.String getCSC()>
+Thread: [<com.samsung.android.app.music.common.update.SamsungAppsUpdater$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.samsung.android.app.music.common.settings.BackupRestoreReceiver: int saveEncryptedFile(java.util.HashMap,java.lang.String,java.lang.String,int)>
+Thread: [<com.samsung.android.app.music.common.settings.BackupRestoreReceiver$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.samsung.android.app.music.common.update.SamsungAppsUpdater: java.lang.String getDeviceId()>
+Thread: [<com.samsung.android.app.music.common.update.SamsungAppsUpdater$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.samsung.android.app.music.common.update.SamsungAppsUpdater: java.lang.String getCSC()>
+Thread: [<com.samsung.android.app.music.common.update.SamsungAppsUpdater$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.settings.BackupRestoreReceiver: java.io.InputStream decryptStream(java.io.InputStream,java.lang.String,int)>
+Thread: [<com.samsung.android.app.music.common.settings.BackupRestoreReceiver$2: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.settings.BackupRestoreReceiver: java.io.InputStream decryptStream(java.io.InputStream,java.lang.String,int)>
+Thread: [<com.samsung.android.app.music.common.settings.BackupRestoreReceiver$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.update.SamsungAppsUpdater: java.lang.String getCSC()>
+Thread: [<com.samsung.android.app.music.common.update.SamsungAppsUpdater$1: void run()>]
+-------------------------
+MethodSignature: <java.net.HttpCookie: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.melonsdk.net.CookieHelper: java.lang.String getCookie(android.content.Context)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.samsung.android.app.music.library.ui.database.CustomMergeCursor: java.lang.String getString(int)>
+Thread: [<com.samsung.android.app.music.service.observer.MediaSessionUpdater$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.samsung.android.app.music.melonsdk.net.URLConnectionUtils: void setPostParameters(android.content.Context,java.net.HttpURLConnection,java.util.Map)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.settings.BackupRestoreReceiver: java.io.OutputStream encryptStream(java.io.OutputStream,java.lang.String,int)>
+Thread: [<com.samsung.android.app.music.common.settings.BackupRestoreReceiver$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.settings.BackupRestoreReceiver: java.io.OutputStream encryptStream(java.io.OutputStream,java.lang.String,int)>
+Thread: [<com.samsung.android.app.music.common.settings.BackupRestoreReceiver$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.samsung.android.app.music.melonsdk.net.URLConnectionUtils: java.net.HttpURLConnection getPostData(android.content.Context,java.lang.String,java.util.Map)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.samsung.android.app.music.melonsdk.net.URLConnectionUtils: java.net.HttpURLConnection getSecurePostData(android.content.Context,java.lang.String,java.util.Map)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.samsung.android.app.music.common.update.SamsungAppsUpdater: java.lang.String getUrlRequestResult(java.lang.String,java.lang.String)>
+Thread: [<com.samsung.android.app.music.common.update.SamsungAppsUpdater$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.samsung.android.app.music.common.update.SamsungAppsUpdater: java.lang.String getCSC()>
+Thread: [<com.samsung.android.app.music.common.update.SamsungAppsUpdater$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.samsung.android.app.music.common.update.SamsungAppsUpdater: java.lang.String getCSC()>
+Thread: [<com.samsung.android.app.music.common.update.SamsungAppsUpdater$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.samsung.android.app.music.common.update.SamsungAppsUpdater: java.lang.String getCSC()>
+Thread: [<com.samsung.android.app.music.common.update.SamsungAppsUpdater$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.library.ui.util.ContentResolverWrapper: int update(android.content.Context,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.samsung.android.app.music.common.settings.VersionManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void insert(java.io.RandomAccessFile,java.lang.String,long,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.samsung.android.app.music.library.ui.drm.DrmPopupFragment$2: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.samsung.android.app.music.service.PlayerService$25: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.samsung.android.app.music.common.settings.BackupRestoreReceiver: int saveEncryptedFile(java.util.HashMap,java.lang.String,java.lang.String,int)>
+Thread: [<com.samsung.android.app.music.common.settings.BackupRestoreReceiver$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void remove(java.io.RandomAccessFile,java.lang.String,long,int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.samsung.android.app.music.library.ui.drm.DrmPopupFragment$2: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.samsung.android.app.music.service.PlayerListManager$PlayerListContentObserver$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.samsung.android.app.music.library.ui.drm.DrmPopupFragment$2: void onClick(android.content.DialogInterface,int)>
+Thread: [<com.samsung.android.app.music.library.ui.widget.control.ForwardRewindControlTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void modify(java.io.RandomAccessFile,java.lang.String,long,long,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: long getLong(int)>
+Caller: <com.samsung.android.app.music.library.ui.database.CustomMergeCursor: long getLong(int)>
+Thread: [<com.samsung.android.app.music.service.observer.MediaSessionUpdater$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.settings.BackupRestoreReceiver: java.io.InputStream decryptStream(java.io.InputStream,java.lang.String,int)>
+Thread: [<com.samsung.android.app.music.common.settings.BackupRestoreReceiver$2: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.settings.BackupRestoreReceiver: java.io.InputStream decryptStream(java.io.InputStream,java.lang.String,int)>
+Thread: [<com.samsung.android.app.music.common.settings.BackupRestoreReceiver$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.settings.BackupRestoreReceiver: java.io.OutputStream encryptStream(java.io.OutputStream,java.lang.String,int)>
+Thread: [<com.samsung.android.app.music.common.settings.BackupRestoreReceiver$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.settings.BackupRestoreReceiver: java.io.OutputStream encryptStream(java.io.OutputStream,java.lang.String,int)>
+Thread: [<com.samsung.android.app.music.common.settings.BackupRestoreReceiver$1: void run()>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(int)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateHeaderVersionToMajor4()>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateFrame(int,byte[],com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Frame)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateFrame(int,byte[],com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Frame)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateUnknownFramesToMajor4()>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void insert(java.io.RandomAccessFile,java.lang.String,long,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void addFrame(int,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void modify(java.io.RandomAccessFile,java.lang.String,long,long,byte[])>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void removeFrame(int)>
+Thread: [<com.samsung.android.app.music.common.metaedit.MediaMetaWriter$EditTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.samsung.android.app.music.melonsdk.net.DataLoadUtils: java.lang.String parseJSON(java.net.HttpURLConnection)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.samsung.android.app.music.melonsdk.net.DataLoadUtils: java.lang.String parseJSON(java.net.HttpURLConnection)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.samsung.android.app.music.melonsdk.net.DataLoadUtils: java.lang.String parseJSON(java.net.HttpURLConnection)>
+Thread: [<com.samsung.android.app.music.melonsdk.task.LoadPostDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.samsung.android.app.music.common.settings.BackupRestoreReceiver: int saveEncryptedFile(java.util.HashMap,java.lang.String,java.lang.String,int)>
+Thread: [<com.samsung.android.app.music.common.settings.BackupRestoreReceiver$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: java.nio.charset.Charset findCharset(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.samsung.android.app.music.common.MusicApplication: java.lang.String getProcessNameFast()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.samsung.android.app.music.common.lyrics.LrcFileParser: com.samsung.android.app.music.common.lyrics.Lyrics parseFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int updateInternal(int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void updateLatestContentsHasMore(java.lang.String,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: void execute()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int playlistBulkInsert(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.samsung.android.app.music.common.lyrics.LrcFileParser: com.samsung.android.app.music.common.lyrics.Lyrics parseFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.samsung.android.app.music.melonsdk.net.DataLoadUtils: java.lang.String parseJSON(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void addFrame(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void insert(java.io.RandomAccessFile,java.lang.String,long,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parse(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void remove(java.io.RandomAccessFile,java.lang.String,long,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.util.tag.LyricParser: java.lang.String getLyric(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v1.ID3v1MetaEditor: com.samsung.android.app.music.common.metaedit.id3v1.ID3v1Tag parse(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void modify(java.io.RandomAccessFile,java.lang.String,long,long,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateFrame(int,byte[],com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Frame)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void <init>(java.lang.String,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void removeFrame(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateHeaderVersionToMajor4()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateUnknownFramesToMajor4()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.Cursor: void close()>
+Caller: <com.samsung.android.app.music.provider.MusicSearchProvider: android.database.Cursor getResultCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.samsung.android.app.music.common.privatemode.operation.PrivateModeFileOperationThread: void <init>(android.content.Context,java.lang.String,long[],boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Integer getAsInteger(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void updateLatestContentsHasMore(java.lang.String,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Integer getAsInteger(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void updateLatestContentsHasMore(java.lang.String,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Integer getAsInteger(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Integer getAsInteger(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Integer getAsInteger(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: long insertOnlineTracks(android.database.sqlite.SQLiteDatabase,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicSearchProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicSearchProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.core.settings.provider.SettingProviderUriHelper: void <init>(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicSearchProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.martworkcache.loaders.LocalLoader: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.SharedProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void modify(java.io.RandomAccessFile,java.lang.String,long,long,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void remove(java.io.RandomAccessFile,java.lang.String,long,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v1.ID3v1MetaEditor: com.samsung.android.app.music.common.metaedit.id3v1.ID3v1Tag parse(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void insert(java.io.RandomAccessFile,java.lang.String,long,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFileDescriptor(java.io.FileDescriptor,android.graphics.Rect,android.graphics.BitmapFactory$Options)>
+Caller: <com.samsung.android.app.music.martworkcache.SyncArtworkLoader: android.graphics.Bitmap getLocalBitmapFromFileDescriptor(java.io.FileDescriptor,android.graphics.BitmapFactory$Options,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFileDescriptor(java.io.FileDescriptor,android.graphics.Rect,android.graphics.BitmapFactory$Options)>
+Caller: <com.samsung.android.app.music.martworkcache.SyncArtworkLoader: android.graphics.Bitmap getLocalBitmapFromFileDescriptor(java.io.FileDescriptor,android.graphics.BitmapFactory$Options,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void modify(java.io.RandomAccessFile,java.lang.String,long,long,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateUnknownFramesToMajor4()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateHeaderVersionToMajor4()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: int parseExtendedHeader(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void remove(java.io.RandomAccessFile,java.lang.String,long,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateFrame(int,byte[],com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Frame)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void removeFrame(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void addFrame(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateFrame(int,byte[],com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Frame)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v1.ID3v1MetaEditor: com.samsung.android.app.music.common.metaedit.id3v1.ID3v1Tag parse(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void insert(java.io.RandomAccessFile,java.lang.String,long,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider$1: void onReceive(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int moveFavoriteEntry(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.database.Cursor doAudioSearch(android.database.sqlite.SQLiteDatabase,android.database.sqlite.SQLiteQueryBuilder,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int movePlaylistEntry(android.database.sqlite.SQLiteDatabase,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int moveFavoriteEntry(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void rearrangePlayOrderInPlaylistInternal(android.database.sqlite.SQLiteDatabase,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int movePlaylistEntry(android.database.sqlite.SQLiteDatabase,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int movePlaylistEntry(android.database.sqlite.SQLiteDatabase,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int moveFavoriteEntry(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.database.Cursor doAudioSearch(android.database.sqlite.SQLiteDatabase,android.database.sqlite.SQLiteQueryBuilder,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int movePlaylistEntry(android.database.sqlite.SQLiteDatabase,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int moveFavoriteEntry(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void onUpdateDmrDB(java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager$4: void onUpdateDlnaDB(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void onUpdateDmsDB(java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: java.nio.charset.Charset findCharset(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: java.nio.charset.Charset findCharset(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: java.nio.charset.Charset findCharset(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: java.nio.charset.Charset findCharset(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: java.nio.charset.Charset findCharset(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: java.nio.charset.Charset findCharset(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: int getInt(int)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: void onLoadFinished(android.content.Loader,android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: int getInt(int)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: void onLoadFinished(android.content.Loader,android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: int getInt(int)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: android.database.Cursor buildCursorWithDiscInfo(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: int getInt(int)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: void updateAlbumDetailsInfoView(android.database.Cursor,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void backupPlaylistMembers(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void rearrangePlayOrderInPlaylistInternal(android.database.sqlite.SQLiteDatabase,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void restorePlaylistMembers(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void rearrangePlayOrderInPlaylistInternal(android.database.sqlite.SQLiteDatabase,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void restorePlaylistMembers(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: long insertOnlineTracks(android.database.sqlite.SQLiteDatabase,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int playlistBulkInsert(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void rearrangePlayOrderInPlaylist(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void restorePlaylistMembers(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.database.Cursor queryMelonThumbnailArtistUrl(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.database.Cursor queryMelonThumbnailAlbumUrl(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.melonsdk.net.URLConnectionUtils: void setPostParameters(android.content.Context,java.net.HttpURLConnection,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.melonsdk.net.URLConnectionUtils: void setPostParameters(android.content.Context,java.net.HttpURLConnection,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int dlnaContentsBulkInsert(android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int getMediaDBPreviousCount()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int deleteAudioMedia(android.content.Context,android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int getMusicDBCount(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void updateMediaProviderPlayedInfo(android.database.sqlite.SQLiteDatabase,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.samsung.android.app.music.martworkcache.loaders.LocalLoader: android.graphics.Bitmap loadLocalBitmapDirectly(android.content.Context,android.net.Uri,int,android.graphics.BitmapFactory$Options)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.samsung.android.app.music.martworkcache.loaders.LocalLoader: android.graphics.Bitmap loadLocalBitmapDirectly(android.content.Context,android.net.Uri,int,android.graphics.BitmapFactory$Options)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.samsung.android.app.music.melonsdk.net.DataLoadUtils: java.lang.String parseJSON(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.samsung.android.app.music.common.MusicApplication: java.lang.String getProcessNameFast()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int deleteAudioMedia(android.content.Context,android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int cacheMapBulkInsert(android.database.sqlite.SQLiteDatabase,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int cacheMapBulkInsert(android.database.sqlite.SQLiteDatabase,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: void initColIndex(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: void initColIndex(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: void initColIndex(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.SharedProvider: android.database.Cursor getSettingCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: void initColIndex(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: void initColIndex(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: void initColIndex(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: void initColIndex(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.SharedProvider: android.database.Cursor getSettingCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.samsung.android.app.music.martworkcache.utils.ContentResolverWrapper: android.os.ParcelFileDescriptor openFileDescriptor(android.content.Context,android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void bindDlnaService()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void onUpdateDmsDB(java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager$2: void onDeviceRemoved(com.samsung.android.allshare.Device$DeviceType,com.samsung.android.allshare.Device,com.samsung.android.allshare.ERROR)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager: void onUpdateDmrDB(java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager$2: void onDeviceRemoved(com.samsung.android.allshare.Device$DeviceType,com.samsung.android.allshare.Device,com.samsung.android.allshare.ERROR)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.library.ui.util.ContentResolverWrapper: int delete(android.content.Context,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.core.library.dlna.DlnaManager$4: void onStart()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag parseHeader(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void <init>(java.lang.String,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateUnknownFramesToMajor4()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateHeaderVersionToMajor4()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void <init>(java.lang.String,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void remove(java.io.RandomAccessFile,java.lang.String,long,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v1.ID3v1MetaEditor: com.samsung.android.app.music.common.metaedit.id3v1.ID3v1Tag parse(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateFrame(int,byte[],com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Frame)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.util.tag.LyricParser: java.lang.String getLyric(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v1.ID3v1MetaEditor: com.samsung.android.app.music.common.metaedit.id3v1.ID3v1Tag parse(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateFrame(int,byte[],com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Frame)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void addFrame(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.util.tag.LyricParser: java.lang.String getLyric(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void <init>(java.lang.String,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parse(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateHeaderVersionToMajor4()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateFrame(int,byte[],com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Frame)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void addFrame(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parse(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void modify(java.io.RandomAccessFile,java.lang.String,long,long,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag parseHeader(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateUnknownFramesToMajor4()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateHeaderVersionToMajor4()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void removeFrame(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void removeFrame(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.util.tag.LyricParser: java.lang.String getLyric(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parse(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateUnknownFramesToMajor4()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void removeFrame(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v1.ID3v1MetaEditor: com.samsung.android.app.music.common.metaedit.id3v1.ID3v1Tag parse(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void insert(java.io.RandomAccessFile,java.lang.String,long,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void addFrame(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int movePlaylistEntry(android.database.sqlite.SQLiteDatabase,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int cacheMapBulkInsert(android.database.sqlite.SQLiteDatabase,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int bulkInsertInternal(android.net.Uri,android.content.ContentValues[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int dlnaContentsBulkInsert(android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.database.Cursor doAudioSearch(android.database.sqlite.SQLiteDatabase,android.database.sqlite.SQLiteQueryBuilder,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int moveFavoriteEntry(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void rearrangePlayOrderInPlaylist(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void restorePlaylistMembers(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int bulkUpdate(int,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int playlistBulkInsert(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.samsung.android.app.music.melonsdk.net.URLConnectionUtils: java.net.HttpURLConnection getPostData(android.content.Context,java.lang.String,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.samsung.android.app.music.melonsdk.net.URLConnectionUtils: java.net.HttpURLConnection getSecurePostData(android.content.Context,java.lang.String,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: java.nio.charset.Charset findCharset(java.io.InputStream,java.nio.charset.CharsetDecoder[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: long insertOnlineTracks(android.database.sqlite.SQLiteDatabase,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: long insertOnlineTracks(android.database.sqlite.SQLiteDatabase,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int dlnaContentsBulkInsert(android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: long insertOnlineTracks(android.database.sqlite.SQLiteDatabase,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int dlnaContentsBulkInsert(android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: long insertOnlineTracks(android.database.sqlite.SQLiteDatabase,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int updateInternal(int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: long insertOnlineTracks(android.database.sqlite.SQLiteDatabase,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.database.Cursor doAudioSearch(android.database.sqlite.SQLiteDatabase,android.database.sqlite.SQLiteQueryBuilder,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.database.Cursor doAudioSearch(android.database.sqlite.SQLiteDatabase,android.database.sqlite.SQLiteQueryBuilder,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.os.Bundle makeSearchSectionIndexExtras(android.database.sqlite.SQLiteDatabase,android.database.sqlite.SQLiteQueryBuilder,java.lang.String,java.lang.String[],java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.samsung.android.app.music.appwidget.MusicAppWidgetProvider: void initializeResources(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.samsung.android.app.music.common.util.BlurBackgroundController$Loader: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.samsung.android.app.music.common.util.UiUtils: android.graphics.Bitmap getDefaultAlbumArtBitmap(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int skipBytes(int)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int skipBytes(int)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v1.ID3v1MetaEditor: com.samsung.android.app.music.common.metaedit.id3v1.ID3v1Tag parse(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: int parseExtendedHeader(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag parseHeader(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void parseFrames(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: int parseExtendedHeader(java.io.RandomAccessFile,com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Tag)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.samsung.android.app.music.core.settings.provider.SettingProviderController: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider$1: void onReceive(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.os.Bundle call(java.lang.String,java.lang.String,android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long getFilePointer()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void insert(java.io.RandomAccessFile,java.lang.String,long,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long getFilePointer()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void modify(java.io.RandomAccessFile,java.lang.String,long,long,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.library.ui.util.ContentResolverWrapper: android.net.Uri insert(android.content.Context,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.Cursor: void registerDataSetObserver(android.database.DataSetObserver)>
+Caller: <com.samsung.android.app.music.library.ui.database.CustomMergeCursor: void <init>(android.database.Cursor[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.Cursor: void registerDataSetObserver(android.database.DataSetObserver)>
+Caller: <com.samsung.android.app.music.library.ui.database.CustomMergeCursor: void registerDataSetObserver(android.database.DataSetObserver)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.samsung.android.app.music.common.privatemode.operation.PrivateModeFileOperationThread: void <init>(android.content.Context,java.lang.String,long[],boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.samsung.android.app.music.common.lyrics.LyricsCache$5: boolean handleMessage(android.os.Message)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.samsung.android.app.music.library.ui.player.soundplayer.SoundPlayerActivity: boolean fileExistCheck(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.samsung.android.app.music.library.ui.framework.drm.DrmManager: boolean isForwardLockOnly()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.samsung.android.app.music.common.util.DiskUtils: void deleteFiles(java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.samsung.android.app.music.provider.SharedProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.samsung.android.app.music.core.settings.provider.SettingProviderUriHelper: int match(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.samsung.android.app.music.provider.MusicSearchProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.samsung.android.app.music.martworkcache.SyncArtworkLoader: android.graphics.Bitmap resizeIfNeed(int,android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.samsung.android.app.music.common.artworkcache.ArtworkUtils: android.graphics.Bitmap getSquareArtwork(android.graphics.Bitmap,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.samsung.android.app.music.common.artworkcache.ArtworkUtils: android.graphics.Bitmap getSquareArtwork(android.graphics.Bitmap,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.samsung.android.app.music.service.observer.MediaSessionUpdater: android.graphics.Bitmap resizeAlbumArt(android.graphics.Bitmap,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetDecoder: java.nio.CharBuffer decode(java.nio.ByteBuffer)>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: java.nio.charset.Charset findCharset(java.io.InputStream,java.nio.charset.CharsetDecoder[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.samsung.android.app.music.common.lyrics.LyricsCache$5: boolean handleMessage(android.os.Message)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.HttpCookie: void <init>(java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.melonsdk.net.CookieHelper: java.lang.String getCookie(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read()>
+Caller: <com.samsung.android.app.music.common.MusicApplication: java.lang.String getProcessNameFast()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.database.Cursor doAudioSearch(android.database.sqlite.SQLiteDatabase,android.database.sqlite.SQLiteQueryBuilder,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int bulkInsertInternal(android.net.Uri,android.content.ContentValues[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int bulkUpdate(int,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int bulkInsertInternal(android.net.Uri,android.content.ContentValues[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int dlnaContentsBulkInsert(android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int bulkUpdate(int,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int movePlaylistEntry(android.database.sqlite.SQLiteDatabase,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int moveFavoriteEntry(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int playlistBulkInsert(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int playlistBulkInsert(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int moveFavoriteEntry(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void restorePlaylistMembers(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int cacheMapBulkInsert(android.database.sqlite.SQLiteDatabase,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int bulkUpdate(int,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void restorePlaylistMembers(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.database.Cursor doAudioSearch(android.database.sqlite.SQLiteDatabase,android.database.sqlite.SQLiteQueryBuilder,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int cacheMapBulkInsert(android.database.sqlite.SQLiteDatabase,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void rearrangePlayOrderInPlaylist(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int dlnaContentsBulkInsert(android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void rearrangePlayOrderInPlaylist(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int movePlaylistEntry(android.database.sqlite.SQLiteDatabase,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.samsung.android.app.music.provider.MusicSearchProvider: android.database.Cursor getResultCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.samsung.android.app.music.list.melon.query.MelonGenreFragment: android.database.Cursor buildCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: void printLog(android.app.Fragment,android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.samsung.android.app.music.provider.MusicSearchProvider: android.database.Cursor getResultCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.samsung.android.app.music.provider.SharedProvider: android.database.Cursor getSettingCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.samsung.android.app.music.provider.MusicSearchProvider: android.database.Cursor getResultCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: android.database.Cursor buildCursorWithDiscInfo(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: void updateAlbumDetailsInfoView(android.database.Cursor,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: void updateAlbumDetailsInfoView(android.database.Cursor,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.samsung.android.app.music.provider.MusicSearchProvider: android.database.Cursor getResultCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: void updateAlbumDetailsInfoView(android.database.Cursor,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.samsung.android.app.music.provider.SharedProvider: android.database.Cursor getSettingCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Long getAsLong(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void updateMediaProviderPlayedInfo(android.database.sqlite.SQLiteDatabase,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.Long getAsLong(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int updateInternal(int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.samsung.android.app.music.common.util.DiskUtils: void deleteFiles(java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.samsung.android.app.music.melonsdk.net.URLConnectionUtils: void setPostParameters(android.content.Context,java.net.HttpURLConnection,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.samsung.android.app.music.melonsdk.net.URLConnectionUtils: java.net.HttpURLConnection getPostData(android.content.Context,java.lang.String,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.samsung.android.app.music.melonsdk.net.URLConnectionUtils: java.net.HttpURLConnection getSecurePostData(android.content.Context,java.lang.String,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.samsung.android.app.music.common.lyrics.LrcFileParser: com.samsung.android.app.music.common.lyrics.Lyrics parseFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.samsung.android.app.music.common.lyrics.LrcFileParser: com.samsung.android.app.music.common.lyrics.Lyrics parseFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.samsung.android.app.music.common.lyrics.LrcFileParser: com.samsung.android.app.music.common.lyrics.Lyrics parseFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.samsung.android.app.music.library.ui.util.ContentResolverWrapper: int update(android.content.Context,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int playlistBulkInsert(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void remove(java.io.RandomAccessFile,java.lang.String,long,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.samsung.android.app.music.library.ui.drm.DrmPopupFragment$2: void onClick(android.content.DialogInterface,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.samsung.android.app.music.common.util.DiskUtils: void deleteFiles(java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void modify(java.io.RandomAccessFile,java.lang.String,long,long,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void insert(java.io.RandomAccessFile,java.lang.String,long,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.samsung.android.app.music.common.util.DiskUtils: void deleteFiles(java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.core.settings.provider.SettingProviderController: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.samsung.android.app.music.provider.MusicSearchProvider: android.database.Cursor getResultCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.samsung.android.app.music.provider.MusicSearchProvider: android.database.Cursor getResultFancyCursor(android.database.Cursor,java.lang.String[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.samsung.android.app.music.common.util.ListUtils: android.database.MatrixCursor getFavouritesMatrixCursor(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.samsung.android.app.music.provider.SharedProvider: android.database.Cursor getSettingCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.samsung.android.app.music.common.util.ListUtils: android.database.MatrixCursor getNowPlayingListItemMatrixCursor(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.samsung.android.app.music.provider.MusicSearchProvider: android.database.Cursor getResultFancyCursor(android.database.Cursor,java.lang.String[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.samsung.android.app.music.common.util.ListUtils: android.database.MatrixCursor getCreatePlaylistMatrixCursor(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.samsung.android.app.music.list.phone.FavoriteFragment: void onLoadFinished(android.content.Loader,android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.samsung.android.app.music.library.ui.list.RecyclerViewFragment: android.database.Cursor makeViewType(int,android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: android.database.Cursor buildCursorWithDiscInfo(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.samsung.android.app.music.list.melon.query.MelonGenreFragment: void addRow(int,android.database.MatrixCursor,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.samsung.android.app.music.provider.MusicSearchProvider: android.database.Cursor getResultFancyCursor(android.database.Cursor,java.lang.String[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.samsung.android.app.music.list.melon.query.MelonGenreFragment: android.database.Cursor buildCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.samsung.android.app.music.list.melon.MelonAlbumDetailsFragment: android.database.Cursor buildCursorWithDiscInfo(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.samsung.android.app.music.list.common.info.PlaylistCursorBuilder: android.database.Cursor build()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.samsung.android.app.music.list.phone.PlaylistFragment: android.database.Cursor makeCursor(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: long getLong(int)>
+Caller: <com.samsung.android.app.music.provider.MusicSearchProvider: android.database.Cursor getResultCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: long getLong(int)>
+Caller: <com.samsung.android.app.music.provider.MusicSearchProvider: android.database.Cursor getResultCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: java.nio.charset.Charset findCharset(java.io.InputStream,java.nio.charset.CharsetDecoder[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int moveFavoriteEntry(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int cacheMapBulkInsert(android.database.sqlite.SQLiteDatabase,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int bulkUpdate(int,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int bulkInsertInternal(android.net.Uri,android.content.ContentValues[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int movePlaylistEntry(android.database.sqlite.SQLiteDatabase,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void restorePlaylistMembers(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int playlistBulkInsert(android.database.sqlite.SQLiteDatabase,android.net.Uri,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.database.Cursor doAudioSearch(android.database.sqlite.SQLiteDatabase,android.database.sqlite.SQLiteQueryBuilder,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int dlnaContentsBulkInsert(android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: void rearrangePlayOrderInPlaylist(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.core.settings.provider.SettingProviderController: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: long insertOnlineTracks(android.database.sqlite.SQLiteDatabase,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int cacheMapBulkInsert(android.database.sqlite.SQLiteDatabase,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: long insertOnlineTracks(android.database.sqlite.SQLiteDatabase,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int dlnaContentsBulkInsert(android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int cacheMapBulkInsert(android.database.sqlite.SQLiteDatabase,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int dlnaContentsBulkInsert(android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: android.net.Uri insertInternal(android.net.Uri,int,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.samsung.android.app.music.common.util.CharsetDetector: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(int)>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateHeaderVersionToMajor4()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void addFrame(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void modify(java.io.RandomAccessFile,java.lang.String,long,long,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void removeFrame(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.FileModifier: void insert(java.io.RandomAccessFile,java.lang.String,long,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateUnknownFramesToMajor4()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateFrame(int,byte[],com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Frame)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[])>
+Caller: <com.samsung.android.app.music.common.metaedit.id3v2.ID3v2MetaEditor: void updateFrame(int,byte[],com.samsung.android.app.music.common.metaedit.id3v2.ID3v2Frame)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.samsung.android.app.music.melonsdk.net.DataLoadUtils: java.lang.String parseJSON(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.samsung.android.app.music.common.MusicApplication: java.lang.String getProcessNameFast()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.samsung.android.app.music.common.MusicApplication: java.lang.String getProcessNameFast()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.samsung.android.app.music.common.MusicApplication: java.lang.String getProcessNameFast()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.samsung.android.app.music.melonsdk.net.DataLoadUtils: java.lang.String parseJSON(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.samsung.android.app.music.melonsdk.net.DataLoadUtils: java.lang.String parseJSON(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.samsung.android.app.music.common.MusicApplication: java.lang.String getProcessNameFast()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.samsung.android.app.music.common.MusicApplication: java.lang.String getProcessNameFast()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int movePlaylistEntry(android.database.sqlite.SQLiteDatabase,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int moveFavoriteEntry(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int movePlaylistEntry(android.database.sqlite.SQLiteDatabase,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.samsung.android.app.music.provider.MusicProvider: int moveFavoriteEntry(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------

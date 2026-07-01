@@ -1,0 +1,122 @@
+Time1: 20.62762143
+Time2: 0.451241737
+Worker: 7
+UI: 22
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.DBHelper: java.util.ArrayList getDetail(java.lang.String)>
+Thread: [<com.topketodiet.ketorecipes.fragment.SearchDetailFragment$getRecipeDetail: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.DBHelper: java.util.ArrayList getDetail(java.lang.String)>
+Thread: [<com.topketodiet.ketorecipes.fragment.DetailFragment$getRecipeDetail: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.DBHelper: java.util.ArrayList getDataByCategory(int)>
+Thread: [<com.topketodiet.ketorecipes.fragment.RecipesListBreakFragment$getRecipesList: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.DBHelper: java.util.ArrayList getDataByName(java.lang.String)>
+Thread: [<com.topketodiet.ketorecipes.fragment.SearchListFragment$getRecipesList: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.DBHelper: java.util.ArrayList getAllData()>
+Thread: [<com.topketodiet.ketorecipes.fragment.RecipesListFragment$getRecipesList: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.DBHelper: java.util.ArrayList getDataByCategory(int)>
+Thread: [<com.topketodiet.ketorecipes.fragment.RecipesListDinnerFragment$getRecipesList: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.DBHelper: java.util.ArrayList getDataByCategory(int)>
+Thread: [<com.topketodiet.ketorecipes.fragment.RecipesListLunchFragment$getRecipesList: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.topketodiet.ketorecipes.DBHelper: void copyDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.ads.internal.util.client.zzc: void zzcr(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.adapter.RecipesListDinnerAdapter: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.SplashActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.adapter.RecipesListBreakAdapter: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.adapter.RecipesListDinnerAdapter: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.adapter.RecipesListLunchAdapter: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.adapter.RecipesListAdapter: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.adapter.RecipesListLunchAdapter: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.adapter.RecipesListBreakAdapter: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.topketodiet.ketorecipes.DBHelper: boolean checkDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.ads.internal.util.client.zzc: void zzcr(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.DBHelper: java.util.ArrayList getDetail(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.DBHelper: java.util.ArrayList getDataByCategory(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.DBHelper: java.util.ArrayList getDataByName(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.DBHelper: java.util.ArrayList getAllData()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.topketodiet.ketorecipes.DBHelper: void copyDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.topketodiet.ketorecipes.DBHelper: void deleteDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+Caller: <com.topketodiet.ketorecipes.DBHelper: void openDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.topketodiet.ketorecipes.DBHelper: void copyDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.topketodiet.ketorecipes.DBHelper: void copyDataBase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.topketodiet.ketorecipes.DBHelper: void createDataBase()>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,978 @@
+Time1: 72.588944859
+Time2: 6.575401236
+Worker: 136
+UI: 107
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[],int,int)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[],int,int)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[],int,int)>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.share.internal.LikeActionController: void serializeToDiskSynchronously(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: void writeHeader(java.io.OutputStream,org.json.JSONObject)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.facebook.ProgressOutputStream: void close()>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.facebook.ProgressOutputStream: void close()>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.facebook.ProgressOutputStream: void close()>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.facebook.internal.FileLruCache: java.io.OutputStream openPutStream(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: void writeHeader(java.io.OutputStream,org.json.JSONObject)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: void writeHeader(java.io.OutputStream,org.json.JSONObject)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: void writeHeader(java.io.OutputStream,org.json.JSONObject)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: void writeHeader(java.io.OutputStream,org.json.JSONObject)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.internal.FileLruCache: java.io.OutputStream openPutStream(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.internal.FileLruCache$BufferFile: void deleteAll(java.io.File)>
+Thread: [<com.facebook.share.internal.LikeActionController$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.internal.FileLruCache: void renameToTargetAndTrim(java.lang.String,java.io.File)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.internal.FileLruCache$1: void onClose()>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentUri(java.lang.String,android.net.Uri,java.lang.String)>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentUri(java.lang.String,android.net.Uri,java.lang.String)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentUri(java.lang.String,android.net.Uri,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.FileLruCache: java.io.OutputStream openPutStream(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.facebook.internal.FileLruCache: java.io.OutputStream openPutStream(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean setLastModified(long)>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.FileLruCache: void <init>(java.lang.String,com.facebook.internal.FileLruCache$Limits)>
+Thread: [<com.facebook.share.internal.LikeActionController$4: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read(byte[],int,int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: org.json.JSONObject readHeader(java.io.InputStream)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.share.internal.LikeActionController: void serializeToDiskSynchronously(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[])>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: void writeHeader(java.io.OutputStream,org.json.JSONObject)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.facebook.internal.FileLruCache: void clearCache()>
+Thread: [<com.facebook.share.internal.LikeActionController$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.facebook.internal.FileLruCache$BufferFile: void deleteAll(java.io.File)>
+Thread: [<com.facebook.share.internal.LikeActionController$4: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read()>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: org.json.JSONObject readHeader(java.io.InputStream)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read()>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: org.json.JSONObject readHeader(java.io.InputStream)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: org.json.JSONObject readHeader(java.io.InputStream)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.facebook.internal.FileLruCache: void renameToTargetAndTrim(java.lang.String,java.io.File)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.internal.WorkQueue$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.share.internal.LikeActionController$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.internal.FileLruCache: void <init>(java.lang.String,com.facebook.internal.FileLruCache$Limits)>
+Thread: [<com.facebook.share.internal.LikeActionController$4: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzsg$zza: boolean zza(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.basti12354.database.DatabaseHandler: java.util.List getAllContacts()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.basti12354.bmi_calculator.DB_Handler_BMI: void deleteTable()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.basti12354.individuel_workout.db_for_save_load.DB_HandlerSaveAndLoad: java.util.List getAllSavedWorkouts()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.basti12354.individuel_workout.db_for_save_load.DB_HandlerSaveAndLoad: void addNewWorkout(com.basti12354.individuel_workout.db_for_save_load.WorkoutObjectForSaveAndLoad)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.internal.zzsg$zza: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.internal.zzsg$zza: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.basti12354.database.DatabaseHandler: void addContact(com.basti12354.database.Contact)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.basti12354.statistiken.hilfsklassen.DB_Handler: void addNewWorkout(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.zzp: void zzb(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.zztf: java.net.HttpURLConnection zzc(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.zzqg: void zzu(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <com.google.android.gms.internal.zztf: byte[] zzk(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.internal.zzsg: void zzb(com.google.android.gms.internal.zzse)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.basti12354.statistiken.hilfsklassen.DB_HandlerEinzelneUebung: int getExerciseCountForThisDayAndThisExercise(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzsg$zza: void onOpen(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.basti12354.individuel_workout.db_for_save_load.DB_HandlerSaveAndLoad: java.util.List getAllSavedWorkouts()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzsg: long zzb(java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.basti12354.database.DatabaseHandler: java.util.List getAllContacts()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzsg: long zza(java.lang.String,java.lang.String[],long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.basti12354.statistiken.hilfsklassen.DB_HandlerEinzelneUebung: int getCountForThisMonth(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzsg$zza: java.util.Set zzb(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.facebook.ProgressOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.gms.internal.zzsg: void beginTransaction()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.basti12354.bmi_calculator.DB_Handler_BMI: void onCreate(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzsg$zza: void zza(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzsg$zza: void onOpen(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzsg$zza: void onOpen(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.basti12354.bmi_calculator.DB_Handler_BMI: void deleteTable()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.zzu: java.lang.String zzdq(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.internal.zzsg$zza: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.internal.FileLruCache$BufferFile: void deleteAll(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.zzu: java.lang.String zzdq(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.basti12354.database.DatabaseHandler: void addContact(com.basti12354.database.Contact)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.gms.internal.zzsg: void zzc(com.google.android.gms.internal.zzsz)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentUri(java.lang.String,android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.zztf: java.net.URL zzqb()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.zztf: java.net.URL zzb(com.google.android.gms.internal.zzsz,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzqg: void zzu(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.zztf: java.net.URL zzh(com.google.android.gms.internal.zzsz)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.basti12354.individuel_workout.db_for_save_load.DB_HandlerSaveAndLoad: com.basti12354.individuel_workout.db_for_save_load.WorkoutObjectForSaveAndLoad getWorkoutFromDB(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzsg: java.util.List zzw(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzsg: java.util.List zzu(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zzsg: java.util.List zzt(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.basti12354.statistiken.hilfsklassen.DB_HandlerEinzelneUebung: int getCountForThisMonth(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.basti12354.statistiken.hilfsklassen.DB_HandlerEinzelneUebung: int getExerciseCountForThisDayAndThisExercise(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.basti12354.individuel_workout.db_for_save_load.DB_HandlerSaveAndLoad: com.basti12354.individuel_workout.db_for_save_load.WorkoutObjectForSaveAndLoad getWorkoutFromDB(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <com.google.android.gms.internal.zzsv: boolean zzca(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <com.google.android.gms.internal.zzsv: boolean zzca(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzsg: void zzr(java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzsg: void zzos()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzsg: void zza(long,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzsg: void zzor()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.internal.zzsg: int zzot()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.FileLruCache: void <init>(java.lang.String,com.facebook.internal.FileLruCache$Limits)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: java.io.File getAttachmentsDirectoryForCall(java.util.UUID,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.common.util.zzo: java.lang.String decode(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.internal.zztf: int zza(java.net.URL,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.internal.zztf$zza: boolean zzj(com.google.android.gms.internal.zzsz)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.internal.zztf: int zzb(java.net.URL,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.internal.zztf$zza: boolean zzj(com.google.android.gms.internal.zzsz)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean,boolean)>
+Caller: <com.google.android.gms.internal.zzsv: boolean zzca(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean,boolean)>
+Caller: <com.google.android.gms.internal.zzsv: boolean zzca(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.facebook.internal.FileLruCache: void clearCache()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.facebook.internal.FileLruCache$BufferFile: void deleteAll(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.gms.internal.zzsg: void setTransactionSuccessful()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: java.io.File getAttachmentFile(java.util.UUID,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zztf: void zza(java.lang.StringBuilder,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.zztf: void zza(java.lang.StringBuilder,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.internal.zzsg: void endTransaction()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.google.android.gms.internal.zztf: void zzb(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.internal.FileLruCache: void <init>(java.lang.String,com.facebook.internal.FileLruCache$Limits)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.basti12354.individuel_workout.db_for_save_load.DB_HandlerSaveAndLoad: void addNewWorkout(com.basti12354.individuel_workout.db_for_save_load.WorkoutObjectForSaveAndLoad)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.basti12354.statistiken.hilfsklassen.DB_Handler: void addNewWorkout(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: java.io.File getAttachmentsDirectoryForCall(java.util.UUID,boolean)>
+Thread: [UI]
+-------------------------

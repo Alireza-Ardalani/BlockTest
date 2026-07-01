@@ -1,0 +1,214 @@
+Time1: 290.836866212
+Time2: 2.199369036
+Worker: 23
+UI: 29
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.OutputStreamSink: void write(okio.Buffer,long)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.InputStream getInputStream()>
+Caller: <okio.Okio__JvmOkioKt: okio.Source source(java.net.Socket)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress[] getAllByName(java.lang.String)>
+Caller: <okhttp3.Dns$Companion$DnsSystem: java.util.List lookup(java.lang.String)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void <init>(java.net.Proxy)>
+Caller: <okhttp3.internal.connection.RealConnection: void connectSocket(int,int,okhttp3.Call,okhttp3.EventListener)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <okhttp3.internal.connection.RealConnection: void connectSocket(int,int,okhttp3.Call,okhttp3.EventListener)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <okhttp3.internal.connection.RealConnection: void startHttp2(int)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <okhttp3.internal.connection.RealConnection: okhttp3.internal.http.ExchangeCodec newCodec$okhttp(okhttp3.OkHttpClient,okhttp3.internal.http.RealInterceptorChain)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <okhttp3.internal.Util: boolean isHealthy(java.net.Socket,okio.BufferedSource)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <okhttp3.internal.Util: boolean isHealthy(java.net.Socket,okio.BufferedSource)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <okhttp3.internal.Util: boolean isHealthy(java.net.Socket,okio.BufferedSource)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: java.lang.String getHostName()>
+Caller: <okhttp3.internal.connection.RouteSelector$Companion: java.lang.String getSocketHost(java.net.InetSocketAddress)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: int getSoTimeout()>
+Caller: <okhttp3.internal.Util: boolean isHealthy(java.net.Socket,okio.BufferedSource)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <okio.InputStreamSource: long read(okio.Buffer,long)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void connect(java.net.SocketAddress,int)>
+Caller: <okhttp3.internal.platform.AndroidPlatform: void connectSocket(java.net.Socket,java.net.InetSocketAddress,int)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void connect(java.net.SocketAddress,int)>
+Caller: <okhttp3.internal.platform.Platform: void connectSocket(java.net.Socket,java.net.InetSocketAddress,int)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+Caller: <okhttp3.internal.connection.RouteSelector: void resetNextInetSocketAddress(java.net.Proxy)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okhttp3.internal.connection.RealConnection: void connectSocket(int,int,okhttp3.Call,okhttp3.EventListener)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.InflaterSource: long readOrInflate(okio.Buffer,long)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.InputStreamSource: long read(okio.Buffer,long)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.react.devsupport.inspector.InspectorNetworkHelper$1: void onResponse(okhttp3.Call,okhttp3.Response)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.OutputStream getOutputStream()>
+Caller: <okio.Okio__JvmOkioKt: okio.Sink sink(java.net.Socket)>
+Thread: [<com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.RandomAccessFile: void setLength(long)>
+Caller: <com.facebook.soloader.UnpackingSoSource$Unpacker: void extractDso(com.facebook.soloader.UnpackingSoSource$InputDso,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void write(byte[],int,int)>
+Caller: <com.facebook.soloader.SysUtil: int copyBytes(java.io.RandomAccessFile,java.io.InputStream,int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.soloader.ExtractFromZipSoSource: java.lang.String toString()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.soloader.DirectorySoSource: java.lang.String toString()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.facebook.soloader.UnpackingSoSource$Unpacker: void extractDso(com.facebook.soloader.UnpackingSoSource$InputDso,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.facebook.soloader.UnpackingSoSource$Unpacker: void extractDso(com.facebook.soloader.UnpackingSoSource$InputDso,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.facebook.soloader.SysUtil: int copyBytes(java.io.RandomAccessFile,java.io.InputStream,int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.facebook.soloader.UnpackingSoSource$Unpacker: void extractDso(com.facebook.soloader.UnpackingSoSource$InputDso,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.facebook.soloader.UnpackingSoSource$Unpacker: void extractDso(com.facebook.soloader.UnpackingSoSource$InputDso,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.soloader.SysUtil: void dumbDelete(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setExecutable(boolean,boolean)>
+Caller: <com.facebook.soloader.UnpackingSoSource$Unpacker: void extractDso(com.facebook.soloader.UnpackingSoSource$InputDso,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Proxy$Type: java.net.Proxy$Type[] values()>
+Caller: <okhttp3.internal.connection.RealConnection$WhenMappings: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.facebook.soloader.SysUtil: void dumbDelete(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <com.facebook.soloader.UnpackingSoSource$Unpacker: void extractDso(com.facebook.soloader.UnpackingSoSource$InputDso,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <com.facebook.soloader.UnpackingSoSource$Unpacker: void extractDso(com.facebook.soloader.UnpackingSoSource$InputDso,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long getFilePointer()>
+Caller: <com.facebook.soloader.UnpackingSoSource$Unpacker: void extractDso(com.facebook.soloader.UnpackingSoSource$InputDso,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <com.facebook.soloader.UnpackingSoSource$Unpacker: void extractDso(com.facebook.soloader.UnpackingSoSource$InputDso,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.soloader.recovery.BaseApkPathHistory: void report(java.lang.StringBuilder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.soloader.UnpackingSoSource$Unpacker: void extractDso(com.facebook.soloader.UnpackingSoSource$InputDso,byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.soloader.recovery.DetectDataAppMove: boolean detectMove()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.soloader.recovery.CheckBaseApkExists: boolean recover(java.lang.UnsatisfiedLinkError,com.facebook.soloader.SoSource[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.soloader.recovery.CheckOnDiskStateDataApp: boolean recover(java.lang.UnsatisfiedLinkError,com.facebook.soloader.SoSource[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.soloader.recovery.CheckOnDiskStateDataApp: boolean recover(java.lang.UnsatisfiedLinkError,com.facebook.soloader.SoSource[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.soloader.UnpackingSoSource$Unpacker: void extractDso(com.facebook.soloader.UnpackingSoSource$InputDso,byte[],java.io.File)>
+Thread: [UI]
+-------------------------

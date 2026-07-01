@@ -1,0 +1,386 @@
+Time1: 410.764154484
+Time2: 9.030722371
+Worker: 3
+UI: 92
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <sillysmiless.library.utils.LibraryUtils: android.graphics.Bitmap resizeBitmapBySize(android.graphics.Bitmap,float,float)>
+Thread: [<com.bumptech.glide.load.engine.EngineJob$CallLoadFailed: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <sillysmiless.library.utils.LibraryUtils: android.graphics.Bitmap resizeBitmapBySize(android.graphics.Bitmap,float,float)>
+Thread: [<com.bumptech.glide.load.engine.EngineJob$CallResourceReady: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<okhttp3.internal.connection.RealConnectionPool$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress[] getAllByName(java.lang.String)>
+Caller: <okhttp3.Dns: java.util.List lambda$static$0(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(double)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.crypto.Crypto: byte[] decrypt(byte[],com.facebook.crypto.Entity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.bumptech.glide.util.ByteBufferUtil: java.nio.ByteBuffer fromStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.crypto.streams.NativeGCMCipherOutputStream: void write(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.crypto.streams.NativeGCMCipherOutputStream: void write(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <sillysmiless.library.utils.FileUtils: void saveBitmapToGallery(android.content.Context,java.io.File,android.graphics.Bitmap,android.graphics.Bitmap$CompressFormat,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function0)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <com.facebook.crypto.CryptoAlgoGcm: java.io.InputStream wrap(java.io.InputStream,com.facebook.crypto.Entity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <com.facebook.crypto.streams.NativeGCMCipherInputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <com.facebook.crypto.streams.NativeGCMCipherInputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.lang.Appendable: java.lang.Appendable append(java.lang.CharSequence)>
+Caller: <com.google.gson.internal.Streams$AppendableWriter: java.io.Writer append(java.lang.CharSequence)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.bumptech.glide.manager.SingletonConnectivityReceiver$FrameworkConnectivityMonitorPostApi24: void unregister()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.Gson: com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toUnicode(java.lang.String)>
+Caller: <okhttp3.internal.publicsuffix.PublicSuffixDatabase: java.lang.String getEffectiveTldPlusOne(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.ImageDecoder: android.graphics.drawable.Drawable decodeDrawable(android.graphics.ImageDecoder$Source,android.graphics.ImageDecoder$OnHeaderDecodedListener)>
+Caller: <com.bumptech.glide.load.resource.drawable.AnimatedImageDecoder: com.bumptech.glide.load.engine.Resource decode(android.graphics.ImageDecoder$Source,int,int,com.bumptech.glide.load.Options)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerDefaultNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.bumptech.glide.manager.SingletonConnectivityReceiver$FrameworkConnectivityMonitorPostApi24: boolean register()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(double)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.InflaterSource: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String canonicalizeHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.facebook.crypto.Entity: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.facebook.crypto.Entity: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.bumptech.glide.load.Key: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okio.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.bumptech.glide.load.resource.bitmap.DefaultImageHeaderParser: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <sillysmiless.library.utils.FileUtils: java.lang.String getFolderName(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.lang.Appendable: java.lang.Appendable append(java.lang.CharSequence,int,int)>
+Caller: <com.google.gson.internal.Streams$AppendableWriter: void write(java.lang.String,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <sillysmiless.library.utils.FileUtils: java.lang.String getFolderName(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <sillysmiless.library.home.ui.GalleryActivity: void getGallery()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <sillysmiless.library.home.ui.VideoLiveWallpaperService$VideoEngine: void onSurfaceCreated(android.view.SurfaceHolder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <sillysmiless.library.utils.FileUtils: void notifySystemGallery(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.crypto.streams.NativeGCMCipherOutputStream: void write(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.crypto.streams.NativeGCMCipherOutputStream: void write(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <sillysmiless.library.editor.ui.EditorActivity: java.lang.String saveVideoToInternalStorage(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <sillysmiless.library.home.ui.PreviewLiveWallpeprtActivity: java.lang.String saveVideoToInternalStorage(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <sillysmiless.library.editor.ui.EditorActivity: java.lang.String saveVideoToInternalStorage(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <sillysmiless.library.home.ui.PreviewLiveWallpeprtActivity: java.lang.String saveVideoToInternalStorage(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <sillysmiless.library.editor.ui.EditorActivity: java.lang.String saveVideoToInternalStorage(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <sillysmiless.library.utils.FileUtils: void saveBitmapToGallery(android.content.Context,java.io.File,android.graphics.Bitmap,android.graphics.Bitmap$CompressFormat,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function0)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <sillysmiless.library.home.ui.PreviewLiveWallpeprtActivity: java.lang.String saveVideoToInternalStorage(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.facebook.crypto.streams.TailInputStream: int readTail(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.facebook.crypto.streams.TailInputStream: int readTail(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.facebook.crypto.streams.TailInputStream: int readTail(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <sillysmiless.library.home.ui.GalleryActivity: void getGallery()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.bumptech.glide.util.ByteBufferUtil: java.nio.ByteBuffer fromStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <sillysmiless.library.home.ui.PreviewLiveWallpeprtActivity: java.lang.String saveVideoToInternalStorage(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.crypto.Crypto: byte[] decrypt(byte[],com.facebook.crypto.Entity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <sillysmiless.library.editor.ui.EditorActivity: java.lang.String saveVideoToInternalStorage(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.crypto.Crypto: byte[] encrypt(byte[],com.facebook.crypto.Entity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.crypto.streams.NativeGCMCipherOutputStream: void appendTag()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.crypto.CryptoAlgoGcm: java.io.OutputStream wrap(java.io.OutputStream,com.facebook.crypto.Entity,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <sillysmiless.library.utils.LibraryUtils: android.graphics.Bitmap resizeBitmapBySize(android.graphics.Bitmap,float,float)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <sillysmiless.library.home.ui.GalleryActivity: void getGallery()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <sillysmiless.library.editor.ui.EditorActivity: java.lang.String saveVideoToInternalStorage(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <sillysmiless.library.home.ui.PreviewLiveWallpeprtActivity: java.lang.String saveVideoToInternalStorage(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <okhttp3.HttpUrl: java.net.URL url()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.consent_sdk.zzu: com.google.android.gms.internal.consent_sdk.zzck zzd(com.google.android.gms.internal.consent_sdk.zzci)>
+Thread: [UI]
+-------------------------

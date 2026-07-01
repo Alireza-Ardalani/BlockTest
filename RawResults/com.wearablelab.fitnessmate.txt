@@ -1,0 +1,398 @@
+Time1: 30.103961461
+Time2: 5.631874504
+Worker: 40
+UI: 58
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.wearablelab.fitnessmate.alertdialog.BackupDialog: boolean saveDriveFile(com.google.android.gms.drive.DriveId,java.lang.String)>
+Thread: [<com.wearablelab.fitnessmate.alertdialog.BackupDialog$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: void updateTuplePedo(long,int,long,float,float,boolean)>
+Thread: [<com.wearablelab.fitnessmate.SensorListenerService$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: void updateTuplePedo(long,int,long,float,float,boolean)>
+Thread: [<com.wearablelab.fitnessmate.GetAddressAsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.wearablelab.fitnessmate.alertdialog.BackupDialog: void restoreFromDrive(java.lang.String,java.lang.String,com.google.android.gms.drive.DriveId)>
+Thread: [<com.wearablelab.fitnessmate.alertdialog.BackupDialog$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.wearablelab.fitnessmate.alertdialog.BackupDialog: boolean saveDriveFile(com.google.android.gms.drive.DriveId,java.lang.String)>
+Thread: [<com.wearablelab.fitnessmate.alertdialog.BackupDialog$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.wearablelab.fitnessmate.alertdialog.BackupDialog: boolean saveDriveFile(com.google.android.gms.drive.DriveId,java.lang.String)>
+Thread: [<com.wearablelab.fitnessmate.alertdialog.BackupDialog$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.wearablelab.fitnessmate.alertdialog.BackupDialog: void restoreFromDrive(java.lang.String,java.lang.String,com.google.android.gms.drive.DriveId)>
+Thread: [<com.wearablelab.fitnessmate.alertdialog.BackupDialog$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.wearablelab.fitnessmate.alertdialog.BackupDialog: void restoreFromDrive(java.lang.String,java.lang.String,com.google.android.gms.drive.DriveId)>
+Thread: [<com.wearablelab.fitnessmate.alertdialog.BackupDialog$3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: boolean deleteTuple(int)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.wearablelab.fitnessmate.alertdialog.BackupDialog: boolean saveDriveFile(com.google.android.gms.drive.DriveId,java.lang.String)>
+Thread: [<com.wearablelab.fitnessmate.alertdialog.BackupDialog$2: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.wearablelab.fitnessmate.alertdialog.BackupDialog: void restoreFromDrive(java.lang.String,java.lang.String,com.google.android.gms.drive.DriveId)>
+Thread: [<com.wearablelab.fitnessmate.alertdialog.BackupDialog$3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: void appendTupleMeta(int,java.lang.String)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutDBUtil: void updateTuple(long,int,long,int,int,long,int,float,int,float,float,float,long)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: void appendTupleMeta(int,java.lang.String)>
+Thread: [<com.wearablelab.fitnessmate.GetAddressAsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.wearablelab.fitnessmate.LocationDBUtil: void open()>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$16$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.wearablelab.fitnessmate.LocationDBUtil: void open()>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.wearablelab.fitnessmate.WorkoutDBUtil: void open()>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: void open()>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: void open()>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$16$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: void open()>
+Thread: [<com.wearablelab.fitnessmate.GetAddressAsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: void open()>
+Thread: [<com.wearablelab.fitnessmate.SensorListenerService$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: com.wearablelab.fitnessmate.AllTuples getViewTuples(int,int,android.content.Context)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$16$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: float getTodaySum(int,int)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: java.util.List getDate(int,int,int,int)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: void fillData(java.lang.String,java.util.List,int)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: com.wearablelab.fitnessmate.AllTuples getViewTuples(int,int,android.content.Context)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$16$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: java.util.List fillDataWithWeekNum(java.lang.String,java.util.List,int)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$16$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: long fillDataWithMaxDate(java.lang.String,java.util.List,int)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: long fillDataWithMaxDate(java.lang.String,java.util.List,int)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$16$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.LocationDBUtil: java.lang.Double[] getLatLng(java.lang.String[],boolean)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$16$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: long getTotalTime(int,int,android.content.Context)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: com.wearablelab.fitnessmate.AllTuples getViewTuples(int,int,android.content.Context)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: com.wearablelab.fitnessmate.AllTuples getViewTuples(int,int,android.content.Context)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: java.util.List getTopNTuples(int,long)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: java.util.List fillDataWithWeekNum(java.lang.String,java.util.List,int)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutDBUtil: com.wearablelab.fitnessmate.WorkoutDBTuple getTuple(int)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: long getTotalTime(int,int,android.content.Context)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$16$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: com.wearablelab.fitnessmate.AllTuples getAllTuples(int,int)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: void fillData(java.lang.String,java.util.List,int)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$16$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.LocationDBUtil: java.lang.Double[] getLatLng(java.lang.String[],boolean)>
+Thread: [<com.wearablelab.fitnessmate.WorkoutItemActivity$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.wearablelab.fitnessmate.UtilityFile: android.net.Uri getUriFromView(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.wearablelab.fitnessmate.UtilityFile: android.net.Uri getUriFromView(android.view.View,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: void updateTuplePedo(long,int,long,float,float,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.wearablelab.fitnessmate.UtilityFile: android.net.Uri getUriFromView(android.view.View,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.wearablelab.fitnessmate.UtilityFile: android.net.Uri getUriFromView(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.wearablelab.fitnessmate.UtilityFile: android.net.Uri getUriFromView(android.view.View,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.wearablelab.fitnessmate.UtilityFile: android.net.Uri getUriFromView(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.wearablelab.fitnessmate.UtilityFile: android.net.Uri getUriFromView(android.view.View,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.wearablelab.fitnessmate.UtilityFile: android.net.Uri getUriFromView(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.wearablelab.fitnessmate.UtilityFile: android.net.Uri getUriFromView(android.view.View,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.wearablelab.fitnessmate.UtilityFile: android.net.Uri getUriFromView(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: boolean deleteTuple(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: long insertTuple(int,long,long,int,float,float,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.wearablelab.fitnessmate.LocationDBUtil: long insertTuple(long,float,float,float,float,float)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: void updateTupleSleep(long,long,long,float,float)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: void appendTupleMeta(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutDBUtil: void appendTempTuple(long,int,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: void updateTupleFit(long,int,float,float,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: int updateTuplePlace(long,long,long,float,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutDBUtil: void updateTuple(long,int,long,int,int,long,int,float,int,float,float,float,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.wearablelab.fitnessmate.UtilityFile: android.net.Uri getUriFromView(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.wearablelab.fitnessmate.UtilityFile: android.net.Uri getUriFromView(android.view.View,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.wearablelab.fitnessmate.LocationDBUtil: void open()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: void open()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.wearablelab.fitnessmate.WorkoutDBUtil: void open()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: com.wearablelab.fitnessmate.WorkoutItemDBTuple getLastTupleDay(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: com.wearablelab.fitnessmate.WorkoutItemDBTuple getLastTuple(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: com.wearablelab.fitnessmate.WorkoutItemDBTuple getTuple(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutDBUtil: void appendTempTuple(long,int,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: java.util.List getDate(int,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: java.util.List getTopNTuples(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: java.util.List getDailyView(java.lang.String,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: com.wearablelab.fitnessmate.AllTuples getViewTuples(int,int,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: com.wearablelab.fitnessmate.WorkoutItemDBTuple getLastTupleDay(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: java.util.List getStartEndWeek(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.LocationDBUtil: java.lang.String getWaypoints(long,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: java.util.List getWeeklyView(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: long fillDataWithMaxDate(java.lang.String,java.util.List,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: float getTodaySum(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: java.util.List fillDataWithWeekNum(java.lang.String,java.util.List,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: com.wearablelab.fitnessmate.AllTuples getViewTuples(int,int,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: java.util.List getTopNTuples(int,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.LocationDBUtil: java.util.List getWaypointMarker(long,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutDBUtil: java.util.List getSortedTuples()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: com.wearablelab.fitnessmate.WorkoutItemDBTuple getTupleRequestedDay2(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.LocationDBUtil: com.wearablelab.fitnessmate.LocationDBTuple getTuple(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutDBUtil: com.wearablelab.fitnessmate.WorkoutDBTuple getTuple(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: void fillData(java.lang.String,java.util.List,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: long getLastTupleId(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.LocationDBUtil: java.lang.Double[] getLatLng(java.lang.String[],boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: com.wearablelab.fitnessmate.AllTuples getAllTuples(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: com.wearablelab.fitnessmate.WorkoutItemDBTuple getPrevTuple(int,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: long getTotalTime(int,int,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.wearablelab.fitnessmate.WorkoutItemDBUtil: float getYesterdaySum(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.wearablelab.fitnessmate.UtilityFile: android.net.Uri getUriFromView(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.wearablelab.fitnessmate.UtilityFile: android.net.Uri getUriFromView(android.view.View,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.wearablelab.fitnessmate.UtilityFile: android.net.Uri getUriFromView(android.view.View,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.wearablelab.fitnessmate.UtilityFile: android.net.Uri getUriFromView(android.view.View)>
+Thread: [UI]
+-------------------------

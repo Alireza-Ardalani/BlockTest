@@ -1,0 +1,126 @@
+Time1: 144.568486849
+Time2: 4.395674744
+Worker: 14
+UI: 16
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.bumptech.glide.util.ByteBufferUtil: java.nio.ByteBuffer fromStream(java.io.InputStream)>
+Thread: [<com.view.android.test.compass2.congcu.ThreadUtils$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <mylibsutil.util.ExtraUtils: void createFolder(java.lang.String)>
+Thread: [<com.view.android.test.compass2.congcu.ThreadUtils$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <mylibsutil.util.ExtraUtils: boolean saveBitmapToFile(android.graphics.Bitmap,java.lang.String,android.graphics.Bitmap$CompressFormat,int)>
+Thread: [<com.view.android.test.compass2.congcu.ThreadUtils$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <mylibsutil.util.ExtraUtils: boolean saveBitmapToFile(android.graphics.Bitmap,java.lang.String,android.graphics.Bitmap$CompressFormat,int)>
+Thread: [<com.view.android.test.compass2.congcu.ThreadUtils$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <mylibsutil.util.ExtraUtils: boolean saveBitmapToFile(android.graphics.Bitmap,java.lang.String,android.graphics.Bitmap$CompressFormat,int)>
+Thread: [<com.view.android.test.compass2.congcu.ThreadUtils$2: void run()>]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.bumptech.glide.manager.SingletonConnectivityReceiver$FrameworkConnectivityMonitorPostApi24: void unregister()>
+Thread: [<com.view.android.test.compass2.congcu.ThreadUtils$2: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.bumptech.glide.util.ByteBufferUtil: java.nio.ByteBuffer fromStream(java.io.InputStream)>
+Thread: [<com.view.android.test.compass2.congcu.ThreadUtils$2: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.view.android.test.compass2.manhinh.MapsActivity: void getScreenShot(android.view.View)>
+Thread: [<com.view.android.test.compass2.congcu.ThreadUtils$2: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.view.android.test.compass2.MainActivity: void getScreenShot(android.view.View)>
+Thread: [<com.view.android.test.compass2.congcu.ThreadUtils$2: void run()>]
+-------------------------
+MethodSignature: <android.graphics.ImageDecoder: android.graphics.drawable.Drawable decodeDrawable(android.graphics.ImageDecoder$Source,android.graphics.ImageDecoder$OnHeaderDecodedListener)>
+Caller: <com.bumptech.glide.load.resource.drawable.AnimatedWebpDecoder: com.bumptech.glide.load.engine.Resource decode(android.graphics.ImageDecoder$Source,int,int,com.bumptech.glide.load.Options)>
+Thread: [<com.view.android.test.compass2.congcu.ThreadUtils$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.bumptech.glide.load.engine.executor.RuntimeCompat: int getCoreCountPre17()>
+Thread: [<com.view.android.test.compass2.congcu.ThreadUtils$2: void run()>]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerDefaultNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.bumptech.glide.manager.SingletonConnectivityReceiver$FrameworkConnectivityMonitorPostApi24: boolean register()>
+Thread: [<com.view.android.test.compass2.congcu.ThreadUtils$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <mylibsutil.util.ExtraUtils: void createFolder(java.lang.String)>
+Thread: [<com.view.android.test.compass2.congcu.ThreadUtils$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <mylibsutil.util.ExtraUtils: boolean saveBitmapToFile(android.graphics.Bitmap,java.lang.String,android.graphics.Bitmap$CompressFormat,int)>
+Thread: [<com.view.android.test.compass2.congcu.ThreadUtils$2: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.bumptech.glide.load.resource.bitmap.DefaultImageHeaderParser: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.bumptech.glide.load.Key: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.bumptech.glide.util.ByteBufferUtil: java.nio.ByteBuffer fromStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <mylibsutil.util.ExtraUtils: void createFolder(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <mylibsutil.util.ExtraUtils: boolean saveBitmapToFile(android.graphics.Bitmap,java.lang.String,android.graphics.Bitmap$CompressFormat,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <mylibsutil.util.ExtraUtils: boolean saveBitmapToFile(android.graphics.Bitmap,java.lang.String,android.graphics.Bitmap$CompressFormat,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <mylibsutil.util.ExtraUtils: boolean saveBitmapToFile(android.graphics.Bitmap,java.lang.String,android.graphics.Bitmap$CompressFormat,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.bumptech.glide.manager.SingletonConnectivityReceiver$FrameworkConnectivityMonitorPostApi24: void unregister()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.bumptech.glide.util.ByteBufferUtil: java.nio.ByteBuffer fromStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.view.android.test.compass2.MainActivity: void getScreenShot(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.ImageDecoder: android.graphics.drawable.Drawable decodeDrawable(android.graphics.ImageDecoder$Source,android.graphics.ImageDecoder$OnHeaderDecodedListener)>
+Caller: <com.bumptech.glide.load.resource.drawable.AnimatedWebpDecoder: com.bumptech.glide.load.engine.Resource decode(android.graphics.ImageDecoder$Source,int,int,com.bumptech.glide.load.Options)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.bumptech.glide.load.engine.executor.RuntimeCompat: int getCoreCountPre17()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerDefaultNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.bumptech.glide.manager.SingletonConnectivityReceiver$FrameworkConnectivityMonitorPostApi24: boolean register()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.view.android.test.compass2.congcu.AppUtils: void createFolder(android.app.Activity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <mylibsutil.util.ExtraUtils: void createFolder(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <mylibsutil.util.ExtraUtils: boolean saveBitmapToFile(android.graphics.Bitmap,java.lang.String,android.graphics.Bitmap$CompressFormat,int)>
+Thread: [UI]
+-------------------------

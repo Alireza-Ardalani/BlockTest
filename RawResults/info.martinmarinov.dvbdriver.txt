@@ -1,0 +1,98 @@
+Time1: 24.292659137
+Time2: 0.467471043
+Worker: 20
+UI: 3
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.ServerSocket: void bind(java.net.SocketAddress)>
+Caller: <info.martinmarinov.dvbservice.DvbServer: info.martinmarinov.dvbservice.DvbServerPorts bind(java.net.InetSocketAddress)>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void bind(java.net.SocketAddress)>
+Caller: <info.martinmarinov.dvbservice.DvbServer: info.martinmarinov.dvbservice.DvbServerPorts bind(java.net.InetSocketAddress)>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.OutputStream getOutputStream()>
+Caller: <info.martinmarinov.dvbservice.DvbServer: void serve()>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: java.net.InetAddress getInetAddress()>
+Caller: <info.martinmarinov.dvbservice.DvbServer: info.martinmarinov.dvbservice.DvbServerPorts bind(java.net.InetSocketAddress)>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: java.net.InetAddress getInetAddress()>
+Caller: <info.martinmarinov.dvbservice.DvbServer: info.martinmarinov.dvbservice.DvbServerPorts bind(java.net.InetSocketAddress)>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <info.martinmarinov.dvbservice.Response: void serialize(info.martinmarinov.dvbservice.Request,java.io.OutputStream)>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <info.martinmarinov.dvbservice.tools.TsDumpFileUtils: java.util.List getDevicesForAllRecordings(android.content.Context)>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.InputStream getInputStream()>
+Caller: <info.martinmarinov.dvbservice.DvbServer: void serve()>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: java.net.Socket accept()>
+Caller: <info.martinmarinov.dvbservice.DvbServer: void serve()>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void setTcpNoDelay(boolean)>
+Caller: <info.martinmarinov.dvbservice.DvbServer: void serve()>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void <init>()>
+Caller: <info.martinmarinov.dvbservice.DvbServer: void <init>(info.martinmarinov.drivers.DvbDevice)>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void <init>()>
+Caller: <info.martinmarinov.dvbservice.DvbServer: void <init>(info.martinmarinov.drivers.DvbDevice)>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: int getLocalPort()>
+Caller: <info.martinmarinov.dvbservice.DvbServer: info.martinmarinov.dvbservice.DvbServerPorts bind(java.net.InetSocketAddress)>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: int getLocalPort()>
+Caller: <info.martinmarinov.dvbservice.DvbServer: info.martinmarinov.dvbservice.DvbServerPorts bind(java.net.InetSocketAddress)>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <info.martinmarinov.dvbservice.Request: void readBytes(java.io.InputStream,byte[])>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void setSoTimeout(int)>
+Caller: <info.martinmarinov.dvbservice.DvbServer: info.martinmarinov.dvbservice.DvbServerPorts bind(java.net.InetSocketAddress)>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void setSoTimeout(int)>
+Caller: <info.martinmarinov.dvbservice.DvbServer: info.martinmarinov.dvbservice.DvbServerPorts bind(java.net.InetSocketAddress)>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void close()>
+Caller: <info.martinmarinov.dvbservice.DvbServer: void quietClose(java.net.ServerSocket)>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.ServerSocket: void close()>
+Caller: <info.martinmarinov.dvbservice.TransferThread: void quietClose(java.net.ServerSocket)>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <info.martinmarinov.dvbservice.DvbServer: void quietClose(java.net.Socket)>
+Thread: [<info.martinmarinov.dvbservice.DvbService$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <info.martinmarinov.drivers.DvbException: void <init>(info.martinmarinov.drivers.DvbException$ErrorCode,java.lang.Exception)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+Caller: <info.martinmarinov.dvbservice.tools.InetAddressTools: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <info.martinmarinov.dvbservice.tools.TsDumpFileUtils: java.util.List getDevicesForAllRecordings(android.content.Context)>
+Thread: [UI]
+-------------------------

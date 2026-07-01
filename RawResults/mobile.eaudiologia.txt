@@ -1,0 +1,206 @@
+Time1: 6.640569575
+Time2: 0.474113966
+Worker: 21
+UI: 29
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: int zapiszDaneAudiometriiTonalnej(mobile.eaudiologia.WspKalibMobile,java.lang.Integer,java.lang.Integer,java.sql.Timestamp,java.sql.Timestamp,java.sql.Timestamp,eaudiologia.AudiogramTonalny$Dane,java.lang.String,java.lang.String,boolean)>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void flush()>
+Caller: <eaudiologia.BazaDanychSerwer: java.util.ArrayList wykonajProcBazy(java.lang.Object[])>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: boolean zapiszIdBadania(int,int,mobile.eaudiologia.WspKalibMobile)>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: int zapiszDaneAudiometriiTonalnej(mobile.eaudiologia.WspKalibMobile,java.lang.Integer,java.lang.Integer,java.sql.Timestamp,java.sql.Timestamp,java.sql.Timestamp,eaudiologia.AudiogramTonalny$Dane,java.lang.String,java.lang.String,boolean)>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <eaudiologia.BazaDanychSerwer: java.util.ArrayList wykonajProcBazy(java.lang.Object[])>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <eaudiologia.BazaDanychSerwer: java.util.ArrayList wykonajProcBazy(java.lang.Object[])>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <eaudiologia.BazaDanychSerwer: java.util.ArrayList wykonajProcBazy(java.lang.Object[])>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <eaudiologia.BazaDanychSerwer: java.util.ArrayList wykonajProcBazy(java.lang.Object[])>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: int zapiszDaneAudiometriiTonalnej(mobile.eaudiologia.WspKalibMobile,java.lang.Integer,java.lang.Integer,java.sql.Timestamp,java.sql.Timestamp,java.sql.Timestamp,eaudiologia.AudiogramTonalny$Dane,java.lang.String,java.lang.String,boolean)>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: boolean zapiszIdBadania(int,int,mobile.eaudiologia.WspKalibMobile)>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <eaudiologia.BazaDanychSerwer: java.net.HttpURLConnection utworzPolaczenieZSerwerem()>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <eaudiologia.BazaDanychSerwer: java.util.ArrayList wykonajProcBazy(java.lang.Object[])>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: boolean wczytajBadania(mobile.eaudiologia.PrzegladanieWynikowFragment$WynikiBadan,java.sql.Timestamp)>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: boolean wczytajBadania(mobile.eaudiologia.PrzegladanieWynikowFragment$WynikiBadan,java.sql.Timestamp)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: boolean wczytajBadania(mobile.eaudiologia.PrzegladanieWynikowFragment$WynikiBadan,java.sql.Timestamp)>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: boolean wczytajBadania(mobile.eaudiologia.PrzegladanieWynikowFragment$WynikiBadan,java.sql.Timestamp)>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: int zapiszDaneAudiometriiTonalnej(mobile.eaudiologia.WspKalibMobile,java.lang.Integer,java.lang.Integer,java.sql.Timestamp,java.sql.Timestamp,java.sql.Timestamp,eaudiologia.AudiogramTonalny$Dane,java.lang.String,java.lang.String,boolean)>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: boolean wczytajBadania(mobile.eaudiologia.PrzegladanieWynikowFragment$WynikiBadan,java.sql.Timestamp)>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: boolean wczytajBadania(mobile.eaudiologia.PrzegladanieWynikowFragment$WynikiBadan,java.sql.Timestamp)>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <eaudiologia.BazaDanychSerwer: java.net.HttpURLConnection utworzPolaczenieZSerwerem()>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <eaudiologia.BazaDanychSerwer: java.util.ArrayList wykonajProcBazy(java.lang.Object[])>
+Thread: [<mobile.eaudiologia.baza.SynchronizacjaDanych: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <mobile.eaudiologia.ustawienia.Ustawienia: void wykonajKopieLokalna(android.net.Uri,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <mobile.eaudiologia.ustawienia.Ustawienia: void wykonajKopieLokalna(android.net.Uri,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <google.com.android.cloudprint.PrintDialogActivity$PrintDialogJavaScriptInterface: java.lang.String getContent()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: int zapiszDaneAudiometriiTonalnej(mobile.eaudiologia.WspKalibMobile,java.lang.Integer,java.lang.Integer,java.sql.Timestamp,java.sql.Timestamp,java.sql.Timestamp,eaudiologia.AudiogramTonalny$Dane,java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <mobile.eaudiologia.ustawienia.Ustawienia: void wykonajKopieLokalna(android.net.Uri,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <mobile.eaudiologia.ustawienia.Ustawienia: void uaktualnijOpisWlasciwosciLogo()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <mobile.eaudiologia.DostawcaPlikow: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <google.com.android.cloudprint.PrintDialogActivity$PrintDialogJavaScriptInterface: java.lang.String getContent()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <google.com.android.cloudprint.PrintDialogActivity$PrintDialogJavaScriptInterface: java.lang.String getContent()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void flush()>
+Caller: <eaudiologia.BazaDanychSerwer: java.util.ArrayList wykonajProcBazy(java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: boolean zapiszIdBadania(int,int,mobile.eaudiologia.WspKalibMobile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: int zapiszDaneAudiometriiTonalnej(mobile.eaudiologia.WspKalibMobile,java.lang.Integer,java.lang.Integer,java.sql.Timestamp,java.sql.Timestamp,java.sql.Timestamp,eaudiologia.AudiogramTonalny$Dane,java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <eaudiologia.BazaDanychSerwer: java.util.ArrayList wykonajProcBazy(java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <google.com.android.cloudprint.PrintDialogActivity$PrintDialogJavaScriptInterface: java.lang.String getContent()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <eaudiologia.BazaDanychSerwer: java.util.ArrayList wykonajProcBazy(java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <eaudiologia.BazaDanychSerwer: java.util.ArrayList wykonajProcBazy(java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <mobile.eaudiologia.ustawienia.Ustawienia: void wykonajKopieLokalna(android.net.Uri,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <eaudiologia.BazaDanychSerwer: java.util.ArrayList wykonajProcBazy(java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: boolean zapiszIdBadania(int,int,mobile.eaudiologia.WspKalibMobile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: int zapiszDaneAudiometriiTonalnej(mobile.eaudiologia.WspKalibMobile,java.lang.Integer,java.lang.Integer,java.sql.Timestamp,java.sql.Timestamp,java.sql.Timestamp,eaudiologia.AudiogramTonalny$Dane,java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <eaudiologia.BazaDanychSerwer: java.net.HttpURLConnection utworzPolaczenieZSerwerem()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <eaudiologia.BazaDanychSerwer: java.util.ArrayList wykonajProcBazy(java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <mobile.eaudiologia.DostawcaPlikow: long getDataLength(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: boolean wczytajBadania(mobile.eaudiologia.PrzegladanieWynikowFragment$WynikiBadan,java.sql.Timestamp)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String guessContentTypeFromName(java.lang.String)>
+Caller: <mobile.eaudiologia.DostawcaPlikow: java.lang.String getType(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: boolean wczytajBadania(mobile.eaudiologia.PrzegladanieWynikowFragment$WynikiBadan,java.sql.Timestamp)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <mobile.eaudiologia.baza.BazaDanychLokalna: int zapiszDaneAudiometriiTonalnej(mobile.eaudiologia.WspKalibMobile,java.lang.Integer,java.lang.Integer,java.sql.Timestamp,java.sql.Timestamp,java.sql.Timestamp,eaudiologia.AudiogramTonalny$Dane,java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <eaudiologia.BazaDanychSerwer: java.net.HttpURLConnection utworzPolaczenieZSerwerem()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <eaudiologia.BazaDanychSerwer: java.util.ArrayList wykonajProcBazy(java.lang.Object[])>
+Thread: [UI]
+-------------------------

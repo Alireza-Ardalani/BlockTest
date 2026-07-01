@@ -1,0 +1,206 @@
+Time1: 69.495320435
+Time2: 0.346097381
+Worker: 0
+UI: 50
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <f1.a: void e(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <f1.e: f1.e$a a(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <f1.d: long s(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <f1.a: void a(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <f1.a: void a(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <f1.d: void d(java.util.zip.ZipFile,java.util.zip.ZipEntry,f1.d$a,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <f1.d: void d(java.util.zip.ZipFile,java.util.zip.ZipEntry,f1.d$a,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <f1.d: java.util.ArrayList y()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <f1.a: void a(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <f1.d: java.util.ArrayList y()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int skipBytes(int)>
+Caller: <f1.e: f1.e$a a(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int skipBytes(int)>
+Caller: <f1.e: f1.e$a a(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int skipBytes(int)>
+Caller: <f1.e: f1.e$a a(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int skipBytes(int)>
+Caller: <f1.e: f1.e$a a(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <f1.d: void d(java.util.zip.ZipFile,java.util.zip.ZipEntry,f1.d$a,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <f1.a: void e(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <f1.d: java.util.ArrayList u(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <f1.a: void a(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <f1.d: java.util.ArrayList y()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <f1.d: java.util.ArrayList y()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <f1.d: void <init>(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <f1.d: long s(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <f1.d: void d(java.util.zip.ZipFile,java.util.zip.ZipEntry,f1.d$a,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.FileChannel: java.nio.channels.FileLock lock()>
+Caller: <f1.d: void <init>(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <f1.d: long s(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <f1.d: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <f1.d: long s(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <f1.d: void <init>(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <f1.d: void d(java.util.zip.ZipFile,java.util.zip.ZipEntry,f1.d$a,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <f1.d: java.util.ArrayList y()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <f1.a: void e(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadOnly()>
+Caller: <f1.d: void d(java.util.zip.ZipFile,java.util.zip.ZipEntry,f1.d$a,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <f1.a: void a(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <f1.a: void e(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <f1.a: void e(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <f1.d: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <f1.d: void <init>(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <f1.e: f1.e$a a(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <f1.e: f1.e$a a(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <f1.d: void d(java.util.zip.ZipFile,java.util.zip.ZipEntry,f1.d$a,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <f1.a: void e(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <f1.a: void e(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <f1.d: java.util.ArrayList u(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <f1.d: void B(android.content.Context,long,long,java.util.ArrayList)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <f1.d: long n(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int read(byte[],int,int)>
+Caller: <f1.d: long s(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FileFilter)>
+Caller: <f1.d: java.util.ArrayList y()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <f1.e: f1.e$a a(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <f1.e: f1.e$a a(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <f1.e: f1.e$a a(java.io.RandomAccessFile)>
+Thread: [UI]
+-------------------------

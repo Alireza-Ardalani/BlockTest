@@ -1,0 +1,178 @@
+Time1: 125.935048531
+Time2: 4.139603407
+Worker: 0
+UI: 43
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.airbnb.lottie.network.DefaultLottieNetworkFetcher: com.airbnb.lottie.network.LottieFetchResult fetchSync(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.airbnb.lottie.network.NetworkCache: java.io.File getCachedFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.airbnb.lottie.network.NetworkCache: java.io.File parentDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.airbnb.lottie.network.NetworkCache: java.io.File getCachedFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.airbnb.lottie.network.NetworkCache: java.io.File writeTempCacheFile(java.lang.String,java.io.InputStream,com.airbnb.lottie.network.FileExtension)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.jasoncall.dollscary.antsmasher.ASCanvas: void <init>(android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.jasoncall.dollscary.jason.MainActivity: void firstTimeRun()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.jasoncall.dollscary.coloringbook.ColorBookActivity: void initIds()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.jasoncall.dollscary.hiddengame.FindHiddenEggActivity: void setViewId()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.jasoncall.dollscary.jason.SettingActivity: void initids()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.jasoncall.dollscary.surpriseeggs.GumBallGameActivity: void initIds()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.jasoncall.dollscary.matchingshadow.MatchingShadowGameActivity: void setViewId()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.jasoncall.dollscary.windowgame.WindowGameActivity: void setViewId()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.jasoncall.dollscary.vehiclesgame.VehiclesGameActivity: void setViewId()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.jasoncall.dollscary.drumpadgame.DrumPadGameActivity: void setViewId()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.jasoncall.dollscary.jason.CustomDialog: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.airbnb.lottie.utils.Utils: android.graphics.Bitmap resizeBitmapIfNeeded(android.graphics.Bitmap,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.jasoncall.dollscary.coloringbook.ColorBookActivity: void loadPicture()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String getContentType()>
+Caller: <com.airbnb.lottie.network.DefaultLottieFetchResult: java.lang.String contentType()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okio.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.bumptech.glide.load.Key: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.bumptech.glide.load.resource.bitmap.DefaultImageHeaderParser: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.airbnb.lottie.network.DefaultLottieFetchResult: java.lang.String getErrorFromConnection(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.airbnb.lottie.network.DefaultLottieFetchResult: java.lang.String getErrorFromConnection(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.airbnb.lottie.network.DefaultLottieNetworkFetcher: com.airbnb.lottie.network.LottieFetchResult fetchSync(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.airbnb.lottie.utils.Utils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <okio.Okio$2: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.airbnb.lottie.network.NetworkCache: java.io.File parentDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.airbnb.lottie.network.NetworkCache: void renameTempFile(java.lang.String,com.airbnb.lottie.network.FileExtension)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.airbnb.lottie.network.NetworkCache: java.io.File parentDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.airbnb.lottie.network.NetworkFetcher: com.airbnb.lottie.LottieResult fromJsonStream(java.lang.String,java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.airbnb.lottie.network.NetworkCache: java.io.File writeTempCacheFile(java.lang.String,java.io.InputStream,com.airbnb.lottie.network.FileExtension)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.airbnb.lottie.network.NetworkCache: java.io.File writeTempCacheFile(java.lang.String,java.io.InputStream,com.airbnb.lottie.network.FileExtension)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.bumptech.glide.load.engine.executor.RuntimeCompat: int getCoreCountPre17()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.airbnb.lottie.network.NetworkCache: java.io.File writeTempCacheFile(java.lang.String,java.io.InputStream,com.airbnb.lottie.network.FileExtension)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.airbnb.lottie.network.NetworkCache: java.io.File writeTempCacheFile(java.lang.String,java.io.InputStream,com.airbnb.lottie.network.FileExtension)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.airbnb.lottie.network.DefaultLottieFetchResult: java.lang.String getErrorFromConnection(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.airbnb.lottie.network.NetworkCache: java.io.File parentDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.airbnb.lottie.network.NetworkCache: android.util.Pair fetch(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.airbnb.lottie.network.NetworkFetcher: com.airbnb.lottie.LottieResult fromZipStream(java.lang.String,java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------

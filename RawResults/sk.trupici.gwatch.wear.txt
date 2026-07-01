@@ -1,0 +1,22 @@
+Time1: 53.977812818
+Time2: 0.810063569
+Worker: 0
+UI: 4
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.OutputStream openOutputStream(android.net.Uri,java.lang.String)>
+Caller: <sk.trupici.gwatch.wear.view.SettingsActivity: void exportSettings(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <sk.trupici.gwatch.wear.view.SettingsActivity: void importSettings(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <sk.trupici.gwatch.wear.view.SettingsActivity: void importSettings(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <sk.trupici.gwatch.wear.view.SettingsActivity: void importSettings(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------

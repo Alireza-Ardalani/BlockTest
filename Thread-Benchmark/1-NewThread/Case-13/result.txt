@@ -1,0 +1,22 @@
+Reachable Methods: 25, APK Methods: 29, PossibleLib : 18
+FlowDroid Setup took [34m1 seconds[0m
+CaSF Generation took [34m0 seconds[0m
+ER: 1, UAF: 1, IfGuard: 0, NullAtEnd: 1, nAdroid: 1, Read Fields: 1 Write Fields 2
+New Method: <com.concurrencyBench.AsyncTask1.MainActivity: void access$000(com.concurrencyBench.AsyncTask1.MainActivity,java.lang.String)>
+New Method: <com.concurrencyBench.AsyncTask1.MainActivity$1: void run()>
+New: 2, HasActiveBody: 2, FD: 25, Us: 28
+CaCG Generation took [34m0 seconds[0m
+Reachable MRs: 1 out of 1
+Reachable Method With Races: 2 out of 28 (All method with races: 2)
+Cvents: 3 Threads: 3
+Thread--> UI
+Thread--> UNKNOWN
+Thread--> UNDETERMINED
+Event Extraction took [34m0 seconds[0m
+Cvents: 2 Threads: 3
+Thread--> UI
+Thread--> UNKNOWN
+Thread--> UNDETERMINED
+Filtered ERs: 1, With paths: 1
+Prioritized ERs: 1
+WholeProcess took [34m1 seconds[0m

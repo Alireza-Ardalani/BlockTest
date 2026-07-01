@@ -1,0 +1,258 @@
+Time1: 70.071096702
+Time2: 13.507729032
+Worker: 16
+UI: 47
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <M6.Z0: void run()>
+Thread: [<M6.Z0: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <M6.G0: int a()>
+Thread: [<M6.l: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <M6.Z0: void run()>
+Thread: [<M6.Z0: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <M6.G0: int a()>
+Thread: [<M6.F1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <M6.R0: M6.z a(M6.M1)>
+Thread: [<M6.l: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <M6.I1: M6.A a(M6.q1)>
+Thread: [<M6.F1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <M6.G0: void e(org.json.JSONObject)>
+Thread: [<M6.l: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <M6.G0: javax.net.ssl.HttpsURLConnection d()>
+Thread: [<M6.l: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <M6.G0: javax.net.ssl.HttpsURLConnection d()>
+Thread: [<M6.F1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <M6.R0: M6.z a(M6.M1)>
+Thread: [<M6.l: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <M6.R0: M6.z a(M6.M1)>
+Thread: [<M6.l: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <M6.Z0: void run()>
+Thread: [<M6.Z0: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <M6.Z0: void run()>
+Thread: [<M6.Z0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <M6.G0: M6.G0 c(java.lang.String)>
+Thread: [<M6.F1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <M6.G0: M6.G0 c(java.lang.String)>
+Thread: [<M6.l: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <M6.R0: M6.z a(M6.M1)>
+Thread: [<M6.l: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <T9.n: long x0(T9.d,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <B3.i: B3.u o(android.content.Context,java.util.zip.ZipInputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <B3.i: B3.u o(android.content.Context,java.util.zip.ZipInputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: java.lang.String readLine()>
+Caller: <M6.T1: int f(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FileFilter)>
+Caller: <M6.T1: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <T9.n: long x0(T9.d,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <w6.a: void f(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.microblink.blinkcard.hardware.MicroblinkDeviceManager: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.lang.String,java.lang.String)>
+Caller: <M6.T1: int f(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <B3.i: B3.u o(android.content.Context,java.util.zip.ZipInputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <N3.l: android.graphics.Bitmap k(android.graphics.Bitmap,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <M6.T1: int f(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <M6.T1: int f(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <M6.T1: int f(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <M6.T1: int f(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <M6.T1: int f(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <w6.a: void f(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <com.microblink.blinkcard.hardware.MicroblinkDeviceManager: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <w6.a: void f(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <M6.T1: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.o: java.lang.String a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <M6.T1: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.microblink.blinkcard.hardware.MicroblinkDeviceManager: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <w6.a: void f(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromFile(java.io.File)>
+Caller: <B3.i: B3.u o(android.content.Context,java.util.zip.ZipInputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.microblink.blinkcard.hardware.MicroblinkDeviceManager: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.microblink.blinkcard.hardware.MicroblinkDeviceManager: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.k: void a(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <d9.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <d9.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <K4.e: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <K4.e: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <d9.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <K4.e: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <d9.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <K4.e: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <K4.e: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <d9.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <K4.e: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <d9.d: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <w6.a: void f(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <B3.i: B3.u o(android.content.Context,java.util.zip.ZipInputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <B3.i: B3.u o(android.content.Context,java.util.zip.ZipInputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <B3.i: B3.u o(android.content.Context,java.util.zip.ZipInputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <B3.i: B3.u o(android.content.Context,java.util.zip.ZipInputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.o: java.lang.String a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <M6.T1: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------

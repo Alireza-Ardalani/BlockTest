@@ -1,0 +1,26 @@
+Time1: 62.596938706
+Time2: 0.795358933
+Worker: 0
+UI: 5
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.unity3d.services.core.log.DeviceLog: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.hippogames.simpleandroidnotifications.Controller: void SetLargeIcon(java.lang.String,android.app.Notification$Builder,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.hippogames.simpleandroidnotifications.Serializer: java.lang.Object FromString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.hippogames.simpleandroidnotifications.Serializer: java.lang.Object FromString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.hippogames.simpleandroidnotifications.Serializer: java.lang.Object FromString(java.lang.String)>
+Thread: [UI]
+-------------------------

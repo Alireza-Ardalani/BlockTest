@@ -1,0 +1,1306 @@
+Time1: 77.557029695
+Time2: 20.646115911
+Worker: 69
+UI: 256
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<okhttp3.ConnectionPool$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentUri(java.lang.String,android.net.Uri,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentUri(java.lang.String,android.net.Uri,java.lang.String)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[],int,int)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[],int,int)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.facebook.ProgressOutputStream: void close()>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.facebook.ProgressOutputStream: void close()>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.AccessTokenManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.facebook.GraphRequestAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$Recurrence: org.joda.time.tz.DateTimeZoneBuilder$Recurrence readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: org.joda.time.DateTimeZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: org.joda.time.DateTimeZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zze: com.google.android.gms.measurement.internal.zza zzln(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zze: com.google.android.gms.measurement.internal.zze$zza zza(long,java.lang.String,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zze: java.util.Map zzau(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zze: java.util.Map zzat(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zze: com.google.android.gms.measurement.internal.zzak zzas(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zze: byte[] zzlp(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zze$zzc: boolean zza(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zze: java.util.Map zzlr(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zze: com.google.android.gms.measurement.internal.zzi zzaq(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _prependOrWriteCharacterEscape(char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _prependOrWriteCharacterEscape(char[],int,int,char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _prependOrWriteCharacterEscape(char[],int,int,char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void writeString(com.fasterxml.jackson.core.SerializableString)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void writeRaw(char[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _writeSegmentCustom(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _writeSegmentASCII(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _prependOrWriteCharacterEscape(char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _prependOrWriteCharacterEscape(char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _prependOrWriteCharacterEscape(char[],int,int,char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _prependOrWriteCharacterEscape(char[],int,int,char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _writeStringASCII(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _writeStringCustom(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _writeString2(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _prependOrWriteCharacterEscape(char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _writeSegment(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _flushBuffer()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.google.firebase.iid.zzg: void zzkf(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.gms.measurement.internal.zze: void beginTransaction()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzb(java.lang.String,com.google.android.gms.internal.zzuf$zza[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzb(java.lang.String,com.google.android.gms.internal.zzuf$zza[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.measurement.internal.zze: void endTransaction()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzb(java.lang.String,com.google.android.gms.internal.zzuf$zza[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.CursorWindow: boolean isBlob(int,int)>
+Caller: <com.google.android.gms.measurement.internal.zze: int zza(android.database.Cursor,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.j256.ormlite.android.AndroidConnectionSource: com.j256.ormlite.support.DatabaseConnection getReadWriteConnection()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.measurement.internal.zze$zzc: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.measurement.internal.zze$zzc: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zze$zzc: void zza(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zze$zzc: void zza(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.internal.Utility: android.os.Bundle parseUrlQueryString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.internal.Utility: android.os.Bundle parseUrlQueryString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.internal.Utility: android.os.Bundle parseUrlQueryString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: boolean _pojoEquals(com.fasterxml.jackson.databind.node.POJONode)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <okhttp3.internal.Util: java.util.List intersect(java.lang.Object[],java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <okhttp3.internal.Util: boolean equal(java.lang.Object,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: boolean equals(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.zzapt: boolean equals(java.lang.Object[],java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.CursorWindow: boolean isString(int,int)>
+Caller: <com.google.android.gms.measurement.internal.zze: int zza(android.database.Cursor,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: boolean readBoolean()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: boolean readBoolean()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.j256.ormlite.logger.LocalLog: java.util.List configureClassLevels(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhc(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.measurement.internal.zze$zzc: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.FileChannel: java.nio.channels.FileLock tryLock()>
+Caller: <com.google.android.gms.measurement.internal.zzx: boolean zzbtx()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: java.util.Map loadZoneInfoMap(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: java.util.Map loadZoneInfoMap(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.gms.measurement.internal.zze: void zza(com.google.android.gms.measurement.internal.zzh,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.gms.measurement.internal.zze: void zza(com.google.android.gms.internal.zzuh$zze)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zzx: boolean zzbtx()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.google.android.gms.measurement.internal.zzal: byte[] zzw(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.CursorWindow: boolean isLong(int,int)>
+Caller: <com.google.android.gms.measurement.internal.zze: int zza(android.database.Cursor,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: org.joda.time.DateTimeZone loadZoneData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: org.joda.time.DateTimeZone loadZoneData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: org.joda.time.DateTimeZone loadZoneData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String domainToAscii(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.ads.identifier.AdvertisingIdClient: com.google.android.gms.internal.zzcc zza(android.content.Context,com.google.android.gms.common.zza)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.ads.identifier.AdvertisingIdClient: com.google.android.gms.common.zza zzh(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <com.google.android.gms.measurement.internal.zze$zzc: void onCreate(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <com.google.android.gms.measurement.internal.zze$zzc: void onCreate(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentUri(java.lang.String,android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.core.JsonLocation: int hashCode()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.google.android.gms.internal.zzapt: int hashCode(java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.'annotation'.ObjectIdGenerator$IdKey: void <init>(java.lang.Class,java.lang.Class,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: int hashCode()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: long readLong()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <okhttp3.HttpUrl: java.net.URL url()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zzx: void zzbuc()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zzx: void zzbuc()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhc(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhc(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhc(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: com.google.android.gms.measurement.internal.zze$zza zza(long,java.lang.String,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzd(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.measurement.internal.zze: boolean zza(java.lang.String,int,com.google.android.gms.internal.zzuf$zzb)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.measurement.internal.zze: void zza(com.google.android.gms.measurement.internal.zza)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.measurement.internal.zze: boolean zza(com.google.android.gms.measurement.internal.zzak)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.measurement.internal.zze: void zza(com.google.android.gms.measurement.internal.zzi)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.measurement.internal.zze: long zzb(com.google.android.gms.internal.zzuh$zze)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.measurement.internal.zze: boolean zza(java.lang.String,int,com.google.android.gms.internal.zzuf$zze)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.google.android.gms.measurement.internal.zze: void zza(java.lang.String,int,com.google.android.gms.internal.zzuh$zzf)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzapt: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.jsonwebtoken.lang.Strings: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.jsonwebtoken.impl.AbstractTextCodec: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.logging.HttpLoggingInterceptor: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okio.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.jsonwebtoken.impl.crypto.DefaultJwtSigner: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.jsonwebtoken.impl.AbstractTextCodec: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.zzapt: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.CursorWindow: boolean isFloat(int,int)>
+Caller: <com.google.android.gms.measurement.internal.zze: int zza(android.database.Cursor,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: java.lang.String getHostName()>
+Caller: <com.fasterxml.jackson.databind.ser.std.InetSocketAddressSerializer: void serialize(java.net.InetSocketAddress,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8JsonGenerator: void _writeBytes(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8JsonGenerator: void _flushBuffer()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF8Writer: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF8Writer: void write(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF8Writer: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.databind.util.TokenBuffer$Parser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF8Writer: void write(java.lang.String,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8JsonGenerator: int _handleLongCustomEscape(byte[],int,int,byte[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF8Writer: void write(char[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.google.android.gms.common.util.zzx: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: long zza(java.lang.String,java.lang.String[],long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: java.lang.String zzbsg()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: java.lang.String zzbi(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze$zzc: void onOpen(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.j256.ormlite.android.AndroidCompiledStatement: android.database.Cursor getCursor()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: long zzb(java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze$zzc: java.util.Set zzb(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zza(java.lang.String,long,com.google.android.gms.measurement.internal.zze$zzb)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zza(java.lang.String,long,com.google.android.gms.measurement.internal.zze$zzb)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.etc.inspirasoft.ui.activity.BottomBarActivity: java.lang.String getSuggestion(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zze: java.util.List zzn(java.lang.String,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zze: java.util.List zzlm(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zze: void zza(java.lang.String,long,com.google.android.gms.measurement.internal.zze$zzb)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.measurement.internal.zze: void zza(java.lang.String,long,com.google.android.gms.measurement.internal.zze$zzb)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.CursorWindow: boolean isNull(int,int)>
+Caller: <com.google.android.gms.measurement.internal.zze: int zza(android.database.Cursor,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.core.JsonLocation: int hashCode()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.google.android.gms.internal.zzapt: int hashCode(java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.'annotation'.ObjectIdGenerator$IdKey: void <init>(java.lang.Class,java.lang.Class,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: int hashCode()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.google.android.gms.measurement.internal.zzal: byte[] zzw(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <com.google.android.gms.measurement.internal.zzal: byte[] zzj(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.internal.Utility: int copyAndCloseInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <org.joda.time.tz.ZoneInfoProvider: java.io.InputStream openResource(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzx: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzx: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.measurement.internal.zze: boolean zzbsm()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.firebase.iid.zzg: void zzkf(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhc(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.gms.measurement.internal.zze: void setTransactionSuccessful()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzb(java.lang.String,com.google.android.gms.internal.zzuf$zza[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean,boolean)>
+Caller: <com.google.android.gms.measurement.internal.zze$zzc: void onCreate(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean,boolean)>
+Caller: <com.google.android.gms.measurement.internal.zze$zzc: void onCreate(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.facebook.ProgressOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzy(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzlt(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeContentDisposition(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeRecordBoundary()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.fasterxml.jackson.core.JsonFactory: java.io.Writer _createWriter(java.io.OutputStream,com.fasterxml.jackson.core.JsonEncoding,com.fasterxml.jackson.core.io.IOContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzbh(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzz(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzlq(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzls(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzac(java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzls(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzls(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzls(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzbsi()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzls(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzlq(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzar(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzz(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzls(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzls(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: void zzls(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.gms.measurement.internal.zze: long zzlo(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _readMore(java.io.InputStream,byte[],int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8JsonGenerator: int _readMore(java.io.InputStream,byte[],int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: boolean _pojoEquals(com.fasterxml.jackson.databind.node.POJONode)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <okhttp3.internal.Util: java.util.List intersect(java.lang.Object[],java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <okhttp3.internal.Util: boolean equal(java.lang.Object,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: boolean equals(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.google.android.gms.internal.zzapt: boolean equals(java.lang.Object[],java.lang.Object[])>
+Thread: [UI]
+-------------------------

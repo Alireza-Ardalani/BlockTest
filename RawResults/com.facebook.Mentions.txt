@@ -1,0 +1,78 @@
+Time1: 5.549720659
+Time2: 0.899540687
+Worker: 0
+UI: 18
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.osmeta.runtime.security.SecKeyStore: javax.crypto.SecretKey getKey(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.osmeta.runtime.security.SecDatabase: com.osmeta.runtime.security.SecurityResult insert(android.database.sqlite.SQLiteDatabase,com.osmeta.runtime.security.SecClassAttribute[],java.lang.String,java.lang.String[],java.util.Map,com.osmeta.runtime.security.types.SecRefHolder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.osmeta.runtime.security.SecItem: java.lang.Object add(java.lang.String,java.lang.String[],java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.osmeta.runtime.security.SecDatabase: android.database.sqlite.SQLiteDatabase openConnection()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.osmeta.runtime.security.SecKeyStore: void initialize()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.osmeta.runtime.security.SecKeyStore: void initialize()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.osmeta.runtime.security.SecDatabase: com.osmeta.runtime.security.SecurityResult update(android.database.sqlite.SQLiteDatabase,com.osmeta.runtime.security.SecClassAttribute[],java.lang.String,java.lang.String[],java.util.Map,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils: void appendValueToSql(java.lang.StringBuilder,java.lang.Object)>
+Caller: <com.osmeta.runtime.security.SecUtils: java.lang.StringBuilder appendObjectToQuery(java.lang.StringBuilder,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.osmeta.runtime.security.SecDatabase: com.osmeta.runtime.security.SecurityResult insert(android.database.sqlite.SQLiteDatabase,com.osmeta.runtime.security.SecClassAttribute[],java.lang.String,java.lang.String[],java.util.Map,com.osmeta.runtime.security.types.SecRefHolder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.osmeta.runtime.security.SecDatabase: java.lang.Object query(android.database.sqlite.SQLiteDatabase,com.osmeta.runtime.security.SecClassAttribute[],java.lang.String,java.lang.String[],java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.osmeta.runtime.security.SecItem: java.lang.Object add(java.lang.String,java.lang.String[],java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.osmeta.runtime.security.SecItem: java.lang.Object add(java.lang.String,java.lang.String[],java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.osmeta.runtime.security.SecItem: java.lang.Object add(java.lang.String,java.lang.String[],java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.osmeta.runtime.security.SecItem: java.lang.Object add(java.lang.String,java.lang.String[],java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.osmeta.runtime.security.SecItem: java.lang.Object add(java.lang.String,java.lang.String[],java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.osmeta.runtime.security.SecItem: java.lang.Object add(java.lang.String,java.lang.String[],java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.osmeta.runtime.OMClassLoader: java.lang.String pathForPackageKey(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.osmeta.runtime.security.SecDatabase: com.osmeta.runtime.security.SecurityResult delete(android.database.sqlite.SQLiteDatabase,com.osmeta.runtime.security.SecClassAttribute[],java.lang.String,java.lang.String[],java.util.Map)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,38 @@
+Time1: 17.18411172
+Time2: 1.292846566
+Worker: 2
+UI: 6
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <z.c: android.graphics.drawable.Icon c(androidx.core.graphics.drawable.IconCompat,android.content.Context)>
+Thread: [<h1.j: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <z.c: android.graphics.drawable.Icon c(androidx.core.graphics.drawable.IconCompat,android.content.Context)>
+Thread: [<h1.j: void handleMessage(android.os.Message)>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <v.f: java.lang.String b(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <v.f: java.lang.String b(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <z.c: android.graphics.drawable.Icon c(androidx.core.graphics.drawable.IconCompat,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <v.f: void a(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <v.f: void a(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <z.c: android.graphics.drawable.Icon c(androidx.core.graphics.drawable.IconCompat,android.content.Context)>
+Thread: [UI]
+-------------------------

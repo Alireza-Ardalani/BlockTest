@@ -1,0 +1,377 @@
+
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+Caller: <org.ccc.base.dao.DatabaseOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <org.ccc.base.dao.BaseDao: void sqlUpdate(java.lang.String,java.lang.String[],long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <org.ccc.base.dao.BaseDao: void sqlUpdate(java.lang.String,java.lang.String[],boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <org.ccc.base.dao.BaseDao: void sqlExecute(java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <org.ccc.base.dao.LogFilterDao: void enableClass(java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <org.ccc.base.dao.BaseDao: void initSyncId(long,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <org.ccc.base.util.ShellUtil: java.lang.String inputStreamToString(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <org.ccc.base.util.Utils: void displayImage(android.content.Context,java.lang.String,android.widget.ImageView)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <org.ccc.base.util.Utils: android.net.Uri addImage(android.content.ContentResolver,java.lang.String,long,android.location.Location,java.lang.String,java.lang.String,android.graphics.Bitmap,byte[],int[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <org.ccc.base.util.FileUtil: void doCopyFile(java.io.File,java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.ccc.base.Config: void saveGlobalConfig()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.ccc.base.activity.debug.ConfigOthersActivityWrapper$7: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <org.ccc.base.dao.BaseDao: int update(android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils: java.lang.String stringForQuery(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[])>
+Caller: <org.ccc.base.dao.BaseDao: java.lang.String queryString(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[],boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int getVersion()>
+Caller: <org.ccc.base.dao.DatabaseOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int getVersion()>
+Caller: <org.ccc.base.dao.DatabaseOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int getVersion()>
+Caller: <org.ccc.base.dao.DatabaseOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <org.ccc.base.dao.BaseDao: int createMinPosition()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <org.ccc.base.dao.BaseDao: android.database.Cursor getDuplicateNames(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <org.ccc.base.dao.BaseDao: android.database.Cursor sqlQuery(java.lang.String,java.lang.String[],boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <org.ccc.base.dao.BaseDao: int getMaxPosition()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <org.ccc.base.dao.BaseDao: android.database.Cursor sqlQuery(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <org.ccc.base.dao.BaseDao: boolean tableHasColumn(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <org.ccc.base.dao.DatabaseOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <org.ccc.base.util.Utils: java.lang.Object readJsonFromFile(java.io.File,java.lang.Class)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <org.ccc.base.dao.DatabaseOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <org.ccc.base.dao.BaseDao: void createDateimeTable(android.content.Context,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <org.ccc.base.dao.BaseDao: long insert(android.content.ContentValues,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <org.ccc.tlw.dao.TlDatabaseInitializer: void init(android.content.Context,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <org.ccc.tlw.dao.TlDatabaseInitializer: long addCategory(android.database.sqlite.SQLiteDatabase,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <org.ccc.base.dao.BaseDao: void createDateimeTable(android.content.Context,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <org.ccc.base.dao.BaseDao: void createDateimeTable(android.content.Context,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: android.database.Cursor query(java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <org.ccc.base.util.FileUtil: void copyFile(java.io.File,java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <org.ccc.base.Config: java.lang.String getPrivateFilesDir(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <org.ccc.base.activity.utils.FileSelectorWrapper$3$1: void onFinishInput(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <org.ccc.base.dao.BaseDao: void realDelete(java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.umeng.analytics.pro.ca: java.lang.String a(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.umeng.commonsdk.framework.UMFrUtils: int envelopeFileNumber(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.github.dhaval2404.imagepicker.util.FileUtil: java.io.File getImageFile(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <org.ccc.base.Config: void saveGlobalConfig()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.umeng.commonsdk.statistics.idtracking.ImprintHandler: void d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <org.ccc.base.activity.debug.ConfigOthersActivityWrapper$7: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.umeng.commonsdk.statistics.idtracking.ImprintHandler: void d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <org.ccc.base.util.Utils: android.net.Uri addImage(android.content.ContentResolver,java.lang.String,long,android.location.Location,java.lang.String,java.lang.String,android.graphics.Bitmap,byte[],int[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.umeng.analytics.filter.EventList: void saveEventListToFile(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase create(android.database.sqlite.SQLiteDatabase$CursorFactory)>
+Caller: <org.ccc.base.dao.DatabaseOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <org.ccc.base.util.FileUtil: void copyFile(java.io.File,java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tmtw.dao.TMTBaseDao: void createTaskTable(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void initSyncLastUpdateDate(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void addSyncIdForTable(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void initSyncLastUpdateDate(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void createLogFilterTable(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void createMediaTable(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void updateSyncLastUpdateDate(android.database.sqlite.SQLiteDatabase,java.lang.String,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void createAlarmTable(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void createLogTable(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void addTableColumn(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void sqlExecute(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void updateSyncLastUpdateDate(android.database.sqlite.SQLiteDatabase,java.lang.String,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void createCategoryTable(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void sqlUpdate(java.lang.String,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void initSyncLastUpdateDate(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao: void createTaskTable(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void initSyncLastUpdateDate(android.database.sqlite.SQLiteDatabase,java.lang.String,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void createFeedbackTable(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void createRingtoneTable(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void createDateimeTable(android.content.Context,android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void createConfigTable(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void initSyncLastUpdateDate(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tmtw.dao.TMTBaseDao: void createTomatoTable(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void initSyncLastUpdateDate(android.database.sqlite.SQLiteDatabase,java.lang.String,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.base.dao.BaseDao: void addSyncIdForTable(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <org.ccc.tlw.dao.TlBaseDao$TlDatabaseHelper: void upgradeTable(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setLastModified(long)>
+Caller: <org.ccc.base.util.FileUtil: void doCopyFile(java.io.File,java.io.File,boolean)>
+Thread: [UI]
+-------------------------

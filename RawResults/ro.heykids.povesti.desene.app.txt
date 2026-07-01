@@ -1,0 +1,78 @@
+Time1: 57.073690062
+Time2: 6.129249742
+Worker: 1
+UI: 17
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <z4.s: android.graphics.Bitmap a(android.content.Context,android.graphics.Bitmap,float,float)>
+Thread: [<x4.f: void onPostExecute(java.lang.Object)>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <z4.s: android.graphics.Bitmap a(android.content.Context,android.graphics.Bitmap,float,float)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.LinkProperties: void <init>()>
+Caller: <com.google.android.gms.internal.cast.p1: void <init>(android.content.Context,com.google.android.gms.internal.cast.be)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <k2.a: java.nio.ByteBuffer b(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <com.google.android.gms.internal.cast.p1: void zza()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <k2.a: java.nio.ByteBuffer b(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.google.android.gms.internal.cast.q0: void <init>(android.widget.ImageView,android.content.Context,com.google.android.gms.cast.framework.media.b,int,android.view.View,com.google.android.gms.internal.cast.p0)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <r9.a: java.lang.String e(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.bumptech.glide.load.resource.bitmap.DefaultImageHeaderParser: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.cast.wf: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.cast.wf: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <p1.b: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.cct.a: byte[] c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.cast.wf: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <e2.s$d: void a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerDefaultNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <h1.q: void a(android.net.ConnectivityManager,android.net.ConnectivityManager$NetworkCallback)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.google.android.gms.internal.cast.p1: void zza()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.ImageDecoder: android.graphics.drawable.Drawable decodeDrawable(android.graphics.ImageDecoder$Source,android.graphics.ImageDecoder$OnHeaderDecodedListener)>
+Caller: <a2.a: android.graphics.drawable.Drawable a(android.graphics.ImageDecoder$Source,android.graphics.ImageDecoder$OnHeaderDecodedListener)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,51 @@
+
+-------------------------UIThread-------------------------
+MethodSignature: <com.caverock.androidsvg.SVGImageView: void setImageURI(android.net.Uri)>
+Caller: <com.technoify.svgviewer.fragments.SvgViewerFragment: void onResume()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.technoify.svgviewer.fragments.ConvertSvgToImageFragment: void onResume()>
+Thread: [UI]
+-------------------------
+MethodSignature: <com.caverock.androidsvg.SVG: com.caverock.androidsvg.SVG getFromInputStream(java.io.InputStream)>
+Caller: <com.technoify.svgviewer.fragments.ConvertSvgToImageFragment: void onResume()>
+Thread: [UI]
+-------------------------
+MethodSignature: <com.technoify.svgviewer.fragments.ConvertSvgToImageFragment: android.graphics.Bitmap renderSVGOnCanvas(com.caverock.androidsvg.SVG)>
+Caller: <com.technoify.svgviewer.fragments.ConvertSvgToImageFragment: void onResume()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(int,int,android.graphics.Bitmap$Config)>
+Caller: <com.technoify.svgviewer.fragments.ConvertSvgToImageFragment: android.graphics.Bitmap renderSVGOnCanvas(com.caverock.androidsvg.SVG)>
+Thread: [UI]
+-------------------------
+MethodSignature: <com.caverock.androidsvg.SVG: void renderToCanvas(android.graphics.Canvas)>
+Caller: <com.technoify.svgviewer.fragments.ConvertSvgToImageFragment: android.graphics.Bitmap renderSVGOnCanvas(com.caverock.androidsvg.SVG)>
+Thread: [UI]
+-------------------------
+MethodSignature: <com.technoify.svgviewer.fragments.ConvertSvgToImageFragment: void saveMediaToStorage(android.graphics.Bitmap)>
+Caller: <com.technoify.svgviewer.fragments.ConvertSvgToImageFragment: void onResume()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.technoify.svgviewer.fragments.ConvertSvgToImageFragment: void saveMediaToStorage(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.OutputStream openOutputStream(android.net.Uri)>
+Caller: <com.technoify.svgviewer.fragments.ConvertSvgToImageFragment: void saveMediaToStorage(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.technoify.svgviewer.fragments.ConvertSvgToImageFragment: void saveMediaToStorage(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: boolean compress(android.graphics.Bitmap$CompressFormat,int,java.io.OutputStream)>
+Caller: <com.technoify.svgviewer.fragments.ConvertSvgToImageFragment: void saveMediaToStorage(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <com.caverock.androidsvg.SVGImageView: void setImageURI(android.net.Uri)>
+Caller: <com.technoify.svgviewer.fragments.ConvertSvgToImageFragment: void saveMediaToStorage(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+

@@ -1,0 +1,134 @@
+Time1: 49.736223026
+Time2: 1.972938687
+Worker: 5
+UI: 27
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.bumptech.glide.load.engine.executor.RuntimeCompat: int getCoreCountPre17()>
+Thread: [<com.wisimage.marykay.skinsight.ux.share.ShareActivity$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.wisimage.marykay.skinsight.ux.share.ShareActivity: void onPageFinished(int)>
+Thread: [<com.wisimage.marykay.skinsight.ux.share.ShareActivity$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.wisimage.marykay.skinsight.ux.share.ShareActivity: void onPageFinished(int)>
+Thread: [<com.wisimage.marykay.skinsight.ux.share.ShareActivity$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.wisimage.marykay.skinsight.ux.share.ShareActivity: void onPageFinished(int)>
+Thread: [<com.wisimage.marykay.skinsight.ux.share.ShareActivity$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.wisimage.marykay.skinsight.ux.share.ShareActivity: void onPageFinished(int)>
+Thread: [<com.wisimage.marykay.skinsight.ux.share.ShareActivity$$ExternalSyntheticLambda1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetDecoder: java.nio.CharBuffer decode(java.nio.ByteBuffer)>
+Caller: <brut.androlib.res.decoder.StringBlock: java.lang.String decodeString(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.net.URL toURL()>
+Caller: <ch.qos.logback.classic.util.ContextInitializer: java.net.URL findConfigFileFromSystemProperties(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.bumptech.glide.load.engine.executor.RuntimeCompat: int getCoreCountPre17()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <ch.qos.logback.classic.util.ContextInitializer: java.net.URL findConfigFileFromSystemProperties(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ch.qos.logback.classic.util.ContextInitializer: java.net.URL findConfigFileFromSystemProperties(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[],int,int)>
+Caller: <com.mindprod.ledatastream.LEDataInputStream: void readFully(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[],int,int)>
+Caller: <com.mindprod.ledatastream.LEDataInputStream: int readInt()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <ch.qos.logback.core.joran.GenericConfigurator: void doConfigure(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <com.mindprod.ledatastream.LEDataInputStream: int skipBytes(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.net.URI toURI()>
+Caller: <ch.qos.logback.classic.util.ContextInitializer: java.net.URL findConfigFileFromSystemProperties(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String)>
+Caller: <ch.qos.logback.core.joran.spi.ConfigurationWatchList: java.io.File convertToFile(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <ch.qos.logback.core.joran.spi.ConfigurationWatchList: void addAsFileToWatch(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <brut.androlib.res.decoder.StringBlock: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.bumptech.glide.load.Key: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <brut.androlib.res.decoder.StringBlock: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.bumptech.glide.load.resource.bitmap.DefaultImageHeaderParser: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <ch.qos.logback.classic.util.ContextInitializer: java.net.URL findConfigFileFromSystemProperties(boolean)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,82 @@
+Time1: 22.827775785
+Time2: 0.830473937
+Worker: 0
+UI: 19
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <mobi.dailyapps.drugsdictionary.MainActivity: boolean copyDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: java.lang.String insertImage(android.content.ContentResolver,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Caller: <mobi.dailyapps.drugsdictionary.DetailsActivity: void shareContent()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <mobi.dailyapps.drugsdictionary.MainActivity: boolean copyDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <mobi.dailyapps.drugsdictionary.MainActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <mobi.dailyapps.drugsdictionary.AboutActivity: java.lang.String readTextFile(android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <mobi.dailyapps.drugsdictionary.DetailsActivity: java.lang.String readTextFile(android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <mobi.dailyapps.drugsdictionary.MainActivity: boolean copyDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.zzanf: void zzcz(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <mobi.dailyapps.drugsdictionary.MainActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <mobi.dailyapps.drugsdictionary.MainActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <mobi.dailyapps.drugsdictionary.DetailsActivity: void shareContent()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+Caller: <mobi.dailyapps.drugsdictionary.database.DatabaseHelper: void openDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <mobi.dailyapps.drugsdictionary.database.DatabaseHelper: java.util.ArrayList getAllMedi(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.bluejamesbond.text.DocumentView: void initDocumentView(android.content.Context,android.util.AttributeSet,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.ads.zzanf: void zzcz(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.ads.zzamy: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.ads.zzamy: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int getVersion()>
+Caller: <mobi.dailyapps.drugsdictionary.MainActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <mobi.dailyapps.drugsdictionary.MainActivity: boolean copyDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------

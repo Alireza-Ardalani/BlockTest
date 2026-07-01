@@ -1,0 +1,82 @@
+Time1: 27.221651078
+Time2: 0.453938887
+Worker: 0
+UI: 19
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.getcapacitor.FileUtils: java.lang.String readFileFromAssets(android.content.res.AssetManager,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.getcapacitor.FileUtils: java.lang.String readFileFromAssets(android.content.res.AssetManager,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.getcapacitor.PluginManager: org.json.JSONArray parsePluginsJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.getcapacitor.PluginManager: org.json.JSONArray parsePluginsJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String guessContentTypeFromName(java.lang.String)>
+Caller: <com.getcapacitor.WebViewLocalServer: java.lang.String getMimeType(java.lang.String,java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.getcapacitor.FileUtils: java.lang.String readFileFromAssets(android.content.res.AssetManager,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.getcapacitor.PluginManager: org.json.JSONArray parsePluginsJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.getcapacitor.AndroidProtocolHandler: java.io.InputStream openFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.getcapacitor.plugin.util.HttpRequestHandler$HttpURLConnectionBuilder: com.getcapacitor.plugin.util.HttpRequestHandler$HttpURLConnectionBuilder openConnection()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.getcapacitor.WebViewLocalServer: android.webkit.WebResourceResponse handleProxyRequest(android.webkit.WebResourceRequest,com.getcapacitor.WebViewLocalServer$PathHandler)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.getcapacitor.Bridge: void loadWebView()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String guessContentTypeFromStream(java.io.InputStream)>
+Caller: <com.getcapacitor.WebViewLocalServer: java.lang.String getMimeType(java.lang.String,java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: int read(char[],int,int)>
+Caller: <com.getcapacitor.JSInjector: java.lang.String readAssetStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.getcapacitor.BridgeWebChromeClient: java.io.File createImageFile(android.app.Activity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.getcapacitor.AndroidProtocolHandler: java.io.InputStream openContentUrl(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.getcapacitor.WebViewLocalServer: android.webkit.WebResourceResponse handleCapacitorHttpRequest(android.webkit.WebResourceRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.getcapacitor.WebViewLocalServer: android.webkit.WebResourceResponse handleProxyRequest(android.webkit.WebResourceRequest,com.getcapacitor.WebViewLocalServer$PathHandler)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.getcapacitor.Bridge: void initWebView()>
+Thread: [UI]
+-------------------------

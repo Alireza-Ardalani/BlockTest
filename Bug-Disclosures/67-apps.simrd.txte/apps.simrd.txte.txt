@@ -1,0 +1,33 @@
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.DataInputStream: int read(byte[],int,int)>
+Caller: <apps.simrd.txte.MainActivity: byte[] fileReadByUri(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadOnly()>
+Caller: <apps.simrd.txte.MainActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <apps.simrd.txte.Utils: java.util.List readLinesFromRawResource(android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <apps.simrd.txte.Utils: java.util.List readLinesFromRawResource(android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <apps.simrd.txte.MainActivity: void fileSave(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <apps.simrd.txte.Utils: java.lang.String readTextFileFromRawResource(android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <apps.simrd.txte.MainActivity: byte[] fileReadByUri(android.net.Uri)>
+Thread: [UI]
+-------------------------

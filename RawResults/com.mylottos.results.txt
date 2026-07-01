@@ -1,0 +1,350 @@
+Time1: 22.325164218
+Time2: 3.89485612
+Worker: 40
+UI: 46
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.gk: com.google.android.gms.internal.fj a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,com.google.android.gms.internal.gu)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: java.net.HttpURLConnection openConnection(java.net.URL)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.ia: void a()>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.et: java.util.List a(long)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(java.nio.CharBuffer)>
+Caller: <com.google.android.gms.internal.ho: java.lang.String a(java.lang.Readable)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.google.android.gms.internal.iu: void g(android.content.Context)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: void writePostBody(java.net.HttpURLConnection)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.google.android.gms.internal.iu: void g(android.content.Context)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.amazon.device.ads.FileHandler: void closeCloseables()>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.amazon.device.ads.WebUtils: java.lang.String getURLEncodedString(java.lang.String)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.amazon.device.ads.FileHandler: void closeStream()>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <com.amazon.device.ads.FileOutputHandler: boolean open(com.amazon.device.ads.FileOutputHandler$WriteMethod)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: void writePostBody(java.net.HttpURLConnection)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: void writePostBody(java.net.HttpURLConnection)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.internal.et: android.database.sqlite.SQLiteDatabase a()>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.amazon.device.ads.StringUtils: java.lang.String readStringFromInputStream(java.io.InputStream)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.ads.b.a: com.google.android.gms.common.g a(android.content.Context)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.gk: com.google.android.gms.internal.fj a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,com.google.android.gms.internal.gu)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.amazon.device.ads.WebRequest: java.net.URL createURL(java.lang.String)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.gk: com.google.android.gms.internal.fj a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,com.google.android.gms.internal.gu)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.ia: void a()>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.google.android.gms.internal.iu: void g(android.content.Context)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.internal.et$a: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.internal.et$a: void onCreate(android.database.sqlite.SQLiteDatabase)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.amazon.device.ads.FileOutputHandler: void write(java.lang.String)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: void writePostBody(java.net.HttpURLConnection)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.amazon.device.ads.FileInputHandler: boolean open()>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void flush()>
+Caller: <com.amazon.device.ads.FileOutputHandler: void flush()>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.amazon.device.ads.FileHandler: void closeCloseables()>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.internal.iu: void g(android.content.Context)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.internal.iu: void g(android.content.Context)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.internal.iu: void g(android.content.Context)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.internal.iu: void g(android.content.Context)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amazon.device.ads.FileHandler: boolean doesFileExist()>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void flush()>
+Caller: <com.amazon.device.ads.FileOutputHandler: void flush()>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.amazon.device.ads.FileOutputHandler: void write(byte[])>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.internal.gk: com.google.android.gms.internal.fj a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,com.google.android.gms.internal.gu)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.google.android.gms.internal.iu: void g(android.content.Context)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.amazon.device.ads.FileOutputHandler: boolean open(com.amazon.device.ads.FileOutputHandler$WriteMethod)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.amazon.device.ads.FileInputHandler: java.lang.String readLine()>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: java.net.HttpURLConnection openConnection(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.gk: com.google.android.gms.internal.fj a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,com.google.android.gms.internal.gu)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.io: android.webkit.WebResourceResponse a(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.ia: void a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.gms.internal.et: java.util.List a(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read(java.nio.CharBuffer)>
+Caller: <com.google.android.gms.internal.ho: java.lang.String a(java.lang.Readable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.google.android.gms.internal.iu: void g(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: void writePostBody(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.google.android.gms.internal.iu: void g(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.amazon.device.ads.FileHandler: void closeCloseables()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.amazon.device.ads.WebUtils: java.lang.String getURLEncodedString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.amazon.device.ads.FileHandler: void closeStream()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <com.amazon.device.ads.FileOutputHandler: boolean open(com.amazon.device.ads.FileOutputHandler$WriteMethod)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.amazon.device.ads.FileInputHandler: byte[] readBytes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: void writePostBody(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: void writePostBody(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.gms.internal.et: android.database.sqlite.SQLiteDatabase a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.amazon.device.ads.StringUtils: java.lang.String readStringFromInputStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.ads.b.a: com.google.android.gms.common.g a(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.gk: com.google.android.gms.internal.fj a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,com.google.android.gms.internal.gu)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.amazon.device.ads.WebRequest: java.net.URL createURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.ia: void a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.gk: com.google.android.gms.internal.fj a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,com.google.android.gms.internal.gu)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.io: android.webkit.WebResourceResponse a(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.google.android.gms.internal.iu: void g(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.internal.et$a: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.gms.internal.et$a: void onCreate(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.amazon.device.ads.FileOutputHandler: void write(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: void writePostBody(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read(byte[],int,int)>
+Caller: <com.amazon.device.ads.FileInputHandler: byte[] readBytes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amazon.device.ads.FileInputHandler: byte[] readBytes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amazon.device.ads.FileHandler: long getFileLength()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.amazon.device.ads.FileInputHandler: boolean open()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void flush()>
+Caller: <com.amazon.device.ads.FileOutputHandler: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.amazon.device.ads.FileHandler: void closeCloseables()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.internal.iu: void g(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.internal.iu: void g(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.internal.iu: void g(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.internal.iu: void g(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amazon.device.ads.FileHandler: boolean doesFileExist()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void flush()>
+Caller: <com.amazon.device.ads.FileOutputHandler: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.internal.gk: com.google.android.gms.internal.fj a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,com.google.android.gms.internal.gu)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.amazon.device.ads.FileOutputHandler: void write(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.google.android.gms.internal.iu: void g(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.amazon.device.ads.FileOutputHandler: boolean open(com.amazon.device.ads.FileOutputHandler$WriteMethod)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.amazon.device.ads.FileInputHandler: java.lang.String readLine()>
+Thread: [UI]
+-------------------------

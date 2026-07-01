@@ -1,0 +1,46 @@
+Time1: 17.731841858
+Time2: 0.20544456
+Worker: 2
+UI: 8
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.adobe.air.InstallOfferPingUtils$1: java.lang.Integer doInBackground(java.lang.String[])>
+Thread: [<com.adobe.air.InstallOfferPingUtils$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.adobe.air.InstallOfferPingUtils$1: java.lang.Integer doInBackground(java.lang.String[])>
+Thread: [<com.adobe.air.InstallOfferPingUtils$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <com.adobe.air.CameraUIProvider$SimplePathStrategy: void addRoot(java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <com.adobe.air.CameraUIProvider$SimplePathStrategy: java.io.File getFileForUri(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <com.adobe.air.CameraUIProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.adobe.air.InstallOfferPingUtils$1: java.lang.Integer doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.adobe.air.InstallOfferPingUtils: void PingAndExit(android.app.Activity,java.lang.String,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.adobe.air.CameraUIProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.adobe.air.InstallOfferPingUtils$1: java.lang.Integer doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.adobe.air.CameraUIProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------

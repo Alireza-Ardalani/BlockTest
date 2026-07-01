@@ -1,0 +1,146 @@
+Time1: 16.472981035
+Time2: 0.547119618
+Worker: 1
+UI: 34
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.android.music.d: android.graphics.Bitmap a(android.graphics.Bitmap)>
+Thread: [<com.android.music.MediaPlaybackActivity$g: void handleMessage(android.os.Message)>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.android.music.TrackBrowserActivity$10: void a(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.android.music.TrackBrowserActivity$10: void a(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.android.music.MediaPlaybackService: void h()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.android.music.RenamePlaylist$3: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.android.music.TrackBrowserActivity$10: void a(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.android.music.TrackBrowserActivity$10: void a(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.jrtstudio.tools.h: com.jrtstudio.tools.h$a b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.jrtstudio.tools.h: com.jrtstudio.tools.h$a b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.jrtstudio.tools.h: com.jrtstudio.tools.h$a b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Audio$Media: android.net.Uri getContentUriForPath(java.lang.String)>
+Caller: <com.android.music.MediaPlaybackService: boolean b(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.jrtstudio.tools.h: com.jrtstudio.tools.h$a b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.android.music.d: android.graphics.Bitmap a(android.content.Context,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.jrtstudio.tools.h: com.jrtstudio.tools.h$a b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.jrtstudio.tools.h: com.jrtstudio.tools.h$a b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.android.music.PlaylistBrowserActivity: android.database.Cursor b(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.android.music.PlaylistBrowserActivity: android.database.Cursor b(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.android.music.PlaylistBrowserActivity: android.database.Cursor b(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: void onChange(boolean)>
+Caller: <com.android.music.TrackBrowserActivity$b: java.lang.String getString(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.jrtstudio.tools.h: com.jrtstudio.tools.h$a b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.android.music.CreatePlaylist$3: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFileDescriptor(java.io.FileDescriptor,android.graphics.Rect,android.graphics.BitmapFactory$Options)>
+Caller: <com.android.music.d: android.graphics.Bitmap a(android.content.Context,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFileDescriptor(java.io.FileDescriptor,android.graphics.Rect,android.graphics.BitmapFactory$Options)>
+Caller: <com.android.music.d: android.graphics.Bitmap a(android.content.Context,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.jrtstudio.tools.h: com.jrtstudio.tools.h$a b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.jrtstudio.tools.h: com.jrtstudio.tools.h$a b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.jrtstudio.tools.h: com.jrtstudio.tools.h$a b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.android.music.TrackBrowserActivity: void a(android.database.Cursor,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.android.music.d: void a(android.content.Context,long[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.android.music.d: android.graphics.Bitmap a(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.android.music.d: android.graphics.Bitmap a(android.content.Context,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.android.music.TrackBrowserActivity: void a(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.android.music.d: void a(android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.android.music.d: void a(android.content.Context,long[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.jrtstudio.tools.h: com.jrtstudio.tools.h$a b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.jrtstudio.tools.h: com.jrtstudio.tools.h$a b()>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,26 @@
+Time1: 53.669842924
+Time2: 0.367750666
+Worker: 0
+UI: 5
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.yasirkula.unity.NativeShareContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <com.yasirkula.unity.NativeShareContentProvider$SimplePathStrategy: void addRoot(java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <com.yasirkula.unity.NativeShareContentProvider$SimplePathStrategy: java.io.File getFileForUri(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.yasirkula.unity.NativeShareContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <com.yasirkula.unity.NativeShareContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------

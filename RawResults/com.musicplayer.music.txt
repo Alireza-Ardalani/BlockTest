@@ -1,0 +1,310 @@
+Time1: 22.105140882
+Time2: 1.409432933
+Worker: 5
+UI: 71
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.musicplayer.music.MusicUtils: android.graphics.Bitmap getArtworkFromFile(android.content.Context,long,long)>
+Thread: [<com.musicplayer.music.TrackBrowserActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.musicplayer.music.MusicUtils: android.graphics.Bitmap getArtworkFromFile(android.content.Context,long,long)>
+Thread: [<com.musicplayer.music.TrackBrowserActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFileDescriptor(java.io.FileDescriptor)>
+Caller: <com.musicplayer.music.MusicUtils: android.graphics.Bitmap getArtworkFromFile(android.content.Context,long,long)>
+Thread: [<com.musicplayer.music.TrackBrowserActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFileDescriptor(java.io.FileDescriptor)>
+Caller: <com.musicplayer.music.MusicUtils: android.graphics.Bitmap getArtworkFromFile(android.content.Context,long,long)>
+Thread: [<com.musicplayer.music.TrackBrowserActivity$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.musicplayer.music.MusicUtils: android.graphics.Bitmap getArtwork(android.content.Context,long,long,boolean)>
+Thread: [<com.musicplayer.music.TrackBrowserActivity$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.DatabaseUtils: void dumpCursor(android.database.Cursor)>
+Caller: <com.musicplayer.music.QueryBrowserActivity$QueryListAdapter: void bindView(android.view.View,android.content.Context,android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <com.musicplayer.music.MusicUtils: void addToPlaylist(android.content.Context,long[],long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.musicplayer.music.PlaylistBrowserActivity: android.database.Cursor mergedCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.musicplayer.music.PlaylistBrowserActivity: android.database.Cursor mergedCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: void addRow(java.lang.Iterable)>
+Caller: <com.musicplayer.music.PlaylistBrowserActivity: android.database.Cursor mergedCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.musicplayer.music.MediaPlaybackService: void saveBookmarkIfNeeded()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.musicplayer.music.TrackBrowserActivity: void moveItem(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.musicplayer.music.MusicUtils: void setRingtone(android.content.Context,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.musicplayer.music.TrackBrowserActivity: void moveItem(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.musicplayer.music.TrackBrowserActivity: void moveItem(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.musicplayer.music.RenamePlaylist$3: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.musicplayer.music.MusicUtils: android.graphics.Bitmap getArtworkQuick(android.content.Context,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.musicplayer.music.MusicUtils: android.graphics.Bitmap getArtworkQuick(android.content.Context,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.musicplayer.music.MusicUtils: android.graphics.Bitmap getArtworkFromFile(android.content.Context,long,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.musicplayer.music.MusicUtils: android.graphics.Bitmap getArtworkFromFile(android.content.Context,long,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFileDescriptor(java.io.FileDescriptor)>
+Caller: <com.musicplayer.music.MusicUtils: android.graphics.Bitmap getArtworkFromFile(android.content.Context,long,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFileDescriptor(java.io.FileDescriptor)>
+Caller: <com.musicplayer.music.MusicUtils: android.graphics.Bitmap getArtworkFromFile(android.content.Context,long,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Audio$Playlists$Members: boolean moveItem(android.content.ContentResolver,long,int,int)>
+Caller: <com.musicplayer.music.TrackBrowserActivity$4: void drop(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.MediaPickerActivity$PickListAdapter: void <init>(android.content.Context,int,android.database.Cursor,java.lang.String[],int[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.MusicUtils: long[] getSongListForCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.MediaPickerActivity: void onListItemClick(android.widget.ListView,android.view.View,int,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.MediaPickerActivity$PickListAdapter: void <init>(android.content.Context,int,android.database.Cursor,java.lang.String[],int[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.TrackBrowserActivity: void moveItem(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.TrackBrowserActivity: void setTitle()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.MediaPickerActivity: void onListItemClick(android.widget.ListView,android.view.View,int,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.TrackBrowserActivity: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.TrackBrowserActivity: void removeItem()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.TrackBrowserActivity$TrackListAdapter: void getColumnIndices(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.TrackBrowserActivity$TrackListAdapter: void getColumnIndices(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.PlaylistBrowserActivity$PlaylistListAdapter: void getColumnIndices(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.TrackBrowserActivity: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.TrackBrowserActivity$TrackListAdapter: void getColumnIndices(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.PlaylistBrowserActivity$PlaylistListAdapter: void getColumnIndices(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.MusicUtils: long[] getSongListForCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.TrackBrowserActivity$TrackListAdapter: void getColumnIndices(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.PlaylistBrowserActivity: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.TrackBrowserActivity: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.TrackBrowserActivity: void setTitle()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.TrackBrowserActivity: void removePlaylistItem(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.SortCursor: void <init>(android.database.Cursor[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.MediaPickerActivity: void onListItemClick(android.widget.ListView,android.view.View,int,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.TrackBrowserActivity$TrackListAdapter: void getColumnIndices(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.MediaPickerActivity$PickListAdapter: void <init>(android.content.Context,int,android.database.Cursor,java.lang.String[],int[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.TrackBrowserActivity: void init(android.database.Cursor,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.TrackBrowserActivity: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: int getColumnIndexOrThrow(java.lang.String)>
+Caller: <com.musicplayer.music.MediaPickerActivity$PickListAdapter: void <init>(android.content.Context,int,android.database.Cursor,java.lang.String[],int[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Audio$Media: android.net.Uri getContentUriForPath(java.lang.String)>
+Caller: <com.musicplayer.music.MediaPlaybackService: void open(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.musicplayer.music.CreatePlaylist$3: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.Cursor: void close()>
+Caller: <com.musicplayer.music.PlaylistBrowserActivity$PlaylistListAdapter: void changeCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.Cursor: void close()>
+Caller: <com.musicplayer.music.SortCursor: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFileDescriptor(java.io.FileDescriptor,android.graphics.Rect,android.graphics.BitmapFactory$Options)>
+Caller: <com.musicplayer.music.MusicUtils: android.graphics.Bitmap getArtworkQuick(android.content.Context,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFileDescriptor(java.io.FileDescriptor,android.graphics.Rect,android.graphics.BitmapFactory$Options)>
+Caller: <com.musicplayer.music.MusicUtils: android.graphics.Bitmap getArtworkQuick(android.content.Context,long,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.musicplayer.music.MusicUtils: void deleteTracks(android.content.Context,long[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.musicplayer.music.MusicUtils: android.graphics.Bitmap getArtwork(android.content.Context,long,long,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.musicplayer.music.MusicUtils: void deleteTracks(android.content.Context,long[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.musicplayer.music.TrackBrowserActivity: void removePlaylistItem(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.musicplayer.music.PlaylistBrowserActivity: boolean onContextItemSelected(android.view.MenuItem)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.musicplayer.music.TrackBrowserActivity: void removeItem()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.musicplayer.music.MusicUtils: void clearPlaylist(android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.musicplayer.music.SortCursor: java.lang.String getString(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <com.musicplayer.music.SortCursor: void <init>(android.database.Cursor[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: long getLong(int)>
+Caller: <com.musicplayer.music.SortCursor: long getLong(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: void onChange(boolean)>
+Caller: <com.musicplayer.music.TrackBrowserActivity$NowPlayingCursor: int getInt(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: void onChange(boolean)>
+Caller: <com.musicplayer.music.TrackBrowserActivity$NowPlayingCursor: long getLong(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.AbstractCursor: void onChange(boolean)>
+Caller: <com.musicplayer.music.TrackBrowserActivity$NowPlayingCursor: java.lang.String getString(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.Cursor: void registerDataSetObserver(android.database.DataSetObserver)>
+Caller: <com.musicplayer.music.SortCursor: void <init>(android.database.Cursor[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.musicplayer.music.AlbumBrowserActivity$AlbumListAdapter: void <init>(android.content.Context,com.musicplayer.music.AlbumBrowserActivity,int,android.database.Cursor,java.lang.String[],int[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.musicplayer.music.TouchInterceptor: boolean onInterceptTouchEvent(android.view.MotionEvent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.Cursor: void close()>
+Caller: <com.musicplayer.music.TrackBrowserActivity$TrackListAdapter: void changeCursor(android.database.Cursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.Cursor: void close()>
+Caller: <com.musicplayer.music.SortCursor: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.Cursor: void close()>
+Caller: <com.musicplayer.music.TrackBrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Thread: [UI]
+-------------------------

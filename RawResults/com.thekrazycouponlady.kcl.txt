@@ -1,0 +1,166 @@
+Time1: 32.258600491
+Time2: 0.978818609
+Worker: 4
+UI: 36
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URL: java.io.InputStream openStream()>
+Caller: <com.apptentive.android.sdk.util.ImageUtil$DownloadImageTask: android.graphics.Bitmap loadImageFromNetwork(java.lang.String)>
+Thread: [<com.apptentive.android.sdk.module.messagecenter.ApptentiveToastNotificationManager$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.io.InputStream openStream()>
+Caller: <com.apptentive.android.sdk.util.ImageUtil$DownloadImageTask: android.graphics.Bitmap loadImageFromNetwork(java.lang.String)>
+Thread: [<com.apptentive.android.sdk.util.ImageUtil$DownloadImageTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.apptentive.android.sdk.util.ImageUtil$DownloadImageTask: android.graphics.Bitmap loadImageFromNetwork(java.lang.String)>
+Thread: [<com.apptentive.android.sdk.util.ImageUtil$DownloadImageTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.apptentive.android.sdk.util.ImageUtil$DownloadImageTask: android.graphics.Bitmap loadImageFromNetwork(java.lang.String)>
+Thread: [<com.apptentive.android.sdk.module.messagecenter.ApptentiveToastNotificationManager$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.BufferedOutputStream: void flush()>
+Caller: <com.apptentive.android.sdk.module.messagecenter.model.OutgoingFileMessage: boolean internalCreateStoredImage(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.apptentive.android.sdk.module.messagecenter.view.AttachmentPreviewDialog: void setImage(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.apptentive.android.sdk.module.messagecenter.model.OutgoingFileMessage: boolean internalCreateStoredImage(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.adobe.phonegap.push.GCMIntentService: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.apptentive.android.sdk.util.Util: void ensureClosed(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.apptentive.android.sdk.util.ImageUtil: android.graphics.Bitmap createLightweightScaledBitmapFromStream(java.io.InputStream,int,int,android.graphics.Bitmap$Config,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: boolean putStoredFile(com.apptentive.android.sdk.model.StoredFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: void addOrUpdateMessages(com.apptentive.android.sdk.module.messagecenter.model.ApptentiveMessage[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.google.android.gms.iid.zzd: void zzeK(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: void addOrUpdateMessages(com.apptentive.android.sdk.module.messagecenter.model.ApptentiveMessage[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: void addPayload(com.apptentive.android.sdk.model.Payload[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: java.io.File getAttachmentsDirectoryForCall(java.util.UUID,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.google.android.gms.common.util.zzw: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: boolean putStoredFile(com.apptentive.android.sdk.model.StoredFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: void addOrUpdateMessages(com.apptentive.android.sdk.module.messagecenter.model.ApptentiveMessage[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: void addPayload(com.apptentive.android.sdk.model.Payload[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: void addPayload(com.apptentive.android.sdk.model.Payload[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: void addOrUpdateMessages(com.apptentive.android.sdk.module.messagecenter.model.ApptentiveMessage[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.lang.String getType(android.net.Uri)>
+Caller: <com.apptentive.android.sdk.module.messagecenter.model.OutgoingFileMessage: boolean internalCreateStoredImage(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.apptentive.android.sdk.util.ImageUtil: android.graphics.Bitmap createScaledBitmapFromStream(java.io.InputStream,int,int,android.graphics.Bitmap$Config,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: void addOrUpdateMessages(com.apptentive.android.sdk.module.messagecenter.model.ApptentiveMessage[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: boolean putStoredFile(com.apptentive.android.sdk.model.StoredFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: java.util.List getAllMessages()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.adobe.phonegap.push.GCMIntentService: void setNotificationLargeIcon(android.os.Bundle,java.lang.String,android.content.res.Resources,android.support.v4.app.NotificationCompat$Builder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.adobe.phonegap.push.GCMIntentService: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: java.io.File getAttachmentFile(java.util.UUID,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: java.util.List getAllMessages()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.iid.zzd: void zzeK(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzw: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzw: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.internal.NativeAppCallAttachmentStore: java.io.File getAttachmentsDirectoryForCall(java.util.UUID,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: void addOrUpdateMessages(com.apptentive.android.sdk.module.messagecenter.model.ApptentiveMessage[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: boolean putStoredFile(com.apptentive.android.sdk.model.StoredFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: void addPayload(com.apptentive.android.sdk.model.Payload[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: void addPayload(com.apptentive.android.sdk.model.Payload[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.apptentive.android.sdk.storage.ApptentiveDatabase: void addOrUpdateMessages(com.apptentive.android.sdk.module.messagecenter.model.ApptentiveMessage[])>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,193 @@
+IO Target: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(boolean,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: void onResume()>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: void populateFields()>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: android.database.Cursor fetchNote(long)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(boolean,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: void onCreate(android.os.Bundle)>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: void populateFields()>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: android.database.Cursor fetchNote(long)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(boolean,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+
+IO Target: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: boolean onOptionsItemSelected(android.view.MenuItem)>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: void saveState()>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: boolean updateNote(long,java.lang.String,java.lang.String,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: void onSaveInstanceState(android.os.Bundle)>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: void saveState()>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: boolean updateNote(long,java.lang.String,java.lang.String,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: void onPause()>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: void saveState()>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: boolean updateNote(long,java.lang.String,java.lang.String,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+
+IO Target: <android.database.sqlite.SQLiteOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void onCreate(android.os.Bundle)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: com.blogspot.utiapp.noteapp.NotesDbAdapter open()>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter$DatabaseHelper: void <init>(android.content.Context)>
+    -> <android.database.sqlite.SQLiteOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: void onCreate(android.os.Bundle)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: com.blogspot.utiapp.noteapp.NotesDbAdapter open()>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter$DatabaseHelper: void <init>(android.content.Context)>
+    -> <android.database.sqlite.SQLiteOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+
+IO Target: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteList: boolean onCreateOptionsMenu(android.view.Menu)>
+    -> <com.blogspot.utiapp.noteapp.NoteList$8: boolean onQueryTextChange(java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void access$500(com.blogspot.utiapp.noteapp.NoteList,boolean,java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void fillData(boolean,java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: android.database.Cursor fetchAllNotes(boolean,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteList: boolean onCreateOptionsMenu(android.view.Menu)>
+    -> <com.blogspot.utiapp.noteapp.NoteList$8: boolean onQueryTextChange(java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void access$500(com.blogspot.utiapp.noteapp.NoteList,boolean,java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void fillData(boolean,java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: android.database.Cursor fetchAllNotes(boolean,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void onCreate(android.os.Bundle)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void saveAllData()>
+    -> <com.blogspot.utiapp.noteapp.NoteList$6: void onDataChange(com.google.firebase.database.DataSnapshot)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: android.database.Cursor fetchAllNotes(boolean,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void onCreate(android.os.Bundle)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void saveAllData()>
+    -> <com.blogspot.utiapp.noteapp.NoteList$6: void onDataChange(com.google.firebase.database.DataSnapshot)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: android.database.Cursor fetchAllNotes(boolean,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void onCreate(android.os.Bundle)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void fillData(boolean,java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: android.database.Cursor fetchAllNotes(boolean,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void onCreate(android.os.Bundle)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void fillData(boolean,java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: android.database.Cursor fetchAllNotes(boolean,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteList: boolean onContextItemSelected(android.view.MenuItem)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void fillData(boolean,java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: android.database.Cursor fetchAllNotes(boolean,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteList: boolean onContextItemSelected(android.view.MenuItem)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void fillData(boolean,java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: android.database.Cursor fetchAllNotes(boolean,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteList: boolean onOptionsItemSelected(android.view.MenuItem)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void fillData(boolean,java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: android.database.Cursor fetchAllNotes(boolean,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteList: boolean onOptionsItemSelected(android.view.MenuItem)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void fillData(boolean,java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: android.database.Cursor fetchAllNotes(boolean,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void onActivityResult(int,int,android.content.Intent)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void fillData(boolean,java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: android.database.Cursor fetchAllNotes(boolean,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void onActivityResult(int,int,android.content.Intent)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void fillData(boolean,java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: android.database.Cursor fetchAllNotes(boolean,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteList$8: boolean onQueryTextChange(java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void access$500(com.blogspot.utiapp.noteapp.NoteList,boolean,java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void fillData(boolean,java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: android.database.Cursor fetchAllNotes(boolean,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteList$8: boolean onQueryTextChange(java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void access$500(com.blogspot.utiapp.noteapp.NoteList,boolean,java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void fillData(boolean,java.lang.String)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: android.database.Cursor fetchAllNotes(boolean,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+
+IO Target: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteList: void onCreate(android.os.Bundle)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: com.blogspot.utiapp.noteapp.NotesDbAdapter open()>
+    -> <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: void onCreate(android.os.Bundle)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: com.blogspot.utiapp.noteapp.NotesDbAdapter open()>
+    -> <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+
+IO Target: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: boolean onOptionsItemSelected(android.view.MenuItem)>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: void saveState()>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: long createNote(java.lang.String,java.lang.String,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: void onSaveInstanceState(android.os.Bundle)>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: void saveState()>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: long createNote(java.lang.String,java.lang.String,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: void onPause()>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: void saveState()>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: long createNote(java.lang.String,java.lang.String,java.lang.String)>
+    -> <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+
+
+IO Target: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteList: boolean onContextItemSelected(android.view.MenuItem)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: boolean deleteNote(long)>
+    -> <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit$2: void onClick(android.content.DialogInterface,int)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: boolean deleteNote(long)>
+    -> <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit: boolean onOptionsItemSelected(android.view.MenuItem)>
+    -> <com.blogspot.utiapp.noteapp.NoteEdit$2: void onClick(android.content.DialogInterface,int)>
+    -> <com.blogspot.utiapp.noteapp.NotesDbAdapter: boolean deleteNote(long)>
+    -> <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+

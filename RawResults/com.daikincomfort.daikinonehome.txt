@@ -1,0 +1,154 @@
+Time1: 195.954571996
+Time2: 1.974956507
+Worker: 8
+UI: 29
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.facebook.soloader.ApplicationSoSource: boolean checkAndMaybeUpdate()>
+Thread: [<com.facebook.react.ReactInstanceManager$5: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [<com.facebook.react.devsupport.DevServerHelper$3: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.soloader.SoLoader: void AddBackupSoSource(android.content.Context,java.util.ArrayList,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.facebook.soloader.DirectorySoSource: java.lang.String toString()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <expo.modules.notifications.service.delegates.SharedPreferencesNotificationsStore: java.util.Collection getAllNotificationRequests()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <expo.modules.notifications.service.delegates.SharedPreferencesNotificationCategoriesStore: expo.modules.notifications.notifications.model.NotificationCategory getNotificationCategory(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <expo.modules.notifications.service.delegates.SharedPreferencesNotificationsStore: expo.modules.notifications.notifications.model.NotificationRequest getNotificationRequest(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <expo.modules.notifications.service.delegates.SharedPreferencesNotificationCategoriesStore: java.util.Collection getAllNotificationCategories()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.facebook.soloader.SysUtil: void dumbDeleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <io.invertase.firebase.common.ReactNativeFirebaseInitProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <expo.modules.notifications.service.delegates.Base64SerializationKt: java.lang.String encodedInBase64(java.io.Serializable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.facebook.soloader.ApplicationSoSource: boolean checkAndMaybeUpdate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <expo.modules.notifications.service.delegates.Base64SerializationKt: java.lang.String encodedInBase64(java.io.Serializable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <expo.modules.notifications.service.delegates.SharedPreferencesNotificationCategoriesStore: expo.modules.notifications.notifications.model.NotificationCategory getNotificationCategory(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <expo.modules.notifications.service.delegates.SharedPreferencesNotificationsStore: java.util.Collection getAllNotificationRequests()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <expo.modules.notifications.service.delegates.SharedPreferencesNotificationCategoriesStore: java.util.Collection getAllNotificationCategories()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <expo.modules.notifications.service.delegates.SharedPreferencesNotificationsStore: expo.modules.notifications.notifications.model.NotificationRequest getNotificationRequest(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.soloader.SysUtil: void dumbDeleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.facebook.react.modules.systeminfo.AndroidInfoHelpers: java.lang.String getMetroHostPropValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <expo.modules.notifications.notifications.presentation.builders.ExpoNotificationBuilder: android.graphics.Bitmap getLargeIcon()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.supersami.foregroundservice.NotificationHelper: android.app.Notification buildNotification(android.content.Context,android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.soloader.SysUtil: void deleteOrThrow(java.io.File)>
+Thread: [UI]
+-------------------------

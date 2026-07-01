@@ -1,0 +1,898 @@
+Time1: 24.213516441
+Time2: 2.872387762
+Worker: 88
+UI: 135
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <ch.boye.httpclientandroidlib.entity.ContentType: void <init>(java.lang.String,ch.boye.httpclientandroidlib.NameValuePair[])>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionOutputBuffer: void init(java.io.OutputStream,int,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionInputBuffer: void init(java.io.InputStream,int,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetDecoder: java.nio.charset.CoderResult flush(java.nio.CharBuffer)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionInputBuffer: int appendDecoded(ch.boye.httpclientandroidlib.util.CharArrayBuffer,java.nio.ByteBuffer)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: int getReceiveBufferSize()>
+Caller: <ch.boye.httpclientandroidlib.impl.io.SocketInputBuffer: void <init>(java.net.Socket,int,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <ch.boye.httpclientandroidlib.entity.BasicHttpEntity: void writeTo(java.io.OutputStream)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <ch.boye.httpclientandroidlib.util.EntityUtils: byte[] toByteArray(ch.boye.httpclientandroidlib.HttpEntity)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getQuery()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getQuery()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.charset.CoderResult encode(java.nio.CharBuffer,java.nio.ByteBuffer,boolean)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionOutputBuffer: void writeEncoded(java.nio.CharBuffer)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionInputBuffer: int fillBuffer()>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <ch.boye.httpclientandroidlib.conn.EofSensorInputStream: int read(byte[],int,int)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionInputBuffer: int read(byte[],int,int)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.UnsupportedCharsetException: void <init>(java.lang.String)>
+Caller: <ch.boye.httpclientandroidlib.entity.StringEntity: void <init>(java.lang.String,ch.boye.httpclientandroidlib.entity.ContentType)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <ch.boye.httpclientandroidlib.impl.conn.DefaultClientConnection: void shutdown()>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <ch.boye.httpclientandroidlib.impl.SocketHttpClientConnection: void shutdown()>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <ch.boye.httpclientandroidlib.impl.conn.DefaultClientConnection: void opening(java.net.Socket,ch.boye.httpclientandroidlib.HttpHost)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <ch.boye.httpclientandroidlib.impl.SocketHttpClientConnection: void close()>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <ch.boye.httpclientandroidlib.impl.SocketHttpClientConnection: void close()>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long executeInsert()>
+Caller: <com.duckduckgo.mobile.android.db.DdgDB: long insertApp(com.duckduckgo.mobile.android.util.AppShortInfo)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ScanAppsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.InputStream getInputStream()>
+Caller: <ch.boye.httpclientandroidlib.impl.io.SocketInputBuffer: void <init>(java.net.Socket,int,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.InputStream getInputStream()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.charset.CoderResult flush(java.nio.ByteBuffer)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionOutputBuffer: void writeEncoded(java.nio.CharBuffer)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.ByteBuffer encode(java.lang.String)>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URLEncodedUtils: java.lang.String urlEncode(java.lang.String,java.nio.charset.Charset,java.util.BitSet,boolean)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: int getSoTimeout()>
+Caller: <ch.boye.httpclientandroidlib.impl.io.SocketInputBuffer: boolean isDataAvailable(int)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIBuilder: void digestURI(java.net.URI)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.duckduckgo.mobile.android.tasks.ScanAppsTask: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.duckduckgo.mobile.android.tasks.ScanAppsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getUserInfo()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIBuilder: void digestURI(java.net.URI)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getUserInfo()>
+Caller: <ch.boye.httpclientandroidlib.impl.client.DefaultRequestDirector: ch.boye.httpclientandroidlib.HttpResponse execute(ch.boye.httpclientandroidlib.HttpHost,ch.boye.httpclientandroidlib.HttpRequest,ch.boye.httpclientandroidlib.protocol.HttpContext)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <ch.boye.httpclientandroidlib.util.EntityUtils: java.lang.String toString(ch.boye.httpclientandroidlib.HttpEntity,java.nio.charset.Charset)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress[] getAllByName(java.lang.String)>
+Caller: <ch.boye.httpclientandroidlib.impl.conn.SystemDefaultDnsResolver: java.net.InetAddress[] resolve(java.lang.String)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void shutdownOutput()>
+Caller: <ch.boye.httpclientandroidlib.impl.SocketHttpClientConnection: void close()>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeShort(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <ch.boye.httpclientandroidlib.conn.EofSensorInputStream: int read(byte[],int,int)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void write(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void write(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void write(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void write(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void connect(java.net.SocketAddress,int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoLinger(boolean,int)>
+Caller: <ch.boye.httpclientandroidlib.impl.conn.DefaultClientConnectionOperator: void prepareSocket(java.net.Socket,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String toASCIIString()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String toASCIIString()>
+Caller: <ch.boye.httpclientandroidlib.impl.client.RequestWrapper: ch.boye.httpclientandroidlib.RequestLine getRequestLine()>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String toASCIIString()>
+Caller: <ch.boye.httpclientandroidlib.client.methods.HttpRequestBase: ch.boye.httpclientandroidlib.RequestLine getRequestLine()>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getAuthority()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: ch.boye.httpclientandroidlib.HttpHost extractHost(java.net.URI)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getAuthority()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getAuthority()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: int getSendBufferSize()>
+Caller: <ch.boye.httpclientandroidlib.impl.io.SocketOutputBuffer: void <init>(java.net.Socket,int,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void shutdownInput()>
+Caller: <ch.boye.httpclientandroidlib.impl.SocketHttpClientConnection: void close()>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.duckduckgo.mobile.android.db.DdgDB: void deleteApps()>
+Thread: [<com.duckduckgo.mobile.android.tasks.ScanAppsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetDecoder: java.nio.charset.CoderResult decode(java.nio.ByteBuffer,java.nio.CharBuffer,boolean)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionInputBuffer: int appendDecoded(ch.boye.httpclientandroidlib.util.CharArrayBuffer,java.nio.ByteBuffer)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.duckduckgo.mobile.android.tasks.ScanAppsTask: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.duckduckgo.mobile.android.tasks.ScanAppsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <ch.boye.httpclientandroidlib.entity.BufferedHttpEntity: void writeTo(java.io.OutputStream)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <ch.boye.httpclientandroidlib.entity.StringEntity: void writeTo(java.io.OutputStream)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.OutputStream getOutputStream()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.OutputStream getOutputStream()>
+Caller: <ch.boye.httpclientandroidlib.impl.io.SocketOutputBuffer: void <init>(java.net.Socket,int,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.CharBuffer decode(java.nio.ByteBuffer)>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URLEncodedUtils: java.lang.String urlDecode(java.lang.String,java.nio.charset.Charset,boolean)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeInt(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.duckduckgo.mobile.android.tasks.ScanAppsTask: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.duckduckgo.mobile.android.tasks.ScanAppsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.duckduckgo.mobile.android.tasks.ScanAppsTask: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.duckduckgo.mobile.android.tasks.ScanAppsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.duckduckgo.mobile.android.tasks.ScanAppsTask: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.duckduckgo.mobile.android.tasks.ScanAppsTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <ch.boye.httpclientandroidlib.impl.SocketHttpClientConnection: void setSocketTimeout(int)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <ch.boye.httpclientandroidlib.impl.conn.DefaultClientConnectionOperator: void prepareSocket(java.net.Socket,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.SocketInputBuffer: boolean isDataAvailable(int)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.SocketInputBuffer: boolean isDataAvailable(int)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.SocketInputBuffer: boolean isDataAvailable(int)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void setTcpNoDelay(boolean)>
+Caller: <ch.boye.httpclientandroidlib.impl.conn.DefaultClientConnectionOperator: void prepareSocket(java.net.Socket,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getFragment()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getFragment()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getFragment()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIBuilder: void digestURI(java.net.URI)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void <init>()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getRawSchemeSpecificPart()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIBuilder: void digestURI(java.net.URI)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <ch.boye.httpclientandroidlib.entity.BasicHttpEntity: void writeTo(java.io.OutputStream)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionOutputBuffer: void flushBuffer()>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionOutputBuffer: void write(byte[],int,int)>
+Thread: [<com.duckduckgo.mobile.android.tasks.ReadableFeedTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <com.duckduckgo.mobile.android.fragment.WebFragment: void searchWebTerm(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <com.duckduckgo.mobile.android.util.DDGUtils: void searchExternal(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <com.duckduckgo.mobile.android.fragment.WebFragment: void searchWebTerm(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <info.guardianproject.onionkit.ui.TorServiceUtils: int findProcessId(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <com.duckduckgo.mobile.android.fragment.WebFragment: void searchWebTerm(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <com.duckduckgo.mobile.android.adapters.AutoCompleteResultsAdapter$2: org.json.JSONArray getJSONResultForConstraint(java.lang.CharSequence)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <com.duckduckgo.mobile.android.util.DDGUtils: void searchExternal(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+Caller: <com.duckduckgo.mobile.android.util.DDGUtils: void searchExternal(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+Caller: <com.duckduckgo.mobile.android.DDGApplication: android.database.sqlite.SQLiteDatabase openOrCreateDatabase(java.lang.String,int,android.database.sqlite.SQLiteDatabase$CursorFactory)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionInputBuffer: void init(java.io.InputStream,int,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <ch.boye.httpclientandroidlib.Consts: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <ch.boye.httpclientandroidlib.entity.ContentType: void <init>(java.lang.String,ch.boye.httpclientandroidlib.NameValuePair[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <ch.boye.httpclientandroidlib.Consts: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <ch.boye.httpclientandroidlib.Consts: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionOutputBuffer: void init(java.io.OutputStream,int,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetDecoder: java.nio.charset.CoderResult flush(java.nio.CharBuffer)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionInputBuffer: int appendDecoded(ch.boye.httpclientandroidlib.util.CharArrayBuffer,java.nio.ByteBuffer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: int getReceiveBufferSize()>
+Caller: <ch.boye.httpclientandroidlib.impl.io.SocketInputBuffer: void <init>(java.net.Socket,int,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <ch.boye.httpclientandroidlib.util.EntityUtils: byte[] toByteArray(ch.boye.httpclientandroidlib.HttpEntity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.duckduckgo.mobile.android.broadcast.DownloadReceiver: void onReceive(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <ch.boye.httpclientandroidlib.entity.BasicHttpEntity: void writeTo(java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getQuery()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getQuery()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.charset.CoderResult encode(java.nio.CharBuffer,java.nio.ByteBuffer,boolean)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionOutputBuffer: void writeEncoded(java.nio.CharBuffer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <info.guardianproject.onionkit.ui.TorServiceUtils: int findProcessIdWithPS(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <info.guardianproject.onionkit.ui.TorServiceUtils: int findProcessIdWithPidOf(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <org.acra.CrashReportPersister: void store(org.acra.collector.CrashReportData,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.duckduckgo.mobile.android.broadcast.DownloadReceiver: void onReceive(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <org.acra.CrashReportPersister: void store(org.acra.collector.CrashReportData,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.duckduckgo.mobile.android.db.DdgDB: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionInputBuffer: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionInputBuffer: int fillBuffer()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <ch.boye.httpclientandroidlib.conn.EofSensorInputStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.duckduckgo.mobile.android.db.DdgDB: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <org.acra.CrashReportPersister: org.acra.collector.CrashReportData load(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.UnsupportedCharsetException: void <init>(java.lang.String)>
+Caller: <ch.boye.httpclientandroidlib.entity.StringEntity: void <init>(java.lang.String,ch.boye.httpclientandroidlib.entity.ContentType)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read()>
+Caller: <org.acra.CrashReportPersister: boolean isEbcdic(java.io.BufferedInputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <ch.boye.httpclientandroidlib.impl.SocketHttpClientConnection: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <ch.boye.httpclientandroidlib.impl.conn.DefaultClientConnection: void opening(java.net.Socket,ch.boye.httpclientandroidlib.HttpHost)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <ch.boye.httpclientandroidlib.impl.SocketHttpClientConnection: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <ch.boye.httpclientandroidlib.impl.conn.DefaultClientConnection: void shutdown()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <ch.boye.httpclientandroidlib.impl.SocketHttpClientConnection: void shutdown()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <org.acra.CrashReportPersister: org.acra.collector.CrashReportData load(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <org.acra.CrashReportPersister: org.acra.collector.CrashReportData load(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <org.acra.CrashReportPersister: org.acra.collector.CrashReportData load(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.duckduckgo.mobile.android.download.FileCache: java.lang.String getStringFromInternal(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long executeInsert()>
+Caller: <com.duckduckgo.mobile.android.db.DdgDB: long insertApp(com.duckduckgo.mobile.android.util.AppShortInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.InputStream getInputStream()>
+Caller: <ch.boye.httpclientandroidlib.impl.io.SocketInputBuffer: void <init>(java.net.Socket,int,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.InputStream getInputStream()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.duckduckgo.mobile.android.db.DdgDB: android.database.Cursor getCursorSearchHistory()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.duckduckgo.mobile.android.db.DdgDB: java.util.ArrayList selectApps(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.duckduckgo.mobile.android.db.DdgDB: com.duckduckgo.mobile.android.objects.FeedObject selectFeedById(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <org.acra.CrashReportPersister: void store(org.acra.collector.CrashReportData,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read()>
+Caller: <com.duckduckgo.mobile.android.util.DDGUtils: java.lang.String readStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read()>
+Caller: <com.duckduckgo.mobile.android.util.DDGUtils: java.lang.String readStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.charset.CoderResult flush(java.nio.ByteBuffer)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionOutputBuffer: void writeEncoded(java.nio.CharBuffer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.duckduckgo.mobile.android.broadcast.DownloadReceiver: void onReceive(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.ByteBuffer encode(java.lang.String)>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URLEncodedUtils: java.lang.String urlEncode(java.lang.String,java.nio.charset.Charset,java.util.BitSet,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list(java.io.FilenameFilter)>
+Caller: <org.acra.CrashReportFinder: java.lang.String[] getCrashReportFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: int getSoTimeout()>
+Caller: <ch.boye.httpclientandroidlib.impl.io.SocketInputBuffer: boolean isDataAvailable(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIBuilder: void digestURI(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.duckduckgo.mobile.android.tasks.ScanAppsTask: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getUserInfo()>
+Caller: <ch.boye.httpclientandroidlib.impl.client.DefaultRequestDirector: ch.boye.httpclientandroidlib.HttpResponse execute(ch.boye.httpclientandroidlib.HttpHost,ch.boye.httpclientandroidlib.HttpRequest,ch.boye.httpclientandroidlib.protocol.HttpContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getUserInfo()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIBuilder: void digestURI(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <ch.boye.httpclientandroidlib.util.EntityUtils: java.lang.String toString(ch.boye.httpclientandroidlib.HttpEntity,java.nio.charset.Charset)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress[] getAllByName(java.lang.String)>
+Caller: <ch.boye.httpclientandroidlib.impl.conn.SystemDefaultDnsResolver: java.net.InetAddress[] resolve(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void shutdownOutput()>
+Caller: <ch.boye.httpclientandroidlib.impl.SocketHttpClientConnection: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeShort(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <ch.boye.httpclientandroidlib.conn.EofSensorInputStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void write(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void write(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void write(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void write(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void connect(java.net.SocketAddress,int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoLinger(boolean,int)>
+Caller: <ch.boye.httpclientandroidlib.impl.conn.DefaultClientConnectionOperator: void prepareSocket(java.net.Socket,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String toASCIIString()>
+Caller: <ch.boye.httpclientandroidlib.client.methods.HttpRequestBase: ch.boye.httpclientandroidlib.RequestLine getRequestLine()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String toASCIIString()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String toASCIIString()>
+Caller: <ch.boye.httpclientandroidlib.impl.client.RequestWrapper: ch.boye.httpclientandroidlib.RequestLine getRequestLine()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read()>
+Caller: <org.acra.CrashReportPersister: org.acra.collector.CrashReportData load(java.io.Reader)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read()>
+Caller: <org.acra.CrashReportPersister: org.acra.collector.CrashReportData load(java.io.Reader)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getAuthority()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getAuthority()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: ch.boye.httpclientandroidlib.HttpHost extractHost(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getAuthority()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: int getSendBufferSize()>
+Caller: <ch.boye.httpclientandroidlib.impl.io.SocketOutputBuffer: void <init>(java.net.Socket,int,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.duckduckgo.mobile.android.download.FileCache: void removeThrashOnMigration()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <org.acra.ErrorReporter: void deletePendingReports(boolean,boolean,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void shutdownInput()>
+Caller: <ch.boye.httpclientandroidlib.impl.SocketHttpClientConnection: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <org.acra.CrashReportPersister: void store(org.acra.collector.CrashReportData,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.duckduckgo.mobile.android.db.DdgDB: void deleteApps()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.duckduckgo.mobile.android.db.DdgDB: long insertRecentSearch(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetDecoder: java.nio.charset.CoderResult decode(java.nio.ByteBuffer,java.nio.CharBuffer,boolean)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionInputBuffer: int appendDecoded(ch.boye.httpclientandroidlib.util.CharArrayBuffer,java.nio.ByteBuffer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.duckduckgo.mobile.android.tasks.ScanAppsTask: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.duckduckgo.mobile.android.download.FileCache: void removeThrashOnMigration()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <ch.boye.httpclientandroidlib.entity.BufferedHttpEntity: void writeTo(java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <ch.boye.httpclientandroidlib.entity.StringEntity: void writeTo(java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.OutputStream getOutputStream()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.OutputStream getOutputStream()>
+Caller: <ch.boye.httpclientandroidlib.impl.io.SocketOutputBuffer: void <init>(java.net.Socket,int,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.CharBuffer decode(java.nio.ByteBuffer)>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URLEncodedUtils: java.lang.String urlDecode(java.lang.String,java.nio.charset.Charset,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void writeInt(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.duckduckgo.mobile.android.tasks.ScanAppsTask: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.duckduckgo.mobile.android.tasks.ScanAppsTask: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.duckduckgo.mobile.android.tasks.ScanAppsTask: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.duckduckgo.mobile.android.broadcast.DownloadReceiver: void onReceive(android.content.Context,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.SocketInputBuffer: boolean isDataAvailable(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.SocketInputBuffer: boolean isDataAvailable(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.SocketInputBuffer: boolean isDataAvailable(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <ch.boye.httpclientandroidlib.impl.conn.DefaultClientConnectionOperator: void prepareSocket(java.net.Socket,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <ch.boye.httpclientandroidlib.impl.SocketHttpClientConnection: void setSocketTimeout(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.duckduckgo.mobile.android.fragment.WebFragment: void searchOrGoToUrl(java.lang.String,com.duckduckgo.mobile.android.util.SESSIONTYPE)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.duckduckgo.mobile.android.fragment.WebFragment: void searchOrGoToUrl(java.lang.String,com.duckduckgo.mobile.android.util.SESSIONTYPE)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.duckduckgo.mobile.android.actionbar.DDGActionBarManager: void init(android.app.Activity,android.content.Context,android.support.v7.widget.Toolbar)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setTcpNoDelay(boolean)>
+Caller: <ch.boye.httpclientandroidlib.impl.conn.DefaultClientConnectionOperator: void prepareSocket(java.net.Socket,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getFragment()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getFragment()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getFragment()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIBuilder: void digestURI(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void <init>()>
+Caller: <info.guardianproject.onionkit.proxy.SocksProxyClientConnOperator: void openConnection(ch.boye.httpclientandroidlib.conn.OperatedClientConnection,ch.boye.httpclientandroidlib.HttpHost,java.net.InetAddress,ch.boye.httpclientandroidlib.protocol.HttpContext,ch.boye.httpclientandroidlib.params.HttpParams)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getRawSchemeSpecificPart()>
+Caller: <ch.boye.httpclientandroidlib.client.utils.URIBuilder: void digestURI(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.duckduckgo.mobile.android.db.DdgDB: long insertRecentSearch(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.acra.CrashReportPersister: void store(org.acra.collector.CrashReportData,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <ch.boye.httpclientandroidlib.entity.BasicHttpEntity: void writeTo(java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionOutputBuffer: void write(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <ch.boye.httpclientandroidlib.impl.io.AbstractSessionOutputBuffer: void flushBuffer()>
+Thread: [UI]
+-------------------------

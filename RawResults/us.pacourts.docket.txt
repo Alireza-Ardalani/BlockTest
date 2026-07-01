@@ -1,0 +1,858 @@
+Time1: 70.140012753
+Time2: 16.694156335
+Worker: 0
+UI: 213
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: java.net.URI toURI()>
+Caller: <com.couchbase.lite.Database: java.net.URL fileForAttachmentDict(java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.couchbase.lite.support.SerializableCookie: okhttp3.Cookie decode(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <us.pacourts.docket.Preferences: java.util.ArrayList favoritesOrHistory(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <us.pacourts.docket.Preferences: us.pacourts.docket.model.CourtCaseSummary fromString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: int read(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: boolean loadMore()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.core.JsonLocation: int hashCode()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: int hashCode()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: int hashCode()>
+Caller: <com.fasterxml.jackson.'annotation'.ObjectIdGenerator$IdKey: void <init>(java.lang.Class,java.lang.Class,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.couchbase.lite.support.FileDirUtils: void copyFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.couchbase.lite.BlobStoreWriter: void openTempFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.couchbase.lite.BlobStore: boolean storeBlob(byte[],com.couchbase.lite.BlobKey)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.couchbase.lite.util.ICUUtils: void loadICUData(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.couchbase.lite.util.TextUtils: void write(java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.couchbase.lite.util.NativeLibraryUtils: java.io.File extractLibrary(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.couchbase.lite.support.FileDirUtils: void copyFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.net.URL toURL()>
+Caller: <com.couchbase.lite.Database: java.net.URL fileForAttachmentDict(java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.couchbase.lite.BlobStoreWriter: void appendInputStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.couchbase.lite.util.IOUtils: long copyLarge(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.couchbase.lite.util.NativeLibraryUtils: java.io.File extractLibrary(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.fasterxml.jackson.core.io.UTF32Reader: boolean loadMore(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.couchbase.lite.BlobStore: void <init>(com.couchbase.lite.Context,java.lang.String,com.couchbase.lite.support.security.SymmetricKey,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.couchbase.lite.Database: void open(com.couchbase.lite.DatabaseOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.couchbase.lite.Manager: void <init>(com.couchbase.lite.Context,com.couchbase.lite.ManagerOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.couchbase.lite.util.ICUUtils: void loadICUData(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.couchbase.lite.BlobStore: com.couchbase.lite.support.action.Action actionToChangeEncryptionKey(com.couchbase.lite.support.security.SymmetricKey)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.couchbase.lite.BlobStore: java.io.File tempDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.BlobStore: java.io.File tempDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.util.NativeLibraryUtils: java.io.File extractLibrary(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.BlobStore: com.couchbase.lite.support.action.Action actionToChangeEncryptionKey(com.couchbase.lite.support.security.SymmetricKey)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.BlobStore: void <init>(com.couchbase.lite.Context,java.lang.String,com.couchbase.lite.support.security.SymmetricKey,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.BlobStore: java.lang.String getRawPathForKey(com.couchbase.lite.BlobKey)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.util.ICUUtils: void loadICUData(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.support.FileDirUtils: void copyFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.Database: void open(com.couchbase.lite.DatabaseOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.Database: void open(com.couchbase.lite.DatabaseOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.BlobStore: void markEncrypted(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.support.FileDirUtils: boolean deleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.DatabaseUpgrade: void deleteSQLiteFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.support.FileDirUtils: void copyFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.Database: boolean exists()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.Manager: void moveSQLiteDbFiles(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.BlobStore: java.lang.String getRawPathForKey(com.couchbase.lite.BlobKey)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.BlobStore: void verifyExistingStore()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.BlobStore: boolean hasBlobForKey(com.couchbase.lite.BlobKey)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.util.ICUUtils: void loadICUData(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.Manager: boolean upgradeDatabase(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.Database: void open(com.couchbase.lite.DatabaseOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.BlobStore: void markEncrypted(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.Database: void open(com.couchbase.lite.DatabaseOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.util.ICUUtils: java.lang.String getICUDatabasePath(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.Manager: void <init>(com.couchbase.lite.Context,com.couchbase.lite.ManagerOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.couchbase.lite.util.ICUUtils: void loadICUData(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.couchbase.lite.util.ICUUtils: void loadICUData(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.couchbase.lite.util.NativeLibraryUtils: java.io.File extractLibrary(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.couchbase.lite.BlobStore: java.io.File tempDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.couchbase.lite.Database: void open(com.couchbase.lite.DatabaseOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.couchbase.lite.Manager: void <init>(com.couchbase.lite.Context,com.couchbase.lite.ManagerOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.couchbase.lite.Database: void open(com.couchbase.lite.DatabaseOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.couchbase.lite.BlobStore: com.couchbase.lite.support.action.Action actionToChangeEncryptionKey(com.couchbase.lite.support.security.SymmetricKey)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.couchbase.lite.support.FileDirUtils: void copyFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.couchbase.lite.support.FileDirUtils: boolean deleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.couchbase.lite.BlobStore: void migrateBlobstoreFilenames(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.couchbase.lite.BlobStore: void <init>(com.couchbase.lite.Context,java.lang.String,com.couchbase.lite.support.security.SymmetricKey,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer: java.lang.Object _parse(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _writeStringCustom(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _writeString2(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _writeSegment(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void writeString(com.fasterxml.jackson.core.SerializableString)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _prependOrWriteCharacterEscape(char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _writeSegmentASCII(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _writeStringASCII(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _prependOrWriteCharacterEscape(char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _prependOrWriteCharacterEscape(char[],int,int,char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _prependOrWriteCharacterEscape(char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _writeSegmentCustom(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _prependOrWriteCharacterEscape(char[],int,int,char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _prependOrWriteCharacterEscape(char[],int,int,char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void writeRaw(char[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _flushBuffer()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.couchbase.lite.BlobStore: boolean hasBlobForKey(com.couchbase.lite.BlobKey)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.couchbase.lite.util.NativeLibraryUtils: java.io.File extractLibrary(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.couchbase.lite.util.NativeLibraryUtils: java.io.File extractLibrary(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.couchbase.lite.BlobStore: boolean storeBlob(byte[],com.couchbase.lite.BlobKey)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.couchbase.lite.BlobStore: boolean storeBlob(byte[],com.couchbase.lite.BlobKey)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.couchbase.lite.util.ICUUtils: void loadICUData(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.couchbase.lite.BlobStore: boolean storeBlob(byte[],com.couchbase.lite.BlobKey)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.couchbase.lite.util.ICUUtils: void loadICUData(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.couchbase.lite.BlobStore: boolean storeBlob(byte[],com.couchbase.lite.BlobKey)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.couchbase.lite.BlobStore: void migrateBlobstoreFilenames(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.couchbase.lite.BlobStore: com.couchbase.lite.support.action.Action actionToChangeEncryptionKey(com.couchbase.lite.support.security.SymmetricKey)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.couchbase.lite.Manager: void upgradeOldDatabaseFiles(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.couchbase.lite.BlobStore: int deleteBlobsExceptWithKeys(java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.couchbase.lite.Database: long totalDataSize()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.couchbase.lite.support.FileDirUtils: boolean deleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF8Writer: void write(char[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8JsonGenerator: void _flushBuffer()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF8Writer: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8JsonGenerator: void _writeBytes(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8JsonGenerator: int _handleLongCustomEscape(byte[],int,int,byte[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.couchbase.lite.util.IOUtils: long copyLarge(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF8Writer: void write(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF8Writer: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF8Writer: void write(java.lang.String,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.fasterxml.jackson.databind.util.TokenBuffer$Parser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.couchbase.lite.BlobStoreWriter: void openTempFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.io.InputStream openStream()>
+Caller: <com.couchbase.lite.util.IOUtils: byte[] toByteArray(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.io.InputStream openStream()>
+Caller: <com.couchbase.lite.UnsavedRevision: void setAttachment(java.lang.String,java.lang.String,java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: void deleteOnExit()>
+Caller: <com.couchbase.lite.BlobStore$7: void execute()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: void deleteOnExit()>
+Caller: <com.couchbase.lite.BlobStore$7: void execute()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: void deleteOnExit()>
+Caller: <com.couchbase.lite.BlobStore: com.couchbase.lite.support.action.Action actionToChangeEncryptionKey(com.couchbase.lite.support.security.SymmetricKey)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.couchbase.lite.BlobStore: void migrateBlobstoreFilenames(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.couchbase.lite.DatabaseUpgrade: void backOut()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.couchbase.lite.BlobStoreWriter: boolean install()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.couchbase.lite.Database: void open(com.couchbase.lite.DatabaseOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.couchbase.lite.Manager: void moveSQLiteDbFiles(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.couchbase.lite.Manager: boolean upgradeDatabase(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.couchbase.lite.BlobStore: byte[] getBytesFromFile(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.couchbase.lite.util.TextUtils: java.lang.String read(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.couchbase.lite.BlobStore: byte[] getBytesFromFile(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.couchbase.lite.util.TextUtils: java.lang.String read(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.MergedStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF32Reader: boolean loadMore(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: void _closeInput()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.fasterxml.jackson.core.JsonFactory: java.io.Writer _createWriter(java.io.OutputStream,com.fasterxml.jackson.core.JsonEncoding,com.fasterxml.jackson.core.io.IOContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.couchbase.lite.BlobStore: boolean storeBlob(byte[],com.couchbase.lite.BlobKey)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.couchbase.lite.DatabaseUpgrade: boolean moveAttachmentsDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.couchbase.lite.DatabaseUpgrade: void backOut()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void _prependOrWriteCharacterEscape(char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _prependOrWriteCharacterEscape(char[],int,int,char,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.couchbase.lite.BlobStore: boolean storeBlob(byte[],com.couchbase.lite.BlobKey)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.couchbase.lite.util.NativeLibraryUtils: java.io.File extractLibrary(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.couchbase.lite.BlobStore: int deleteBlobsExceptWithKeys(java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.couchbase.lite.BlobStoreWriter: void cancel()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.couchbase.lite.DatabaseUpgrade: void deleteSQLiteFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.couchbase.lite.BlobStore: void markEncrypted(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.couchbase.lite.util.ICUUtils: void loadICUData(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.couchbase.lite.Manager: void moveSQLiteDbFiles(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.couchbase.lite.support.FileDirUtils: boolean deleteRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.couchbase.lite.Database: void open(com.couchbase.lite.DatabaseOptions)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.couchbase.lite.support.FileDirUtils: void copyFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.couchbase.lite.support.security.SymmetricKey$EncryptedInputStream: void <init>(com.couchbase.lite.support.security.SymmetricKey,java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.MergedStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8JsonGenerator: int _readMore(java.io.InputStream,byte[],int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.io.UTF32Reader: boolean loadMore(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: int _readMore(java.io.InputStream,byte[],int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper: boolean ensureLoaded(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.couchbase.lite.util.TextUtils: byte[] read(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: boolean loadMore()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.couchbase.lite.support.FileDirUtils: void copyFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.couchbase.lite.support.FileDirUtils: void copyFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.couchbase.lite.support.FileDirUtils: void copyFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.couchbase.lite.support.FileDirUtils: void copyFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.couchbase.lite.support.FileDirUtils: void copyFolder(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.couchbase.lite.Database: long totalDataSize()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.couchbase.lite.BlobStore: byte[] getBytesFromFile(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.couchbase.lite.BlobStore$7: void execute()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.couchbase.lite.util.TextUtils: java.lang.String read(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.couchbase.lite.BlobStore: byte[] getBytesFromFile(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.couchbase.lite.support.FileDirUtils: void copyFile(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.fasterxml.jackson.core.json.WriterBasedJsonGenerator: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedOutputStream: void write(byte[],int,int)>
+Caller: <com.couchbase.lite.BlobStoreWriter: void appendData(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedOutputStream: void write(byte[],int,int)>
+Caller: <com.couchbase.lite.BlobStoreWriter: void appendData(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.couchbase.lite.support.Base64$OutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.couchbase.lite.util.TextUtils: void write(java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.couchbase.lite.util.TextUtils: void write(java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.couchbase.lite.BlobStoreWriter: void cancel()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.couchbase.lite.BlobStoreWriter: void finish()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.couchbase.lite.util.ICUUtils: void loadICUData(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.couchbase.lite.support.Base64: byte[] decode(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: boolean equals(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: boolean _pojoEquals(com.fasterxml.jackson.databind.node.POJONode)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.deser.impl.ReadableObjectId$Referring: boolean hasId(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.fasterxml.jackson.core.json.UTF8StreamJsonParser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.couchbase.lite.support.Base64$OutputStream: void flushBase64()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.fasterxml.jackson.core.json.ReaderBasedJsonParser: int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <us.pacourts.docket.Preferences: us.pacourts.docket.model.CourtCaseSummary fromString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.couchbase.lite.support.SerializableCookie: okhttp3.Cookie decode(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <us.pacourts.docket.Preferences: java.util.ArrayList favoritesOrHistory(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper: java.io.Reader constructReader()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.couchbase.lite.support.Base64: byte[] decode(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.couchbase.lite.util.IOUtils: long copyLarge(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.couchbase.lite.util.TextUtils: byte[] read(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <com.couchbase.lite.BlobStoreWriter: void finish()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <com.couchbase.lite.util.TextUtils: void write(java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.couchbase.lite.support.security.SymmetricKey$EncryptedInputStream: void <init>(com.couchbase.lite.support.security.SymmetricKey,java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.couchbase.lite.util.TextUtils: byte[] read(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.couchbase.lite.BlobStore: byte[] getBytesFromFile(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.core.JsonLocation: boolean equals(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: boolean _pojoEquals(com.fasterxml.jackson.databind.node.POJONode)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.fasterxml.jackson.databind.deser.impl.ReadableObjectId$Referring: boolean hasId(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: java.lang.String getHostName()>
+Caller: <com.fasterxml.jackson.databind.ser.std.InetSocketAddressSerializer: void serialize(java.net.InetSocketAddress,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std: java.lang.Object _deserialize(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.couchbase.lite.support.RevisionUtils: java.lang.String generateRevID(byte[],boolean,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <us.pacourts.docket.Preferences: java.util.ArrayList favoritesOrHistory(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.couchbase.lite.support.SerializableCookie: okhttp3.Cookie decode(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.couchbase.lite.support.SerializableCookie: okhttp3.Cookie decode(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.couchbase.lite.support.SerializableCookie: okhttp3.Cookie decode(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <us.pacourts.docket.Preferences: us.pacourts.docket.model.CourtCaseSummary fromString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <com.couchbase.lite.support.SerializableCookie: okhttp3.Cookie decode(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.core.JsonLocation: int hashCode()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.databind.node.POJONode: int hashCode()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: int hashCode()>
+Caller: <com.fasterxml.jackson.'annotation'.ObjectIdGenerator$IdKey: void <init>(java.lang.Class,java.lang.Class,java.lang.Object)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,30 @@
+Time1: 26.411455843
+Time2: 0.593564826
+Worker: 2
+UI: 4
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <io.card.payment.OverlayView: void markupCard()>
+Thread: [<io.card.payment.CardIOActivity$2: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int)>
+Caller: <io.card.payment.OverlayView: android.graphics.Bitmap getCardImage()>
+Thread: [<io.card.payment.CardIOActivity$2: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <io.card.payment.OverlayView: void markupCard()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <mono.MonoRuntimeProvider_1: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <mono.MonoRuntimeProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int)>
+Caller: <io.card.payment.OverlayView: android.graphics.Bitmap getCardImage()>
+Thread: [UI]
+-------------------------

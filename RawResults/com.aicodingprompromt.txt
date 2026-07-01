@@ -1,0 +1,206 @@
+Time1: 134.169567809
+Time2: 11.297502605
+Worker: 15
+UI: 35
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <r1.e: java.lang.Object call()>
+Thread: [<r1.e: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <y3.d: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<r1.e: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.protobuf.i: void h(java.io.Closeable)>
+Thread: [<r1.e: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <y3.d: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<r1.e: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <y3.d: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<r1.e: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <y3.d: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<r1.e: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <y3.d: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<r1.e: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <r1.e: java.lang.Object call()>
+Thread: [<r1.e: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <y3.d: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<r1.e: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <y3.d: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<r1.e: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <y3.d: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<r1.e: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <y3.d: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<r1.e: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean setExecutable(boolean,boolean)>
+Caller: <y3.d: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<r1.e: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <y3.d: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<r1.e: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <y3.d: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<r1.e: java.lang.Object call()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <x3.s0: void a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <l9.u: void k(java.io.ByteArrayOutputStream,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <l9.u: void k(java.io.ByteArrayOutputStream,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <l9.u: void k(java.io.ByteArrayOutputStream,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read(char[],int,int)>
+Caller: <io.sentry.vendor.gson.stream.a: boolean N(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <io.sentry.vendor.gson.stream.a: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <io.sentry.j1: java.lang.Object f0()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getUserInfo()>
+Caller: <io.sentry.q: void <init>(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.flurry.android.agent.FlurryContentProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.flurry.android.agent.FlurryContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: long getLong(int)>
+Caller: <x3.i3: void d(android.content.Context,android.database.MatrixCursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: long getLong(int)>
+Caller: <x3.i3: void d(android.content.Context,android.database.MatrixCursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: long getLong(int)>
+Caller: <x3.i3: void d(android.content.Context,android.database.MatrixCursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: java.lang.String getCallingPackage()>
+Caller: <x3.c2: void s(android.content.ContentProvider)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <i0.l: i0.k c(android.content.Context,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <i0.k: java.io.File b(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <io.sentry.q: void <init>(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <i0.l: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <i0.l: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <l9.u: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.u2: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.l1: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.r: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <io.sentry.i3: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.Cursor: void close()>
+Caller: <x3.i3: void d(android.content.Context,android.database.MatrixCursor)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <x3.s0: void a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <io.sentry.q: void <init>(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <io.sentry.android.core.SentryPerformanceProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <i0.l: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------

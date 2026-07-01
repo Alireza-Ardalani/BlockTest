@@ -1,0 +1,90 @@
+Time1: 12.964920587
+Time2: 0.515397091
+Worker: 9
+UI: 12
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.net.TrafficStats: void clearThreadStatsTag()>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String doCall(java.lang.String,java.lang.String,java.util.Map,com.microsoft.appcenter.http.HttpClient$CallTemplate)>
+Thread: [<com.microsoft.appcenter.http.DefaultHttpClient$Call: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.net.TrafficStats: void clearThreadStatsTag()>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String doCall(java.lang.String,java.lang.String,java.util.Map,com.microsoft.appcenter.http.HttpClient$CallTemplate)>
+Thread: [<com.microsoft.appcenter.http.DefaultHttpClient$Call: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String doHttpCall(java.lang.String,java.lang.String,java.util.Map,com.microsoft.appcenter.http.HttpClient$CallTemplate)>
+Thread: [<com.microsoft.appcenter.http.DefaultHttpClient$Call: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.net.TrafficStats: void setThreadStatsTag(int)>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String doCall(java.lang.String,java.lang.String,java.util.Map,com.microsoft.appcenter.http.HttpClient$CallTemplate)>
+Thread: [<com.microsoft.appcenter.http.DefaultHttpClient$Call: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String dump(java.net.HttpURLConnection)>
+Thread: [<com.microsoft.appcenter.http.DefaultHttpClient$Call: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String doHttpCall(java.lang.String,java.lang.String,java.util.Map,com.microsoft.appcenter.http.HttpClient$CallTemplate)>
+Thread: [<com.microsoft.appcenter.http.DefaultHttpClient$Call: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String dump(java.net.HttpURLConnection)>
+Thread: [<com.microsoft.appcenter.http.DefaultHttpClient$Call: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URLConnection: int getContentLength()>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String dump(java.net.HttpURLConnection)>
+Thread: [<com.microsoft.appcenter.http.DefaultHttpClient$Call: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String doHttpCall(java.lang.String,java.lang.String,java.util.Map,com.microsoft.appcenter.http.HttpClient$CallTemplate)>
+Thread: [<com.microsoft.appcenter.http.DefaultHttpClient$Call: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.net.TrafficStats: void clearThreadStatsTag()>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String doCall(java.lang.String,java.lang.String,java.util.Map,com.microsoft.appcenter.http.HttpClient$CallTemplate)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.TrafficStats: void clearThreadStatsTag()>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String doCall(java.lang.String,java.lang.String,java.util.Map,com.microsoft.appcenter.http.HttpClient$CallTemplate)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String doHttpCall(java.lang.String,java.lang.String,java.util.Map,com.microsoft.appcenter.http.HttpClient$CallTemplate)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.TrafficStats: void setThreadStatsTag(int)>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String doCall(java.lang.String,java.lang.String,java.util.Map,com.microsoft.appcenter.http.HttpClient$CallTemplate)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.microsoft.appcenter.utils.NetworkStateHelper: void reopen()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String dump(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String doHttpCall(java.lang.String,java.lang.String,java.util.Map,com.microsoft.appcenter.http.HttpClient$CallTemplate)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <com.microsoft.appcenter.utils.NetworkStateHelper: void reopen()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String dump(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <mono.MonoRuntimeProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: int getContentLength()>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String dump(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.microsoft.appcenter.http.DefaultHttpClient: java.lang.String doHttpCall(java.lang.String,java.lang.String,java.util.Map,com.microsoft.appcenter.http.HttpClient$CallTemplate)>
+Thread: [UI]
+-------------------------

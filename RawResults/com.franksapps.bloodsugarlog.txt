@@ -1,0 +1,274 @@
+Time1: 27.113209593
+Time2: 1.603599602
+Worker: 15
+UI: 52
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: void writePostBody(java.net.HttpURLConnection)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: void writePostBody(java.net.HttpURLConnection)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <au.com.bytecode.opencsv.CSVWriter: void close()>
+Thread: [<com.franksapps.bloodsugarlog.MainActivity$ExportDatabaseCSVTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.franksapps.bloodsugarlog.MainActivity$ExportDatabaseCSVTask: java.lang.Boolean doInBackground(java.lang.String[])>
+Thread: [<com.franksapps.bloodsugarlog.MainActivity$ExportDatabaseCSVTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.franksapps.bloodsugarlog.MainActivity$ExportDatabaseCSVTask: java.lang.Boolean doInBackground(java.lang.String[])>
+Thread: [<com.franksapps.bloodsugarlog.MainActivity$ExportDatabaseCSVTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.amazon.device.ads.WebRequest: java.net.URL createURL(java.lang.String)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.ads.internal.util.client.zzc: void zzcy(java.lang.String)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.amazon.device.ads.WebUtils: java.lang.String getURLEncodedString(java.lang.String)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: void writePostBody(java.net.HttpURLConnection)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: java.net.HttpURLConnection openConnection(java.net.URL)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.ads.internal.util.client.zzc: void zzcy(java.lang.String)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: void writePostBody(java.net.HttpURLConnection)>
+Thread: [<com.amazon.device.ads.AdLayout$3: void run()>]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <com.franksapps.bloodsugarlog.MainActivity$ExportDatabaseCSVTask: java.lang.Boolean doInBackground(java.lang.String[])>
+Thread: [<com.franksapps.bloodsugarlog.MainActivity$ExportDatabaseCSVTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.franksapps.bloodsugarlog.MainActivity$ExportDatabaseCSVTask: java.lang.Boolean doInBackground(java.lang.String[])>
+Thread: [<com.franksapps.bloodsugarlog.MainActivity$ExportDatabaseCSVTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.franksapps.bloodsugarlog.MainActivity$ExportDatabaseCSVTask: java.lang.Boolean doInBackground(java.lang.String[])>
+Thread: [<com.franksapps.bloodsugarlog.MainActivity$ExportDatabaseCSVTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(boolean,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.franksapps.bloodsugarlog.DBAdapter: android.database.Cursor getAllRecords()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.amazon.device.ads.FileOutputHandler: boolean open(com.amazon.device.ads.FileOutputHandler$WriteMethod)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.amazon.device.ads.FileInputHandler: byte[] readBytes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhl(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.amazon.device.ads.FileHandler: void closeCloseables()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhl(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhl(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.amazon.device.ads.StringUtils: java.lang.String readStringFromInputStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.franksapps.bloodsugarlog.DBAdapter$DatabaseHelper: void onCreate(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.franksapps.bloodsugarlog.DBAdapter$DatabaseHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.franksapps.bloodsugarlog.DBAdapter$DatabaseHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.franksapps.bloodsugarlog.DBAdapter$DatabaseHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.franksapps.bloodsugarlog.LogFilesFragment: java.util.ArrayList GetFiles(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void flush()>
+Caller: <com.amazon.device.ads.FileOutputHandler: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <au.com.bytecode.opencsv.CSVWriter: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: void writePostBody(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: void writePostBody(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void flush()>
+Caller: <com.amazon.device.ads.FileOutputHandler: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhl(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.amazon.device.ads.FileOutputHandler: void write(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.amazon.device.ads.FileHandler: void closeStream()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amazon.device.ads.FileInputHandler: byte[] readBytes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amazon.device.ads.FileHandler: long getFileLength()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.franksapps.bloodsugarlog.MainActivity$ExportDatabaseCSVTask: java.lang.Boolean doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read(byte[],int,int)>
+Caller: <com.amazon.device.ads.FileInputHandler: byte[] readBytes()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <com.amazon.device.ads.FileOutputHandler: boolean open(com.amazon.device.ads.FileOutputHandler$WriteMethod)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.amazon.device.ads.FileInputHandler: java.lang.String readLine()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhl(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.amazon.device.ads.FileHandler: void closeStream()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.ads.identifier.AdvertisingIdClient: com.google.android.gms.common.zza zzg(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.ads.identifier.AdvertisingIdClient: com.google.android.gms.internal.zzci zza(android.content.Context,com.google.android.gms.common.zza)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.franksapps.bloodsugarlog.DBAdapter: boolean deleteRecord(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.franksapps.bloodsugarlog.MainActivity$ExportDatabaseCSVTask: java.lang.Boolean doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.franksapps.bloodsugarlog.LogFilesFragment: java.util.ArrayList GetFiles(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.franksapps.bloodsugarlog.DBAdapter: long insertRecord(java.lang.String,long,long,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.amazon.device.ads.WebRequest: java.net.URL createURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.ads.internal.util.client.zzc: void zzcy(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.amazon.device.ads.WebUtils: java.lang.String getURLEncodedString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.amazon.device.ads.FileOutputHandler: void write(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: void writePostBody(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: java.net.HttpURLConnection openConnection(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.ads.internal.util.client.zzc: void zzcy(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.amazon.device.ads.HttpURLConnectionWebRequest: void writePostBody(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.amazon.device.ads.FileHandler: void closeCloseables()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.franksapps.bloodsugarlog.DBAdapter: com.franksapps.bloodsugarlog.DBAdapter open()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.amazon.device.ads.FileOutputHandler: void write(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File)>
+Caller: <com.franksapps.bloodsugarlog.MainActivity$ExportDatabaseCSVTask: java.lang.Boolean doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.franksapps.bloodsugarlog.MainActivity$ExportDatabaseCSVTask: java.lang.Boolean doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amazon.device.ads.FileHandler: boolean doesFileExist()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.franksapps.bloodsugarlog.MainActivity$ExportDatabaseCSVTask: java.lang.Boolean doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.franksapps.bloodsugarlog.DBAdapter: android.database.Cursor getAllRecordsInLastFirstOrder()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.amazon.device.ads.FileInputHandler: boolean open()>
+Thread: [UI]
+-------------------------

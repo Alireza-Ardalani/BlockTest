@@ -1,0 +1,2046 @@
+Time1: 338.223230144
+Time2: 31.290397561
+Worker: 370
+UI: 140
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: java.lang.Object getValueFromTable(java.lang.String,java.lang.String)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object rollover(kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.id.utilities.FileUtilsKt: void createDirectory(java.io.File)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void finish(java.io.File)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: java.util.List readEventsFromTable(java.lang.String)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter$MPDatabaseHelper: boolean aboveMemThreshold()>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.android.migration.StorageKeyMigration: java.lang.Object moveSourceEventFilesToDestination(kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void load()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+Caller: <com.mixpanel.android.util.HttpService$1: void run()>
+Thread: [<com.mixpanel.android.util.HttpService$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedOutputStream: void flush()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.util.List read()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.io.File currentFile()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void writeToFile(byte[],java.io.File)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.amplitude.android.migration.DatabaseStorage: android.database.Cursor queryDb(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromAssetsOrResourceName(java.lang.String)>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromAssetsOrResourceName(java.lang.String)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromAssetsOrResourceName(java.lang.String)>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromAssetsOrResourceName(java.lang.String)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromAssetsOrResourceName(java.lang.String)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.amplitude.id.utilities.FileUtilsKt: void createDirectory(java.io.File)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void load()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.amplitude.id.utilities.FileUtilsKt: void createDirectory(java.io.File)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.mixpanel.android.util.LegacyVersionUtils: void removeLegacyResidualImageFiles(java.io.File)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSOutcomeEventsController$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int pushAnonymousUpdatesToPeopleDb(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSOutcomeEventsController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: void cleanupAllEvents(com.mixpanel.android.mpmetrics.MPDbAdapter$Table,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.amplitude.android.migration.DatabaseStorage: void removeValueFromTable(java.lang.String,java.lang.String)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: void cleanupEvents(long,com.mixpanel.android.mpmetrics.MPDbAdapter$Table)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSInAppMessageController$15: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: void cleanupEvents(java.lang.String,com.mixpanel.android.mpmetrics.MPDbAdapter$Table,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.OSOutcomeEventsController$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.OSInAppMessageController$15: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long getUsableSpace()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter$MPDatabaseHelper: boolean aboveMemThreshold()>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object rollover(kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter$MPDatabaseHelper: boolean aboveMemThreshold()>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter$MPDatabaseHelper: boolean aboveMemThreshold()>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void finish(java.io.File)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int rewriteEventDataWithProperties(java.util.Map,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSInAppMessageController$11: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void load()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: java.lang.Object getValueFromTable(java.lang.String,java.lang.String)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: java.lang.String[] generateDataString(com.mixpanel.android.mpmetrics.MPDbAdapter$Table,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: java.util.List readEventsFromTable(java.lang.String)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: void cleanupEvents(java.lang.String,com.mixpanel.android.mpmetrics.MPDbAdapter$Table,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getSQLiteDatabase()>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: void removeValueFromTable(java.lang.String,java.lang.String)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int rewriteEventDataWithProperties(java.util.Map,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: void cleanupAllEvents(com.mixpanel.android.mpmetrics.MPDbAdapter$Table,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getSQLiteDatabase()>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getSQLiteDatabase()>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getSQLiteDatabase()>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int addJSON(org.json.JSONObject,java.lang.String,com.mixpanel.android.mpmetrics.MPDbAdapter$Table)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getSQLiteDatabase()>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int pushAnonymousUpdatesToPeopleDb(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getSQLiteDatabase()>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getSQLiteDatabase()>
+Thread: [<com.onesignal.OSInAppMessageController$15: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getSQLiteDatabase()>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getSQLiteDatabase()>
+Thread: [<com.onesignal.OSOutcomeEventsController$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getSQLiteDatabase()>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: void cleanupEvents(long,com.mixpanel.android.mpmetrics.MPDbAdapter$Table)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getSQLiteDatabase()>
+Thread: [<com.onesignal.OSOutcomeEventsController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getSQLiteDatabase()>
+Thread: [<com.onesignal.OSNotificationDataController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getSQLiteDatabase()>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getSQLiteDatabase()>
+Thread: [<com.onesignal.OSInAppMessageController$11: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.mixpanel.android.util.HttpService: byte[] slurp(java.io.InputStream)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void finish(java.io.File)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.amplitude.android.migration.StorageKeyMigration: java.lang.Object moveSourceEventFilesToDestination(kotlin.coroutines.Continuation)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.mixpanel.android.util.LegacyVersionUtils: void removeLegacyResidualImageFiles(java.io.File)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void writeToFile(byte[],java.io.File)>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.mixpanel.android.util.HttpService: byte[] slurp(java.io.InputStream)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSInAppMessageController$11: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSOutcomeEventsController$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSInAppMessageController$11: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int pushAnonymousUpdatesToPeopleDb(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int rewriteEventDataWithProperties(java.util.Map,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSInAppMessageController$11: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSOutcomeEventsController$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int pushAnonymousUpdatesToPeopleDb(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSInAppMessageController$15: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSOutcomeEventsController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSOutcomeEventsController$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSInAppMessageController$15: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSInAppMessageController$11: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSOutcomeEventsController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSInAppMessageController$11: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSInAppMessageController$11: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSInAppMessageController$15: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int rewriteEventDataWithProperties(java.util.Map,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSInAppMessageController$15: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSOutcomeEventsController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSInAppMessageController$11: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSOutcomeEventsController$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSOutcomeEventsController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSInAppMessageController$11: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$1: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap resizeBitmapForLargeIconArea(android.graphics.Bitmap)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap resizeBitmapForLargeIconArea(android.graphics.Bitmap)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap resizeBitmapForLargeIconArea(android.graphics.Bitmap)>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap resizeBitmapForLargeIconArea(android.graphics.Bitmap)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap resizeBitmapForLargeIconArea(android.graphics.Bitmap)>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int pushAnonymousUpdatesToPeopleDb(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSOutcomeEventsController$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int rewriteEventDataWithProperties(java.util.Map,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSOutcomeEventsController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSInAppMessageController$11: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSInAppMessageController$15: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSInAppMessageController$11: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int addJSON(org.json.JSONObject,java.lang.String,com.mixpanel.android.mpmetrics.MPDbAdapter$Table)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSInAppMessageController$11: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int pushAnonymousUpdatesToPeopleDb(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int rewriteEventDataWithProperties(java.util.Map,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int addJSON(org.json.JSONObject,java.lang.String,com.mixpanel.android.mpmetrics.MPDbAdapter$Table)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int pushAnonymousUpdatesToPeopleDb(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: java.lang.String[] generateDataString(com.mixpanel.android.mpmetrics.MPDbAdapter$Table,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: java.lang.String[] generateDataString(com.mixpanel.android.mpmetrics.MPDbAdapter$Table,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void save()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter$MPDatabaseHelper: void deleteDatabase()>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.mixpanel.android.util.LegacyVersionUtils: void removeLegacyResidualImageFiles(java.io.File)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void load()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void load()>
+Thread: [<com.amplitude.core.Amplitude$build$built$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSInAppMessageController$15: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSOutcomeEventsController$2: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSInAppMessageController$11: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSOutcomeEventsController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.WebViewManager$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSInAppMessageController$11: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$5: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int pushAnonymousUpdatesToPeopleDb(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.OSNotificationWorkManager$NotificationWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSTaskController$PendingTaskRunnable: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.UserStateSynchronizer$NetworkHandlerThread$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationDataController$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [<com.onesignal.OSNotificationRestoreWorkManager$NotificationRestoreWorker: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int rewriteEventDataWithProperties(java.util.Map,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler: void handleMessage(android.os.Message)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [<com.onesignal.JobIntentService$CommandProcessor: void onPostExecute(java.lang.Object)>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void finish(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: java.util.List readEventsFromTable(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.id.utilities.FileUtilsKt: void createDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.android.migration.StorageKeyMigration: java.lang.Object moveSourceEventFilesToDestination(kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.mixpanel.android.mpmetrics.MixpanelAPI: void <init>(android.content.Context,java.util.concurrent.Future,java.lang.String,com.mixpanel.android.mpmetrics.MPConfig,boolean,org.json.JSONObject,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object rollover(kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: java.lang.Object getValueFromTable(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void load()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedOutputStream: void flush()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.util.List read()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.io.File currentFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void writeToFile(byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.amplitude.android.migration.DatabaseStorage: android.database.Cursor queryDb(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromAssetsOrResourceName(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.amplitude.id.utilities.FileUtilsKt: void createDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void load()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.amplitude.id.utilities.FileUtilsKt: void createDirectory(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.amplitude.android.migration.DatabaseStorage: void removeValueFromTable(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object rollover(kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void finish(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.cct.CCTDestination: byte[] asByteArray()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzda: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzda: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzda: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoScheduler: int getJobId(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void load()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.amplitude.core.utilities.EventsFileManager: java.lang.Object storeEvent(java.lang.String,kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.androiddepartment.bridgestore.utils.NetworkManager: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: java.util.List readEventsFromTable(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: java.lang.Object getValueFromTable(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: android.database.sqlite.SQLiteDatabase $r8$lambda$r0gdOZu0LN8RFPU64_YFxoLiMZU(com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.amplitude.android.migration.DatabaseStorage: void removeValueFromTable(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.onesignal.OneSignalDbHelper: android.database.sqlite.SQLiteDatabase getSQLiteDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.mixpanel.android.util.HttpService: byte[] slurp(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void finish(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.amplitude.android.migration.StorageKeyMigration: java.lang.Object moveSourceEventFilesToDestination(kotlin.coroutines.Continuation)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.amplitude.core.utilities.EventsFileManager: void writeToFile(byte[],java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.mixpanel.android.util.HttpService: byte[] slurp(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$1(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$1(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$3(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$3(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$3(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$1(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$4(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$0(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager: void lambda$static$2(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap resizeBitmapForLargeIconArea(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.mixpanel.android.util.HttpService: byte[] performRequest(java.lang.String,com.mixpanel.android.util.ProxyServerInteractor,java.util.Map,javax.net.ssl.SSLSocketFactory)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.onesignal.GenerateNotification: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object runCriticalSection(com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <com.androiddepartment.bridgestore.utils.NetworkManager: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.util.List lambda$loadActiveContexts$10(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: long getNextCallTime(com.google.android.datatransport.runtime.TransportContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void save()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void load()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.amplitude.id.utilities.PropertiesFile: void load()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(double)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void delete(java.lang.String,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: void insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object lambda$ensureBeginTransaction$24(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore: java.lang.Object inTransaction(com.google.android.datatransport.runtime.scheduling.persistence.SQLiteEventStore$Function)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.onesignal.OneSignalDbHelper: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------

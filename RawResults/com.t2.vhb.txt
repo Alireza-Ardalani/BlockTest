@@ -1,0 +1,870 @@
+Time1: 14.92757135
+Time2: 1.269886411
+Worker: 24
+UI: 192
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.t2.vhb.media.MediaActivity$SaveTask: android.net.Uri doInBackground(java.lang.String[])>
+Thread: [<com.t2.vhb.media.MediaActivity$SaveTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.t2.vhb.util.LogUtils: java.io.File getCacheDirectory()>
+Thread: [<com.t2.vhb.media.MediaActivity$SaveTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.t2.youtube.lazylist.Utils: void CopyStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.t2.vhb.media.MediaActivity$SaveTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.t2.youtube.lazylist.Utils: void CopyStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.t2.vhb.media.MediaActivity$SaveTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.vhb.media.MediaActivity$SaveTask: android.net.Uri doInBackground(java.lang.String[])>
+Thread: [<com.t2.vhb.media.MediaActivity$SaveTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.vhb.media.MediaActivity$SaveTask: android.net.Uri doInBackground(java.lang.String[])>
+Thread: [<com.t2.vhb.media.MediaActivity$SaveTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.vhb.util.LogUtils: java.io.File getCacheDirectory()>
+Thread: [<com.t2.vhb.media.MediaActivity$SaveTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.t2.youtube.lazylist.Utils: void CopyStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.t2.vhb.media.MediaActivity$SaveTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.t2.vhb.media.MediaActivity$SaveTask: android.net.Uri doInBackground(java.lang.String[])>
+Thread: [<com.t2.vhb.media.MediaActivity$SaveTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Thumbnails: android.graphics.Bitmap getThumbnail(android.content.ContentResolver,long,int,android.graphics.BitmapFactory$Options)>
+Caller: <com.t2.vhb.media.MediaViewActivity$LoadLargeImageTask: android.graphics.Bitmap doInBackground(com.t2.vhb.media.PhotoLoadOptions[])>
+Thread: [<com.t2.vhb.media.MediaViewActivity$LoadLargeImageTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Thumbnails: android.graphics.Bitmap getThumbnail(android.content.ContentResolver,long,int,android.graphics.BitmapFactory$Options)>
+Caller: <com.t2.vhb.home.HomeActivity$LoadPhotoTask: android.graphics.Bitmap doInBackground(com.t2.vhb.media.PhotoLoadOptions[])>
+Thread: [<com.t2.vhb.home.HomeActivity$LoadPhotoTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <net.sqlcipher.DefaultDatabaseErrorHandler: void deleteDatabaseFile(java.lang.String)>
+Thread: [<net.sqlcipher.database.SQLiteCursor$QueryThread: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.t2.vhb.util.MediaUtils: android.graphics.Bitmap sampleImage(android.content.ContentResolver,java.lang.String,int,int,int,boolean,boolean)>
+Thread: [<com.t2.vhb.media.MediaViewActivity$LoadLargeImageTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.t2.vhb.util.MediaUtils: android.graphics.Bitmap sampleImage(android.content.ContentResolver,java.lang.String,int,int,int,boolean,boolean)>
+Thread: [<com.t2.vhb.home.HomeActivity$LoadPhotoTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.t2.vhb.util.MediaUtils: android.graphics.Bitmap sampleImage(android.content.ContentResolver,java.lang.String,int,int,int,boolean,boolean)>
+Thread: [<com.t2.vhb.home.HomeActivity$LoadPhotoTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.t2.vhb.util.MediaUtils: android.graphics.Bitmap sampleImage(android.content.ContentResolver,java.lang.String,int,int,int,boolean,boolean)>
+Thread: [<com.t2.vhb.media.MediaViewActivity$LoadLargeImageTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.t2.vhb.util.MediaUtils: android.graphics.Bitmap sampleImage(android.content.ContentResolver,java.lang.String,int,int,int,boolean,boolean)>
+Thread: [<com.t2.vhb.media.MediaViewActivity$LoadLargeImageTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.t2.vhb.util.MediaUtils: android.graphics.Bitmap sampleImage(android.content.ContentResolver,java.lang.String,int,int,int,boolean,boolean)>
+Thread: [<com.t2.vhb.home.HomeActivity$LoadPhotoTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.t2.vhb.media.MediaActivity$SaveTask: android.net.Uri doInBackground(java.lang.String[])>
+Thread: [<com.t2.vhb.media.MediaActivity$SaveTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.t2.vhb.media.MediaActivity$SaveTask: android.net.Uri doInBackground(java.lang.String[])>
+Thread: [<com.t2.vhb.media.MediaActivity$SaveTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.t2.vhb.util.MediaUtils: android.net.Uri saveYouTubeReference(android.content.Context,java.lang.String,android.net.Uri,java.lang.String)>
+Thread: [<com.t2.vhb.media.MediaActivity$SaveTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.t2.vhb.media.MediaActivity$SaveTask: android.net.Uri doInBackground(java.lang.String[])>
+Thread: [<com.t2.vhb.media.MediaActivity$SaveTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.t2.vhb.media.MediaActivity$SaveTask: android.net.Uri doInBackground(java.lang.String[])>
+Thread: [<com.t2.vhb.media.MediaActivity$SaveTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteClosable: void acquireReference()>
+Caller: <net.sqlcipher.database.SQLiteQuery: int fillWindow(net.sqlcipher.CursorWindow,int,int)>
+Thread: [<net.sqlcipher.database.SQLiteCursor$QueryThread: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.t2.copingcards.db.CopingProvider: void encryptExistingDatabaseWithFips2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.t2.copingcards.db.CopingProvider: void encryptExistingDatabaseWithFips1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.t2.sudoku.db.SudokuProvider: void encryptExistingDatabaseWithFips1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.t2.sudoku.db.SudokuProvider: void encryptExistingDatabaseWithFips2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.t2.mahjong.db.MahjongProvider: void encryptExistingDatabaseWithFips2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.t2.mahjong.db.MahjongProvider: void encryptExistingDatabaseWithFips1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.t2.vhb.db.VhbProvider: void encryptExistingDatabaseWithFips1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.t2.vhb.db.VhbProvider: void encryptExistingDatabaseWithFips2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.t2.sudoku.db.SudokuProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.t2.vhb.util.LogUtils: java.io.File getCacheDirectory()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.t2.vhb.util.MediaUtils: java.io.File getVisualMediaDirectory()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.t2.vhb.media.MediaActivity$SaveTask: android.net.Uri doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.t2.copingcards.db.CopingProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.t2.vhb.util.MediaUtils: android.net.Uri getVideoOutputUri()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.t2.mahjong.db.MahjongProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.t2.vhb.db.VhbProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.t2.youtube.lazylist.Utils: void CopyStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.t2.vhb.media.MediaViewActivity$CoverFlowAdapter: android.graphics.Bitmap createBitmap(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.t2.vhb.media.MediaViewActivity$CoverFlowAdapter: android.graphics.Bitmap createBitmap(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.t2.vhb.media.MediaViewActivity$CoverFlowAdapter: android.graphics.Bitmap createBitmap(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.t2.vhb.home.HomeActivity: void nextReminder()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.t2.vhb.util.MediaUtils: void restoreMediaReferences(android.content.ContentResolver)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.t2.mahjong.MahjongFragment: void onPause()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.t2.vhb.coping.activities.ActivityIdeaEditActivity: boolean onContextItemSelected(android.view.MenuItem)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.t2.vhb.coping.activities.ActivityIdeaEditActivity: void lambda$onCreateDialog$0$ActivityIdeaEditActivity(android.content.DialogInterface,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.t2.vhb.util.MediaUtils: int purgeMediaReferences(android.content.ContentResolver,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.t2.vhb.media.MediaViewActivity: void rotatePhoto(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.t2.vhb.inspire.quotes.QuotesViewActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.t2.sudoku.SudokuGridFragment: void evaluatePuzzleCompletion()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.t2.sudoku.SudokuGridFragment: boolean onOptionsItemSelected(android.view.MenuItem)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.t2.sudoku.SudokuGridFragment: void onPause()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.t2.vhb.coping.cards.CopingEditActivity: void saveCard()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.t2.vhb.inspire.quotes.QuotesAddActivity: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.t2.mahjong.MahjongFragment: void resetPuzzle()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.t2.youtube.lazylist.Utils: void CopyStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.vhb.util.LogUtils: java.io.File getCacheDirectory()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.mahjong.db.MahjongProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.vhb.media.MediaActivity$SaveTask: android.net.Uri doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.vhb.db.VhbProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.mahjong.db.MahjongProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.vhb.db.VhbProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.mahjong.db.MahjongProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.sudoku.db.SudokuProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.vhb.db.VhbProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.copingcards.db.CopingProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.sudoku.db.SudokuProvider: void encryptExistingDatabaseWithFips1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.copingcards.db.CopingProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.sudoku.db.SudokuProvider: void encryptExistingDatabaseWithFips2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.vhb.media.MediaActivity$SaveTask: android.net.Uri doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.mahjong.db.MahjongProvider: void encryptExistingDatabaseWithFips1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.sudoku.db.SudokuProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.copingcards.db.CopingProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.mahjong.db.MahjongProvider: void encryptExistingDatabaseWithFips2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.mahjong.db.MahjongProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.mahjong.db.MahjongProvider: void encryptExistingDatabaseWithFips2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.vhb.db.VhbProvider: void encryptExistingDatabaseWithFips1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.copingcards.db.CopingProvider: void encryptExistingDatabaseWithFips2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.sudoku.db.SudokuProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.vhb.db.VhbProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.sudoku.db.SudokuProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.copingcards.db.CopingProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.copingcards.db.CopingProvider: void encryptExistingDatabaseWithFips1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.mahjong.db.MahjongProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.vhb.util.MediaUtils: java.io.File getVisualMediaDirectory()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.vhb.db.VhbProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.copingcards.db.CopingProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.sudoku.db.SudokuProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.vhb.db.VhbProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.vhb.db.VhbProvider: void encryptExistingDatabaseWithFips2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.copingcards.db.CopingProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.sudoku.db.SudokuProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.copingcards.db.CopingProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.mahjong.db.MahjongProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.t2.vhb.util.MediaUtils: android.net.Uri getVideoOutputUri()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.mahjong.db.MahjongProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.vhb.db.VhbProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.copingcards.db.CopingProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.copingcards.db.CopingProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.copingcards.db.CopingProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.mahjong.db.MahjongProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.vhb.db.VhbProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.vhb.db.VhbProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.vhb.db.VhbProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.sudoku.db.SudokuProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.vhb.db.VhbProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.vhb.db.VhbProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.copingcards.db.CopingProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.copingcards.db.CopingProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.vhb.db.VhbProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.vhb.db.VhbProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.sudoku.db.SudokuProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.vhb.db.VhbProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.sudoku.db.SudokuProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.vhb.db.VhbProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.vhb.db.VhbProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.mahjong.db.MahjongProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.copingcards.db.CopingProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.t2.vhb.db.VhbProvider: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.t2.vhb.db.VhbProvider: void encryptExistingDatabaseWithFips2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.t2.sudoku.db.SudokuProvider: void encryptExistingDatabaseWithFips2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.t2.mahjong.db.MahjongProvider: void encryptExistingDatabaseWithFips1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.t2.vhb.db.VhbProvider: void encryptExistingDatabaseWithFips1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.t2.sudoku.db.SudokuProvider: void encryptExistingDatabaseWithFips1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.t2.copingcards.db.CopingProvider: void encryptExistingDatabaseWithFips1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.t2.mahjong.db.MahjongProvider: void encryptExistingDatabaseWithFips2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.t2.copingcards.db.CopingProvider: void encryptExistingDatabaseWithFips2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.t2.sudoku.db.SudokuProvider$OpenHelper: void loadData(net.sqlcipher.database.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.t2.vhb.db.VhbProvider$OpenHelper: void loadData(net.sqlcipher.database.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.t2.sudoku.db.SudokuProvider$OpenHelper: void loadData(net.sqlcipher.database.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.t2.sudoku.db.SudokuProvider$OpenHelper: void loadData(net.sqlcipher.database.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.t2.sudoku.db.SudokuProvider$OpenHelper: void loadData(net.sqlcipher.database.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.t2.vhb.db.VhbProvider$OpenHelper: void loadData(net.sqlcipher.database.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.t2.vhb.db.VhbProvider$OpenHelper: void loadData(net.sqlcipher.database.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.t2.vhb.db.VhbProvider$OpenHelper: void loadData(net.sqlcipher.database.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int)>
+Caller: <com.t2.vhb.distractions.photopuzzle.PhotoPuzzleView: void createPuzzle()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int)>
+Caller: <com.t2.vhb.distractions.photopuzzle.PhotoPuzzleView: void createPuzzle()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.t2.youtube.lazylist.Utils: void CopyStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.sudoku.db.SudokuProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.mahjong.db.MahjongProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.vhb.db.VhbProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.mahjong.db.MahjongProvider: java.lang.String getType(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.copingcards.db.CopingProvider: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.vhb.db.VhbProvider: java.lang.String getType(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.sudoku.db.SudokuProvider: java.lang.String getType(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.vhb.db.VhbProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.mahjong.db.MahjongProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.copingcards.db.CopingProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.vhb.db.VhbProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.copingcards.db.CopingProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.sudoku.db.SudokuProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.sudoku.db.SudokuProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.sudoku.db.SudokuProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.mahjong.db.MahjongProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.vhb.db.VhbProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.copingcards.db.CopingProvider: java.lang.String getType(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.mahjong.db.MahjongProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.copingcards.db.CopingProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.t2.copingcards.db.CopingProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.t2.vhb.media.MediaActivity$SaveTask: android.net.Uri doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <net.sqlcipher.database.SQLiteDatabase: byte[] getBytes(char[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.CursorWindow: void <init>(boolean)>
+Caller: <net.sqlcipher.CursorWindow: void <init>(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Thumbnails: android.graphics.Bitmap getThumbnail(android.content.ContentResolver,long,int,android.graphics.BitmapFactory$Options)>
+Caller: <com.t2.vhb.media.MediaViewActivity$LoadLargeImageTask: android.graphics.Bitmap doInBackground(com.t2.vhb.media.PhotoLoadOptions[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Thumbnails: android.graphics.Bitmap getThumbnail(android.content.ContentResolver,long,int,android.graphics.BitmapFactory$Options)>
+Caller: <com.t2.vhb.media.MediaViewActivity$CoverFlowAdapter: android.graphics.Bitmap createBitmap(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Thumbnails: android.graphics.Bitmap getThumbnail(android.content.ContentResolver,long,int,android.graphics.BitmapFactory$Options)>
+Caller: <com.t2.vhb.home.HomeActivity$LoadPhotoTask: android.graphics.Bitmap doInBackground(com.t2.vhb.media.PhotoLoadOptions[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.t2.vhb.coping.cards.CopingEditActivity: void saveCard()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.t2.vhb.media.MediaActivity: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.t2.vhb.coping.activities.ActivityIdeaEditActivity: boolean onContextItemSelected(android.view.MenuItem)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.t2.vhb.media.MediaViewActivity: void removeMedia()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.t2.vhb.coping.cards.CopingEditActivity: void saveCard()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.t2.vhb.util.MediaUtils: int purgeMediaReferences(android.content.ContentResolver,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.t2.mahjong.db.MahjongProvider$OpenHelper: void loadData(net.sqlcipher.database.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.t2.sudoku.db.SudokuProvider$OpenHelper: void loadSudoku(net.sqlcipher.database.SQLiteDatabase,java.io.BufferedReader)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.t2.vhb.db.VhbProvider$OpenHelper: java.lang.String loadQuotes(net.sqlcipher.database.SQLiteDatabase,java.io.BufferedReader)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.t2.sudoku.db.SudokuProvider$OpenHelper: void loadSudoku(net.sqlcipher.database.SQLiteDatabase,java.io.BufferedReader)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <com.t2.vhb.coping.cards.CopingEditActivity: void saveCard()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int bulkInsert(android.net.Uri,android.content.ContentValues[])>
+Caller: <com.t2.vhb.coping.cards.CopingEditActivity: void saveCard()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.t2.vhb.db.VhbProvider$OpenHelper: void loadData(net.sqlcipher.database.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.t2.sudoku.db.SudokuProvider$OpenHelper: void loadData(net.sqlcipher.database.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.t2.mahjong.db.MahjongProvider$OpenHelper: void loadData(net.sqlcipher.database.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.ByteBuffer encode(java.nio.CharBuffer)>
+Caller: <net.sqlcipher.database.SQLiteDatabase: byte[] getBytes(char[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Video$Thumbnails: android.graphics.Bitmap getThumbnail(android.content.ContentResolver,long,int,android.graphics.BitmapFactory$Options)>
+Caller: <com.t2.vhb.media.MediaViewActivity$CoverFlowAdapter: android.graphics.Bitmap createBitmap(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Video$Thumbnails: android.graphics.Bitmap getThumbnail(android.content.ContentResolver,long,int,android.graphics.BitmapFactory$Options)>
+Caller: <com.t2.vhb.home.HomeActivity: void nextReminder()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.t2.copingcards.db.CopingProvider: void encryptExistingDatabaseWithFips2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.t2.vhb.db.VhbProvider: void encryptExistingDatabaseWithFips1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.t2.copingcards.db.CopingProvider: void encryptExistingDatabaseWithFips1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.t2.mahjong.db.MahjongProvider: void encryptExistingDatabaseWithFips2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.t2.mahjong.db.MahjongProvider: void encryptExistingDatabaseWithFips1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.t2.sudoku.db.SudokuProvider: void encryptExistingDatabaseWithFips1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <net.sqlcipher.DefaultDatabaseErrorHandler: void deleteDatabaseFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.t2.sudoku.db.SudokuProvider: void encryptExistingDatabaseWithFips2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.t2.vhb.db.VhbProvider: void encryptExistingDatabaseWithFips2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.t2.vhb.util.MediaUtils: android.graphics.Bitmap sampleImage(android.content.ContentResolver,java.lang.String,int,int,int,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.t2.vhb.util.MediaUtils: android.graphics.Bitmap sampleImage(android.content.ContentResolver,java.lang.String,int,int,int,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.t2.vhb.media.MediaViewActivity$CoverFlowAdapter: android.graphics.Bitmap createBitmap(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.t2.vhb.util.MediaUtils: android.graphics.Bitmap sampleImage(android.content.ContentResolver,java.lang.String,int,int,int,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.t2.vhb.media.MediaActivity$SaveTask: android.net.Uri doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.t2.vhb.media.MediaActivity$SaveTask: android.net.Uri doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.t2.vhb.util.MediaUtils: android.net.Uri saveYouTubeReference(android.content.Context,java.lang.String,android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.t2.vhb.contacts.ContactsActivity: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.t2.vhb.coping.activities.ActivitySchedulerActivity: long saveToCalender(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.t2.vhb.coping.cards.CopingEditActivity: void saveCard()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.t2.vhb.inspire.quotes.QuotesAddActivity: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.t2.vhb.coping.activities.ActivityIdeaEditActivity: void lambda$onCreateDialog$0$ActivityIdeaEditActivity(android.content.DialogInterface,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.t2.vhb.util.MediaUtils: android.net.Uri createPhoto(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.t2.vhb.coping.activities.ActivitySchedulerActivity: void addAttendee(long,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.t2.vhb.coping.activities.ActivitySchedulerActivity: long saveToCalender(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.t2.vhb.util.MediaUtils: android.net.Uri saveMediaReference(android.content.Context,android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.t2.vhb.media.MediaActivity$SaveTask: android.net.Uri doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.t2.vhb.media.MediaActivity$SaveTask: android.net.Uri doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteClosable: void acquireReference()>
+Caller: <net.sqlcipher.database.SQLiteQuery: int fillWindow(net.sqlcipher.CursorWindow,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteClosable: void acquireReference()>
+Caller: <net.sqlcipher.CursorWindow: void clear()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.t2.vhb.distractions.photopuzzle.PhotoPuzzleView: void createPuzzle()>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,106 @@
+Time1: 27.056876417
+Time2: 6.270228667
+Worker: 5
+UI: 20
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: java.lang.String insertImage(android.content.ContentResolver,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Caller: <com.techgodev.wallcrop.fulldp.MainActivity: android.net.Uri getImageUri(android.content.Context,android.graphics.Bitmap)>
+Thread: [<com.techgodev.wallcrop.fulldp.MainActivity$$ExternalSyntheticLambda17: void run()>]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: java.lang.String insertImage(android.content.ContentResolver,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Caller: <com.techgodev.wallcrop.fulldp.MainActivity: android.net.Uri getImageUri(android.content.Context,android.graphics.Bitmap)>
+Thread: [<com.techgodev.wallcrop.fulldp.MainActivity$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.techgodev.wallcrop.fulldp.MainActivity$8: void run()>
+Thread: [<com.techgodev.wallcrop.fulldp.MainActivity$8: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.techgodev.wallcrop.fulldp.BlurImage: android.graphics.Bitmap blur()>
+Thread: [<com.techgodev.wallcrop.fulldp.BlurImage$AsyncBlurImage: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.techgodev.wallcrop.fulldp.BlurImage: android.graphics.Bitmap blur()>
+Thread: [<com.techgodev.wallcrop.fulldp.BlurImage$AsyncBlurImage: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.techgodev.wallcrop.fulldp.ImageSaver: void saveImageLegacy(android.content.Context,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.soundcloud.android.crop.CropImageActivity: android.graphics.Bitmap decodeRegionCrop(android.graphics.Rect,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: java.lang.String insertImage(android.content.ContentResolver,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Caller: <com.techgodev.wallcrop.fulldp.SendActivity: android.net.Uri getImageUri(android.content.Context,android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.techgodev.wallcrop.fulldp.MainActivity: android.graphics.Bitmap blur(android.content.Context,android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.techgodev.wallcrop.fulldp.BlurImage: android.graphics.Bitmap blur()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.soundcloud.android.crop.CropUtil: java.io.File getFromMediaUriPfd(android.content.Context,android.content.ContentResolver,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.soundcloud.android.crop.CropUtil: java.lang.String getTempFilename(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.techgodev.wallcrop.fulldp.MainActivity: java.io.File createImageFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.techgodev.wallcrop.fulldp.HomeActivity: java.io.File createImageFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.soundcloud.android.crop.CropUtil: void closeSilently(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.soundcloud.android.crop.CropUtil: java.io.File getFromMediaUriPfd(android.content.Context,android.content.ContentResolver,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.techgodev.wallcrop.fulldp.ImageSaver: void saveImageLegacy(android.content.Context,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <com.soundcloud.android.crop.CropUtil: java.io.File getFromMediaUriPfd(android.content.Context,android.content.ContentResolver,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.techgodev.wallcrop.fulldp.ImageSaver: void saveImageLegacy(android.content.Context,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.soundcloud.android.crop.CropUtil: void closeSilently(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.techgodev.wallcrop.fulldp.ImageSaver: void saveImageLegacy(android.content.Context,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.techgodev.wallcrop.fulldp.BlurImage: android.graphics.Bitmap blur()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.techgodev.wallcrop.fulldp.MainActivity: android.graphics.Bitmap blur(android.content.Context,android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.techgodev.wallcrop.fulldp.ImageSaver: void saveImageLegacy(android.content.Context,android.graphics.Bitmap,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,130 @@
+Time1: 14.104722488
+Time2: 1.089505365
+Worker: 0
+UI: 31
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.abad.thenics.GoogleDriveIntegration$3: void onResult(com.google.android.gms.drive.DriveApi$DriveContentsResult)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.abad.thenics.Journey: void saveJourney(java.lang.String,android.content.Context,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.abad.thenics.Workout: void saveJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.abad.thenics.LevelUp: void saveJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.abad.thenics.Workout: void saveJSONlogentry()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.abad.thenics.JourneyBackgroundServices: java.lang.String cacheImage(android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.abad.thenics.JourneyBackgroundServices: java.lang.String cacheImage(android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.abad.thenics.JourneyBackgroundServices: java.lang.String cacheImage(android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.abad.thenics.JourneyBackgroundServices: java.lang.String cacheImage(android.graphics.Bitmap,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.abad.thenics.Journey: void saveJourney(java.lang.String,android.content.Context,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.abad.thenics.GoogleDriveIntegration$3: void onResult(com.google.android.gms.drive.DriveApi$DriveContentsResult)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.abad.thenics.Workout: void saveJSONlogentry()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.abad.thenics.Workout: void saveJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.abad.thenics.LevelUp: void saveJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.abad.thenics.MainActivity: java.lang.String loadStatisticsLog(android.app.Activity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.abad.thenics.Journey: java.lang.String loadJourneyJSON(android.app.Activity,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.abad.thenics.MainActivity: java.lang.String loadSkillDynamicDataFromAsset(android.app.Activity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.abad.thenics.Workout: void saveJSONlogentry()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.abad.thenics.Workout: void saveJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.abad.thenics.LevelUp: void saveJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.abad.thenics.GoogleDriveIntegration$3: void onResult(com.google.android.gms.drive.DriveApi$DriveContentsResult)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.abad.thenics.Journey: void saveJourney(java.lang.String,android.content.Context,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <com.abad.thenics.JourneyBackgroundServices: void onHandleIntent(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.abad.thenics.JourneyZoomImage: android.graphics.Bitmap rotateImage(android.graphics.Bitmap,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.abad.thenics.JourneyZoomImage: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.abad.thenics.JourneyZoomImage: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.abad.thenics.MainActivity: java.lang.String loadStatisticsLog(android.app.Activity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.abad.thenics.Journey: java.lang.String loadJourneyJSON(android.app.Activity,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.abad.thenics.GoogleDriveIntegration$3: void onResult(com.google.android.gms.drive.DriveApi$DriveContentsResult)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.abad.thenics.MainActivity: java.lang.String loadSkillDynamicDataFromAsset(android.app.Activity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.abad.thenics.MainActivity: java.lang.String loadSkillsFromAsset(android.app.Activity)>
+Thread: [UI]
+-------------------------

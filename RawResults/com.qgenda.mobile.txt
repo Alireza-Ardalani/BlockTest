@@ -1,0 +1,422 @@
+Time1: 27.137097452
+Time2: 0.959934278
+Worker: 38
+UI: 66
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bugsnag.android.ErrorStore: void flushErrorReport(java.io.File,com.bugsnag.android.ErrorReportApiClient)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bugsnag.android.ErrorStore: void flushErrorReport(java.io.File,com.bugsnag.android.ErrorReportApiClient)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bugsnag.android.ErrorStore$2: void run()>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.bugsnag.android.IOUtils: int copy(java.io.Reader,java.io.Writer)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.bugsnag.android.DefaultHttpClient: void postReport(java.lang.String,com.bugsnag.android.Report)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.evollu.react.fcm.SendNotificationTask: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [<com.evollu.react.fcm.SendNotificationTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeName()>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.bugsnag.android.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue(boolean)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.bugsnag.android.ErrorStore$2: void run()>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: void deleteOnExit()>
+Caller: <com.bugsnag.android.ErrorStore: void flushErrorReport(java.io.File,com.bugsnag.android.ErrorReportApiClient)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.File: void deleteOnExit()>
+Caller: <com.bugsnag.android.ErrorStore: void flushErrorReport(java.io.File,com.bugsnag.android.ErrorReportApiClient)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter nullValue()>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter close(com.bugsnag.android.JsonWriter$JsonScope,com.bugsnag.android.JsonWriter$JsonScope,java.lang.String)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void newline()>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void newline()>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter open(com.bugsnag.android.JsonWriter$JsonScope,java.lang.String)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue(boolean)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.bugsnag.android.IOUtils: int copy(java.io.Reader,java.io.Writer)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <com.bugsnag.android.JsonStream: void value(java.io.File)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.evollu.react.fcm.SendNotificationTask: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.evollu.react.fcm.SendNotificationTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.evollu.react.fcm.SendNotificationTask: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<com.evollu.react.fcm.SendNotificationTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue(boolean)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeName()>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.bugsnag.android.JsonWriter: void close()>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.bugsnag.android.DefaultHttpClient: void postReport(java.lang.String,com.bugsnag.android.Report)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.evollu.react.fcm.SendNotificationTask: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [<com.evollu.react.fcm.SendNotificationTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.bugsnag.android.ErrorStore$2: void run()>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.bugsnag.android.DefaultHttpClient: void postReport(java.lang.String,com.bugsnag.android.Report)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.bugsnag.android.JsonStream: void value(java.io.File)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.bugsnag.android.JsonWriter: void flush()>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [<com.bugsnag.android.ErrorStore$2: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.microsoft.codepush.react.FileUtils: void deleteFileOrFolderSilently(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.microsoft.codepush.react.CodePush: void clearDebugCacheIfNeeded()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.microsoft.codepush.react.FileUtils: void deleteFileOrFolderSilently(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bugsnag.android.ErrorStore: void flushErrorReport(java.io.File,com.bugsnag.android.ErrorReportApiClient)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.bugsnag.android.ErrorStore: void flushErrorReport(java.io.File,com.bugsnag.android.ErrorReportApiClient)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bugsnag.android.DeviceData: java.lang.Boolean isRooted()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.microsoft.codepush.react.FileUtils: void deleteDirectoryAtPath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.microsoft.codepush.react.FileUtils: boolean fileAtPathExists(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzv: java.io.File zzd(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.bugsnag.android.ErrorStore: void <init>(com.bugsnag.android.Configuration,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.microsoft.codepush.react.CodePush: void clearDebugCacheIfNeeded()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.firebase.iid.zzab: void <init>(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzv: java.io.File zzd(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.zzs: java.lang.String zzck(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(char[],int,int)>
+Caller: <com.bugsnag.android.IOUtils: int copy(java.io.Reader,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.evollu.react.fcm.SendNotificationTask: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.bugsnag.android.DefaultHttpClient: void postReport(java.lang.String,com.bugsnag.android.Report)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.bugsnag.android.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.google.firebase.iid.zzab: void <init>(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.bugsnag.android.ErrorStore: java.util.List findLaunchCrashReports()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.microsoft.codepush.react.FileUtils: void deleteFileOrFolderSilently(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.microsoft.codepush.react.FileUtils: void deleteFileOrFolderSilently(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: void deleteOnExit()>
+Caller: <com.bugsnag.android.ErrorStore: void flushErrorReport(java.io.File,com.bugsnag.android.ErrorReportApiClient)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: void deleteOnExit()>
+Caller: <com.bugsnag.android.ErrorStore: void flushErrorReport(java.io.File,com.bugsnag.android.ErrorReportApiClient)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.microsoft.codepush.react.FileUtils: java.lang.String readFileToString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.microsoft.codepush.react.FileUtils: java.lang.String readFileToString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter close(com.bugsnag.android.JsonWriter$JsonScope,com.bugsnag.android.JsonWriter$JsonScope,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: com.bugsnag.android.JsonWriter open(com.bugsnag.android.JsonWriter$JsonScope,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.bugsnag.android.IOUtils: int copy(java.io.Reader,java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <com.bugsnag.android.JsonStream: void value(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.evollu.react.fcm.SendNotificationTask: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.evollu.react.fcm.SendNotificationTask: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeValue(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.bugsnag.android.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.microsoft.codepush.react.FileUtils: java.lang.String readFileToString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <me.leolin.shortcutbadger.util.CloseHelper: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.microsoft.codepush.react.FileUtils: java.lang.String readFileToString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.zzn: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <me.leolin.shortcutbadger.impl.OPPOHomeBader: java.lang.String getSystemProperty(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.bugsnag.android.JsonWriter: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.bugsnag.android.ErrorStore: void <init>(com.bugsnag.android.Configuration,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.google.android.gms.common.util.zzv: java.io.File zzd(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <me.leolin.shortcutbadger.impl.OPPOHomeBader: java.lang.String getSystemProperty(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.microsoft.codepush.react.FileUtils: java.lang.String readFileToString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.zzs: java.lang.String zzck(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.microsoft.codepush.react.FileUtils: java.lang.String readFileToString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.evollu.react.fcm.SendNotificationTask: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.bugsnag.android.DefaultHttpClient: void postReport(java.lang.String,com.bugsnag.android.Report)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.bugsnag.android.ErrorStore: java.util.List findLaunchCrashReports()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.microsoft.codepush.react.FileUtils: void deleteFileOrFolderSilently(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.bugsnag.android.DefaultHttpClient: void postReport(java.lang.String,com.bugsnag.android.Report)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.bugsnag.android.JsonWriter: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.bugsnag.android.JsonStream: void value(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.bugsnag.android.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,246 @@
+Time1: 35.005434125
+Time2: 1.402783383
+Worker: 1
+UI: 59
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <rk.android.app.shortcutmaker.asyntask.icon.LoadCropImageTask: android.graphics.Bitmap doInBackground(java.lang.Void[])>
+Thread: [<rk.android.app.shortcutmaker.asyntask.icon.LoadCropImageTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <rk.android.app.shortcutmaker.activities.collection.utils.CollectionUtils: void deleteCollection(android.content.Context,rk.android.app.shortcutmaker.serilization.objects.CollectionObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <rk.android.app.shortcutmaker.helper.feature.BackupHelper: void deleteTempFiles(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.ShortcutSerializableData loadSerializedShortcutsData(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.objects.ShortcutObj getWidget(int,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.objects.CollectionObject loadCollectionObject(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <rk.android.app.shortcutmaker.helper.feature.BackupHelper: rk.android.app.shortcutmaker.serilization.objects.ShortcutObj receiveShortcut(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <rk.android.app.shortcutmaker.activities.shortcut.ShortcutPreviewActivity: void lambda$onOptionsItemSelected$19$ShortcutPreviewActivity(rk.android.app.shortcutmaker.serilization.objects.CollectionObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <rk.android.app.shortcutmaker.activities.collection.utils.CollectionUtils: void deleteCollection(android.content.Context,rk.android.app.shortcutmaker.serilization.objects.CollectionObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: void serializeWidget(rk.android.app.shortcutmaker.serilization.objects.ShortcutObj,android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <rk.android.app.shortcutmaker.activities.collection.utils.CollectionUtils: void saveCollection(android.content.Context,rk.android.app.shortcutmaker.serilization.objects.CollectionObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <rk.android.app.shortcutmaker.helper.feature.BackupHelper: void deleteTempFiles(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)>
+Caller: <rk.android.app.shortcutmaker.asyntask.icon.LoadCropImageTask: android.graphics.Bitmap doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <rk.android.app.shortcutmaker.helper.feature.BackupHelper: java.io.File shareShortcut(android.content.Context,rk.android.app.shortcutmaker.serilization.objects.ShortcutObj)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: void serializeWidget(rk.android.app.shortcutmaker.serilization.objects.ShortcutObj,android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: void serializeData(rk.android.app.shortcutmaker.serilization.objects.CollectionObject,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <rk.android.app.shortcutmaker.helper.feature.BackupHelper: java.io.File shareShortcut(android.content.Context,rk.android.app.shortcutmaker.serilization.objects.ShortcutObj)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: void serializeData(rk.android.app.shortcutmaker.serilization.ShortcutSerializableData,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <rk.android.app.shortcutmaker.activities.HomeActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: void serializeData(rk.android.app.shortcutmaker.serilization.objects.CollectionObject,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: void serializeData(rk.android.app.shortcutmaker.serilization.ShortcutSerializableData,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: void serializeWidget(rk.android.app.shortcutmaker.serilization.objects.ShortcutObj,android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <rk.android.app.shortcutmaker.helper.feature.BackupHelper: java.io.File shareShortcut(android.content.Context,rk.android.app.shortcutmaker.serilization.objects.ShortcutObj)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <rk.android.app.shortcutmaker.helper.feature.BackupHelper: java.io.File shareShortcut(android.content.Context,rk.android.app.shortcutmaker.serilization.objects.ShortcutObj)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <rk.android.app.shortcutmaker.helper.icon.IconHelper: android.graphics.Bitmap getShortcutBitmap(android.content.Context,android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <rk.android.app.shortcutmaker.helper.icon.IconHelper: android.graphics.Bitmap getShortcutBitmap(android.content.Context,android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <rk.android.app.shortcutmaker.utils.collection.CollectionIcon: android.graphics.Bitmap getBitmap(android.graphics.Bitmap,float)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <rk.android.app.shortcutmaker.utils.collection.CollectionIcon: android.graphics.Bitmap getBitmap(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <rk.android.app.shortcutmaker.helper.icon.IconHelper: android.graphics.Bitmap getShortcutBitmap(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <rk.android.app.shortcutmaker.helper.feature.BackupHelper: java.io.File shareShortcut(android.content.Context,rk.android.app.shortcutmaker.serilization.objects.ShortcutObj)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: void serializeWidget(rk.android.app.shortcutmaker.serilization.objects.ShortcutObj,android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: void serializeData(rk.android.app.shortcutmaker.serilization.ShortcutSerializableData,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: void serializeData(rk.android.app.shortcutmaker.serilization.objects.CollectionObject,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <rk.android.app.shortcutmaker.helper.feature.BackupHelper: void deleteTempFiles(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.objects.CollectionObject loadCollectionObject(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.objects.ShortcutObj getWidget(int,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <rk.android.app.shortcutmaker.helper.feature.BackupHelper: rk.android.app.shortcutmaker.serilization.objects.ShortcutObj receiveShortcut(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.ShortcutSerializableData loadSerializedShortcutsData(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <rk.android.app.shortcutmaker.helper.feature.BackupHelper: java.io.File shareShortcut(android.content.Context,rk.android.app.shortcutmaker.serilization.objects.ShortcutObj)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: void serializeWidget(rk.android.app.shortcutmaker.serilization.objects.ShortcutObj,android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: void serializeData(rk.android.app.shortcutmaker.serilization.objects.CollectionObject,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.objects.CollectionObject loadCollectionObject(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.ShortcutSerializableData loadSerializedShortcutsData(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.ShortcutSerializableData loadSerializedShortcutsData(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.objects.ShortcutObj getWidget(int,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.ShortcutSerializableData loadSerializedShortcutsData(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.objects.CollectionObject loadCollectionObject(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.objects.ShortcutObj getWidget(int,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.objects.ShortcutObj getWidget(int,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.objects.ShortcutObj getWidget(int,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.objects.CollectionObject loadCollectionObject(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.objects.CollectionObject loadCollectionObject(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.ShortcutSerializableData loadSerializedShortcutsData(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.objects.ShortcutObj getWidget(int,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: rk.android.app.shortcutmaker.serilization.objects.CollectionObject loadCollectionObject(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <rk.android.app.shortcutmaker.activities.shortcut.ShortcutPreviewActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <rk.android.app.shortcutmaker.serilization.SerializationTools: void serializeWidget(rk.android.app.shortcutmaker.serilization.objects.ShortcutObj,android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <rk.android.app.shortcutmaker.activities.collection.utils.CollectionUtils: void deleteCollection(android.content.Context,rk.android.app.shortcutmaker.serilization.objects.CollectionObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <rk.android.app.shortcutmaker.helper.feature.BackupHelper: void deleteTempFiles(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <rk.android.app.shortcutmaker.helper.feature.BackupHelper: rk.android.app.shortcutmaker.serilization.objects.ShortcutObj receiveShortcut(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------

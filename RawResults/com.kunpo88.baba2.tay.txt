@@ -1,0 +1,170 @@
+Time1: 19.770990717
+Time2: 1.302032902
+Worker: 0
+UI: 41
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <xyz.aethersx2.android.FileEditorActivity: void u()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <xyz.aethersx2.android.SaveStateManagerActivity$a: java.util.List n()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <org.sean.FileUtil: void copyFromAsses(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <org.sean.BaseApplication: void init(android.app.Activity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <c3.g: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <c3.g: void <init>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <xyz.aethersx2.android.NativeLibrary: boolean importBIOS(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <xyz.aethersx2.android.FileHelper: byte[] readBytesFromUri(android.content.Context,android.net.Uri,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <org.sean.FileUtil: void copyFromAsses(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <xyz.aethersx2.android.NativeLibrary: boolean importBIOS(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <xyz.aethersx2.android.FileHelper: byte[] readBytesFromUri(android.content.Context,android.net.Uri,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <xyz.aethersx2.android.NativeLibrary: boolean importBIOS(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <org.sean.FileUtil: void copyFromAsses(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.net.URI toURI()>
+Caller: <c3.h: void n(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <xyz.aethersx2.android.NativeLibrary: boolean importBIOS(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.sean.FileUtil: void copyFromAsses(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <e3.t0: void g()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.net.URL toURL()>
+Caller: <c3.h: void n(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <d3.g: java.lang.String c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <xyz.aethersx2.android.SaveStateManagerActivity$a: java.util.List n()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <org.sean.FileUtil: void copyFromAsses(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <org.sean.FileUtil: void copyFromAsses(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <org.sean.FileUtil: void copyFromAsses(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <xyz.aethersx2.android.NativeLibrary: boolean importBIOS(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <xyz.aethersx2.android.NativeLibrary: boolean importBIOS(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <xyz.aethersx2.android.FileHelper: byte[] readBytesFromUri(android.content.Context,android.net.Uri,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <xyz.aethersx2.android.SaveStateManagerActivity$a: java.util.List n()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.OutputStream openOutputStream(android.net.Uri,java.lang.String)>
+Caller: <xyz.aethersx2.android.FileEditorActivity: void u()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <xyz.aethersx2.android.SaveStateManagerActivity$a: java.util.List n()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <d3.g: java.lang.String c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <z1.q: java.lang.Class i(java.lang.Class)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <xyz.aethersx2.android.NativeLibrary: boolean importBIOS(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.LineNumberReader: java.lang.String readLine()>
+Caller: <d3.g: java.lang.String c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <org.sean.FileUtil: void copyFromAsses(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.io.InputStream openStream()>
+Caller: <d3.g: void <init>(java.net.URL,d3.c,java.lang.String,c3.g)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.net.URL,java.lang.String)>
+Caller: <d3.g: java.lang.String c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.file.Paths: java.nio.file.Path get(java.lang.String,java.lang.String[])>
+Caller: <xyz.aethersx2.android.NativeLibrary: java.nio.file.Path getSaveStateDirectory()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.file.Paths: java.nio.file.Path get(java.lang.String,java.lang.String[])>
+Caller: <xyz.aethersx2.android.NativeLibrary: boolean importBIOS(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.file.Paths: java.nio.file.Path get(java.lang.String,java.lang.String[])>
+Caller: <xyz.aethersx2.android.NativeLibrary: java.lang.String getGameSettingsPath(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <z1.q: java.lang.Class i(java.lang.Class)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <z1.q: java.lang.Class i(java.lang.Class)>
+Thread: [UI]
+-------------------------

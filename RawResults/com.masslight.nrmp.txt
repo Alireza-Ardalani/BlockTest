@@ -1,0 +1,166 @@
+Time1: 10.583355885
+Time2: 0.946528693
+Worker: 1
+UI: 39
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <org.nrmp.prism.MainActivity$TabManager: void addTab(java.lang.String,java.lang.String,int,java.lang.Class,android.os.Bundle)>
+Thread: [<org.nrmp.prism.MainActivity$1$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long executeInsert()>
+Caller: <com.j256.ormlite.android.AndroidDatabaseConnection: int insert(java.lang.String,java.lang.Object[],com.j256.ormlite.field.FieldType[],com.j256.ormlite.support.GeneratedKeyHolder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: void execute()>
+Caller: <com.j256.ormlite.android.AndroidDatabaseConnection: int update(java.lang.String,java.lang.Object[],com.j256.ormlite.field.FieldType[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: boolean copyDatabase(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: boolean copyFile(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: void prepareDBs()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: boolean copyDatabase(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: boolean copyFile(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: void prepareDBs()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: java.lang.String getDBDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: boolean copyDatabase(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: boolean copyFile(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: boolean copyFile(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.j256.ormlite.android.AndroidDatabaseConnection: java.lang.Object queryForOne(java.lang.String,java.lang.Object[],com.j256.ormlite.field.FieldType[],com.j256.ormlite.stmt.GenericRowMapper,com.j256.ormlite.dao.ObjectCache)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.j256.ormlite.android.AndroidCompiledStatement: android.database.Cursor getCursor()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.j256.ormlite.android.AndroidCompiledStatement: int execSql(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.j256.ormlite.android.AndroidDatabaseConnection: long queryForLong(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.j256.ormlite.android.AndroidDatabaseConnection: int insert(java.lang.String,java.lang.Object[],com.j256.ormlite.field.FieldType[],com.j256.ormlite.support.GeneratedKeyHolder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.j256.ormlite.android.AndroidDatabaseConnection: int update(java.lang.String,java.lang.Object[],com.j256.ormlite.field.FieldType[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.j256.ormlite.android.AndroidDatabaseConnection: int update(java.lang.String,java.lang.Object[],com.j256.ormlite.field.FieldType[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: void performMigrationIfRequired()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.j256.ormlite.logger.LocalLog: java.util.List configureClassLevels(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: boolean copyDatabase(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: boolean copyFile(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: boolean copyFile(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.j256.ormlite.android.AndroidConnectionSource: com.j256.ormlite.support.DatabaseConnection getReadWriteConnection()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: boolean copyFile(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: boolean copyDatabase(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: boolean copyFile(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: boolean copyDatabase(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.j256.ormlite.android.AndroidCompiledStatement: int execSql(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.j256.ormlite.android.AndroidDatabaseConnection: int update(java.lang.String,java.lang.Object[],com.j256.ormlite.field.FieldType[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.j256.ormlite.android.AndroidDatabaseConnection: long queryForLong(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: java.lang.String getDBDir()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int getVersion()>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: void performMigrationIfRequired()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.j256.ormlite.android.AndroidCompiledStatement: int execSql(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: boolean copyDatabase(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: void prepareDBs()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: boolean copyFile(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <org.nrmp.prism.helping.DBMigrationManager: boolean copyFile(java.lang.String,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------

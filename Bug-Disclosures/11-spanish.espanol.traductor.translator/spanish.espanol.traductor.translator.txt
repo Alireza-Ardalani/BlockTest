@@ -1,0 +1,317 @@
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <spanish.espanol.traductor.translator.Verbs.DataHelper: void copyDataBase()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <spanish.espanol.traductor.translator.Verbs.utils.DBMigration: spanish.espanol.traductor.translator.Verbs.utils.DBMigration$DatabaseMigrationSettings userDataFromOldDatabase(java.io.File,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Verbs.fragments.Conjugations: void addVerbToHistory()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Verbs.SettingsActivity: void clearHistory(boolean)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Verbs.fragments.Conjugations: void addVerbToHistory()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <spanish.espanol.traductor.translator.Util.ApiServiceManager: void restClient(java.lang.String,java.lang.String,java.lang.String,spanish.espanol.traductor.translator.Util.ApiServiceManager$TranslationCallback)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+Caller: <spanish.espanol.traductor.translator.Verbs.utils.DBMigration: spanish.espanol.traductor.translator.Verbs.utils.DBMigration$DatabaseMigrationSettings userDataFromOldDatabase(java.io.File,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+Caller: <spanish.espanol.traductor.translator.Verbs.DataHelper: void openDataBase()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <spanish.espanol.traductor.translator.Phrases.DataBaseHelper: void copyDataBase(android.content.Context,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: void <clinit>()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: void <clinit>()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: void <clinit>()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: void <clinit>()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: void <clinit>()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: void <clinit>()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: void <clinit>()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: void <clinit>()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: void <clinit>()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: java.lang.String getType(android.net.Uri)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <spanish.espanol.traductor.translator.Phrases.DataBaseHelper: void copyDataBase(android.content.Context,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <spanish.espanol.traductor.translator.Verbs.DataHelper: void copyDataBase()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <spanish.espanol.traductor.translator.Cropper.BitmapUtils: android.graphics.BitmapFactory$Options decodeImageForOption(android.content.ContentResolver,android.net.Uri)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <spanish.espanol.traductor.translator.Cropper.BitmapUtils: android.graphics.Bitmap decodeImage(android.content.ContentResolver,android.net.Uri,android.graphics.BitmapFactory$Options)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <spanish.espanol.traductor.translator.Cropper.BitmapUtils: spanish.espanol.traductor.translator.Cropper.BitmapUtils$RotateBitmapResult rotateBitmapByExif(android.graphics.Bitmap,android.content.Context,android.net.Uri)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <spanish.espanol.traductor.translator.Phrases.DataBaseHelper: void copyDataBase(android.content.Context,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <spanish.espanol.traductor.translator.Databases.ChatDataHelper: void deleteChatsBySessionIds(java.util.List)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <spanish.espanol.traductor.translator.Phrases.DataBaseHelper: void copyDataBase(android.content.Context,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <spanish.espanol.traductor.translator.Verbs.DataHelper: void copyDataBase()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <spanish.espanol.traductor.translator.Verbs.utils.DBMigration: void insertUserData(spanish.espanol.traductor.translator.Verbs.utils.DBMigration$DatabaseMigrationSettings,android.database.sqlite.SQLiteDatabase)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <spanish.espanol.traductor.translator.Databases.ChatDataHelper: int startNewSession()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <spanish.espanol.traductor.translator.Verbs.utils.DBMigration: void insertUserData(spanish.espanol.traductor.translator.Verbs.utils.DBMigration$DatabaseMigrationSettings,android.database.sqlite.SQLiteDatabase)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Verbs.VerbContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Databases.ChatDataHelper: void hardDeleteSessionChats(int)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Databases.DatabaseHelper: void deleteTranslation(int)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Databases.StoreDictionarySQLiteHelper: void delteAllHistoryWord()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Databases.StoreDictionarySQLiteHelper: void delteAllSavedWord1()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.OutputStream openOutputStream(android.net.Uri)>
+Caller: <spanish.espanol.traductor.translator.Cropper.BitmapUtils: void writeBitmapToUri(android.content.Context,android.graphics.Bitmap,android.net.Uri,android.graphics.Bitmap$CompressFormat,int)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <spanish.espanol.traductor.translator.Cropper.BitmapUtils: android.net.Uri writeTempStateStoreBitmap(android.content.Context,android.graphics.Bitmap,android.net.Uri)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <spanish.espanol.traductor.translator.Verbs.utils.DBMigration: spanish.espanol.traductor.translator.Verbs.utils.DBMigration$DatabaseMigrationSettings userDataFromOldDatabase(java.io.File,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <spanish.espanol.traductor.translator.Verbs.DataHelper: void copyDataBase()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <spanish.espanol.traductor.translator.Cropper.CropImageView: void setImageResource(int)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <spanish.espanol.traductor.translator.Databases.ChatDataHelper: void hardDeleteSessionChats(int)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <spanish.espanol.traductor.translator.Phrases.DataBaseHelper: java.util.List getAllCategoryDetail()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <spanish.espanol.traductor.translator.Phrases.DataBaseHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <spanish.espanol.traductor.translator.Phrases.DataBaseHelper: void initialize(android.content.Context,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <spanish.espanol.traductor.translator.Phrases.DataBaseHelper: java.util.List getAllCategoryList()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <spanish.espanol.traductor.translator.Phrases.DataBaseHelper: boolean hasFavorites()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <spanish.espanol.traductor.translator.Databases.ChatDataHelper: void deleteChatsBySessionIds(java.util.List)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <spanish.espanol.traductor.translator.Databases.DatabaseHelper: void deleteTranslation(int)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <spanish.espanol.traductor.translator.Databases.ChatDataHelper: int startNewSession()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <spanish.espanol.traductor.translator.Phrases.DataBaseHelper: java.util.List getFavorites()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <spanish.espanol.traductor.translator.Phrases.DataBaseHelper: java.util.List getCategoryDetail(java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <spanish.espanol.traductor.translator.Verbs.fragments.Conjugations: void addVerbToHistory()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Phrases.DataBaseHelper: java.util.List getAllCategoryList()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Databases.ChatDataHelper: boolean hasHistoryData(int)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Databases.StoreDictionarySQLiteHelper: boolean hasFavoriteWords()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Databases.StoreDictionarySQLiteHelper: java.util.ArrayList getSavedWords()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Databases.ChatDataHelper: java.util.List getTodayChatList1(int)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Phrases.DataBaseHelper: java.util.List getFavorites()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Databases.DatabaseHelper: java.util.List getAllTranslations()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Phrases.DataBaseHelper: java.util.List getCategoryDetail(java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Databases.StoreDictionarySQLiteHelper: java.util.ArrayList getHistoryWords()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Phrases.DataBaseHelper: java.util.List getAllCategoryDetail()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Phrases.DataBaseHelper: boolean hasFavorites()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <spanish.espanol.traductor.translator.Databases.StoreDictionarySQLiteHelper: boolean hasHistoryWords()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <spanish.espanol.traductor.translator.Databases.ChatDataHelper: java.util.List getTodayChatList1(int)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <spanish.espanol.traductor.translator.Databases.DatabaseHelper: java.util.List getAllTranslations()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <spanish.espanol.traductor.translator.Databases.ChatDataHelper: boolean hasHistoryData(int)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <spanish.espanol.traductor.translator.Verbs.DataHelper: void deleteOldDatabase()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <spanish.espanol.traductor.translator.Verbs.utils.DBMigration: spanish.espanol.traductor.translator.Verbs.utils.DBMigration$DatabaseMigrationSettings userDataFromOldDatabase(java.io.File,java.lang.String)>>
+Thread: [UI]
+-------------------------

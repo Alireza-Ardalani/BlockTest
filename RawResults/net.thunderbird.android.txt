@@ -1,0 +1,134 @@
+Time1: 94.865963413
+Time2: 1.6877253
+Worker: 12
+UI: 20
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.fsck.k9.provider.DecryptedFileProvider: boolean deleteOldTemporaryFiles(android.content.Context)>
+Thread: [<com.fsck.k9.provider.DecryptedFileProvider$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.fsck.k9.provider.AttachmentTempFileProvider: boolean deleteOldTemporaryFiles(android.content.Context)>
+Thread: [<com.fsck.k9.provider.AttachmentTempFileProvider$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.fsck.k9.mail.filter.Base64: void <init>(int,byte[])>
+Thread: [<com.fsck.k9.notification.NotificationActionService$startHandleCommand$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.fsck.k9.provider.AttachmentTempFileProvider: java.io.File getTempFileDirectory(android.content.Context)>
+Thread: [<com.fsck.k9.provider.AttachmentTempFileProvider$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.fsck.k9.provider.DecryptedFileProvider: java.io.File getDecryptedTempDirectory(android.content.Context)>
+Thread: [<com.fsck.k9.provider.DecryptedFileProvider$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.fsck.k9.provider.AttachmentTempFileProvider: boolean deleteOldTemporaryFiles(android.content.Context)>
+Thread: [<com.fsck.k9.provider.AttachmentTempFileProvider$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.fsck.k9.provider.DecryptedFileProvider: boolean deleteOldTemporaryFiles(android.content.Context)>
+Thread: [<com.fsck.k9.provider.DecryptedFileProvider$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.fsck.k9.provider.RawMessageProvider$1: void writeTo(java.io.OutputStream)>
+Thread: [<org.openintents.openpgp.util.ParcelFileDescriptorUtil$DataSourceTransferThread: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.fsck.k9.provider.DecryptedFileProvider: boolean deleteOldTemporaryFiles(android.content.Context)>
+Thread: [<com.fsck.k9.provider.DecryptedFileProvider$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.fsck.k9.provider.AttachmentTempFileProvider: boolean deleteOldTemporaryFiles(android.content.Context)>
+Thread: [<com.fsck.k9.provider.AttachmentTempFileProvider$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.fsck.k9.provider.AttachmentTempFileProvider: java.io.File getTempFileDirectory(android.content.Context)>
+Thread: [<com.fsck.k9.provider.AttachmentTempFileProvider$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.fsck.k9.provider.DecryptedFileProvider: java.io.File getDecryptedTempDirectory(android.content.Context)>
+Thread: [<com.fsck.k9.provider.DecryptedFileProvider$2: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <okio.InputStreamSource: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.fsck.k9.provider.DecryptedFileProvider: boolean deleteOldTemporaryFiles(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <com.fsck.k9.provider.AttachmentTempFileProvider: boolean deleteOldTemporaryFiles(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.fsck.k9.mail.filter.Base64: void <init>(int,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.fsck.k9.provider.AttachmentTempFileProvider: java.io.File getTempFileDirectory(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.fsck.k9.provider.DecryptedFileProvider: java.io.File getDecryptedTempDirectory(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <org.jetbrains.compose.resources.AndroidContextProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: java.lang.String getCallingPackage()>
+Caller: <app.k9mail.feature.migration.provider.SettingsProvider: boolean isTrustedCaller()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.fsck.k9.provider.AttachmentTempFileProvider: boolean deleteOldTemporaryFiles(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.fsck.k9.provider.DecryptedFileProvider: boolean deleteOldTemporaryFiles(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.fsck.k9.provider.RawMessageProvider$1: void writeTo(java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.InputStreamSource: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: boolean isSupported(java.lang.String)>
+Caller: <com.fsck.k9.mail.internet.CharsetSupport: java.lang.String readToString(java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: boolean isSupported(java.lang.String)>
+Caller: <com.fsck.k9.mail.internet.CharsetSupport: java.lang.String readToString(java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: boolean isSupported(java.lang.String)>
+Caller: <com.fsck.k9.mail.internet.CharsetSupport: java.lang.String readToString(java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: boolean isSupported(java.lang.String)>
+Caller: <com.fsck.k9.mail.internet.CharsetSupport: java.lang.String readToString(java.io.InputStream,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.fsck.k9.provider.AttachmentTempFileProvider: boolean deleteOldTemporaryFiles(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.fsck.k9.provider.DecryptedFileProvider: boolean deleteOldTemporaryFiles(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.fsck.k9.provider.DecryptedFileProvider: java.io.File getDecryptedTempDirectory(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.fsck.k9.provider.AttachmentTempFileProvider: java.io.File getTempFileDirectory(android.content.Context)>
+Thread: [UI]
+-------------------------

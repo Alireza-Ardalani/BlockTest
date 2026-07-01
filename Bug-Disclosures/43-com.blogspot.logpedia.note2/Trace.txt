@@ -1,0 +1,18 @@
+IO Target: <java.io.FileOutputStream: void write(byte[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.logpedia.note2.Note2Activity: void onPause()>
+    -> <java.io.FileOutputStream: void write(byte[])>
+
+IO Target: <java.io.FileInputStream: int read(byte[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.logpedia.note2.Note2Activity: void onCreate(android.os.Bundle)>
+    -> <java.io.FileInputStream: int read(byte[])>
+
+IO Target: <java.io.FileInputStream: int available()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.blogspot.logpedia.note2.Note2Activity: void onCreate(android.os.Bundle)>
+    -> <java.io.FileInputStream: int available()>
+

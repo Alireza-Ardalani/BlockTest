@@ -1,0 +1,198 @@
+Time1: 14.685996129
+Time2: 1.452556021
+Worker: 0
+UI: 48
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <no.nordicsemi.android.dfu.BaseCustomDfuImpl$BaseCustomBluetoothCallback: void handlePacketReceiptNotification(android.bluetooth.BluetoothGatt,android.bluetooth.BluetoothGattCharacteristic)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <no.nordicsemi.android.dfu.SecureDfuImpl: void sendFirmware(android.bluetooth.BluetoothGatt)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <no.nordicsemi.android.dfu.SecureDfuImpl: void sendFirmware(android.bluetooth.BluetoothGatt)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <no.nordicsemi.android.dfu.SecureDfuImpl: void sendFirmware(android.bluetooth.BluetoothGatt)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <no.nordicsemi.android.dfu.BaseCustomDfuImpl$BaseCustomBluetoothCallback: void onCharacteristicWrite(android.bluetooth.BluetoothGatt,android.bluetooth.BluetoothGattCharacteristic,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <no.nordicsemi.android.dfu.SecureDfuImpl: void sendInitPacket(android.bluetooth.BluetoothGatt)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <no.nordicsemi.android.dfu.BaseCustomDfuImpl: void uploadFirmwareImage(android.bluetooth.BluetoothGattCharacteristic)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <no.nordicsemi.android.dfu.internal.ArchiveInputStream: void parseZip(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <no.nordicsemi.android.dfu.BaseCustomDfuImpl: void writeInitData(android.bluetooth.BluetoothGattCharacteristic,java.util.zip.CRC32)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Caller: <mono.MonoRuntimeProvider: void attachInfo(android.content.Context,android.content.pm.ProviderInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void reset()>
+Caller: <no.nordicsemi.android.dfu.internal.HexInputStream: void reset()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <no.nordicsemi.android.dfu.BaseCustomDfuImpl: void writeInitData(android.bluetooth.BluetoothGattCharacteristic,java.util.zip.CRC32)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <no.nordicsemi.android.dfu.DfuBaseService: java.io.InputStream openInputStream(android.net.Uri,java.lang.String,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <no.nordicsemi.android.dfu.DfuBaseService: void onHandleIntent(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <no.nordicsemi.android.dfu.BaseCustomDfuImpl$BaseCustomBluetoothCallback: void handlePacketReceiptNotification(android.bluetooth.BluetoothGatt,android.bluetooth.BluetoothGattCharacteristic)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <no.nordicsemi.android.dfu.SecureDfuImpl: void sendFirmware(android.bluetooth.BluetoothGatt)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <no.nordicsemi.android.dfu.SecureDfuImpl: void sendFirmware(android.bluetooth.BluetoothGatt)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <no.nordicsemi.android.dfu.SecureDfuImpl: void sendFirmware(android.bluetooth.BluetoothGatt)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <no.nordicsemi.android.dfu.BaseCustomDfuImpl: void uploadFirmwareImage(android.bluetooth.BluetoothGattCharacteristic)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <no.nordicsemi.android.dfu.BaseCustomDfuImpl$BaseCustomBluetoothCallback: void onCharacteristicWrite(android.bluetooth.BluetoothGatt,android.bluetooth.BluetoothGattCharacteristic,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <no.nordicsemi.android.dfu.SecureDfuImpl: void sendInitPacket(android.bluetooth.BluetoothGatt)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <no.nordicsemi.android.dfu.internal.ArchiveInputStream: void parseZip(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <no.nordicsemi.android.dfu.DfuBaseService: void onDestroy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <no.nordicsemi.android.dfu.DfuBaseService: void onDestroy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <no.nordicsemi.android.dfu.internal.ArchiveInputStream: void parseZip(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <no.nordicsemi.android.dfu.DfuBaseService: void onDestroy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <no.nordicsemi.android.dfu.DfuBaseService: void onDestroy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <no.nordicsemi.android.dfu.internal.HexInputStream: long skip(java.io.InputStream,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <no.nordicsemi.android.dfu.internal.HexInputStream: long skip(java.io.InputStream,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <no.nordicsemi.android.dfu.DfuBaseService: void onHandleIntent(android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <no.nordicsemi.android.dfu.DfuBaseService: java.io.InputStream openInputStream(java.lang.String,java.lang.String,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <no.nordicsemi.android.dfu.BaseCustomDfuImpl: void writeInitData(android.bluetooth.BluetoothGattCharacteristic,java.util.zip.CRC32)>
+Thread: [UI]
+-------------------------

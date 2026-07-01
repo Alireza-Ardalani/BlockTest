@@ -1,0 +1,258 @@
+Time1: 6.4814944
+Time2: 0.710426806
+Worker: 21
+UI: 42
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.urbandroid.common.error.EmailIntentErrorDispatcher: java.io.File getSubmitDebugFile(com.urbandroid.common.error.ErrorReport$Type)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.urbandroid.common.error.EmailIntentErrorDispatcher: java.lang.Boolean sendDebugViaEmailIntent(java.lang.String,java.lang.String,com.urbandroid.common.error.ErrorReport$Type,java.lang.Throwable)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.urbandroid.common.error.EmailIntentErrorDispatcher: java.lang.Boolean sendDebugViaEmailIntent(java.lang.String,java.lang.String,com.urbandroid.common.error.ErrorReport$Type,java.lang.Throwable)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.urbandroid.common.util.Environment: boolean isWritable(java.io.File)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.urbandroid.common.error.EmailIntentErrorDispatcher: java.io.File getSubmitDebugFile(com.urbandroid.common.error.ErrorReport$Type)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.urbandroid.common.error.EmailIntentErrorDispatcher: java.lang.String loadErrorReport(java.io.File)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.urbandroid.common.file.ByteCountingInputStream: void close()>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.urbandroid.common.error.EmailIntentErrorDispatcher: java.lang.String loadErrorReport(java.io.File)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.urbandroid.common.error.EmailIntentErrorDispatcher: java.lang.Boolean sendDebugViaEmailIntent(java.lang.String,java.lang.String,com.urbandroid.common.error.ErrorReport$Type,java.lang.Throwable)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.urbandroid.common.error.EmailIntentErrorDispatcher: java.lang.String loadErrorReport(java.io.File)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.urbandroid.common.error.EmailIntentErrorDispatcher: java.lang.String loadErrorReport(java.io.File)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.urbandroid.common.error.EmailIntentErrorDispatcher: java.lang.String loadErrorReport(java.io.File)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedOutputStream: void write(byte[],int,int)>
+Caller: <com.urbandroid.common.file.FileCopyUtils: void copyFile(java.lang.String,java.lang.String,java.io.InputStream,java.io.FileOutputStream)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.urbandroid.common.util.Environment: boolean canCreateFile(java.io.File)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.urbandroid.common.error.EmailIntentErrorDispatcher: java.lang.Boolean sendDebugViaEmailIntent(java.lang.String,java.lang.String,com.urbandroid.common.error.ErrorReport$Type,java.lang.Throwable)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.urbandroid.common.util.Environment: boolean isWritable(java.io.File)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.urbandroid.common.file.FileCopyUtils: void copyPrivateFileToSdCardFile(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.urbandroid.common.util.Environment: boolean canCreateFile(java.io.File)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.urbandroid.common.error.EmailIntentErrorDispatcher: java.lang.Boolean sendDebugViaEmailIntent(java.lang.String,java.lang.String,com.urbandroid.common.error.ErrorReport$Type,java.lang.Throwable)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.urbandroid.common.util.Environment: boolean isWritable(java.io.File)>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.urbandroid.common.file.ByteCountingInputStream: int read(byte[])>
+Thread: [<com.urbandroid.common.error.EmailIntentErrorDispatcher$Submitter: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serializePersistentLogFiles(java.io.OutputStream,java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serializePersistentLogFiles(java.io.OutputStream,java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.ErrorReporter: void serializeException(java.lang.Thread,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serzializeErrorReport(android.content.Context,com.urbandroid.common.error.ErrorReport,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serzializeErrorReport(android.content.Context,com.urbandroid.common.error.ErrorReport,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serzializeErrorReport(android.content.Context,com.urbandroid.common.error.ErrorReport,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serzializeErrorReport(android.content.Context,com.urbandroid.common.error.ErrorReport,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serializePersistentLogFiles(java.io.OutputStream,java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serializeInMemoryLogs(java.io.OutputStream,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serializeAdditionalLogs(java.io.OutputStream,com.urbandroid.common.logging.Logger$LogConfig,java.util.List,java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serzializeErrorReport(android.content.Context,com.urbandroid.common.error.ErrorReport,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serzializeErrorReport(android.content.Context,com.urbandroid.common.error.ErrorReport,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.EmailIntentErrorDispatcher: void saveDebugReport(com.urbandroid.common.error.ErrorReport,java.lang.String,com.urbandroid.common.error.ErrorReport$Type)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serzializeErrorReport(android.content.Context,com.urbandroid.common.error.ErrorReport,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serzializeErrorReport(android.content.Context,com.urbandroid.common.error.ErrorReport,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serzializeErrorReport(android.content.Context,com.urbandroid.common.error.ErrorReport,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serzializeErrorReport(android.content.Context,com.urbandroid.common.error.ErrorReport,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.ErrorReporter: void serializeException(java.lang.Thread,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serializeAdditionalLogs(java.io.OutputStream,com.urbandroid.common.logging.Logger$LogConfig,java.util.List,java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serializeInMemoryLogs(java.io.OutputStream,java.util.List)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serzializeErrorReport(android.content.Context,com.urbandroid.common.error.ErrorReport,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.ErrorReporter: void serializeException(java.lang.Thread,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serzializeErrorReport(android.content.Context,com.urbandroid.common.error.ErrorReport,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.urbandroid.common.util.RootUtil: boolean checkRootMethod2()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serializeLogFiles(java.io.OutputStream,java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.urbandroid.common.error.EmailIntentErrorDispatcher: void performStartupRecovery()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.urbandroid.common.logging.Logger: java.io.File[] getPersistentBufferFiles(android.content.Context,com.urbandroid.common.logging.Logger$LogConfig)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.urbandroid.common.error.EmailIntentErrorDispatcher: void performStartupRecovery()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.urbandroid.common.logging.Logger: java.io.File[] getPersistentBufferFiles(android.content.Context,com.urbandroid.common.logging.Logger$LogConfig)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serializeLogFiles(java.io.OutputStream,java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.urbandroid.common.util.RootUtil$ExecShell: java.util.ArrayList executeCommand(com.urbandroid.common.util.RootUtil$ExecShell$SHELL_CMD)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.urbandroid.common.error.LogCatExtractor: java.util.List getLogcatOutput(java.lang.String,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serializeLogFiles(java.io.OutputStream,java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serializeLogFiles(java.io.OutputStream,java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serializeLogFiles(java.io.OutputStream,java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.urbandroid.common.error.ErrorReporter: java.lang.String loadPastExceptions(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serializeLogFiles(java.io.OutputStream,java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.urbandroid.common.error.EmailIntentErrorDispatcher: void saveDebugReport(com.urbandroid.common.error.ErrorReport,java.lang.String,com.urbandroid.common.error.ErrorReport$Type)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.urbandroid.common.error.ErrorReporter: void serializeException(java.lang.Thread,java.lang.Throwable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.urbandroid.common.error.DefaultErrorReportSerializer: void serializeLogFiles(java.io.OutputStream,java.io.File[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.urbandroid.common.error.ErrorReporter: java.lang.String loadPastExceptions(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.urbandroid.common.util.RootUtil$ExecShell: java.util.ArrayList executeCommand(com.urbandroid.common.util.RootUtil$ExecShell$SHELL_CMD)>
+Thread: [UI]
+-------------------------

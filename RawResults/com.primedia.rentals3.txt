@@ -1,0 +1,594 @@
+Time1: 39.07792358
+Time2: 1.021296952
+Worker: 42
+UI: 105
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.InetAddress: java.lang.String getHostName()>
+Caller: <crittercism.android.c: java.lang.String a()>
+Thread: [<crittercism.android.e$a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.common.model.data.NetworkManager: void addRequestInfo(java.lang.String,java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object)>
+Thread: [<com.common.util.analytic.PRMAnalyticsManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.common.util.analytic.TagManager: void addTag(com.common.util.analytic.Tag)>
+Thread: [<com.common.util.analytic.PRMAnalyticsManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(boolean,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.common.util.analytic.TagManager: boolean hasNextTag()>
+Thread: [<com.common.util.analytic.PRMAnalyticsManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(boolean,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.common.util.analytic.TagManager: com.common.util.analytic.Tag getNextTag()>
+Thread: [<com.common.util.analytic.PRMAnalyticsManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.common.util.analytic.TagManager: void resetTagPriorities()>
+Thread: [<com.common.util.analytic.PRMAnalyticsManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.common.util.analytic.TagManager: com.common.util.analytic.Tag getNextTag()>
+Thread: [<com.common.util.analytic.PRMAnalyticsManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void deleteIfExists(java.io.File)>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: boolean remove(java.lang.String)>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.common.model.data.NetworkManager: android.database.sqlite.SQLiteDatabase getDatabaseInstance()>
+Thread: [<com.common.util.analytic.PRMAnalyticsManager$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.common.util.analytic.TagManager: android.database.sqlite.SQLiteDatabase getDatabaseInstance()>
+Thread: [<com.common.util.analytic.PRMAnalyticsManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.common.util.analytic.AnalyticOperation: java.lang.String convertStreamToString(java.io.InputStream)>
+Thread: [<com.common.util.analytic.PRMAnalyticsManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void renameTo(java.io.File,java.io.File,boolean)>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: boolean remove(java.lang.String)>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void deleteIfExists(java.io.File)>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.common.model.data.NetworkManager: void addRequestInfo(java.lang.String,java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object)>
+Thread: [<com.common.util.analytic.PRMAnalyticsManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.common.model.data.NetworkManager: void addRequestInfo(java.lang.String,java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object)>
+Thread: [<com.common.util.analytic.PRMAnalyticsManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.common.model.data.NetworkManager: void addRequestInfo(java.lang.String,java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object)>
+Thread: [<com.common.util.analytic.PRMAnalyticsManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: boolean remove(java.lang.String)>
+Thread: [<com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$1: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutput: void writeObject(java.lang.Object)>
+Caller: <com.common.model.data.NetworkManager: void addRequestInfo(java.lang.String,java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object)>
+Thread: [<com.common.util.analytic.PRMAnalyticsManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutput: void writeObject(java.lang.Object)>
+Caller: <com.common.model.data.NetworkManager: void addRequestInfo(java.lang.String,java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object)>
+Thread: [<com.common.util.analytic.PRMAnalyticsManager$1: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectOutput: void writeObject(java.lang.Object)>
+Caller: <com.common.model.data.NetworkManager: void addRequestInfo(java.lang.String,java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object)>
+Thread: [<com.common.util.analytic.PRMAnalyticsManager$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.Util: void deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.common.service.search.SearchManager: void copyDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.Util: void deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.lang.String getHostName()>
+Caller: <crittercism.android.c: java.lang.String a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.common.util.analytic.TagManager: void addTag(com.common.util.analytic.Tag)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void <init>()>
+Caller: <crittercism.android.i: boolean h()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.StrictLineReader: void fillBuf()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.google.android.gms.analytics.h: java.lang.String dW()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.crittercism.app.Crittercism: void initialize(android.content.Context,java.lang.String,com.crittercism.app.CrittercismConfig)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <crittercism.android.m: boolean b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <crittercism.android.i: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <crittercism.android.m: java.net.URLConnection a(java.net.URL,java.net.Proxy)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <crittercism.android.cl: java.net.URL a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: int read()>
+Caller: <crittercism.android.cu: org.json.JSONObject a(java.net.URLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void completeEdit(com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.common.util.UtilityManager: java.lang.String encode(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <crittercism.android.cu: void a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.google.android.gms.analytics.h: boolean ad(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.StrictLineReader: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.google.android.gms.analytics.h: java.lang.String dW()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.google.android.gms.analytics.h: java.lang.String dW()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.google.android.gms.analytics.h: java.lang.String dW()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: boolean remove(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.common.service.search.SearchManager: void deleteDatabase(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache open(java.io.File,int,int,long,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.common.service.search.SearchManager: void deleteDatabase(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void deleteIfExists(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.common.service.search.SearchManager: void deleteDatabase(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.Util: void deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.common.service.search.SearchManager: void deleteDatabase(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.Util: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void flush()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void completeEdit(com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache open(java.io.File,int,int,long,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.google.android.gms.analytics.h: boolean ad(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.common.service.search.SearchManager: void copyDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.common.service.search.SearchManager: void copyDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.nostra13.universalimageloader.utils.StorageUtils: java.io.File getExternalCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.nostra13.universalimageloader.utils.StorageUtils: java.io.File getIndividualCacheDirectory(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.nostra13.universalimageloader.core.DefaultConfigurationFactory: java.io.File createReserveDiskCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void readJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor: java.io.InputStream newInputStream(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.common.util.analytic.TagManager: android.database.sqlite.SQLiteDatabase getDatabaseInstance()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache open(java.io.File,int,int,long,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor: void set(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.Util: java.lang.String readFully(java.io.Reader)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor: java.io.OutputStream newOutputStream(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor: java.io.OutputStream newOutputStream(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <crittercism.android.cu: org.json.JSONObject a(java.net.URLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void completeEdit(com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void completeEdit(com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor: void set(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.StrictLineReader: void fillBuf()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache open(java.io.File,int,int,long,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.common.service.search.SearchManager: void importIfNotExist(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor: java.io.OutputStream newOutputStream(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.nostra13.universalimageloader.utils.StorageUtils: java.io.File getExternalCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.Util: java.lang.String readFully(java.io.Reader)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.Util: java.lang.String readFully(java.io.Reader)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void completeEdit(com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void renameTo(java.io.File,java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.common.util.TypeFaceUtil: void overrideFont(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.StrictLineReader: java.lang.String readLine()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.StrictLineReader: java.lang.String readLine()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void close()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void rebuildJournal()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache open(java.io.File,int,int,long,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.nostra13.universalimageloader.utils.StorageUtils: java.io.File getExternalCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.crittercism.app.Crittercism: void initialize(android.content.Context,java.lang.String,com.crittercism.app.CrittercismConfig)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.comscore.utils.RootDetector: boolean b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void completeEdit(com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void completeEdit(com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: void deleteIfExists(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache open(java.io.File,int,int,long,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: boolean remove(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.nostra13.universalimageloader.utils.StorageUtils: java.io.File getIndividualCacheDirectory(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.nostra13.universalimageloader.core.DefaultConfigurationFactory: java.io.File createReserveDiskCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache open(java.io.File,int,int,long,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.common.service.search.SearchManager: void importIfNotExist(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)>
+Caller: <crittercism.android.v: boolean e()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)>
+Caller: <crittercism.android.v: boolean b()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <crittercism.android.cu: void a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <crittercism.android.m: java.net.URLConnection a(java.net.URL,java.net.Proxy)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache: boolean remove(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.common.service.search.SearchManager: void copyDatabase(android.content.Context)>
+Thread: [UI]
+-------------------------

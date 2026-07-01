@@ -1,0 +1,226 @@
+Time1: 174.90461037
+Time2: 5.170816795
+Worker: 17
+UI: 38
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,com.getkeepsafe.relinker.ReLinkerInstance)>
+Thread: [<com.getkeepsafe.relinker.ReLinkerInstance$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,com.getkeepsafe.relinker.ReLinkerInstance)>
+Thread: [<com.getkeepsafe.relinker.ReLinkerInstance$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: long c(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.getkeepsafe.relinker.ReLinkerInstance$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,com.getkeepsafe.relinker.ReLinkerInstance)>
+Thread: [<com.getkeepsafe.relinker.ReLinkerInstance$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: long c(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.getkeepsafe.relinker.ReLinkerInstance$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: void b(java.io.Closeable)>
+Thread: [<com.getkeepsafe.relinker.ReLinkerInstance$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,com.getkeepsafe.relinker.ReLinkerInstance)>
+Thread: [<com.getkeepsafe.relinker.ReLinkerInstance$1: void run()>]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.getkeepsafe.relinker.elf.ElfParser: void close()>
+Thread: [<com.getkeepsafe.relinker.ReLinkerInstance$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.getkeepsafe.relinker.ReLinkerInstance: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<com.getkeepsafe.relinker.ReLinkerInstance$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,com.getkeepsafe.relinker.ReLinkerInstance)>
+Thread: [<com.getkeepsafe.relinker.ReLinkerInstance$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.getkeepsafe.relinker.ReLinkerInstance: void g(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<com.getkeepsafe.relinker.ReLinkerInstance$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.getkeepsafe.relinker.elf.ElfParser: void <init>(java.io.File)>
+Thread: [<com.getkeepsafe.relinker.ReLinkerInstance$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,com.getkeepsafe.relinker.ReLinkerInstance)>
+Thread: [<com.getkeepsafe.relinker.ReLinkerInstance$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean setExecutable(boolean,boolean)>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,com.getkeepsafe.relinker.ReLinkerInstance)>
+Thread: [<com.getkeepsafe.relinker.ReLinkerInstance$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.getkeepsafe.relinker.ReLinkerInstance: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [<com.getkeepsafe.relinker.ReLinkerInstance$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: long c(java.io.InputStream,java.io.OutputStream)>
+Thread: [<com.getkeepsafe.relinker.ReLinkerInstance$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.getkeepsafe.relinker.elf.ElfParser: void <init>(java.io.File)>
+Thread: [<com.getkeepsafe.relinker.ReLinkerInstance$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <coil.disk.DiskCache$Builder: coil.disk.DiskCache a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setWritable(boolean)>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,com.getkeepsafe.relinker.ReLinkerInstance)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,com.getkeepsafe.relinker.ReLinkerInstance)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: long c(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,com.getkeepsafe.relinker.ReLinkerInstance)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: long c(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: void b(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,com.getkeepsafe.relinker.ReLinkerInstance)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.channels.spi.AbstractInterruptibleChannel: void close()>
+Caller: <com.getkeepsafe.relinker.elf.ElfParser: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.getkeepsafe.relinker.ReLinkerInstance: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FileFilter)>
+Caller: <io.realm.internal.async.RealmThreadPoolExecutor: int b(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <coil.network.RealNetworkObserver: void <init>(android.net.ConnectivityManager,coil.network.NetworkObserver$Listener)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <coil.network.RealNetworkObserver: void <init>(android.net.ConnectivityManager,coil.network.NetworkObserver$Listener)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Proxy$Type: java.net.Proxy$Type[] values()>
+Caller: <io.realm.internal.OsRealmConfig$1: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,com.getkeepsafe.relinker.ReLinkerInstance)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,com.getkeepsafe.relinker.ReLinkerInstance)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.realm.Realm: void X(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.getkeepsafe.relinker.elf.ElfParser: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.realm.Realm: void X(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.realm.Realm: void X(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.getkeepsafe.relinker.ReLinkerInstance: void g(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.realm.Realm: void X(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String e(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void a(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setExecutable(boolean,boolean)>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: void a(android.content.Context,java.lang.String[],java.lang.String,java.io.File,com.getkeepsafe.relinker.ReLinkerInstance)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <coil.network.RealNetworkObserver: void shutdown()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.getkeepsafe.relinker.ReLinkerInstance: void b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.getkeepsafe.relinker.ApkLibraryInstaller: long c(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <coil.util.'-Utils': java.io.File n(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.realm.internal.OsSharedRealm: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.realm.Realm: void X(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <io.realm.internal.OsSharedRealm: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <io.realm.internal.OsSharedRealm: void initialize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerDefaultNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.lokalise.sdk.Lokalise: void registerInternetConnectionCallback(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.getkeepsafe.relinker.elf.ElfParser: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String a()>
+Thread: [UI]
+-------------------------

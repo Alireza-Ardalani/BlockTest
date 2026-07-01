@@ -1,0 +1,1090 @@
+Time1: 325.198509245
+Time2: 12.995477435
+Worker: 141
+UI: 130
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [<android.os.AsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [<io.branch.referral.ServerRequestQueue$BranchPostTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.clevertap.android.sdk.bitmap.GzipBitmapInputStreamReader: com.clevertap.android.sdk.network.DownloadedBitmap readInputStream(java.io.InputStream,java.net.HttpURLConnection,long)>
+Thread: [<com.clevertap.android.sdk.bitmap.BitmapDownloadRequestHandlerWithTimeLimit$$ExternalSyntheticLambda0: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.URLConnection: int getContentLength()>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapInputStreamDecoder: com.clevertap.android.sdk.network.DownloadedBitmap readInputStream(java.io.InputStream,java.net.HttpURLConnection,long)>
+Thread: [<com.clevertap.android.sdk.bitmap.BitmapDownloadRequestHandlerWithTimeLimit$$ExternalSyntheticLambda0: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.URLConnection: int getContentLength()>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapDownloader: com.clevertap.android.sdk.network.DownloadedBitmap downloadBitmap(java.lang.String)>
+Thread: [<com.clevertap.android.sdk.bitmap.BitmapDownloadRequestHandlerWithTimeLimit$$ExternalSyntheticLambda0: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String getContentEncoding()>
+Caller: <com.clevertap.android.sdk.bitmap.GzipBitmapInputStreamReader: com.clevertap.android.sdk.network.DownloadedBitmap readInputStream(java.io.InputStream,java.net.HttpURLConnection,long)>
+Thread: [<com.clevertap.android.sdk.bitmap.BitmapDownloadRequestHandlerWithTimeLimit$$ExternalSyntheticLambda0: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.ads.identifier.AdvertisingIdClient: void zzb(boolean)>
+Thread: [<io.branch.coroutines.AdvertisingIdsKt$getGoogleAdvertisingInfoObject$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.ads.identifier.AdvertisingIdClient: void zzb(boolean)>
+Thread: [<io.branch.coroutines.AdvertisingIdsKt$getGoogleAdvertisingInfoObject$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.rollbar.notifier.sender.SyncSender: void sendJson(java.net.HttpURLConnection,byte[])>
+Thread: [<com.rollbar.notifier.sender.BufferedSender$SendTask: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection(java.net.Proxy)>
+Caller: <com.rollbar.notifier.sender.SyncSender: java.net.HttpURLConnection getConnection()>
+Thread: [<com.rollbar.notifier.sender.BufferedSender$SendTask: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [<io.branch.referral.ServerRequestQueue$BranchPostTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [<android.os.AsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: com.rollbar.api.payload.Payload read(java.io.File,boolean)>
+Thread: [<com.rollbar.notifier.sender.BufferedSender$SendTask: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void cleanInternal(com.clevertap.android.sdk.db.Table,long)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void cleanupEventsFromLastId(java.lang.String,com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void removeEvents(com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void cleanInternal(com.clevertap.android.sdk.db.Table,long)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void removeEvents(com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void cleanupEventsFromLastId(java.lang.String,com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeObject(org.json.JSONObject,com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeObject(org.json.JSONObject,com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.rollbar.notifier.sender.SyncSender: java.lang.String getResponseContent(java.net.HttpURLConnection)>
+Thread: [<com.rollbar.notifier.sender.BufferedSender$SendTask: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean eventExistsByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean eventExistsByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean updateEventByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean cleanUpExtraEvents(int,int)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean cleanUpExtraEvents(int,int)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean updateEventByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: com.clevertap.android.sdk.usereventlogs.UserEventLog readEventByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean eventExistsByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: com.clevertap.android.sdk.usereventlogs.UserEventLog readEventByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: int readEventCountByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: int readEventCountByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: java.lang.String[] fetchPushNotificationIds()>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: org.json.JSONObject fetchEvents(com.clevertap.android.sdk.db.Table,int)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean eventExistsByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: org.json.JSONObject fetchUserProfileByAccountIdAndDeviceID(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: java.util.Map fetchUserProfilesByAccountId(java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: org.json.JSONObject fetchEvents(com.clevertap.android.sdk.db.Table,int)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: java.lang.String[] fetchPushNotificationIds()>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: org.json.JSONObject fetchUserProfileByAccountIdAndDeviceID(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: java.util.Map fetchUserProfilesByAccountId(java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.File: long getUsableSpace()>
+Caller: <com.clevertap.android.sdk.db.DatabaseHelper: boolean belowMemThreshold()>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long getUsableSpace()>
+Caller: <com.clevertap.android.sdk.db.DatabaseHelper: boolean belowMemThreshold()>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [<io.branch.referral.ServerRequestQueue$BranchPostTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [<android.os.AsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.clevertap.android.sdk.cryption.DataMigrationRepository: void inAppDataFiles(java.util.List,kotlin.jvm.functions.Function1)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.clevertap.android.sdk.cryption.DataMigrationRepository: void inAppDataFiles(java.util.List,kotlin.jvm.functions.Function1)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: java.util.List getFiles()>
+Thread: [<com.rollbar.notifier.sender.BufferedSender$SendTask: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: com.rollbar.api.payload.Payload read(java.io.File,boolean)>
+Thread: [<com.rollbar.notifier.sender.BufferedSender$SendTask: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.clevertap.android.sdk.db.DatabaseHelper: void deleteDatabase()>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: com.rollbar.api.payload.Payload read(java.io.File,boolean)>
+Thread: [<com.rollbar.notifier.sender.BufferedSender$SendTask: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.clevertap.android.sdk.db.DatabaseHelper: void deleteDatabase()>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: com.rollbar.api.payload.Payload read(java.io.File,boolean)>
+Thread: [<com.rollbar.notifier.sender.BufferedSender$SendTask: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.clevertap.android.sdk.db.DatabaseHelper: boolean belowMemThreshold()>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.clevertap.android.sdk.db.DatabaseHelper: boolean belowMemThreshold()>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: java.lang.String getResponseString(java.io.InputStream)>
+Thread: [<io.branch.referral.ServerRequestQueue$BranchPostTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: java.lang.String getResponseString(java.io.InputStream)>
+Thread: [<android.os.AsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.rollbar.notifier.sender.SyncSender: java.lang.String getResponseContent(java.net.HttpURLConnection)>
+Thread: [<com.rollbar.notifier.sender.BufferedSender$SendTask: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [<android.os.AsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [<io.branch.referral.ServerRequestQueue$BranchPostTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapInputStreamDecoder: com.clevertap.android.sdk.network.DownloadedBitmap readInputStream(java.io.InputStream,java.net.HttpURLConnection,long)>
+Thread: [<com.clevertap.android.sdk.bitmap.BitmapDownloadRequestHandlerWithTimeLimit$$ExternalSyntheticLambda0: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.clevertap.android.sdk.bitmap.GzipBitmapInputStreamReader: com.clevertap.android.sdk.network.DownloadedBitmap readInputStream(java.io.InputStream,java.net.HttpURLConnection,long)>
+Thread: [<com.clevertap.android.sdk.bitmap.BitmapDownloadRequestHandlerWithTimeLimit$$ExternalSyntheticLambda0: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.rollbar.notifier.util.ObjectsUtils: void close(java.io.Closeable)>
+Thread: [<com.rollbar.notifier.sender.BufferedSender$SendTask: void run()>]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: com.rollbar.api.payload.Payload read(java.io.File,boolean)>
+Thread: [<com.rollbar.notifier.sender.BufferedSender$SendTask: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: java.lang.String getResponseString(java.io.InputStream)>
+Thread: [<io.branch.referral.ServerRequestQueue$BranchPostTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.rollbar.notifier.sender.SyncSender: java.lang.String getResponseContent(java.net.HttpURLConnection)>
+Thread: [<com.rollbar.notifier.sender.BufferedSender$SendTask: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: java.lang.String getResponseString(java.io.InputStream)>
+Thread: [<android.os.AsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.clevertap.android.sdk.db.DatabaseHelper: boolean belowMemThreshold()>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.clevertap.android.sdk.db.DatabaseHelper: boolean belowMemThreshold()>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeObject(org.json.JSONObject,com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeObject(org.json.JSONObject,com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.net.TrafficStats: void setThreadStatsTag(int)>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [<io.branch.referral.ServerRequestQueue$BranchPostTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.net.TrafficStats: void setThreadStatsTag(int)>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapDownloader: com.clevertap.android.sdk.network.DownloadedBitmap downloadBitmap(java.lang.String)>
+Thread: [<com.clevertap.android.sdk.bitmap.BitmapDownloadRequestHandlerWithTimeLimit$$ExternalSyntheticLambda0: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.net.TrafficStats: void setThreadStatsTag(int)>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [<android.os.AsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeObject(org.json.JSONObject,com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeObject(org.json.JSONObject,com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeUserProfile(java.lang.String,java.lang.String,org.json.JSONObject)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: long insertEvent(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeUserProfile(java.lang.String,java.lang.String,org.json.JSONObject)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: long insertEvent(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapDownloader: java.net.HttpURLConnection createConnection(java.net.URL)>
+Thread: [<com.clevertap.android.sdk.bitmap.BitmapDownloadRequestHandlerWithTimeLimit$$ExternalSyntheticLambda0: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulGet(java.lang.String,int)>
+Thread: [<io.branch.referral.ServerRequestQueue$BranchPostTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulGet(java.lang.String,int)>
+Thread: [<android.os.AsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [<io.branch.referral.ServerRequestQueue$BranchPostTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [<android.os.AsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.net.TrafficStats: void clearThreadStatsTag()>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapDownloader: com.clevertap.android.sdk.network.DownloadedBitmap downloadBitmap(java.lang.String)>
+Thread: [<com.clevertap.android.sdk.bitmap.BitmapDownloadRequestHandlerWithTimeLimit$$ExternalSyntheticLambda0: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.net.TrafficStats: void clearThreadStatsTag()>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapDownloader: com.clevertap.android.sdk.network.DownloadedBitmap downloadBitmap(java.lang.String)>
+Thread: [<com.clevertap.android.sdk.bitmap.BitmapDownloadRequestHandlerWithTimeLimit$$ExternalSyntheticLambda0: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.net.TrafficStats: void clearThreadStatsTag()>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapDownloader: com.clevertap.android.sdk.network.DownloadedBitmap downloadBitmap(java.lang.String)>
+Thread: [<com.clevertap.android.sdk.bitmap.BitmapDownloadRequestHandlerWithTimeLimit$$ExternalSyntheticLambda0: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void cleanInternal(com.clevertap.android.sdk.db.Table,long)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean updateEventByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void cleanInternal(com.clevertap.android.sdk.db.Table,long)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean cleanUpExtraEvents(int,int)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void removeEvents(com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean updateEventByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void cleanupEventsFromLastId(java.lang.String,com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean cleanUpExtraEvents(int,int)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeObject(org.json.JSONObject,com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: long insertEvent(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeObject(org.json.JSONObject,com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeUserProfile(java.lang.String,java.lang.String,org.json.JSONObject)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeObject(org.json.JSONObject,com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeUserProfile(java.lang.String,java.lang.String,org.json.JSONObject)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void cleanupEventsFromLastId(java.lang.String,com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void removeEvents(com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: long insertEvent(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeObject(org.json.JSONObject,com.clevertap.android.sdk.db.Table)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulGet(java.lang.String,int)>
+Thread: [<android.os.AsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [<android.os.AsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulGet(java.lang.String,int)>
+Thread: [<io.branch.referral.ServerRequestQueue$BranchPostTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapDownloader: com.clevertap.android.sdk.network.DownloadedBitmap downloadBitmap(java.lang.String)>
+Thread: [<com.clevertap.android.sdk.bitmap.BitmapDownloadRequestHandlerWithTimeLimit$$ExternalSyntheticLambda0: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [<io.branch.referral.ServerRequestQueue$BranchPostTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapInputStreamDecoder: com.clevertap.android.sdk.network.DownloadedBitmap readInputStream(java.io.InputStream,java.net.HttpURLConnection,long)>
+Thread: [<com.clevertap.android.sdk.bitmap.BitmapDownloadRequestHandlerWithTimeLimit$$ExternalSyntheticLambda0: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: org.json.JSONObject fetchUserProfileByAccountIdAndDeviceID(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: java.util.Map fetchUserProfilesByAccountId(java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: java.util.Map fetchUserProfilesByAccountId(java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: java.lang.String[] fetchPushNotificationIds()>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: org.json.JSONObject fetchUserProfileByAccountIdAndDeviceID(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: java.lang.String[] fetchPushNotificationIds()>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: com.clevertap.android.sdk.usereventlogs.UserEventLog readEventByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: com.clevertap.android.sdk.usereventlogs.UserEventLog readEventByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: int readEventCountByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: int readEventCountByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: org.json.JSONObject fetchEvents(com.clevertap.android.sdk.db.Table,int)>
+Thread: [<com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: org.json.JSONObject fetchEvents(com.clevertap.android.sdk.db.Table,int)>
+Thread: [<com.clevertap.android.sdk.pushnotification.work.CTFlushPushImpressionsWork: androidx.work.ListenableWorker$Result doWork()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.clevertap.android.sdk.bitmap.GzipBitmapInputStreamReader: com.clevertap.android.sdk.network.DownloadedBitmap readInputStream(java.io.InputStream,java.net.HttpURLConnection,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.rollbar.notifier.util.ObjectsUtils: void close(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: int getContentLength()>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapDownloader: com.clevertap.android.sdk.network.DownloadedBitmap downloadBitmap(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: int getContentLength()>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapInputStreamDecoder: com.clevertap.android.sdk.network.DownloadedBitmap readInputStream(java.io.InputStream,java.net.HttpURLConnection,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.getcapacitor.AndroidProtocolHandler: java.io.InputStream openContentUrl(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String getContentEncoding()>
+Caller: <com.clevertap.android.sdk.bitmap.GzipBitmapInputStreamReader: com.clevertap.android.sdk.network.DownloadedBitmap readInputStream(java.io.InputStream,java.net.HttpURLConnection,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.rollbar.notifier.sender.SyncSender: void sendJson(java.net.HttpURLConnection,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.NetworkInterface: java.util.Enumeration getNetworkInterfaces()>
+Caller: <io.branch.referral.SystemObserver: java.lang.String getLocalIPAddress()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: void <init>(com.rollbar.notifier.sender.queue.DiskQueue$Builder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection(java.net.Proxy)>
+Caller: <com.rollbar.notifier.sender.SyncSender: java.net.HttpURLConnection getConnection()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: com.rollbar.api.payload.Payload read(java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: void writeToFile(com.rollbar.api.payload.Payload)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: void <init>(com.rollbar.notifier.sender.queue.DiskQueue$Builder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void cleanupEventsFromLastId(java.lang.String,com.clevertap.android.sdk.db.Table)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void removeEvents(com.clevertap.android.sdk.db.Table)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void cleanInternal(com.clevertap.android.sdk.db.Table,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeObject(org.json.JSONObject,com.clevertap.android.sdk.db.Table)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.rollbar.notifier.sender.SyncSender: java.lang.String getResponseContent(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean eventExistsByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean updateEventByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean cleanUpExtraEvents(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <io.branch.referral.AppStoreReferrer: void processReferrerInfo(android.content.Context,java.lang.String,long,long,java.lang.String,java.lang.Boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <io.branch.referral.AppStoreReferrer: void processReferrerInfo(android.content.Context,java.lang.String,long,long,java.lang.String,java.lang.Boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <io.branch.referral.AppStoreReferrer: void processReferrerInfo(android.content.Context,java.lang.String,long,long,java.lang.String,java.lang.Boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: void writeToFile(com.rollbar.api.payload.Payload)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: com.clevertap.android.sdk.usereventlogs.UserEventLog readEventByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: java.lang.String fetchPushNotificationId(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: int readEventCountByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean eventExistsByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: org.json.JSONObject fetchEvents(com.clevertap.android.sdk.db.Table,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: java.lang.String[] fetchPushNotificationIds()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: java.util.Map fetchUserProfilesByAccountId(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: org.json.JSONObject fetchUserProfileByAccountIdAndDeviceID(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long getUsableSpace()>
+Caller: <com.clevertap.android.sdk.db.DatabaseHelper: boolean belowMemThreshold()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String guessContentTypeFromStream(java.io.InputStream)>
+Caller: <com.getcapacitor.WebViewLocalServer: java.lang.String getMimeType(java.lang.String,java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String guessContentTypeFromName(java.lang.String)>
+Caller: <com.getcapacitor.WebViewLocalServer: java.lang.String getMimeType(java.lang.String,java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.clevertap.android.sdk.cryption.DataMigrationRepository: void inAppDataFiles(java.util.List,kotlin.jvm.functions.Function1)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: java.util.List getFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: com.rollbar.api.payload.Payload read(java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.getcapacitor.AndroidProtocolHandler: java.io.InputStream openFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: com.rollbar.api.payload.Payload read(java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.clevertap.android.sdk.db.DatabaseHelper: void deleteDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: com.rollbar.api.payload.Payload read(java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: void <init>(com.rollbar.notifier.sender.queue.DiskQueue$Builder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.getcapacitor.Bridge: void loadWebView()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.clevertap.android.sdk.db.DatabaseHelper: boolean belowMemThreshold()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.getcapacitor.PluginManager: org.json.JSONArray parsePluginsJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: java.lang.String getResponseString(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.rollbar.notifier.sender.SyncSender: java.lang.String getResponseContent(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.getcapacitor.FileUtils: java.lang.String readFileFromAssets(android.content.res.AssetManager,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.getcapacitor.FileUtils: java.lang.String readFileFromAssets(android.content.res.AssetManager,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.getcapacitor.PluginManager: org.json.JSONArray parsePluginsJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapInputStreamDecoder: com.clevertap.android.sdk.network.DownloadedBitmap readInputStream(java.io.InputStream,java.net.HttpURLConnection,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.clevertap.android.sdk.bitmap.GzipBitmapInputStreamReader: com.clevertap.android.sdk.network.DownloadedBitmap readInputStream(java.io.InputStream,java.net.HttpURLConnection,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.rollbar.notifier.util.ObjectsUtils: void close(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: int read(char[],int,int)>
+Caller: <com.getcapacitor.JSInjector: java.lang.String readAssetStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.nio.file.Path toPath()>
+Caller: <com.clevertap.android.sdk.Utils: android.net.Uri saveGifToFileAndGetUri(byte[],android.content.Context,com.clevertap.android.sdk.CleverTapInstanceConfig,com.clevertap.android.sdk.utils.Clock)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.getcapacitor.BridgeWebChromeClient: java.io.File createImageFile(android.app.Activity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: com.rollbar.api.payload.Payload read(java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.rollbar.android.provider.ClientProvider: java.util.ArrayList getLogcatInfo()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: java.lang.String getResponseString(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.rollbar.notifier.sender.SyncSender: java.lang.String getResponseContent(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.branch.referral.BranchJsonConfig: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.getcapacitor.FileUtils: java.lang.String readFileFromAssets(android.content.res.AssetManager,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.getcapacitor.PluginManager: org.json.JSONArray parsePluginsJSON()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.file.Files: java.nio.file.Path write(java.nio.file.Path,byte[],java.nio.file.OpenOption[])>
+Caller: <com.clevertap.android.sdk.Utils: android.net.Uri saveGifToFileAndGetUri(byte[],android.content.Context,com.clevertap.android.sdk.CleverTapInstanceConfig,com.clevertap.android.sdk.utils.Clock)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: void <init>(com.rollbar.notifier.sender.queue.DiskQueue$Builder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.clevertap.android.sdk.db.DatabaseHelper: boolean belowMemThreshold()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteStatement: long simpleQueryForLong()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeObject(org.json.JSONObject,com.clevertap.android.sdk.db.Table)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.rollbar.notifier.truncation.PayloadTruncator: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.TrafficStats: void setThreadStatsTag(int)>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.TrafficStats: void setThreadStatsTag(int)>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapDownloader: com.clevertap.android.sdk.network.DownloadedBitmap downloadBitmap(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void storePushNotificationId(java.lang.String,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeObject(org.json.JSONObject,com.clevertap.android.sdk.db.Table)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void storeUninstallTimestamp()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: long insertEvent(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeUserProfile(java.lang.String,java.lang.String,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.getcapacitor.WebViewLocalServer: android.webkit.WebResourceResponse handleProxyRequest(android.webkit.WebResourceRequest,com.getcapacitor.WebViewLocalServer$PathHandler)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapDownloader: java.net.HttpURLConnection createConnection(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.getcapacitor.plugin.util.HttpRequestHandler$HttpURLConnectionBuilder: com.getcapacitor.plugin.util.HttpRequestHandler$HttpURLConnectionBuilder openConnection()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulGet(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.stripe.android.core.networking.ConnectionFactory$ConnectionOpener$Default: javax.net.ssl.HttpsURLConnection open(com.stripe.android.core.networking.StripeRequest,kotlin.jvm.functions.Function2)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.TrafficStats: void clearThreadStatsTag()>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapDownloader: com.clevertap.android.sdk.network.DownloadedBitmap downloadBitmap(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.TrafficStats: void clearThreadStatsTag()>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapDownloader: com.clevertap.android.sdk.network.DownloadedBitmap downloadBitmap(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.TrafficStats: void clearThreadStatsTag()>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapDownloader: com.clevertap.android.sdk.network.DownloadedBitmap downloadBitmap(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeObject(org.json.JSONObject,com.clevertap.android.sdk.db.Table)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeUserProfile(java.lang.String,java.lang.String,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: long storeObject(org.json.JSONObject,com.clevertap.android.sdk.db.Table)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: long insertEvent(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void storePushNotificationId(java.lang.String,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean cleanUpExtraEvents(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void removeEvents(com.clevertap.android.sdk.db.Table)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void cleanInternal(com.clevertap.android.sdk.db.Table,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean updateEventByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void cleanupEventsFromLastId(java.lang.String,com.clevertap.android.sdk.db.Table)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: void storeUninstallTimestamp()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulGet(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapDownloader: com.clevertap.android.sdk.network.DownloadedBitmap downloadBitmap(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.branch.referral.network.BranchRemoteInterfaceUrlConnection: io.branch.referral.network.BranchRemoteInterface$BranchResponse doRestfulPost(java.lang.String,org.json.JSONObject,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <okhttp3.HttpUrl: java.net.URL url()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.getcapacitor.WebViewLocalServer: android.webkit.WebResourceResponse handleCapacitorHttpRequest(android.webkit.WebResourceRequest)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.getcapacitor.WebViewLocalServer: android.webkit.WebResourceResponse handleProxyRequest(android.webkit.WebResourceRequest,com.getcapacitor.WebViewLocalServer$PathHandler)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.stripe.android.core.networking.ConnectionFactory$ConnectionOpener$Default: javax.net.ssl.HttpsURLConnection open(com.stripe.android.core.networking.StripeRequest,kotlin.jvm.functions.Function2)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.rollbar.notifier.sender.SyncSender$Builder: java.net.URL parseUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.getcapacitor.Bridge: void initWebView()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.clevertap.android.sdk.bitmap.BitmapInputStreamDecoder: com.clevertap.android.sdk.network.DownloadedBitmap readInputStream(java.io.InputStream,java.net.HttpURLConnection,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.stripe.android.core.networking.StripeConnection$FileConnection: java.io.File createBodyFromResponseStream(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.rollbar.notifier.sender.queue.DiskQueue: void writeToFile(com.rollbar.api.payload.Payload)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: boolean upsertEventsByDeviceIdAndNormalizedEventName(java.lang.String,java.util.Set)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: java.lang.String fetchPushNotificationId(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: java.lang.String[] fetchPushNotificationIds()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: org.json.JSONObject fetchUserProfileByAccountIdAndDeviceID(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: java.util.Map fetchUserProfilesByAccountId(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: com.clevertap.android.sdk.usereventlogs.UserEventLog readEventByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.db.DBAdapter: org.json.JSONObject fetchEvents(com.clevertap.android.sdk.db.Table,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.clevertap.android.sdk.usereventlogs.UserEventLogDAOImpl: int readEventCountByDeviceIdAndNormalizedEventName(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------

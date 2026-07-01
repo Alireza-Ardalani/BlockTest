@@ -1,0 +1,138 @@
+Time1: 32.507355677
+Time2: 0.476642852
+Worker: 8
+UI: 25
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <org.adblockplus.browser.modules.telemetry.TelemetryRequestUtilsKt$$ExternalSyntheticLambda1: java.lang.Object invoke(java.lang.Object)>
+Thread: [<org.adblockplus.browser.modules.base.os.BackgroundTask$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <org.adblockplus.browser.modules.telemetry.TelemetryRequestUtilsKt$$ExternalSyntheticLambda1: java.lang.Object invoke(java.lang.Object)>
+Thread: [<org.adblockplus.browser.modules.base.os.BackgroundTask$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <org.adblockplus.browser.modules.telemetry.TelemetryRequestUtilsKt$$ExternalSyntheticLambda1: java.lang.Object invoke(java.lang.Object)>
+Thread: [<org.adblockplus.browser.modules.base.os.BackgroundTask$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <org.adblockplus.browser.modules.telemetry.TelemetryRequestUtilsKt$$ExternalSyntheticLambda0: java.lang.Object invoke(java.lang.Object)>
+Thread: [<org.adblockplus.browser.modules.base.os.BackgroundTask$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.adblockplus.browser.modules.telemetry.TelemetryRequestUtilsKt$$ExternalSyntheticLambda1: java.lang.Object invoke(java.lang.Object)>
+Thread: [<org.adblockplus.browser.modules.base.os.BackgroundTask$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <org.adblockplus.browser.modules.telemetry.TelemetryRequestUtilsKt$$ExternalSyntheticLambda1: java.lang.Object invoke(java.lang.Object)>
+Thread: [<org.adblockplus.browser.modules.base.os.BackgroundTask$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <org.adblockplus.browser.modules.telemetry.TelemetryRequestUtilsKt$$ExternalSyntheticLambda0: java.lang.Object invoke(java.lang.Object)>
+Thread: [<org.adblockplus.browser.modules.base.os.BackgroundTask$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <org.adblockplus.browser.modules.telemetry.TelemetryRequestUtilsKt$$ExternalSyntheticLambda1: java.lang.Object invoke(java.lang.Object)>
+Thread: [<org.adblockplus.browser.modules.base.os.BackgroundTask$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <org.adblockplus.browser.modules.telemetry.TelemetryRequestUtilsKt$$ExternalSyntheticLambda1: java.lang.Object invoke(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <org.chromium.chrome.browser.download.DownloadFileProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <org.chromium.chrome.browser.download.DownloadDirectoryProvider: java.io.File getPrimaryDownloadDirectory()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <org.adblockplus.browser.modules.telemetry.TelemetryRequestUtilsKt$$ExternalSyntheticLambda1: java.lang.Object invoke(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <org.chromium.chrome.browser.base.SplitCompatApplication: void attachBaseContext(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <org.adblockplus.browser.modules.telemetry.TelemetryRequestUtilsKt$$ExternalSyntheticLambda1: java.lang.Object invoke(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <org.adblockplus.browser.modules.telemetry.TelemetryRequestUtilsKt$$ExternalSyntheticLambda0: java.lang.Object invoke(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.chromium.chrome.browser.download.DownloadDirectoryProvider: java.io.File getPrimaryDownloadDirectory()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.chromium.chrome.browser.base.SplitCompatApplication: void attachBaseContext(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.chromium.chrome.browser.download.DownloadFileProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.chromium.chrome.browser.base.SplitCompatApplication: void attachBaseContext(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: java.lang.String getString(int)>
+Caller: <org.chromium.chrome.browser.util.ChromeFileProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <org.chromium.chrome.browser.download.DownloadFileProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <org.chromium.chrome.browser.base.SplitCompatApplication: void attachBaseContext(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.io.File)>
+Caller: <org.chromium.chrome.browser.base.SplitCompatApplication: void attachBaseContext(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: float getFloat(int)>
+Caller: <org.chromium.chrome.browser.util.ChromeFileProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <org.adblockplus.browser.modules.telemetry.TelemetryRequestUtilsKt$$ExternalSyntheticLambda1: java.lang.Object invoke(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.nio.charset.Charset)>
+Caller: <org.adblockplus.browser.modules.telemetry.TelemetryRequestUtilsKt$$ExternalSyntheticLambda1: java.lang.Object invoke(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.MatrixCursor: int getInt(int)>
+Caller: <org.chromium.chrome.browser.util.ChromeFileProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <org.adblockplus.browser.modules.telemetry.TelemetryRequestUtilsKt$$ExternalSyntheticLambda0: java.lang.Object invoke(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <org.chromium.chrome.browser.base.SplitCompatApplication: void attachBaseContext(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: void close()>
+Caller: <org.chromium.chrome.browser.base.SplitCompatApplication: void attachBaseContext(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <org.adblockplus.browser.modules.telemetry.TelemetryRequestUtilsKt$$ExternalSyntheticLambda1: java.lang.Object invoke(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <org.chromium.base.PathUtils: java.lang.String[] getExternalDownloadVolumesNames()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <org.chromium.base.PathUtils: java.lang.String[] getExternalDownloadVolumesNames()>
+Thread: [UI]
+-------------------------

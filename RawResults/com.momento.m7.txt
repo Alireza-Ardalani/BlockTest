@@ -1,0 +1,546 @@
+Time1: 112.650234776
+Time2: 4.787289371
+Worker: 10
+UI: 125
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [<com.eyeclon.mdq.common.service.PingService$ping$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.InflaterSource: long read(okio.Buffer,long)>
+Thread: [<com.eyeclon.mdq.common.service.PingService$ping$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String canonicalizeHost(java.lang.String)>
+Thread: [<com.eyeclon.mdq.common.service.PingService$ping$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <okhttp3.HttpUrl: java.net.URL url()>
+Thread: [<com.eyeclon.mdq.common.service.PingService$ping$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity$loadGpsData$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [<com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity$loadGpsData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity$loadGpsData$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [<com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity$loadGpsData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [<com.eyeclon.mdq.common.service.PingService$ping$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toUnicode(java.lang.String)>
+Caller: <okhttp3.internal.publicsuffix.PublicSuffixDatabase: java.lang.String getEffectiveTldPlusOne(java.lang.String)>
+Thread: [<com.eyeclon.mdq.common.service.PingService$ping$2: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<okhttp3.internal.connection.RealConnectionPool$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: long skip(long)>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity$loadGpsData$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [<com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity$loadGpsData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedShort()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Caller: <com.eyeclon.core.util.FileUtilKt: boolean tryDelete(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <okio.Okio: okio.Sink appendingSink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.journeyapps.barcodescanner.CaptureManager: java.lang.String getBarcodeImagePath(com.journeyapps.barcodescanner.BarcodeResult)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.eyeclon.core.util.FileUtilKt: void copy(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: boolean readBoolean()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: boolean readBoolean()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.eyeclon.core.util.FileUtilKt: boolean exportExternalDirectory(java.io.File,android.content.Context,java.lang.String,java.lang.String,boolean,java.lang.Integer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Proxy: void <init>(java.net.Proxy$Type,java.net.SocketAddress)>
+Caller: <okhttp3.OkHttpClient: okhttp3.OkHttpClient$Builder newBuilder()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.InflaterSource: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity: void onResume()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.eyeclon.mdq.common.ui.activity.MainActivity: void onResume()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress[] getAllByName(java.lang.String)>
+Caller: <okhttp3.Dns$-CC: java.util.List lambda$static$0(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <com.eyeclon.mdq.common.ui.activity.MainActivity: void onResume()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity: void onResume()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readUnsignedByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: org.joda.time.DateTimeZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: long readLong()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: long readMillis(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: org.joda.time.DateTimeZone loadZoneData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: org.joda.time.DateTimeZone loadZoneData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: org.joda.time.DateTimeZone loadZoneData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String canonicalizeHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.journeyapps.barcodescanner.CaptureManager: java.lang.String getBarcodeImagePath(com.journeyapps.barcodescanner.BarcodeResult)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <okio.Okio$1: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <org.joda.time.tz.ZoneInfoProvider: java.io.InputStream openResource(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.eyeclon.core.util.FileUtilKt: void copy(java.io.File,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.journeyapps.barcodescanner.CaptureManager: java.lang.String getBarcodeImagePath(com.journeyapps.barcodescanner.BarcodeResult)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.wifi.WifiInfo: java.lang.String getSSID()>
+Caller: <com.eyeclon.mdq.common.ui.activity.MainActivity: void setWifiInfo(android.net.wifi.WifiInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.wifi.WifiInfo: java.lang.String getSSID()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity$networkCallback$2: void onCapabilitiesChanged(android.net.Network,android.net.NetworkCapabilities)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.wifi.WifiInfo: java.lang.String getSSID()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity$networkCallback$1: void onCapabilitiesChanged(android.net.Network,android.net.NetworkCapabilities)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$Recurrence: org.joda.time.tz.DateTimeZoneBuilder$Recurrence readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder: org.joda.time.DateTimeZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void readZoneInfoMap(java.io.DataInputStream,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(double)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.eyeclon.mdq.common.data.local.ClonFileManager: java.lang.String getDownloadPath(com.eyeclon.domain.model.Models,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxVideoPlayActivity: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.eyeclon.core.util.FileUtilKt: boolean exportExternalDirectory(java.io.File,android.content.Context,java.lang.String,java.lang.String,boolean,java.lang.Integer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.eyeclon.mdq.common.data.local.ClonFileManager: java.lang.String getDownloadPath(com.eyeclon.domain.model.Models,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.eyeclon.mdq.common.data.local.ClonFileManager: java.lang.String getDownloadPath(com.eyeclon.domain.model.Models,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$OfYear: org.joda.time.tz.DateTimeZoneBuilder$OfYear readFrom(java.io.DataInput)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: java.util.Map loadZoneInfoMap(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: void close()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: java.util.Map loadZoneInfoMap(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <okhttp3.HttpUrl: java.net.URL url()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okio.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.logging.HttpLoggingInterceptor: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.eyeclon.core.util.GpsAnalyzer: java.lang.Long[] findPatternPositions(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.eyeclon.core.util.GpsAnalyzer: java.lang.Long[] findPatternPositions(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.eyeclon.mdq.common.ui.activity.MainActivity: void onPause()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toUnicode(java.lang.String)>
+Caller: <okhttp3.internal.publicsuffix.PublicSuffixDatabase: java.lang.String getEffectiveTldPlusOne(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxVideoPlayActivity: void onClick$lambda$7(java.io.File,java.lang.String,java.lang.String,com.eyeclon.mdq.common.ui.activity.BlackBoxVideoPlayActivity,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity: void onClick$lambda$12(java.io.File,java.lang.String,java.lang.String,com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity: void onClick$lambda$12(java.io.File,java.lang.String,java.lang.String,com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.eyeclon.core.util.FileUtilKt: boolean tryDelete(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxVideoPlayActivity: void onClick$lambda$7(java.io.File,java.lang.String,java.lang.String,com.eyeclon.mdq.common.ui.activity.BlackBoxVideoPlayActivity,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxVideoPlayActivity: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxVideoPlayActivity: void onClick$lambda$7(java.io.File,java.lang.String,java.lang.String,com.eyeclon.mdq.common.ui.activity.BlackBoxVideoPlayActivity,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity: void onClick$lambda$12(java.io.File,java.lang.String,java.lang.String,com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.eyeclon.core.util.FileUtilKt: boolean tryDelete(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.eyeclon.mdq.common.data.local.ClonFileManager: java.lang.String getClonVideoFileSize(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkCapabilities: void <init>(android.net.NetworkCapabilities)>
+Caller: <com.eyeclon.mdq.common.ui.activity.MainActivity: void <init>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkCapabilities: void <init>(android.net.NetworkCapabilities)>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity: void <init>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <com.eyeclon.core.util.FileUtilKt: boolean tryDelete(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int readInt()>
+Caller: <org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone readFrom(java.io.DataInput,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity$onClick$5: void invoke()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.mdq.common.data.local.ClonFileManager: java.lang.String getDownloadPath(com.eyeclon.domain.model.Models,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxVideoPlayActivity: void onClick$lambda$7(java.io.File,java.lang.String,java.lang.String,com.eyeclon.mdq.common.ui.activity.BlackBoxVideoPlayActivity,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.core.util.FileUtilKt: boolean tryDelete(android.content.Context,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity: void onClick$lambda$12(java.io.File,java.lang.String,java.lang.String,com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.mdq.common.data.local.ClonFileManager: java.lang.String getDownloadPath(com.eyeclon.domain.model.Models,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxVideoPlayActivity: void onClick$lambda$7(java.io.File,java.lang.String,java.lang.String,com.eyeclon.mdq.common.ui.activity.BlackBoxVideoPlayActivity,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.core.util.FileUtilKt: boolean exportExternalDirectory(java.io.File,android.content.Context,java.lang.String,java.lang.String,boolean,java.lang.Integer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxVideoPlayActivity: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxVideoPlayActivity: boolean onExport(android.content.Context,com.eyeclon.domain.model.Models,java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <org.joda.time.tz.ZoneInfoProvider: void <init>(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxVideoPlayActivity: void onClick$lambda$7(java.io.File,java.lang.String,java.lang.String,com.eyeclon.mdq.common.ui.activity.BlackBoxVideoPlayActivity,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity: void onClick$lambda$12(java.io.File,java.lang.String,java.lang.String,com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity: void onClick$lambda$12(java.io.File,java.lang.String,java.lang.String,com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity,boolean,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxSavedVideoPlayActivity: boolean onExport(android.content.Context,com.eyeclon.domain.model.Models,java.io.File,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.core.util.FileUtilKt: boolean exportExternalDirectory(java.io.File,android.content.Context,java.lang.String,java.lang.String,boolean,java.lang.Integer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.mdq.common.ui.activity.BlackBoxVideoPlayActivity$onClick$5: void invoke()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.eyeclon.mdq.common.data.local.ClonFileManager: java.lang.String getDownloadPath(com.eyeclon.domain.model.Models,java.lang.String)>
+Thread: [UI]
+-------------------------

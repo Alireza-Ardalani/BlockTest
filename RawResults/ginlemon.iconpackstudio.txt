@@ -1,0 +1,878 @@
+Time1: 162.32455641
+Time2: 9.041321512
+Worker: 21
+UI: 197
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <q1.c: java.nio.MappedByteBuffer C(android.content.Context,android.net.Uri)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <k3.h: android.graphics.Typeface s(android.content.Context,p3.g[],int)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <k3.j: android.graphics.Typeface s(android.content.Context,p3.g[],int)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <k3.l: android.graphics.Typeface s(android.content.Context,p3.g[],int)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromFile(java.lang.String)>
+Caller: <od.a: android.graphics.Typeface t(android.content.Context,java.io.InputStream)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <q1.c: java.io.File u(android.content.Context)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <q1.c: boolean f(java.io.InputStream,java.io.File)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <q1.c: java.nio.MappedByteBuffer C(android.content.Context,android.net.Uri)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <k3.h: android.graphics.Typeface s(android.content.Context,p3.g[],int)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <k3.h: android.graphics.Typeface s(android.content.Context,p3.g[],int)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <q1.c: java.nio.MappedByteBuffer C(android.content.Context,android.net.Uri)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <q1.c: void d(java.io.Closeable)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <q1.c: boolean f(java.io.InputStream,java.io.File)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <q1.c: boolean f(java.io.InputStream,java.io.File)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromFile(java.io.File)>
+Caller: <k3.h: android.graphics.Typeface s(android.content.Context,p3.g[],int)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <q1.c: boolean f(java.io.InputStream,java.io.File)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <k3.h: android.graphics.Typeface s(android.content.Context,p3.g[],int)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <od.a: android.graphics.Typeface t(android.content.Context,java.io.InputStream)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <od.a: android.graphics.Typeface t(android.content.Context,java.io.InputStream)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <od.a: android.graphics.Typeface t(android.content.Context,java.io.InputStream)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <od.a: android.graphics.Typeface t(android.content.Context,java.io.InputStream)>
+Thread: [<p3.c: java.lang.Object call()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.OutputStream openOutputStream(android.net.Uri)>
+Caller: <ginlemon.iconpackstudio.ExportFinalizeActivity$moveFileToDownloadFolder$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Caller: <ginlemon.colorPicker.mixed.EqualizerPresetsPicker: android.graphics.Bitmap A(android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Caller: <ei.l: android.graphics.drawable.Drawable k(android.content.Context,ginlemon.library.models.AppModel,boolean,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.measurement.zzcy: java.net.URLConnection zza(java.net.URL,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <dg.g: void <init>(dg.i)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <ce.f: java.lang.Object invoke(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <dg.g: void a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeUTF(java.lang.String)>
+Caller: <q6.e: byte[] c(q6.e)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: void deleteOnExit()>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <k3.h: android.graphics.Typeface s(android.content.Context,p3.g[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <q1.c: java.nio.MappedByteBuffer C(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <k3.j: android.graphics.Typeface s(android.content.Context,p3.g[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <k3.l: android.graphics.Typeface s(android.content.Context,p3.g[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <f9.d: java.lang.String d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <ginlemon.iconpackstudio.g: vd.v m(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.google.android.gms.measurement.internal.p2: byte[] j(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <q6.e: byte[] c(q6.e)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <q6.e: byte[] c(q6.e)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <q6.e: byte[] c(q6.e)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromFile(java.lang.String)>
+Caller: <od.a: android.graphics.Typeface t(android.content.Context,java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromFile(java.lang.String)>
+Caller: <od.a: android.graphics.Typeface u(android.content.Context,android.content.res.Resources,int,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <dg.g: void a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Proxy: void <init>(java.net.Proxy$Type,java.net.SocketAddress)>
+Caller: <com.google.api.client.http.javanet.NetHttpTransport: java.net.Proxy defaultProxy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <q6.e: byte[] c(q6.e)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <q1.c: java.io.File u(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <u7.e: void B(ginlemon.iconpackstudio.SaveInfo,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <df.c: android.graphics.Bitmap b(android.graphics.drawable.Drawable,android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <sd.l: aa.c g(android.content.Context,vd.o)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <ginlemon.colorPicker.ColorPickerFrame: void onFinishInflate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <sd.l: sd.g i(android.content.Context,vd.w,vd.s,b1.e,zd.s0)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <ginlemon.colorPicker.ColorPickerFrame: void onFinishInflate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: void <init>(java.net.URI)>
+Caller: <ei.l: android.graphics.drawable.Drawable m(android.content.Context,ef.a,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <j9.e: java.lang.String e0(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <we.h: void draw(android.graphics.Canvas)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <we.h: void draw(android.graphics.Canvas)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setReadable(boolean,boolean)>
+Caller: <ginlemon.iconpackstudio.e: java.lang.Object j(android.graphics.Bitmap,kotlin.coroutines.jvm.internal.ContinuationImpl)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <u7.e: void B(ginlemon.iconpackstudio.SaveInfo,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <u7.e: java.util.ArrayList y()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <u7.e: java.util.ArrayList x()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: int readInt()>
+Caller: <q6.e: q6.e a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <ginlemon.iconpackstudio.ExportFinalizeActivity$moveFileToDownloadFolder$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <ginlemon.iconpackstudio.ExportFinalizeActivity$moveFileToDownloadFolder$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <q1.c: boolean f(java.io.InputStream,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <q6.e: q6.e a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <ginlemon.iconpackstudio.h: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.f: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <ginlemon.iconpackstudio.h: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.f: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.f: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.f: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.f: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <ginlemon.iconpackstudio.h: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <ginlemon.iconpackstudio.ExportFinalizeActivity$moveFileToDownloadFolder$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <sd.o: void j(android.graphics.Bitmap,vd.i)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <sd.l: android.graphics.Bitmap f(vd.w,int,vd.v,android.graphics.Typeface,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <sd.o: void g(android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap,sd.k)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <f3.z: void f(android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <e2.b: t5.e a()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <sd.o: void g(android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap,sd.k)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <ginlemon.iconpackstudio.editor.c: java.lang.Object a(ce.m,float,kotlin.coroutines.jvm.internal.ContinuationImpl)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <sd.o: void a(android.graphics.Bitmap,android.graphics.Bitmap,int,float,float,float,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <u7.e: void B(ginlemon.iconpackstudio.SaveInfo,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <dg.g: void <init>(dg.i)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <q6.e: byte[] c(q6.e)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeInt(int)>
+Caller: <q6.e: byte[] c(q6.e)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <k3.i: android.graphics.Typeface r(android.content.Context,j3.f,android.content.res.Resources,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <k3.h: android.graphics.Typeface s(android.content.Context,p3.g[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <q1.c: java.nio.MappedByteBuffer C(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <k3.i: android.graphics.Typeface r(android.content.Context,j3.f,android.content.res.Resources,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <q1.c: java.nio.MappedByteBuffer C(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <ginlemon.iconpackstudio.g: vd.v m(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <k3.h: android.graphics.Typeface s(android.content.Context,p3.g[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <ginlemon.iconpackstudio.ExportFinalizeActivity$moveFileToDownloadFolder$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <ei.l: android.graphics.drawable.Drawable m(android.content.Context,ef.a,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <sd.l: android.graphics.Bitmap f(vd.w,int,vd.v,android.graphics.Typeface,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <z6.m: void b(java.lang.String,int,java.io.IOException,byte[],java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <u7.e: boolean t(ginlemon.iconpackstudio.SaveInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <ginlemon.iconpackstudio.editor.editingActivity.SingleEditingActivity$savePictureOnDisk$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <ginlemon.iconpackstudio.editor.editingActivity.EditingActivity$savePictureOnDisk$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <ginlemon.iconpackstudio.editor.editingActivity.EditingActivity$savePictureOnDisk$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <ginlemon.iconpackstudio.editor.editingActivity.SingleEditingActivity$savePictureOnDisk$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <l3.c: android.graphics.drawable.Icon c(androidx.core.graphics.drawable.IconCompat,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <sd.o: java.io.File r(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <sd.o: java.io.File r(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <u7.e: void B(ginlemon.iconpackstudio.SaveInfo,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <u7.e: void B(ginlemon.iconpackstudio.SaveInfo,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <f9.d: java.lang.String d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <ginlemon.iconpackstudio.g: vd.v m(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <f9.d: java.lang.String d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <f9.d: java.lang.String d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <pg.c: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <pg.c: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzhp: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.firebase.crashlytics.internal.send.DataTransportCrashlyticsReportSender: byte[] lambda$static$0(com.google.firebase.crashlytics.internal.model.CrashlyticsReport)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzhp: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <pg.c: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.android.gms.internal.play_billing.zzhp: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <pg.c: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <pg.c: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <pg.c: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.firebase.encoders.proto.c: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <z7.r: z7.q c(x7.a)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <ginlemon.iconpackstudio.ExportFinalizeActivity$moveFileToDownloadFolder$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <q1.c: void d(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DataSetObservable: void notifyChanged()>
+Caller: <ee.q: void g()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <ginlemon.iconpackstudio.ExportFinalizeActivity$moveFileToDownloadFolder$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <ginlemon.iconpackstudio.ExportFinalizeActivity$moveFileToDownloadFolder$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <ginlemon.iconpackstudio.ExportFinalizeActivity$moveFileToDownloadFolder$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <k3.i: android.graphics.Typeface r(android.content.Context,j3.f,android.content.res.Resources,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <l3.c: android.graphics.drawable.Icon c(androidx.core.graphics.drawable.IconCompat,android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <ginlemon.iconpackstudio.g: vd.v m(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.google.android.material.navigation.l: void <init>(android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <ginlemon.iconpackstudio.g: java.io.File e(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <ginlemon.iconpackstudio.e: void <init>(ginlemon.iconpackstudio.AppContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <sd.o: java.io.File r(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.InetSocketAddress: void <init>(java.lang.String,int)>
+Caller: <com.google.api.client.http.javanet.NetHttpTransport: java.net.Proxy defaultProxy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentValues: java.lang.String getAsString(java.lang.String)>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.String readUTF()>
+Caller: <q6.e: q6.e a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.journeyapps.barcodescanner.h: void onClick(android.content.DialogInterface,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <q1.c: boolean f(java.io.InputStream,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.google.android.gms.measurement.internal.p2: byte[] j(java.net.HttpURLConnection)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <u7.e: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <ginlemon.iconpackstudio.IconMaker: void <init>(android.content.Context,gg.d)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <ginlemon.iconpackstudio.ExportFinalizeActivity$moveFileToDownloadFolder$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <q1.c: boolean f(java.io.InputStream,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: java.lang.String getType(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ginlemon.iconpackstudio.e: void <init>(ginlemon.iconpackstudio.AppContext)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.material.navigation.l: void <init>(android.content.Context,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ginlemon.iconpackstudio.ExportFinalizeActivity$moveFileToDownloadFolder$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ginlemon.iconpackstudio.e: java.lang.Object k(kotlin.coroutines.jvm.internal.ContinuationImpl)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ginlemon.iconpackstudio.receiver.AppBroadcastReceiver: void a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ei.l: android.graphics.drawable.Drawable m(android.content.Context,ef.a,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ginlemon.iconpackstudio.ExportFinalizeActivity$moveFileToDownloadFolder$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ginlemon.iconpackstudio.g: boolean b(ginlemon.iconpackstudio.SaveInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ginlemon.iconpackstudio.g: zd.i0 p(android.content.Context,ginlemon.iconpackstudio.SaveInfo)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ginlemon.iconpackstudio.g: java.io.File e(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ginlemon.iconpackstudio.e: java.lang.Object l(vd.v,kotlin.coroutines.jvm.internal.ContinuationImpl)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <sd.l: android.graphics.Bitmap f(vd.w,int,vd.v,android.graphics.Typeface,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <dg.j: void J(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <sd.o: java.io.File r(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ginlemon.iconpackstudio.ExportActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ginlemon.iconpackstudio.g: vd.v m(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <q6.e: q6.e a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <q6.e: q6.e a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <q6.e: q6.e a(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromFile(java.io.File)>
+Caller: <k3.h: android.graphics.Typeface s(android.content.Context,p3.g[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <q1.c: boolean f(java.io.InputStream,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <ginlemon.iconpackstudio.ExportFinalizeActivity$moveFileToDownloadFolder$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canRead()>
+Caller: <k3.h: android.graphics.Typeface s(android.content.Context,p3.g[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <u7.e: void B(ginlemon.iconpackstudio.SaveInfo,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <f9.d: java.lang.String d()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <k3.i: android.graphics.Typeface r(android.content.Context,j3.f,android.content.res.Resources,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <k3.i: android.graphics.Typeface r(android.content.Context,j3.f,android.content.res.Resources,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <od.a: android.graphics.Typeface u(android.content.Context,android.content.res.Resources,int,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <k3.h: android.graphics.Typeface r(android.content.Context,j3.f,android.content.res.Resources,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <ginlemon.iconpackstudio.ExportFinalizeActivity$moveFileToDownloadFolder$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <k3.h: android.graphics.Typeface r(android.content.Context,j3.f,android.content.res.Resources,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <k3.h: android.graphics.Typeface r(android.content.Context,j3.f,android.content.res.Resources,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <dg.j: void J(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <od.a: android.graphics.Typeface t(android.content.Context,java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <ginlemon.icongenerator.IconGeneratorProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <ginlemon.iconpackstudio.e: java.lang.Object k(kotlin.coroutines.jvm.internal.ContinuationImpl)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <od.a: android.graphics.Typeface t(android.content.Context,java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <k3.h: android.graphics.Typeface r(android.content.Context,j3.f,android.content.res.Resources,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <od.a: android.graphics.Typeface u(android.content.Context,android.content.res.Resources,int,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <od.a: android.graphics.Typeface u(android.content.Context,android.content.res.Resources,int,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <ginlemon.iconpackstudio.ExportFinalizeActivity$moveFileToDownloadFolder$1: java.lang.Object invokeSuspend(java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <od.a: android.graphics.Typeface t(android.content.Context,java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <ginlemon.iconpackstudio.receiver.AppBroadcastReceiver: void a(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <od.a: android.graphics.Typeface u(android.content.Context,android.content.res.Resources,int,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <k3.h: android.graphics.Typeface r(android.content.Context,j3.f,android.content.res.Resources,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.firebase.crashlytics.internal.common.k: com.google.android.gms.tasks.Task b(com.google.firebase.crashlytics.internal.common.k)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <od.a: android.graphics.Typeface t(android.content.Context,java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <k3.i: android.graphics.Typeface r(android.content.Context,j3.f,android.content.res.Resources,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <q6.e: q6.e a(byte[])>
+Thread: [UI]
+-------------------------

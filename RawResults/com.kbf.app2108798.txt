@@ -1,0 +1,74 @@
+Time1: 3.842682005
+Time2: 0.176983979
+Worker: 0
+UI: 17
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.graphics.Bitmap getIconFromDrawable(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromPath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromRemote(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromRemote(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.graphics.Bitmap getIconFromUri(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: void copyFile(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: void copyFile(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: void copyFile(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriForResourcePath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromRemote(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromAsset(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriForResourcePath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromAsset(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromRemote(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromRemote(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromAsset(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriForResourcePath(java.lang.String)>
+Thread: [UI]
+-------------------------

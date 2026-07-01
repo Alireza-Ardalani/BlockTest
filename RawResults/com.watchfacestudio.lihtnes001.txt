@@ -1,0 +1,98 @@
+Time1: 19.268337752
+Time2: 1.28258218
+Worker: 0
+UI: 23
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <t0.a: boolean p(java.io.File,java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <t0.a: boolean p(java.io.File,java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromFile(java.lang.String)>
+Caller: <t0.a: android.graphics.Typeface t(android.content.Context,android.content.res.Resources,int,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <t0.a: void m(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <x.d: void d(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <x.d: void d(android.content.Context,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File,boolean)>
+Caller: <t0.a: boolean p(java.io.File,java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <t0.a: java.io.File J(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <A.j: android.graphics.Typeface s(android.content.Context,F.j[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <t0.a: java.nio.MappedByteBuffer W(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <A.l: android.graphics.Typeface s(android.content.Context,F.j[],int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <t0.a: android.graphics.Typeface t(android.content.Context,android.content.res.Resources,int,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <t0.a: android.graphics.Typeface t(android.content.Context,android.content.res.Resources,int,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <t0.a: android.graphics.Typeface t(android.content.Context,android.content.res.Resources,int,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <A.j: android.graphics.Typeface r(android.content.Context,z.f,android.content.res.Resources,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <A.j: android.graphics.Typeface r(android.content.Context,z.f,android.content.res.Resources,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <t0.a: android.graphics.Typeface t(android.content.Context,android.content.res.Resources,int,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <A.j: android.graphics.Typeface r(android.content.Context,z.f,android.content.res.Resources,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <x.d: java.lang.String e(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <t0.a: java.nio.MappedByteBuffer W(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <x.d: java.lang.String e(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <t0.a: java.nio.MappedByteBuffer W(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------

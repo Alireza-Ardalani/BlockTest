@@ -1,0 +1,190 @@
+Time1: 17.092199736
+Time2: 1.786018469
+Worker: 9
+UI: 37
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.marianhello.bgloc.HttpPostService: int postJSON(java.lang.String,java.lang.Object,java.util.Map)>
+Thread: [<com.marianhello.bgloc.LocationService$PostLocationTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.marianhello.bgloc.HttpPostService: int postJSON(java.lang.String,java.lang.Object,java.util.Map)>
+Thread: [<com.marianhello.bgloc.LocationService$PostLocationTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.marianhello.bgloc.HttpPostService: int postJSON(java.lang.String,java.lang.Object,java.util.Map)>
+Thread: [<com.marianhello.bgloc.LocationService$PostLocationTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.marianhello.bgloc.HttpPostService: int postJSON(java.lang.String,java.lang.Object,java.util.Map)>
+Thread: [<com.marianhello.bgloc.LocationService$PostLocationTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.marianhello.bgloc.HttpPostService: int postJSON(java.lang.String,java.lang.Object,java.util.Map)>
+Thread: [<com.marianhello.bgloc.LocationService$PostLocationTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.marianhello.bgloc.HttpPostService: int postJSON(java.lang.String,java.lang.Object,java.util.Map)>
+Thread: [<com.marianhello.bgloc.LocationService$PostLocationTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.marianhello.bgloc.HttpPostService: int postJSON(java.lang.String,java.lang.Object,java.util.Map)>
+Thread: [<com.marianhello.bgloc.LocationService$PostLocationTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.marianhello.bgloc.data.sqlite.SQLiteLocationDAO: void deleteLocation(java.lang.Long)>
+Thread: [<com.marianhello.bgloc.LocationService$PostLocationTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.marianhello.bgloc.HttpPostService: int postJSON(java.lang.String,java.lang.Object,java.util.Map)>
+Thread: [<com.marianhello.bgloc.LocationService$PostLocationTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: java.net.URI toURI()>
+Caller: <ch.qos.logback.classic.util.ContextInitializer: java.net.URL findConfigFileFromSystemProperties(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.marianhello.bgloc.HttpPostService: int postJSON(java.lang.String,java.lang.Object,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.marianhello.bgloc.HttpPostService: int postJSON(java.lang.String,java.lang.Object,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetDecoder: java.nio.CharBuffer decode(java.nio.ByteBuffer)>
+Caller: <brut.androlib.res.decoder.StringBlock: java.lang.String decodeString(int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.marianhello.bgloc.HttpPostService: int postJSON(java.lang.String,java.lang.Object,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <ch.qos.logback.core.joran.GenericConfigurator: void doConfigure(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.marianhello.bgloc.HttpPostService: int postJSON(java.lang.String,java.lang.Object,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.marianhello.bgloc.HttpPostService: int postJSON(java.lang.String,java.lang.Object,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils: long queryNumEntries(android.database.sqlite.SQLiteDatabase,java.lang.String)>
+Caller: <com.marianhello.bgloc.data.sqlite.SQLiteLocationDAO: java.lang.Long persistLocationWithLimit(com.marianhello.bgloc.data.BackgroundLocation,java.lang.Integer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.marianhello.bgloc.HttpPostService: int postJSON(java.lang.String,java.lang.Object,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String)>
+Caller: <ch.qos.logback.core.joran.spi.ConfigurationWatchList: java.io.File convertToFile(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ch.qos.logback.classic.util.ContextInitializer: java.net.URL findConfigFileFromSystemProperties(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.marianhello.bgloc.data.sqlite.SQLiteLocationDAO: long getLastInsertRowId(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.marianhello.bgloc.LocationService: int onStartCommand(android.content.Intent,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.marianhello.bgloc.data.sqlite.SQLiteLocationDAO: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.marianhello.bgloc.data.sqlite.SQLiteConfigurationDAO: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+Caller: <com.marianhello.bgloc.HttpPostService: int postJSON(java.lang.String,java.lang.Object,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <ch.qos.logback.classic.util.ContextInitializer: java.net.URL findConfigFileFromSystemProperties(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.marianhello.bgloc.data.sqlite.SQLiteLocationDAO: java.lang.Long persistLocationWithLimit(com.marianhello.bgloc.data.BackgroundLocation,java.lang.Integer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <ch.qos.logback.core.joran.spi.ConfigurationWatchList: void addAsFileToWatch(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.marianhello.bgloc.data.sqlite.SQLiteLocationDAO: java.lang.Long persistLocationWithLimit(com.marianhello.bgloc.data.BackgroundLocation,java.lang.Integer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+Caller: <com.marianhello.bgloc.data.sqlite.SQLiteLocationDAO: java.lang.Long persistLocationWithLimit(com.marianhello.bgloc.data.BackgroundLocation,java.lang.Integer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <brut.androlib.res.decoder.StringBlock: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <brut.androlib.res.decoder.StringBlock: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URI: java.net.URL toURL()>
+Caller: <ch.qos.logback.classic.util.ContextInitializer: java.net.URL findConfigFileFromSystemProperties(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.marianhello.bgloc.data.sqlite.SQLiteLocationDAO: void deleteLocation(java.lang.Long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransactionNonExclusive()>
+Caller: <com.marianhello.bgloc.data.sqlite.SQLiteLocationDAO: java.lang.Long persistLocationWithLimit(com.marianhello.bgloc.data.BackgroundLocation,java.lang.Integer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.marianhello.bgloc.data.sqlite.SQLiteLocationDAO: java.lang.Long persistLocationWithLimit(com.marianhello.bgloc.data.BackgroundLocation,java.lang.Integer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.marianhello.bgloc.data.sqlite.SQLiteConfigurationDAO: com.marianhello.bgloc.Config retrieveConfiguration()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: int skipBytes(int)>
+Caller: <com.mindprod.ledatastream.LEDataInputStream: int skipBytes(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insertOrThrow(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.marianhello.bgloc.data.sqlite.SQLiteLocationDAO: java.lang.Long persistLocationWithLimit(com.marianhello.bgloc.data.BackgroundLocation,java.lang.Integer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[],int,int)>
+Caller: <com.mindprod.ledatastream.LEDataInputStream: void readFully(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[],int,int)>
+Caller: <com.mindprod.ledatastream.LEDataInputStream: int readInt()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.DatabaseUtils: long queryNumEntries(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.marianhello.bgloc.data.sqlite.SQLiteLocationDAO: java.lang.Long locationsForSyncCount(java.lang.Long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.marianhello.bgloc.HttpPostService: int postJSON(java.lang.String,java.lang.Object,java.util.Map)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <ch.qos.logback.classic.util.ContextInitializer: java.net.URL findConfigFileFromSystemProperties(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.marianhello.bgloc.data.sqlite.SQLiteLocationDAO: java.lang.Long persistLocationWithLimit(com.marianhello.bgloc.data.BackgroundLocation,java.lang.Integer)>
+Thread: [UI]
+-------------------------

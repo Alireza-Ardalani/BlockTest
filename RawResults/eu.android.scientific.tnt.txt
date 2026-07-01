@@ -1,0 +1,406 @@
+Time1: 46.245764763
+Time2: 5.91798508
+Worker: 43
+UI: 57
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.spotify.sdk.android.player.Config: java.lang.String getWritableCacheDirectory(android.content.Context)>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.spotify.sdk.android.player.Config: java.lang.String getWritableCacheDirectory(android.content.Context)>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.spotify.sdk.android.player.Config: java.lang.String getWritableCacheDirectory(android.content.Context)>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager$DatabaseHelper: boolean tableExists()>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager: long addDataSet(java.lang.String,int)>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager: int increasePlayTime(java.lang.String,int)>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager$DatabaseHelper: void createTable()>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$4: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.zzanf: void zzcz(java.lang.String)>
+Thread: [<eu.android.scientific.tnt.util.IabHelper$2$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <eu.android.scientific.tnt.webradio.WebRadioToolbox: java.lang.String getStreamingUrl(java.lang.String)>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <eu.android.scientific.tnt.NotchedMusicPlayer$GetIcecastMetaDataTask: java.lang.String doInBackground(java.lang.Void[])>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$GetIcecastMetaDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <eu.android.scientific.tnt.webradio.WebRadioToolbox: java.lang.String getStreamingUrl(java.lang.String)>
+Thread: [<eu.android.scientific.tnt.SilverBulletDecoder$ExtractInfoTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <eu.android.scientific.tnt.NotchedMusicPlayer$GetIcecastMetaDataTask: java.lang.String doInBackground(java.lang.Void[])>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$3: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void recursiveAddFiles(java.io.File)>
+Thread: [<eu.android.scientific.tnt.MainActivity$ScanForMusicTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void removeExistingFilesFromList()>
+Thread: [<eu.android.scientific.tnt.MainActivity$ScanForMusicTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <eu.android.scientific.tnt.Spotify.SpotifyWebScanner$ScanTracksTask: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [<eu.android.scientific.tnt.Spotify.SpotifyWebScanner$ScanTracksTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager: int getPlayTimeInSeconds(java.lang.String)>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager: long addDataSet(java.lang.String,int)>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$4: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void recursiveAddFiles(java.io.File)>
+Thread: [<eu.android.scientific.tnt.MainActivity$ScanForMusicTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void recursiveAddFiles(java.io.File)>
+Thread: [<eu.android.scientific.tnt.MainActivity$ScanForMusicTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void removeExistingFilesFromList()>
+Thread: [<eu.android.scientific.tnt.MainActivity$ScanForMusicTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager$DatabaseHelper: boolean tableExists()>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$4: void run()>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String canonicalizeHost(java.lang.String)>
+Thread: [<eu.android.scientific.tnt.Spotify.SpotifyWebScanner$ScanPersonalInfoTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String canonicalizeHost(java.lang.String)>
+Thread: [<eu.android.scientific.tnt.Spotify.SpotifyWebScanner$ScanTracksTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void recursiveAddFiles(java.io.File)>
+Thread: [<eu.android.scientific.tnt.MainActivity$ScanForMusicTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.spotify.sdk.android.player.Config: java.lang.String getWritableCacheDirectory(android.content.Context)>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.spotify.sdk.android.player.Config: java.lang.String getWritableCacheDirectory(android.content.Context)>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <eu.android.scientific.tnt.ui.LocalMusicFragment: void displaySpotifyStatus()>
+Thread: [<eu.android.scientific.tnt.Spotify.SpotifyWebScanner$ScanPersonalInfoTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <eu.android.scientific.tnt.ui.LocalMusicFragment: void displaySpotifyStatus()>
+Thread: [<android.os.AsyncTask: void onPostExecute(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager: int increasePlayTime(java.lang.String,int)>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$4: void run()>]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.ads.zzamy: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [<eu.android.scientific.tnt.util.IabHelper$2$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.ads.zzamy: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [<eu.android.scientific.tnt.util.IabHelper$2$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <eu.android.scientific.tnt.webradio.WebRadioToolbox: java.lang.String getStreamingUrl(java.lang.String)>
+Thread: [<eu.android.scientific.tnt.SilverBulletDecoder$ExtractInfoTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <eu.android.scientific.tnt.webradio.WebRadioToolbox: java.lang.String getStreamingUrl(java.lang.String)>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void removeExistingFilesFromList()>
+Thread: [<eu.android.scientific.tnt.MainActivity$ScanForMusicTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void recursiveAddFiles(java.io.File)>
+Thread: [<eu.android.scientific.tnt.MainActivity$ScanForMusicTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <eu.android.scientific.tnt.webradio.Icecast: java.util.Map getMetadata(java.net.URL)>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$GetIcecastMetaDataTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.ads.zzanf: void zzcz(java.lang.String)>
+Thread: [<eu.android.scientific.tnt.util.IabHelper$2$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <eu.android.scientific.tnt.webradio.WebRadioToolbox: java.lang.String getStreamingUrl(java.lang.String)>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <eu.android.scientific.tnt.webradio.Icecast: java.util.Map getMetadata(java.net.URL)>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$3: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <eu.android.scientific.tnt.webradio.WebRadioToolbox: java.lang.String getStreamingUrl(java.lang.String)>
+Thread: [<eu.android.scientific.tnt.SilverBulletDecoder$ExtractInfoTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void recursiveAddFiles(java.io.File)>
+Thread: [<eu.android.scientific.tnt.MainActivity$ScanForMusicTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager: int getPlayTimeInSeconds(java.lang.String)>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$4: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager$DatabaseHelper: void createTable()>
+Thread: [<eu.android.scientific.tnt.NotchedMusicPlayer$4: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.spotify.sdk.android.player.Config: java.lang.String getWritableCacheDirectory(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.spotify.sdk.android.player.Config: java.lang.String getWritableCacheDirectory(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.spotify.sdk.android.player.Config: java.lang.String getWritableCacheDirectory(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <eu.android.scientific.tnt.AudioPlayerService: void onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager$DatabaseHelper: void createTable()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager: long addDataSet(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager$DatabaseHelper: boolean tableExists()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <eu.android.scientific.tnt.webradio.WebRadioToolbox: java.lang.String getStreamingUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.ads.zzanf: void zzcz(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void recursiveAddFiles(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void removeExistingFilesFromList()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <eu.android.scientific.tnt.Spotify.SpotifyWebScanner$ScanTracksTask: java.lang.Void doInBackground(java.lang.Void[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <eu.android.scientific.tnt.webradio.MetaDB: java.lang.String getStationsEndpoint(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager: int getPlayTimeInSeconds(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okio.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager: long addDataSet(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void recursiveAddFiles(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void recursiveAddFiles(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File getCanonicalFile()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void removeExistingFilesFromList()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager$DatabaseHelper: boolean tableExists()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String canonicalizeHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.spotify.sdk.android.player.Config: java.lang.String getWritableCacheDirectory(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void recursiveAddFiles(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.spotify.sdk.android.player.Config: java.lang.String getWritableCacheDirectory(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <eu.android.scientific.tnt.ui.LocalMusicFragment: void displaySpotifyStatus()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+Caller: <eu.android.scientific.tnt.AudioPlayerService: void onDestroy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.ads.zzamy: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.util.Map getRequestProperties()>
+Caller: <com.google.android.gms.internal.ads.zzamy: void zza(java.net.HttpURLConnection,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <eu.android.scientific.tnt.webradio.WebRadioToolbox: java.lang.String getStreamingUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <eu.android.scientific.tnt.AudioPlayerService: void onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void recursiveAddFiles(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void removeExistingFilesFromList()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <eu.android.scientific.tnt.AudioPlayerService: void onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.ads.zzanf: void zzcz(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <eu.android.scientific.tnt.webradio.WebRadioToolbox: java.lang.String getStreamingUrl(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <eu.android.scientific.tnt.SDCardScanner: void recursiveAddFiles(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void close()>
+Caller: <eu.android.scientific.tnt.AudioPlayerService: void onDestroy()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void close()>
+Caller: <eu.android.scientific.tnt.AudioPlayerService: void onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <eu.android.scientific.tnt.AudioPlayerService: void onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager: int getPlayTimeInSeconds(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager$DatabaseHelper: void createTable()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager$DatabaseHelper: void onCreate(android.database.sqlite.SQLiteDatabase)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <eu.android.scientific.tnt.tools.DatabaseManager$DatabaseHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+Caller: <eu.android.scientific.tnt.AudioPlayerService: void onDestroy()>
+Thread: [UI]
+-------------------------

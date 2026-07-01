@@ -1,0 +1,150 @@
+Time1: 89.561784696
+Time2: 8.23506102
+Worker: 13
+UI: 23
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.tutotoons.tools.utils.FileUtils: boolean delete(java.io.File,java.lang.String,java.lang.String)>
+Thread: [<com.tutotoons.ads.activity.videointerstitial.VideoInterstitialDefault$8: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.tutotoons.tools.utils.FileUtils: boolean delete(java.io.File,java.lang.String,java.lang.String)>
+Thread: [<com.tutotoons.ads.activity.playable.PlayableDefault$9: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.tutotoons.tools.utils.FileUtils: boolean delete(java.io.File,java.lang.String,java.lang.String)>
+Thread: [<com.tutotoons.ads.activity.video.VideoDefault$12: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.tutotoons.tools.utils.FileUtils: boolean delete(java.io.File,java.lang.String,java.lang.String)>
+Thread: [<com.tutotoons.ads.activity.interstitial.StaticDefault$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tutotoons.tools.utils.Request: void lambda$makeRequest$0(java.lang.String,com.tutotoons.tools.utils.Request$RequestListener,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.tutotoons.tools.utils.Request$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.tutotoons.ads.activity.video.VideoDefault$8: void run()>
+Thread: [<com.tutotoons.ads.activity.video.VideoDefault$8: void run()>]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.tutotoons.ads.activity.videointerstitial.VideoInterstitialDefault$4: void run()>
+Thread: [<com.tutotoons.ads.activity.videointerstitial.VideoInterstitialDefault$4: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.tutotoons.tools.utils.Request: void lambda$makeRequest$0(java.lang.String,com.tutotoons.tools.utils.Request$RequestListener,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.tutotoons.tools.utils.Request$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.tutotoons.tools.utils.Request: void lambda$makeRequest$0(java.lang.String,com.tutotoons.tools.utils.Request$RequestListener,java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<com.tutotoons.tools.utils.Request$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.tutotoons.tools.utils.FileUtils: boolean delete(java.io.File,java.lang.String,java.lang.String)>
+Thread: [<com.tutotoons.ads.activity.playable.PlayableDefault$9: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.tutotoons.tools.utils.FileUtils: boolean delete(java.io.File,java.lang.String,java.lang.String)>
+Thread: [<com.tutotoons.ads.activity.video.VideoDefault$12: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.tutotoons.tools.utils.FileUtils: boolean delete(java.io.File,java.lang.String,java.lang.String)>
+Thread: [<com.tutotoons.ads.activity.interstitial.StaticDefault$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.tutotoons.tools.utils.FileUtils: boolean delete(java.io.File,java.lang.String,java.lang.String)>
+Thread: [<com.tutotoons.ads.activity.videointerstitial.VideoInterstitialDefault$8: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.tutotoons.tools.utils.ContentProviderUtils: int tryDelete(java.lang.String,android.database.sqlite.SQLiteDatabase,android.content.ContentResolver,android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.tutotoons.tools.providers.TutoAdsPrefsManager: void setAdClickTutoPulse(android.content.Context,java.lang.String,java.lang.String,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.tutotoons.tools.providers.TutoAdsPrefsManager: void setAdClick(android.content.Context,java.lang.String,java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.tutotoons.tools.providers.TutoTOONSContentProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.tutotoons.tools.utils.ContentProviderUtils: int tryUpdate(java.lang.String,android.database.sqlite.SQLiteDatabase,android.content.ContentResolver,android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.tutotoons.tools.utils.ContentProviderUtils: android.database.Cursor tryQuery(java.lang.String,android.database.sqlite.SQLiteDatabase,android.content.ContentResolver,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.common.base.Charsets: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.tutotoons.tools.utils.ContentProviderUtils: android.net.Uri tryInsert(java.lang.String,android.database.sqlite.SQLiteDatabase,android.content.ContentResolver,android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <com.tutotoons.ads.activity.interstitial.StaticDefault: boolean tryInitLayout()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.tutotoons.tools.providers.TutoTOONSContentProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.tutotoons.tools.providers.TutoTOONSContentProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.tutotoons.tools.providers.TutoTOONSContentProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.tutotoons.tools.providers.TutoTOONSContentProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.tutotoons.tools.providers.TutoTOONSContentProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.tutotoons.tools.providers.TutoTOONSContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.tutotoons.tools.providers.TutoTOONSContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.tutotoons.tools.providers.TutoTOONSContentProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <com.tutotoons.tools.providers.TutoTOONSContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------

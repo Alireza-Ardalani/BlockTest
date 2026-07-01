@@ -1,0 +1,490 @@
+Time1: 79.305892221
+Time2: 12.383036766
+Worker: 20
+UI: 101
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <io.socket.engineio.client.transports.PollingXHR$Request: void onLoad()>
+Thread: [<io.socket.engineio.client.transports.PollingXHR$Request$1: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<okhttp3.ConnectionPool$1: void run()>]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.String getContentType()>
+Caller: <io.socket.engineio.client.transports.PollingXHR$Request: void onLoad()>
+Thread: [<io.socket.engineio.client.transports.PollingXHR$Request$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.socket.engineio.client.transports.PollingXHR$Request: void onLoad()>
+Thread: [<io.socket.engineio.client.transports.PollingXHR$Request$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.socket.engineio.client.transports.PollingXHR$Request: void onLoad()>
+Thread: [<io.socket.engineio.client.transports.PollingXHR$Request$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <io.socket.engineio.client.transports.PollingXHR$Request: void onLoad()>
+Thread: [<io.socket.engineio.client.transports.PollingXHR$Request$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <io.socket.engineio.client.transports.PollingXHR$Request$1: void run()>
+Thread: [<io.socket.engineio.client.transports.PollingXHR$Request$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <io.socket.engineio.client.transports.PollingXHR$Request$1: void run()>
+Thread: [<io.socket.engineio.client.transports.PollingXHR$Request$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void flush()>
+Caller: <io.socket.engineio.client.transports.PollingXHR$Request$1: void run()>
+Thread: [<io.socket.engineio.client.transports.PollingXHR$Request$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <okio.Okio$1: void close()>
+Thread: [<okhttp3.internal.ws.RealWebSocket$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [<okhttp3.internal.ws.RealWebSocket$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <io.socket.engineio.client.transports.PollingXHR$Request: void onLoad()>
+Thread: [<io.socket.engineio.client.transports.PollingXHR$Request$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <io.socket.engineio.client.transports.PollingXHR$Request: void onLoad()>
+Thread: [<io.socket.engineio.client.transports.PollingXHR$Request$1: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <io.socket.engineio.client.transports.PollingXHR$Request: void onLoad()>
+Thread: [<io.socket.engineio.client.transports.PollingXHR$Request$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [<okhttp3.internal.ws.RealWebSocket$1: void run()>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.theartofdev.edmodo.cropper.BitmapUtils: com.theartofdev.edmodo.cropper.BitmapUtils$RotateBitmapResult rotateBitmapByExif(android.graphics.Bitmap,android.content.Context,android.net.Uri)>
+Thread: [<com.theartofdev.edmodo.cropper.BitmapLoadingWorkerTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.theartofdev.edmodo.cropper.BitmapUtils: android.graphics.BitmapFactory$Options decodeImageForOption(android.content.ContentResolver,android.net.Uri)>
+Thread: [<com.theartofdev.edmodo.cropper.BitmapLoadingWorkerTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.theartofdev.edmodo.cropper.BitmapUtils: android.graphics.Bitmap decodeImage(android.content.ContentResolver,android.net.Uri,android.graphics.BitmapFactory$Options)>
+Thread: [<com.theartofdev.edmodo.cropper.BitmapLoadingWorkerTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <io.socket.engineio.client.transports.PollingXHR$Request: void onLoad()>
+Thread: [<io.socket.engineio.client.transports.PollingXHR$Request$1: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <io.socket.engineio.client.transports.PollingXHR$Request$1: void run()>
+Thread: [<io.socket.engineio.client.transports.PollingXHR$Request$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.hesonline.kaa.data.maps.TileService: void writeOut(java.util.zip.ZipInputStream,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <okhttp3.internal.ws.RealWebSocket$2: void onResponse(okhttp3.Call,okhttp3.Response)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toUnicode(java.lang.String)>
+Caller: <okhttp3.internal.publicsuffix.PublicSuffixDatabase: java.lang.String getEffectiveTldPlusOne(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.squareup.picasso.Utils: byte[] toByteArray(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.hesonline.kaa.util.FileUtils: boolean deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.facebook.stetho.inspector.network.ResponseBodyFileManager: void cleanupFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.facebook.stetho.inspector.domstorage.SharedPreferencesHelper: java.util.List getSharedPreferenceTags(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.hesonline.kaa.data.maps.TileService: void writeOut(java.util.zip.ZipInputStream,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.squareup.picasso.Utils: byte[] toByteArray(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okio.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.internal.Util: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <okhttp3.logging.HttpLoggingInterceptor: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: byte readByte()>
+Caller: <org.threeten.bp.zone.TzdbZoneRulesProvider: java.lang.Iterable loadData(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <com.squareup.picasso.MarkableInputStream: void skip(long,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.threeten.bp.zone.TzdbZoneRulesProvider: java.lang.Iterable loadData(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.threeten.bp.zone.TzdbZoneRulesProvider: java.lang.Iterable loadData(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: java.lang.String readUTF()>
+Caller: <org.threeten.bp.zone.TzdbZoneRulesProvider: java.lang.Iterable loadData(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.OutputStream openOutputStream(android.net.Uri)>
+Caller: <com.theartofdev.edmodo.cropper.BitmapUtils: void writeBitmapToUri(android.content.Context,android.graphics.Bitmap,android.net.Uri,android.graphics.Bitmap$CompressFormat,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[])>
+Caller: <com.hesonline.kaa.data.maps.TileService: void writeOut(java.util.zip.ZipInputStream,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.socket.engineio.client.transports.PollingXHR$Request: void create()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <io.socket.client.Url: java.net.URL parse(java.net.URI)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <okhttp3.HttpUrl: java.net.URL url()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.Util: java.lang.String canonicalizeHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.facebook.stetho.common.ProcessUtil: java.lang.String readProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.hesonline.kaa.data.maps.TileService: void decompress(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read(byte[],int,int)>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <com.squareup.picasso.ContactsPhotoRequestHandler: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <io.socket.global.Global: java.lang.String encodeURIComponent(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.squareup.picasso.BitmapHunter: android.graphics.Bitmap transformResult(com.squareup.picasso.Request,android.graphics.Bitmap,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.stetho.inspector.network.ResponseBodyFileManager: void cleanupFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.hesonline.kaa.util.FileUtils: boolean deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <okio.Okio: okio.Sink sink(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.hesonline.kaa.data.maps.TileService: void decompress(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.hesonline.kaa.util.FileUtils: boolean deleteContents(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.hesonline.kaa.data.maps.TileService: void writeOut(java.util.zip.ZipInputStream,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+Caller: <io.socket.global.Global: java.lang.String decodeURIComponent(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <org.threeten.bp.zone.TzdbZoneRulesProvider: java.lang.Iterable loadData(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <org.threeten.bp.zone.TzdbZoneRulesProvider: java.lang.Iterable loadData(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <org.threeten.bp.zone.TzdbZoneRulesProvider: java.lang.Iterable loadData(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <org.threeten.bp.zone.TzdbZoneRulesProvider: java.lang.Iterable loadData(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <org.threeten.bp.zone.TzdbZoneRulesProvider: java.lang.Iterable loadData(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <org.threeten.bp.zone.TzdbZoneRulesProvider: java.lang.Iterable loadData(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: short readShort()>
+Caller: <org.threeten.bp.zone.TzdbZoneRulesProvider: java.lang.Iterable loadData(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.hesonline.kaa.data.maps.TileService: boolean tilesLoadedForMap(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.theartofdev.edmodo.cropper.BitmapUtils: android.net.Uri writeTempStateStoreBitmap(android.content.Context,android.graphics.Bitmap,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.facebook.stetho.inspector.domstorage.SharedPreferencesHelper: java.util.List getSharedPreferenceTags(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[])>
+Caller: <com.facebook.stetho.common.ProcessUtil: java.lang.String readProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <okio.Okio$1: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.hesonline.kaa.data.maps.TileService: void writeOut(java.util.zip.ZipInputStream,java.util.zip.ZipEntry,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.hesonline.kaa.data.maps.TileService: void decompress(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.squareup.picasso.Utils: java.io.File createDefaultCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.theartofdev.edmodo.cropper.BitmapUtils: android.net.Uri writeTempStateStoreBitmap(android.content.Context,android.graphics.Bitmap,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.theartofdev.edmodo.cropper.CropImageActivity: android.net.Uri getOutputUri()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: long skip(long)>
+Caller: <com.squareup.picasso.MarkableInputStream: void skip(long,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection(java.net.Proxy)>
+Caller: <io.socket.engineio.client.transports.PollingXHR$Request: void create()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Proxy: void <init>(java.net.Proxy$Type,java.net.SocketAddress)>
+Caller: <okhttp3.OkHttpClient: okhttp3.OkHttpClient$Builder newBuilder()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataInputStream: void readFully(byte[])>
+Caller: <org.threeten.bp.zone.TzdbZoneRulesProvider: java.lang.Iterable loadData(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.squareup.picasso.Utils: boolean isWebPFile(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.squareup.picasso.MarkableInputStream: int read(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <okio.Okio$1: void write(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read()>
+Caller: <com.squareup.picasso.MarkableInputStream: int read()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.theartofdev.edmodo.cropper.CropImage: boolean isUriRequiresPermissions(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.theartofdev.edmodo.cropper.BitmapUtils: com.theartofdev.edmodo.cropper.BitmapUtils$RotateBitmapResult rotateBitmapByExif(android.graphics.Bitmap,android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.theartofdev.edmodo.cropper.BitmapUtils: android.graphics.BitmapFactory$Options decodeImageForOption(android.content.ContentResolver,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.theartofdev.edmodo.cropper.BitmapUtils: android.graphics.Bitmap decodeImage(android.content.ContentResolver,android.net.Uri,android.graphics.BitmapFactory$Options)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <io.socket.engineio.client.transports.PollingXHR$Request: void create()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.stetho.common.Util: void close(java.io.Closeable,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.stetho.common.Util: void close(java.io.Closeable,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.theartofdev.edmodo.cropper.CropImageView: void setImageResource(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.Okio$2: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <okio.InflaterSource: long read(okio.Buffer,long)>
+Thread: [UI]
+-------------------------

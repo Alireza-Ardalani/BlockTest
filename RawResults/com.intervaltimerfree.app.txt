@@ -1,0 +1,662 @@
+Time1: 26.247713487
+Time2: 4.404305774
+Worker: 47
+UI: 117
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean setLastModified(long)>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.FileLruCache: java.io.OutputStream openPutStream(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.internal.FileLruCache: java.io.OutputStream openPutStream(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.internal.FileLruCache$BufferFile: void deleteAll(java.io.File)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.internal.FileLruCache: void renameToTargetAndTrim(java.lang.String,java.io.File)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.internal.FileLruCache$1: void onClose()>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: void writeHeader(java.io.OutputStream,org.json.JSONObject)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: void writeHeader(java.io.OutputStream,org.json.JSONObject)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: void writeHeader(java.io.OutputStream,org.json.JSONObject)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: void writeHeader(java.io.OutputStream,org.json.JSONObject)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read()>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: org.json.JSONObject readHeader(java.io.InputStream)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read()>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: org.json.JSONObject readHeader(java.io.InputStream)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.facebook.internal.FileLruCache: void renameToTargetAndTrim(java.lang.String,java.io.File)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.FileLruCache: void <init>(android.content.Context,java.lang.String,com.facebook.internal.FileLruCache$Limits)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.Request$Serializer: void writeFile(java.lang.String,android.os.ParcelFileDescriptor,java.lang.String)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: org.json.JSONObject readHeader(java.io.InputStream)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.intervaltimerfree.app.activity.MainActivity: android.graphics.Bitmap small(android.graphics.Bitmap)>
+Thread: [<com.intervaltimerfree.app.activity.MainActivity$29: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.intervaltimerfree.app.activity.MainActivity: android.graphics.Bitmap big(android.graphics.Bitmap)>
+Thread: [<com.intervaltimerfree.app.activity.MainActivity$29: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.internal.FileLruCache: void <init>(android.content.Context,java.lang.String,com.facebook.internal.FileLruCache$Limits)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: void writeHeader(java.io.OutputStream,org.json.JSONObject)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.Request$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[])>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.Request$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.Request$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.Request$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.Request$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.facebook.internal.FileLruCache$BufferFile: void deleteAll(java.io.File)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.Request$Serializer: void writeFile(java.lang.String,android.os.ParcelFileDescriptor,java.lang.String)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.Request$Serializer: void writeFile(java.lang.String,android.os.ParcelFileDescriptor,java.lang.String)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[],int,int)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.Request: java.net.HttpURLConnection toHttpConnection(com.facebook.RequestBatch)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.Request: java.net.HttpURLConnection toHttpConnection(com.facebook.RequestBatch)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.facebook.ProgressOutputStream: void close()>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.Request$Serializer: void writeFile(java.lang.String,android.os.ParcelFileDescriptor,java.lang.String)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.facebook.internal.FileLruCache$CopyingInputStream: void close()>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.Request$Serializer: void writeFile(java.lang.String,android.os.ParcelFileDescriptor,java.lang.String)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read(byte[],int,int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: org.json.JSONObject readHeader(java.io.InputStream)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.facebook.internal.FileLruCache: java.io.OutputStream openPutStream(java.lang.String,java.lang.String)>
+Thread: [<com.facebook.Session$AutoPublishAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.Reader: int read(java.nio.CharBuffer)>
+Caller: <com.google.android.gms.internal.ci: java.lang.String a(java.lang.Readable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.intervaltimerfree.app.activity.MyApplication: void onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.intervaltimerfree.app.activity.MyApplication: void onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.intervaltimerfree.app.activity.MyApplication: void onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.intervaltimerfree.app.activity.MyApplication: void onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>
+Caller: <com.intervaltimerfree.app.activity.MyApplication: void onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.intervaltimerfree.app.utils.MyDBhelper: android.database.Cursor query()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: com.intervaltimerfree.app.entity.Intervalsdao getIntervalsdaoById(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.ct: android.webkit.WebResourceResponse b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.bz: com.google.android.gms.internal.bw a(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.internal.cl: void ac()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.intervaltimerfree.app.service.MusicService: java.lang.String getDateByPosition(android.database.Cursor,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.mobeta.android.dslv.DragSortListView$DragSortTracker: void <init>(com.mobeta.android.dslv.DragSortListView)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: java.util.ArrayList getIntervalsid()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.intervaltimerfree.app.utils.MyDBhelper: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.mobeta.android.dslv.SimpleFloatViewManager: android.view.View onCreateFloatView(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.facebook.Session: com.facebook.Session restoreSession(android.content.Context,com.facebook.TokenCachingStrategy,com.facebook.Session$StatusCallback,android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean setLastModified(long)>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Reader: int read(char[])>
+Caller: <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.FileLruCache: java.io.OutputStream openPutStream(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.google.android.gms.internal.f: void e(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.internal.FileLruCache: void renameToTargetAndTrim(java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.internal.FileLruCache: java.io.OutputStream openPutStream(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.internal.f: void e(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.gms.internal.f: void e(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.internal.FileLruCache$1: void onClose()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.facebook.internal.FileLruCache$BufferFile: void deleteAll(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: void writeHeader(java.io.OutputStream,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: void writeHeader(java.io.OutputStream,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: void writeHeader(java.io.OutputStream,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: void writeHeader(java.io.OutputStream,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read()>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: org.json.JSONObject readHeader(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read()>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: org.json.JSONObject readHeader(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.mobeta.android.dslv.DragSortListView$DragSortTracker: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.facebook.internal.FileLruCache: void renameToTargetAndTrim(java.lang.String,java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.facebook.internal.FileLruCache: void <init>(android.content.Context,java.lang.String,com.facebook.internal.FileLruCache$Limits)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: void initIntervalcycle()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.intervaltimerfree.app.utils.MyDBhelper: void insertplsong(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: long insertIntervals(com.intervaltimerfree.app.entity.Intervalsdao)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: void inserMovement(com.intervaltimerfree.app.entity.Movementdao)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: void inserIntervalcycle(com.intervaltimerfree.app.entity.Intervalcycledao)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: void initIntervals1()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.intervaltimerfree.app.utils.MyDBhelper: void insert(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: void initIntervals()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.Request$Serializer: void writeFile(java.lang.String,android.os.ParcelFileDescriptor,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void flush()>
+Caller: <com.mobeta.android.dslv.DragSortListView$DragSortTracker: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: org.json.JSONObject readHeader(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.facebook.internal.FileLruCache: void <init>(android.content.Context,java.lang.String,com.facebook.internal.FileLruCache$Limits)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: void writeHeader(java.io.OutputStream,org.json.JSONObject)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.Request$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.Request$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.Request$Serializer: void writeBytes(java.lang.String,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.Request$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.facebook.Request$Serializer: void write(java.lang.String,java.lang.Object[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+Caller: <com.facebook.internal.FileLruCache$BufferFile: void deleteAll(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.MyDBhelper: java.lang.String querysong_songpath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.MyDBhelper: android.database.Cursor querysongName(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.MyDBhelper: boolean queryplname(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.MyDBhelper: java.lang.String queryId(java.lang.Integer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: java.util.ArrayList getIntervalsid()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: java.util.ArrayList getAllintervals()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.MyDBhelper: android.database.Cursor querysongPath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.MyDBhelper: java.lang.String querysong_songname(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: java.util.ArrayList getAllintervalcycle()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.MyDBhelper: java.lang.String querysong_artist(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: boolean querysongName_1(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.MyDBhelper: android.database.Cursor querysongArtist(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: java.util.ArrayList getAllMovement()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void close()>
+Caller: <com.mobeta.android.dslv.DragSortListView$DragSortTracker: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.facebook.Request$Serializer: void writeFile(java.lang.String,android.os.ParcelFileDescriptor,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.Request$Serializer: void writeFile(java.lang.String,android.os.ParcelFileDescriptor,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.facebook.ProgressOutputStream: void write(byte[],int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileWriter: void <init>(java.io.File,boolean)>
+Caller: <com.mobeta.android.dslv.DragSortListView$DragSortTracker: void flush()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.google.android.gms.internal.f: void e(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.facebook.Session: com.facebook.Session restoreSession(android.content.Context,com.facebook.TokenCachingStrategy,com.facebook.Session$StatusCallback,android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.bz: com.google.android.gms.internal.bw a(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.cl: void ac()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.Request: java.net.HttpURLConnection toHttpConnection(com.facebook.RequestBatch)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.facebook.Request: java.net.HttpURLConnection toHttpConnection(com.facebook.RequestBatch)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.bz: com.google.android.gms.internal.bw a(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.internal.ct: android.webkit.WebResourceResponse b(android.content.Context,java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int)>
+Caller: <com.intervaltimerfree.app.activity.MainActivity: android.graphics.Bitmap myShot(android.app.Activity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int)>
+Caller: <com.intervaltimerfree.app.activity.MainActivity: android.graphics.Bitmap myShot(android.app.Activity)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <com.facebook.ProgressOutputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.facebook.internal.FileLruCache$CopyingInputStream: void close()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.Request$Serializer: void writeFile(java.lang.String,android.os.ParcelFileDescriptor,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.facebook.internal.Utility: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.Request$Serializer: void writeFile(java.lang.String,android.os.ParcelFileDescriptor,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: void close()>
+Caller: <com.facebook.internal.FileLruCache: java.io.InputStream get(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: void updateRoutinesIntervals(com.intervaltimerfree.app.entity.Intervalsdao,com.intervaltimerfree.app.entity.Intervalsdao)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.MyDBhelper: void updataPlname(android.content.ContentValues,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: void updateMovement(com.intervaltimerfree.app.entity.Movementdao,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: void updateMovemetName(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: void updateIsUse(com.intervaltimerfree.app.entity.Intervalsdao)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.MyDBhelper: void updata(android.content.ContentValues,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: void updateIntervalcycle(com.intervaltimerfree.app.entity.Intervalcycledao)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: void updateIntervals(com.intervaltimerfree.app.entity.Intervalsdao)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.MyDBhelper: void deleteplsong(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.MyDBhelper: void delete(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: void deleteMovement(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: void delIntervalCyc(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.intervaltimerfree.app.utils.DatebaseUtil: void deleteInterval(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.internal.g: com.google.android.gms.internal.g$a f(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.IOException: void <init>(java.lang.Throwable)>
+Caller: <com.google.android.gms.ads.identifier.AdvertisingIdClient: com.google.android.gms.common.a g(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedInputStream: int read(byte[],int,int)>
+Caller: <com.facebook.internal.FileLruCache$StreamHeader: org.json.JSONObject readHeader(java.io.InputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.facebook.internal.FileLruCache: java.io.OutputStream openPutStream(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.mobeta.android.dslv.DragSortListView$DragSortTracker: void <init>(com.mobeta.android.dslv.DragSortListView)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.google.android.gms.internal.f: void e(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.google.android.gms.internal.f: void e(android.content.Context)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,22 @@
+Time1: 40.217449404
+Time2: 1.21522318
+Worker: 1
+UI: 3
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.smartlook.q4: boolean c(java.io.File)>
+Thread: [<com.smartlook.sdk.smartlook.job.worker.session.UploadSessionJob$b: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <com.adobe.phonegap.push.FCMService: void setNotificationLargeIcon(android.os.Bundle,androidx.core.app.NotificationCompat$Builder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.adobe.phonegap.push.FCMService: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.adobe.phonegap.push.FCMService: android.graphics.Bitmap getBitmapFromURL(java.lang.String)>
+Thread: [UI]
+-------------------------

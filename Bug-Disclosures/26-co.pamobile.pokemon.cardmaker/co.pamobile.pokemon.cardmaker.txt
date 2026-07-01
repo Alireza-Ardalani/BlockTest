@@ -1,0 +1,14 @@
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <co.pamobile.pokemon.cardmaker.MainActivity: boolean saveImage(java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.OutputStream openOutputStream(android.net.Uri)>
+Caller: <co.pamobile.pokemon.cardmaker.MainActivity: boolean saveImage(java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String)>
+Caller: <co.pamobile.pokemon.cardmaker.MainActivity: boolean saveImage(java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------

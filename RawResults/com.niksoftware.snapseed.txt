@@ -1,0 +1,70 @@
+Time1: 30.933956503
+Time2: 3.171581303
+Worker: 3
+UI: 13
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <dkc: java.util.List L(int)>
+Thread: [<bpv: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <dkc: int K(java.io.InputStream,byte[],int,int)>
+Thread: [<bpv: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: long skip(long)>
+Caller: <dkc: void B(int)>
+Thread: [<bpv: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <bvh: void n(android.content.ContentResolver,java.util.List,android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <cci: void g(android.content.ContentResolver,android.net.Uri,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <cci: void g(android.content.ContentResolver,android.net.Uri,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void close()>
+Caller: <cci: void g(android.content.ContentResolver,android.net.Uri,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.DataOutputStream: void flush()>
+Caller: <cci: void g(android.content.ContentResolver,android.net.Uri,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <dlc: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <dlc: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <dlc: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FilterOutputStream: void write(byte[])>
+Caller: <cci: void g(android.content.ContentResolver,android.net.Uri,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.OutputStream openOutputStream(android.net.Uri)>
+Caller: <cci: void g(android.content.ContentResolver,android.net.Uri,byte[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String)>
+Caller: <bvh: void n(android.content.ContentResolver,java.util.List,android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <ajy: int compare(java.lang.Object,java.lang.Object)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long lastModified()>
+Caller: <ajy: int compare(java.lang.Object,java.lang.Object)>
+Thread: [UI]
+-------------------------

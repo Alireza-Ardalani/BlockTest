@@ -1,0 +1,62 @@
+Time1: 10.393424855
+Time2: 0.169361179
+Worker: 2
+UI: 12
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <ru.iiec.pydroid3.quickinstallrepo.DownloadActivity: void onCreate$lambda$1(ru.iiec.pydroid3.quickinstallrepo.PipOBBHelper,ru.iiec.pydroid3.quickinstallrepo.DownloadActivity,ru.iiec.pydroid3.quickinstallrepo.MyProgressDialog)>
+Thread: [<ru.iiec.pydroid3.quickinstallrepo.DownloadActivity$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ru.iiec.pydroid3.quickinstallrepo.DownloadActivity: void onCreate$lambda$1(ru.iiec.pydroid3.quickinstallrepo.PipOBBHelper,ru.iiec.pydroid3.quickinstallrepo.DownloadActivity,ru.iiec.pydroid3.quickinstallrepo.MyProgressDialog)>
+Thread: [<ru.iiec.pydroid3.quickinstallrepo.DownloadActivity$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.vending.expansion.downloader.impl.DownloadsDB: com.google.android.vending.expansion.downloader.impl.DownloadInfo[] getDownloads()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.google.android.vending.expansion.downloader.impl.DownloadsDB: com.google.android.vending.expansion.downloader.impl.DownloadInfo[] getDownloads()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.google.android.vending.expansion.downloader.impl.DownloadsDB: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.vending.expansion.downloader.impl.DownloadsDB: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.vending.expansion.downloader.impl.DownloadsDB: boolean updateMetadata(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.google.android.vending.expansion.downloader.Helpers: boolean doesFileExist(android.content.Context,java.lang.String,long,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.vending.expansion.downloader.impl.DownloadsDB: boolean updateMetadata(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.vending.expansion.downloader.impl.DownloadsDB: boolean updateMetadata(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.vending.expansion.downloader.Helpers: boolean doesFileExist(android.content.Context,java.lang.String,long,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <ru.iiec.pydroid3.quickinstallrepo.OBBHelper: boolean fileExistAndValid(android.content.Context,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <ru.iiec.pydroid3.quickinstallrepo.OBBHelper: boolean fileExistAndValid(android.content.Context,java.lang.String,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.vending.expansion.downloader.Helpers: boolean doesFileExist(android.content.Context,java.lang.String,long,boolean)>
+Thread: [UI]
+-------------------------

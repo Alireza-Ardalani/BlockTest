@@ -1,0 +1,58 @@
+Time1: 3.869177452
+Time2: 0.298798244
+Worker: 5
+UI: 8
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.motorolasolutions.adc.decoder.LicenseServerTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [<com.motorolasolutions.adc.decoder.LicenseServerTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.motorolasolutions.adc.decoder.LicenseServerTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [<com.motorolasolutions.adc.decoder.LicenseServerTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.motorolasolutions.adc.decoder.LicenseServerTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [<com.motorolasolutions.adc.decoder.LicenseServerTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.motorolasolutions.adc.decoder.LicenseServerTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [<com.motorolasolutions.adc.decoder.LicenseServerTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.motorolasolutions.adc.decoder.LicenseServerTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [<com.motorolasolutions.adc.decoder.LicenseServerTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <de.appplant.cordova.plugin.emailcomposer.AttachmentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: int match(android.net.Uri)>
+Caller: <de.appplant.cordova.plugin.emailcomposer.AttachmentProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.motorolasolutions.adc.decoder.LicenseServerTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.motorolasolutions.adc.decoder.LicenseServerTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>
+Caller: <de.appplant.cordova.plugin.emailcomposer.AttachmentProvider: boolean onCreate()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.motorolasolutions.adc.decoder.LicenseServerTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.motorolasolutions.adc.decoder.LicenseServerTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.motorolasolutions.adc.decoder.LicenseServerTask: java.lang.String doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------

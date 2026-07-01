@@ -1,0 +1,158 @@
+Time1: 37.524307016
+Time2: 0.714531373
+Worker: 2
+UI: 36
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteClosable: void acquireReference()>
+Caller: <net.sqlcipher.database.SQLiteQuery: int fillWindow(net.sqlcipher.CursorWindow,int,int)>
+Thread: [<net.sqlcipher.database.SQLiteCursor$QueryThread: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <net.sqlcipher.DefaultDatabaseErrorHandler: void deleteDatabaseFile(java.lang.String)>
+Thread: [<net.sqlcipher.database.SQLiteCursor$QueryThread: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.icd10.app.utils.SqlUtils: void writeExtractedFileToDisk(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.CursorWindow: void <init>(boolean)>
+Caller: <net.sqlcipher.CursorWindow: void <init>(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.admarvel.android.ads.AdMarvelLocalFileContentProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <net.sqlcipher.database.SQLiteDatabase: byte[] getBytes(char[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.admarvel.android.ads.internal.q: void t(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.admarvel.android.ads.AdMarvelLocalFileContentProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.admarvel.android.ads.internal.util.b: void b(java.lang.String,android.content.Context,android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.admarvel.android.ads.internal.util.b: void b(java.lang.String,android.content.Context,android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.admarvel.android.ads.internal.util.b: void b(java.lang.String,android.content.Context,android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.icd10.app.utils.SQLiteCipherAssetHelper: void copyDatabaseFromAssets()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.icd10.app.utils.ICD10DbAssetHelper: void copyDatabaseFromAssetsIfNeeded(java.lang.String,java.lang.Boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.admarvel.android.ads.internal.util.b: void b(java.lang.String,android.content.Context,android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.icd10.app.utils.SqlUtils: void writeExtractedFileToDisk(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: java.lang.Object getContent()>
+Caller: <com.admarvel.android.ads.AdMarvelLocalFileContentProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.icd10.app.utils.SqlUtils: void writeExtractedFileToDisk(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteClosable: void acquireReference()>
+Caller: <net.sqlcipher.database.SQLiteQuery: int fillWindow(net.sqlcipher.CursorWindow,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteClosable: void acquireReference()>
+Caller: <net.sqlcipher.CursorWindow: void clear()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.admarvel.android.ads.AdMarvelLocalFileContentProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.ByteBuffer encode(java.nio.CharBuffer)>
+Caller: <net.sqlcipher.database.SQLiteDatabase: byte[] getBytes(char[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.admarvel.android.ads.AdMarvelLocalFileContentProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.icd10.app.utils.SqlUtils: void writeExtractedFileToDisk(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.admarvel.android.ads.AdMarvelLocalFileContentProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+Caller: <com.admarvel.android.ads.AdMarvelActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.admarvel.android.ads.AdMarvelLocalFileContentProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <net.sqlcipher.DefaultDatabaseErrorHandler: void deleteDatabaseFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ObjectInputStream: java.lang.Object readObject()>
+Caller: <com.admarvel.android.ads.AdMarvelActivity: void onCreate(android.os.Bundle)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLConnection: int getContentLength()>
+Caller: <com.admarvel.android.ads.AdMarvelLocalFileContentProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.icd10.app.utils.ICD10DbAssetHelper: void copyDatabaseFromAssetsIfNeeded(java.lang.String,java.lang.Boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.icd10.app.utils.SQLiteCipherAssetHelper: void copyDatabaseFromAssets()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.lang.String)>
+Caller: <com.icd10.app.utils.SQLiteCipherAssetHelper: void copyDatabaseFromAssets()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.admarvel.android.ads.AdMarvelLocalFileContentProvider: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.icd10.app.utils.ICD10DbAssetHelper: void copyDatabaseFromAssetsIfNeeded(java.lang.String,java.lang.Boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.icd10.app.utils.SQLiteCipherAssetHelper: net.sqlcipher.database.SQLiteDatabase createOrOpenDatabase(boolean,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.icd10.app.utils.ICD10DbAssetHelper: void copyDatabaseFromAssetsIfNeeded(java.lang.String,java.lang.Boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.admarvel.android.ads.internal.util.b: void b(java.lang.String,android.content.Context,android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.icd10.app.utils.SQLiteCipherAssetHelper: void copyDatabaseFromAssets()>
+Thread: [UI]
+-------------------------

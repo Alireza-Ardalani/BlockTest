@@ -1,0 +1,326 @@
+Time1: 115.780281394
+Time2: 3.016164805
+Worker: 30
+UI: 50
+-------------------------WorkerThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.ironsource.s9: void a()>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.ironsource.mediationsdk.server.HttpFunctions: void b(java.io.OutputStream,java.net.HttpURLConnection,java.io.BufferedReader)>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.ironsource.ri: java.lang.String a(byte[])>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void flush()>
+Caller: <com.ironsource.mediationsdk.server.HttpFunctions: void b(java.lang.String,java.io.OutputStream)>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.ironsource.ri: java.lang.String a(byte[])>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.ironsource.mediationsdk.server.HttpFunctions: java.lang.String a(java.io.BufferedReader)>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.ironsource.s9: void a(com.ironsource.xb)>
+Thread: [<com.ironsource.m7$b: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.ironsource.s9: void a(com.ironsource.xb)>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+Caller: <com.ironsource.ri: java.lang.String a(byte[])>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.ironsource.mediationsdk.server.HttpFunctions: java.net.HttpURLConnection b(java.lang.String)>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.ironsource.ri: byte[] a(java.lang.String,int)>
+Thread: [<com.ironsource.m7$b: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+Caller: <com.ironsource.mediationsdk.server.HttpFunctions: void b(java.lang.String,java.io.OutputStream)>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.ironsource.mediationsdk.server.ServerURL: java.lang.String buildInitURL(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.util.List,boolean)>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.ironsource.mediationsdk.server.ServerURL: java.lang.String createURLParams(java.util.List)>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.ironsource.s9: void a(com.ironsource.xb)>
+Thread: [<com.ironsource.m7$b: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.ironsource.s9: void a(com.ironsource.xb)>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.ironsource.s9: void a(com.ironsource.xb)>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.ironsource.s9: void a(com.ironsource.xb)>
+Thread: [<com.ironsource.m7$b: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedWriter: void close()>
+Caller: <com.ironsource.mediationsdk.server.HttpFunctions: void b(java.lang.String,java.io.OutputStream)>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.ironsource.mediationsdk.server.HttpFunctions: java.net.HttpURLConnection b(java.lang.String)>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.ironsource.s9: java.util.List b()>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.ironsource.r9: android.database.sqlite.SQLiteDatabase a(boolean,android.database.sqlite.SQLiteOpenHelper)>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.ironsource.r9: android.database.sqlite.SQLiteDatabase a(boolean,android.database.sqlite.SQLiteOpenHelper)>
+Thread: [<com.ironsource.m7$b: void run()>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.ironsource.mediationsdk.server.HttpFunctions: void b(java.lang.String,java.io.OutputStream)>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.ironsource.s9: void a(com.ironsource.xb)>
+Thread: [<com.ironsource.m7$b: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.ironsource.s9: void a(com.ironsource.xb)>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.ironsource.r9: android.database.sqlite.SQLiteDatabase a(boolean,android.database.sqlite.SQLiteOpenHelper)>
+Thread: [<com.ironsource.m7$b: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.ironsource.r9: android.database.sqlite.SQLiteDatabase a(boolean,android.database.sqlite.SQLiteOpenHelper)>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.ironsource.s9: void a(com.ironsource.xb)>
+Thread: [<com.ironsource.mediationsdk.s$a: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.ironsource.s9: void a(com.ironsource.xb)>
+Thread: [<com.ironsource.m7$b: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: java.lang.Object c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: boolean deleteFolderContentRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.ironsource.sdk.controller.v$v: android.webkit.WebResourceResponse shouldInterceptRequest(android.webkit.WebView,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: java.lang.String getNetworkStorageDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: void ensurePathSafety(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String getCanonicalPath()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: void ensurePathSafety(java.io.File,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: boolean renameFile(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void setTransactionSuccessful()>
+Caller: <com.ironsource.s9: void a(com.ironsource.xb)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.net.URI toURI()>
+Caller: <com.ironsource.sdk.controller.v: void a(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean canWrite()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: java.lang.String getDiskCacheDirPath(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.ironsource.xl: void a(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.ironsource.sdk.utils.SDKUtils: java.lang.String encodeString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.ironsource.environment.StringUtils: java.lang.String encodeURI(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+Caller: <com.ironsource.sdk.utils.SDKUtils: java.lang.String getFileName(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: java.lang.String makeDir(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: java.lang.Object c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: org.json.JSONObject buildFilesMap(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: java.lang.Object c(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: boolean deleteFolderContentRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.ironsource.s9: void a(com.ironsource.xb)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void endTransaction()>
+Caller: <com.ironsource.s9: void a(com.ironsource.xb)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.ironsource.sdk.controller.v$v: android.webkit.WebResourceResponse shouldInterceptRequest(android.webkit.WebView,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.LinkProperties: void <init>()>
+Caller: <com.ironsource.xl: void b(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.ironsource.r9: android.database.sqlite.SQLiteDatabase a(boolean,android.database.sqlite.SQLiteOpenHelper)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.ironsource.s9: void a(com.ironsource.xb)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.d: boolean k()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: java.lang.String makeDir(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sa$-CC: void $default$l(com.ironsource.sa)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.v: java.lang.Object c(com.ironsource.ag)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.v$r: void deleteFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: boolean deleteFile(com.ironsource.ag)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: java.lang.String getNetworkStorageDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.unity3d.services.core.log.DeviceLog: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.v$r: void saveFile(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.v$r: void deleteFolder(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.d: void c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.d: boolean j()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: boolean isPathExist(java.lang.String,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.d: boolean k()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.d: boolean k()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.d: boolean k()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.ironsource.sdk.controller.d: void c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.ironsource.r9: android.database.sqlite.SQLiteDatabase a(boolean,android.database.sqlite.SQLiteOpenHelper)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: boolean deleteFolder(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: boolean deleteFolderContentRecursive(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.ironsource.sdk.utils.IronSourceStorageUtils: boolean deleteFile(com.ironsource.ag)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.ironsource.sdk.controller.d: void c()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <com.ironsource.xl: void b(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <com.ironsource.xl: void b(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void beginTransaction()>
+Caller: <com.ironsource.s9: void a(com.ironsource.xb)>
+Thread: [UI]
+-------------------------

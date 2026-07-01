@@ -1,0 +1,338 @@
+Time1: 32.350519603
+Time2: 2.562537885
+Worker: 65
+UI: 18
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.Socket: void setSoLinger(boolean,int)>
+Caller: <cz.msebera.android.httpclient.impl.conn.DefaultClientConnectionOperator: void prepareSocket(java.net.Socket,cz.msebera.android.httpclient.protocol.HttpContext,cz.msebera.android.httpclient.params.HttpParams)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.charset.CoderResult flush(java.nio.ByteBuffer)>
+Caller: <cz.msebera.android.httpclient.impl.io.AbstractSessionOutputBuffer: void writeEncoded(java.nio.CharBuffer)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <cz.msebera.android.httpclient.util.EntityUtils: byte[] toByteArray(cz.msebera.android.httpclient.HttpEntity)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.loopj.android.http.AsyncHttpResponseHandler: byte[] getResponseData(cz.msebera.android.httpclient.HttpEntity)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <cz.msebera.android.httpclient.entity.BasicHttpEntity: void writeTo(java.io.OutputStream)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.OutputStream getOutputStream()>
+Caller: <cz.msebera.android.httpclient.impl.io.SocketOutputBuffer: void <init>(java.net.Socket,int,cz.msebera.android.httpclient.params.HttpParams)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getAuthority()>
+Caller: <cz.msebera.android.httpclient.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getAuthority()>
+Caller: <cz.msebera.android.httpclient.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getAuthority()>
+Caller: <cz.msebera.android.httpclient.client.utils.URIUtils: cz.msebera.android.httpclient.HttpHost extractHost(java.net.URI)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getUserInfo()>
+Caller: <cz.msebera.android.httpclient.impl.client.DefaultRequestDirector: cz.msebera.android.httpclient.HttpResponse execute(cz.msebera.android.httpclient.HttpHost,cz.msebera.android.httpclient.HttpRequest,cz.msebera.android.httpclient.protocol.HttpContext)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getUserInfo()>
+Caller: <cz.msebera.android.httpclient.client.utils.URIBuilder: void digestURI(java.net.URI)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <cz.msebera.android.httpclient.impl.io.AbstractSessionInputBuffer: int read(byte[],int,int)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <cz.msebera.android.httpclient.conn.EofSensorInputStream: int read(byte[],int,int)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <cz.msebera.android.httpclient.impl.io.AbstractSessionInputBuffer: int fillBuffer()>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.charset.CoderResult encode(java.nio.CharBuffer,java.nio.ByteBuffer,boolean)>
+Caller: <cz.msebera.android.httpclient.impl.io.AbstractSessionOutputBuffer: void writeEncoded(java.nio.CharBuffer)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <cz.msebera.android.httpclient.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <cz.msebera.android.httpclient.client.utils.URIBuilder: void digestURI(java.net.URI)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getPath()>
+Caller: <cz.msebera.android.httpclient.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <cz.msebera.android.httpclient.entity.BasicHttpEntity: void writeTo(java.io.OutputStream)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <cz.msebera.android.httpclient.impl.io.AbstractSessionOutputBuffer: void write(byte[],int,int)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <cz.msebera.android.httpclient.impl.io.AbstractSessionOutputBuffer: void flushBuffer()>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <cz.msebera.android.httpclient.entity.ByteArrayEntity: void writeTo(java.io.OutputStream)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.ByteBuffer encode(java.lang.String)>
+Caller: <cz.msebera.android.httpclient.client.utils.URLEncodedUtils: java.lang.String urlEncode(java.lang.String,java.nio.charset.Charset,java.util.BitSet,boolean)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetDecoder: java.nio.charset.CoderResult flush(java.nio.CharBuffer)>
+Caller: <cz.msebera.android.httpclient.impl.io.AbstractSessionInputBuffer: int appendDecoded(cz.msebera.android.httpclient.util.CharArrayBuffer,java.nio.ByteBuffer)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.UnsupportedCharsetException: void <init>(java.lang.String)>
+Caller: <cz.msebera.android.httpclient.entity.StringEntity: void <init>(java.lang.String,cz.msebera.android.httpclient.entity.ContentType)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void setTcpNoDelay(boolean)>
+Caller: <cz.msebera.android.httpclient.impl.conn.DefaultClientConnectionOperator: void prepareSocket(java.net.Socket,cz.msebera.android.httpclient.protocol.HttpContext,cz.msebera.android.httpclient.params.HttpParams)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String toASCIIString()>
+Caller: <cz.msebera.android.httpclient.client.methods.HttpRequestBase: cz.msebera.android.httpclient.RequestLine getRequestLine()>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String toASCIIString()>
+Caller: <cz.msebera.android.httpclient.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String toASCIIString()>
+Caller: <cz.msebera.android.httpclient.impl.client.RequestWrapper: cz.msebera.android.httpclient.RequestLine getRequestLine()>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: int getSoTimeout()>
+Caller: <cz.msebera.android.httpclient.impl.io.SocketInputBuffer: boolean isDataAvailable(int)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: int getReceiveBufferSize()>
+Caller: <cz.msebera.android.httpclient.impl.io.SocketInputBuffer: void <init>(java.net.Socket,int,cz.msebera.android.httpclient.params.HttpParams)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.lang.Object getContent()>
+Caller: <sk.forbis.recommendedapps.gcm.MyFcmListenerService$1: android.graphics.Bitmap doInBackground(java.lang.String[])>
+Thread: [<sk.forbis.recommendedapps.gcm.MyFcmListenerService$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <cz.msebera.android.httpclient.impl.io.AbstractSessionOutputBuffer: void init(java.io.OutputStream,int,cz.msebera.android.httpclient.params.HttpParams)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <cz.msebera.android.httpclient.impl.io.AbstractSessionInputBuffer: void init(java.io.InputStream,int,cz.msebera.android.httpclient.params.HttpParams)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <cz.msebera.android.httpclient.entity.BufferedHttpEntity: void writeTo(java.io.OutputStream)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <cz.msebera.android.httpclient.entity.StringEntity: void writeTo(java.io.OutputStream)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <cz.msebera.android.httpclient.impl.conn.DefaultClientConnectionOperator: void prepareSocket(java.net.Socket,cz.msebera.android.httpclient.protocol.HttpContext,cz.msebera.android.httpclient.params.HttpParams)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <cz.msebera.android.httpclient.impl.io.SocketInputBuffer: boolean isDataAvailable(int)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <cz.msebera.android.httpclient.impl.SocketHttpClientConnection: void setSocketTimeout(int)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <cz.msebera.android.httpclient.impl.io.SocketInputBuffer: boolean isDataAvailable(int)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void setSoTimeout(int)>
+Caller: <cz.msebera.android.httpclient.impl.io.SocketInputBuffer: boolean isDataAvailable(int)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <cz.msebera.android.httpclient.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getFragment()>
+Caller: <cz.msebera.android.httpclient.client.utils.URIBuilder: void digestURI(java.net.URI)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getFragment()>
+Caller: <cz.msebera.android.httpclient.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getFragment()>
+Caller: <cz.msebera.android.httpclient.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void shutdownInput()>
+Caller: <cz.msebera.android.httpclient.impl.SocketHttpClientConnection: void close()>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <sk.forbis.recommendedapps.gcm.MyFcmListenerService$1: android.graphics.Bitmap doInBackground(java.lang.String[])>
+Thread: [<sk.forbis.recommendedapps.gcm.MyFcmListenerService$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <cz.msebera.android.httpclient.impl.SocketHttpClientConnection: void close()>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <cz.msebera.android.httpclient.impl.SocketHttpClientConnection: void close()>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <cz.msebera.android.httpclient.impl.conn.DefaultClientConnection: void shutdown()>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <cz.msebera.android.httpclient.impl.conn.DefaultClientConnection: void opening(java.net.Socket,cz.msebera.android.httpclient.HttpHost)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <cz.msebera.android.httpclient.impl.SocketHttpClientConnection: void shutdown()>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <sk.forbis.recommendedapps.gcm.MyFcmListenerService$1: android.graphics.Bitmap doInBackground(java.lang.String[])>
+Thread: [<sk.forbis.recommendedapps.gcm.MyFcmListenerService$1: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.ads.internal.util.client.zzc: void zzcy(java.lang.String)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getRawSchemeSpecificPart()>
+Caller: <cz.msebera.android.httpclient.client.utils.URIBuilder: void digestURI(java.net.URI)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.CharBuffer decode(java.nio.ByteBuffer)>
+Caller: <cz.msebera.android.httpclient.client.utils.URLEncodedUtils: java.lang.String urlDecode(java.lang.String,java.nio.charset.Charset,boolean)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+Caller: <cz.msebera.android.httpclient.conn.EofSensorInputStream: int read(byte[],int,int)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: java.io.InputStream getInputStream()>
+Caller: <cz.msebera.android.httpclient.impl.io.SocketInputBuffer: void <init>(java.net.Socket,int,cz.msebera.android.httpclient.params.HttpParams)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: int getSendBufferSize()>
+Caller: <cz.msebera.android.httpclient.impl.io.SocketOutputBuffer: void <init>(java.net.Socket,int,cz.msebera.android.httpclient.params.HttpParams)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetDecoder: java.nio.charset.CoderResult decode(java.nio.ByteBuffer,java.nio.CharBuffer,boolean)>
+Caller: <cz.msebera.android.httpclient.impl.io.AbstractSessionInputBuffer: int appendDecoded(cz.msebera.android.httpclient.util.CharArrayBuffer,java.nio.ByteBuffer)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getQuery()>
+Caller: <cz.msebera.android.httpclient.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URI: java.lang.String getQuery()>
+Caller: <cz.msebera.android.httpclient.client.utils.URIUtils: java.net.URI normalizeSyntax(java.net.URI)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.InetAddress: java.net.InetAddress[] getAllByName(java.lang.String)>
+Caller: <cz.msebera.android.httpclient.impl.conn.SystemDefaultDnsResolver: java.net.InetAddress[] resolve(java.lang.String)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.Socket: void shutdownOutput()>
+Caller: <cz.msebera.android.httpclient.impl.SocketHttpClientConnection: void close()>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.ads.internal.util.client.zzc: void zzcy(java.lang.String)>
+Thread: [<com.loopj.android.http.AsyncHttpRequest: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhl(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean createNewFile()>
+Caller: <com.google.firebase.iid.zzg: void zzkq(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.lang.Object getContent()>
+Caller: <sk.forbis.recommendedapps.gcm.MyFcmListenerService$1: android.graphics.Bitmap doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <cz.msebera.android.httpclient.Consts: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <cz.msebera.android.httpclient.Consts: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <cz.msebera.android.httpclient.Consts: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhl(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzx: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.gms.common.util.zzx: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.firebase.iid.zzg: void zzkq(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhl(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhl(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.google.android.gms.common.util.zzt: java.lang.String zzhl(int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <sk.forbis.recommendedapps.gcm.MyFcmListenerService$1: android.graphics.Bitmap doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <sk.forbis.recommendedapps.gcm.MyFcmListenerService$1: android.graphics.Bitmap doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.ads.internal.util.client.zzc: void zzcy(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <com.google.android.gms.ads.internal.util.client.zzc: void zzcy(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.google.android.gms.common.util.zzx: java.io.File zze(java.io.File)>
+Thread: [UI]
+-------------------------

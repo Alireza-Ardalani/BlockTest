@@ -1,0 +1,474 @@
+Time1: 1034.835855161
+Time2: 32.346897995
+Worker: 55
+UI: 62
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FilterInputStream: int read(byte[])>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: void copyStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<io.realm.kotlin.internal.RealmImpl$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <coil.network.RealNetworkObserver: void <init>(android.net.ConnectivityManager,coil.network.NetworkObserver$Listener)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: void copyAssetFile(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<io.realm.kotlin.internal.RealmImpl$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: void copyStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<io.realm.kotlin.internal.RealmImpl$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: boolean fileExists(java.lang.String)>
+Thread: [<io.realm.kotlin.internal.RealmImpl$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: void preparePath(java.lang.String)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.paycom.mobile.lib.realm.config.EncryptedRealmConfigProvider: boolean hasEncryptedRealmData(io.realm.kotlin.RealmConfiguration)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: boolean fileExists(java.lang.String)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.paycom.mobile.lib.realm.encryption.migration.RealmFileMigrator: boolean migrateToEncryptedRealmIfNeeded(io.realm.kotlin.RealmConfiguration,io.realm.kotlin.RealmConfiguration)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: void copyAssetFile(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<io.realm.kotlin.internal.RealmImpl$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: boolean fileExists(java.lang.String)>
+Thread: [<com.paycom.mobile.mileagetracker.service.AutoTrackingEndTripService$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: boolean fileExists(java.lang.String)>
+Thread: [<com.paycom.mobile.lib.realm.BaseRealmStorage$executeBlockingRead$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: boolean fileExists(java.lang.String)>
+Thread: [<com.paycom.mobile.mileagetracker.tracking.plugin.HandlerTripDurationCounter$tickRunnable$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.paycom.mobile.lib.realm.encryption.migration.RealmFileMigrator: boolean migrateToEncryptedRealmIfNeeded(io.realm.kotlin.RealmConfiguration,io.realm.kotlin.RealmConfiguration)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: void copyStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<io.realm.kotlin.internal.RealmImpl$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.paycom.mobile.lib.realm.util.RealmDataDeleter: void deleteAllRealmData()>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <coil.disk.DiskCache$Builder: coil.disk.DiskCache build()>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <coil.network.RealNetworkObserver: void <init>(android.net.ConnectivityManager,coil.network.NetworkObserver$Listener)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <coil.util.'-Utils': java.io.File getSafeCacheDir(android.content.Context)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: void preparePath(java.lang.String)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: boolean fileExists(java.lang.String)>
+Thread: [<com.paycom.mobile.mileagetracker.tracking.plugin.HandlerTripDurationCounter$tickRunnable$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: void preparePath(java.lang.String)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: boolean fileExists(java.lang.String)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: boolean fileExists(java.lang.String)>
+Thread: [<io.realm.kotlin.internal.RealmImpl$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: boolean fileExists(java.lang.String)>
+Thread: [<com.paycom.mobile.mileagetracker.service.AutoTrackingEndTripService$$ExternalSyntheticLambda0: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: boolean fileExists(java.lang.String)>
+Thread: [<com.paycom.mobile.lib.realm.BaseRealmStorage$executeBlockingRead$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <coil.network.RealNetworkObserver: void shutdown()>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: void copyAssetFile(java.lang.String,java.lang.String,java.lang.String)>
+Thread: [<io.realm.kotlin.internal.RealmImpl$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.paycom.mobile.lib.realm.config.EncryptedRealmConfigProvider: io.realm.kotlin.RealmConfiguration getEncryptedRealmConfig(io.realm.kotlin.RealmConfiguration$Builder)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.paycom.mobile.lib.realm.config.EncryptedRealmConfigProvider: io.realm.kotlin.RealmConfiguration getEncryptedRealmConfig(io.realm.kotlin.RealmConfiguration$Builder)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,char)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,char)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.Gson: com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [<com.paycom.mobile.ess.App$cleanUpOldData$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: void copyStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [<io.realm.kotlin.internal.RealmImpl$1: java.lang.Object invokeSuspend(java.lang.Object)>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String,int,int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.google.android.gms.common.util.IOUtils: void closeQuietly(java.io.Closeable)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.IDN: java.lang.String toASCII(java.lang.String)>
+Caller: <okhttp3.internal.HostnamesKt: java.lang.String toCanonicalHost(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.protobuf.Internal: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.protobuf.Internal: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.google.protobuf.Internal: void <clinit>()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.net.ConnectivityManager$NetworkCallback)>
+Caller: <coil.network.RealNetworkObserver: void <init>(android.net.ConnectivityManager,coil.network.NetworkObserver$Listener)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.paycom.mobile.mileagetracker.helpmenu.plugin.ui.HelpPageActivity: void openRenderer(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.paycom.mobile.mileagetracker.file.FileHelper: void copyFile(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.theartofdev.edmodo.cropper.CropImage: boolean isUriRequiresPermissions(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void close()>
+Caller: <com.paycom.mobile.mileagetracker.file.FileHelper: void copyFile(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.paycom.mobile.lib.realm.encryption.migration.RealmFileMigrator: boolean migrateToEncryptedRealmIfNeeded(io.realm.kotlin.RealmConfiguration,io.realm.kotlin.RealmConfiguration)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: void preparePath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.paycom.mobile.lib.realm.encryption.migration.RealmFileMigrator: boolean migrateToEncryptedRealmIfNeeded(io.realm.kotlin.RealmConfiguration,io.realm.kotlin.RealmConfiguration)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.paycom.mobile.lib.realm.config.EncryptedRealmConfigProvider: boolean hasEncryptedRealmData(io.realm.kotlin.RealmConfiguration)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.paycom.mobile.ess.App: void logRealmDbSnapshot()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: boolean fileExists(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.paycom.mobile.mileagetracker.helpmenu.plugin.ui.HelpPageActivity: void openRenderer(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.paycom.mobile.mileagetracker.file.FileHelper: void copyFile(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.paycom.mobile.lib.realm.util.RealmDataDeleter: void deleteAllRealmData()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <coil.disk.DiskCache$Builder: coil.disk.DiskCache build()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFileDescriptor(android.net.Uri,java.lang.String)>
+Caller: <com.paycom.mobile.lib.sharesheet.data.ShareSheetData: void openFileDescriptors(android.content.ContentResolver)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.Socket: void close()>
+Caller: <okhttp3.internal.Util: void closeQuietly(java.net.Socket)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileReader: void <init>(java.lang.String)>
+Caller: <com.google.android.gms.common.util.ProcessUtils: java.lang.String getMyProcessName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.google.android.gms.common.util.IOUtils: long copyStream(java.io.InputStream,java.io.OutputStream,boolean,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.NetworkRequest$Builder: android.net.NetworkRequest build()>
+Caller: <coil.network.RealNetworkObserver: void <init>(android.net.ConnectivityManager,coil.network.NetworkObserver$Listener)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: void preparePath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <coil.util.'-Utils': java.io.File getSafeCacheDir(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.paycom.mobile.ess.App: void logRealmDbSnapshot()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.pdf.PdfRenderer: void <init>(android.os.ParcelFileDescriptor)>
+Caller: <com.paycom.mobile.mileagetracker.helpmenu.plugin.ui.HelpPageActivity: void openRenderer(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.paycom.mobile.ess.libfileupload.FileUploadFragment: java.io.File createImageFile()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.theartofdev.edmodo.cropper.CropImageActivity: android.net.Uri getOutputUri()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: boolean fileExists(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <io.realm.kotlin.internal.platform.SystemUtilsKt: void preparePath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.net.ConnectivityManager: void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback)>
+Caller: <coil.network.RealNetworkObserver: void shutdown()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: java.io.Writer append(char)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.pdf.PdfRenderer: void close()>
+Caller: <com.paycom.mobile.mileagetracker.helpmenu.plugin.ui.HelpPageActivity: void closeRenderer()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Caller: <com.paycom.mobile.ess.backup.ForcedFullBackup$$ExternalSyntheticApiModelOutline0: android.os.ParcelFileDescriptor m(android.content.ContentResolver,android.net.Uri,java.lang.String,android.os.CancellationSignal)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[],int,int)>
+Caller: <com.google.android.gms.common.util.IOUtils: long copyStream(java.io.InputStream,java.io.OutputStream,boolean,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)>
+Caller: <com.paycom.mobile.lib.resources.util.BitmapImageUtil: android.graphics.Bitmap getScaledBitmap(android.graphics.Bitmap,java.lang.Integer,java.lang.Integer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.paycom.mobile.lib.realm.config.EncryptedRealmConfigProvider: io.realm.kotlin.RealmConfiguration getEncryptedRealmConfig(io.realm.kotlin.RealmConfiguration$Builder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.paycom.mobile.lib.realm.config.EncryptedRealmConfigProvider: io.realm.kotlin.RealmConfiguration getEncryptedRealmConfig(io.realm.kotlin.RealmConfiguration$Builder)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,char)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(int)>
+Caller: <com.google.gson.stream.JsonWriter: void beforeName()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.Gson: com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void string(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: void newline()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.Writer: void write(java.lang.String)>
+Caller: <com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.google.android.gms.common.util.IOUtils: long copyStream(java.io.InputStream,java.io.OutputStream,boolean,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.paycom.mobile.mileagetracker.file.FileHelper: void copyFile(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------

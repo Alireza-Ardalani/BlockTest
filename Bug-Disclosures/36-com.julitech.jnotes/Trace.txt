@@ -1,0 +1,145 @@
+IO Target: <java.io.File: java.lang.String getName()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+    -> <java.io.File: java.lang.String getName()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: java.lang.String getType(android.net.Uri)>
+    -> <java.io.File: java.lang.String getName()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: java.lang.String getType(android.net.Uri)>
+    -> <java.io.File: java.lang.String getName()>
+
+IO Target: <android.database.MatrixCursor: void addRow(java.lang.Object[])>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+    -> <android.database.MatrixCursor: void addRow(java.lang.Object[])>
+
+IO Target: <java.io.File: boolean delete()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+    -> <java.io.File: boolean delete()>
+
+IO Target: <android.database.MatrixCursor: void <init>(java.lang.String[],int)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+    -> <android.database.MatrixCursor: void <init>(java.lang.String[],int)>
+
+IO Target: <java.io.File: long length()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+    -> <java.io.File: long length()>
+
+IO Target: <java.io.File: java.lang.String getPath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+    -> <y.c$c: java.io.File a(android.net.Uri)>
+    -> <java.io.File: java.lang.String getPath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+    -> <y.c$c: java.io.File a(android.net.Uri)>
+    -> <java.io.File: java.lang.String getPath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+    -> <y.c$c: java.io.File a(android.net.Uri)>
+    -> <java.io.File: java.lang.String getPath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+    -> <y.c$c: java.io.File a(android.net.Uri)>
+    -> <java.io.File: java.lang.String getPath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: java.lang.String getType(android.net.Uri)>
+    -> <y.c$c: java.io.File a(android.net.Uri)>
+    -> <java.io.File: java.lang.String getPath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: java.lang.String getType(android.net.Uri)>
+    -> <y.c$c: java.io.File a(android.net.Uri)>
+    -> <java.io.File: java.lang.String getPath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+    -> <y.c$c: java.io.File a(android.net.Uri)>
+    -> <java.io.File: java.lang.String getPath()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+    -> <y.c$c: java.io.File a(android.net.Uri)>
+    -> <java.io.File: java.lang.String getPath()>
+
+IO Target: <java.io.File: java.io.File getCanonicalFile()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+    -> <y.c$c: java.io.File a(android.net.Uri)>
+    -> <java.io.File: java.io.File getCanonicalFile()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+    -> <y.c: y.c$b f()>
+    -> <y.c: y.c$b g(android.content.Context,java.lang.String,int)>
+    -> <y.c: y.c$b j(android.content.Context,java.lang.String,int)>
+    -> <y.c$c: void c(java.lang.String,java.io.File)>
+    -> <java.io.File: java.io.File getCanonicalFile()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+    -> <y.c$c: java.io.File a(android.net.Uri)>
+    -> <java.io.File: java.io.File getCanonicalFile()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String)>
+    -> <y.c: y.c$b f()>
+    -> <y.c: y.c$b g(android.content.Context,java.lang.String,int)>
+    -> <y.c: y.c$b j(android.content.Context,java.lang.String,int)>
+    -> <y.c$c: void c(java.lang.String,java.io.File)>
+    -> <java.io.File: java.io.File getCanonicalFile()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: java.lang.String getType(android.net.Uri)>
+    -> <y.c$c: java.io.File a(android.net.Uri)>
+    -> <java.io.File: java.io.File getCanonicalFile()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: java.lang.String getType(android.net.Uri)>
+    -> <y.c: y.c$b f()>
+    -> <y.c: y.c$b g(android.content.Context,java.lang.String,int)>
+    -> <y.c: y.c$b j(android.content.Context,java.lang.String,int)>
+    -> <y.c$c: void c(java.lang.String,java.io.File)>
+    -> <java.io.File: java.io.File getCanonicalFile()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+    -> <y.c: y.c$b f()>
+    -> <y.c: y.c$b g(android.content.Context,java.lang.String,int)>
+    -> <y.c: y.c$b j(android.content.Context,java.lang.String,int)>
+    -> <y.c$c: void c(java.lang.String,java.io.File)>
+    -> <java.io.File: java.io.File getCanonicalFile()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <y.c: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+    -> <y.c$c: java.io.File a(android.net.Uri)>
+    -> <java.io.File: java.io.File getCanonicalFile()>
+
+IO Target: <java.io.File: void <clinit>()>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <java.io.File: void <clinit>()>
+
+IO Target: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+  Path:
+    <FakeMain: void fakeMain()>
+    -> <com.pairip.licensecheck.ResponseValidator: void <clinit>()>
+    -> <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+

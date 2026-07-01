@@ -1,0 +1,50 @@
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+Caller: <me.oann.news.database.DatabaseHelper: me.oann.news.database.model.Note getNote(long)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <me.oann.news.database.DatabaseHelper: java.util.List getAllNotes()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <me.oann.news.database.DatabaseHelper: me.oann.news.database.model.Note doesNoteExist(java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <me.oann.news.database.DatabaseHelper: int getNotesCount()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <me.oann.news.database.DatabaseHelper: me.oann.news.database.model.Note getNote(long)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <me.oann.news.database.DatabaseHelper: int getNotesCount()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <me.oann.news.database.DatabaseHelper: void deleteNote(me.oann.news.database.model.Note)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <me.oann.news.database.DatabaseHelper: void deleteNote(me.oann.news.database.model.Note)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <me.oann.news.database.DatabaseHelper: long insertNote(java.lang.String,java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <me.oann.news.database.DatabaseHelper: java.util.List getAllNotes()>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <me.oann.news.database.DatabaseHelper: me.oann.news.database.model.Note doesNoteExist(java.lang.String)>>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <me.oann.news.database.DatabaseHelper: long insertNote(java.lang.String,java.lang.String,java.lang.String)>>
+Thread: [UI]
+-------------------------

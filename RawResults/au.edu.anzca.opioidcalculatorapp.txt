@@ -1,0 +1,30 @@
+Time1: 10.201851533
+Time2: 0.659561747
+Worker: 3
+UI: 3
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <au.edu.anzca.opioidcalculatorapp.HTTPDataHandler: java.lang.String GetHTTPData(java.lang.String)>
+Thread: [<au.edu.anzca.opioidcalculatorapp.MainActivity$ProcessJSON: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <au.edu.anzca.opioidcalculatorapp.HTTPDataHandler: java.lang.String GetHTTPData(java.lang.String)>
+Thread: [<au.edu.anzca.opioidcalculatorapp.MainActivity$ProcessJSON: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <au.edu.anzca.opioidcalculatorapp.HTTPDataHandler: java.lang.String GetHTTPData(java.lang.String)>
+Thread: [<au.edu.anzca.opioidcalculatorapp.MainActivity$ProcessJSON: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <au.edu.anzca.opioidcalculatorapp.HTTPDataHandler: java.lang.String GetHTTPData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <au.edu.anzca.opioidcalculatorapp.HTTPDataHandler: java.lang.String GetHTTPData(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <au.edu.anzca.opioidcalculatorapp.HTTPDataHandler: java.lang.String GetHTTPData(java.lang.String)>
+Thread: [UI]
+-------------------------

@@ -1,0 +1,66 @@
+Time1: 17.035959819
+Time2: 0.199941628
+Worker: 0
+UI: 15
+-------------------------WorkerThread-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.microsoft.codepush.react.FileUtils: java.lang.String readFileToString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.microsoft.codepush.react.FileUtils: java.lang.String readFileToString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.microsoft.codepush.react.FileUtils: void deleteFileOrFolderSilently(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.microsoft.codepush.react.FileUtils: java.lang.String readFileToString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.microsoft.codepush.react.FileUtils: java.lang.String readFileToString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.microsoft.codepush.react.CodePush: void clearDebugCacheIfNeeded()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.microsoft.codepush.react.FileUtils: void deleteFileOrFolderSilently(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.microsoft.codepush.react.FileUtils: void deleteFileOrFolderSilently(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.microsoft.codepush.react.FileUtils: java.lang.String readFileToString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.microsoft.codepush.react.FileUtils: java.lang.String readFileToString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.microsoft.codepush.react.FileUtils: void deleteFileOrFolderSilently(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.microsoft.codepush.react.FileUtils: void deleteFileOrFolderSilently(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.microsoft.codepush.react.CodePush: void clearDebugCacheIfNeeded()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.microsoft.codepush.react.FileUtils: boolean fileAtPathExists(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.microsoft.codepush.react.FileUtils: void deleteDirectoryAtPath(java.lang.String)>
+Thread: [UI]
+-------------------------

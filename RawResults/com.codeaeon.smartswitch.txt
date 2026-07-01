@@ -1,0 +1,74 @@
+Time1: 3.319480786
+Time2: 0.144490261
+Worker: 3
+UI: 14
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.codeaeon.smartswitch.BluetoothChatService$ConnectedThread: void write(byte[])>
+Thread: [<com.codeaeon.smartswitch.BluetoothChatService$AcceptThread: void run()>]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.codeaeon.smartswitch.BluetoothChatService$ConnectedThread: void write(byte[])>
+Thread: [<com.codeaeon.smartswitch.BluetoothChatService$ConnectThread: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.codeaeon.smartswitch.BluetoothChatService$ConnectedThread: void run()>
+Thread: [<com.codeaeon.smartswitch.BluetoothChatService$ConnectedThread: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.codeaeon.smartswitch.DBHelper: void createDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.codeaeon.smartswitch.DBHelper: void createDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.codeaeon.smartswitch.DBHelper: void createDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.codeaeon.smartswitch.DBHelper: void createDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.codeaeon.smartswitch.HeadlinesFragment: void openAndQueryDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.codeaeon.smartswitch.HeadlinesFragment: void openAndQueryDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.codeaeon.smartswitch.DBHelper: void createDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.codeaeon.smartswitch.DBHelper: void createDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.codeaeon.smartswitch.HeadlinesFragment: void openAndQueryDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.codeaeon.smartswitch.DBHelper: void createDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+Caller: <com.codeaeon.smartswitch.DBHelper: void createDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.codeaeon.smartswitch.HeadlinesFragment: void openAndQueryDatabase()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>
+Caller: <com.codeaeon.smartswitch.DBHelper: boolean checkDbExists()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.codeaeon.smartswitch.HeadlinesFragment: void openAndQueryDatabase()>
+Thread: [UI]
+-------------------------

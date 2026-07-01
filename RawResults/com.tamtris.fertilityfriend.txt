@@ -1,0 +1,90 @@
+Time1: 4.195090383
+Time2: 0.193129522
+Worker: 2
+UI: 19
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tamtris.fertilityfriend.DownloadBitmap: android.graphics.Bitmap doInBackground(java.lang.String[])>
+Thread: [<com.tamtris.fertilityfriend.DownloadBitmap: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.net.URL: java.io.InputStream openStream()>
+Caller: <com.tamtris.fertilityfriend.DownloadBitmap: android.graphics.Bitmap doInBackground(java.lang.String[])>
+Thread: [<com.tamtris.fertilityfriend.DownloadBitmap: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromAsset(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromRemote(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriForResourcePath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <de.appplant.cordova.plugin.notification.Options: android.net.Uri getUriFromPath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromPath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: void copyFile(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.graphics.Bitmap getIconFromDrawable(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.graphics.Bitmap getIconFromUri(android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tamtris.fertilityfriend.ConfigureTickerWidget: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromRemote(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: void <init>(java.lang.String)>
+Caller: <com.tamtris.fertilityfriend.DownloadBitmap: android.graphics.Bitmap doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: void copyFile(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.io.InputStream openStream()>
+Caller: <com.tamtris.fertilityfriend.DownloadBitmap: android.graphics.Bitmap doInBackground(java.lang.String[])>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.net.URL: java.net.URLConnection openConnection()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromRemote(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromRemote(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriForResourcePath(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: android.net.Uri getUriFromAsset(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: void copyFile(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <de.appplant.cordova.plugin.notification.AssetUtil: java.io.File getTmpFile(java.lang.String)>
+Thread: [UI]
+-------------------------

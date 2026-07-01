@@ -1,0 +1,114 @@
+Time1: 153.724913466
+Time2: 7.20877195
+Worker: 7
+UI: 20
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.photostickers.helpers.SavePictureHelper: android.net.Uri saveImage(android.content.Context,java.lang.String,java.lang.String,android.graphics.Bitmap,boolean)>
+Thread: [<com.photostickers.helpers.share.ShareManager$ShareTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.photostickers.helpers.SavePictureHelper: android.net.Uri saveImage(android.content.Context,java.lang.String,java.lang.String,android.graphics.Bitmap,boolean)>
+Thread: [<com.photostickers.helpers.share.ShareManager$ShareTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.OutputStream openOutputStream(android.net.Uri)>
+Caller: <com.photostickers.helpers.SavePictureHelper: android.net.Uri saveImage(android.content.Context,java.lang.String,java.lang.String,android.graphics.Bitmap,boolean)>
+Thread: [<com.photostickers.helpers.share.ShareManager$ShareTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.photostickers.helpers.SavePictureHelper: android.net.Uri saveImage(android.content.Context,java.lang.String,java.lang.String,android.graphics.Bitmap,boolean)>
+Thread: [<com.photostickers.helpers.share.ShareManager$ShareTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.photostickers.helpers.SavePictureHelper: android.net.Uri saveImage(android.content.Context,java.lang.String,java.lang.String,android.graphics.Bitmap,boolean)>
+Thread: [<com.photostickers.helpers.share.ShareManager$ShareTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.photostickers.helpers.SavePictureHelper: android.net.Uri saveImage(android.content.Context,java.lang.String,java.lang.String,android.graphics.Bitmap,boolean)>
+Thread: [<com.photostickers.helpers.share.ShareManager$ShareTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.photostickers.helpers.SavePictureHelper: android.net.Uri saveImage(android.content.Context,java.lang.String,java.lang.String,android.graphics.Bitmap,boolean)>
+Thread: [<com.photostickers.helpers.share.ShareManager$ShareTask: java.lang.Object doInBackground(java.lang.Object[])>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.photostickers.helpers.SavePictureHelper: android.net.Uri saveImage(android.content.Context,java.lang.String,java.lang.String,android.graphics.Bitmap,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.photostickers.helpers.SavePictureHelper: android.net.Uri saveImage(android.content.Context,java.lang.String,java.lang.String,android.graphics.Bitmap,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.OutputStream openOutputStream(android.net.Uri)>
+Caller: <com.photostickers.helpers.SavePictureHelper: android.net.Uri saveImage(android.content.Context,java.lang.String,java.lang.String,android.graphics.Bitmap,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.photostickers.helpers.ExifUtil: android.graphics.Bitmap rotateBitmap(java.lang.String,android.content.Context,android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.photostickers.helpers.ImageHelper: android.graphics.Bitmap decodeSampledBitmapFromResource(android.net.Uri,android.content.Context,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: java.io.InputStream openInputStream(android.net.Uri)>
+Caller: <com.photostickers.helpers.ImageHelper: android.graphics.Bitmap decodeSampledBitmapFromResource(android.net.Uri,android.content.Context,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.photostickers.helpers.SavePictureHelper: android.net.Uri saveImage(android.content.Context,java.lang.String,java.lang.String,android.graphics.Bitmap,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.photostickers.helpers.SavePictureHelper: android.net.Uri saveImage(android.content.Context,java.lang.String,java.lang.String,android.graphics.Bitmap,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.photostickers.helpers.UriHelper: java.lang.String getRealPathFromURI(android.content.Context,android.net.Uri)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.photostickers.helpers.ImageHelper: android.graphics.Bitmap decodeSampledBitmapFromResource(java.lang.String,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+Caller: <com.photostickers.helpers.ImageHelper: android.graphics.Bitmap decodeSampledBitmapFromResource(java.lang.String,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.photostickers.EditorActivity: void onClick(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.photostickers.helpers.ExifUtil: android.graphics.Bitmap rotateBitmap(java.lang.String,android.content.Context,android.graphics.Bitmap)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Caller: <com.photostickers.helpers.ImageHelper: android.graphics.Bitmap decodeSampledBitmapFromResource(android.content.res.Resources,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.BitmapFactory: android.graphics.Bitmap decodeResource(android.content.res.Resources,int,android.graphics.BitmapFactory$Options)>
+Caller: <com.photostickers.helpers.ImageHelper: android.graphics.Bitmap decodeSampledBitmapFromResource(android.content.res.Resources,int,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.photostickers.MainActivity: void onActivityResult(int,int,android.content.Intent)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.photostickers.helpers.SavePictureHelper: android.net.Uri saveImage(android.content.Context,java.lang.String,java.lang.String,android.graphics.Bitmap,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap)>
+Caller: <com.photostickers.EditorActivity: android.graphics.Bitmap getViewBitmap(android.view.View)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+Caller: <com.photostickers.helpers.SavePictureHelper: android.net.Uri saveImage(android.content.Context,java.lang.String,java.lang.String,android.graphics.Bitmap,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+Caller: <com.photostickers.helpers.CameraHelper: android.net.Uri getImageFileUri()>
+Thread: [UI]
+-------------------------

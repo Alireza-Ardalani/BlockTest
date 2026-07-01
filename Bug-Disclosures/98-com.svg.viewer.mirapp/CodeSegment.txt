@@ -1,0 +1,7 @@
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+<Button             android:textSize="18sp"             android:textColor="#ffffff"             android:id="@+id/button3"             android:padding="16dp"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:layout_margin="8dp"             android:text="UPLOAD SVG"/>     </LinearLayout>
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        this.button3.setOnClickListener(new View.OnClickListener() { // from class: com.svg.viewer.mirapp.MainActivity.1             @Override // android.view.View.OnClickListener             public void onClick(View view) {                 MainActivity.this.fp.putExtra(StringFogImpl.decrypt("NDoiX1c8MGhEViExKFkWMCwyX1l7FQphdwILC3h0AR0WYX0="), false);                 MainActivity mainActivity = MainActivity.this;                 mainActivity.startActivityForResult(mainActivity.fp, HttpStatus.SC_SWITCHING_PROTOCOLS);             }         });
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+this.imageview1.setSVG(SVG.getFromInputStream(getContentResolver().openInputStream(data)));  

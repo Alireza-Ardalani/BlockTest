@@ -1,0 +1,390 @@
+Time1: 14.448933113
+Time2: 0.867322993
+Worker: 37
+UI: 59
+-------------------------WorkerThread-------------------------
+MethodSignature: <java.io.File: boolean mkdirs()>
+Caller: <com.apportable.LibraryManager: void loadLibraries()>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.apportable.LibraryManager: void extractLibrary(com.apportable.LibraryManager$LibraryInfo)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int addJSON(org.json.JSONObject,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.MPMetrics$EventsQueueTask: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.apportable.LibraryManager: java.lang.String getCPUInfo()>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: void cleanupEvents(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.MPMetrics$SubmitTask: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int addJSON(org.json.JSONObject,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.MPMetrics$EventsQueueTask: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: java.lang.String[] generateDataString(java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.MPMetrics$SubmitTask: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: int addJSON(org.json.JSONObject,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.MPMetrics$EventsQueueTask: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.apportable.LibraryManager: java.util.Map getAPKLibraries()>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean equals(java.lang.Object)>
+Caller: <com.apportable.LibraryManager: java.util.Map getAPKLibraries()>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: java.lang.String readLine()>
+Caller: <com.mixpanel.android.util.StringUtils: java.lang.String inputStreamToString(java.io.InputStream)>
+Thread: [<com.mixpanel.android.mpmetrics.MPMetrics$SubmitTask: void run()>]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.apportable.LibraryManager: void extractLibrary(com.apportable.LibraryManager$LibraryInfo)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.BufferedReader: void close()>
+Caller: <com.mixpanel.android.util.StringUtils: java.lang.String inputStreamToString(java.io.InputStream)>
+Thread: [<com.mixpanel.android.mpmetrics.MPMetrics$SubmitTask: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.apportable.LibraryManager: java.lang.String getCPUInfo()>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void write(byte[],int,int)>
+Caller: <com.apportable.LibraryManager: void extractLibrary(com.apportable.LibraryManager$LibraryInfo)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.apportable.LibraryManager: void realizeLibraries(java.util.Map,java.io.File)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.apportable.LibraryManager: void realizeLibraries(java.util.Map,java.io.File)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean isDirectory()>
+Caller: <com.apportable.LibraryManager: boolean deletePath(java.io.File)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: java.lang.String[] generateDataString(java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.MPMetrics$SubmitTask: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.apportable.LibraryManager: boolean deletePath(java.io.File)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.lang.String[] list()>
+Caller: <com.apportable.LibraryManager: void purgeVersions(java.io.File,java.lang.String)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.apportable.LibraryManager: void realizeLibraries(java.util.Map,java.io.File)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.apportable.LibraryManager: void extractLibrary(com.apportable.LibraryManager$LibraryInfo)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.apportable.LibraryManager: boolean deletePath(java.io.File)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.apportable.LibraryManager: void extractLibrary(com.apportable.LibraryManager$LibraryInfo)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.apportable.LibraryManager: java.util.Map getAPKLibraries()>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: void cleanupEvents(java.lang.String,java.lang.String)>
+Thread: [<com.mixpanel.android.mpmetrics.MPMetrics$SubmitTask: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean renameTo(java.io.File)>
+Caller: <com.apportable.LibraryManager: void extractLibrary(com.apportable.LibraryManager$LibraryInfo)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.apportable.LibraryManager: void close(java.io.Closeable)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.apportable.LibraryManager: boolean deletePath(java.io.File)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.apportable.LibraryManager: void realizeLibraries(java.util.Map,java.io.File)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.apportable.LibraryManager: void realizeLibraries(java.util.Map,java.io.File)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.apportable.LibraryManager: void loadLibraries()>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.apportable.LibraryManager: java.util.Map getAPKLibraries()>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.apportable.LibraryManager: java.lang.String getCPUInfo()>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.Closeable: void close()>
+Caller: <com.apportable.LibraryManager: void close(java.io.Closeable)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.apportable.LibraryManager: void extractLibrary(com.apportable.LibraryManager$LibraryInfo)>
+Thread: [<com.apportable.activity.BackgroundLibraryLoader$1: void run()>]
+-------------------------
+-------------------------UIThread-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.io.File)>
+Caller: <com.apportable.CrashReporter: void sendCrashReports()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void close()>
+Caller: <com.apportable.Installation: java.lang.String readInstallationFile(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>
+Caller: <com.google.android.vending.expansion.downloader.impl.DownloadsDB: boolean updateMetadata(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: int read(byte[],int,int)>
+Caller: <com.apportable.LibraryManager: java.lang.String getCPUInfo()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <com.apportable.Installation: java.lang.String readInstallationFile(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+Caller: <com.android.vending.expansion.zipfile.ZipResourceFile: void open(java.lang.String,com.android.vending.expansion.zipfile.ZipResourceFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.google.android.vending.expansion.downloader.impl.DownloadsDB: boolean updateMetadata(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: void cleanupEvents(long,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+Caller: <com.google.android.vending.expansion.downloader.impl.DownloadsDB: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.android.vending.expansion.zipfile.ZipResourceFile: void mapCentralDirectory()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.android.vending.expansion.zipfile.ZipResourceFile: void mapCentralDirectory()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void seek(long)>
+Caller: <com.android.vending.expansion.zipfile.ZipResourceFile$ZipEntryRO: void setOffsetFromFile(java.io.RandomAccessFile,java.nio.ByteBuffer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: boolean canEncode(java.lang.CharSequence)>
+Caller: <com.dd.plist.ASCIIPropertyListParser: java.lang.String parseQuotedString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.dd.plist.Base64: byte[] decode(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: int read(byte[])>
+Caller: <com.apportable.CrashReporter: void copyInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void <init>(java.lang.String)>
+Caller: <com.apportable.LibraryManager: java.lang.String getCPUInfo()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <com.android.vending.expansion.zipfile.ZipResourceFile: void mapCentralDirectory()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <com.apportable.Installation: java.lang.String readInstallationFile(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: void readFully(byte[])>
+Caller: <com.android.vending.expansion.zipfile.ZipResourceFile$ZipEntryRO: void setOffsetFromFile(java.io.RandomAccessFile,java.nio.ByteBuffer)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+Caller: <com.google.android.vending.expansion.downloader.impl.DownloadsDB: com.google.android.vending.expansion.downloader.impl.DownloadInfo[] getDownloads()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: long length()>
+Caller: <com.google.android.vending.expansion.downloader.Helpers: boolean doesFileExist(android.content.Context,java.lang.String,long,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.google.android.vending.expansion.downloader.impl.DownloadsDB: com.google.android.vending.expansion.downloader.impl.DownloadInfo[] getDownloads()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>
+Caller: <com.google.android.vending.expansion.downloader.impl.DownloadsDB: void <init>(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: int readInt()>
+Caller: <com.android.vending.expansion.zipfile.ZipResourceFile: int read4LE()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.apportable.ExpansionFileManager: void deleteOldObbFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean delete()>
+Caller: <com.google.android.vending.expansion.downloader.Helpers: boolean doesFileExist(android.content.Context,java.lang.String,long,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.apportable.ExpansionFileManager: void deleteOldObbFiles()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: java.io.File[] listFiles()>
+Caller: <com.apportable.CrashReporter: void sendCrashReports()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.CharsetEncoder: java.nio.ByteBuffer encode(java.nio.CharBuffer)>
+Caller: <com.dd.plist.ASCIIPropertyListParser: java.lang.String parseQuotedString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.apportable.CrashReporter: void copyInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>
+Caller: <com.mixpanel.android.mpmetrics.MPDbAdapter: void cleanupEvents(long,java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <com.android.vending.expansion.zipfile.ZipResourceFile: void open(java.lang.String,com.android.vending.expansion.zipfile.ZipResourceFile)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.RandomAccessFile: long length()>
+Caller: <com.apportable.Installation: java.lang.String readInstallationFile(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void close()>
+Caller: <com.apportable.Installation: void writeInstallationFile(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[])>
+Caller: <com.apportable.Installation: void writeInstallationFile(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.OutputStream: void write(byte[],int,int)>
+Caller: <com.apportable.CrashReporter: void copyInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>
+Caller: <com.google.android.vending.expansion.downloader.impl.DownloadsDB: boolean updateMetadata(android.content.ContentValues)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+Caller: <com.dd.plist.Base64: byte[] decode(java.lang.String,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.apportable.CrashReporter: void sendCrashReports()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.apportable.Installation: java.lang.String id(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.android.vending.expansion.zipfile.APKExpansionSupport: java.lang.String[] getAPKExpansionFiles(android.content.Context,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.apportable.CrashReporter: void sendCrashReports()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.apportable.CrashReporter: void setupTracking()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.google.android.vending.expansion.downloader.Helpers: boolean doesFileExist(android.content.Context,java.lang.String,long,boolean)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.apportable.Installation: boolean isNewInstall(android.content.Context)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.apportable.CrashReporter: void sendCrashReports()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.apportable.CrashReporter: void sendCrashReports()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean exists()>
+Caller: <com.apportable.CrashReporter: void setupTracking()>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.apportable.app.SplashScreen: void show(android.widget.FrameLayout)>
+Thread: [UI]
+-------------------------
+MethodSignature: <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)>
+Caller: <com.apportable.app.SplashScreen: void show(android.widget.FrameLayout)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.InputStream: void close()>
+Caller: <com.apportable.CrashReporter: void copyInputStream(java.io.InputStream,java.io.OutputStream)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileInputStream: void close()>
+Caller: <com.apportable.LibraryManager: java.lang.String getCPUInfo()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)>
+Caller: <com.dd.plist.ASCIIPropertyListParser: java.lang.String parseQuotedString(java.lang.String)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.apportable.CrashReporter: void sendCrashReports()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean mkdir()>
+Caller: <com.apportable.CrashReporter: void sendCrashReports()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.apportable.Installation: void writeInstallationFile(java.io.File)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.FileOutputStream: void <init>(java.io.File)>
+Caller: <com.apportable.CrashReporter: void sendCrashReports()>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.android.vending.expansion.zipfile.APKExpansionSupport: java.lang.String[] getAPKExpansionFiles(android.content.Context,int,int)>
+Thread: [UI]
+-------------------------
+MethodSignature: <java.io.File: boolean isFile()>
+Caller: <com.android.vending.expansion.zipfile.APKExpansionSupport: java.lang.String[] getAPKExpansionFiles(android.content.Context,int,int)>
+Thread: [UI]
+-------------------------
